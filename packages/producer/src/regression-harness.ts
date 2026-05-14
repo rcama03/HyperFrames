@@ -266,7 +266,14 @@ function validateMetadata(meta: unknown): TestMetadata {
       "meta.json: 'renderConfig.codec' must be 'h264' or 'h265' (or omit for the format's default)",
     );
   }
-  if (rc.codec !== undefined && rc.format !== undefined && rc.format !== "mp4") {
+  // Normalize the implicit default before comparing so a fixture that
+  // omits `format` (which defaults to "mp4" everywhere downstream) doesn't
+  // get accidentally treated as "format is missing, so codec is illegal."
+  // The previous formulation `rc.format !== undefined && rc.format !== "mp4"`
+  // worked but relied on the reader knowing the default; this reads the
+  // intent more directly.
+  const effectiveFormat = (rc.format as string | undefined) ?? "mp4";
+  if (rc.codec !== undefined && effectiveFormat !== "mp4") {
     throw new Error(
       `meta.json: 'renderConfig.codec' is only valid for format='mp4' (got format=${JSON.stringify(
         rc.format,
