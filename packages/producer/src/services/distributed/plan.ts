@@ -482,6 +482,17 @@ function resolveEncoderTriple(config: DistributedRenderConfig): {
 } {
   if (config.format === "mp4") {
     const codec = config.codec ?? "h264";
+    // Explicit unknown-codec throw rather than silent fall-through to h264.
+    // A JS caller building config from JSON who passes `codec: "h266"` or
+    // `codec: "H265"` (typo / wrong case) would otherwise produce h264
+    // output with no signal. The non-mp4-format branch below already throws
+    // for the symmetric "wrong combination" case — match that shape.
+    if (codec !== "h264" && codec !== "h265") {
+      throw new Error(
+        `[plan] DistributedRenderConfig.codec must be "h264" or "h265" for format="mp4"; ` +
+          `received ${JSON.stringify(codec)}. Omit codec to default to h264.`,
+      );
+    }
     if (codec === "h265") {
       return { encoder: "libx265-software", pixelFormat: "yuv420p", preset: "medium" };
     }

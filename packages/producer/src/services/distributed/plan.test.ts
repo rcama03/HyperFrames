@@ -267,4 +267,24 @@ describe("plan() — codec knob", () => {
     expect(caught).toBeInstanceOf(Error);
     expect((caught as Error).message).toMatch(/codec.*only valid for format="mp4"/);
   });
+
+  it("rejects unknown codec strings for format=mp4 (no silent fall-through to h264)", async () => {
+    const planDir = join(runRoot, "plan-codec-unknown");
+    mkdirSync(planDir, { recursive: true });
+    let caught: unknown;
+    try {
+      await plan(
+        projectDir,
+        // @ts-expect-error — runtime check is the test's purpose. Catches
+        // typos ("H265") and future codec additions ("av1") that a JS
+        // caller building config from JSON might pass.
+        { fps: 30, width: 320, height: 240, format: "mp4", codec: "h266" },
+        planDir,
+      );
+    } catch (err) {
+      caught = err;
+    }
+    expect(caught).toBeInstanceOf(Error);
+    expect((caught as Error).message).toMatch(/codec must be "h264" or "h265"/);
+  });
 });

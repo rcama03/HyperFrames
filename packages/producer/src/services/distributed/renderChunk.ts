@@ -291,6 +291,27 @@ function hashChunkOutput(outputPath: string, kind: "file" | "frame-dir"): string
 }
 
 /**
+ * Apply the planDir's locked-encoder choice on top of an
+ * `EncoderPreset` from `getEncoderPreset`. `getEncoderPreset` returns
+ * h265 only on the HDR branch, but distributed mode is SDR-only — for
+ * an `libx265-software` planDir we still need to flip the preset's
+ * codec to h265 so `runEncodeStage` invokes libx265. Exported so a
+ * unit test can pin the override independently of the heavyweight
+ * Docker fixture: a refactor that moves the override (e.g. into
+ * `getEncoderPreset` itself) shouldn't be able to silently regress
+ * the contract without a fast-test signal.
+ */
+export function resolvePresetForLockedEncoder<P extends { codec: "h264" | "h265" | "vp9" | "prores" }>(
+  basePreset: P,
+  lockedEncoder: LockedRenderConfig["encoder"],
+): P {
+  if (lockedEncoder === "libx265-software") {
+    return { ...basePreset, codec: "h265" as const };
+  }
+  return basePreset;
+}
+
+/**
  * Activity B: render a single chunk of the planDir. The `outputChunkPath`
  * argument is a file for mp4/mov outputs and a directory for png-sequence
  * outputs — the caller picks the right shape based on `meta/encoder.json`.
@@ -553,13 +574,7 @@ export async function renderChunk(
         ? "mp4"
         : (plan.dimensions.format as "mp4" | "mov");
       const basePreset = getEncoderPreset(job.config.quality, presetFormat, undefined);
-      // Override the preset's codec from the planDir's locked encoder so
-      // h265 mp4 chunks call libx265 instead of getEncoderPreset's default
-      // h264. `getEncoderPreset` only returns h265 in HDR paths today;
-      // distributed mode is SDR-only, so the override here is the
-      // canonical way for chunks to honor `DistributedRenderConfig.codec`.
-      const preset: typeof basePreset =
-        encoder.encoder === "libx265-software" ? { ...basePreset, codec: "h265" } : basePreset;
+      const preset = resolvePresetForLockedEncoder(basePreset, encoder.encoder);
       const effectiveQuality = encoder.crf ?? preset.quality;
       const effectiveBitrate = encoder.crf != null ? undefined : encoder.bitrate;
       // For non-pngseq, encodeStage writes to `outputPath` when `isPngSequence`
