@@ -128,6 +128,294 @@ describe("resolveBrowserGpuMode", () => {
   });
 });
 
+describe("acquireBrowser — software-renderer guard (opt-in)", () => {
+  // Tests for the opt-in rule that, when
+  // `HYPERFRAMES_FORCE_SCREENSHOT_ON_SOFTWARE_GPU=1` is set, a
+  // "software"-resolved GPU mode must force `captureMode = "screenshot"`
+  // regardless of platform/binary. Without the env var the guard is dormant —
+  // mainstream CI hosts (SwiftShader on GitHub runners) report "software" but
+  // BeginFrame works on them, and pessimizing those hosts caused regressions
+  // on the largest fixtures (hf#822). Tests below mock puppeteer at the
+  // module-import level so no real Chrome is launched.
+
+  const origPlatform = process.platform;
+  const origGuardEnv = process.env.HYPERFRAMES_FORCE_SCREENSHOT_ON_SOFTWARE_GPU;
+
+  // Captures the most recent puppeteer.launch call so tests can assert on the
+  // args/executablePath actually passed to Chrome.
+  let lastLaunchArgs: string[] | undefined;
+  let lastLaunchExecutablePath: string | undefined;
+
+  function installPuppeteerMock() {
+    const browserStub = {
+      close: vi.fn().mockResolvedValue(undefined),
+      newPage: vi.fn().mockResolvedValue({
+        close: vi.fn().mockResolvedValue(undefined),
+        createCDPSession: vi.fn().mockResolvedValue({
+          send: vi.fn().mockResolvedValue(undefined),
+          detach: vi.fn().mockResolvedValue(undefined),
+        }),
+      }),
+    };
+    const launch = vi.fn(async (opts: { args: string[]; executablePath?: string }) => {
+      lastLaunchArgs = opts.args;
+      lastLaunchExecutablePath = opts.executablePath;
+      return browserStub;
+    });
+    // Both `puppeteer` and `puppeteer-core` are tried by getPuppeteer() — mock
+    // both so it doesn't matter which one resolves first.
+    vi.doMock("puppeteer", () => ({ default: { launch } }));
+    vi.doMock("puppeteer-core", () => ({ default: { launch } }));
+    return { launch, browserStub };
+  }
+
+  beforeEach(() => {
+    vi.resetModules();
+    lastLaunchArgs = undefined;
+    lastLaunchExecutablePath = undefined;
+    Object.defineProperty(process, "platform", { value: "linux", configurable: true });
+    // `vi.resetModules()` already gives each test a fresh `browserManager.js`
+    // module — so `_softwareGuardWarned` starts at false per test. No
+    // additional reset needed.
+    // Default: guard ON for the bulk of tests in this block (they exercise
+    // the guard's behavior). Individual tests opt back to "guard OFF" by
+    // deleting the env var.
+    process.env.HYPERFRAMES_FORCE_SCREENSHOT_ON_SOFTWARE_GPU = "1";
+  });
+
+  afterEach(() => {
+    Object.defineProperty(process, "platform", { value: origPlatform, configurable: true });
+    if (origGuardEnv === undefined) {
+      delete process.env.HYPERFRAMES_FORCE_SCREENSHOT_ON_SOFTWARE_GPU;
+    } else {
+      process.env.HYPERFRAMES_FORCE_SCREENSHOT_ON_SOFTWARE_GPU = origGuardEnv;
+    }
+    vi.restoreAllMocks();
+    vi.doUnmock("puppeteer");
+    vi.doUnmock("puppeteer-core");
+  });
+
+  it("forces screenshot capture mode when browserGpuMode resolves to 'software' on Linux (guard enabled)", async () => {
+    installPuppeteerMock();
+    const { acquireBrowser: acquire } = await import("./browserManager.js");
+
+    // chromePath points to a fake chrome-headless-shell so the Linux + binary
+    // preconditions for beginframe are satisfied — the software-GPU guard is
+    // the only thing that should flip captureMode to screenshot.
+    const chromeArgs = [
+      "--no-sandbox",
+      "--enable-begin-frame-control",
+      "--deterministic-mode",
+      "--run-all-compositor-stages-before-draw",
+    ];
+    const result = await acquire(chromeArgs, {
+      chromePath: "/fake/chrome-headless-shell",
+      browserGpuMode: "software",
+    });
+
+    expect(result.captureMode).toBe("screenshot");
+    // BeginFrame-only flags MUST be stripped from the launched args — leaving
+    // `--enable-begin-frame-control` in produces blank screenshots because the
+    // compositor waits for beginFrames we'll never send.
+    expect(lastLaunchArgs).not.toContain("--enable-begin-frame-control");
+    expect(lastLaunchArgs).not.toContain("--deterministic-mode");
+    expect(lastLaunchArgs).not.toContain("--run-all-compositor-stages-before-draw");
+    expect(lastLaunchArgs).toContain("--no-sandbox");
+  });
+
+  it("KEEPS beginframe capture mode on Linux+software when the guard is NOT enabled (default)", async () => {
+    // Mirror of the "forces screenshot" test above with the guard OFF — this
+    // is the production default that mainstream CI hits. Without this, GH
+    // Actions runners (SwiftShader, reports "software") regress to screenshot
+    // mode and the streaming encoder times out on shader-heavy fixtures
+    // (hf#822 regression on overlay-montage-prod, sub-composition-video,
+    // style-13-prod).
+    delete process.env.HYPERFRAMES_FORCE_SCREENSHOT_ON_SOFTWARE_GPU;
+    installPuppeteerMock();
+    const { acquireBrowser: acquire } = await import("./browserManager.js");
+
+    const chromeArgs = ["--no-sandbox", "--enable-begin-frame-control"];
+    const result = await acquire(chromeArgs, {
+      chromePath: "/fake/chrome-headless-shell",
+      browserGpuMode: "software",
+    });
+
+    expect(result.captureMode).toBe("beginframe");
+    expect(lastLaunchArgs).toContain("--enable-begin-frame-control");
+  });
+
+  it("keeps beginframe capture mode when browserGpuMode is 'hardware' on Linux with headless-shell", async () => {
+    installPuppeteerMock();
+    const { acquireBrowser: acquire } = await import("./browserManager.js");
+
+    const chromeArgs = ["--no-sandbox", "--enable-begin-frame-control"];
+    const result = await acquire(chromeArgs, {
+      chromePath: "/fake/chrome-headless-shell",
+      browserGpuMode: "hardware",
+    });
+
+    // Hardware GPU + Linux + headless-shell + no forceScreenshot → beginframe.
+    // (The post-launch probe normally checks HeadlessExperimental.enable; our
+    // mock CDP session resolves it successfully, so the probe passes.)
+    expect(result.captureMode).toBe("beginframe");
+    // BeginFrame flags preserved in the launched args.
+    expect(lastLaunchArgs).toContain("--enable-begin-frame-control");
+    expect(lastLaunchExecutablePath).toBe("/fake/chrome-headless-shell");
+  });
+
+  it("forces screenshot mode when forceScreenshot=true regardless of GPU mode", async () => {
+    // Existing behavior — the new software-GPU branch must not regress this.
+    installPuppeteerMock();
+    const { acquireBrowser: acquire } = await import("./browserManager.js");
+
+    const chromeArgs = ["--no-sandbox", "--enable-begin-frame-control"];
+    const result = await acquire(chromeArgs, {
+      chromePath: "/fake/chrome-headless-shell",
+      browserGpuMode: "hardware",
+      forceScreenshot: true,
+    });
+
+    expect(result.captureMode).toBe("screenshot");
+    expect(lastLaunchArgs).not.toContain("--enable-begin-frame-control");
+  });
+
+  it("emits a one-time software-GPU warning when the guard actually changed the outcome", async () => {
+    installPuppeteerMock();
+    const warnSpy = vi.spyOn(console, "warn").mockImplementation(() => {});
+    const { acquireBrowser: acquire, releaseBrowser: release } =
+      await import("./browserManager.js");
+
+    const chromeArgs = ["--no-sandbox", "--enable-begin-frame-control"];
+    const acquired = await acquire(chromeArgs, {
+      chromePath: "/fake/chrome-headless-shell",
+      browserGpuMode: "software",
+    });
+    // release so subsequent acquires don't reuse a pooled browser (we have
+    // pooling off by default but be explicit).
+    await release(acquired.browser);
+
+    const messages = warnSpy.mock.calls.map((c) => String(c[0]));
+    const softwareWarn = messages.find((m) => m.includes("Software GPU detected"));
+    expect(softwareWarn).toBeDefined();
+    expect(softwareWarn).toContain("screenshot");
+  });
+
+  it("does NOT emit the software-GPU warning on macOS (already screenshot anyway)", async () => {
+    // macOS uses screenshot mode unconditionally — the software-GPU guard
+    // didn't change the outcome, so the warn should stay silent.
+    Object.defineProperty(process, "platform", { value: "darwin", configurable: true });
+    installPuppeteerMock();
+    const warnSpy = vi.spyOn(console, "warn").mockImplementation(() => {});
+    const { acquireBrowser: acquire, releaseBrowser: release } =
+      await import("./browserManager.js");
+
+    const acquired = await acquire(["--no-sandbox"], {
+      chromePath: "/fake/chrome-headless-shell",
+      browserGpuMode: "software",
+    });
+    await release(acquired.browser);
+
+    const messages = warnSpy.mock.calls.map((c) => String(c[0]));
+    expect(messages.find((m) => m.includes("Software GPU detected"))).toBeUndefined();
+  });
+
+  it("does NOT emit the software-GPU warning when caller explicitly set forceScreenshot=true", async () => {
+    // If the caller already picked screenshot mode, the software-GPU guard
+    // didn't change the outcome — warning would misleadingly tell operators
+    // the guard kicked in. Same shape as the macOS test, but here the
+    // platform satisfies all the original warn-firing preconditions and only
+    // forceScreenshot suppresses the warn.
+    installPuppeteerMock();
+    const warnSpy = vi.spyOn(console, "warn").mockImplementation(() => {});
+    const { acquireBrowser: acquire, releaseBrowser: release } =
+      await import("./browserManager.js");
+
+    const acquired = await acquire(["--no-sandbox"], {
+      chromePath: "/fake/chrome-headless-shell",
+      browserGpuMode: "software",
+      forceScreenshot: true,
+    });
+    await release(acquired.browser);
+
+    const messages = warnSpy.mock.calls.map((c) => String(c[0]));
+    expect(messages.find((m) => m.includes("Software GPU detected"))).toBeUndefined();
+  });
+
+  it("does NOT emit the software-GPU warning on Linux + hardware + headless-shell (positive control)", async () => {
+    // On the very env where the guard COULD fire (Linux + headless-shell), a
+    // hardware-resolved GPU mode must NOT trip the warning. Catches the
+    // failure mode where the gate condition gets inverted in a refactor.
+    installPuppeteerMock();
+    const warnSpy = vi.spyOn(console, "warn").mockImplementation(() => {});
+    const { acquireBrowser: acquire, releaseBrowser: release } =
+      await import("./browserManager.js");
+
+    const acquired = await acquire(["--no-sandbox"], {
+      chromePath: "/fake/chrome-headless-shell",
+      browserGpuMode: "hardware",
+    });
+    await release(acquired.browser);
+
+    const messages = warnSpy.mock.calls.map((c) => String(c[0]));
+    expect(messages.find((m) => m.includes("Software GPU detected"))).toBeUndefined();
+  });
+
+  it("falls back to screenshot mode + strips beginframe flags when probeBeginFrameSupport fails", async () => {
+    // Pre-existing defense-in-depth: even if the software-GPU guard misses
+    // (e.g. resolveBrowserGpuMode returns "hardware" but the binary itself
+    // has dropped HeadlessExperimental.beginFrame — observed on chrome
+    // builds 147+), the post-launch probe should detect it, close the
+    // browser, and re-launch with stripped flags. This test pins that path
+    // via a CDP session whose `send` rejects.
+    const launchCalls: Array<{ args: string[]; executablePath?: string }> = [];
+    const browserStub = {
+      close: vi.fn().mockResolvedValue(undefined),
+      newPage: vi.fn().mockResolvedValue({
+        close: vi.fn().mockResolvedValue(undefined),
+        createCDPSession: vi.fn().mockResolvedValue({
+          // Probe failure: HeadlessExperimental.enable rejects → probe returns
+          // false → acquireBrowser closes browser + re-launches with stripped
+          // flags.
+          send: vi.fn().mockRejectedValue(new Error("HeadlessExperimental not supported")),
+          detach: vi.fn().mockResolvedValue(undefined),
+        }),
+      }),
+    };
+    const launch = vi.fn(async (opts: { args: string[]; executablePath?: string }) => {
+      launchCalls.push({ args: [...opts.args], executablePath: opts.executablePath });
+      return browserStub;
+    });
+    vi.doMock("puppeteer", () => ({ default: { launch } }));
+    vi.doMock("puppeteer-core", () => ({ default: { launch } }));
+
+    const { acquireBrowser: acquire } = await import("./browserManager.js");
+
+    const chromeArgs = [
+      "--no-sandbox",
+      "--enable-begin-frame-control",
+      "--deterministic-mode",
+      "--run-all-compositor-stages-before-draw",
+    ];
+    const result = await acquire(chromeArgs, {
+      chromePath: "/fake/chrome-headless-shell",
+      browserGpuMode: "hardware",
+    });
+
+    // Two launches: first with beginframe flags (initial attempt), then
+    // re-launch with flags stripped after probe failure.
+    expect(launchCalls.length).toBe(2);
+    expect(launchCalls[0]?.args).toContain("--enable-begin-frame-control");
+    expect(launchCalls[1]?.args).not.toContain("--enable-begin-frame-control");
+    expect(launchCalls[1]?.args).not.toContain("--deterministic-mode");
+    expect(launchCalls[1]?.args).not.toContain("--run-all-compositor-stages-before-draw");
+    expect(launchCalls[1]?.args).toContain("--no-sandbox");
+    // First browser closed before the re-launch.
+    expect(browserStub.close).toHaveBeenCalled();
+    // Final captureMode is screenshot, reflecting the fallback.
+    expect(result.captureMode).toBe("screenshot");
+  });
+});
+
 describe("forceReleaseBrowser", () => {
   it("kills the browser process and disconnects", () => {
     const killFn = vi.fn(() => true);

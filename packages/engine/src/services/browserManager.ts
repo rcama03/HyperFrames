@@ -249,14 +249,70 @@ function logResolvedBrowserGpuMode(resolved: "hardware" | "software", reason: st
   console.error(`[hyperframes] browserGpuMode auto → ${resolved} (${reason})`);
 }
 
+/**
+ * One-shot latch for the "Software GPU detected" warning. The guard fires per
+ * acquire() (each render worker calls acquireBrowser), so without a latch we'd
+ * spam the operator with N copies of the same message on a multi-worker run.
+ * Exported reset for tests.
+ */
+let _softwareGuardWarned = false;
+export function _resetSoftwareGuardWarnedForTests(): void {
+  _softwareGuardWarned = false;
+}
+
+/**
+ * Opt-in: force `captureMode = "screenshot"` whenever the GPU resolves to
+ * "software" (no hardware WebGL).
+ *
+ * Why opt-in rather than always-on: GitHub Actions runners and other common
+ * SwiftShader hosts report "software" from the WebGL probe but
+ * `HeadlessExperimental.beginFrame` works reliably on them — so a blanket
+ * software → screenshot flip pessimizes mainstream CI by ~1.5 min on
+ * shader/composition-heavy fixtures and exceeds `ffmpegStreamingTimeout` on
+ * the largest renders.
+ *
+ * The runtime probe (`probeBeginFrameSupport` below) already catches actual
+ * BeginFrame *unavailability*. This env var exists for hosts where BeginFrame
+ * is technically present but the compositor stalls under shader load (the
+ * CPU-only Linux sandbox where hf#677 was reproduced). Operators on such
+ * hosts set `HYPERFRAMES_FORCE_SCREENSHOT_ON_SOFTWARE_GPU=1` to short-circuit
+ * BeginFrame entirely.
+ *
+ * Accepts the same truthy values as other engine env flags (`"1"`, `"true"`).
+ */
+export function isSoftwareScreenshotGuardEnabled(): boolean {
+  const raw = process.env.HYPERFRAMES_FORCE_SCREENSHOT_ON_SOFTWARE_GPU;
+  if (!raw) return false;
+  const v = raw.trim().toLowerCase();
+  return v === "1" || v === "true" || v === "yes" || v === "on";
+}
+
+export interface AcquireBrowserOptions {
+  /**
+   * If the caller already resolved `browserGpuMode` (e.g. `frameCapture.ts`
+   * computes it before building chromeArgs), pass the resolved value here so
+   * `acquireBrowser` doesn't redundantly re-resolve from the raw config. The
+   * Promise cache makes the duplicate call cheap, but threading the value
+   * through removes the smell of two parallel resolutions of the same thing
+   * with no static guarantee they agree.
+   */
+  resolvedBrowserGpuMode?: "software" | "hardware";
+}
+
 export async function acquireBrowser(
   chromeArgs: string[],
   config?: Partial<
     Pick<
       EngineConfig,
-      "browserTimeout" | "protocolTimeout" | "enableBrowserPool" | "chromePath" | "forceScreenshot"
+      | "browserTimeout"
+      | "protocolTimeout"
+      | "enableBrowserPool"
+      | "chromePath"
+      | "forceScreenshot"
+      | "browserGpuMode"
     >
   >,
+  options: AcquireBrowserOptions = {},
 ): Promise<AcquiredBrowser> {
   const enablePool = config?.enableBrowserPool ?? DEFAULT_CONFIG.enableBrowserPool;
 
@@ -271,10 +327,38 @@ export async function acquireBrowser(
   // BeginFrame requires chrome-headless-shell AND Linux (crashes on macOS/Windows).
   const isLinux = process.platform === "linux";
   const forceScreenshot = config?.forceScreenshot ?? DEFAULT_CONFIG.forceScreenshot;
+
+  // The software-renderer screenshot guard is opt-in (see
+  // `isSoftwareScreenshotGuardEnabled` above). Skip the GPU probe entirely
+  // unless the guard is enabled — the probe launches a throwaway Chrome to
+  // run a WebGL availability check, so paying for it on every render when
+  // the result is unused is wasteful. Operators on stall-prone hosts set
+  // `HYPERFRAMES_FORCE_SCREENSHOT_ON_SOFTWARE_GPU=1` and accept the probe
+  // cost as part of that contract.
+  //
+  // If the caller has already resolved the mode (frameCapture.ts does) it
+  // hands us the value via options.resolvedBrowserGpuMode to avoid a second
+  // resolution from raw config. The probe Promise is cached for the process
+  // lifetime so even when both paths fire, only one Chrome launch happens.
+  const guardEnabled = isSoftwareScreenshotGuardEnabled();
+  let resolvedGpuMode: "software" | "hardware" | undefined;
+  if (guardEnabled) {
+    if (options.resolvedBrowserGpuMode) {
+      resolvedGpuMode = options.resolvedBrowserGpuMode;
+    } else {
+      const browserGpuMode = config?.browserGpuMode ?? DEFAULT_CONFIG.browserGpuMode;
+      resolvedGpuMode = await resolveBrowserGpuMode(browserGpuMode, {
+        chromePath: headlessShell ?? undefined,
+        browserTimeout: config?.browserTimeout,
+      });
+    }
+  }
+  const isSoftwareRenderer = guardEnabled && resolvedGpuMode === "software";
+
   let captureMode: CaptureMode;
   let executablePath: string | undefined;
 
-  if (headlessShell && isLinux && !forceScreenshot) {
+  if (headlessShell && isLinux && !forceScreenshot && !isSoftwareRenderer) {
     captureMode = "beginframe";
     executablePath = headlessShell;
   } else {
@@ -283,12 +367,32 @@ export async function acquireBrowser(
     executablePath = headlessShell ?? undefined;
   }
 
+  // When falling back to screenshot mode the chromeArgs may still contain
+  // `--enable-begin-frame-control` etc. (caller built them before the GPU
+  // probe resolved). In beginframe-control mode the compositor blocks waiting
+  // for a beginFrame we'll never send, producing blank screenshots — strip
+  // them defensively. No-op if caller already built args for screenshot mode.
+  const launchArgs = captureMode === "screenshot" ? stripBeginFrameFlags(chromeArgs) : chromeArgs;
+
+  // Warn ONLY when the software-renderer guard actually changed the outcome.
+  // Conditions: Linux + headless-shell available + GPU resolved to software +
+  // caller didn't already pick screenshot via forceScreenshot. (If the caller
+  // explicitly set forceScreenshot=true the guard didn't change anything, so
+  // warning would mislead operators into thinking the guard kicked in.)
+  // One-shot per process to avoid spamming multi-worker renders.
+  if (!forceScreenshot && isSoftwareRenderer && headlessShell && isLinux && !_softwareGuardWarned) {
+    _softwareGuardWarned = true;
+    console.warn(
+      "[BrowserManager] Software GPU detected; forcing screenshot capture mode (HeadlessExperimental.beginFrame stalls on software-rendered compositors).",
+    );
+  }
+
   const ppt = await getPuppeteer();
   const browserTimeout = config?.browserTimeout ?? DEFAULT_CONFIG.browserTimeout;
   const protocolTimeout = config?.protocolTimeout ?? DEFAULT_CONFIG.protocolTimeout;
   let browser = await ppt.launch({
     headless: true,
-    args: chromeArgs,
+    args: launchArgs,
     defaultViewport: null,
     executablePath,
     timeout: browserTimeout,
