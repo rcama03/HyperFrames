@@ -1,34 +1,23 @@
 /**
  * Per-adapter chunk-boundary contract: rendering the same composition at
  * chunkSize=N (single chunk, no seams) vs chunkSize=N/4 (four chunks, three
- * seams at frames 15, 30, 45) MUST produce byte-identical *frames*. This
- * is the strongest contract a distributed render can satisfy — anything
+ * seams at frames 15, 30, 45) MUST produce byte-identical *frames*. Anything
  * weaker means the worker's seek-determinism leaks across chunk boundaries.
  *
- * Output format is png-sequence rather than mp4 because mp4 bitstreams
- * encode keyframe placement directly: chunkSize=60 emits 1 IDR; chunkSize=15
- * emits 4 IDRs at frames 0/15/30/45. Those are legitimately different bytes
- * even when the captured pixels are identical. The png-sequence assemble
- * path merges chunk frame directories with no re-encode, so per-frame
- * byte equality round-trips a pixel-level contract.
+ * Output is png-sequence rather than mp4 because mp4 bitstreams encode
+ * keyframe placement directly: chunkSize=60 emits 1 IDR; chunkSize=15 emits
+ * 4 IDRs at frames 0/15/30/45. Those are legitimately different bytes even
+ * when the captured pixels are identical. The png-sequence assemble path
+ * merges chunk frame directories with no re-encode, so per-frame byte
+ * equality is exactly pixel equality.
  *
  * For each first-party adapter (GSAP, Anime.js, Three.js, Lottie, CSS,
  * WAAPI), `tests/distributed/<adapter>-boundary/src/index.html` is a
  * 60-frame composition that drives the adapter through its registered seek
- * hook. The test:
- *
- *   1. plan() + renderChunk() × N + assemble() at chunkSize=60 → N=1 chunk.
- *   2. Same at chunkSize=15 → N=4 chunks.
- *   3. Per-frame `Buffer.equals` across the two output frame directories.
- *
- * Fixtures with no checked-in baseline aren't compared by the regression
- * harness — they're driven from here via `bun test`. CI exercises them
- * through the same `bun test` step inside `Dockerfile.test`.
- *
- * Soft-skip behavior matches `renderChunk.test.ts`: if the host's
- * `chrome-headless-shell` can't render (no SwiftShader, missing GL stack),
- * the test logs a warning and returns. The Docker harness covers the real
- * contract against a known-good image.
+ * hook. The fixtures intentionally lack a `meta.json` so they're invisible
+ * to the regression harness; this test owns them. On hosts whose
+ * chrome-headless-shell can't render (no SwiftShader / missing GL stack),
+ * each subtest soft-skips and the Docker harness covers the contract.
  */
 
 import { afterAll, beforeAll, describe, expect, it } from "bun:test";
@@ -86,15 +75,11 @@ async function planAndAssemble(input: {
       // affects keyframe placement in the bitstream.
       format: "png-sequence",
       chunkSize: input.chunkSize,
-      // Some adapter bundles (notably anime.js's IIFE) embed CSS-shaped
-      // strings inside their JS — `font-family: ui-monospace, monospace`
-      // for internal devtools styling. `validateNoSystemFonts` scans the
-      // entire compiled HTML and matches those JS string literals, which
-      // would false-positive every chunk-boundary fixture that loads
-      // such a bundle. Disable the check for this test only; the fixtures
-      // never display text and the byte-identity contract is independent
-      // of which fonts the page would resolve. This is the documented
-      // escape hatch for the option.
+      // anime.js's IIFE bundle embeds `font-family: ui-monospace, monospace`
+      // as a string literal inside its JS, which `validateNoSystemFonts`'s
+      // document-wide regex false-positives. These fixtures display no text,
+      // so disabling the check (the documented escape hatch on this flag) is
+      // safe.
       rejectOnSystemFonts: false,
     },
     planDir,
@@ -122,7 +107,7 @@ describe("per-adapter chunk-boundary byte equality", () => {
 
   for (const adapter of ADAPTERS) {
     it(
-      `${adapter}: chunkSize=60 (N=1) vs chunkSize=15 (N=4) produces byte-identical mp4`,
+      `${adapter}: chunkSize=60 (N=1) vs chunkSize=15 (N=4) produces byte-identical frames`,
       async () => {
         const fixtureDir = join(testsDistributedDir, `${adapter}-boundary`);
         if (!existsSync(join(fixtureDir, "src", "index.html"))) {
