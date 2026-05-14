@@ -10,6 +10,9 @@ packages/producer/tests/*/output/output.mp4 filter=lfs diff=lfs merge=lfs -text
 # Source video clips for regression test fixtures (HDR samples, etc.)
 packages/producer/tests/*/src/*.mp4 filter=lfs diff=lfs merge=lfs -text
 
+# Studio E2E parity fixture videos
+packages/studio/e2e/fixtures/**/*.mp4 filter=lfs diff=lfs merge=lfs -text
+
 # Source image assets for regression test fixtures (HDR PNGs, screenshot fixtures, etc.)
 packages/producer/tests/*/src/*.png filter=lfs diff=lfs merge=lfs -text
 

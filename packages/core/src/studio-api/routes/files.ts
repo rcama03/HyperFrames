@@ -151,6 +151,7 @@ export function registerFileRoutes(api: Hono, adapter: StudioApiAdapter): void {
     ensureDir(res.absPath);
     const body = await c.req.text();
     writeFileSync(res.absPath, body, "utf-8");
+    adapter.onProjectFileWrite?.(res.filePath);
 
     return c.json({ ok: true });
   });
@@ -168,6 +169,7 @@ export function registerFileRoutes(api: Hono, adapter: StudioApiAdapter): void {
     ensureDir(res.absPath);
     const body = await c.req.text().catch(() => "");
     writeFileSync(res.absPath, body, "utf-8");
+    adapter.onProjectFileWrite?.(res.filePath);
 
     return c.json({ ok: true, path: res.filePath }, 201);
   });
@@ -184,6 +186,7 @@ export function registerFileRoutes(api: Hono, adapter: StudioApiAdapter): void {
     } else {
       unlinkSync(res.absPath);
     }
+    adapter.onProjectFileWrite?.(res.filePath);
 
     return c.json({ ok: true });
   });
@@ -222,6 +225,7 @@ export function registerFileRoutes(api: Hono, adapter: StudioApiAdapter): void {
     }
 
     writeFileSync(absPath, patchedContent, "utf-8");
+    adapter.onProjectFileWrite?.(filePath);
     return c.json({ ok: true, changed: true, content: patchedContent });
   });
 
@@ -249,6 +253,7 @@ export function registerFileRoutes(api: Hono, adapter: StudioApiAdapter): void {
 
     // Update references to the old path across all project files
     const updatedFiles = updateReferences(res.project.dir, res.filePath, body.newPath);
+    adapter.onProjectFileWrite?.(body.newPath);
 
     return c.json({ ok: true, path: body.newPath, updatedReferences: updatedFiles });
   });
