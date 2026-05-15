@@ -1,15 +1,6 @@
 <template id="overlays-template">
   <div data-composition-id="overlays" data-width="1280" data-height="720" data-duration="222.8">
 
-    <!-- ═══ SCENE TITLE CARDS (7 transitions) ════════════════════════ -->
-    <div id="st1" class="scene-title"><div class="st-label">SZENE</div><div class="st-name">Das Terminal</div></div>
-    <div id="st2" class="scene-title"><div class="st-label">SZENE</div><div class="st-name">Sicherheitskontrolle</div></div>
-    <div id="st3" class="scene-title"><div class="st-label">SZENE</div><div class="st-name">Stoßzeiten</div></div>
-    <div id="st4" class="scene-title"><div class="st-label">SZENE</div><div class="st-name">Reise-Tipps</div></div>
-    <div id="st5" class="scene-title"><div class="st-label">SZENE</div><div class="st-name">Zeitplanung</div></div>
-    <div id="st6" class="scene-title"><div class="st-label">SZENE</div><div class="st-name">Terminal Wechsel</div></div>
-    <div id="st7" class="scene-title"><div class="st-label">SZENE</div><div class="st-name">Die Fakten</div></div>
-
     <!-- ═══ INFO CARDS (all bottom-left, 4-5s) ════════════════════════ -->
 
     <!-- 1. Intro  2s–6.5s -->
@@ -106,19 +97,12 @@
 
     <!-- ═══ SOUND EFFECTS ════════════════════════════════════════════ -->
     <audio src="../sfx/ding.wav"   data-start="2"     data-duration="0.5"  data-layer="10" data-volume="0.7"></audio>
-    <audio src="../sfx/swoosh.wav" data-start="14"    data-duration="0.35" data-layer="10" data-volume="0.6"></audio>
     <audio src="../sfx/pop.wav"    data-start="17.5"  data-duration="0.25" data-layer="10" data-volume="0.7"></audio>
-    <audio src="../sfx/swoosh.wav" data-start="35"    data-duration="0.35" data-layer="10" data-volume="0.6"></audio>
     <audio src="../sfx/ding.wav"   data-start="38.5"  data-duration="0.5"  data-layer="10" data-volume="0.7"></audio>
-    <audio src="../sfx/swoosh.wav" data-start="59"    data-duration="0.35" data-layer="10" data-volume="0.6"></audio>
     <audio src="../sfx/alert.wav"  data-start="62.5"  data-duration="0.45" data-layer="10" data-volume="0.75"></audio>
-    <audio src="../sfx/swoosh.wav" data-start="89"    data-duration="0.35" data-layer="10" data-volume="0.6"></audio>
     <audio src="../sfx/pop.wav"    data-start="92.5"  data-duration="0.25" data-layer="10" data-volume="0.7"></audio>
-    <audio src="../sfx/swoosh.wav" data-start="125"   data-duration="0.35" data-layer="10" data-volume="0.6"></audio>
     <audio src="../sfx/ding.wav"   data-start="128.5" data-duration="0.5"  data-layer="10" data-volume="0.7"></audio>
-    <audio src="../sfx/swoosh.wav" data-start="153"   data-duration="0.35" data-layer="10" data-volume="0.6"></audio>
     <audio src="../sfx/pop.wav"    data-start="156.5" data-duration="0.25" data-layer="10" data-volume="0.7"></audio>
-    <audio src="../sfx/swoosh.wav" data-start="182"   data-duration="0.35" data-layer="10" data-volume="0.6"></audio>
     <audio src="../sfx/ding.wav"   data-start="185.5" data-duration="0.5"  data-layer="10" data-volume="0.7"></audio>
     <audio src="../sfx/chime.wav"  data-start="212.5" data-duration="0.6"  data-layer="10" data-volume="0.8"></audio>
 
@@ -238,7 +222,7 @@
       /* ── CAPTION LAYER ──────────────────────────────────────────── */
       #caption-layer {
         position: absolute;
-        bottom: 10px;
+        bottom: 45px;
         left: 0; right: 0;
         text-align: center;
         pointer-events: none;
@@ -252,7 +236,7 @@
       }
       .cw {
         display: inline-block;
-        font-size: 20px; font-weight: 700;
+        font-size: 22px; font-weight: 700;
         color: #fff;
         text-shadow: 0 1px 6px rgba(0,0,0,0.95), 0 0 18px rgba(0,0,0,0.7);
         padding: 3px 7px;
@@ -293,15 +277,6 @@
             start + dur - 0.55
           );
         }
-
-        /* ── SCENE TITLES ────────────────────────────────────────── */
-        showTitle('st1', 14);
-        showTitle('st2', 35);
-        showTitle('st3', 59);
-        showTitle('st4', 89);
-        showTitle('st5', 125);
-        showTitle('st6', 153);
-        showTitle('st7', 182);
 
         /* ── INFO CARDS ──────────────────────────────────────────── */
         showCard('intro-card',       2,     4.5);
