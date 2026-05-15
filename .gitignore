@@ -40,3 +40,4 @@ tmp/
 .tmp/
 projects/*/renders/
 projects/*/audio.wav
+core
