@@ -13,9 +13,23 @@
     "hyperframes": "node packages/cli/dist/cli.js"
   },
   "devDependencies": {
+    "@fontsource/archivo-black": "^5.2.8",
+    "@fontsource/eb-garamond": "^5.2.7",
+    "@fontsource/ibm-plex-mono": "^5.2.7",
+    "@fontsource/inter": "^5.2.8",
+    "@fontsource/jetbrains-mono": "^5.2.8",
+    "@fontsource/league-gothic": "^5.2.8",
+    "@fontsource/montserrat": "^5.2.8",
+    "@fontsource/nunito": "^5.2.7",
+    "@fontsource/oswald": "^5.2.8",
+    "@fontsource/outfit": "^5.2.8",
+    "@fontsource/space-mono": "^5.2.9",
     "@types/node": "^25.0.10",
     "concurrently": "^8.2.0",
     "tsx": "^4.21.0",
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "gsap": "^3.15.0"
   }
 }

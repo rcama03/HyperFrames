@@ -1,0 +1,630 @@
+<template id="overlays-template">
+  <div data-composition-id="overlays" data-width="1280" data-height="720" data-duration="222.8">
+
+    <!-- ─── 1. Intro Title Card (2s – 9s) ─────────────────────────────── -->
+    <div id="intro-card" class="intro-card">
+      <div class="intro-eyebrow">FRANKFURTER FLUGHAFEN · FRA</div>
+      <div class="intro-title">Warum du früher<br>losmusst</div>
+      <div class="intro-rule"></div>
+    </div>
+
+    <!-- ─── 2. Lower Third: Hub Identity (17s – 29s) ─────────────────── -->
+    <div id="lt-hub" class="lower-third">
+      <div class="lt-bar"></div>
+      <div class="lt-body">
+        <div class="lt-label">FRANKFURT AIRPORT</div>
+        <div class="lt-text">Europas 4. größter Flughafen</div>
+      </div>
+    </div>
+
+    <!-- ─── 3. Stat Pill: Security Wait (38s – 56s) ───────────────────── -->
+    <div id="stat-security" class="stat-pill">
+      <div class="sp-number">30–60</div>
+      <div class="sp-unit">MIN</div>
+      <div class="sp-label">Sicherheitskontrolle<br>Wartezeit in Stoßzeiten</div>
+    </div>
+
+    <!-- ─── 4. Warning: Peak Crowds (62s – 82s) ──────────────────────── -->
+    <div id="warning-peak" class="warning-card">
+      <div class="wc-icon">⚠</div>
+      <div class="wc-body">
+        <div class="wc-title">STOSSZEITEN</div>
+        <div class="wc-text">Extreme Warteschlangen<br>möglich</div>
+      </div>
+    </div>
+
+    <!-- ─── 5. Tip #1: Arrive Early (92s – 112s) ─────────────────────── -->
+    <div id="tip-1" class="tip-card">
+      <div class="tip-num">01</div>
+      <div class="tip-sep"></div>
+      <div class="tip-body">
+        <div class="tip-label">TIPP</div>
+        <div class="tip-text">3 Stunden vor Abflug<br>am Flughafen sein</div>
+      </div>
+    </div>
+
+    <!-- ─── 6. Timeline Graphic (128s – 150s) ────────────────────────── -->
+    <div id="timeline-graphic" class="timeline-graphic">
+      <div class="tg-title">EMPFOHLENER ZEITPLAN</div>
+      <div class="tg-track">
+        <div class="tg-step">
+          <div class="tg-dot"></div>
+          <div class="tg-step-name">Check-in</div>
+          <div class="tg-step-time">T−3h</div>
+        </div>
+        <div class="tg-segment"><div class="tg-fill"></div></div>
+        <div class="tg-step">
+          <div class="tg-dot"></div>
+          <div class="tg-step-name">Security</div>
+          <div class="tg-step-time">T−2h</div>
+        </div>
+        <div class="tg-segment"><div class="tg-fill"></div></div>
+        <div class="tg-step">
+          <div class="tg-dot"></div>
+          <div class="tg-step-name">Gate</div>
+          <div class="tg-step-time">T−45min</div>
+        </div>
+        <div class="tg-segment"><div class="tg-fill"></div></div>
+        <div class="tg-step">
+          <div class="tg-dot tg-dot-gold"></div>
+          <div class="tg-step-name">Abflug</div>
+          <div class="tg-step-time">T−0</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ─── 7. Tip #2: Two Terminals (156s – 176s) ───────────────────── -->
+    <div id="tip-2" class="tip-card tip-card-right">
+      <div class="tip-num">02</div>
+      <div class="tip-sep"></div>
+      <div class="tip-body">
+        <div class="tip-label">TIPP</div>
+        <div class="tip-text">Terminal 1 &amp; 2 prüfen —<br>SkyLine: 8 Min Transfer</div>
+      </div>
+    </div>
+
+    <!-- ─── 8. Stat Bar: Airport Facts (185s – 205s) ─────────────────── -->
+    <div id="stat-bar" class="stat-bar">
+      <div class="sb-title">FRANKFURT AIRPORT · FRA · FACTS</div>
+      <div class="sb-metrics">
+        <div class="sb-metric">
+          <div class="sb-val">57 Mio</div>
+          <div class="sb-lbl">Passagiere / Jahr</div>
+        </div>
+        <div class="sb-sep"></div>
+        <div class="sb-metric">
+          <div class="sb-val">2</div>
+          <div class="sb-lbl">Terminals</div>
+        </div>
+        <div class="sb-sep"></div>
+        <div class="sb-metric">
+          <div class="sb-val">100+</div>
+          <div class="sb-lbl">Airlines</div>
+        </div>
+        <div class="sb-sep"></div>
+        <div class="sb-metric">
+          <div class="sb-val">#1</div>
+          <div class="sb-lbl">in Deutschland</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ─── 9. CTA Bar (212s – 222.8s) ──────────────────────────────── -->
+    <div id="cta-bar" class="cta-bar">
+      <div class="cta-text">Früher am Flughafen = Stress-freie Reise</div>
+      <div class="cta-check" id="cta-check">✓</div>
+    </div>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+      [data-composition-id="overlays"] {
+        position: relative;
+        width: 1280px;
+        height: 720px;
+        font-family: 'Inter', system-ui, -apple-system, sans-serif;
+        overflow: hidden;
+      }
+
+      /* ── INTRO CARD ───────────────────────────────────────────────── */
+      #intro-card {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -52%) scale(0.92);
+        background: rgba(6, 6, 6, 0.92);
+        border: 1px solid rgba(245, 158, 11, 0.45);
+        border-radius: 18px;
+        padding: 40px 64px 36px;
+        text-align: center;
+        opacity: 0;
+        min-width: 480px;
+      }
+
+      #intro-card .intro-eyebrow {
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 4px;
+        color: #F59E0B;
+        text-transform: uppercase;
+        margin-bottom: 16px;
+      }
+
+      #intro-card .intro-title {
+        font-size: 50px;
+        font-weight: 800;
+        color: #fff;
+        line-height: 1.18;
+        letter-spacing: -1.5px;
+      }
+
+      #intro-card .intro-rule {
+        width: 40px;
+        height: 2px;
+        background: #F59E0B;
+        margin: 20px auto 0;
+        border-radius: 1px;
+      }
+
+      /* ── LOWER THIRD ──────────────────────────────────────────────── */
+      .lower-third {
+        position: absolute;
+        bottom: 56px;
+        left: 56px;
+        display: flex;
+        align-items: stretch;
+        opacity: 0;
+      }
+
+      .lt-bar {
+        width: 3px;
+        background: #F59E0B;
+        border-radius: 2px;
+        margin-right: 14px;
+        flex-shrink: 0;
+      }
+
+      .lt-body {
+        background: rgba(6, 6, 6, 0.88);
+        border-radius: 10px;
+        padding: 12px 20px;
+        border: 1px solid rgba(255, 255, 255, 0.07);
+      }
+
+      .lt-label {
+        font-size: 9px;
+        font-weight: 700;
+        letter-spacing: 3.5px;
+        color: #F59E0B;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+      }
+
+      .lt-text {
+        font-size: 20px;
+        font-weight: 700;
+        color: #fff;
+        letter-spacing: -0.3px;
+      }
+
+      /* ── STAT PILL ────────────────────────────────────────────────── */
+      #stat-security {
+        position: absolute;
+        right: 56px;
+        top: 50%;
+        transform: translateY(-50%) translateX(50px);
+        background: rgba(6, 6, 6, 0.90);
+        border-radius: 18px;
+        padding: 26px 34px;
+        text-align: center;
+        opacity: 0;
+        border: 1px solid rgba(245, 158, 11, 0.38);
+        min-width: 190px;
+      }
+
+      .sp-number {
+        font-size: 54px;
+        font-weight: 900;
+        color: #F59E0B;
+        letter-spacing: -2px;
+        line-height: 1;
+      }
+
+      .sp-unit {
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 4px;
+        color: #fff;
+        margin: 4px 0 10px;
+      }
+
+      .sp-label {
+        font-size: 12px;
+        font-weight: 500;
+        color: rgba(255, 255, 255, 0.55);
+        line-height: 1.5;
+      }
+
+      /* ── WARNING CARD ─────────────────────────────────────────────── */
+      #warning-peak {
+        position: absolute;
+        top: 48px;
+        right: 56px;
+        display: flex;
+        align-items: flex-start;
+        gap: 12px;
+        background: rgba(6, 6, 6, 0.90);
+        border-radius: 14px;
+        padding: 18px 22px;
+        border-left: 3px solid #EF4444;
+        opacity: 0;
+        max-width: 230px;
+      }
+
+      .wc-icon {
+        font-size: 22px;
+        color: #EF4444;
+        flex-shrink: 0;
+        line-height: 1.1;
+      }
+
+      .wc-title {
+        font-size: 9px;
+        font-weight: 700;
+        letter-spacing: 3.5px;
+        color: #EF4444;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+      }
+
+      .wc-text {
+        font-size: 15px;
+        font-weight: 600;
+        color: #fff;
+        line-height: 1.45;
+      }
+
+      /* ── TIP CARDS ────────────────────────────────────────────────── */
+      .tip-card {
+        position: absolute;
+        top: 50%;
+        left: 56px;
+        transform: translateY(-50%) translateX(-50px);
+        background: rgba(6, 6, 6, 0.90);
+        border-radius: 16px;
+        padding: 22px 26px;
+        display: flex;
+        align-items: center;
+        gap: 18px;
+        opacity: 0;
+        border: 1px solid rgba(255, 255, 255, 0.07);
+        max-width: 300px;
+      }
+
+      .tip-card-right {
+        left: auto;
+        right: 56px;
+        transform: translateY(-50%) translateX(50px);
+      }
+
+      .tip-num {
+        font-size: 38px;
+        font-weight: 900;
+        color: rgba(245, 158, 11, 0.28);
+        letter-spacing: -2px;
+        line-height: 1;
+        flex-shrink: 0;
+      }
+
+      .tip-sep {
+        width: 1px;
+        height: 54px;
+        background: rgba(255, 255, 255, 0.12);
+        flex-shrink: 0;
+      }
+
+      .tip-label {
+        font-size: 9px;
+        font-weight: 700;
+        letter-spacing: 3.5px;
+        color: #F59E0B;
+        text-transform: uppercase;
+        margin-bottom: 7px;
+      }
+
+      .tip-text {
+        font-size: 15px;
+        font-weight: 600;
+        color: #fff;
+        line-height: 1.5;
+        letter-spacing: -0.2px;
+      }
+
+      /* ── TIMELINE GRAPHIC ─────────────────────────────────────────── */
+      #timeline-graphic {
+        position: absolute;
+        bottom: 52px;
+        left: 50%;
+        transform: translateX(-50%) translateY(30px);
+        background: rgba(6, 6, 6, 0.90);
+        border-radius: 14px;
+        padding: 18px 30px 20px;
+        opacity: 0;
+        border: 1px solid rgba(255, 255, 255, 0.07);
+        min-width: 580px;
+      }
+
+      .tg-title {
+        font-size: 9px;
+        font-weight: 700;
+        letter-spacing: 3.5px;
+        color: #F59E0B;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 16px;
+      }
+
+      .tg-track {
+        display: flex;
+        align-items: center;
+      }
+
+      .tg-step {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6px;
+        flex-shrink: 0;
+      }
+
+      .tg-dot {
+        width: 9px;
+        height: 9px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.7);
+        flex-shrink: 0;
+      }
+
+      .tg-dot-gold {
+        background: #F59E0B;
+        box-shadow: 0 0 8px rgba(245, 158, 11, 0.7);
+      }
+
+      .tg-step-name {
+        font-size: 12px;
+        font-weight: 600;
+        color: #fff;
+        white-space: nowrap;
+      }
+
+      .tg-step-time {
+        font-size: 10px;
+        font-weight: 500;
+        color: rgba(255, 255, 255, 0.45);
+        white-space: nowrap;
+      }
+
+      .tg-segment {
+        flex: 1;
+        height: 1px;
+        background: rgba(255, 255, 255, 0.12);
+        position: relative;
+        overflow: hidden;
+        min-width: 90px;
+        margin-bottom: 28px;
+      }
+
+      .tg-fill {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 0%;
+        background: #F59E0B;
+      }
+
+      /* ── STAT BAR ─────────────────────────────────────────────────── */
+      #stat-bar {
+        position: absolute;
+        bottom: 52px;
+        left: 50%;
+        transform: translateX(-50%) translateY(30px);
+        background: rgba(6, 6, 6, 0.90);
+        border-radius: 14px;
+        padding: 18px 36px 20px;
+        opacity: 0;
+        border: 1px solid rgba(255, 255, 255, 0.07);
+      }
+
+      .sb-title {
+        font-size: 9px;
+        font-weight: 700;
+        letter-spacing: 3.5px;
+        color: #F59E0B;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 14px;
+      }
+
+      .sb-metrics {
+        display: flex;
+        align-items: center;
+        gap: 28px;
+      }
+
+      .sb-metric {
+        text-align: center;
+        min-width: 80px;
+      }
+
+      .sb-val {
+        font-size: 30px;
+        font-weight: 800;
+        color: #fff;
+        letter-spacing: -1px;
+        line-height: 1;
+      }
+
+      .sb-lbl {
+        font-size: 10px;
+        font-weight: 500;
+        color: rgba(255, 255, 255, 0.45);
+        margin-top: 5px;
+        white-space: nowrap;
+      }
+
+      .sb-sep {
+        width: 1px;
+        height: 38px;
+        background: rgba(255, 255, 255, 0.10);
+        flex-shrink: 0;
+      }
+
+      /* ── CTA BAR ──────────────────────────────────────────────────── */
+      #cta-bar {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(245, 158, 11, 0.97);
+        padding: 16px 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 14px;
+        /* initial state controlled by GSAP fromTo, not CSS transform */
+        opacity: 0;
+        visibility: hidden;
+      }
+
+      #cta-bar .cta-text {
+        font-size: 20px;
+        font-weight: 700;
+        color: #000;
+        letter-spacing: -0.3px;
+      }
+
+      #cta-check {
+        font-size: 20px;
+        font-weight: 900;
+        color: #000;
+        opacity: 0;
+      }
+    </style>
+
+    <script>
+      (function () {
+        window.__timelines = window.__timelines || {};
+        const tl = gsap.timeline({ paused: true });
+
+        /* ── 1. Intro Card: 2s – 9s ─────────────────────────────────── */
+        tl.to('#intro-card', {
+          opacity: 1, scale: 1,
+          duration: 0.75, ease: 'power2.out'
+        }, 2);
+        tl.to('#intro-card .intro-rule', {
+          scaleX: 1, duration: 0.4, ease: 'power2.out'
+        }, 2.6);
+        tl.to('#intro-card', {
+          opacity: 0, scale: 0.96,
+          duration: 0.5, ease: 'power2.in'
+        }, 8.4);
+
+        /* ── 2. Lower Third Hub: 17s – 29s ──────────────────────────── */
+        tl.to('#lt-hub', {
+          opacity: 1, x: 0,
+          duration: 0.6, ease: 'power2.out'
+        }, 17);
+        gsap.set('#lt-hub', { x: -40 });
+        tl.to('#lt-hub', {
+          opacity: 0, x: -20,
+          duration: 0.4, ease: 'power2.in'
+        }, 28.3);
+
+        /* ── 3. Stat Pill Security: 38s – 56s ───────────────────────── */
+        tl.fromTo('#stat-security',
+          { opacity: 0, x: 50 },
+          { opacity: 1, x: 0, duration: 0.7, ease: 'back.out(1.4)' },
+          38
+        );
+        tl.to('#stat-security', {
+          opacity: 0, x: 30,
+          duration: 0.45, ease: 'power2.in'
+        }, 55.2);
+
+        /* ── 4. Warning Card: 62s – 82s ─────────────────────────────── */
+        tl.fromTo('#warning-peak',
+          { opacity: 0, y: -18 },
+          { opacity: 1, y: 0, duration: 0.6, ease: 'power2.out' },
+          62
+        );
+        tl.to('#warning-peak', {
+          opacity: 0, y: -12,
+          duration: 0.4, ease: 'power2.in'
+        }, 81.2);
+
+        /* ── 5. Tip Card #1: 92s – 112s ─────────────────────────────── */
+        tl.fromTo('#tip-1',
+          { opacity: 0, x: -50 },
+          { opacity: 1, x: 0, duration: 0.6, ease: 'power2.out' },
+          92
+        );
+        tl.to('#tip-1', {
+          opacity: 0, x: -25,
+          duration: 0.4, ease: 'power2.in'
+        }, 111.3);
+
+        /* ── 6. Timeline Graphic: 128s – 150s ───────────────────────── */
+        tl.to('#timeline-graphic', {
+          opacity: 1, y: 0,
+          duration: 0.7, ease: 'power2.out'
+        }, 128);
+        tl.to('#timeline-graphic .tg-fill', {
+          width: '100%',
+          duration: 0.7,
+          stagger: 0.45,
+          ease: 'power1.inOut'
+        }, 129);
+        tl.to('#timeline-graphic', {
+          opacity: 0, y: 20,
+          duration: 0.5, ease: 'power2.in'
+        }, 149.2);
+
+        /* ── 7. Tip Card #2: 156s – 176s ────────────────────────────── */
+        tl.fromTo('#tip-2',
+          { opacity: 0, x: 50 },
+          { opacity: 1, x: 0, duration: 0.6, ease: 'power2.out' },
+          156
+        );
+        tl.to('#tip-2', {
+          opacity: 0, x: 25,
+          duration: 0.4, ease: 'power2.in'
+        }, 175.3);
+
+        /* ── 8. Stat Bar: 185s – 205s ───────────────────────────────── */
+        tl.to('#stat-bar', {
+          opacity: 1, y: 0,
+          duration: 0.7, ease: 'power2.out'
+        }, 185);
+        tl.to('#stat-bar', {
+          opacity: 0, y: 20,
+          duration: 0.5, ease: 'power2.in'
+        }, 204.2);
+
+        /* ── 9. CTA Bar: 212s – 222.8s ──────────────────────────────── */
+        tl.fromTo('#cta-bar',
+          { opacity: 0, y: 60, visibility: 'visible' },
+          { opacity: 1, y: 0, visibility: 'visible', duration: 0.8, ease: 'power2.out' },
+          212
+        );
+        tl.fromTo('#cta-check',
+          { opacity: 0 },
+          { opacity: 1, duration: 0.3, ease: 'power2.out' },
+          213.6
+        );
+
+        window.__timelines['overlays'] = tl;
+      })();
+    </script>
+  </div>
+</template>
