@@ -301,10 +301,9 @@ function hashChunkOutput(outputPath: string, kind: "file" | "frame-dir"): string
  * `getEncoderPreset` itself) shouldn't be able to silently regress
  * the contract without a fast-test signal.
  */
-export function resolvePresetForLockedEncoder<P extends { codec: "h264" | "h265" | "vp9" | "prores" }>(
-  basePreset: P,
-  lockedEncoder: LockedRenderConfig["encoder"],
-): P {
+export function resolvePresetForLockedEncoder<
+  P extends { codec: "h264" | "h265" | "vp9" | "prores" },
+>(basePreset: P, lockedEncoder: LockedRenderConfig["encoder"]): P {
   if (lockedEncoder === "libx265-software") {
     return { ...basePreset, codec: "h265" as const };
   }
