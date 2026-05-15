@@ -550,28 +550,32 @@
           layer.appendChild(d);
         });
 
-        /* animate captions with word highlight */
-        function animateCaption(c) {
+        /* animate captions — duration spans exactly to the next caption start */
+        function animateCaption(c, nextStart) {
+          var gap = (nextStart !== null) ? nextStart - c.start : 3.5;
+          var totalDur = Math.max(Math.min(gap - 0.06, 3.5), 0.5);
           var n = c.words.length;
-          var totalDur = n <= 2 ? 2.5 : 3.2;
-          var wordDur  = (totalDur - 0.4) / n;
+          var wordDur = (totalDur - 0.15) / n;
 
-          tl.to('#' + c.id, { opacity: 1, duration: 0.2 }, c.start);
+          tl.to('#' + c.id, { opacity: 1, duration: 0.12 }, c.start);
 
           c.words.forEach(function (_, i) {
-            var wStart = c.start + 0.2 + i * wordDur;
+            var wStart = c.start + 0.12 + i * wordDur;
             if (i > 0) {
               tl.to('#' + c.id + ' .cw:nth-child(' + i + ')',
-                { backgroundColor: 'rgba(0,0,0,0)', color: '#fff', duration: 0.1 }, wStart);
+                { backgroundColor: 'rgba(0,0,0,0)', color: '#fff', duration: 0.08 }, wStart);
             }
             tl.to('#' + c.id + ' .cw:nth-child(' + (i + 1) + ')',
-              { backgroundColor: 'rgba(245,158,11,0.85)', color: '#000', duration: 0.1 }, wStart);
+              { backgroundColor: 'rgba(245,158,11,0.85)', color: '#000', duration: 0.08 }, wStart);
           });
 
-          tl.to('#' + c.id, { opacity: 0, duration: 0.22 }, c.start + totalDur - 0.22);
+          tl.to('#' + c.id, { opacity: 0, duration: 0.12 }, c.start + totalDur - 0.12);
         }
 
-        captionData.forEach(animateCaption);
+        captionData.forEach(function (c, i) {
+          var nextStart = (i + 1 < captionData.length) ? captionData[i + 1].start : null;
+          animateCaption(c, nextStart);
+        });
 
         window.__timelines['overlays'] = tl;
       })();
