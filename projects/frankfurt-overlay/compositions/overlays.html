@@ -236,8 +236,9 @@
       }
       .cw {
         display: inline-block;
-        font-size: 22px; font-weight: 700;
+        font-size: 24px; font-weight: 700;
         color: #fff;
+        text-transform: uppercase;
         text-shadow: 0 1px 6px rgba(0,0,0,0.95), 0 0 18px rgba(0,0,0,0.7);
         padding: 3px 7px;
         border-radius: 4px;
@@ -300,63 +301,46 @@
         );
 
         /* ── CAPTIONS ────────────────────────────────────────────── */
-        /* Captions only appear in the gaps between cards/titles:
-           7–13.5s | 22.5–34.5s | 44–58.5s | 67.5–88.5s |
-           98–124.5s | 137–152.5s | 162–181.5s | 191–212s  */
+        /* Captions spread evenly across full video ~every 5-6s */
         var captionData = [
-          // Gap 1: 7–13.5s
-          { id:'c01', start:7.0,  words:['Wir','erkunden','Frankfurt'] },
-          { id:'c02', start:10.3, words:['Flughafen','FRA','direkt'] },
-
-          // Gap 2: 22.5–34.5s
-          { id:'c03', start:22.5, words:['Über','57','Millionen'] },
-          { id:'c04', start:25.8, words:['Passagiere','jährlich'] },
-          { id:'c05', start:28.8, words:['reisen','durch','FRA'] },
-          { id:'c06', start:31.8, words:['Tag','für','Tag'] },
-
-          // Gap 3: 44–58.5s
-          { id:'c07', start:44.0, words:['Die','Sicherheitskontrolle'] },
-          { id:'c08', start:47.0, words:['dauert','sehr','lange'] },
-          { id:'c09', start:50.0, words:['bis','zu','60','Minuten'] },
-          { id:'c10', start:53.5, words:['in','den','Stoßzeiten'] },
-
-          // Gap 4: 67.5–88.5s
-          { id:'c11', start:67.5, words:['Morgens','und','freitags'] },
-          { id:'c12', start:71.0, words:['sind','die','schlimmsten'] },
-          { id:'c13', start:74.5, words:['Zeiten','am','Flughafen'] },
-          { id:'c14', start:78.5, words:['Plane','extra','Zeit','ein'] },
-          { id:'c15', start:82.5, words:['lieber','früher','da'] },
-
-          // Gap 5: 98–124.5s
-          { id:'c16', start:98.0,  words:['Drei','Stunden','vorher'] },
-          { id:'c17', start:101.3, words:['am','Flughafen','ankommen'] },
-          { id:'c18', start:105.0, words:['Online','Check-in','nutzen'] },
-          { id:'c19', start:108.5, words:['spart','wertvolle','Zeit'] },
-          { id:'c20', start:112.0, words:['Laptop','separat','hinlegen'] },
-          { id:'c21', start:115.5, words:['Flüssigkeiten','richtig'] },
-          { id:'c22', start:118.5, words:['verstauen','nicht','vergessen'] },
-          { id:'c23', start:122.0, words:['gut','vorbereitet','fliegen'] },
-
-          // Gap 6: 137–152.5s
-          { id:'c24', start:137.0, words:['Zuerst','der','Check-in'] },
-          { id:'c25', start:140.3, words:['dann','zur','Security'] },
-          { id:'c26', start:143.8, words:['und','schließlich','Gate'] },
-          { id:'c27', start:147.3, words:['pünktlich','zum','Abflug'] },
-
-          // Gap 7: 162–181.5s
-          { id:'c28', start:162.0, words:['Terminal','1','und','2'] },
-          { id:'c29', start:165.3, words:['liegen','weit','auseinander'] },
-          { id:'c30', start:169.0, words:['die','SkyLine','verbindet'] },
-          { id:'c31', start:172.5, words:['beide','in','8','Minuten'] },
-          { id:'c32', start:176.0, words:['Terminal','immer','prüfen'] },
-          { id:'c33', start:179.3, words:['vor','dem','Abflug'] },
-
-          // Gap 8: 191–212s
-          { id:'c34', start:191.0, words:['Europas','viertgrößter','Hub'] },
-          { id:'c35', start:194.5, words:['über','100','Airlines'] },
-          { id:'c36', start:198.0, words:['direkte','Verbindungen','weltweit'] },
-          { id:'c37', start:201.5, words:['Nummer','1','in','Deutschland'] },
-          { id:'c38', start:205.0, words:['für','alle','Reisenden'] }
+          { id:'c01', start:2.0,  words:['Wir','erkunden','Frankfurt'] },
+          { id:'c02', start:7.5,  words:['Flughafen','FRA','direkt'] },
+          { id:'c03', start:13.0, words:['Europas','größter','Hub'] },
+          { id:'c04', start:18.5, words:['Über','57','Millionen'] },
+          { id:'c05', start:24.0, words:['Passagiere','jährlich'] },
+          { id:'c06', start:29.5, words:['reisen','durch','FRA'] },
+          { id:'c07', start:35.0, words:['Tag','für','Tag'] },
+          { id:'c08', start:40.5, words:['Die','Sicherheitskontrolle'] },
+          { id:'c09', start:46.0, words:['dauert','sehr','lange'] },
+          { id:'c10', start:51.5, words:['bis','zu','60','Minuten'] },
+          { id:'c11', start:57.0, words:['in','den','Stoßzeiten'] },
+          { id:'c12', start:63.0, words:['Morgens','und','freitags'] },
+          { id:'c13', start:68.5, words:['sind','die','schlimmsten'] },
+          { id:'c14', start:74.0, words:['Zeiten','am','Flughafen'] },
+          { id:'c15', start:79.5, words:['Plane','extra','Zeit','ein'] },
+          { id:'c16', start:85.0, words:['lieber','früher','da'] },
+          { id:'c17', start:91.0, words:['Drei','Stunden','vorher'] },
+          { id:'c18', start:96.5, words:['am','Flughafen','ankommen'] },
+          { id:'c19', start:102.0, words:['Online','Check-in','nutzen'] },
+          { id:'c20', start:107.5, words:['spart','wertvolle','Zeit'] },
+          { id:'c21', start:113.0, words:['Laptop','separat','hinlegen'] },
+          { id:'c22', start:118.5, words:['Flüssigkeiten','richtig'] },
+          { id:'c23', start:124.0, words:['verstauen','nicht','vergessen'] },
+          { id:'c24', start:129.5, words:['Zuerst','der','Check-in'] },
+          { id:'c25', start:135.0, words:['dann','zur','Security'] },
+          { id:'c26', start:140.5, words:['und','schließlich','Gate'] },
+          { id:'c27', start:146.0, words:['pünktlich','zum','Abflug'] },
+          { id:'c28', start:151.5, words:['Terminal','1','und','2'] },
+          { id:'c29', start:157.0, words:['liegen','weit','auseinander'] },
+          { id:'c30', start:162.5, words:['die','SkyLine','verbindet'] },
+          { id:'c31', start:168.0, words:['beide','in','8','Minuten'] },
+          { id:'c32', start:173.5, words:['Terminal','immer','prüfen'] },
+          { id:'c33', start:179.0, words:['vor','dem','Abflug'] },
+          { id:'c34', start:184.5, words:['Europas','viertgrößter','Hub'] },
+          { id:'c35', start:190.0, words:['über','100','Airlines'] },
+          { id:'c36', start:195.5, words:['direkte','Verbindungen','weltweit'] },
+          { id:'c37', start:201.0, words:['Nummer','1','in','Deutschland'] },
+          { id:'c38', start:207.0, words:['für','alle','Reisenden'] }
         ];
 
         /* build caption DOM */
