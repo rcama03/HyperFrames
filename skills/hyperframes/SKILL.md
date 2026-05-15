@@ -9,18 +9,24 @@ HTML is the source of truth for video. A composition is an HTML file with `data-
 
 ## Approach
 
-### Discovery (exploratory requests only)
+### Brief (exploratory requests only)
 
-For open-ended requests ("make me a product launch video", "create something for our brand") where the user hasn't committed to a direction, understand intent before picking colors:
+For open-ended requests ("make me a product launch video", "create something for our brand"), gather what's missing from the prompt before building a design system. For specific requests ("add a title card", "fix the timing on scene 3"), skip this.
 
-- **Audience** — who watches this? Developers? Executives? General consumers?
-- **Platform** — where does it play? Social (15s), website hero, product demo, internal?
-- **Priority** — what matters most? Motion quality? Content accuracy? Brand fidelity? Speed?
-- **Variations** — does the user want options, or a single best shot?
+Extract what you can from the prompt itself — only ask about what's genuinely missing. Ask **one question at a time** and let each answer inform the next. Combine two questions in one message when they're naturally related, but never dump a list.
 
-For specific requests ("add a title card", "fix the timing on scene 3"), skip discovery.
+**Format each question as a lettered multiple choice** (A, B, C, D) so the user can respond with just a letter. Include 2-4 contextual options plus the option to give a custom answer. Tailor the options to the specific prompt — don't use generic choices.
 
-For exploratory requests, consider offering 2-3 variations that differ meaningfully — not just color swaps, but different pacing, energy levels, or structural approaches. One safe/expected, one ambitious. Don't mandate this — it's a tool available when appropriate.
+The questions (in rough priority order):
+
+- **Audience** — who watches this? (Developers, executives, consumers — changes type scale, density, easing)
+- **Emotion** — what should the viewer feel? (Maps directly to mood board clustering in the picker. Sharpen this based on the audience answer — "technical precision or breakthrough excitement?" is better than "what mood?")
+- **Brand assets** — do they have a logo, existing colors, fonts, website? (If yes, palettes and type pairings derive from them. If no, skip — full creative freedom.)
+- **Light or dark?** (Eliminates half the palette options. Can often combine with another question.)
+- **Surface** — where does this play? (Social → portrait/punchy, website hero → landscape/looping, presentation → widescreen/breathable, internal → information-dense)
+- **Key takeaway** — what's the one thing the viewer should remember? (Drives focal hierarchy in architecture previews)
+
+Most prompts already answer 2-3 of these — a typical brief is 2-3 questions, not 6. These answers seed the design picker in Step 1 — pass them when generating mood boards, palettes, and architectures.
 
 ### Step 1: Design system
 
@@ -476,6 +482,7 @@ Skip on small edits (fixing a color, adjusting one duration). Run on new composi
 - **[references/techniques.md](references/techniques.md)** — 11 visual techniques with code patterns: SVG drawing, Canvas 2D, CSS 3D, kinetic type, Lottie, video compositing, typing effect, variable fonts, MotionPath, velocity transitions, audio-reactive. Read when planning techniques per beat.
 - **[references/narration.md](references/narration.md)** — Pacing, tone, script structure, number pronunciation, opening line patterns. Read when the composition includes voiceover or TTS.
 - **[references/design-picker.md](references/design-picker.md)** — Create a design.md via visual picker. Read when no design.md exists and the user wants to create one.
+- **[references/shader-backgrounds.md](references/shader-backgrounds.md)** — GLSL shader patterns for contextual scene backgrounds. Noise library, domain warping, pattern recipes by context (travel, medical, tech, industrial). Read when building shader backgrounds for compositions or the design picker.
 - **[visual-styles.md](visual-styles.md)** — 8 named visual styles with hex palettes, GSAP easing signatures, and shader pairings. Read when user names a style or when generating design.md.
 - **[house-style.md](house-style.md)** — Default motion, sizing, and color palettes when no design.md is specified.
 - **[patterns.md](patterns.md)** — PiP, title cards, slide show patterns.
