@@ -1,15 +1,20 @@
 <template id="overlays-template">
   <div data-composition-id="overlays" data-width="1280" data-height="720" data-duration="222.8">
 
-    <!-- ─── 1. Intro Title Card (2s – 9s) ─────────────────────────────── -->
-    <div id="intro-card" class="intro-card">
+    <!-- ═══════════════════════════════════════════════════════════════════
+         OVERLAY ELEMENTS  (each visible for exactly 3 seconds)
+         enter 0.5s · hold ~2s · exit 0.5s
+    ════════════════════════════════════════════════════════════════════ -->
+
+    <!-- 1. Intro Title Card  2s – 5s  ── 3D flip in ───────────────── -->
+    <div id="intro-card" class="glass-card intro-card">
       <div class="intro-eyebrow">FRANKFURTER FLUGHAFEN · FRA</div>
       <div class="intro-title">Warum du früher<br>losmusst</div>
       <div class="intro-rule"></div>
     </div>
 
-    <!-- ─── 2. Lower Third: Hub Identity (17s – 29s) ─────────────────── -->
-    <div id="lt-hub" class="lower-third">
+    <!-- 2. Lower Third  17s – 20s  ── blur slide up ───────────────── -->
+    <div id="lt-hub" class="glass-card lower-third">
       <div class="lt-bar"></div>
       <div class="lt-body">
         <div class="lt-label">FRANKFURT AIRPORT</div>
@@ -17,15 +22,15 @@
       </div>
     </div>
 
-    <!-- ─── 3. Stat Pill: Security Wait (38s – 56s) ───────────────────── -->
-    <div id="stat-security" class="stat-pill">
-      <div class="sp-number">30–60</div>
+    <!-- 3. Stat Pill  38s – 41s  ── elastic bounce + counter ────── -->
+    <div id="stat-security" class="glass-card stat-pill">
+      <div class="sp-number" id="sp-num">30–60</div>
       <div class="sp-unit">MIN</div>
       <div class="sp-label">Sicherheitskontrolle<br>Wartezeit in Stoßzeiten</div>
     </div>
 
-    <!-- ─── 4. Warning: Peak Crowds (62s – 82s) ──────────────────────── -->
-    <div id="warning-peak" class="warning-card">
+    <!-- 4. Warning Card  62s – 65s  ── zoom shake + red pulse ─────── -->
+    <div id="warning-peak" class="glass-card warning-card">
       <div class="wc-icon">⚠</div>
       <div class="wc-body">
         <div class="wc-title">STOSSZEITEN</div>
@@ -33,39 +38,39 @@
       </div>
     </div>
 
-    <!-- ─── 5. Tip #1: Arrive Early (92s – 112s) ─────────────────────── -->
-    <div id="tip-1" class="tip-card">
+    <!-- 5. Tip #1  92s – 95s  ── typewriter slide from left ───────── -->
+    <div id="tip-1" class="glass-card tip-card">
       <div class="tip-num">01</div>
       <div class="tip-sep"></div>
       <div class="tip-body">
         <div class="tip-label">TIPP</div>
-        <div class="tip-text">3 Stunden vor Abflug<br>am Flughafen sein</div>
+        <div class="tip-text" id="tip1-text">3 Stunden vor Abflug<br>am Flughafen sein</div>
       </div>
     </div>
 
-    <!-- ─── 6. Timeline Graphic (128s – 150s) ────────────────────────── -->
-    <div id="timeline-graphic" class="timeline-graphic">
+    <!-- 6. Timeline Graphic  128s – 131s  ── dot + line reveal ──────── -->
+    <div id="timeline-graphic" class="glass-card timeline-graphic">
       <div class="tg-title">EMPFOHLENER ZEITPLAN</div>
       <div class="tg-track">
-        <div class="tg-step">
+        <div class="tg-step tg-step-anim" style="--i:0">
           <div class="tg-dot"></div>
           <div class="tg-step-name">Check-in</div>
           <div class="tg-step-time">T−3h</div>
         </div>
-        <div class="tg-segment"><div class="tg-fill"></div></div>
-        <div class="tg-step">
+        <div class="tg-segment"><div class="tg-fill" id="tg-fill-1"></div></div>
+        <div class="tg-step tg-step-anim" style="--i:1">
           <div class="tg-dot"></div>
           <div class="tg-step-name">Security</div>
           <div class="tg-step-time">T−2h</div>
         </div>
-        <div class="tg-segment"><div class="tg-fill"></div></div>
-        <div class="tg-step">
+        <div class="tg-segment"><div class="tg-fill" id="tg-fill-2"></div></div>
+        <div class="tg-step tg-step-anim" style="--i:2">
           <div class="tg-dot"></div>
           <div class="tg-step-name">Gate</div>
           <div class="tg-step-time">T−45min</div>
         </div>
-        <div class="tg-segment"><div class="tg-fill"></div></div>
-        <div class="tg-step">
+        <div class="tg-segment"><div class="tg-fill" id="tg-fill-3"></div></div>
+        <div class="tg-step tg-step-anim" style="--i:3">
           <div class="tg-dot tg-dot-gold"></div>
           <div class="tg-step-name">Abflug</div>
           <div class="tg-step-time">T−0</div>
@@ -73,47 +78,69 @@
       </div>
     </div>
 
-    <!-- ─── 7. Tip #2: Two Terminals (156s – 176s) ───────────────────── -->
-    <div id="tip-2" class="tip-card tip-card-right">
-      <div class="tip-num">02</div>
-      <div class="tip-sep"></div>
-      <div class="tip-body">
-        <div class="tip-label">TIPP</div>
-        <div class="tip-text">Terminal 1 &amp; 2 prüfen —<br>SkyLine: 8 Min Transfer</div>
+    <!-- 7. Tip #2  156s – 159s  ── rotateY card flip ─────────────── -->
+    <div id="tip-2-wrapper" class="flip-wrapper">
+      <div id="tip-2" class="glass-card tip-card tip-card-right">
+        <div class="tip-num">02</div>
+        <div class="tip-sep"></div>
+        <div class="tip-body">
+          <div class="tip-label">TIPP</div>
+          <div class="tip-text">Terminal 1 &amp; 2 prüfen —<br>SkyLine: 8 Min Transfer</div>
+        </div>
       </div>
     </div>
 
-    <!-- ─── 8. Stat Bar: Airport Facts (185s – 205s) ─────────────────── -->
-    <div id="stat-bar" class="stat-bar">
+    <!-- 8. Stat Bar  185s – 188s  ── staggered metric pop-in ────── -->
+    <div id="stat-bar" class="glass-card stat-bar">
       <div class="sb-title">FRANKFURT AIRPORT · FRA · FACTS</div>
       <div class="sb-metrics">
-        <div class="sb-metric">
+        <div class="sb-metric" data-metric="0">
           <div class="sb-val">57 Mio</div>
           <div class="sb-lbl">Passagiere / Jahr</div>
         </div>
         <div class="sb-sep"></div>
-        <div class="sb-metric">
+        <div class="sb-metric" data-metric="1">
           <div class="sb-val">2</div>
           <div class="sb-lbl">Terminals</div>
         </div>
         <div class="sb-sep"></div>
-        <div class="sb-metric">
+        <div class="sb-metric" data-metric="2">
           <div class="sb-val">100+</div>
           <div class="sb-lbl">Airlines</div>
         </div>
         <div class="sb-sep"></div>
-        <div class="sb-metric">
+        <div class="sb-metric" data-metric="3">
           <div class="sb-val">#1</div>
           <div class="sb-lbl">in Deutschland</div>
         </div>
       </div>
     </div>
 
-    <!-- ─── 9. CTA Bar (212s – 222.8s) ──────────────────────────────── -->
+    <!-- 9. CTA Bar  212s – 215s  ── elastic slide from bottom ──────── -->
     <div id="cta-bar" class="cta-bar">
       <div class="cta-text">Früher am Flughafen = Stress-freie Reise</div>
       <div class="cta-check" id="cta-check">✓</div>
     </div>
+
+    <!-- ── SOUND EFFECTS (timed to each overlay entrance) ─────────── -->
+    <!-- 1. Intro: ding at 2s -->
+    <audio src="../sfx/ding.wav"  data-start="2"   data-duration="0.5" data-layer="10" data-volume="0.75"></audio>
+    <!-- 2. Lower third: swoosh at 17s -->
+    <audio src="../sfx/swoosh.wav" data-start="17"  data-duration="0.35" data-layer="10" data-volume="0.7"></audio>
+    <!-- 3. Stat pill: pop at 38s -->
+    <audio src="../sfx/pop.wav"   data-start="38"  data-duration="0.25" data-layer="10" data-volume="0.8"></audio>
+    <!-- 4. Warning: alert at 62s -->
+    <audio src="../sfx/alert.wav" data-start="62"  data-duration="0.45" data-layer="10" data-volume="0.75"></audio>
+    <!-- 5. Tip 1: swoosh at 92s -->
+    <audio src="../sfx/swoosh.wav" data-start="92"  data-duration="0.35" data-layer="10" data-volume="0.7"></audio>
+    <!-- 6. Timeline: ding at 128s -->
+    <audio src="../sfx/ding.wav"  data-start="128" data-duration="0.5"  data-layer="10" data-volume="0.7"></audio>
+    <!-- 7. Tip 2: pop at 156s -->
+    <audio src="../sfx/pop.wav"   data-start="156" data-duration="0.25" data-layer="10" data-volume="0.8"></audio>
+    <!-- 8. Stat bar: swoosh at 185s -->
+    <audio src="../sfx/swoosh.wav" data-start="185" data-duration="0.35" data-layer="10" data-volume="0.7"></audio>
+    <!-- 9. CTA: chime at 212s -->
+    <audio src="../sfx/chime.wav" data-start="212" data-duration="0.6"  data-layer="10" data-volume="0.8"></audio>
 
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
@@ -124,21 +151,33 @@
         height: 720px;
         font-family: 'Inter', system-ui, -apple-system, sans-serif;
         overflow: hidden;
+        perspective: 1200px;
       }
 
-      /* ── INTRO CARD ───────────────────────────────────────────────── */
+      /* ── GLASSMORPHISM BASE ─────────────────────────────────────── */
+      .glass-card {
+        background: rgba(255, 255, 255, 0.07);
+        backdrop-filter: blur(18px) saturate(160%);
+        -webkit-backdrop-filter: blur(18px) saturate(160%);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        box-shadow:
+          0 8px 32px rgba(0, 0, 0, 0.45),
+          inset 0 1px 0 rgba(255, 255, 255, 0.12);
+      }
+
+      /* ── 1. INTRO CARD ──────────────────────────────────────────── */
       #intro-card {
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -52%) scale(0.92);
-        background: rgba(6, 6, 6, 0.92);
-        border: 1px solid rgba(245, 158, 11, 0.45);
-        border-radius: 18px;
+        transform: translate(-50%, -52%) rotateX(-90deg) scale(0.8);
+        border-radius: 20px;
         padding: 40px 64px 36px;
         text-align: center;
         opacity: 0;
         min-width: 480px;
+        transform-origin: center top;
+        transform-style: preserve-3d;
       }
 
       #intro-card .intro-eyebrow {
@@ -159,36 +198,35 @@
       }
 
       #intro-card .intro-rule {
-        width: 40px;
+        width: 0px;
         height: 2px;
-        background: #F59E0B;
+        background: linear-gradient(90deg, transparent, #F59E0B, transparent);
         margin: 20px auto 0;
         border-radius: 1px;
       }
 
-      /* ── LOWER THIRD ──────────────────────────────────────────────── */
+      /* ── 2. LOWER THIRD ─────────────────────────────────────────── */
       .lower-third {
         position: absolute;
         bottom: 56px;
         left: 56px;
         display: flex;
         align-items: stretch;
+        border-radius: 12px;
         opacity: 0;
+        filter: blur(12px);
+        transform: translateY(20px);
+        overflow: hidden;
       }
 
       .lt-bar {
         width: 3px;
-        background: #F59E0B;
-        border-radius: 2px;
-        margin-right: 14px;
+        background: linear-gradient(180deg, #F59E0B, #EF4444);
         flex-shrink: 0;
       }
 
       .lt-body {
-        background: rgba(6, 6, 6, 0.88);
-        border-radius: 10px;
         padding: 12px 20px;
-        border: 1px solid rgba(255, 255, 255, 0.07);
       }
 
       .lt-label {
@@ -207,18 +245,16 @@
         letter-spacing: -0.3px;
       }
 
-      /* ── STAT PILL ────────────────────────────────────────────────── */
+      /* ── 3. STAT PILL ───────────────────────────────────────────── */
       #stat-security {
         position: absolute;
         right: 56px;
         top: 50%;
-        transform: translateY(-50%) translateX(50px);
-        background: rgba(6, 6, 6, 0.90);
-        border-radius: 18px;
+        transform: translateY(-50%) scale(0);
+        border-radius: 20px;
         padding: 26px 34px;
         text-align: center;
         opacity: 0;
-        border: 1px solid rgba(245, 158, 11, 0.38);
         min-width: 190px;
       }
 
@@ -228,6 +264,7 @@
         color: #F59E0B;
         letter-spacing: -2px;
         line-height: 1;
+        text-shadow: 0 0 20px rgba(245,158,11,0.5);
       }
 
       .sp-unit {
@@ -241,11 +278,11 @@
       .sp-label {
         font-size: 12px;
         font-weight: 500;
-        color: rgba(255, 255, 255, 0.55);
+        color: rgba(255, 255, 255, 0.65);
         line-height: 1.5;
       }
 
-      /* ── WARNING CARD ─────────────────────────────────────────────── */
+      /* ── 4. WARNING CARD ────────────────────────────────────────── */
       #warning-peak {
         position: absolute;
         top: 48px;
@@ -253,12 +290,12 @@
         display: flex;
         align-items: flex-start;
         gap: 12px;
-        background: rgba(6, 6, 6, 0.90);
-        border-radius: 14px;
+        border-radius: 16px;
         padding: 18px 22px;
         border-left: 3px solid #EF4444;
         opacity: 0;
-        max-width: 230px;
+        max-width: 240px;
+        transform: scale(0.6);
       }
 
       .wc-icon {
@@ -284,33 +321,33 @@
         line-height: 1.45;
       }
 
-      /* ── TIP CARDS ────────────────────────────────────────────────── */
+      /* ── 5. TIP CARDS ───────────────────────────────────────────── */
       .tip-card {
         position: absolute;
         top: 50%;
         left: 56px;
-        transform: translateY(-50%) translateX(-50px);
-        background: rgba(6, 6, 6, 0.90);
-        border-radius: 16px;
+        transform: translateY(-50%) translateX(-120px);
+        border-radius: 18px;
         padding: 22px 26px;
         display: flex;
         align-items: center;
         gap: 18px;
         opacity: 0;
-        border: 1px solid rgba(255, 255, 255, 0.07);
-        max-width: 300px;
+        max-width: 320px;
+        clip-path: inset(0 100% 0 0);
       }
 
       .tip-card-right {
         left: auto;
         right: 56px;
-        transform: translateY(-50%) translateX(50px);
+        transform: translateY(-50%) translateX(120px);
+        clip-path: inset(0 0 0 100%);
       }
 
       .tip-num {
         font-size: 38px;
         font-weight: 900;
-        color: rgba(245, 158, 11, 0.28);
+        color: rgba(245, 158, 11, 0.35);
         letter-spacing: -2px;
         line-height: 1;
         flex-shrink: 0;
@@ -319,7 +356,7 @@
       .tip-sep {
         width: 1px;
         height: 54px;
-        background: rgba(255, 255, 255, 0.12);
+        background: rgba(255, 255, 255, 0.18);
         flex-shrink: 0;
       }
 
@@ -340,18 +377,17 @@
         letter-spacing: -0.2px;
       }
 
-      /* ── TIMELINE GRAPHIC ─────────────────────────────────────────── */
+      /* ── 6. TIMELINE GRAPHIC ────────────────────────────────────── */
       #timeline-graphic {
         position: absolute;
         bottom: 52px;
         left: 50%;
-        transform: translateX(-50%) translateY(30px);
-        background: rgba(6, 6, 6, 0.90);
-        border-radius: 14px;
+        transform: translateX(-50%) scaleX(0);
+        border-radius: 16px;
         padding: 18px 30px 20px;
         opacity: 0;
-        border: 1px solid rgba(255, 255, 255, 0.07);
         min-width: 580px;
+        transform-origin: center center;
       }
 
       .tg-title {
@@ -375,6 +411,8 @@
         align-items: center;
         gap: 6px;
         flex-shrink: 0;
+        opacity: 0;
+        transform: translateY(10px);
       }
 
       .tg-dot {
@@ -387,7 +425,7 @@
 
       .tg-dot-gold {
         background: #F59E0B;
-        box-shadow: 0 0 8px rgba(245, 158, 11, 0.7);
+        box-shadow: 0 0 10px rgba(245, 158, 11, 0.8);
       }
 
       .tg-step-name {
@@ -400,7 +438,7 @@
       .tg-step-time {
         font-size: 10px;
         font-weight: 500;
-        color: rgba(255, 255, 255, 0.45);
+        color: rgba(255, 255, 255, 0.5);
         white-space: nowrap;
       }
 
@@ -420,20 +458,40 @@
         left: 0;
         height: 100%;
         width: 0%;
-        background: #F59E0B;
+        background: linear-gradient(90deg, #F59E0B, #EF4444);
+        box-shadow: 0 0 6px rgba(245,158,11,0.6);
       }
 
-      /* ── STAT BAR ─────────────────────────────────────────────────── */
+      /* ── 7. FLIP WRAPPER ────────────────────────────────────────── */
+      .flip-wrapper {
+        position: absolute;
+        top: 50%;
+        right: 56px;
+        transform: translateY(-50%);
+        perspective: 800px;
+      }
+
+      #tip-2 {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+        transform: rotateY(-90deg);
+        transform-origin: left center;
+        transform-style: preserve-3d;
+        clip-path: none;
+        backface-visibility: hidden;
+      }
+
+      /* ── 8. STAT BAR ────────────────────────────────────────────── */
       #stat-bar {
         position: absolute;
         bottom: 52px;
         left: 50%;
         transform: translateX(-50%) translateY(30px);
-        background: rgba(6, 6, 6, 0.90);
-        border-radius: 14px;
+        border-radius: 16px;
         padding: 18px 36px 20px;
         opacity: 0;
-        border: 1px solid rgba(255, 255, 255, 0.07);
       }
 
       .sb-title {
@@ -455,6 +513,8 @@
       .sb-metric {
         text-align: center;
         min-width: 80px;
+        opacity: 0;
+        transform: translateY(12px) scale(0.85);
       }
 
       .sb-val {
@@ -468,7 +528,7 @@
       .sb-lbl {
         font-size: 10px;
         font-weight: 500;
-        color: rgba(255, 255, 255, 0.45);
+        color: rgba(255, 255, 255, 0.5);
         margin-top: 5px;
         white-space: nowrap;
       }
@@ -476,25 +536,25 @@
       .sb-sep {
         width: 1px;
         height: 38px;
-        background: rgba(255, 255, 255, 0.10);
+        background: rgba(255, 255, 255, 0.15);
         flex-shrink: 0;
       }
 
-      /* ── CTA BAR ──────────────────────────────────────────────────── */
+      /* ── 9. CTA BAR ─────────────────────────────────────────────── */
       #cta-bar {
         position: absolute;
         bottom: 0;
         left: 0;
         right: 0;
-        background: rgba(245, 158, 11, 0.97);
+        background: linear-gradient(90deg, rgba(245,158,11,0.95), rgba(239,68,68,0.95));
         padding: 16px 60px;
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 14px;
-        /* initial state controlled by GSAP fromTo, not CSS transform */
         opacity: 0;
         visibility: hidden;
+        transform: translateY(72px);
       }
 
       #cta-bar .cta-text {
@@ -509,6 +569,7 @@
         font-weight: 900;
         color: #000;
         opacity: 0;
+        transform: scale(0);
       }
     </style>
 
@@ -517,111 +578,187 @@
         window.__timelines = window.__timelines || {};
         const tl = gsap.timeline({ paused: true });
 
-        /* ── 1. Intro Card: 2s – 9s ─────────────────────────────────── */
+        /* ────────────────────────────────────────────────────────────
+           HELPER: each overlay is exactly 3 seconds
+           enter 0.45s | hold | exit 0.45s
+        ──────────────────────────────────────────────────────────── */
+
+        /* ── 1. INTRO CARD  2s → 5s  (3D flip down from top) ─────── */
         tl.to('#intro-card', {
-          opacity: 1, scale: 1,
-          duration: 0.75, ease: 'power2.out'
+          opacity: 1,
+          rotateX: 0,
+          scale: 1,
+          duration: 0.5,
+          ease: 'back.out(1.6)'
         }, 2);
         tl.to('#intro-card .intro-rule', {
-          scaleX: 1, duration: 0.4, ease: 'power2.out'
-        }, 2.6);
+          width: 60,
+          duration: 0.4,
+          ease: 'power2.out'
+        }, 2.45);
         tl.to('#intro-card', {
-          opacity: 0, scale: 0.96,
-          duration: 0.5, ease: 'power2.in'
-        }, 8.4);
+          opacity: 0,
+          rotateX: 90,
+          scale: 0.85,
+          duration: 0.45,
+          ease: 'power2.in'
+        }, 4.55);
 
-        /* ── 2. Lower Third Hub: 17s – 29s ──────────────────────────── */
+        /* ── 2. LOWER THIRD  17s → 20s  (blur + slide up) ────────── */
         tl.to('#lt-hub', {
-          opacity: 1, x: 0,
-          duration: 0.6, ease: 'power2.out'
+          opacity: 1,
+          filter: 'blur(0px)',
+          y: 0,
+          duration: 0.5,
+          ease: 'power3.out'
         }, 17);
-        gsap.set('#lt-hub', { x: -40 });
         tl.to('#lt-hub', {
-          opacity: 0, x: -20,
-          duration: 0.4, ease: 'power2.in'
-        }, 28.3);
+          opacity: 0,
+          filter: 'blur(10px)',
+          y: 20,
+          duration: 0.45,
+          ease: 'power2.in'
+        }, 19.55);
 
-        /* ── 3. Stat Pill Security: 38s – 56s ───────────────────────── */
-        tl.fromTo('#stat-security',
-          { opacity: 0, x: 50 },
-          { opacity: 1, x: 0, duration: 0.7, ease: 'back.out(1.4)' },
-          38
-        );
+        /* ── 3. STAT PILL  38s → 41s  (elastic scale bounce) ─────── */
         tl.to('#stat-security', {
-          opacity: 0, x: 30,
-          duration: 0.45, ease: 'power2.in'
-        }, 55.2);
-
-        /* ── 4. Warning Card: 62s – 82s ─────────────────────────────── */
-        tl.fromTo('#warning-peak',
-          { opacity: 0, y: -18 },
-          { opacity: 1, y: 0, duration: 0.6, ease: 'power2.out' },
-          62
-        );
-        tl.to('#warning-peak', {
-          opacity: 0, y: -12,
-          duration: 0.4, ease: 'power2.in'
-        }, 81.2);
-
-        /* ── 5. Tip Card #1: 92s – 112s ─────────────────────────────── */
-        tl.fromTo('#tip-1',
-          { opacity: 0, x: -50 },
-          { opacity: 1, x: 0, duration: 0.6, ease: 'power2.out' },
-          92
-        );
-        tl.to('#tip-1', {
-          opacity: 0, x: -25,
-          duration: 0.4, ease: 'power2.in'
-        }, 111.3);
-
-        /* ── 6. Timeline Graphic: 128s – 150s ───────────────────────── */
-        tl.to('#timeline-graphic', {
-          opacity: 1, y: 0,
-          duration: 0.7, ease: 'power2.out'
-        }, 128);
-        tl.to('#timeline-graphic .tg-fill', {
-          width: '100%',
-          duration: 0.7,
-          stagger: 0.45,
+          opacity: 1,
+          scale: 1,
+          duration: 0.55,
+          ease: 'elastic.out(1, 0.5)'
+        }, 38);
+        /* glow pulse while visible */
+        tl.to('#stat-security', {
+          boxShadow: '0 0 40px rgba(245,158,11,0.6), 0 8px 32px rgba(0,0,0,0.45)',
+          duration: 0.3,
+          yoyo: true,
+          repeat: 2,
           ease: 'power1.inOut'
-        }, 129);
+        }, 38.6);
+        tl.to('#stat-security', {
+          opacity: 0,
+          scale: 0,
+          duration: 0.4,
+          ease: 'back.in(1.8)'
+        }, 40.6);
+
+        /* ── 4. WARNING CARD  62s → 65s  (zoom + shake) ──────────── */
+        tl.to('#warning-peak', {
+          opacity: 1,
+          scale: 1,
+          duration: 0.4,
+          ease: 'back.out(2)'
+        }, 62);
+        /* horizontal shake */
+        tl.to('#warning-peak', {
+          x: -6, duration: 0.06, ease: 'none', yoyo: true, repeat: 5
+        }, 62.45);
+        tl.to('#warning-peak', { x: 0, duration: 0.04 }, 62.82);
+        tl.to('#warning-peak', {
+          opacity: 0,
+          scale: 0.7,
+          rotation: -5,
+          duration: 0.45,
+          ease: 'power3.in'
+        }, 64.55);
+
+        /* ── 5. TIP #1  92s → 95s  (clip-path wipe + slide) ─────── */
+        tl.to('#tip-1', {
+          opacity: 1,
+          x: 0,
+          'clip-path': 'inset(0 0% 0 0)',
+          duration: 0.5,
+          ease: 'power2.out'
+        }, 92);
+        tl.to('#tip-1', {
+          opacity: 0,
+          x: -40,
+          'clip-path': 'inset(0 100% 0 0)',
+          duration: 0.45,
+          ease: 'power2.in'
+        }, 94.55);
+
+        /* ── 6. TIMELINE GRAPHIC  128s → 131s  (scale + dot reveal) ─ */
         tl.to('#timeline-graphic', {
-          opacity: 0, y: 20,
-          duration: 0.5, ease: 'power2.in'
-        }, 149.2);
+          opacity: 1,
+          scaleX: 1,
+          duration: 0.45,
+          ease: 'power2.out'
+        }, 128);
+        tl.to('.tg-step', {
+          opacity: 1,
+          y: 0,
+          duration: 0.25,
+          stagger: 0.12,
+          ease: 'back.out(1.7)'
+        }, 128.4);
+        tl.to('.tg-fill', {
+          width: '100%',
+          duration: 0.3,
+          stagger: 0.18,
+          ease: 'power1.inOut'
+        }, 128.5);
+        tl.to('#timeline-graphic', {
+          opacity: 0,
+          scaleX: 0,
+          duration: 0.4,
+          ease: 'power2.in'
+        }, 130.6);
 
-        /* ── 7. Tip Card #2: 156s – 176s ────────────────────────────── */
-        tl.fromTo('#tip-2',
-          { opacity: 0, x: 50 },
-          { opacity: 1, x: 0, duration: 0.6, ease: 'power2.out' },
-          156
-        );
+        /* ── 7. TIP #2  156s → 159s  (rotateY card flip) ─────────── */
         tl.to('#tip-2', {
-          opacity: 0, x: 25,
-          duration: 0.4, ease: 'power2.in'
-        }, 175.3);
+          opacity: 1,
+          rotateY: 0,
+          duration: 0.55,
+          ease: 'power3.out'
+        }, 156);
+        tl.to('#tip-2', {
+          opacity: 0,
+          rotateY: 90,
+          duration: 0.45,
+          ease: 'power2.in'
+        }, 158.55);
 
-        /* ── 8. Stat Bar: 185s – 205s ───────────────────────────────── */
+        /* ── 8. STAT BAR  185s → 188s  (staggered metric pop) ────── */
         tl.to('#stat-bar', {
-          opacity: 1, y: 0,
-          duration: 0.7, ease: 'power2.out'
+          opacity: 1,
+          y: 0,
+          duration: 0.4,
+          ease: 'power2.out'
         }, 185);
+        tl.to('.sb-metric', {
+          opacity: 1,
+          y: 0,
+          scale: 1,
+          duration: 0.3,
+          stagger: 0.1,
+          ease: 'back.out(2)'
+        }, 185.35);
         tl.to('#stat-bar', {
-          opacity: 0, y: 20,
-          duration: 0.5, ease: 'power2.in'
-        }, 204.2);
+          opacity: 0,
+          y: 20,
+          duration: 0.4,
+          ease: 'power2.in'
+        }, 187.6);
 
-        /* ── 9. CTA Bar: 212s – 222.8s ──────────────────────────────── */
+        /* ── 9. CTA BAR  212s → 215s  (elastic bounce from bottom) ─ */
         tl.fromTo('#cta-bar',
-          { opacity: 0, y: 60, visibility: 'visible' },
-          { opacity: 1, y: 0, visibility: 'visible', duration: 0.8, ease: 'power2.out' },
+          { opacity: 0, y: 72, visibility: 'visible' },
+          { opacity: 1, y: 0, visibility: 'visible', duration: 0.6, ease: 'elastic.out(1, 0.6)' },
           212
         );
-        tl.fromTo('#cta-check',
-          { opacity: 0 },
-          { opacity: 1, duration: 0.3, ease: 'power2.out' },
-          213.6
-        );
+        tl.to('#cta-check', {
+          opacity: 1,
+          scale: 1,
+          duration: 0.35,
+          ease: 'back.out(2.5)'
+        }, 212.7);
+        tl.to('#cta-bar', {
+          opacity: 0,
+          y: 72,
+          duration: 0.45,
+          ease: 'power3.in'
+        }, 214.55);
 
         window.__timelines['overlays'] = tl;
       })();
