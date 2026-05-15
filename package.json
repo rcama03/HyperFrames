@@ -9,7 +9,8 @@
     "studio": "pnpm --filter @hyperframes/studio dev",
     "build:hyperframes-runtime": "pnpm --filter @hyperframes/core build:hyperframes-runtime",
     "build:hyperframes-runtime:modular": "pnpm --filter @hyperframes/core build:hyperframes-runtime:modular",
-    "set-version": "tsx scripts/set-version.ts"
+    "set-version": "tsx scripts/set-version.ts",
+    "hyperframes": "node packages/cli/dist/cli.js"
   },
   "devDependencies": {
     "@types/node": "^25.0.10",
