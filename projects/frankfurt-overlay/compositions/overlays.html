@@ -1,413 +1,505 @@
 <template id="overlays-template">
   <div data-composition-id="overlays" data-width="1280" data-height="720" data-duration="222.8">
 
-    <!-- ═══ INFO CARDS (all bottom-left, 4-5s) ════════════════════════ -->
+    <!-- ═══════════════════════════════════════════════════════════════
+         CARDS — 12 data-driven glass cards, all bottom-left
+         ═══════════════════════════════════════════════════════════════ -->
 
-    <!-- 1. Intro  2s–6.5s -->
-    <div id="intro-card" class="glass-card">
-      <div class="card-eyebrow">FRANKFURTER FLUGHAFEN · FRA</div>
-      <div class="intro-title">Warum du früher<br>losmusst</div>
-      <div class="card-rule"></div>
+    <!-- 1. INTRO  2s–6.5s  (Scene 1) -->
+    <div id="intro-card" class="glass-card ic">
+      <div class="eyebrow">FRANKFURTER FLUGHAFEN · FRA</div>
+      <div class="ic-title">Warum du früher<br>losmusst</div>
+      <div class="ic-rule"></div>
     </div>
 
-    <!-- 2. Hub Identity  17.5s–22s -->
-    <div id="lt-hub" class="glass-card lt-card">
-      <div class="card-bar"></div>
+    <!-- 2. SKYTRAIN 20 MIN  20s–24.5s  (Scene 2) -->
+    <div id="stat-skytrain" class="glass-card stc">
+      <div class="eyebrow">SKYTRAIN · TERMINAL-TRANSFER</div>
+      <div class="st-num" id="sky-num">20</div>
+      <div class="st-unit">MIN</div>
+      <div class="st-label">Nur für den Transfer<br>zwischen den Terminals</div>
+    </div>
+
+    <!-- 3. HUB SIZE  39s–43.5s  (Scene 3) -->
+    <div id="stat-hub" class="glass-card hc">
+      <div class="hc-rank">4.</div>
       <div>
-        <div class="card-eyebrow">FRANKFURT AIRPORT</div>
-        <div class="card-headline">Europas 4. größter Flughafen</div>
+        <div class="eyebrow">GRÖSSTER FLUGHAFEN EUROPAS</div>
+        <div class="hc-size">300.000 m²</div>
+        <div class="hc-sub">Terminalfläche · bis 25 Min Fußweg</div>
       </div>
     </div>
 
-    <!-- 3. Security Stat  38.5s–43s -->
-    <div id="stat-security" class="glass-card stat-card">
-      <div class="stat-number">30–60</div>
-      <div class="stat-unit">MIN</div>
-      <div class="stat-label">Sicherheitskontrolle<br>Wartezeit in Stoßzeiten</div>
+    <!-- 4. BAG DROP  58s–63s  (Scene 4) -->
+    <div id="stat-bagdrop" class="glass-card bdc">
+      <div class="eyebrow">GEPÄCKAUFGABE · FRA</div>
+      <div class="bd-cols">
+        <div class="bd-col">
+          <div class="bd-val">⌀ 18</div>
+          <div class="bd-unit">MIN</div>
+          <div class="bd-lbl">Normaltag</div>
+        </div>
+        <div class="bd-sep"></div>
+        <div class="bd-col">
+          <div class="bd-val bd-warn">35+</div>
+          <div class="bd-unit">MIN</div>
+          <div class="bd-lbl">Ferientage</div>
+        </div>
+      </div>
     </div>
 
-    <!-- 4. Warning  62.5s–67s -->
-    <div id="warning-peak" class="glass-card warn-card">
-      <div class="warn-icon">⚠</div>
+    <!-- 5. SECURITY 45 MIN  72s–77s  (Scene 5) -->
+    <div id="stat-security" class="glass-card stc sec-card">
+      <div class="eyebrow sec-eyebrow">SICHERHEITSKONTROLLE · SPITZENZEITEN</div>
+      <div class="st-num sec-num" id="sec-num">45</div>
+      <div class="st-unit">MIN WARTEZEIT</div>
+      <div class="st-label">Offiziell: eine der langsamsten<br>Kontrollen in Deutschland</div>
+    </div>
+
+    <!-- 6. SHUTTLE 12 MIN  97s–101.5s  (Scene 6) -->
+    <div id="stat-shuttle" class="glass-card wc sc">
+      <div class="wc-icon">⚠</div>
       <div>
-        <div class="warn-title">STOSSZEITEN</div>
-        <div class="warn-text">Extreme Warteschlangen<br>möglich</div>
+        <div class="wc-title">ZONE Z · SHUTTLE-BUS</div>
+        <div class="sc-num">Alle <span class="sc-hl">12 Min</span></div>
+        <div class="wc-sub">Verpasst → weitere 12 Min warten</div>
       </div>
     </div>
 
-    <!-- 5. Tip 1  92.5s–97s -->
-    <div id="tip-1" class="glass-card tip-card">
-      <div class="tip-num">01</div>
-      <div class="tip-sep"></div>
+    <!-- 7. MATH BREAKDOWN  110s–118s  (Scene 7) -->
+    <div id="math-card" class="glass-card mc">
+      <div class="eyebrow">ZEITRECHNUNG AM FRANKFURTER FLUGHAFEN</div>
+      <div class="mc-rows">
+        <div class="mc-row mr1">
+          <span class="mc-lbl">Anfahrt + Parken / Bahn</span>
+          <span class="mc-dots"></span>
+          <span class="mc-val">15 MIN</span>
+        </div>
+        <div class="mc-row mr2">
+          <span class="mc-lbl">Gepäckaufgabe</span>
+          <span class="mc-dots"></span>
+          <span class="mc-val mc-warn">35 MIN</span>
+        </div>
+        <div class="mc-row mr3">
+          <span class="mc-lbl">Sicherheitskontrolle</span>
+          <span class="mc-dots"></span>
+          <span class="mc-val mc-warn">45 MIN</span>
+        </div>
+        <div class="mc-row mr4">
+          <span class="mc-lbl">Terminal-Transfer + Gate</span>
+          <span class="mc-dots"></span>
+          <span class="mc-val">25 MIN</span>
+        </div>
+      </div>
+      <div id="mc-divider" class="mc-divider"></div>
+      <div id="mc-total" class="mc-total">
+        <span class="mc-total-lbl">GESAMT (MINDESTENS)</span>
+        <span class="mc-total-val">2 STD+</span>
+      </div>
+    </div>
+
+    <!-- 8. COMPARE 3h vs 2h  130s–136s  (Scene 8) -->
+    <div id="compare-card" class="glass-card cc">
+      <div class="eyebrow">FRAPORT EMPFEHLUNG VS. BUCHUNGSSTANDARD</div>
+      <div class="cc-rows">
+        <div class="cc-row">
+          <div class="cc-label">Fraport offiziell</div>
+          <div class="cc-bar-wrap"><div class="cc-bar cc-gold" id="bar-official"></div></div>
+          <div class="cc-time cc-gold-txt">3 STD</div>
+        </div>
+        <div class="cc-row">
+          <div class="cc-label">Standard-Buchung</div>
+          <div class="cc-bar-wrap"><div class="cc-bar cc-red" id="bar-booking"></div></div>
+          <div class="cc-time cc-red-txt">2 STD</div>
+        </div>
+        <div class="cc-note">Das ist kein Fehler — das ist Design.</div>
+      </div>
+    </div>
+
+    <!-- 9. TIPS  149s–153.5s  (Scene 9) -->
+    <div id="tip-card" class="glass-card tlc">
+      <div class="eyebrow">SMART-TRAVELER TIPPS</div>
+      <div class="tl-items">
+        <div class="tl-item"><span class="tl-ck">✓</span> Online Check-in 24h vorher</div>
+        <div class="tl-item"><span class="tl-ck">✓</span> Nur Handgepäck wenn möglich</div>
+        <div class="tl-item"><span class="tl-ck tl-star">★</span> Terminal A/B — <strong>+30 MIN gespart</strong></div>
+      </div>
+    </div>
+
+    <!-- 10. PRIORITY LANE  166s–170.5s  (Scene 10) -->
+    <div id="priority-card" class="glass-card pc">
+      <div class="pc-price">&lt;10€</div>
       <div>
-        <div class="card-eyebrow">TIPP</div>
-        <div class="tip-text">3 Stunden vor Abflug<br>am Flughafen sein</div>
+        <div class="eyebrow pc-eyebrow">PRIORITY LANE · FRA</div>
+        <div class="pc-text">Tagespass — auch für<br>Nicht-Business-Reisende</div>
+        <div class="pc-sub">Komplette Schlange überspringen</div>
       </div>
     </div>
 
-    <!-- 6. Timeline  128.5s–136.5s  (8 seconds) -->
-    <div id="timeline-graphic" class="glass-card tg-card">
-      <div class="tg-title">EMPFOHLENER ZEITPLAN</div>
-      <div class="tg-track">
-        <div class="tg-step"><div class="tg-dot"></div><div class="tg-name">Check-in</div><div class="tg-time">T−3h</div></div>
-        <div class="tg-seg"><div class="tg-fill"></div></div>
-        <div class="tg-step"><div class="tg-dot"></div><div class="tg-name">Security</div><div class="tg-time">T−2h</div></div>
-        <div class="tg-seg"><div class="tg-fill"></div></div>
-        <div class="tg-step"><div class="tg-dot"></div><div class="tg-name">Gate</div><div class="tg-time">T−45min</div></div>
-        <div class="tg-seg"><div class="tg-fill"></div></div>
-        <div class="tg-step"><div class="tg-dot tg-gold"></div><div class="tg-name">Abflug</div><div class="tg-time">T−0</div></div>
-      </div>
+    <!-- 11. PLAN 2.5–3h  184s–188.5s  (Scene 11) -->
+    <div id="plan-card" class="glass-card planc">
+      <div class="eyebrow">IMMER EINPLANEN · OHNE AUSNAHME</div>
+      <div class="planc-time">2,5 – 3 STD</div>
+      <div class="planc-sub">Vor dem Abflug · Bei jedem Flug</div>
     </div>
 
-    <!-- 7. Tip 2  156.5s–161s -->
-    <div id="tip-2" class="glass-card tip-card">
-      <div class="tip-num">02</div>
-      <div class="tip-sep"></div>
+    <!-- 12. CTA  213s–217.5s  (Scene 12) -->
+    <div id="cta-card" class="glass-card ctac">
+      <div class="ctac-icon">✓</div>
       <div>
-        <div class="card-eyebrow">TIPP</div>
-        <div class="tip-text">Terminal 1 &amp; 2 prüfen —<br>SkyLine: 8 Min Transfer</div>
+        <div class="eyebrow ctac-eyebrow">JETZT TEILEN</div>
+        <div class="ctac-text">Rette jemandem<br>seinen Flug</div>
       </div>
     </div>
 
-    <!-- 8. Stat Bar  185.5s–190s -->
-    <div id="stat-bar" class="glass-card">
-      <div class="card-eyebrow">FRANKFURT AIRPORT · FACTS</div>
-      <div class="sb-metrics">
-        <div class="sb-metric"><div class="sb-val">57 Mio</div><div class="sb-lbl">Passagiere / Jahr</div></div>
-        <div class="sb-sep"></div>
-        <div class="sb-metric"><div class="sb-val">2</div><div class="sb-lbl">Terminals</div></div>
-        <div class="sb-sep"></div>
-        <div class="sb-metric"><div class="sb-val">100+</div><div class="sb-lbl">Airlines</div></div>
-        <div class="sb-sep"></div>
-        <div class="sb-metric"><div class="sb-val">#1</div><div class="sb-lbl">in Deutschland</div></div>
-      </div>
-    </div>
-
-    <!-- 9. CTA Card  212.5s–217s -->
-    <div id="cta-card" class="glass-card cta-card">
-      <div class="cta-icon">✓</div>
-      <div>
-        <div class="card-eyebrow">FAZIT</div>
-        <div class="tip-text">Früher am Flughafen<br>= Stress-freie Reise</div>
-      </div>
-    </div>
-
-    <!-- ═══ CAPTION LAYER ════════════════════════════════════════════ -->
+    <!-- ═══════════════════════════════════════════════════════════════
+         CAPTION LAYER
+         ═══════════════════════════════════════════════════════════════ -->
     <div id="caption-layer"></div>
 
-    <!-- ═══ SOUND EFFECTS ════════════════════════════════════════════ -->
-    <audio src="../sfx/ding.wav"   data-start="2"     data-duration="0.5"  data-layer="10" data-volume="0.7"></audio>
-    <audio src="../sfx/pop.wav"    data-start="17.5"  data-duration="0.25" data-layer="10" data-volume="0.7"></audio>
-    <audio src="../sfx/ding.wav"   data-start="38.5"  data-duration="0.5"  data-layer="10" data-volume="0.7"></audio>
-    <audio src="../sfx/alert.wav"  data-start="62.5"  data-duration="0.45" data-layer="10" data-volume="0.75"></audio>
-    <audio src="../sfx/pop.wav"    data-start="92.5"  data-duration="0.25" data-layer="10" data-volume="0.7"></audio>
-    <audio src="../sfx/ding.wav"   data-start="128.5" data-duration="0.5"  data-layer="10" data-volume="0.7"></audio>
-    <audio src="../sfx/pop.wav"    data-start="156.5" data-duration="0.25" data-layer="10" data-volume="0.7"></audio>
-    <audio src="../sfx/ding.wav"   data-start="185.5" data-duration="0.5"  data-layer="10" data-volume="0.7"></audio>
-    <audio src="../sfx/chime.wav"  data-start="212.5" data-duration="0.6"  data-layer="10" data-volume="0.8"></audio>
+    <!-- ═══════════════════════════════════════════════════════════════
+         SOUND EFFECTS
+         ═══════════════════════════════════════════════════════════════ -->
+    <audio src="../sfx/ding.wav"   data-start="2"    data-duration="0.5"  data-layer="10" data-volume="0.7"></audio>
+    <audio src="../sfx/pop.wav"    data-start="20"   data-duration="0.25" data-layer="10" data-volume="0.7"></audio>
+    <audio src="../sfx/ding.wav"   data-start="39"   data-duration="0.5"  data-layer="10" data-volume="0.7"></audio>
+    <audio src="../sfx/alert.wav"  data-start="58"   data-duration="0.45" data-layer="10" data-volume="0.75"></audio>
+    <audio src="../sfx/alert.wav"  data-start="72"   data-duration="0.45" data-layer="10" data-volume="0.8"></audio>
+    <audio src="../sfx/pop.wav"    data-start="97"   data-duration="0.25" data-layer="10" data-volume="0.7"></audio>
+    <audio src="../sfx/ding.wav"   data-start="110"  data-duration="0.5"  data-layer="10" data-volume="0.7"></audio>
+    <audio src="../sfx/ding.wav"   data-start="130"  data-duration="0.5"  data-layer="10" data-volume="0.7"></audio>
+    <audio src="../sfx/pop.wav"    data-start="149"  data-duration="0.25" data-layer="10" data-volume="0.7"></audio>
+    <audio src="../sfx/chime.wav"  data-start="166"  data-duration="0.6"  data-layer="10" data-volume="0.8"></audio>
+    <audio src="../sfx/ding.wav"   data-start="184"  data-duration="0.5"  data-layer="10" data-volume="0.7"></audio>
+    <audio src="../sfx/chime.wav"  data-start="213"  data-duration="0.6"  data-layer="10" data-volume="0.8"></audio>
 
+    <!-- ═══════════════════════════════════════════════════════════════
+         STYLES
+         ═══════════════════════════════════════════════════════════════ -->
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
 
       [data-composition-id="overlays"] {
         position: relative;
-        width: 1280px;
-        height: 720px;
+        width: 1280px; height: 720px;
         font-family: 'Inter', system-ui, sans-serif;
         overflow: hidden;
       }
 
-      /* ── GLASSMORPHISM BASE ─────────────────────────────────────── */
+      /* ── GLASS CARD BASE ──────────────────────────────────────────── */
       .glass-card {
         position: absolute;
-        left: 40px;
-        bottom: 70px;
-        background: rgba(255, 255, 255, 0.07);
+        left: 40px; bottom: 150px;
+        background: rgba(255,255,255,0.07);
         backdrop-filter: blur(22px) saturate(180%);
         -webkit-backdrop-filter: blur(22px) saturate(180%);
-        border: 1px solid rgba(255, 255, 255, 0.18);
-        box-shadow: 0 8px 32px rgba(0,0,0,0.45), inset 0 1px 0 rgba(255,255,255,0.1);
+        border: 1px solid rgba(255,255,255,0.18);
+        box-shadow: 0 8px 32px rgba(0,0,0,0.5), inset 0 1px 0 rgba(255,255,255,0.1);
         border-radius: 16px;
         padding: 18px 24px;
         opacity: 0;
+        max-width: 440px;
       }
 
-      /* ── SCENE TITLE ────────────────────────────────────────────── */
-      .scene-title {
-        position: absolute;
-        left: 40px;
-        bottom: 70px;
-        background: rgba(245, 158, 11, 0.08);
-        backdrop-filter: blur(18px) saturate(160%);
-        -webkit-backdrop-filter: blur(18px) saturate(160%);
-        border: 1px solid rgba(245, 158, 11, 0.35);
-        border-radius: 10px;
-        padding: 10px 18px;
-        opacity: 0;
-      }
-      .st-label {
-        font-size: 8px; font-weight: 700; letter-spacing: 4px;
-        color: #F59E0B; text-transform: uppercase; margin-bottom: 2px;
-      }
-      .st-name { font-size: 20px; font-weight: 800; color: #fff; letter-spacing: -0.5px; }
-
-      /* ── SHARED ELEMENTS ────────────────────────────────────────── */
-      .card-eyebrow {
+      /* ── SHARED ───────────────────────────────────────────────────── */
+      .eyebrow {
         font-size: 9px; font-weight: 700; letter-spacing: 3.5px;
-        color: #F59E0B; text-transform: uppercase; margin-bottom: 7px;
-      }
-      .card-rule {
-        width: 32px; height: 2px;
-        background: linear-gradient(90deg, #F59E0B, transparent);
-        margin-top: 12px; border-radius: 1px;
+        color: #F59E0B; text-transform: uppercase; margin-bottom: 8px;
       }
 
-      /* ── INTRO ──────────────────────────────────────────────────── */
-      .intro-title { font-size: 34px; font-weight: 800; color: #fff; line-height: 1.2; letter-spacing: -1px; }
+      /* ── 1. INTRO ─────────────────────────────────────────────────── */
+      .ic-title { font-size: 34px; font-weight: 800; color: #fff; line-height: 1.2; letter-spacing: -1px; }
+      .ic-rule { width: 32px; height: 2px; background: linear-gradient(90deg, #F59E0B, transparent); margin-top: 12px; border-radius: 1px; }
 
-      /* ── HUB LOWER THIRD ────────────────────────────────────────── */
-      .lt-card { display: flex; align-items: center; gap: 14px; padding: 14px 20px; }
-      .card-bar { width: 3px; height: 38px; background: linear-gradient(180deg, #F59E0B, #EF4444); border-radius: 2px; flex-shrink: 0; }
-      .card-headline { font-size: 17px; font-weight: 700; color: #fff; }
+      /* ── 2 & 5. STAT PILL ─────────────────────────────────────────── */
+      .stc { text-align: center; padding: 20px 30px; min-width: 190px; }
+      .st-num { font-size: 56px; font-weight: 900; color: #F59E0B; letter-spacing: -2px; line-height: 1; text-shadow: 0 0 22px rgba(245,158,11,0.45); }
+      .st-unit { font-size: 11px; font-weight: 700; letter-spacing: 4px; color: #fff; margin: 3px 0 8px; }
+      .st-label { font-size: 11px; font-weight: 500; color: rgba(255,255,255,0.55); line-height: 1.5; }
+      /* Security (red) variant */
+      .sec-card { border-color: rgba(239,68,68,0.4); background: rgba(239,68,68,0.07); }
+      .sec-num { color: #EF4444; text-shadow: 0 0 22px rgba(239,68,68,0.55); }
+      .sec-eyebrow { color: #EF4444; }
 
-      /* ── STAT PILL ──────────────────────────────────────────────── */
-      .stat-card { text-align: center; padding: 20px 28px; min-width: 170px; }
-      .stat-number { font-size: 46px; font-weight: 900; color: #F59E0B; letter-spacing: -2px; line-height: 1; text-shadow: 0 0 18px rgba(245,158,11,0.4); }
-      .stat-unit { font-size: 11px; font-weight: 700; letter-spacing: 4px; color: #fff; margin: 3px 0 7px; }
-      .stat-label { font-size: 11px; font-weight: 500; color: rgba(255,255,255,0.6); line-height: 1.5; }
+      /* ── 3. HUB ───────────────────────────────────────────────────── */
+      .hc { display: flex; align-items: center; gap: 14px; padding: 16px 22px; }
+      .hc-rank { font-size: 54px; font-weight: 900; color: rgba(245,158,11,0.22); letter-spacing: -2px; flex-shrink: 0; line-height: 1; }
+      .hc-size { font-size: 24px; font-weight: 800; color: #fff; letter-spacing: -0.5px; margin-bottom: 3px; }
+      .hc-sub { font-size: 10px; font-weight: 500; color: rgba(255,255,255,0.5); }
 
-      /* ── WARNING ────────────────────────────────────────────────── */
-      .warn-card {
-        display: flex; align-items: flex-start; gap: 12px;
-        padding: 15px 20px; max-width: 250px;
-        border-color: rgba(239,68,68,0.4); background: rgba(239,68,68,0.06);
-      }
-      .warn-icon { font-size: 18px; color: #EF4444; flex-shrink: 0; line-height: 1.3; }
-      .warn-title { font-size: 9px; font-weight: 700; letter-spacing: 3.5px; color: #EF4444; text-transform: uppercase; margin-bottom: 4px; }
-      .warn-text { font-size: 13px; font-weight: 600; color: #fff; line-height: 1.45; }
+      /* ── 4. BAG DROP ──────────────────────────────────────────────── */
+      .bdc { padding: 16px 22px; min-width: 250px; }
+      .bd-cols { display: flex; align-items: center; gap: 18px; margin-top: 8px; }
+      .bd-col { text-align: center; flex: 1; }
+      .bd-val { font-size: 38px; font-weight: 900; color: #F59E0B; letter-spacing: -1.5px; line-height: 1; }
+      .bd-warn { color: #EF4444; text-shadow: 0 0 14px rgba(239,68,68,0.4); }
+      .bd-unit { font-size: 9px; font-weight: 700; letter-spacing: 3px; color: #fff; margin: 2px 0; }
+      .bd-lbl { font-size: 10px; font-weight: 500; color: rgba(255,255,255,0.5); }
+      .bd-sep { width: 1px; height: 52px; background: rgba(255,255,255,0.15); flex-shrink: 0; }
 
-      /* ── TIP CARDS ──────────────────────────────────────────────── */
-      .tip-card { display: flex; align-items: center; gap: 14px; padding: 16px 20px; max-width: 310px; }
-      .tip-num { font-size: 30px; font-weight: 900; color: rgba(245,158,11,0.3); letter-spacing: -1.5px; flex-shrink: 0; }
-      .tip-sep { width: 1px; height: 44px; background: rgba(255,255,255,0.15); flex-shrink: 0; }
-      .tip-text { font-size: 13px; font-weight: 600; color: #fff; line-height: 1.5; }
+      /* ── 6. SHUTTLE WARNING ───────────────────────────────────────── */
+      .wc { display: flex; align-items: flex-start; gap: 12px; padding: 15px 20px; max-width: 290px; border-color: rgba(239,68,68,0.4); background: rgba(239,68,68,0.06); }
+      .wc-icon { font-size: 20px; color: #EF4444; flex-shrink: 0; line-height: 1.2; }
+      .wc-title { font-size: 9px; font-weight: 700; letter-spacing: 3.5px; color: #EF4444; text-transform: uppercase; margin-bottom: 4px; }
+      .wc-sub { font-size: 11px; font-weight: 500; color: rgba(255,255,255,0.6); margin-top: 4px; }
+      .sc-num { font-size: 20px; font-weight: 800; color: #fff; margin: 3px 0; }
+      .sc-hl { color: #EF4444; }
 
-      /* ── TIMELINE ───────────────────────────────────────────────── */
-      .tg-card { padding: 15px 24px 17px; min-width: 520px; }
-      .tg-title { font-size: 8px; font-weight: 700; letter-spacing: 3.5px; color: #F59E0B; text-transform: uppercase; margin-bottom: 13px; }
-      .tg-track { display: flex; align-items: center; }
-      .tg-step { display: flex; flex-direction: column; align-items: center; gap: 4px; flex-shrink: 0; opacity: 0; }
-      .tg-dot { width: 8px; height: 8px; border-radius: 50%; background: rgba(255,255,255,0.65); }
-      .tg-gold { background: #F59E0B; box-shadow: 0 0 8px rgba(245,158,11,0.7); }
-      .tg-name { font-size: 11px; font-weight: 600; color: #fff; white-space: nowrap; }
-      .tg-time { font-size: 9px; font-weight: 500; color: rgba(255,255,255,0.45); white-space: nowrap; }
-      .tg-seg { flex: 1; height: 1px; background: rgba(255,255,255,0.12); position: relative; overflow: hidden; min-width: 80px; margin-bottom: 22px; }
-      .tg-fill { position: absolute; top: 0; left: 0; height: 100%; width: 0%; background: linear-gradient(90deg, #F59E0B, #EF4444); }
+      /* ── 7. MATH BREAKDOWN ────────────────────────────────────────── */
+      .mc { padding: 18px 24px; min-width: 390px; }
+      .mc-rows { margin-top: 10px; display: flex; flex-direction: column; gap: 9px; }
+      .mc-row { display: flex; align-items: center; gap: 8px; opacity: 0; transform: translateX(-18px); }
+      .mc-lbl { font-size: 12px; font-weight: 600; color: rgba(255,255,255,0.8); white-space: nowrap; }
+      .mc-dots { flex: 1; height: 1px; background: repeating-linear-gradient(90deg, rgba(255,255,255,0.18) 0, rgba(255,255,255,0.18) 3px, transparent 3px, transparent 8px); min-width: 20px; }
+      .mc-val { font-size: 13px; font-weight: 700; color: #fff; white-space: nowrap; }
+      .mc-warn { color: #EF4444; }
+      .mc-divider { height: 1px; background: rgba(255,255,255,0.22); margin: 11px 0; transform: scaleX(0); transform-origin: left; }
+      .mc-total { display: flex; align-items: center; justify-content: space-between; opacity: 0; transform: translateY(6px); }
+      .mc-total-lbl { font-size: 9px; font-weight: 700; letter-spacing: 2px; color: rgba(255,255,255,0.55); text-transform: uppercase; }
+      .mc-total-val { font-size: 28px; font-weight: 900; color: #F59E0B; letter-spacing: -1px; text-shadow: 0 0 18px rgba(245,158,11,0.45); }
 
-      /* ── STAT BAR ───────────────────────────────────────────────── */
-      #stat-bar { padding: 15px 22px 17px; }
-      .sb-metrics { display: flex; align-items: center; gap: 20px; margin-top: 9px; }
-      .sb-metric { text-align: center; min-width: 65px; }
-      .sb-val { font-size: 24px; font-weight: 800; color: #fff; letter-spacing: -0.8px; line-height: 1; }
-      .sb-lbl { font-size: 9px; font-weight: 500; color: rgba(255,255,255,0.5); margin-top: 3px; white-space: nowrap; }
-      .sb-sep { width: 1px; height: 30px; background: rgba(255,255,255,0.13); flex-shrink: 0; }
+      /* ── 8. COMPARE ───────────────────────────────────────────────── */
+      .cc { padding: 18px 24px; min-width: 360px; }
+      .cc-rows { margin-top: 12px; display: flex; flex-direction: column; gap: 14px; }
+      .cc-row { display: flex; align-items: center; gap: 10px; }
+      .cc-label { font-size: 11px; font-weight: 600; color: rgba(255,255,255,0.7); width: 110px; flex-shrink: 0; }
+      .cc-bar-wrap { flex: 1; height: 7px; background: rgba(255,255,255,0.1); border-radius: 4px; overflow: hidden; }
+      .cc-bar { height: 100%; width: 0; border-radius: 4px; }
+      .cc-gold { background: linear-gradient(90deg, #F59E0B, #FCD34D); }
+      .cc-red { background: linear-gradient(90deg, #EF4444, #F87171); }
+      .cc-time { font-size: 17px; font-weight: 800; width: 48px; text-align: right; flex-shrink: 0; }
+      .cc-gold-txt { color: #F59E0B; }
+      .cc-red-txt { color: #EF4444; }
+      .cc-note { font-size: 10px; font-weight: 500; color: rgba(255,255,255,0.4); font-style: italic; margin-top: -4px; }
 
-      /* ── CTA CARD ───────────────────────────────────────────────── */
-      .cta-card {
-        display: flex; align-items: center; gap: 16px; padding: 16px 22px; max-width: 340px;
-        border-color: rgba(245,158,11,0.4); background: rgba(245,158,11,0.07);
-      }
-      .cta-icon { font-size: 26px; color: #F59E0B; flex-shrink: 0; filter: drop-shadow(0 0 5px rgba(245,158,11,0.5)); }
+      /* ── 9. TIPS LIST ─────────────────────────────────────────────── */
+      .tlc { padding: 16px 22px; min-width: 330px; }
+      .tl-items { margin-top: 10px; display: flex; flex-direction: column; gap: 9px; }
+      .tl-item { font-size: 12px; font-weight: 600; color: rgba(255,255,255,0.85); display: flex; align-items: flex-start; gap: 9px; line-height: 1.4; }
+      .tl-ck { color: rgba(255,255,255,0.35); flex-shrink: 0; }
+      .tl-star { color: #F59E0B; }
 
-      /* ── CAPTION LAYER ──────────────────────────────────────────── */
+      /* ── 10. PRIORITY ─────────────────────────────────────────────── */
+      .pc { display: flex; align-items: center; gap: 18px; padding: 16px 22px; border-color: rgba(245,158,11,0.35); background: rgba(245,158,11,0.06); }
+      .pc-price { font-size: 38px; font-weight: 900; color: #F59E0B; letter-spacing: -1.5px; flex-shrink: 0; line-height: 1; text-shadow: 0 0 18px rgba(245,158,11,0.45); }
+      .pc-eyebrow { color: #F59E0B; }
+      .pc-text { font-size: 12px; font-weight: 600; color: #fff; line-height: 1.5; margin-top: 3px; }
+      .pc-sub { font-size: 10px; font-weight: 500; color: rgba(255,255,255,0.5); margin-top: 3px; }
+
+      /* ── 11. PLAN ─────────────────────────────────────────────────── */
+      .planc { padding: 18px 26px; }
+      .planc-time { font-size: 40px; font-weight: 900; color: #F59E0B; letter-spacing: -1.5px; line-height: 1; margin: 7px 0; text-shadow: 0 0 22px rgba(245,158,11,0.45); }
+      .planc-sub { font-size: 11px; font-weight: 600; color: rgba(255,255,255,0.55); letter-spacing: 0.5px; }
+
+      /* ── 12. CTA ──────────────────────────────────────────────────── */
+      .ctac { display: flex; align-items: center; gap: 16px; padding: 16px 22px; border-color: rgba(245,158,11,0.4); background: rgba(245,158,11,0.07); }
+      .ctac-icon { font-size: 28px; color: #F59E0B; flex-shrink: 0; filter: drop-shadow(0 0 6px rgba(245,158,11,0.5)); }
+      .ctac-eyebrow { color: #F59E0B; }
+      .ctac-text { font-size: 14px; font-weight: 600; color: #fff; line-height: 1.5; margin-top: 2px; }
+
+      /* ── CAPTIONS ─────────────────────────────────────────────────── */
       #caption-layer {
         position: absolute;
-        bottom: 45px;
-        left: 0; right: 0;
+        bottom: 45px; left: 0; right: 0;
         text-align: center;
         pointer-events: none;
-        height: 48px;
+        height: 52px;
       }
       .caption {
         position: absolute;
         bottom: 0; left: 0; right: 0;
-        opacity: 0;
-        text-align: center;
+        opacity: 0; text-align: center;
       }
       .cw {
         display: inline-block;
         font-size: 24px; font-weight: 700;
-        color: #fff;
-        text-transform: uppercase;
-        text-shadow: 0 1px 6px rgba(0,0,0,0.95), 0 0 18px rgba(0,0,0,0.7);
-        padding: 3px 7px;
-        border-radius: 4px;
-        margin: 0 1px;
+        color: #fff; text-transform: uppercase;
+        text-shadow: 0 1px 6px rgba(0,0,0,0.95), 0 0 20px rgba(0,0,0,0.7);
+        padding: 3px 7px; border-radius: 4px; margin: 0 1px;
       }
     </style>
 
+    <!-- ═══════════════════════════════════════════════════════════════
+         GSAP TIMELINE
+         ═══════════════════════════════════════════════════════════════ -->
     <script>
       (function () {
         window.__timelines = window.__timelines || {};
-        const tl = gsap.timeline({ paused: true });
+        var tl = gsap.timeline({ paused: true });
 
-        /* ── initial states ──────────────────────────────────────── */
-        gsap.set('.tg-step', { y: 8 });
+        /* ── initial states ─────────────────────────────────────────── */
+        gsap.set('.mc-row',   { opacity: 0, x: -18 });
+        gsap.set('#mc-divider', { scaleX: 0 });
+        gsap.set('#mc-total',   { opacity: 0, y: 6 });
+        gsap.set('.cc-bar',     { width: '0%' });
 
-        /* ── HELPERS ─────────────────────────────────────────────── */
-        function showTitle(id, start) {
-          tl.fromTo('#' + id,
-            { opacity: 0, x: -16 },
-            { opacity: 1, x: 0, duration: 0.4, ease: 'power2.out' },
-            start
-          );
-          tl.to('#' + id,
-            { opacity: 0, x: 16, duration: 0.35, ease: 'power2.in' },
-            start + 2.15
-          );
-        }
-
+        /* ── showCard ───────────────────────────────────────────────── */
         function showCard(id, start, dur) {
           tl.fromTo('#' + id,
-            { opacity: 0, y: 12, filter: 'blur(5px)' },
-            { opacity: 1, y: 0, filter: 'blur(0px)', duration: 0.65, ease: 'power2.out' },
+            { opacity: 0, y: 14, filter: 'blur(6px)' },
+            { opacity: 1, y: 0,  filter: 'blur(0px)', duration: 0.6, ease: 'power2.out' },
             start
           );
           tl.to('#' + id,
-            { opacity: 0, y: -8, filter: 'blur(5px)', duration: 0.55, ease: 'power2.in' },
-            start + dur - 0.55
+            { opacity: 0, y: -8, filter: 'blur(6px)', duration: 0.5, ease: 'power2.in' },
+            start + dur - 0.5
           );
         }
 
-        /* ── INFO CARDS ──────────────────────────────────────────── */
-        showCard('intro-card',       2,     4.5);
-        showCard('lt-hub',           17.5,  4.5);
-        showCard('stat-security',    38.5,  4.5);
-        showCard('warning-peak',     62.5,  4.5);
-        showCard('tip-1',            92.5,  4.5);
-        showCard('timeline-graphic', 128.5, 8.0);
-        showCard('tip-2',            156.5, 4.5);
-        showCard('stat-bar',         185.5, 4.5);
-        showCard('cta-card',         212.5, 4.5);
+        /* ── CARDS ──────────────────────────────────────────────────── */
+        showCard('intro-card',    2,    4.5);
+        showCard('stat-skytrain', 20,   4.5);
+        showCard('stat-hub',      39,   4.5);
+        showCard('stat-bagdrop',  58,   5.0);
+        showCard('stat-security', 72,   5.0);
+        showCard('stat-shuttle',  97,   4.5);
+        showCard('math-card',    110,   8.0);
+        showCard('compare-card', 130,   6.0);
+        showCard('tip-card',     149,   4.5);
+        showCard('priority-card',166,   4.5);
+        showCard('plan-card',    184,   4.5);
+        showCard('cta-card',     213,   4.5);
 
-        /* ── TIMELINE INTERNAL (within its 8s window) ────────────── */
-        tl.to('.tg-step',
-          { opacity: 1, y: 0, duration: 0.4, stagger: 0.55, ease: 'back.out(1.5)' },
-          129.3
-        );
-        tl.to('.tg-fill',
-          { width: '100%', duration: 0.8, stagger: 0.65, ease: 'power1.inOut' },
-          129.6
-        );
+        /* ── NUMBER COUNTER: Skytrain 0→20 ─────────────────────────── */
+        var skyObj = { n: 0 };
+        tl.to(skyObj, {
+          n: 20, duration: 1.0, ease: 'power1.out',
+          onUpdate: function () {
+            var el = document.getElementById('sky-num');
+            if (el) el.textContent = Math.round(skyObj.n);
+          }
+        }, 20.6);
 
-        /* ── CAPTIONS ────────────────────────────────────────────── */
-        /* Full voiceover — 141 captions from German script */
+        /* ── NUMBER COUNTER: Security 0→45 ─────────────────────────── */
+        var secObj = { n: 0 };
+        tl.to(secObj, {
+          n: 45, duration: 1.4, ease: 'power2.out',
+          onUpdate: function () {
+            var el = document.getElementById('sec-num');
+            if (el) el.textContent = Math.round(secObj.n);
+          }
+        }, 72.6);
+
+        /* ── MATH CARD internal animation ───────────────────────────── */
+        ['.mr1', '.mr2', '.mr3', '.mr4'].forEach(function (sel, i) {
+          tl.to(sel, { opacity: 1, x: 0, duration: 0.38, ease: 'power2.out' }, 110.7 + i * 0.68);
+        });
+        tl.to('#mc-divider', { scaleX: 1, duration: 0.38, ease: 'power1.inOut' }, 113.6);
+        tl.to('#mc-total',   { opacity: 1, y: 0, duration: 0.45, ease: 'back.out(1.6)' }, 114.1);
+
+        /* ── COMPARE CARD bar animation ─────────────────────────────── */
+        tl.to('#bar-official', { width: '100%', duration: 0.75, ease: 'power2.out' }, 130.7);
+        tl.to('#bar-booking',  { width: '66.7%', duration: 0.65, ease: 'power2.out' }, 131.5);
+
+        /* ══════════════════════════════════════════════════════════════
+           CAPTIONS — 141 groups covering full German voiceover
+           ══════════════════════════════════════════════════════════════ */
         var captionData = [
-          { id:'c01', start:0.0, words:["Jedes", "Jahr", "verpassen"] },
-          { id:'c02', start:1.61, words:["Zehntausende", "Passagiere", "ihren"] },
-          { id:'c03', start:3.22, words:["Flug", "am", "Frankfurter"] },
-          { id:'c04', start:4.83, words:["Flughafen", "nicht", "wegen"] },
-          { id:'c05', start:6.45, words:["Streiks", "oder", "Verspätungen"] },
-          { id:'c06', start:8.06, words:["Sie", "sind", "einfach"] },
-          { id:'c07', start:9.67, words:["zu", "spät", "losgegangen"] },
-          { id:'c08', start:11.28, words:["Und", "die", "Wahrscheinlichkeit"] },
-          { id:'c09', start:12.89, words:["dass", "du", "einer"] },
-          { id:'c10', start:14.5, words:["von", "ihnen", "bist"] },
-          { id:'c11', start:16.11, words:["ist", "höher", "als"] },
-          { id:'c12', start:17.73, words:["du", "glaubst"] },
-          { id:'c13', start:18.8, words:["Was", "kaum", "jemand"] },
-          { id:'c14', start:20.41, words:["weiß", "Frankfurt", "Flughafen"] },
-          { id:'c15', start:22.02, words:["hat", "zwei", "separate"] },
-          { id:'c16', start:23.63, words:["Terminals", "die", "über"] },
-          { id:'c17', start:25.24, words:["einen", "unterirdischen", "Skytrain"] },
-          { id:'c18', start:26.85, words:["verbunden", "sind", "und"] },
-          { id:'c19', start:28.45, words:["allein", "diese", "Fahrt"] },
-          { id:'c20', start:30.06, words:["kostet", "dich", "bis"] },
-          { id:'c21', start:31.67, words:["zu", "20", "Minuten"] },
-          { id:'c22', start:33.28, words:["Die", "meisten", "Buchungsseiten"] },
-          { id:'c23', start:34.89, words:["verschweigen", "das", "komplett"] },
-          { id:'c24', start:36.5, words:["Der", "Frankfurter", "Flughafen"] },
-          { id:'c25', start:38.11, words:["ist", "der", "viertgrößte"] },
-          { id:'c26', start:39.72, words:["in", "Europa", "Mit"] },
-          { id:'c27', start:41.33, words:["über", "300.000", "Quadratmetern"] },
-          { id:'c28', start:42.93, words:["Terminalfläche", "Vom", "falschen"] },
-          { id:'c29', start:44.54, words:["Eingang", "bis", "zum"] },
-          { id:'c30', start:46.15, words:["Gate", "können", "das"] },
-          { id:'c31', start:47.76, words:["locker", "25", "Minuten"] },
-          { id:'c32', start:49.37, words:["Fußweg", "sein", "Aber"] },
-          { id:'c33', start:50.97, words:["wie", "viel", "Zeit"] },
-          { id:'c34', start:52.58, words:["verlierst", "du", "wirklich"] },
-          { id:'c35', start:54.19, words:["Schritt", "für", "Schritt"] },
-          { id:'c36', start:55.8, words:["Selbst", "mit", "Online-Check-in"] },
-          { id:'c37', start:57.37, words:["brauchst", "du", "am"] },
-          { id:'c38', start:58.93, words:["Frankfurter", "Flughafen", "für"] },
-          { id:'c39', start:60.5, words:["die", "Gepäckaufgabe", "zur"] },
-          { id:'c40', start:62.07, words:["Hauptreisezeit", "durchschnittlich", "18"] },
-          { id:'c41', start:63.63, words:["Minuten", "An", "Ferientagen"] },
-          { id:'c42', start:65.2, words:["sogar", "über", "35"] },
-          { id:'c43', start:66.77, words:["Das", "steht", "nirgendwo"] },
-          { id:'c44', start:68.33, words:["in", "deiner", "Buchungsbestätigung"] },
-          { id:'c45', start:69.9, words:["Jetzt", "kommt", "der"] },
-          { id:'c46', start:71.5, words:["Faktor", "der", "alles"] },
-          { id:'c47', start:73.11, words:["ändert", "Die", "Sicherheitskontrolle"] },
-          { id:'c48', start:74.71, words:["am", "Frankfurter", "Flughafen"] },
-          { id:'c49', start:76.31, words:["gilt", "als", "eine"] },
-          { id:'c50', start:77.91, words:["der", "langsamsten", "in"] },
-          { id:'c51', start:79.52, words:["Deutschland", "Offizielle", "Daten"] },
-          { id:'c52', start:81.12, words:["zeigen", "In", "Spitzenzeiten"] },
-          { id:'c53', start:82.72, words:["wartest", "du", "hier"] },
-          { id:'c54', start:84.32, words:["bis", "zu", "45"] },
-          { id:'c55', start:85.93, words:["Minuten", "Was", "passiert"] },
-          { id:'c56', start:87.53, words:["danach", "macht", "es"] },
-          { id:'c57', start:89.13, words:["noch", "schlimmer"] },
-          { id:'c58', start:90.2, words:["Nach", "der", "Sicherheitskontrolle"] },
-          { id:'c59', start:91.77, words:["glaubst", "du", "das"] },
-          { id:'c60', start:93.33, words:["Schlimmste", "ist", "vorbei"] },
-          { id:'c61', start:94.9, words:["Aber", "am", "Frankfurter"] },
-          { id:'c62', start:96.47, words:["Flughafen", "liegen", "manche"] },
-          { id:'c63', start:98.03, words:["Gates", "im", "Bereich"] },
-          { id:'c64', start:99.6, words:["Z", "so", "weit"] },
-          { id:'c65', start:101.17, words:["entfernt", "dass", "du"] },
-          { id:'c66', start:102.73, words:["nochmal", "einen", "Shuttle-Bus"] },
-          { id:'c67', start:104.3, words:["nehmen", "musst", "Und"] },
-          { id:'c68', start:105.87, words:["der", "fährt", "nur"] },
-          { id:'c69', start:107.43, words:["alle", "12", "Minuten"] },
-          { id:'c70', start:109.0, words:["Rechnen", "wir", "es"] },
-          { id:'c71', start:110.61, words:["durch", "Anfahrt", "zum"] },
-          { id:'c72', start:112.23, words:["Flughafen", "plus", "Parkplatz"] },
-          { id:'c73', start:113.84, words:["oder", "Bahn", "15"] },
-          { id:'c74', start:115.46, words:["Minuten", "Puffer", "Gepäckaufgabe"] },
-          { id:'c75', start:117.07, words:["bis", "35", "Minuten"] },
-          { id:'c76', start:118.69, words:["Sicherheitskontrolle", "bis", "45"] },
-          { id:'c77', start:120.3, words:["Minuten", "Terminal-Transfer", "und"] },
-          { id:'c78', start:121.92, words:["Gate", "bis", "25"] },
-          { id:'c79', start:123.53, words:["Minuten", "Macht", "insgesamt"] },
-          { id:'c80', start:125.15, words:["Über", "zwei", "Stunden"] },
-          { id:'c81', start:126.76, words:["mindestens"] },
-          { id:'c82', start:127.3, words:["Bei", "Interkontinentalflügen", "empfiehlt"] },
-          { id:'c83', start:128.91, words:["selbst", "Fraport", "offiziell"] },
-          { id:'c84', start:130.52, words:["drei", "Stunden", "Vorlaufzeit"] },
-          { id:'c85', start:132.13, words:["Doch", "die", "meisten"] },
-          { id:'c86', start:133.74, words:["buchen", "mit", "zwei"] },
-          { id:'c87', start:135.35, words:["Stunden", "Warum", "Weil"] },
-          { id:'c88', start:136.95, words:["Buchungsseiten", "genau", "diese"] },
-          { id:'c89', start:138.56, words:["zwei", "Stunden", "als"] },
-          { id:'c90', start:140.17, words:["Standard", "vorschlagen", "Das"] },
-          { id:'c91', start:141.78, words:["ist", "kein", "Fehler"] },
-          { id:'c92', start:143.39, words:["das", "ist", "Design"] },
-          { id:'c93', start:145.0, words:["Hier", "ist", "was"] },
-          { id:'c94', start:146.61, words:["kluge", "Reisende", "tun"] },
-          { id:'c95', start:148.22, words:["Online-Check-in", "24", "Stunden"] },
-          { id:'c96', start:149.83, words:["vorher", "Handgepäck", "only"] },
-          { id:'c97', start:151.45, words:["wenn", "möglich", "und"] },
-          { id:'c98', start:153.06, words:["immer", "Terminal", "A"] },
-          { id:'c99', start:154.67, words:["oder", "B", "als"] },
+          { id:'c01',  start:0.0,    words:["Jedes", "Jahr", "verpassen"] },
+          { id:'c02',  start:1.61,   words:["Zehntausende", "Passagiere", "ihren"] },
+          { id:'c03',  start:3.22,   words:["Flug", "am", "Frankfurter"] },
+          { id:'c04',  start:4.83,   words:["Flughafen", "nicht", "wegen"] },
+          { id:'c05',  start:6.45,   words:["Streiks", "oder", "Verspätungen"] },
+          { id:'c06',  start:8.06,   words:["Sie", "sind", "einfach"] },
+          { id:'c07',  start:9.67,   words:["zu", "spät", "losgegangen"] },
+          { id:'c08',  start:11.28,  words:["Und", "die", "Wahrscheinlichkeit"] },
+          { id:'c09',  start:12.89,  words:["dass", "du", "einer"] },
+          { id:'c10',  start:14.5,   words:["von", "ihnen", "bist"] },
+          { id:'c11',  start:16.11,  words:["ist", "höher", "als"] },
+          { id:'c12',  start:17.73,  words:["du", "glaubst"] },
+          { id:'c13',  start:18.8,   words:["Was", "kaum", "jemand"] },
+          { id:'c14',  start:20.41,  words:["weiß", "Frankfurt", "Flughafen"] },
+          { id:'c15',  start:22.02,  words:["hat", "zwei", "separate"] },
+          { id:'c16',  start:23.63,  words:["Terminals", "die", "über"] },
+          { id:'c17',  start:25.24,  words:["einen", "unterirdischen", "Skytrain"] },
+          { id:'c18',  start:26.85,  words:["verbunden", "sind", "und"] },
+          { id:'c19',  start:28.45,  words:["allein", "diese", "Fahrt"] },
+          { id:'c20',  start:30.06,  words:["kostet", "dich", "bis"] },
+          { id:'c21',  start:31.67,  words:["zu", "20", "Minuten"] },
+          { id:'c22',  start:33.28,  words:["Die", "meisten", "Buchungsseiten"] },
+          { id:'c23',  start:34.89,  words:["verschweigen", "das", "komplett"] },
+          { id:'c24',  start:36.5,   words:["Der", "Frankfurter", "Flughafen"] },
+          { id:'c25',  start:38.11,  words:["ist", "der", "viertgrößte"] },
+          { id:'c26',  start:39.72,  words:["in", "Europa", "Mit"] },
+          { id:'c27',  start:41.33,  words:["über", "300.000", "Quadratmetern"] },
+          { id:'c28',  start:42.93,  words:["Terminalfläche", "Vom", "falschen"] },
+          { id:'c29',  start:44.54,  words:["Eingang", "bis", "zum"] },
+          { id:'c30',  start:46.15,  words:["Gate", "können", "das"] },
+          { id:'c31',  start:47.76,  words:["locker", "25", "Minuten"] },
+          { id:'c32',  start:49.37,  words:["Fußweg", "sein", "Aber"] },
+          { id:'c33',  start:50.97,  words:["wie", "viel", "Zeit"] },
+          { id:'c34',  start:52.58,  words:["verlierst", "du", "wirklich"] },
+          { id:'c35',  start:54.19,  words:["Schritt", "für", "Schritt"] },
+          { id:'c36',  start:55.8,   words:["Selbst", "mit", "Online-Check-in"] },
+          { id:'c37',  start:57.37,  words:["brauchst", "du", "am"] },
+          { id:'c38',  start:58.93,  words:["Frankfurter", "Flughafen", "für"] },
+          { id:'c39',  start:60.5,   words:["die", "Gepäckaufgabe", "zur"] },
+          { id:'c40',  start:62.07,  words:["Hauptreisezeit", "durchschnittlich", "18"] },
+          { id:'c41',  start:63.63,  words:["Minuten", "An", "Ferientagen"] },
+          { id:'c42',  start:65.2,   words:["sogar", "über", "35"] },
+          { id:'c43',  start:66.77,  words:["Das", "steht", "nirgendwo"] },
+          { id:'c44',  start:68.33,  words:["in", "deiner", "Buchungsbestätigung"] },
+          { id:'c45',  start:69.9,   words:["Jetzt", "kommt", "der"] },
+          { id:'c46',  start:71.5,   words:["Faktor", "der", "alles"] },
+          { id:'c47',  start:73.11,  words:["ändert", "Die", "Sicherheitskontrolle"] },
+          { id:'c48',  start:74.71,  words:["am", "Frankfurter", "Flughafen"] },
+          { id:'c49',  start:76.31,  words:["gilt", "als", "eine"] },
+          { id:'c50',  start:77.91,  words:["der", "langsamsten", "in"] },
+          { id:'c51',  start:79.52,  words:["Deutschland", "Offizielle", "Daten"] },
+          { id:'c52',  start:81.12,  words:["zeigen", "In", "Spitzenzeiten"] },
+          { id:'c53',  start:82.72,  words:["wartest", "du", "hier"] },
+          { id:'c54',  start:84.32,  words:["bis", "zu", "45"] },
+          { id:'c55',  start:85.93,  words:["Minuten", "Was", "passiert"] },
+          { id:'c56',  start:87.53,  words:["danach", "macht", "es"] },
+          { id:'c57',  start:89.13,  words:["noch", "schlimmer"] },
+          { id:'c58',  start:90.2,   words:["Nach", "der", "Sicherheitskontrolle"] },
+          { id:'c59',  start:91.77,  words:["glaubst", "du", "das"] },
+          { id:'c60',  start:93.33,  words:["Schlimmste", "ist", "vorbei"] },
+          { id:'c61',  start:94.9,   words:["Aber", "am", "Frankfurter"] },
+          { id:'c62',  start:96.47,  words:["Flughafen", "liegen", "manche"] },
+          { id:'c63',  start:98.03,  words:["Gates", "im", "Bereich"] },
+          { id:'c64',  start:99.6,   words:["Z", "so", "weit"] },
+          { id:'c65',  start:101.17, words:["entfernt", "dass", "du"] },
+          { id:'c66',  start:102.73, words:["nochmal", "einen", "Shuttle-Bus"] },
+          { id:'c67',  start:104.3,  words:["nehmen", "musst", "Und"] },
+          { id:'c68',  start:105.87, words:["der", "fährt", "nur"] },
+          { id:'c69',  start:107.43, words:["alle", "12", "Minuten"] },
+          { id:'c70',  start:109.0,  words:["Rechnen", "wir", "es"] },
+          { id:'c71',  start:110.61, words:["durch", "Anfahrt", "zum"] },
+          { id:'c72',  start:112.23, words:["Flughafen", "plus", "Parkplatz"] },
+          { id:'c73',  start:113.84, words:["oder", "Bahn", "15"] },
+          { id:'c74',  start:115.46, words:["Minuten", "Puffer", "Gepäckaufgabe"] },
+          { id:'c75',  start:117.07, words:["bis", "35", "Minuten"] },
+          { id:'c76',  start:118.69, words:["Sicherheitskontrolle", "bis", "45"] },
+          { id:'c77',  start:120.3,  words:["Minuten", "Terminal-Transfer", "und"] },
+          { id:'c78',  start:121.92, words:["Gate", "bis", "25"] },
+          { id:'c79',  start:123.53, words:["Minuten", "Macht", "insgesamt"] },
+          { id:'c80',  start:125.15, words:["Über", "zwei", "Stunden"] },
+          { id:'c81',  start:126.76, words:["mindestens"] },
+          { id:'c82',  start:127.3,  words:["Bei", "Interkontinentalflügen", "empfiehlt"] },
+          { id:'c83',  start:128.91, words:["selbst", "Fraport", "offiziell"] },
+          { id:'c84',  start:130.52, words:["drei", "Stunden", "Vorlaufzeit"] },
+          { id:'c85',  start:132.13, words:["Doch", "die", "meisten"] },
+          { id:'c86',  start:133.74, words:["buchen", "mit", "zwei"] },
+          { id:'c87',  start:135.35, words:["Stunden", "Warum", "Weil"] },
+          { id:'c88',  start:136.95, words:["Buchungsseiten", "genau", "diese"] },
+          { id:'c89',  start:138.56, words:["zwei", "Stunden", "als"] },
+          { id:'c90',  start:140.17, words:["Standard", "vorschlagen", "Das"] },
+          { id:'c91',  start:141.78, words:["ist", "kein", "Fehler"] },
+          { id:'c92',  start:143.39, words:["das", "ist", "Design"] },
+          { id:'c93',  start:145.0,  words:["Hier", "ist", "was"] },
+          { id:'c94',  start:146.61, words:["kluge", "Reisende", "tun"] },
+          { id:'c95',  start:148.22, words:["Online-Check-in", "24", "Stunden"] },
+          { id:'c96',  start:149.83, words:["vorher", "Handgepäck", "only"] },
+          { id:'c97',  start:151.45, words:["wenn", "möglich", "und"] },
+          { id:'c98',  start:153.06, words:["immer", "Terminal", "A"] },
+          { id:'c99',  start:154.67, words:["oder", "B", "als"] },
           { id:'c100', start:156.28, words:["Ankunftspunkt", "wählen", "nicht"] },
           { id:'c101', start:157.89, words:["den", "Fernbahnhof", "Dieser"] },
-          { id:'c102', start:159.5, words:["eine", "Trick", "spart"] },
+          { id:'c102', start:159.5,  words:["eine", "Trick", "spart"] },
           { id:'c103', start:161.11, words:["dir", "bis", "zu"] },
           { id:'c104', start:162.73, words:["30", "Minuten"] },
-          { id:'c105', start:163.8, words:["Was", "die", "wenigsten"] },
+          { id:'c105', start:163.8,  words:["Was", "die", "wenigsten"] },
           { id:'c106', start:165.41, words:["kennen", "Am", "Frankfurter"] },
           { id:'c107', start:167.03, words:["Flughafen", "gibt", "es"] },
           { id:'c108', start:168.64, words:["einen", "offiziellen", "Priority-Lane-Zugang"] },
@@ -415,12 +507,12 @@
           { id:'c110', start:171.86, words:["Mit", "bestimmten", "Kreditkarten"] },
           { id:'c111', start:173.47, words:["oder", "einem", "Tagespass"] },
           { id:'c112', start:175.09, words:["für", "unter", "10"] },
-          { id:'c113', start:176.7, words:["Euro", "Der", "Unterschied"] },
+          { id:'c113', start:176.7,  words:["Euro", "Der", "Unterschied"] },
           { id:'c114', start:178.31, words:["Du", "sparst", "die"] },
           { id:'c115', start:179.93, words:["komplette", "Schlange"] },
-          { id:'c116', start:181.0, words:["Der", "Frankfurter", "Flughafen"] },
-          { id:'c117', start:182.6, words:["ist", "kein", "normaler"] },
-          { id:'c118', start:184.2, words:["Flughafen", "Er", "ist"] },
+          { id:'c116', start:181.0,  words:["Der", "Frankfurter", "Flughafen"] },
+          { id:'c117', start:182.6,  words:["ist", "kein", "normaler"] },
+          { id:'c118', start:184.2,  words:["Flughafen", "Er", "ist"] },
           { id:'c119', start:185.81, words:["eine", "eigene", "Stadt"] },
           { id:'c120', start:187.41, words:["mit", "eigenen", "Regeln"] },
           { id:'c121', start:189.01, words:["eigener", "Zeit", "Wer"] },
@@ -432,27 +524,27 @@
           { id:'c127', start:198.63, words:["Ausnahme", "Dein", "zukünftiges"] },
           { id:'c128', start:200.23, words:["Ich", "wird", "es"] },
           { id:'c129', start:201.83, words:["dir", "danken"] },
-          { id:'c130', start:202.9, words:["Wenn", "dir", "dieses"] },
+          { id:'c130', start:202.9,  words:["Wenn", "dir", "dieses"] },
           { id:'c131', start:204.55, words:["Video", "einen", "Flug"] },
-          { id:'c132', start:206.2, words:["gerettet", "hat", "oder"] },
+          { id:'c132', start:206.2,  words:["gerettet", "hat", "oder"] },
           { id:'c133', start:207.85, words:["du", "jemanden", "kennst"] },
-          { id:'c134', start:209.5, words:["der", "das", "dringend"] },
+          { id:'c134', start:209.5,  words:["der", "das", "dringend"] },
           { id:'c135', start:211.15, words:["wissen", "muss", "dann"] },
-          { id:'c136', start:212.8, words:["teile", "es", "jetzt"] },
+          { id:'c136', start:212.8,  words:["teile", "es", "jetzt"] },
           { id:'c137', start:214.45, words:["Und", "abonniere", "den"] },
-          { id:'c138', start:216.1, words:["Kanal", "Wir", "zeigen"] },
+          { id:'c138', start:216.1,  words:["Kanal", "Wir", "zeigen"] },
           { id:'c139', start:217.75, words:["dir", "jede", "Woche"] },
-          { id:'c140', start:219.4, words:["was", "Reise-Apps", "und"] },
+          { id:'c140', start:219.4,  words:["was", "Reise-Apps", "und"] },
           { id:'c141', start:221.05, words:["Airlines", "dir", "verschweigen"] },
         ];
 
         /* build caption DOM */
         var layer = document.getElementById('caption-layer');
-        captionData.forEach(function(c) {
+        captionData.forEach(function (c) {
           var d = document.createElement('div');
           d.id = c.id;
           d.className = 'caption';
-          d.innerHTML = c.words.map(function(w) {
+          d.innerHTML = c.words.map(function (w) {
             return '<span class="cw">' + w + '</span>';
           }).join(' ');
           layer.appendChild(d);
@@ -462,22 +554,18 @@
         function animateCaption(c) {
           var n = c.words.length;
           var totalDur = n <= 2 ? 2.5 : 3.2;
-          var wordDur = (totalDur - 0.4) / n;
+          var wordDur  = (totalDur - 0.4) / n;
 
           tl.to('#' + c.id, { opacity: 1, duration: 0.2 }, c.start);
 
-          c.words.forEach(function(_, i) {
+          c.words.forEach(function (_, i) {
             var wStart = c.start + 0.2 + i * wordDur;
             if (i > 0) {
               tl.to('#' + c.id + ' .cw:nth-child(' + i + ')',
-                { backgroundColor: 'rgba(0,0,0,0)', color: '#fff', duration: 0.1 },
-                wStart
-              );
+                { backgroundColor: 'rgba(0,0,0,0)', color: '#fff', duration: 0.1 }, wStart);
             }
             tl.to('#' + c.id + ' .cw:nth-child(' + (i + 1) + ')',
-              { backgroundColor: 'rgba(245,158,11,0.85)', color: '#000', duration: 0.1 },
-              wStart
-            );
+              { backgroundColor: 'rgba(245,158,11,0.85)', color: '#000', duration: 0.1 }, wStart);
           });
 
           tl.to('#' + c.id, { opacity: 0, duration: 0.22 }, c.start + totalDur - 0.22);
@@ -488,5 +576,6 @@
         window.__timelines['overlays'] = tl;
       })();
     </script>
+
   </div>
 </template>
