@@ -1,0 +1,71 @@
+<template id="intro-template">
+  <div data-composition-id="intro" data-width="1280" data-height="720" data-duration="8">
+
+    <style>
+      [data-composition-id="intro"] {
+        width: 100%; height: 100%; overflow: hidden; pointer-events: none;
+        font-family: 'Montserrat', sans-serif;
+      }
+
+      [data-composition-id="intro"] .lower-third {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 80px;
+        background: rgba(0,0,0,0.62);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-top: 2px solid #FFD700;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 48px;
+        transform: translateX(-100%);
+      }
+
+      [data-composition-id="intro"] .lt-title {
+        font-size: 20px;
+        font-weight: 800;
+        color: #fff;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+      }
+
+      [data-composition-id="intro"] .lt-title span {
+        color: #FFD700;
+      }
+
+      [data-composition-id="intro"] .lt-right {
+        font-size: 13px;
+        font-weight: 700;
+        color: rgba(255,255,255,0.55);
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+    </style>
+
+    <div class="lower-third" id="lt-bar">
+      <div class="lt-title">REISE<span>TIPPS</span> &nbsp;•&nbsp; HANDGEPÄCK</div>
+      <div class="lt-right">POWERBANK-REGELN</div>
+    </div>
+
+    <script>
+    (function() {
+      const tl = gsap.timeline({ paused: true });
+
+      // Slide in from left
+      tl.to('[data-composition-id="intro"] #lt-bar', {
+        x: '100%', duration: 0.6, ease: 'power2.out'
+      }, 0.3);
+
+      // Slide out to left
+      tl.to('[data-composition-id="intro"] #lt-bar', {
+        x: '-100%', duration: 0.4, ease: 'power2.in'
+      }, 7.2);
+
+      window.__timelines["intro"] = tl;
+    })();
+    </script>
+  </div>
+</template>

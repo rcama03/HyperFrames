@@ -1,0 +1,2282 @@
+[
+  {
+    "text": "Jedes",
+    "start": 0.0,
+    "end": 0.421,
+    "scene": 1
+  },
+  {
+    "text": "Jahr",
+    "start": 0.421,
+    "end": 0.842,
+    "scene": 1
+  },
+  {
+    "text": "werden",
+    "start": 0.842,
+    "end": 1.264,
+    "scene": 1
+  },
+  {
+    "text": "über",
+    "start": 1.264,
+    "end": 1.685,
+    "scene": 1
+  },
+  {
+    "text": "zwei",
+    "start": 1.685,
+    "end": 2.106,
+    "scene": 1
+  },
+  {
+    "text": "Millionen",
+    "start": 2.106,
+    "end": 2.527,
+    "scene": 1
+  },
+  {
+    "text": "Passagiere",
+    "start": 2.527,
+    "end": 2.948,
+    "scene": 1
+  },
+  {
+    "text": "am",
+    "start": 2.948,
+    "end": 3.369,
+    "scene": 1
+  },
+  {
+    "text": "Gate",
+    "start": 3.369,
+    "end": 3.791,
+    "scene": 1
+  },
+  {
+    "text": "aufgehalten",
+    "start": 3.791,
+    "end": 4.212,
+    "scene": 1
+  },
+  {
+    "text": "nicht",
+    "start": 4.212,
+    "end": 4.633,
+    "scene": 1
+  },
+  {
+    "text": "wegen",
+    "start": 4.633,
+    "end": 5.054,
+    "scene": 1
+  },
+  {
+    "text": "Waffen",
+    "start": 5.054,
+    "end": 5.475,
+    "scene": 1
+  },
+  {
+    "text": "nicht",
+    "start": 5.475,
+    "end": 5.896,
+    "scene": 1
+  },
+  {
+    "text": "wegen",
+    "start": 5.896,
+    "end": 6.318,
+    "scene": 1
+  },
+  {
+    "text": "verbotener",
+    "start": 6.318,
+    "end": 6.739,
+    "scene": 1
+  },
+  {
+    "text": "Flüssigkeiten",
+    "start": 6.739,
+    "end": 7.16,
+    "scene": 1
+  },
+  {
+    "text": "Sondern",
+    "start": 7.16,
+    "end": 7.407,
+    "scene": 1
+  },
+  {
+    "text": "wegen",
+    "start": 8.522,
+    "end": 8.928,
+    "scene": 1
+  },
+  {
+    "text": "einer",
+    "start": 8.928,
+    "end": 9.334,
+    "scene": 1
+  },
+  {
+    "text": "einzigen",
+    "start": 9.334,
+    "end": 9.739,
+    "scene": 1
+  },
+  {
+    "text": "Sache",
+    "start": 9.739,
+    "end": 10.145,
+    "scene": 1
+  },
+  {
+    "text": "die",
+    "start": 10.145,
+    "end": 10.551,
+    "scene": 1
+  },
+  {
+    "text": "fast",
+    "start": 10.551,
+    "end": 10.957,
+    "scene": 1
+  },
+  {
+    "text": "jeder",
+    "start": 10.957,
+    "end": 11.362,
+    "scene": 1
+  },
+  {
+    "text": "dabei",
+    "start": 11.362,
+    "end": 11.768,
+    "scene": 1
+  },
+  {
+    "text": "hat",
+    "start": 11.768,
+    "end": 12.174,
+    "scene": 1
+  },
+  {
+    "text": "Was",
+    "start": 13.216,
+    "end": 13.603,
+    "scene": 1
+  },
+  {
+    "text": "ist",
+    "start": 13.603,
+    "end": 13.989,
+    "scene": 1
+  },
+  {
+    "text": "es",
+    "start": 14.977,
+    "end": 15.398,
+    "scene": 1
+  },
+  {
+    "text": "Die",
+    "start": 15.398,
+    "end": 15.819,
+    "scene": 2
+  },
+  {
+    "text": "Antwort",
+    "start": 15.819,
+    "end": 16.24,
+    "scene": 2
+  },
+  {
+    "text": "ist",
+    "start": 16.24,
+    "end": 16.661,
+    "scene": 2
+  },
+  {
+    "text": "ein",
+    "start": 16.661,
+    "end": 16.741,
+    "scene": 2
+  },
+  {
+    "text": "Powerbank",
+    "start": 17.793,
+    "end": 18.214,
+    "scene": 2
+  },
+  {
+    "text": "Und",
+    "start": 18.214,
+    "end": 18.635,
+    "scene": 2
+  },
+  {
+    "text": "die",
+    "start": 18.635,
+    "end": 19.056,
+    "scene": 2
+  },
+  {
+    "text": "wenigsten",
+    "start": 19.056,
+    "end": 19.477,
+    "scene": 2
+  },
+  {
+    "text": "wissen",
+    "start": 19.477,
+    "end": 19.898,
+    "scene": 2
+  },
+  {
+    "text": "Es",
+    "start": 19.898,
+    "end": 20.32,
+    "scene": 2
+  },
+  {
+    "text": "gibt",
+    "start": 20.32,
+    "end": 20.741,
+    "scene": 2
+  },
+  {
+    "text": "eine",
+    "start": 20.741,
+    "end": 21.162,
+    "scene": 2
+  },
+  {
+    "text": "spezifische",
+    "start": 21.162,
+    "end": 21.583,
+    "scene": 2
+  },
+  {
+    "text": "Wattstunden-Grenze",
+    "start": 21.583,
+    "end": 22.004,
+    "scene": 2
+  },
+  {
+    "text": "überschreitest",
+    "start": 22.004,
+    "end": 22.426,
+    "scene": 2
+  },
+  {
+    "text": "du",
+    "start": 22.426,
+    "end": 22.847,
+    "scene": 2
+  },
+  {
+    "text": "sie",
+    "start": 22.847,
+    "end": 23.268,
+    "scene": 2
+  },
+  {
+    "text": "auch",
+    "start": 23.268,
+    "end": 23.689,
+    "scene": 2
+  },
+  {
+    "text": "nur",
+    "start": 23.689,
+    "end": 24.11,
+    "scene": 2
+  },
+  {
+    "text": "minimal",
+    "start": 24.11,
+    "end": 24.531,
+    "scene": 2
+  },
+  {
+    "text": "wird",
+    "start": 24.531,
+    "end": 24.953,
+    "scene": 2
+  },
+  {
+    "text": "dein",
+    "start": 24.953,
+    "end": 25.374,
+    "scene": 2
+  },
+  {
+    "text": "Gerät",
+    "start": 26.45,
+    "end": 26.872,
+    "scene": 2
+  },
+  {
+    "text": "konfisziert",
+    "start": 26.872,
+    "end": 27.293,
+    "scene": 2
+  },
+  {
+    "text": "Im",
+    "start": 27.293,
+    "end": 27.714,
+    "scene": 2
+  },
+  {
+    "text": "schlimmsten",
+    "start": 27.714,
+    "end": 28.135,
+    "scene": 2
+  },
+  {
+    "text": "Fall",
+    "start": 28.135,
+    "end": 28.556,
+    "scene": 2
+  },
+  {
+    "text": "wirst",
+    "start": 28.556,
+    "end": 28.977,
+    "scene": 2
+  },
+  {
+    "text": "du",
+    "start": 28.977,
+    "end": 29.032,
+    "scene": 2
+  },
+  {
+    "text": "vom",
+    "start": 30.123,
+    "end": 30.544,
+    "scene": 2
+  },
+  {
+    "text": "Flug",
+    "start": 30.544,
+    "end": 30.966,
+    "scene": 2
+  },
+  {
+    "text": "ausgeschlossen",
+    "start": 30.966,
+    "end": 31.387,
+    "scene": 2
+  },
+  {
+    "text": "Die",
+    "start": 31.387,
+    "end": 31.808,
+    "scene": 3
+  },
+  {
+    "text": "internationale",
+    "start": 31.808,
+    "end": 32.229,
+    "scene": 3
+  },
+  {
+    "text": "Luftfahrtbehörde",
+    "start": 32.229,
+    "end": 32.65,
+    "scene": 3
+  },
+  {
+    "text": "IATA",
+    "start": 32.65,
+    "end": 33.072,
+    "scene": 3
+  },
+  {
+    "text": "hat",
+    "start": 33.072,
+    "end": 33.493,
+    "scene": 3
+  },
+  {
+    "text": "eine",
+    "start": 33.493,
+    "end": 33.914,
+    "scene": 3
+  },
+  {
+    "text": "strikte",
+    "start": 33.914,
+    "end": 34.335,
+    "scene": 3
+  },
+  {
+    "text": "Grenze",
+    "start": 34.335,
+    "end": 34.756,
+    "scene": 3
+  },
+  {
+    "text": "festgelegt",
+    "start": 34.756,
+    "end": 35.177,
+    "scene": 3
+  },
+  {
+    "text": "100",
+    "start": 35.177,
+    "end": 35.599,
+    "scene": 3
+  },
+  {
+    "text": "Wattstunden",
+    "start": 35.599,
+    "end": 36.02,
+    "scene": 3
+  },
+  {
+    "text": "pro",
+    "start": 36.02,
+    "end": 36.441,
+    "scene": 3
+  },
+  {
+    "text": "Powerbank",
+    "start": 36.441,
+    "end": 36.862,
+    "scene": 3
+  },
+  {
+    "text": "Klingt",
+    "start": 36.862,
+    "end": 37.283,
+    "scene": 3
+  },
+  {
+    "text": "technisch",
+    "start": 37.283,
+    "end": 37.486,
+    "scene": 3
+  },
+  {
+    "text": "Ist",
+    "start": 38.528,
+    "end": 38.949,
+    "scene": 3
+  },
+  {
+    "text": "es",
+    "start": 38.949,
+    "end": 39.371,
+    "scene": 3
+  },
+  {
+    "text": "auch",
+    "start": 39.371,
+    "end": 39.431,
+    "scene": 3
+  },
+  {
+    "text": "Die",
+    "start": 40.446,
+    "end": 40.868,
+    "scene": 3
+  },
+  {
+    "text": "meisten",
+    "start": 40.868,
+    "end": 41.043,
+    "scene": 3
+  },
+  {
+    "text": "Hersteller",
+    "start": 42.132,
+    "end": 42.553,
+    "scene": 3
+  },
+  {
+    "text": "drucken",
+    "start": 42.553,
+    "end": 42.974,
+    "scene": 3
+  },
+  {
+    "text": "diese",
+    "start": 42.974,
+    "end": 43.396,
+    "scene": 3
+  },
+  {
+    "text": "Zahl",
+    "start": 43.396,
+    "end": 43.817,
+    "scene": 3
+  },
+  {
+    "text": "nicht",
+    "start": 43.817,
+    "end": 44.238,
+    "scene": 3
+  },
+  {
+    "text": "einmal",
+    "start": 44.238,
+    "end": 44.659,
+    "scene": 3
+  },
+  {
+    "text": "auf",
+    "start": 44.659,
+    "end": 45.08,
+    "scene": 3
+  },
+  {
+    "text": "die",
+    "start": 45.08,
+    "end": 45.501,
+    "scene": 3
+  },
+  {
+    "text": "Verpackung",
+    "start": 45.501,
+    "end": 45.591,
+    "scene": 3
+  },
+  {
+    "text": "Sicherheitspersonal",
+    "start": 46.635,
+    "end": 47.056,
+    "scene": 4
+  },
+  {
+    "text": "hat",
+    "start": 47.056,
+    "end": 47.478,
+    "scene": 4
+  },
+  {
+    "text": "Geräte",
+    "start": 47.478,
+    "end": 47.899,
+    "scene": 4
+  },
+  {
+    "text": "die",
+    "start": 47.899,
+    "end": 48.32,
+    "scene": 4
+  },
+  {
+    "text": "die",
+    "start": 48.32,
+    "end": 48.741,
+    "scene": 4
+  },
+  {
+    "text": "Wattstunden",
+    "start": 48.741,
+    "end": 49.162,
+    "scene": 4
+  },
+  {
+    "text": "in",
+    "start": 49.162,
+    "end": 49.583,
+    "scene": 4
+  },
+  {
+    "text": "Sekunden",
+    "start": 49.583,
+    "end": 50.005,
+    "scene": 4
+  },
+  {
+    "text": "berechnen",
+    "start": 50.005,
+    "end": 50.426,
+    "scene": 4
+  },
+  {
+    "text": "Fliegt",
+    "start": 50.426,
+    "end": 50.847,
+    "scene": 4
+  },
+  {
+    "text": "deine",
+    "start": 50.847,
+    "end": 50.922,
+    "scene": 4
+  },
+  {
+    "text": "Powerbank",
+    "start": 52.112,
+    "end": 52.533,
+    "scene": 4
+  },
+  {
+    "text": "über",
+    "start": 52.533,
+    "end": 52.954,
+    "scene": 4
+  },
+  {
+    "text": "den",
+    "start": 52.954,
+    "end": 53.376,
+    "scene": 4
+  },
+  {
+    "text": "Grenzwert",
+    "start": 53.376,
+    "end": 53.797,
+    "scene": 4
+  },
+  {
+    "text": "wird",
+    "start": 53.797,
+    "end": 54.218,
+    "scene": 4
+  },
+  {
+    "text": "sie",
+    "start": 54.218,
+    "end": 54.639,
+    "scene": 4
+  },
+  {
+    "text": "einbehalten",
+    "start": 54.639,
+    "end": 55.06,
+    "scene": 4
+  },
+  {
+    "text": "Keine",
+    "start": 55.06,
+    "end": 55.481,
+    "scene": 4
+  },
+  {
+    "text": "Ausnahmen",
+    "start": 55.481,
+    "end": 55.607,
+    "scene": 4
+  },
+  {
+    "text": "Kein",
+    "start": 56.717,
+    "end": 57.138,
+    "scene": 4
+  },
+  {
+    "text": "Ermessen",
+    "start": 57.138,
+    "end": 57.559,
+    "scene": 4
+  },
+  {
+    "text": "Und",
+    "start": 57.559,
+    "end": 57.646,
+    "scene": 4
+  },
+  {
+    "text": "dein",
+    "start": 58.787,
+    "end": 59.164,
+    "scene": 4
+  },
+  {
+    "text": "Gerät",
+    "start": 59.164,
+    "end": 59.54,
+    "scene": 4
+  },
+  {
+    "text": "siehst",
+    "start": 60.647,
+    "end": 61.042,
+    "scene": 4
+  },
+  {
+    "text": "du",
+    "start": 61.042,
+    "end": 61.438,
+    "scene": 4
+  },
+  {
+    "text": "nie",
+    "start": 61.438,
+    "end": 61.833,
+    "scene": 4
+  },
+  {
+    "text": "wieder",
+    "start": 61.833,
+    "end": 62.229,
+    "scene": 4
+  },
+  {
+    "text": "Aber",
+    "start": 63.318,
+    "end": 63.739,
+    "scene": 5
+  },
+  {
+    "text": "warum",
+    "start": 63.739,
+    "end": 64.16,
+    "scene": 5
+  },
+  {
+    "text": "ist",
+    "start": 64.16,
+    "end": 64.581,
+    "scene": 5
+  },
+  {
+    "text": "das",
+    "start": 64.581,
+    "end": 65.003,
+    "scene": 5
+  },
+  {
+    "text": "überhaupt",
+    "start": 65.003,
+    "end": 65.424,
+    "scene": 5
+  },
+  {
+    "text": "verboten",
+    "start": 65.424,
+    "end": 65.589,
+    "scene": 5
+  },
+  {
+    "text": "Lithium-Ionen-Akkus",
+    "start": 66.74,
+    "end": 67.161,
+    "scene": 5
+  },
+  {
+    "text": "können",
+    "start": 67.161,
+    "end": 67.582,
+    "scene": 5
+  },
+  {
+    "text": "sich",
+    "start": 67.582,
+    "end": 68.004,
+    "scene": 5
+  },
+  {
+    "text": "bei",
+    "start": 68.004,
+    "end": 68.425,
+    "scene": 5
+  },
+  {
+    "text": "Druck",
+    "start": 68.425,
+    "end": 68.846,
+    "scene": 5
+  },
+  {
+    "text": "und",
+    "start": 68.846,
+    "end": 69.267,
+    "scene": 5
+  },
+  {
+    "text": "Temperaturschwankungen",
+    "start": 69.267,
+    "end": 69.688,
+    "scene": 5
+  },
+  {
+    "text": "im",
+    "start": 69.688,
+    "end": 70.109,
+    "scene": 5
+  },
+  {
+    "text": "Flugzeug",
+    "start": 70.109,
+    "end": 70.531,
+    "scene": 5
+  },
+  {
+    "text": "selbst",
+    "start": 70.531,
+    "end": 70.952,
+    "scene": 5
+  },
+  {
+    "text": "entzünden",
+    "start": 70.952,
+    "end": 71.373,
+    "scene": 5
+  },
+  {
+    "text": "Es",
+    "start": 71.373,
+    "end": 71.773,
+    "scene": 5
+  },
+  {
+    "text": "gab",
+    "start": 71.773,
+    "end": 72.174,
+    "scene": 5
+  },
+  {
+    "text": "bereits",
+    "start": 73.311,
+    "end": 73.733,
+    "scene": 5
+  },
+  {
+    "text": "Fälle",
+    "start": 73.733,
+    "end": 74.154,
+    "scene": 5
+  },
+  {
+    "text": "bei",
+    "start": 74.154,
+    "end": 74.575,
+    "scene": 5
+  },
+  {
+    "text": "denen",
+    "start": 74.575,
+    "end": 74.996,
+    "scene": 5
+  },
+  {
+    "text": "Powerbanks",
+    "start": 74.996,
+    "end": 75.417,
+    "scene": 5
+  },
+  {
+    "text": "im",
+    "start": 75.417,
+    "end": 75.838,
+    "scene": 5
+  },
+  {
+    "text": "Gepäckfach",
+    "start": 75.838,
+    "end": 76.26,
+    "scene": 5
+  },
+  {
+    "text": "in",
+    "start": 76.26,
+    "end": 76.681,
+    "scene": 5
+  },
+  {
+    "text": "Flammen",
+    "start": 76.681,
+    "end": 77.102,
+    "scene": 5
+  },
+  {
+    "text": "aufgingen",
+    "start": 77.102,
+    "end": 77.523,
+    "scene": 5
+  },
+  {
+    "text": "Das",
+    "start": 77.523,
+    "end": 77.588,
+    "scene": 5
+  },
+  {
+    "text": "ist",
+    "start": 78.507,
+    "end": 78.928,
+    "scene": 5
+  },
+  {
+    "text": "kein",
+    "start": 78.928,
+    "end": 79.35,
+    "scene": 5
+  },
+  {
+    "text": "Mythos",
+    "start": 79.35,
+    "end": 79.771,
+    "scene": 5
+  },
+  {
+    "text": "Zwischen",
+    "start": 79.771,
+    "end": 80.192,
+    "scene": 6
+  },
+  {
+    "text": "100",
+    "start": 80.192,
+    "end": 80.613,
+    "scene": 6
+  },
+  {
+    "text": "und",
+    "start": 80.613,
+    "end": 81.034,
+    "scene": 6
+  },
+  {
+    "text": "160",
+    "start": 81.034,
+    "end": 81.455,
+    "scene": 6
+  },
+  {
+    "text": "Wattstunden",
+    "start": 81.455,
+    "end": 81.877,
+    "scene": 6
+  },
+  {
+    "text": "gibt",
+    "start": 81.877,
+    "end": 82.298,
+    "scene": 6
+  },
+  {
+    "text": "es",
+    "start": 82.298,
+    "end": 82.719,
+    "scene": 6
+  },
+  {
+    "text": "eine",
+    "start": 82.719,
+    "end": 83.14,
+    "scene": 6
+  },
+  {
+    "text": "Grauzone",
+    "start": 83.14,
+    "end": 83.561,
+    "scene": 6
+  },
+  {
+    "text": "diese",
+    "start": 83.561,
+    "end": 83.973,
+    "scene": 6
+  },
+  {
+    "text": "Powerbanks",
+    "start": 83.973,
+    "end": 84.384,
+    "scene": 6
+  },
+  {
+    "text": "sind",
+    "start": 84.384,
+    "end": 84.796,
+    "scene": 6
+  },
+  {
+    "text": "erlaubt",
+    "start": 84.796,
+    "end": 85.208,
+    "scene": 6
+  },
+  {
+    "text": "aber",
+    "start": 85.208,
+    "end": 85.619,
+    "scene": 6
+  },
+  {
+    "text": "nur",
+    "start": 85.619,
+    "end": 86.031,
+    "scene": 6
+  },
+  {
+    "text": "mit",
+    "start": 86.031,
+    "end": 86.442,
+    "scene": 6
+  },
+  {
+    "text": "ausdrücklicher",
+    "start": 86.442,
+    "end": 86.854,
+    "scene": 6
+  },
+  {
+    "text": "Genehmigung",
+    "start": 86.854,
+    "end": 87.265,
+    "scene": 6
+  },
+  {
+    "text": "der",
+    "start": 88.404,
+    "end": 88.825,
+    "scene": 6
+  },
+  {
+    "text": "Airline",
+    "start": 88.825,
+    "end": 89.246,
+    "scene": 6
+  },
+  {
+    "text": "Rufst",
+    "start": 89.246,
+    "end": 89.647,
+    "scene": 6
+  },
+  {
+    "text": "du",
+    "start": 90.779,
+    "end": 91.177,
+    "scene": 6
+  },
+  {
+    "text": "vorher",
+    "start": 91.177,
+    "end": 91.576,
+    "scene": 6
+  },
+  {
+    "text": "an",
+    "start": 91.576,
+    "end": 91.974,
+    "scene": 6
+  },
+  {
+    "text": "Fast",
+    "start": 92.987,
+    "end": 93.408,
+    "scene": 6
+  },
+  {
+    "text": "niemand",
+    "start": 93.408,
+    "end": 93.829,
+    "scene": 6
+  },
+  {
+    "text": "tut",
+    "start": 93.829,
+    "end": 94.25,
+    "scene": 6
+  },
+  {
+    "text": "das",
+    "start": 95.318,
+    "end": 95.739,
+    "scene": 6
+  },
+  {
+    "text": "Und",
+    "start": 95.739,
+    "end": 96.16,
+    "scene": 6
+  },
+  {
+    "text": "genau",
+    "start": 96.16,
+    "end": 96.581,
+    "scene": 6
+  },
+  {
+    "text": "das",
+    "start": 96.581,
+    "end": 97.003,
+    "scene": 6
+  },
+  {
+    "text": "wird",
+    "start": 97.003,
+    "end": 97.424,
+    "scene": 6
+  },
+  {
+    "text": "teuer",
+    "start": 97.424,
+    "end": 97.845,
+    "scene": 6
+  },
+  {
+    "text": "Die",
+    "start": 97.845,
+    "end": 98.266,
+    "scene": 7
+  },
+  {
+    "text": "Formel",
+    "start": 98.266,
+    "end": 98.687,
+    "scene": 7
+  },
+  {
+    "text": "ist",
+    "start": 98.687,
+    "end": 99.108,
+    "scene": 7
+  },
+  {
+    "text": "simpel",
+    "start": 99.108,
+    "end": 99.53,
+    "scene": 7
+  },
+  {
+    "text": "Milliamperestunden",
+    "start": 99.53,
+    "end": 99.947,
+    "scene": 7
+  },
+  {
+    "text": "mal",
+    "start": 99.947,
+    "end": 100.365,
+    "scene": 7
+  },
+  {
+    "text": "Volt",
+    "start": 100.365,
+    "end": 100.782,
+    "scene": 7
+  },
+  {
+    "text": "geteilt",
+    "start": 101.911,
+    "end": 102.332,
+    "scene": 7
+  },
+  {
+    "text": "durch",
+    "start": 102.332,
+    "end": 102.753,
+    "scene": 7
+  },
+  {
+    "text": "1000",
+    "start": 102.753,
+    "end": 103.175,
+    "scene": 7
+  },
+  {
+    "text": "ergibt",
+    "start": 103.175,
+    "end": 103.596,
+    "scene": 7
+  },
+  {
+    "text": "Wattstunden",
+    "start": 103.596,
+    "end": 104.017,
+    "scene": 7
+  },
+  {
+    "text": "Eine",
+    "start": 104.017,
+    "end": 104.438,
+    "scene": 7
+  },
+  {
+    "text": "20.000-mAh-Powerbank",
+    "start": 104.438,
+    "end": 104.859,
+    "scene": 7
+  },
+  {
+    "text": "mit",
+    "start": 104.859,
+    "end": 105.28,
+    "scene": 7
+  },
+  {
+    "text": "3,7",
+    "start": 105.28,
+    "end": 105.702,
+    "scene": 7
+  },
+  {
+    "text": "Volt",
+    "start": 105.702,
+    "end": 106.123,
+    "scene": 7
+  },
+  {
+    "text": "kommt",
+    "start": 106.123,
+    "end": 106.544,
+    "scene": 7
+  },
+  {
+    "text": "auf",
+    "start": 106.544,
+    "end": 106.965,
+    "scene": 7
+  },
+  {
+    "text": "74",
+    "start": 106.965,
+    "end": 107.386,
+    "scene": 7
+  },
+  {
+    "text": "Wattstunden",
+    "start": 107.386,
+    "end": 107.807,
+    "scene": 7
+  },
+  {
+    "text": "also",
+    "start": 107.807,
+    "end": 108.229,
+    "scene": 7
+  },
+  {
+    "text": "sicher",
+    "start": 108.229,
+    "end": 108.65,
+    "scene": 7
+  },
+  {
+    "text": "Aber",
+    "start": 108.65,
+    "end": 108.936,
+    "scene": 7
+  },
+  {
+    "text": "schon",
+    "start": 110.055,
+    "end": 110.476,
+    "scene": 7
+  },
+  {
+    "text": "30.000",
+    "start": 110.476,
+    "end": 110.897,
+    "scene": 7
+  },
+  {
+    "text": "mAh",
+    "start": 110.897,
+    "end": 111.319,
+    "scene": 7
+  },
+  {
+    "text": "sprengen",
+    "start": 111.319,
+    "end": 111.74,
+    "scene": 7
+  },
+  {
+    "text": "das",
+    "start": 111.74,
+    "end": 112.161,
+    "scene": 7
+  },
+  {
+    "text": "Limit",
+    "start": 112.161,
+    "end": 112.582,
+    "scene": 7
+  },
+  {
+    "text": "Weißt",
+    "start": 112.582,
+    "end": 113.003,
+    "scene": 7
+  },
+  {
+    "text": "du",
+    "start": 113.003,
+    "end": 113.424,
+    "scene": 7
+  },
+  {
+    "text": "was",
+    "start": 113.424,
+    "end": 113.487,
+    "scene": 7
+  },
+  {
+    "text": "du",
+    "start": 114.524,
+    "end": 114.945,
+    "scene": 7
+  },
+  {
+    "text": "packst",
+    "start": 114.945,
+    "end": 115.366,
+    "scene": 7
+  },
+  {
+    "text": "Ein",
+    "start": 115.366,
+    "end": 115.701,
+    "scene": 8
+  },
+  {
+    "text": "Reisender",
+    "start": 115.701,
+    "end": 116.035,
+    "scene": 8
+  },
+  {
+    "text": "verlor",
+    "start": 117.035,
+    "end": 117.456,
+    "scene": 8
+  },
+  {
+    "text": "in",
+    "start": 117.456,
+    "end": 117.877,
+    "scene": 8
+  },
+  {
+    "text": "Frankfurt",
+    "start": 117.877,
+    "end": 118.299,
+    "scene": 8
+  },
+  {
+    "text": "seinen",
+    "start": 118.299,
+    "end": 118.72,
+    "scene": 8
+  },
+  {
+    "text": "120-Euro-Powerbank",
+    "start": 118.72,
+    "end": 119.141,
+    "scene": 8
+  },
+  {
+    "text": "weil",
+    "start": 119.141,
+    "end": 119.562,
+    "scene": 8
+  },
+  {
+    "text": "er",
+    "start": 119.562,
+    "end": 119.983,
+    "scene": 8
+  },
+  {
+    "text": "die",
+    "start": 119.983,
+    "end": 120.404,
+    "scene": 8
+  },
+  {
+    "text": "Wattstunden",
+    "start": 120.404,
+    "end": 120.826,
+    "scene": 8
+  },
+  {
+    "text": "nie",
+    "start": 120.826,
+    "end": 121.247,
+    "scene": 8
+  },
+  {
+    "text": "geprüft",
+    "start": 121.247,
+    "end": 121.668,
+    "scene": 8
+  },
+  {
+    "text": "hatte",
+    "start": 121.668,
+    "end": 122.089,
+    "scene": 8
+  },
+  {
+    "text": "Sein",
+    "start": 122.089,
+    "end": 122.51,
+    "scene": 8
+  },
+  {
+    "text": "Flug",
+    "start": 122.51,
+    "end": 122.931,
+    "scene": 8
+  },
+  {
+    "text": "Verpasst",
+    "start": 122.931,
+    "end": 123.353,
+    "scene": 8
+  },
+  {
+    "text": "Entschädigung",
+    "start": 123.353,
+    "end": 123.741,
+    "scene": 8
+  },
+  {
+    "text": "Null",
+    "start": 124.852,
+    "end": 125.273,
+    "scene": 8
+  },
+  {
+    "text": "Die",
+    "start": 125.273,
+    "end": 125.535,
+    "scene": 8
+  },
+  {
+    "text": "Airline",
+    "start": 126.612,
+    "end": 127.033,
+    "scene": 8
+  },
+  {
+    "text": "lehnte",
+    "start": 127.033,
+    "end": 127.136,
+    "scene": 8
+  },
+  {
+    "text": "jegliche",
+    "start": 128.162,
+    "end": 128.518,
+    "scene": 8
+  },
+  {
+    "text": "Haftung",
+    "start": 128.518,
+    "end": 128.874,
+    "scene": 8
+  },
+  {
+    "text": "ab",
+    "start": 129.941,
+    "end": 130.204,
+    "scene": 8
+  },
+  {
+    "text": "Eine",
+    "start": 131.294,
+    "end": 131.696,
+    "scene": 8
+  },
+  {
+    "text": "Minute",
+    "start": 131.696,
+    "end": 132.098,
+    "scene": 8
+  },
+  {
+    "text": "Vorbereitung",
+    "start": 132.098,
+    "end": 132.499,
+    "scene": 8
+  },
+  {
+    "text": "hätte",
+    "start": 132.499,
+    "end": 132.901,
+    "scene": 8
+  },
+  {
+    "text": "alles",
+    "start": 132.901,
+    "end": 133.303,
+    "scene": 8
+  },
+  {
+    "text": "verhindert",
+    "start": 134.351,
+    "end": 134.772,
+    "scene": 8
+  },
+  {
+    "text": "Airlines",
+    "start": 134.772,
+    "end": 135.193,
+    "scene": 9
+  },
+  {
+    "text": "verdienen",
+    "start": 135.193,
+    "end": 135.615,
+    "scene": 9
+  },
+  {
+    "text": "nichts",
+    "start": 135.615,
+    "end": 136.036,
+    "scene": 9
+  },
+  {
+    "text": "daran",
+    "start": 136.036,
+    "end": 136.457,
+    "scene": 9
+  },
+  {
+    "text": "dich",
+    "start": 136.457,
+    "end": 136.878,
+    "scene": 9
+  },
+  {
+    "text": "aufzuklären",
+    "start": 136.878,
+    "end": 136.986,
+    "scene": 9
+  },
+  {
+    "text": "Konfiszierte",
+    "start": 137.985,
+    "end": 138.406,
+    "scene": 9
+  },
+  {
+    "text": "Geräte",
+    "start": 138.406,
+    "end": 138.827,
+    "scene": 9
+  },
+  {
+    "text": "landen",
+    "start": 138.827,
+    "end": 139.249,
+    "scene": 9
+  },
+  {
+    "text": "oft",
+    "start": 139.249,
+    "end": 139.67,
+    "scene": 9
+  },
+  {
+    "text": "in",
+    "start": 139.67,
+    "end": 140.091,
+    "scene": 9
+  },
+  {
+    "text": "internen",
+    "start": 140.091,
+    "end": 140.512,
+    "scene": 9
+  },
+  {
+    "text": "Versteigerungen",
+    "start": 140.512,
+    "end": 140.933,
+    "scene": 9
+  },
+  {
+    "text": "Über",
+    "start": 142.056,
+    "end": 142.472,
+    "scene": 9
+  },
+  {
+    "text": "800.000",
+    "start": 142.472,
+    "end": 142.888,
+    "scene": 9
+  },
+  {
+    "text": "Elektronikgeräte",
+    "start": 142.888,
+    "end": 143.305,
+    "scene": 9
+  },
+  {
+    "text": "werden",
+    "start": 143.305,
+    "end": 143.721,
+    "scene": 9
+  },
+  {
+    "text": "jährlich",
+    "start": 143.721,
+    "end": 144.137,
+    "scene": 9
+  },
+  {
+    "text": "an",
+    "start": 144.137,
+    "end": 144.553,
+    "scene": 9
+  },
+  {
+    "text": "europäischen",
+    "start": 144.553,
+    "end": 144.97,
+    "scene": 9
+  },
+  {
+    "text": "Flughäfen",
+    "start": 144.97,
+    "end": 145.386,
+    "scene": 9
+  },
+  {
+    "text": "beschlagnahmt",
+    "start": 146.519,
+    "end": 146.94,
+    "scene": 9
+  },
+  {
+    "text": "Das",
+    "start": 146.94,
+    "end": 147.361,
+    "scene": 9
+  },
+  {
+    "text": "ist",
+    "start": 147.361,
+    "end": 147.783,
+    "scene": 9
+  },
+  {
+    "text": "ein",
+    "start": 147.783,
+    "end": 148.204,
+    "scene": 9
+  },
+  {
+    "text": "Millionengeschäft",
+    "start": 148.204,
+    "end": 148.625,
+    "scene": 9
+  },
+  {
+    "text": "auf",
+    "start": 148.625,
+    "end": 149.046,
+    "scene": 9
+  },
+  {
+    "text": "Kosten",
+    "start": 149.046,
+    "end": 149.467,
+    "scene": 9
+  },
+  {
+    "text": "unwissender",
+    "start": 149.467,
+    "end": 149.888,
+    "scene": 9
+  },
+  {
+    "text": "Reisender",
+    "start": 149.888,
+    "end": 150.31,
+    "scene": 9
+  },
+  {
+    "text": "Die",
+    "start": 150.31,
+    "end": 150.731,
+    "scene": 10
+  },
+  {
+    "text": "Lösung",
+    "start": 150.731,
+    "end": 151.152,
+    "scene": 10
+  },
+  {
+    "text": "ist",
+    "start": 151.152,
+    "end": 151.573,
+    "scene": 10
+  },
+  {
+    "text": "einfach",
+    "start": 151.573,
+    "end": 151.656,
+    "scene": 10
+  },
+  {
+    "text": "Kaufe",
+    "start": 152.707,
+    "end": 153.128,
+    "scene": 10
+  },
+  {
+    "text": "nur",
+    "start": 153.128,
+    "end": 153.549,
+    "scene": 10
+  },
+  {
+    "text": "Powerbanks",
+    "start": 153.549,
+    "end": 153.971,
+    "scene": 10
+  },
+  {
+    "text": "unter",
+    "start": 153.971,
+    "end": 154.392,
+    "scene": 10
+  },
+  {
+    "text": "20.000",
+    "start": 154.392,
+    "end": 154.813,
+    "scene": 10
+  },
+  {
+    "text": "mAh",
+    "start": 154.813,
+    "end": 155.234,
+    "scene": 10
+  },
+  {
+    "text": "die",
+    "start": 155.234,
+    "end": 155.585,
+    "scene": 10
+  },
+  {
+    "text": "liegen",
+    "start": 155.585,
+    "end": 155.935,
+    "scene": 10
+  },
+  {
+    "text": "garantiert",
+    "start": 157.014,
+    "end": 157.435,
+    "scene": 10
+  },
+  {
+    "text": "unter",
+    "start": 157.435,
+    "end": 157.856,
+    "scene": 10
+  },
+  {
+    "text": "74",
+    "start": 157.856,
+    "end": 158.278,
+    "scene": 10
+  },
+  {
+    "text": "Wattstunden",
+    "start": 158.278,
+    "end": 158.699,
+    "scene": 10
+  },
+  {
+    "text": "Klebe",
+    "start": 158.699,
+    "end": 159.12,
+    "scene": 10
+  },
+  {
+    "text": "den",
+    "start": 159.12,
+    "end": 159.541,
+    "scene": 10
+  },
+  {
+    "text": "berechneten",
+    "start": 159.541,
+    "end": 159.962,
+    "scene": 10
+  },
+  {
+    "text": "Wert",
+    "start": 159.962,
+    "end": 160.383,
+    "scene": 10
+  },
+  {
+    "text": "außen",
+    "start": 160.383,
+    "end": 160.805,
+    "scene": 10
+  },
+  {
+    "text": "drauf",
+    "start": 160.805,
+    "end": 161.226,
+    "scene": 10
+  },
+  {
+    "text": "Sicherheitspersonal",
+    "start": 161.226,
+    "end": 161.647,
+    "scene": 10
+  },
+  {
+    "text": "lässt",
+    "start": 161.647,
+    "end": 162.068,
+    "scene": 10
+  },
+  {
+    "text": "dich",
+    "start": 162.068,
+    "end": 162.489,
+    "scene": 10
+  },
+  {
+    "text": "schneller",
+    "start": 162.489,
+    "end": 162.91,
+    "scene": 10
+  },
+  {
+    "text": "durch",
+    "start": 162.91,
+    "end": 163.332,
+    "scene": 10
+  },
+  {
+    "text": "Kein",
+    "start": 163.332,
+    "end": 163.753,
+    "scene": 10
+  },
+  {
+    "text": "Stress",
+    "start": 163.753,
+    "end": 164.174,
+    "scene": 10
+  },
+  {
+    "text": "kein",
+    "start": 164.174,
+    "end": 164.595,
+    "scene": 10
+  },
+  {
+    "text": "Verlust",
+    "start": 164.595,
+    "end": 165.016,
+    "scene": 10
+  },
+  {
+    "text": "Und",
+    "start": 165.016,
+    "end": 165.29,
+    "scene": 11
+  },
+  {
+    "text": "noch",
+    "start": 166.415,
+    "end": 166.836,
+    "scene": 11
+  },
+  {
+    "text": "etwas",
+    "start": 166.836,
+    "end": 167.257,
+    "scene": 11
+  },
+  {
+    "text": "Packe",
+    "start": 167.257,
+    "end": 167.636,
+    "scene": 11
+  },
+  {
+    "text": "deine",
+    "start": 167.636,
+    "end": 168.014,
+    "scene": 11
+  },
+  {
+    "text": "Powerbank",
+    "start": 168.014,
+    "end": 168.392,
+    "scene": 11
+  },
+  {
+    "text": "nie",
+    "start": 169.541,
+    "end": 169.962,
+    "scene": 11
+  },
+  {
+    "text": "ins",
+    "start": 169.962,
+    "end": 170.383,
+    "scene": 11
+  },
+  {
+    "text": "aufgegebene",
+    "start": 170.383,
+    "end": 170.805,
+    "scene": 11
+  },
+  {
+    "text": "Gepäck",
+    "start": 170.805,
+    "end": 171.226,
+    "scene": 11
+  },
+  {
+    "text": "Das",
+    "start": 171.226,
+    "end": 171.647,
+    "scene": 11
+  },
+  {
+    "text": "ist",
+    "start": 171.647,
+    "end": 171.758,
+    "scene": 11
+  },
+  {
+    "text": "weltweit",
+    "start": 172.785,
+    "end": 173.206,
+    "scene": 11
+  },
+  {
+    "text": "verboten",
+    "start": 173.206,
+    "end": 173.627,
+    "scene": 11
+  },
+  {
+    "text": "ohne",
+    "start": 173.627,
+    "end": 174.049,
+    "scene": 11
+  },
+  {
+    "text": "Ausnahme",
+    "start": 174.049,
+    "end": 174.47,
+    "scene": 11
+  },
+  {
+    "text": "Nur",
+    "start": 175.489,
+    "end": 175.91,
+    "scene": 11
+  },
+  {
+    "text": "im",
+    "start": 175.91,
+    "end": 176.331,
+    "scene": 11
+  },
+  {
+    "text": "Handgepäck",
+    "start": 176.331,
+    "end": 176.753,
+    "scene": 11
+  },
+  {
+    "text": "Vergisst",
+    "start": 176.753,
+    "end": 177.145,
+    "scene": 11
+  },
+  {
+    "text": "du",
+    "start": 177.145,
+    "end": 177.537,
+    "scene": 11
+  },
+  {
+    "text": "das",
+    "start": 177.537,
+    "end": 177.929,
+    "scene": 11
+  },
+  {
+    "text": "droht",
+    "start": 177.929,
+    "end": 178.321,
+    "scene": 11
+  },
+  {
+    "text": "eine",
+    "start": 178.321,
+    "end": 178.714,
+    "scene": 11
+  },
+  {
+    "text": "Strafe",
+    "start": 178.714,
+    "end": 179.106,
+    "scene": 11
+  },
+  {
+    "text": "von",
+    "start": 179.106,
+    "end": 179.498,
+    "scene": 11
+  },
+  {
+    "text": "bis",
+    "start": 180.537,
+    "end": 180.958,
+    "scene": 11
+  },
+  {
+    "text": "zu",
+    "start": 180.958,
+    "end": 181.379,
+    "scene": 11
+  },
+  {
+    "text": "5.000",
+    "start": 181.379,
+    "end": 181.801,
+    "scene": 11
+  },
+  {
+    "text": "Euro",
+    "start": 181.801,
+    "end": 182.222,
+    "scene": 11
+  },
+  {
+    "text": "Fast",
+    "start": 182.222,
+    "end": 182.577,
+    "scene": 11
+  },
+  {
+    "text": "kein",
+    "start": 182.577,
+    "end": 182.932,
+    "scene": 11
+  },
+  {
+    "text": "Reisender",
+    "start": 184.066,
+    "end": 184.487,
+    "scene": 11
+  },
+  {
+    "text": "weiß",
+    "start": 184.487,
+    "end": 184.908,
+    "scene": 11
+  },
+  {
+    "text": "das",
+    "start": 184.908,
+    "end": 185.074,
+    "scene": 11
+  },
+  {
+    "text": "Wenn",
+    "start": 186.152,
+    "end": 186.573,
+    "scene": 12
+  },
+  {
+    "text": "dir",
+    "start": 186.573,
+    "end": 186.994,
+    "scene": 12
+  },
+  {
+    "text": "das",
+    "start": 186.994,
+    "end": 187.416,
+    "scene": 12
+  },
+  {
+    "text": "heute",
+    "start": 187.416,
+    "end": 187.837,
+    "scene": 12
+  },
+  {
+    "text": "etwas",
+    "start": 187.837,
+    "end": 188.258,
+    "scene": 12
+  },
+  {
+    "text": "gebracht",
+    "start": 188.258,
+    "end": 188.679,
+    "scene": 12
+  },
+  {
+    "text": "hat",
+    "start": 188.679,
+    "end": 189.1,
+    "scene": 12
+  },
+  {
+    "text": "teile",
+    "start": 189.1,
+    "end": 189.484,
+    "scene": 12
+  },
+  {
+    "text": "dieses",
+    "start": 189.484,
+    "end": 189.868,
+    "scene": 12
+  },
+  {
+    "text": "Video",
+    "start": 191.053,
+    "end": 191.471,
+    "scene": 12
+  },
+  {
+    "text": "mit",
+    "start": 191.471,
+    "end": 191.888,
+    "scene": 12
+  },
+  {
+    "text": "jemandem",
+    "start": 191.888,
+    "end": 192.306,
+    "scene": 12
+  },
+  {
+    "text": "der",
+    "start": 192.306,
+    "end": 192.723,
+    "scene": 12
+  },
+  {
+    "text": "bald",
+    "start": 193.707,
+    "end": 194.128,
+    "scene": 12
+  },
+  {
+    "text": "fliegt",
+    "start": 194.128,
+    "end": 194.549,
+    "scene": 12
+  },
+  {
+    "text": "Du",
+    "start": 194.549,
+    "end": 194.971,
+    "scene": 12
+  },
+  {
+    "text": "könntest",
+    "start": 194.971,
+    "end": 195.392,
+    "scene": 12
+  },
+  {
+    "text": "ihm",
+    "start": 195.392,
+    "end": 195.813,
+    "scene": 12
+  },
+  {
+    "text": "buchstäblich",
+    "start": 195.813,
+    "end": 196.234,
+    "scene": 12
+  },
+  {
+    "text": "den",
+    "start": 196.234,
+    "end": 196.655,
+    "scene": 12
+  },
+  {
+    "text": "Flug",
+    "start": 196.655,
+    "end": 197.076,
+    "scene": 12
+  },
+  {
+    "text": "retten",
+    "start": 197.076,
+    "end": 197.498,
+    "scene": 12
+  },
+  {
+    "text": "Abonniere",
+    "start": 197.498,
+    "end": 197.875,
+    "scene": 12
+  },
+  {
+    "text": "den",
+    "start": 197.875,
+    "end": 198.252,
+    "scene": 12
+  },
+  {
+    "text": "Kanal",
+    "start": 198.252,
+    "end": 198.629,
+    "scene": 12
+  },
+  {
+    "text": "für",
+    "start": 198.629,
+    "end": 199.006,
+    "scene": 12
+  },
+  {
+    "text": "mehr",
+    "start": 200.057,
+    "end": 200.478,
+    "scene": 12
+  },
+  {
+    "text": "Reisetipps",
+    "start": 200.478,
+    "end": 200.899,
+    "scene": 12
+  },
+  {
+    "text": "die",
+    "start": 200.899,
+    "end": 201.321,
+    "scene": 12
+  },
+  {
+    "text": "wirklich",
+    "start": 201.321,
+    "end": 201.742,
+    "scene": 12
+  },
+  {
+    "text": "wichtig",
+    "start": 201.742,
+    "end": 202.163,
+    "scene": 12
+  },
+  {
+    "text": "sind",
+    "start": 202.163,
+    "end": 202.246,
+    "scene": 12
+  }
+]

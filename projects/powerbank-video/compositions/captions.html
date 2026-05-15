@@ -1,0 +1,153 @@
+<template id="captions-template">
+  <div data-composition-id="captions" data-width="1280" data-height="720" data-duration="213.1">
+
+    <style>
+      [data-composition-id="captions"] {
+        width: 100%; height: 100%; overflow: hidden; pointer-events: none;
+      }
+
+      [data-composition-id="captions"] .cap-wrap {
+        position: absolute;
+        bottom: 108px;
+        left: 50%;
+        transform: translateX(-50%);
+        max-width: 88%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6px;
+      }
+
+      [data-composition-id="captions"] .cap-box {
+        background: rgba(0,0,0,0.45);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        border-radius: 12px;
+        padding: 10px 22px;
+        opacity: 0;
+        white-space: nowrap;
+      }
+
+      [data-composition-id="captions"] .cap-box span {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 42px;
+        font-weight: 800;
+        letter-spacing: 0.02em;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.9);
+        color: rgba(255,255,255,0.7);
+        transition: none;
+      }
+
+      [data-composition-id="captions"] .cap-box span.active {
+        color: #FFD700;
+      }
+    </style>
+
+    <div class="cap-wrap">
+      <div id="cap-box" class="cap-box"></div>
+    </div>
+
+    <script>
+    (function() {
+      const LINES = [
+  {"text":"JEDES JAHR WERDEN \u00dcBER ZWEI MILLIONEN","start":0.0,"end":2.527,"words":[{"text": "JEDES", "start": 0.0, "end": 0.421}, {"text": "JAHR", "start": 0.421, "end": 0.842}, {"text": "WERDEN", "start": 0.842, "end": 1.264}, {"text": "ÜBER", "start": 1.264, "end": 1.685}, {"text": "ZWEI", "start": 1.685, "end": 2.106}, {"text": "MILLIONEN", "start": 2.106, "end": 2.527}]},
+  {"text":"PASSAGIERE AM GATE AUFGEHALTEN NICHT WEGEN","start":2.527,"end":5.054,"words":[{"text": "PASSAGIERE", "start": 2.527, "end": 2.948}, {"text": "AM", "start": 2.948, "end": 3.369}, {"text": "GATE", "start": 3.369, "end": 3.791}, {"text": "AUFGEHALTEN", "start": 3.791, "end": 4.212}, {"text": "NICHT", "start": 4.212, "end": 4.633}, {"text": "WEGEN", "start": 4.633, "end": 5.054}]},
+  {"text":"WAFFEN NICHT WEGEN VERBOTENER FL\u00dcSSIGKEITEN SONDERN","start":5.054,"end":7.407,"words":[{"text": "WAFFEN", "start": 5.054, "end": 5.475}, {"text": "NICHT", "start": 5.475, "end": 5.896}, {"text": "WEGEN", "start": 5.896, "end": 6.318}, {"text": "VERBOTENER", "start": 6.318, "end": 6.739}, {"text": "FLÜSSIGKEITEN", "start": 6.739, "end": 7.16}, {"text": "SONDERN", "start": 7.16, "end": 7.407}]},
+  {"text":"WEGEN EINER EINZIGEN SACHE DIE FAST","start":8.522,"end":10.957,"words":[{"text": "WEGEN", "start": 8.522, "end": 8.928}, {"text": "EINER", "start": 8.928, "end": 9.334}, {"text": "EINZIGEN", "start": 9.334, "end": 9.739}, {"text": "SACHE", "start": 9.739, "end": 10.145}, {"text": "DIE", "start": 10.145, "end": 10.551}, {"text": "FAST", "start": 10.551, "end": 10.957}]},
+  {"text":"JEDER DABEI HAT WAS IST ES","start":10.957,"end":15.398,"words":[{"text": "JEDER", "start": 10.957, "end": 11.362}, {"text": "DABEI", "start": 11.362, "end": 11.768}, {"text": "HAT", "start": 11.768, "end": 12.174}, {"text": "WAS", "start": 13.216, "end": 13.603}, {"text": "IST", "start": 13.603, "end": 13.989}, {"text": "ES", "start": 14.977, "end": 15.398}]},
+  {"text":"DIE ANTWORT IST EIN POWERBANK UND","start":15.398,"end":18.635,"words":[{"text": "DIE", "start": 15.398, "end": 15.819}, {"text": "ANTWORT", "start": 15.819, "end": 16.24}, {"text": "IST", "start": 16.24, "end": 16.661}, {"text": "EIN", "start": 16.661, "end": 16.741}, {"text": "POWERBANK", "start": 17.793, "end": 18.214}, {"text": "UND", "start": 18.214, "end": 18.635}]},
+  {"text":"DIE WENIGSTEN WISSEN ES GIBT EINE","start":18.635,"end":21.162,"words":[{"text": "DIE", "start": 18.635, "end": 19.056}, {"text": "WENIGSTEN", "start": 19.056, "end": 19.477}, {"text": "WISSEN", "start": 19.477, "end": 19.898}, {"text": "ES", "start": 19.898, "end": 20.32}, {"text": "GIBT", "start": 20.32, "end": 20.741}, {"text": "EINE", "start": 20.741, "end": 21.162}]},
+  {"text":"SPEZIFISCHE WATTSTUNDEN-GRENZE \u00dcBERSCHREITEST DU SIE AUCH","start":21.162,"end":23.689,"words":[{"text": "SPEZIFISCHE", "start": 21.162, "end": 21.583}, {"text": "WATTSTUNDEN-GRENZE", "start": 21.583, "end": 22.004}, {"text": "ÜBERSCHREITEST", "start": 22.004, "end": 22.426}, {"text": "DU", "start": 22.426, "end": 22.847}, {"text": "SIE", "start": 22.847, "end": 23.268}, {"text": "AUCH", "start": 23.268, "end": 23.689}]},
+  {"text":"NUR MINIMAL WIRD DEIN GER\u00c4T KONFISZIERT","start":23.689,"end":27.293,"words":[{"text": "NUR", "start": 23.689, "end": 24.11}, {"text": "MINIMAL", "start": 24.11, "end": 24.531}, {"text": "WIRD", "start": 24.531, "end": 24.953}, {"text": "DEIN", "start": 24.953, "end": 25.374}, {"text": "GERÄT", "start": 26.45, "end": 26.872}, {"text": "KONFISZIERT", "start": 26.872, "end": 27.293}]},
+  {"text":"IM SCHLIMMSTEN FALL WIRST DU VOM","start":27.293,"end":30.544,"words":[{"text": "IM", "start": 27.293, "end": 27.714}, {"text": "SCHLIMMSTEN", "start": 27.714, "end": 28.135}, {"text": "FALL", "start": 28.135, "end": 28.556}, {"text": "WIRST", "start": 28.556, "end": 28.977}, {"text": "DU", "start": 28.977, "end": 29.032}, {"text": "VOM", "start": 30.123, "end": 30.544}]},
+  {"text":"FLUG AUSGESCHLOSSEN DIE INTERNATIONALE LUFTFAHRTBEH\u00d6RDE IATA","start":30.544,"end":33.072,"words":[{"text": "FLUG", "start": 30.544, "end": 30.966}, {"text": "AUSGESCHLOSSEN", "start": 30.966, "end": 31.387}, {"text": "DIE", "start": 31.387, "end": 31.808}, {"text": "INTERNATIONALE", "start": 31.808, "end": 32.229}, {"text": "LUFTFAHRTBEHÖRDE", "start": 32.229, "end": 32.65}, {"text": "IATA", "start": 32.65, "end": 33.072}]},
+  {"text":"HAT EINE STRIKTE GRENZE FESTGELEGT 100","start":33.072,"end":35.599,"words":[{"text": "HAT", "start": 33.072, "end": 33.493}, {"text": "EINE", "start": 33.493, "end": 33.914}, {"text": "STRIKTE", "start": 33.914, "end": 34.335}, {"text": "GRENZE", "start": 34.335, "end": 34.756}, {"text": "FESTGELEGT", "start": 34.756, "end": 35.177}, {"text": "100", "start": 35.177, "end": 35.599}]},
+  {"text":"WATTSTUNDEN PRO POWERBANK KLINGT TECHNISCH IST","start":35.599,"end":38.949,"words":[{"text": "WATTSTUNDEN", "start": 35.599, "end": 36.02}, {"text": "PRO", "start": 36.02, "end": 36.441}, {"text": "POWERBANK", "start": 36.441, "end": 36.862}, {"text": "KLINGT", "start": 36.862, "end": 37.283}, {"text": "TECHNISCH", "start": 37.283, "end": 37.486}, {"text": "IST", "start": 38.528, "end": 38.949}]},
+  {"text":"ES AUCH DIE MEISTEN HERSTELLER DRUCKEN","start":38.949,"end":42.974,"words":[{"text": "ES", "start": 38.949, "end": 39.371}, {"text": "AUCH", "start": 39.371, "end": 39.431}, {"text": "DIE", "start": 40.446, "end": 40.868}, {"text": "MEISTEN", "start": 40.868, "end": 41.043}, {"text": "HERSTELLER", "start": 42.132, "end": 42.553}, {"text": "DRUCKEN", "start": 42.553, "end": 42.974}]},
+  {"text":"DIESE ZAHL NICHT EINMAL AUF DIE","start":42.974,"end":45.501,"words":[{"text": "DIESE", "start": 42.974, "end": 43.396}, {"text": "ZAHL", "start": 43.396, "end": 43.817}, {"text": "NICHT", "start": 43.817, "end": 44.238}, {"text": "EINMAL", "start": 44.238, "end": 44.659}, {"text": "AUF", "start": 44.659, "end": 45.08}, {"text": "DIE", "start": 45.08, "end": 45.501}]},
+  {"text":"VERPACKUNG SICHERHEITSPERSONAL HAT GER\u00c4TE DIE DIE","start":45.501,"end":48.741,"words":[{"text": "VERPACKUNG", "start": 45.501, "end": 45.591}, {"text": "SICHERHEITSPERSONAL", "start": 46.635, "end": 47.056}, {"text": "HAT", "start": 47.056, "end": 47.478}, {"text": "GERÄTE", "start": 47.478, "end": 47.899}, {"text": "DIE", "start": 47.899, "end": 48.32}, {"text": "DIE", "start": 48.32, "end": 48.741}]},
+  {"text":"WATTSTUNDEN IN SEKUNDEN BERECHNEN FLIEGT DEINE","start":48.741,"end":50.922,"words":[{"text": "WATTSTUNDEN", "start": 48.741, "end": 49.162}, {"text": "IN", "start": 49.162, "end": 49.583}, {"text": "SEKUNDEN", "start": 49.583, "end": 50.005}, {"text": "BERECHNEN", "start": 50.005, "end": 50.426}, {"text": "FLIEGT", "start": 50.426, "end": 50.847}, {"text": "DEINE", "start": 50.847, "end": 50.922}]},
+  {"text":"POWERBANK \u00dcBER DEN GRENZWERT WIRD SIE","start":52.112,"end":54.639,"words":[{"text": "POWERBANK", "start": 52.112, "end": 52.533}, {"text": "ÜBER", "start": 52.533, "end": 52.954}, {"text": "DEN", "start": 52.954, "end": 53.376}, {"text": "GRENZWERT", "start": 53.376, "end": 53.797}, {"text": "WIRD", "start": 53.797, "end": 54.218}, {"text": "SIE", "start": 54.218, "end": 54.639}]},
+  {"text":"EINBEHALTEN KEINE AUSNAHMEN KEIN ERMESSEN UND","start":54.639,"end":57.646,"words":[{"text": "EINBEHALTEN", "start": 54.639, "end": 55.06}, {"text": "KEINE", "start": 55.06, "end": 55.481}, {"text": "AUSNAHMEN", "start": 55.481, "end": 55.607}, {"text": "KEIN", "start": 56.717, "end": 57.138}, {"text": "ERMESSEN", "start": 57.138, "end": 57.559}, {"text": "UND", "start": 57.559, "end": 57.646}]},
+  {"text":"DEIN GER\u00c4T SIEHST DU NIE WIEDER","start":58.787,"end":62.229,"words":[{"text": "DEIN", "start": 58.787, "end": 59.164}, {"text": "GERÄT", "start": 59.164, "end": 59.54}, {"text": "SIEHST", "start": 60.647, "end": 61.042}, {"text": "DU", "start": 61.042, "end": 61.438}, {"text": "NIE", "start": 61.438, "end": 61.833}, {"text": "WIEDER", "start": 61.833, "end": 62.229}]},
+  {"text":"ABER WARUM IST DAS \u00dcBERHAUPT VERBOTEN","start":63.318,"end":65.589,"words":[{"text": "ABER", "start": 63.318, "end": 63.739}, {"text": "WARUM", "start": 63.739, "end": 64.16}, {"text": "IST", "start": 64.16, "end": 64.581}, {"text": "DAS", "start": 64.581, "end": 65.003}, {"text": "ÜBERHAUPT", "start": 65.003, "end": 65.424}, {"text": "VERBOTEN", "start": 65.424, "end": 65.589}]},
+  {"text":"LITHIUM-IONEN-AKKUS K\u00d6NNEN SICH BEI DRUCK UND","start":66.74,"end":69.267,"words":[{"text": "LITHIUM-IONEN-AKKUS", "start": 66.74, "end": 67.161}, {"text": "KÖNNEN", "start": 67.161, "end": 67.582}, {"text": "SICH", "start": 67.582, "end": 68.004}, {"text": "BEI", "start": 68.004, "end": 68.425}, {"text": "DRUCK", "start": 68.425, "end": 68.846}, {"text": "UND", "start": 68.846, "end": 69.267}]},
+  {"text":"TEMPERATURSCHWANKUNGEN IM FLUGZEUG SELBST ENTZ\u00dcNDEN ES","start":69.267,"end":71.773,"words":[{"text": "TEMPERATURSCHWANKUNGEN", "start": 69.267, "end": 69.688}, {"text": "IM", "start": 69.688, "end": 70.109}, {"text": "FLUGZEUG", "start": 70.109, "end": 70.531}, {"text": "SELBST", "start": 70.531, "end": 70.952}, {"text": "ENTZÜNDEN", "start": 70.952, "end": 71.373}, {"text": "ES", "start": 71.373, "end": 71.773}]},
+  {"text":"GAB BEREITS F\u00c4LLE BEI DENEN POWERBANKS","start":71.773,"end":75.417,"words":[{"text": "GAB", "start": 71.773, "end": 72.174}, {"text": "BEREITS", "start": 73.311, "end": 73.733}, {"text": "FÄLLE", "start": 73.733, "end": 74.154}, {"text": "BEI", "start": 74.154, "end": 74.575}, {"text": "DENEN", "start": 74.575, "end": 74.996}, {"text": "POWERBANKS", "start": 74.996, "end": 75.417}]},
+  {"text":"IM GEP\u00c4CKFACH IN FLAMMEN AUFGINGEN DAS","start":75.417,"end":77.588,"words":[{"text": "IM", "start": 75.417, "end": 75.838}, {"text": "GEPÄCKFACH", "start": 75.838, "end": 76.26}, {"text": "IN", "start": 76.26, "end": 76.681}, {"text": "FLAMMEN", "start": 76.681, "end": 77.102}, {"text": "AUFGINGEN", "start": 77.102, "end": 77.523}, {"text": "DAS", "start": 77.523, "end": 77.588}]},
+  {"text":"IST KEIN MYTHOS ZWISCHEN 100 UND","start":78.507,"end":81.034,"words":[{"text": "IST", "start": 78.507, "end": 78.928}, {"text": "KEIN", "start": 78.928, "end": 79.35}, {"text": "MYTHOS", "start": 79.35, "end": 79.771}, {"text": "ZWISCHEN", "start": 79.771, "end": 80.192}, {"text": "100", "start": 80.192, "end": 80.613}, {"text": "UND", "start": 80.613, "end": 81.034}]},
+  {"text":"160 WATTSTUNDEN GIBT ES EINE GRAUZONE","start":81.034,"end":83.561,"words":[{"text": "160", "start": 81.034, "end": 81.455}, {"text": "WATTSTUNDEN", "start": 81.455, "end": 81.877}, {"text": "GIBT", "start": 81.877, "end": 82.298}, {"text": "ES", "start": 82.298, "end": 82.719}, {"text": "EINE", "start": 82.719, "end": 83.14}, {"text": "GRAUZONE", "start": 83.14, "end": 83.561}]},
+  {"text":"DIESE POWERBANKS SIND ERLAUBT ABER NUR","start":83.561,"end":86.031,"words":[{"text": "DIESE", "start": 83.561, "end": 83.973}, {"text": "POWERBANKS", "start": 83.973, "end": 84.384}, {"text": "SIND", "start": 84.384, "end": 84.796}, {"text": "ERLAUBT", "start": 84.796, "end": 85.208}, {"text": "ABER", "start": 85.208, "end": 85.619}, {"text": "NUR", "start": 85.619, "end": 86.031}]},
+  {"text":"MIT AUSDR\u00dcCKLICHER GENEHMIGUNG DER AIRLINE RUFST","start":86.031,"end":89.647,"words":[{"text": "MIT", "start": 86.031, "end": 86.442}, {"text": "AUSDRÜCKLICHER", "start": 86.442, "end": 86.854}, {"text": "GENEHMIGUNG", "start": 86.854, "end": 87.265}, {"text": "DER", "start": 88.404, "end": 88.825}, {"text": "AIRLINE", "start": 88.825, "end": 89.246}, {"text": "RUFST", "start": 89.246, "end": 89.647}]},
+  {"text":"DU VORHER AN FAST NIEMAND TUT","start":90.779,"end":94.25,"words":[{"text": "DU", "start": 90.779, "end": 91.177}, {"text": "VORHER", "start": 91.177, "end": 91.576}, {"text": "AN", "start": 91.576, "end": 91.974}, {"text": "FAST", "start": 92.987, "end": 93.408}, {"text": "NIEMAND", "start": 93.408, "end": 93.829}, {"text": "TUT", "start": 93.829, "end": 94.25}]},
+  {"text":"DAS UND GENAU DAS WIRD TEUER","start":95.318,"end":97.845,"words":[{"text": "DAS", "start": 95.318, "end": 95.739}, {"text": "UND", "start": 95.739, "end": 96.16}, {"text": "GENAU", "start": 96.16, "end": 96.581}, {"text": "DAS", "start": 96.581, "end": 97.003}, {"text": "WIRD", "start": 97.003, "end": 97.424}, {"text": "TEUER", "start": 97.424, "end": 97.845}]},
+  {"text":"DIE FORMEL IST SIMPEL MILLIAMPERESTUNDEN MAL","start":97.845,"end":100.365,"words":[{"text": "DIE", "start": 97.845, "end": 98.266}, {"text": "FORMEL", "start": 98.266, "end": 98.687}, {"text": "IST", "start": 98.687, "end": 99.108}, {"text": "SIMPEL", "start": 99.108, "end": 99.53}, {"text": "MILLIAMPERESTUNDEN", "start": 99.53, "end": 99.947}, {"text": "MAL", "start": 99.947, "end": 100.365}]},
+  {"text":"VOLT GETEILT DURCH 1000 ERGIBT WATTSTUNDEN","start":100.365,"end":104.017,"words":[{"text": "VOLT", "start": 100.365, "end": 100.782}, {"text": "GETEILT", "start": 101.911, "end": 102.332}, {"text": "DURCH", "start": 102.332, "end": 102.753}, {"text": "1000", "start": 102.753, "end": 103.175}, {"text": "ERGIBT", "start": 103.175, "end": 103.596}, {"text": "WATTSTUNDEN", "start": 103.596, "end": 104.017}]},
+  {"text":"EINE 20.000-MAH-POWERBANK MIT 3,7 VOLT KOMMT","start":104.017,"end":106.544,"words":[{"text": "EINE", "start": 104.017, "end": 104.438}, {"text": "20.000-MAH-POWERBANK", "start": 104.438, "end": 104.859}, {"text": "MIT", "start": 104.859, "end": 105.28}, {"text": "3,7", "start": 105.28, "end": 105.702}, {"text": "VOLT", "start": 105.702, "end": 106.123}, {"text": "KOMMT", "start": 106.123, "end": 106.544}]},
+  {"text":"AUF 74 WATTSTUNDEN ALSO SICHER ABER","start":106.544,"end":108.936,"words":[{"text": "AUF", "start": 106.544, "end": 106.965}, {"text": "74", "start": 106.965, "end": 107.386}, {"text": "WATTSTUNDEN", "start": 107.386, "end": 107.807}, {"text": "ALSO", "start": 107.807, "end": 108.229}, {"text": "SICHER", "start": 108.229, "end": 108.65}, {"text": "ABER", "start": 108.65, "end": 108.936}]},
+  {"text":"SCHON 30.000 MAH SPRENGEN DAS LIMIT","start":110.055,"end":112.582,"words":[{"text": "SCHON", "start": 110.055, "end": 110.476}, {"text": "30.000", "start": 110.476, "end": 110.897}, {"text": "MAH", "start": 110.897, "end": 111.319}, {"text": "SPRENGEN", "start": 111.319, "end": 111.74}, {"text": "DAS", "start": 111.74, "end": 112.161}, {"text": "LIMIT", "start": 112.161, "end": 112.582}]},
+  {"text":"WEISST DU WAS DU PACKST EIN","start":112.582,"end":115.701,"words":[{"text": "WEISST", "start": 112.582, "end": 113.003}, {"text": "DU", "start": 113.003, "end": 113.424}, {"text": "WAS", "start": 113.424, "end": 113.487}, {"text": "DU", "start": 114.524, "end": 114.945}, {"text": "PACKST", "start": 114.945, "end": 115.366}, {"text": "EIN", "start": 115.366, "end": 115.701}]},
+  {"text":"REISENDER VERLOR IN FRANKFURT SEINEN 120-EURO-POWERBANK","start":115.701,"end":119.141,"words":[{"text": "REISENDER", "start": 115.701, "end": 116.035}, {"text": "VERLOR", "start": 117.035, "end": 117.456}, {"text": "IN", "start": 117.456, "end": 117.877}, {"text": "FRANKFURT", "start": 117.877, "end": 118.299}, {"text": "SEINEN", "start": 118.299, "end": 118.72}, {"text": "120-EURO-POWERBANK", "start": 118.72, "end": 119.141}]},
+  {"text":"WEIL ER DIE WATTSTUNDEN NIE GEPR\u00dcFT","start":119.141,"end":121.668,"words":[{"text": "WEIL", "start": 119.141, "end": 119.562}, {"text": "ER", "start": 119.562, "end": 119.983}, {"text": "DIE", "start": 119.983, "end": 120.404}, {"text": "WATTSTUNDEN", "start": 120.404, "end": 120.826}, {"text": "NIE", "start": 120.826, "end": 121.247}, {"text": "GEPRÜFT", "start": 121.247, "end": 121.668}]},
+  {"text":"HATTE SEIN FLUG VERPASST ENTSCH\u00c4DIGUNG NULL","start":121.668,"end":125.273,"words":[{"text": "HATTE", "start": 121.668, "end": 122.089}, {"text": "SEIN", "start": 122.089, "end": 122.51}, {"text": "FLUG", "start": 122.51, "end": 122.931}, {"text": "VERPASST", "start": 122.931, "end": 123.353}, {"text": "ENTSCHÄDIGUNG", "start": 123.353, "end": 123.741}, {"text": "NULL", "start": 124.852, "end": 125.273}]},
+  {"text":"DIE AIRLINE LEHNTE JEGLICHE HAFTUNG AB","start":125.273,"end":130.204,"words":[{"text": "DIE", "start": 125.273, "end": 125.535}, {"text": "AIRLINE", "start": 126.612, "end": 127.033}, {"text": "LEHNTE", "start": 127.033, "end": 127.136}, {"text": "JEGLICHE", "start": 128.162, "end": 128.518}, {"text": "HAFTUNG", "start": 128.518, "end": 128.874}, {"text": "AB", "start": 129.941, "end": 130.204}]},
+  {"text":"EINE MINUTE VORBEREITUNG H\u00c4TTE ALLES VERHINDERT","start":131.294,"end":134.772,"words":[{"text": "EINE", "start": 131.294, "end": 131.696}, {"text": "MINUTE", "start": 131.696, "end": 132.098}, {"text": "VORBEREITUNG", "start": 132.098, "end": 132.499}, {"text": "HÄTTE", "start": 132.499, "end": 132.901}, {"text": "ALLES", "start": 132.901, "end": 133.303}, {"text": "VERHINDERT", "start": 134.351, "end": 134.772}]},
+  {"text":"AIRLINES VERDIENEN NICHTS DARAN DICH AUFZUKL\u00c4REN","start":134.772,"end":136.986,"words":[{"text": "AIRLINES", "start": 134.772, "end": 135.193}, {"text": "VERDIENEN", "start": 135.193, "end": 135.615}, {"text": "NICHTS", "start": 135.615, "end": 136.036}, {"text": "DARAN", "start": 136.036, "end": 136.457}, {"text": "DICH", "start": 136.457, "end": 136.878}, {"text": "AUFZUKLÄREN", "start": 136.878, "end": 136.986}]},
+  {"text":"KONFISZIERTE GER\u00c4TE LANDEN OFT IN INTERNEN","start":137.985,"end":140.512,"words":[{"text": "KONFISZIERTE", "start": 137.985, "end": 138.406}, {"text": "GERÄTE", "start": 138.406, "end": 138.827}, {"text": "LANDEN", "start": 138.827, "end": 139.249}, {"text": "OFT", "start": 139.249, "end": 139.67}, {"text": "IN", "start": 139.67, "end": 140.091}, {"text": "INTERNEN", "start": 140.091, "end": 140.512}]},
+  {"text":"VERSTEIGERUNGEN \u00dcBER 800.000 ELEKTRONIKGER\u00c4TE WERDEN J\u00c4HRLICH","start":140.512,"end":144.137,"words":[{"text": "VERSTEIGERUNGEN", "start": 140.512, "end": 140.933}, {"text": "ÜBER", "start": 142.056, "end": 142.472}, {"text": "800.000", "start": 142.472, "end": 142.888}, {"text": "ELEKTRONIKGERÄTE", "start": 142.888, "end": 143.305}, {"text": "WERDEN", "start": 143.305, "end": 143.721}, {"text": "JÄHRLICH", "start": 143.721, "end": 144.137}]},
+  {"text":"AN EUROP\u00c4ISCHEN FLUGH\u00c4FEN BESCHLAGNAHMT DAS IST","start":144.137,"end":147.783,"words":[{"text": "AN", "start": 144.137, "end": 144.553}, {"text": "EUROPÄISCHEN", "start": 144.553, "end": 144.97}, {"text": "FLUGHÄFEN", "start": 144.97, "end": 145.386}, {"text": "BESCHLAGNAHMT", "start": 146.519, "end": 146.94}, {"text": "DAS", "start": 146.94, "end": 147.361}, {"text": "IST", "start": 147.361, "end": 147.783}]},
+  {"text":"EIN MILLIONENGESCH\u00c4FT AUF KOSTEN UNWISSENDER REISENDER","start":147.783,"end":150.31,"words":[{"text": "EIN", "start": 147.783, "end": 148.204}, {"text": "MILLIONENGESCHÄFT", "start": 148.204, "end": 148.625}, {"text": "AUF", "start": 148.625, "end": 149.046}, {"text": "KOSTEN", "start": 149.046, "end": 149.467}, {"text": "UNWISSENDER", "start": 149.467, "end": 149.888}, {"text": "REISENDER", "start": 149.888, "end": 150.31}]},
+  {"text":"DIE L\u00d6SUNG IST EINFACH KAUFE NUR","start":150.31,"end":153.549,"words":[{"text": "DIE", "start": 150.31, "end": 150.731}, {"text": "LÖSUNG", "start": 150.731, "end": 151.152}, {"text": "IST", "start": 151.152, "end": 151.573}, {"text": "EINFACH", "start": 151.573, "end": 151.656}, {"text": "KAUFE", "start": 152.707, "end": 153.128}, {"text": "NUR", "start": 153.128, "end": 153.549}]},
+  {"text":"POWERBANKS UNTER 20.000 MAH DIE LIEGEN","start":153.549,"end":155.935,"words":[{"text": "POWERBANKS", "start": 153.549, "end": 153.971}, {"text": "UNTER", "start": 153.971, "end": 154.392}, {"text": "20.000", "start": 154.392, "end": 154.813}, {"text": "MAH", "start": 154.813, "end": 155.234}, {"text": "DIE", "start": 155.234, "end": 155.585}, {"text": "LIEGEN", "start": 155.585, "end": 155.935}]},
+  {"text":"GARANTIERT UNTER 74 WATTSTUNDEN KLEBE DEN","start":157.014,"end":159.541,"words":[{"text": "GARANTIERT", "start": 157.014, "end": 157.435}, {"text": "UNTER", "start": 157.435, "end": 157.856}, {"text": "74", "start": 157.856, "end": 158.278}, {"text": "WATTSTUNDEN", "start": 158.278, "end": 158.699}, {"text": "KLEBE", "start": 158.699, "end": 159.12}, {"text": "DEN", "start": 159.12, "end": 159.541}]},
+  {"text":"BERECHNETEN WERT AUSSEN DRAUF SICHERHEITSPERSONAL L\u00c4SST","start":159.541,"end":162.068,"words":[{"text": "BERECHNETEN", "start": 159.541, "end": 159.962}, {"text": "WERT", "start": 159.962, "end": 160.383}, {"text": "AUSSEN", "start": 160.383, "end": 160.805}, {"text": "DRAUF", "start": 160.805, "end": 161.226}, {"text": "SICHERHEITSPERSONAL", "start": 161.226, "end": 161.647}, {"text": "LÄSST", "start": 161.647, "end": 162.068}]},
+  {"text":"DICH SCHNELLER DURCH KEIN STRESS KEIN","start":162.068,"end":164.595,"words":[{"text": "DICH", "start": 162.068, "end": 162.489}, {"text": "SCHNELLER", "start": 162.489, "end": 162.91}, {"text": "DURCH", "start": 162.91, "end": 163.332}, {"text": "KEIN", "start": 163.332, "end": 163.753}, {"text": "STRESS", "start": 163.753, "end": 164.174}, {"text": "KEIN", "start": 164.174, "end": 164.595}]},
+  {"text":"VERLUST UND NOCH ETWAS PACKE DEINE","start":164.595,"end":168.014,"words":[{"text": "VERLUST", "start": 164.595, "end": 165.016}, {"text": "UND", "start": 165.016, "end": 165.29}, {"text": "NOCH", "start": 166.415, "end": 166.836}, {"text": "ETWAS", "start": 166.836, "end": 167.257}, {"text": "PACKE", "start": 167.257, "end": 167.636}, {"text": "DEINE", "start": 167.636, "end": 168.014}]},
+  {"text":"POWERBANK NIE INS AUFGEGEBENE GEP\u00c4CK DAS","start":168.014,"end":171.647,"words":[{"text": "POWERBANK", "start": 168.014, "end": 168.392}, {"text": "NIE", "start": 169.541, "end": 169.962}, {"text": "INS", "start": 169.962, "end": 170.383}, {"text": "AUFGEGEBENE", "start": 170.383, "end": 170.805}, {"text": "GEPÄCK", "start": 170.805, "end": 171.226}, {"text": "DAS", "start": 171.226, "end": 171.647}]},
+  {"text":"IST WELTWEIT VERBOTEN OHNE AUSNAHME NUR","start":171.647,"end":175.91,"words":[{"text": "IST", "start": 171.647, "end": 171.758}, {"text": "WELTWEIT", "start": 172.785, "end": 173.206}, {"text": "VERBOTEN", "start": 173.206, "end": 173.627}, {"text": "OHNE", "start": 173.627, "end": 174.049}, {"text": "AUSNAHME", "start": 174.049, "end": 174.47}, {"text": "NUR", "start": 175.489, "end": 175.91}]},
+  {"text":"IM HANDGEP\u00c4CK VERGISST DU DAS DROHT","start":175.91,"end":178.321,"words":[{"text": "IM", "start": 175.91, "end": 176.331}, {"text": "HANDGEPÄCK", "start": 176.331, "end": 176.753}, {"text": "VERGISST", "start": 176.753, "end": 177.145}, {"text": "DU", "start": 177.145, "end": 177.537}, {"text": "DAS", "start": 177.537, "end": 177.929}, {"text": "DROHT", "start": 177.929, "end": 178.321}]},
+  {"text":"EINE STRAFE VON BIS ZU 5.000","start":178.321,"end":181.801,"words":[{"text": "EINE", "start": 178.321, "end": 178.714}, {"text": "STRAFE", "start": 178.714, "end": 179.106}, {"text": "VON", "start": 179.106, "end": 179.498}, {"text": "BIS", "start": 180.537, "end": 180.958}, {"text": "ZU", "start": 180.958, "end": 181.379}, {"text": "5.000", "start": 181.379, "end": 181.801}]},
+  {"text":"EURO FAST KEIN REISENDER WEISS DAS","start":181.801,"end":185.074,"words":[{"text": "EURO", "start": 181.801, "end": 182.222}, {"text": "FAST", "start": 182.222, "end": 182.577}, {"text": "KEIN", "start": 182.577, "end": 182.932}, {"text": "REISENDER", "start": 184.066, "end": 184.487}, {"text": "WEISS", "start": 184.487, "end": 184.908}, {"text": "DAS", "start": 184.908, "end": 185.074}]},
+  {"text":"WENN DIR DAS HEUTE ETWAS GEBRACHT","start":186.152,"end":188.679,"words":[{"text": "WENN", "start": 186.152, "end": 186.573}, {"text": "DIR", "start": 186.573, "end": 186.994}, {"text": "DAS", "start": 186.994, "end": 187.416}, {"text": "HEUTE", "start": 187.416, "end": 187.837}, {"text": "ETWAS", "start": 187.837, "end": 188.258}, {"text": "GEBRACHT", "start": 188.258, "end": 188.679}]},
+  {"text":"HAT TEILE DIESES VIDEO MIT JEMANDEM","start":188.679,"end":192.306,"words":[{"text": "HAT", "start": 188.679, "end": 189.1}, {"text": "TEILE", "start": 189.1, "end": 189.484}, {"text": "DIESES", "start": 189.484, "end": 189.868}, {"text": "VIDEO", "start": 191.053, "end": 191.471}, {"text": "MIT", "start": 191.471, "end": 191.888}, {"text": "JEMANDEM", "start": 191.888, "end": 192.306}]},
+  {"text":"DER BALD FLIEGT DU K\u00d6NNTEST IHM","start":192.306,"end":195.813,"words":[{"text": "DER", "start": 192.306, "end": 192.723}, {"text": "BALD", "start": 193.707, "end": 194.128}, {"text": "FLIEGT", "start": 194.128, "end": 194.549}, {"text": "DU", "start": 194.549, "end": 194.971}, {"text": "KÖNNTEST", "start": 194.971, "end": 195.392}, {"text": "IHM", "start": 195.392, "end": 195.813}]},
+  {"text":"BUCHST\u00c4BLICH DEN FLUG RETTEN ABONNIERE DEN","start":195.813,"end":198.252,"words":[{"text": "BUCHSTÄBLICH", "start": 195.813, "end": 196.234}, {"text": "DEN", "start": 196.234, "end": 196.655}, {"text": "FLUG", "start": 196.655, "end": 197.076}, {"text": "RETTEN", "start": 197.076, "end": 197.498}, {"text": "ABONNIERE", "start": 197.498, "end": 197.875}, {"text": "DEN", "start": 197.875, "end": 198.252}]},
+  {"text":"KANAL F\u00dcR MEHR REISETIPPS DIE WIRKLICH","start":198.252,"end":201.742,"words":[{"text": "KANAL", "start": 198.252, "end": 198.629}, {"text": "FÜR", "start": 198.629, "end": 199.006}, {"text": "MEHR", "start": 200.057, "end": 200.478}, {"text": "REISETIPPS", "start": 200.478, "end": 200.899}, {"text": "DIE", "start": 200.899, "end": 201.321}, {"text": "WIRKLICH", "start": 201.321, "end": 201.742}]},
+  {"text":"WICHTIG SIND","start":201.742,"end":202.246,"words":[{"text": "WICHTIG", "start": 201.742, "end": 202.163}, {"text": "SIND", "start": 202.163, "end": 202.246}]}
+];
+
+      const box = document.querySelector('[data-composition-id="captions"] #cap-box');
+      const tl = gsap.timeline({ paused: true });
+
+      let currentLine = -1;
+
+      function buildLine(line) {
+        box.innerHTML = line.words.map((w, i) =>
+          `<span id="cw${i}">${w.text}</span>`
+        ).join(' ');
+      }
+
+      LINES.forEach((line, li) => {
+        // Show box, set text
+        tl.to(box, { opacity: 1, duration: 0.08, ease: "none",
+          onStart: () => { buildLine(line); }
+        }, line.start);
+
+        // Word-by-word highlight
+        line.words.forEach((w, wi) => {
+          tl.call(() => {
+            box.querySelectorAll('span').forEach(s => s.classList.remove('active'));
+            const el = box.querySelector(`#cw${wi}`);
+            if (el) el.classList.add('active');
+          }, [], w.start);
+        });
+
+        // Fade out
+        tl.to(box, { opacity: 0, duration: 0.12, ease: "none" }, line.end);
+      });
+
+      window.__timelines["captions"] = tl;
+    })();
+    </script>
+  </div>
+</template>

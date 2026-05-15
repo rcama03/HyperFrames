@@ -1,0 +1,221 @@
+<template id="graphics-template">
+  <div data-composition-id="graphics" data-width="1280" data-height="720" data-duration="213.1">
+
+    <style>
+      [data-composition-id="graphics"] {
+        width: 100%; height: 100%; overflow: hidden; pointer-events: none;
+        font-family: 'Montserrat', sans-serif;
+      }
+
+      /* Base card */
+      [data-composition-id="graphics"] .mg-card {
+        position: absolute;
+        left: 40px;
+        bottom: 160px;
+        max-width: 480px;
+        min-width: 220px;
+        background: rgba(255,255,255,0.09);
+        border: 1px solid rgba(255,255,255,0.18);
+        border-left: 3px solid #FFD700;
+        border-radius: 16px;
+        box-shadow: 0 8px 32px rgba(0,0,0,0.45);
+        backdrop-filter: blur(14px);
+        -webkit-backdrop-filter: blur(14px);
+        padding: 16px 20px 14px 18px;
+        opacity: 0;
+        color: #fff;
+      }
+
+      /* Micro label */
+      [data-composition-id="graphics"] .card-micro-label {
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.15em;
+        color: #FFD700;
+        opacity: 0.85;
+        text-transform: uppercase;
+        margin-bottom: 4px;
+      }
+
+      /* Stat big number */
+      [data-composition-id="graphics"] .card-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      [data-composition-id="graphics"] .card-big-num {
+        font-size: 52px;
+        font-weight: 900;
+        line-height: 1;
+        color: #fff;
+        letter-spacing: -1px;
+      }
+
+      [data-composition-id="graphics"] .card-icon {
+        font-size: 34px;
+        margin-left: 10px;
+        opacity: 0.9;
+      }
+
+      [data-composition-id="graphics"] .card-context {
+        font-size: 13px;
+        color: rgba(255,255,255,0.65);
+        margin-top: 5px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+
+      /* Key point */
+      [data-composition-id="graphics"] .card-tag {
+        display: inline-block;
+        background: #FFD700;
+        color: #000;
+        font-size: 10px;
+        font-weight: 800;
+        letter-spacing: 0.12em;
+        padding: 3px 10px;
+        border-radius: 10px;
+        text-transform: uppercase;
+        margin-bottom: 8px;
+      }
+
+      [data-composition-id="graphics"] .card-divider {
+        height: 1px;
+        background: rgba(255,255,255,0.15);
+        margin-bottom: 8px;
+      }
+
+      [data-composition-id="graphics"] .card-main-text {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.35;
+        color: #fff;
+        max-width: 420px;
+      }
+
+      /* Comparison */
+      [data-composition-id="graphics"] .card-comp-row {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      [data-composition-id="graphics"] .card-comp-col {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      [data-composition-id="graphics"] .card-comp-label {
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        color: rgba(255,255,255,0.55);
+        text-transform: uppercase;
+        margin-bottom: 3px;
+      }
+
+      [data-composition-id="graphics"] .card-comp-val {
+        font-size: 22px;
+        font-weight: 800;
+        color: #fff;
+      }
+
+      [data-composition-id="graphics"] .card-arrow {
+        font-size: 26px;
+        color: #FFD700;
+        font-weight: 900;
+        flex-shrink: 0;
+      }
+    </style>
+
+    <div id="card_2mio" class="mg-card mg-card-stat">
+        <div class="card-micro-label">JÄHRLICH</div>
+        <div class="card-row">
+          <div class="card-big-num" data-target="2 MIO.+">2 MIO.+</div>
+          <div class="card-icon">✈️</div>
+        </div>
+        <div class="card-context">aufgehalten</div></div><div id="card_powerbank_confiscated" class="mg-card mg-card-keypoint">
+        <div class="card-tag">WICHTIG</div>
+        <div class="card-divider"></div>
+        <div class="card-main-text">Gerät konfisziert<br>Keine Ausnahmen</div></div><div id="card_100wh" class="mg-card mg-card-stat">
+        <div class="card-micro-label">IATA GRENZE</div>
+        <div class="card-row">
+          <div class="card-big-num" data-target="100 Wh">100 Wh</div>
+          <div class="card-icon">⚡</div>
+        </div>
+        <div class="card-context">pro Powerbank</div></div><div id="card_fire_risk" class="mg-card mg-card-keypoint">
+        <div class="card-tag">BRANDGEFAHR</div>
+        <div class="card-divider"></div>
+        <div class="card-main-text">Lithium-Ionen-Akkus<br>können sich entzünden</div></div><div id="card_grauzone" class="mg-card mg-card-comparison">
+        <div class="card-comp-row">
+          <div class="card-comp-col">
+            <div class="card-comp-label">ERLAUBT</div>
+            <div class="card-comp-val">< 100 Wh</div>
+          </div>
+          <div class="card-arrow">→</div>
+          <div class="card-comp-col">
+            <div class="card-comp-label">MIT GENEHMIGUNG</div>
+            <div class="card-comp-val">100–160 Wh</div>
+          </div>
+        </div></div><div id="card_formula" class="mg-card mg-card-keypoint">
+        <div class="card-tag">FORMEL</div>
+        <div class="card-divider"></div>
+        <div class="card-main-text">mAh × V ÷ 1000 = Wh</div></div><div id="card_74wh" class="mg-card mg-card-stat">
+        <div class="card-micro-label">20.000 MAH</div>
+        <div class="card-row">
+          <div class="card-big-num" data-target="74 Wh">74 Wh</div>
+          <div class="card-icon">🔋</div>
+        </div>
+        <div class="card-context">sicher ✓</div></div><div id="card_120eur" class="mg-card mg-card-stat">
+        <div class="card-micro-label">VERLUST FRANKFURT</div>
+        <div class="card-row">
+          <div class="card-big-num" data-target="€120">€120</div>
+          <div class="card-icon">💸</div>
+        </div>
+        <div class="card-context">konfisziert</div></div><div id="card_800k" class="mg-card mg-card-stat">
+        <div class="card-micro-label">EUROPA JÄHRLICH</div>
+        <div class="card-row">
+          <div class="card-big-num" data-target="800.000+">800.000+</div>
+          <div class="card-icon">📦</div>
+        </div>
+        <div class="card-context">beschlagnahmt</div></div><div id="card_5000eur" class="mg-card mg-card-stat">
+        <div class="card-micro-label">STRAFE BIS ZU</div>
+        <div class="card-row">
+          <div class="card-big-num" data-target="€5.000">€5.000</div>
+          <div class="card-icon">⚠️</div>
+        </div>
+        <div class="card-context">aufgeg. Gepäck</div></div>
+
+    <script>
+    (function() {
+      const tl = gsap.timeline({ paused: true });
+      
+        tl.fromTo('#card_2mio', {opacity:0, y:12}, {opacity:1, y:0, duration:0.4, ease:'power2.out'}, 2.106);
+        tl.to('#card_2mio', {opacity:0, y:8, duration:0.3, ease:'power2.in'}, 8.106);
+        tl.fromTo('#card_powerbank_confiscated', {opacity:0, y:12}, {opacity:1, y:0, duration:0.4, ease:'power2.out'}, 26.872);
+        tl.to('#card_powerbank_confiscated', {opacity:0, y:8, duration:0.3, ease:'power2.in'}, 32.872);
+        tl.fromTo('#card_100wh', {opacity:0, y:12}, {opacity:1, y:0, duration:0.4, ease:'power2.out'}, 35.177);
+        tl.to('#card_100wh', {opacity:0, y:8, duration:0.3, ease:'power2.in'}, 42.177);
+        tl.fromTo('#card_fire_risk', {opacity:0, y:12}, {opacity:1, y:0, duration:0.4, ease:'power2.out'}, 70.952);
+        tl.to('#card_fire_risk', {opacity:0, y:8, duration:0.3, ease:'power2.in'}, 76.952);
+        tl.fromTo('#card_grauzone', {opacity:0, y:12}, {opacity:1, y:0, duration:0.4, ease:'power2.out'}, 83.14);
+        tl.to('#card_grauzone', {opacity:0, y:8, duration:0.3, ease:'power2.in'}, 90.14);
+        tl.fromTo('#card_formula', {opacity:0, y:12}, {opacity:1, y:0, duration:0.4, ease:'power2.out'}, 100);
+        tl.to('#card_formula', {opacity:0, y:8, duration:0.3, ease:'power2.in'}, 107);
+        tl.fromTo('#card_74wh', {opacity:0, y:12}, {opacity:1, y:0, duration:0.4, ease:'power2.out'}, 107.5);
+        tl.to('#card_74wh', {opacity:0, y:8, duration:0.3, ease:'power2.in'}, 113.5);
+        tl.fromTo('#card_120eur', {opacity:0, y:12}, {opacity:1, y:0, duration:0.4, ease:'power2.out'}, 120);
+        tl.to('#card_120eur', {opacity:0, y:8, duration:0.3, ease:'power2.in'}, 126);
+        tl.fromTo('#card_800k', {opacity:0, y:12}, {opacity:1, y:0, duration:0.4, ease:'power2.out'}, 142.472);
+        tl.to('#card_800k', {opacity:0, y:8, duration:0.3, ease:'power2.in'}, 149.472);
+        tl.fromTo('#card_5000eur', {opacity:0, y:12}, {opacity:1, y:0, duration:0.4, ease:'power2.out'}, 181.379);
+        tl.to('#card_5000eur', {opacity:0, y:8, duration:0.3, ease:'power2.in'}, 187.379);
+      window.__timelines["graphics"] = tl;
+    })();
+    </script>
+  </div>
+</template>

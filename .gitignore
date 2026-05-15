@@ -38,3 +38,5 @@ npm-debug.log*
 # Temporary
 tmp/
 .tmp/
+projects/*/renders/
+projects/*/audio.wav

@@ -1,0 +1,84 @@
+SYNC REPORT — Powerbank Video
+============================================================
+
+CAPTION BLOCKS
+#     Audio Start  Visual Start    Delta  Text
+----------------------------------------------------------------------
+0           0.000         0.000       0ms  JEDES JAHR WERDEN ÜBER ZWEI MILLIONEN
+1           2.527         2.527       0ms  PASSAGIERE AM GATE AUFGEHALTEN NICHT WEG
+2           5.054         5.054       0ms  WAFFEN NICHT WEGEN VERBOTENER FLÜSSIGKEI
+3           8.522         8.522       0ms  WEGEN EINER EINZIGEN SACHE DIE FAST
+4          10.957        10.957       0ms  JEDER DABEI HAT WAS IST ES
+5          15.398        15.398       0ms  DIE ANTWORT IST EIN POWERBANK UND
+6          18.635        18.635       0ms  DIE WENIGSTEN WISSEN ES GIBT EINE
+7          21.162        21.162       0ms  SPEZIFISCHE WATTSTUNDEN-GRENZE ÜBERSCHRE
+8          23.689        23.689       0ms  NUR MINIMAL WIRD DEIN GERÄT KONFISZIERT
+9          27.293        27.293       0ms  IM SCHLIMMSTEN FALL WIRST DU VOM
+10         30.544        30.544       0ms  FLUG AUSGESCHLOSSEN DIE INTERNATIONALE L
+11         33.072        33.072       0ms  HAT EINE STRIKTE GRENZE FESTGELEGT 100
+12         35.599        35.599       0ms  WATTSTUNDEN PRO POWERBANK KLINGT TECHNIS
+13         38.949        38.949       0ms  ES AUCH DIE MEISTEN HERSTELLER DRUCKEN
+14         42.974        42.974       0ms  DIESE ZAHL NICHT EINMAL AUF DIE
+15         45.501        45.501       0ms  VERPACKUNG SICHERHEITSPERSONAL HAT GERÄT
+16         48.741        48.741       0ms  WATTSTUNDEN IN SEKUNDEN BERECHNEN FLIEGT
+17         52.112        52.112       0ms  POWERBANK ÜBER DEN GRENZWERT WIRD SIE
+18         54.639        54.639       0ms  EINBEHALTEN KEINE AUSNAHMEN KEIN ERMESSE
+19         58.787        58.787       0ms  DEIN GERÄT SIEHST DU NIE WIEDER
+20         63.318        63.318       0ms  ABER WARUM IST DAS ÜBERHAUPT VERBOTEN
+21         66.740        66.740       0ms  LITHIUM-IONEN-AKKUS KÖNNEN SICH BEI DRUC
+22         69.267        69.267       0ms  TEMPERATURSCHWANKUNGEN IM FLUGZEUG SELBS
+23         71.773        71.773       0ms  GAB BEREITS FÄLLE BEI DENEN POWERBANKS
+24         75.417        75.417       0ms  IM GEPÄCKFACH IN FLAMMEN AUFGINGEN DAS
+25         78.507        78.507       0ms  IST KEIN MYTHOS ZWISCHEN 100 UND
+26         81.034        81.034       0ms  160 WATTSTUNDEN GIBT ES EINE GRAUZONE
+27         83.561        83.561       0ms  DIESE POWERBANKS SIND ERLAUBT ABER NUR
+28         86.031        86.031       0ms  MIT AUSDRÜCKLICHER GENEHMIGUNG DER AIRLI
+29         90.779        90.779       0ms  DU VORHER AN FAST NIEMAND TUT
+30         95.318        95.318       0ms  DAS UND GENAU DAS WIRD TEUER
+31         97.845        97.845       0ms  DIE FORMEL IST SIMPEL MILLIAMPERESTUNDEN
+32        100.365       100.365       0ms  VOLT GETEILT DURCH 1000 ERGIBT WATTSTUND
+33        104.017       104.017       0ms  EINE 20.000-MAH-POWERBANK MIT 3,7 VOLT K
+34        106.544       106.544       0ms  AUF 74 WATTSTUNDEN ALSO SICHER ABER
+35        110.055       110.055       0ms  SCHON 30.000 MAH SPRENGEN DAS LIMIT
+36        112.582       112.582       0ms  WEISST DU WAS DU PACKST EIN
+37        115.701       115.701       0ms  REISENDER VERLOR IN FRANKFURT SEINEN 120
+38        119.141       119.141       0ms  WEIL ER DIE WATTSTUNDEN NIE GEPRÜFT
+39        121.668       121.668       0ms  HATTE SEIN FLUG VERPASST ENTSCHÄDIGUNG N
+40        125.273       125.273       0ms  DIE AIRLINE LEHNTE JEGLICHE HAFTUNG AB
+41        131.294       131.294       0ms  EINE MINUTE VORBEREITUNG HÄTTE ALLES VER
+42        134.772       134.772       0ms  AIRLINES VERDIENEN NICHTS DARAN DICH AUF
+43        137.985       137.985       0ms  KONFISZIERTE GERÄTE LANDEN OFT IN INTERN
+44        140.512       140.512       0ms  VERSTEIGERUNGEN ÜBER 800.000 ELEKTRONIKG
+45        144.137       144.137       0ms  AN EUROPÄISCHEN FLUGHÄFEN BESCHLAGNAHMT 
+46        147.783       147.783       0ms  EIN MILLIONENGESCHÄFT AUF KOSTEN UNWISSE
+47        150.310       150.310       0ms  DIE LÖSUNG IST EINFACH KAUFE NUR
+48        153.549       153.549       0ms  POWERBANKS UNTER 20.000 MAH DIE LIEGEN
+49        157.014       157.014       0ms  GARANTIERT UNTER 74 WATTSTUNDEN KLEBE DE
+50        159.541       159.541       0ms  BERECHNETEN WERT AUSSEN DRAUF SICHERHEIT
+51        162.068       162.068       0ms  DICH SCHNELLER DURCH KEIN STRESS KEIN
+52        164.595       164.595       0ms  VERLUST UND NOCH ETWAS PACKE DEINE
+53        168.014       168.014       0ms  POWERBANK NIE INS AUFGEGEBENE GEPÄCK DAS
+54        171.647       171.647       0ms  IST WELTWEIT VERBOTEN OHNE AUSNAHME NUR
+55        175.910       175.910       0ms  IM HANDGEPÄCK VERGISST DU DAS DROHT
+56        178.321       178.321       0ms  EINE STRAFE VON BIS ZU 5.000
+57        181.801       181.801       0ms  EURO FAST KEIN REISENDER WEISS DAS
+58        186.152       186.152       0ms  WENN DIR DAS HEUTE ETWAS GEBRACHT
+59        188.679       188.679       0ms  HAT TEILE DIESES VIDEO MIT JEMANDEM
+60        192.306       192.306       0ms  DER BALD FLIEGT DU KÖNNTEST IHM
+61        195.813       195.813       0ms  BUCHSTÄBLICH DEN FLUG RETTEN ABONNIERE D
+62        198.252       198.252       0ms  KANAL FÜR MEHR REISETIPPS DIE WIRKLICH
+63        201.742       201.742       0ms  WICHTIG SIND
+
+
+CARD TIMING
+----------------------------------------------------------------------
+[card_2mio                     ]  in:    2.11s   out:    8.11s  dur: 6s
+[card_powerbank_confiscated    ]  in:   26.87s   out:   32.87s  dur: 6s
+[card_100wh                    ]  in:   35.18s   out:   42.18s  dur: 7s
+[card_fire_risk                ]  in:   70.95s   out:   76.95s  dur: 6s
+[card_grauzone                 ]  in:   83.14s   out:   90.14s  dur: 7s
+[card_formula                  ]  in:  100.00s   out:  107.00s  dur: 7s
+[card_74wh                     ]  in:  107.50s   out:  113.50s  dur: 6s
+[card_120eur                   ]  in:  120.00s   out:  126.00s  dur: 6s
+[card_800k                     ]  in:  142.47s   out:  149.47s  dur: 7s
+[card_5000eur                  ]  in:  181.38s   out:  187.38s  dur: 6s

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "card_2mio",
+    "type": "stat",
+    "label": "JÄHRLICH",
+    "value": "2 MIO.+",
+    "context": "aufgehalten",
+    "icon": "✈️",
+    "start": 2.106,
+    "duration": 6,
+    "end": 8.106
+  },
+  {
+    "id": "card_powerbank_confiscated",
+    "type": "keypoint",
+    "tag": "WICHTIG",
+    "text": "Gerät konfisziert\nKeine Ausnahmen",
+    "start": 26.872,
+    "duration": 6,
+    "end": 32.872
+  },
+  {
+    "id": "card_100wh",
+    "type": "stat",
+    "label": "IATA GRENZE",
+    "value": "100 Wh",
+    "context": "pro Powerbank",
+    "icon": "⚡",
+    "start": 35.177,
+    "duration": 7,
+    "end": 42.177
+  },
+  {
+    "id": "card_fire_risk",
+    "type": "keypoint",
+    "tag": "BRANDGEFAHR",
+    "text": "Lithium-Ionen-Akkus\nkönnen sich entzünden",
+    "start": 70.952,
+    "duration": 6,
+    "end": 76.952
+  },
+  {
+    "id": "card_grauzone",
+    "type": "comparison",
+    "label_left": "ERLAUBT",
+    "val_left": "< 100 Wh",
+    "label_right": "MIT GENEHMIGUNG",
+    "val_right": "100–160 Wh",
+    "start": 83.14,
+    "duration": 7,
+    "end": 90.14
+  },
+  {
+    "id": "card_formula",
+    "type": "keypoint",
+    "tag": "FORMEL",
+    "text": "mAh × V ÷ 1000 = Wh",
+    "start": 100,
+    "duration": 7,
+    "end": 107
+  },
+  {
+    "id": "card_74wh",
+    "type": "stat",
+    "label": "20.000 MAH",
+    "value": "74 Wh",
+    "context": "sicher ✓",
+    "icon": "🔋",
+    "start": 107.5,
+    "duration": 6,
+    "end": 113.5
+  },
+  {
+    "id": "card_120eur",
+    "type": "stat",
+    "label": "VERLUST FRANKFURT",
+    "value": "€120",
+    "context": "konfisziert",
+    "icon": "💸",
+    "start": 120,
+    "duration": 6,
+    "end": 126
+  },
+  {
+    "id": "card_800k",
+    "type": "stat",
+    "label": "EUROPA JÄHRLICH",
+    "value": "800.000+",
+    "context": "beschlagnahmt",
+    "icon": "📦",
+    "start": 142.472,
+    "duration": 7,
+    "end": 149.472
+  },
+  {
+    "id": "card_5000eur",
+    "type": "stat",
+    "label": "STRAFE BIS ZU",
+    "value": "€5.000",
+    "context": "aufgeg. Gepäck",
+    "icon": "⚠️",
+    "start": 181.379,
+    "duration": 6,
+    "end": 187.379
+  }
+]

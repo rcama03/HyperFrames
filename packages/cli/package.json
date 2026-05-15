@@ -18,6 +18,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@fontsource/montserrat": "^5.2.8",
     "@hono/node-server": "^1.8.0",
     "@puppeteer/browsers": "^2.13.0",
     "adm-zip": "^0.5.16",
@@ -30,9 +31,9 @@
     "puppeteer-core": "^24.39.1"
   },
   "devDependencies": {
-    "@hyperframes/core": "workspace:*",
     "@clack/prompts": "^1.1.0",
     "@hono/node-server": "^1.0.0",
+    "@hyperframes/core": "workspace:*",
     "@hyperframes/engine": "workspace:*",
     "@hyperframes/producer": "workspace:*",
     "@types/adm-zip": "^0.5.7",
