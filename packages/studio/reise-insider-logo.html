@@ -112,19 +112,22 @@ function aircraft(sc) {
 //  RENDER
 // ══════════════════════════════════════════════════
 
-// background
-var bgr = g.createRadialGradient(CX,CY,0, CX,CY, S*0.72);
-bgr.addColorStop(0,   '#0d1628');
-bgr.addColorStop(0.55,'#08101c');
-bgr.addColorStop(1,   '#030609');
-g.fillStyle=bgr; g.fillRect(0,0,S,S);
+// ?transparent=1 skips background+stars for watermark PNG export
+var TRANSPARENT = location.search.includes('transparent');
 
-// stars (outside logo only)
-for (var i=0; i<90; i++) {
-  var sx=rnd()*S, sy=rnd()*S;
-  if (Math.hypot(sx-CX,sy-CY) > RO+12) {
-    g.beginPath(); g.arc(sx,sy,rnd()*1.4+0.3,0,Math.PI*2);
-    g.fillStyle='rgba(255,255,255,'+(rnd()*0.45+0.08)+')'; g.fill();
+if (!TRANSPARENT) {
+  var bgr = g.createRadialGradient(CX,CY,0, CX,CY, S*0.72);
+  bgr.addColorStop(0,   '#0d1628');
+  bgr.addColorStop(0.55,'#08101c');
+  bgr.addColorStop(1,   '#030609');
+  g.fillStyle=bgr; g.fillRect(0,0,S,S);
+
+  for (var i=0; i<90; i++) {
+    var sx=rnd()*S, sy=rnd()*S;
+    if (Math.hypot(sx-CX,sy-CY) > RO+12) {
+      g.beginPath(); g.arc(sx,sy,rnd()*1.4+0.3,0,Math.PI*2);
+      g.fillStyle='rgba(255,255,255,'+(rnd()*0.45+0.08)+')'; g.fill();
+    }
   }
 }
 
