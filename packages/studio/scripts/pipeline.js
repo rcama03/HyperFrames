@@ -118,24 +118,40 @@ need(CARD_WEBM, 'render-card.js');
 console.log('  ✓ logo_watermark.png');
 console.log('  ✓ subscribe_card_overlay.webm');
 
-// ── Step 1 — Background music ─────────────────────
+// ── Step 1 — Background music with auto-ducking ───
 
 const tmp1 = tmpFile('1_music');
 console.log('\n' + SEP);
 console.log(`  Step 1/3 — Background music`);
-console.log(`  Music volume: ${(musicVol*100).toFixed(0)}% (ducked under voiceover)`);
+console.log(`  Base vol : ${(musicVol*100).toFixed(0)}% during pauses`);
+console.log(`  Ducked   : ~${((musicVol/8)*100).toFixed(1)}% under speech  (sidechain 8:1)`);
+console.log(`  Fades    : 3s in / 3s out`);
+
+// Video duration needed for fade-out start time
+const durProbe = spawnSync('ffprobe', [
+  '-v','error','-show_entries','format=duration',
+  '-of','default=noprint_wrappers=1:nokey=1', inputVideo
+], { encoding: 'utf8' });
+const vidDuration = parseFloat(durProbe.stdout.trim());
+const fadeOutStart = Math.max(0, vidDuration - 3).toFixed(3);
+
+const musicFilter = [
+  `[1:a]volume=${musicVol},aformat=fltp:44100:stereo[music_raw]`,
+  `[music_raw][0:a]sidechaincompress=threshold=0.015:ratio=8:attack=5:release=600[ducked]`,
+  `[0:a][ducked]amix=inputs=2:duration=first:dropout_transition=2[mixed]`,
+  `[mixed]afade=t=in:ss=0:d=3,afade=t=out:st=${fadeOutStart}:d=3[audio_out]`
+].join(';');
 
 run('add-music', [
   '-y',
   '-i', inputVideo,
   '-stream_loop', '-1', '-i', musicFile,
-  '-filter_complex',
-  `[1:a]volume=${musicVol}[music];[0:a][music]amix=inputs=2:duration=first:dropout_transition=3[a]`,
-  '-map', '0:v', '-map', '[a]',
+  '-filter_complex', musicFilter,
+  '-map', '0:v', '-map', '[audio_out]',
   '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k',
   tmp1
 ]);
-console.log('  ✓ Music added');
+console.log('  ✓ Music added with ducking + fades');
 
 // ── Step 2 — Logo watermark ───────────────────────
 
