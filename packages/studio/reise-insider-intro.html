@@ -257,6 +257,60 @@ function draw(ts) {
   var pa = eoe(rmp(T, 0.08, 0.65));
   if (pa > 0) bgPlane(pa * 0.12);
 
+  // ── radar sweep ────────────────────────────────
+  var ra = eoe(rmp(T, 0.1, 0.9));
+  if (ra > 0) {
+    var rcx = W/2, rcy = H/2, rmax = Math.min(W,H) * 0.42;
+    var sweepA = (T * 1.3) % (Math.PI * 2);
+    // concentric rings
+    g.save();
+    g.globalAlpha = ra * 0.18;
+    g.strokeStyle = '#00c8ff'; g.lineWidth = 0.8;
+    [0.25, 0.5, 0.75, 1.0].forEach(function(f) {
+      g.beginPath(); g.arc(rcx, rcy, rmax*f, 0, Math.PI*2); g.stroke();
+    });
+    // crosshairs
+    g.globalAlpha = ra * 0.1;
+    g.strokeStyle = '#00c8ff'; g.lineWidth = 0.5;
+    g.beginPath(); g.moveTo(rcx-rmax, rcy); g.lineTo(rcx+rmax, rcy); g.stroke();
+    g.beginPath(); g.moveTo(rcx, rcy-rmax); g.lineTo(rcx, rcy+rmax); g.stroke();
+    g.restore();
+    // sweep wedge
+    g.save();
+    g.translate(rcx, rcy); g.rotate(sweepA);
+    for (var sa = 0; sa < Math.PI*0.65; sa += 0.018) {
+      var fade = 1 - sa / (Math.PI*0.65);
+      g.beginPath(); g.moveTo(0,0);
+      g.arc(0, 0, rmax, -sa, -sa+0.02);
+      g.closePath();
+      g.fillStyle = 'rgba(0,220,130,'+(0.18*fade*ra)+')';
+      g.fill();
+    }
+    g.restore();
+    // blips
+    var BLIPS = [
+      {angle:0.40,dist:0.38}, {angle:1.80,dist:0.65},
+      {angle:2.90,dist:0.28}, {angle:4.10,dist:0.55},
+      {angle:5.20,dist:0.72}, {angle:0.90,dist:0.82}
+    ];
+    for (var bi = 0; bi < BLIPS.length; bi++) {
+      var b = BLIPS[bi];
+      var bx = rcx + Math.cos(b.angle)*rmax*b.dist;
+      var by = rcy + Math.sin(b.angle)*rmax*b.dist;
+      var diff = ((sweepA - b.angle) % (Math.PI*2) + Math.PI*2) % (Math.PI*2);
+      var ba = Math.max(0, 1 - diff/(Math.PI*0.5)) * ra;
+      if (ba > 0.01) {
+        var bgr2 = g.createRadialGradient(bx,by,0, bx,by,14);
+        bgr2.addColorStop(0, 'rgba(0,255,160,'+ba+')');
+        bgr2.addColorStop(1, 'rgba(0,0,0,0)');
+        g.fillStyle = bgr2;
+        g.beginPath(); g.arc(bx,by,14,0,Math.PI*2); g.fill();
+        g.beginPath(); g.arc(bx,by,3,0,Math.PI*2);
+        g.fillStyle = 'rgba(0,255,180,'+ba+')'; g.fill();
+      }
+    }
+  }
+
   // ── shockwaves ─────────────────────────────────
   for (var i = 0; i < waves.length; i++) {
     var wv = waves[i];
@@ -321,6 +375,19 @@ function draw(ts) {
   }
 
   g.restore();
+
+  // ── divider line between REISE and INSIDER ─────
+  var ml = eoe(rmp(T, 1.15 + 0.42*0.7, 1.15 + 0.42));
+  if (ml > 0) {
+    var mlw = ml * 360;
+    g.globalAlpha = ml * 0.7;
+    g.strokeStyle = '#ffd700'; g.lineWidth = 1.5;
+    g.beginPath();
+    g.moveTo(W/2 - mlw, H/2 - 29);
+    g.lineTo(W/2 + mlw, H/2 - 29);
+    g.stroke();
+    g.globalAlpha = 1;
+  }
 
   // ── gold divider line (appears with AVIATION) ───
   var dl = eoe(rmp(T, 1.9, 2.25));
