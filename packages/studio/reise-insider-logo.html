@@ -55,16 +55,22 @@ function arcText(text, r, centerAngle, isBottom, col, fontSize, spacing) {
   totalW += (text.length - 1) * spacing;
 
   var totalAng = totalW / r;
-  var startAng = centerAngle - totalAng / 2;
   var cumW = 0;
 
   for (var i = 0; i < text.length; i++) {
-    // angle at the centre of this glyph
-    var theta = startAng + (cumW + widths[i] / 2) / r;
-    // world position on the circle
+    var charMid = cumW + widths[i] / 2;
+    var theta;
+    if (!isBottom) {
+      // top: increasing theta → left-to-right across the top
+      theta = (centerAngle - totalAng/2) + charMid / r;
+    } else {
+      // bottom: DECREASING theta → left-to-right from viewer across the bottom
+      // (increasing theta goes clockwise = toward the right side of the clock,
+      //  which is the LEFT side when read from outside at the bottom)
+      theta = (centerAngle + totalAng/2) - charMid / r;
+    }
     var px = CX + r * Math.cos(theta);
     var py = CY + r * Math.sin(theta);
-    // orientation: top=outward, bottom=inward-flipped so it reads normally
     var rot = isBottom ? theta - Math.PI/2 : theta + Math.PI/2;
 
     g.save();
@@ -154,13 +160,12 @@ g.strokeStyle=outerG; g.lineWidth=2.5; g.stroke(); g.restore();
 // REISE — top semicircle
 // spans ~120° centred at -π/2 (top)
 g.save(); g.shadowColor='#00aaff'; g.shadowBlur=18;
-arcText('REISE',   RT, -Math.PI/2, false, '#ffffff', 36, 82);
+arcText('REISE',   RT, -Math.PI/2, false, '#ffffff', 52, 72);
 g.restore();
 
 // INSIDER — bottom semicircle
-// spans ~120° centred at +π/2 (bottom)
 g.save(); g.shadowColor='#ffaa00'; g.shadowBlur=20;
-arcText('INSIDER', RT,  Math.PI/2, true,  '#ffd700', 36, 46);
+arcText('INSIDER', RT,  Math.PI/2, true,  '#ffd700', 52, 36);
 g.restore();
 
 // diamond separators at 3 o'clock and 9 o'clock
