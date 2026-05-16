@@ -222,6 +222,64 @@ function audio() {
     boom(bf, bv, t + wt, 0.4);
     ping(t + wt + 0.02, pf, wt < 1.5 ? 0.22 : 0.14, 0.9);
   });
+
+  // ── background music pad ────────────────────────────
+  // Cinematic D-minor drone: sits well under voiceover (~12% of SFX level)
+  var padG = ac.createGain();
+  padG.gain.setValueAtTime(0, t);
+  padG.gain.linearRampToValueAtTime(0.065, t + 1.1);
+  padG.gain.setValueAtTime(0.065, t + 4.0);
+  padG.gain.linearRampToValueAtTime(0, t + 5.1);
+  padG.connect(out);
+
+  // helper: sustained oscillator into pad bus
+  function padOsc(freq, type, vol, detune, cutoff) {
+    var o=ac.createOscillator(), f=ac.createBiquadFilter(), gn=ac.createGain();
+    f.type='lowpass'; f.frequency.value=cutoff||freq*6;
+    o.type=type; o.frequency.value=freq;
+    if (detune) o.detune.value=detune;
+    gn.gain.value=vol;
+    o.connect(f); f.connect(gn); gn.connect(padG);
+    o.start(t); o.stop(t+5.6);
+  }
+
+  // Root D2 (73.4 Hz) — warm low foundation
+  padOsc(73.4,  'sine',     1.0,   0,  600);
+  padOsc(73.4,  'triangle', 0.28,  5,  400);
+  // Fifth A2 (110 Hz)
+  padOsc(110,   'sine',     0.42,  0,  800);
+  padOsc(110,   'triangle', 0.12, -3,  600);
+  // Octave D3 (146.8 Hz) — body
+  padOsc(146.8, 'sine',     0.22,  0, 1000);
+  // D4 shimmer (293.6 Hz) — air
+  padOsc(293.6, 'sine',     0.07,  2, 2000);
+
+  // Tension tone: F#3 → G3 slow glide (adds cinematic build)
+  var tO=ac.createOscillator(), tF=ac.createBiquadFilter(), tG=ac.createGain();
+  tF.type='lowpass'; tF.frequency.value=300;
+  tO.type='triangle';
+  tO.frequency.setValueAtTime(184.9, t);       // F#3 — tension
+  tO.frequency.linearRampToValueAtTime(196, t+3.6); // G3 — resolve up
+  tG.gain.setValueAtTime(0, t);
+  tG.gain.linearRampToValueAtTime(0.09, t+1.5);
+  tG.gain.setValueAtTime(0.09, t+3.8);
+  tG.gain.linearRampToValueAtTime(0, t+5.0);
+  tO.connect(tF); tF.connect(tG); tG.connect(padG);
+  tO.start(t); tO.stop(t+5.6);
+
+  // Subtle filtered noise — "air" texture / reverb wash
+  var nb=ac.createBuffer(1, Math.ceil(ac.sampleRate*5.6), ac.sampleRate);
+  var nd=nb.getChannelData(0);
+  for (var i=0;i<nd.length;i++) nd[i]=(Math.random()*2-1)*0.018;
+  var nSrc=ac.createBufferSource(), nF=ac.createBiquadFilter(), nG=ac.createGain();
+  nF.type='bandpass'; nF.frequency.value=2800; nF.Q.value=0.35;
+  nG.gain.setValueAtTime(0, t);
+  nG.gain.linearRampToValueAtTime(0.55, t+1.2);
+  nG.gain.setValueAtTime(0.55, t+4.0);
+  nG.gain.linearRampToValueAtTime(0, t+5.0);
+  nSrc.buffer=nb;
+  nSrc.connect(nF); nF.connect(nG); nG.connect(padG);
+  nSrc.start(t);
 }
 
 // ── state ────────────────────────────────────────────
