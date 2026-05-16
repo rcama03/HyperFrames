@@ -1,0 +1,12 @@
+{
+  "name": "reise-insider-scripts",
+  "version": "1.0.0",
+  "description": "Render and overlay tools for Reise Insider motion graphics",
+  "scripts": {
+    "render": "node render-card.js",
+    "overlay": "node overlay-card.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.0.0"
+  }
+}
