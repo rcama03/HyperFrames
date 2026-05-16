@@ -67,27 +67,27 @@ var WORDS = [
   },
   {
     text:'AVIATION',
-    tx:W/2-530, ty:H/2+218,
+    tx:W/2-370, ty:H/2+218,
     dx:-160, dy:0,
     t0:1.9,  dur:0.38,
-    font:'900 76px "Arial Black",Arial,sans-serif',
-    col:'#ffffff', glow:'#00ccff', glowB:28
+    font:'900 48px "Arial Black",Arial,sans-serif',
+    col:'#ffffff', glow:'#00ccff', glowB:18
   },
   {
     text:'STORIES',
     tx:W/2,     ty:H/2+218,
     dx:0,    dy:90,
     t0:2.55, dur:0.38,
-    font:'900 76px "Arial Black",Arial,sans-serif',
-    col:'#ffffff', glow:'#00ccff', glowB:28
+    font:'900 48px "Arial Black",Arial,sans-serif',
+    col:'#ffffff', glow:'#00ccff', glowB:18
   },
   {
     text:'INSIGHTS',
-    tx:W/2+530, ty:H/2+218,
+    tx:W/2+370, ty:H/2+218,
     dx:160,  dy:0,
     t0:3.2,  dur:0.38,
-    font:'900 76px "Arial Black",Arial,sans-serif',
-    col:'#ffffff', glow:'#00ccff', glowB:28
+    font:'900 48px "Arial Black",Arial,sans-serif',
+    col:'#ffffff', glow:'#00ccff', glowB:18
   }
 ];
 
@@ -117,7 +117,7 @@ function bgPlane(alpha) {
   g.globalAlpha = alpha;
   g.translate(W/2, H/2 - 30);
   g.rotate(-Math.PI / 16);  // slight nose-up
-  g.scale(20, 20);
+  g.scale(7, 7);
   g.shadowColor = '#0055ff';
   g.shadowBlur  = 60;
   g.fillStyle   = '#ffffff';
