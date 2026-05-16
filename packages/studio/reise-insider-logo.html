@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<title>Reise Insider — Logo</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:#060b14;display:flex;flex-direction:column;align-items:center;
+       justify-content:center;height:100vh;gap:22px;font-family:sans-serif}
+  canvas{display:block}
+  #dl{background:rgba(0,200,255,.1);border:1px solid rgba(0,200,255,.5);
+      color:#00ccff;font:600 12px 'Courier New',monospace;letter-spacing:4px;
+      padding:11px 34px;cursor:pointer;text-transform:uppercase}
+  #dl:hover{background:rgba(0,200,255,.22);box-shadow:0 0 20px rgba(0,200,255,.35)}
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<button id="dl">&#8595; Download PNG</button>
+<script>
+/* ==========================================
+   REISE INSIDER — Static Logo
+   Two rings · arc text · aircraft centre
+   ========================================== */
+
+var S  = 800;           // canvas size
+var CX = S/2, CY = S/2; // centre
+var RO = 305;           // outer ring radius
+var RI = 188;           // inner ring radius
+var RT = (RO+RI)/2;     // text arc radius  ≈ 246
+
+var cv = document.getElementById('c');
+var g  = cv.getContext('2d');
+cv.width = S; cv.height = S;
+
+// ── arc-text helper ───────────────────────────────
+// isBottom=false → top arc (REISE)
+// isBottom=true  → bottom arc (INSIDER, reads L→R from outside)
+function arcText(text, r, centerAngle, isBottom, col, fontSize, spacing) {
+  var font = '900 '+fontSize+'px "Arial Black",Arial,sans-serif';
+  g.save();
+  g.font = font;
+  g.textAlign    = 'center';
+  g.textBaseline = 'middle';
+  g.fillStyle    = col;
+
+  // measure each glyph
+  var widths = [], totalW = 0;
+  for (var i = 0; i < text.length; i++) {
+    var w = g.measureText(text[i]).width;
+    widths.push(w); totalW += w;
+  }
+  totalW += (text.length-1) * spacing;
+  var totalAng = totalW / r;
+  var startAng = centerAngle - totalAng/2;
+  var cumW = 0;
+
+  for (var i = 0; i < text.length; i++) {
+    var angle = startAng + (cumW + widths[i]/2) / r;
+    g.save();
+    g.translate(CX, CY);
+    g.rotate(angle);
+    if (!isBottom) {
+      g.translate(0, -r);               // top: char above centre line
+    } else {
+      g.translate(0, r);                 // bottom: char below
+      g.rotate(Math.PI);                 // flip so it reads normally
+    }
+    g.fillText(text[i], 0, 0);
+    g.restore();
+    cumW += widths[i] + spacing;
+  }
+  g.restore();
+}
+
+// ── draw diamond ──────────────────────────────────
+function diamond(x, y, sz, col) {
+  g.save();
+  g.translate(x, y);
+  g.beginPath();
+  g.moveTo(0,-sz); g.lineTo(sz,0); g.lineTo(0,sz); g.lineTo(-sz,0);
+  g.closePath();
+  g.fillStyle = col; g.fill();
+  g.restore();
+}
+
+// ── draw aircraft ─────────────────────────────────
+function aircraft(sc) {
+  g.save();
+  g.translate(CX, CY);
+  g.rotate(-Math.PI/16);   // slight nose-up
+  g.scale(sc, sc);
+  g.shadowColor = '#0055ff'; g.shadowBlur = 55;
+  g.fillStyle = '#ffffff';
+  // fuselage
+  g.beginPath();
+  g.moveTo(22,0); g.lineTo(-16,-5); g.lineTo(-16,5); g.closePath(); g.fill();
+  // left wing
+  g.beginPath();
+  g.moveTo(4,0); g.lineTo(-10,-26); g.lineTo(-16,-5); g.closePath(); g.fill();
+  // right wing
+  g.beginPath();
+  g.moveTo(4,0); g.lineTo(-10, 26); g.lineTo(-16, 5); g.closePath(); g.fill();
+  // tail fin
+  g.beginPath();
+  g.moveTo(-16,-5); g.lineTo(-24,-14); g.lineTo(-20,0);
+  g.lineTo(-24,14); g.lineTo(-16,5); g.closePath(); g.fill();
+  g.restore();
+}
+
+// ═════════════════════════════════════════════════
+//  RENDER
+// ═════════════════════════════════════════════════
+
+// ── background ────────────────────────────────────
+var bgr = g.createRadialGradient(CX,CY,0, CX,CY, S*0.72);
+bgr.addColorStop(0,   '#0d1628');
+bgr.addColorStop(0.55,'#08101c');
+bgr.addColorStop(1,   '#030609');
+g.fillStyle = bgr; g.fillRect(0,0,S,S);
+
+// ── stars ─────────────────────────────────────────
+var rng = 42;
+function rnd() { rng = (rng*1664525 + 1013904223) & 0xffffffff; return (rng>>>0)/0xffffffff; }
+for (var i=0; i<90; i++) {
+  var sx=rnd()*S, sy=rnd()*S, sr=rnd()*1.4+0.3;
+  var dist=Math.hypot(sx-CX,sy-CY);
+  if (dist > RO+12) {        // only outside the logo
+    g.beginPath(); g.arc(sx,sy,sr,0,Math.PI*2);
+    g.fillStyle='rgba(255,255,255,'+(rnd()*0.45+0.08)+')'; g.fill();
+  }
+}
+
+// ── outer ring background fill ────────────────────
+var fill = g.createRadialGradient(CX,CY,0, CX,CY,RO);
+fill.addColorStop(0,   '#101e38');
+fill.addColorStop(0.62,'#0a1628');
+fill.addColorStop(1,   '#060e1c');
+g.beginPath(); g.arc(CX,CY,RO,0,Math.PI*2);
+g.fillStyle = fill; g.fill();
+
+// ── outer ring tick marks ─────────────────────────
+for (var a=0; a<360; a+=5) {
+  var rad = a*Math.PI/180;
+  var isQ = (a%90===0), is30 = (a%30===0);
+  var tLen = isQ ? 13 : is30 ? 8 : 4;
+  g.beginPath();
+  g.moveTo(CX+Math.cos(rad)*(RO-tLen), CY+Math.sin(rad)*(RO-tLen));
+  g.lineTo(CX+Math.cos(rad)*RO,        CY+Math.sin(rad)*RO);
+  g.strokeStyle = isQ ? 'rgba(255,210,0,0.9)' : 'rgba(0,200,255,0.35)';
+  g.lineWidth   = isQ ? 2 : 0.8;
+  g.stroke();
+}
+
+// ── outer ring stroke (gold→cyan→gold gradient) ───
+var outerG = g.createLinearGradient(CX-RO,CY, CX+RO,CY);
+outerG.addColorStop(0,    '#00ccff');
+outerG.addColorStop(0.35, '#ffd700');
+outerG.addColorStop(0.65, '#ffd700');
+outerG.addColorStop(1,    '#00ccff');
+g.save();
+g.shadowColor='#00aaff'; g.shadowBlur=10;
+g.beginPath(); g.arc(CX,CY,RO,0,Math.PI*2);
+g.strokeStyle=outerG; g.lineWidth=2.5; g.stroke();
+g.restore();
+
+// ── "REISE" — top arc ─────────────────────────────
+g.save();
+g.shadowColor='#00aaff'; g.shadowBlur=18;
+arcText('REISE',   RT, -Math.PI/2, false, '#ffffff', 38, 7);
+g.restore();
+
+// ── "INSIDER" — bottom arc ────────────────────────
+g.save();
+g.shadowColor='#ffaa00'; g.shadowBlur=20;
+arcText('INSIDER', RT,  Math.PI/2, true,  '#ffd700', 38, 5);
+g.restore();
+
+// ── diamond separators (left & right) ────────────
+g.save();
+g.shadowColor='#ffd700'; g.shadowBlur=10;
+diamond(CX+RT, CY, 6, '#ffd700');
+diamond(CX-RT, CY, 6, '#ffd700');
+g.restore();
+
+// ── inner ring ────────────────────────────────────
+// subtle fill inside inner ring
+var iFill = g.createRadialGradient(CX,CY,0, CX,CY,RI);
+iFill.addColorStop(0,  '#0e1e38');
+iFill.addColorStop(0.7,'#080f1c');
+iFill.addColorStop(1,  '#050b15');
+g.beginPath(); g.arc(CX,CY,RI,0,Math.PI*2);
+g.fillStyle=iFill; g.fill();
+
+// inner ring tick marks
+for (var a=0; a<360; a+=30) {
+  var rad=a*Math.PI/180;
+  var x1=CX+Math.cos(rad)*(RI-5), y1=CY+Math.sin(rad)*(RI-5);
+  var x2=CX+Math.cos(rad)*RI,     y2=CY+Math.sin(rad)*RI;
+  g.beginPath(); g.moveTo(x1,y1); g.lineTo(x2,y2);
+  g.strokeStyle='rgba(0,200,255,0.5)'; g.lineWidth=1; g.stroke();
+}
+
+// inner ring stroke
+g.save();
+g.shadowColor='#00aaff'; g.shadowBlur=14;
+g.beginPath(); g.arc(CX,CY,RI,0,Math.PI*2);
+g.strokeStyle='#00ccff'; g.lineWidth=2; g.stroke();
+g.restore();
+
+// ── small dot nodes on inner ring ─────────────────
+[0,90,180,270].forEach(function(a) {
+  var rad=a*Math.PI/180;
+  g.beginPath(); g.arc(CX+Math.cos(rad)*RI, CY+Math.sin(rad)*RI, 3.5, 0, Math.PI*2);
+  g.fillStyle='#00ccff'; g.fill();
+});
+
+// ── subtle scan lines inside inner ring ───────────
+g.save();
+g.globalAlpha=0.04;
+g.beginPath(); g.arc(CX,CY,RI,0,Math.PI*2); g.clip();
+for (var y=0; y<S; y+=4) {
+  g.fillStyle='rgba(0,0,0,1)'; g.fillRect(0,y,S,2);
+}
+g.restore();
+
+// ── aircraft ──────────────────────────────────────
+aircraft(5.5);
+
+// ── film grain ────────────────────────────────────
+g.save(); g.globalAlpha=0.035;
+for (var i=0; i<1200; i++) {
+  var v=rnd()*255|0;
+  g.fillStyle='rgb('+v+','+v+','+v+')';
+  g.fillRect(rnd()*S|0, rnd()*S|0, 1.5, 1.5);
+}
+g.restore();
+
+// ── vignette ──────────────────────────────────────
+var vig=g.createRadialGradient(CX,CY,RO*.35, CX,CY,RO);
+vig.addColorStop(0,'rgba(0,0,0,0)');
+vig.addColorStop(1,'rgba(0,0,0,0.55)');
+g.beginPath(); g.arc(CX,CY,RO,0,Math.PI*2);
+g.fillStyle=vig; g.fill();
+
+// ═════════════════════════════════════════════════
+//  DOWNLOAD
+// ═════════════════════════════════════════════════
+document.getElementById('dl').addEventListener('click', function() {
+  var link = document.createElement('a');
+  link.download = 'reise-insider-logo.png';
+  link.href = cv.toDataURL('image/png');
+  link.click();
+});
+</script>
+</body>
+</html>
