@@ -1,0 +1,110 @@
+<template id="intro-template">
+  <div data-composition-id="intro" data-width="1280" data-height="720" data-duration="213">
+    <!-- Lower Third Intro Strip (0-8s) -->
+    <div id="intro-strip" class="intro-strip">
+      <div class="strip-inner">
+        <div class="strip-left">
+          <span class="strip-icon">✈</span>
+          <span class="strip-title">REISE-WISSEN</span>
+        </div>
+        <div class="strip-divider"></div>
+        <div class="strip-right">HANDGEPÄCK &amp; POWERBANK REGELN</div>
+      </div>
+    </div>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap');
+
+      [data-composition-id="intro"] {
+        position: relative;
+        width: 1280px;
+        height: 720px;
+        pointer-events: none;
+        overflow: hidden;
+      }
+
+      [data-composition-id="intro"] .intro-strip {
+        position: absolute;
+        bottom: 180px;
+        left: -100%;
+        right: 0;
+        height: 56px;
+        background: rgba(10, 10, 26, 0.82);
+        backdrop-filter: blur(14px);
+        -webkit-backdrop-filter: blur(14px);
+        border-top: 2px solid #FFD700;
+        border-bottom: 1px solid rgba(255,215,0,0.3);
+        display: flex;
+        align-items: center;
+      }
+
+      [data-composition-id="intro"] .strip-inner {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        padding: 0 32px;
+        width: 100%;
+      }
+
+      [data-composition-id="intro"] .strip-left {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+      }
+
+      [data-composition-id="intro"] .strip-icon {
+        font-size: 22px;
+        color: #FFD700;
+      }
+
+      [data-composition-id="intro"] .strip-title {
+        font-family: 'Montserrat', 'Arial Black', sans-serif;
+        font-size: 18px;
+        font-weight: 800;
+        color: #FFD700;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+
+      [data-composition-id="intro"] .strip-divider {
+        width: 1px;
+        height: 28px;
+        background: rgba(255,215,0,0.4);
+        flex-shrink: 0;
+      }
+
+      [data-composition-id="intro"] .strip-right {
+        font-family: 'Montserrat', 'Arial Black', sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        color: rgba(255,255,255,0.85);
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+      }
+    </style>
+
+    <script>
+      (function() {
+        const tl = gsap.timeline({ paused: true });
+        const strip = document.querySelector('[data-composition-id="intro"] .intro-strip');
+
+        // Slide in from left
+        tl.to(strip, {
+          left: 0,
+          duration: 0.6,
+          ease: 'power2.out'
+        }, 0.3);
+
+        // Hold until 7.5s then slide out left
+        tl.to(strip, {
+          left: '-100%',
+          duration: 0.4,
+          ease: 'power2.in'
+        }, 7.5);
+
+        window.__timelines['intro'] = tl;
+      })();
+    </script>
+  </div>
+</template>

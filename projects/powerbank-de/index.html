@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Powerbank Regeln – HyperFrames</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body, html {
+      width: 1280px;
+      height: 720px;
+      overflow: hidden;
+      background: #0D0D1A;
+      font-family: 'Montserrat', 'Arial Black', sans-serif;
+    }
+
+    #main-composition {
+      position: relative;
+      width: 1280px;
+      height: 720px;
+      overflow: hidden;
+    }
+
+    #a-roll {
+      position: absolute;
+      top: 0; left: 0;
+      width: 1280px;
+      height: 720px;
+      object-fit: cover;
+    }
+
+    .comp-layer {
+      position: absolute;
+      top: 0; left: 0;
+      width: 1280px;
+      height: 720px;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="main-composition"
+       data-composition-id="main-video"
+       data-width="1280"
+       data-height="720"
+       data-duration="213">
+
+    <!-- Source video (A-roll) -->
+    <video id="a-roll"
+           src="__VIDEO_SRC__"
+           data-start="0"
+           data-duration="213"
+           data-track-index="0"
+           muted
+           playsinline>
+    </video>
+
+    <!-- Lower third intro strip (0–8s) -->
+    <div id="intro-layer"
+         class="comp-layer"
+         data-composition-id="intro"
+         data-composition-src="compositions/intro.html"
+         data-start="0"
+         data-duration="10"
+         data-track-index="1">
+    </div>
+
+    <!-- Motion graphics cards layer -->
+    <div id="graphics-layer"
+         class="comp-layer"
+         data-composition-id="graphics"
+         data-composition-src="compositions/graphics.html"
+         data-start="0"
+         data-duration="213"
+         data-track-index="2">
+    </div>
+
+    <!-- Captions layer -->
+    <div id="captions-layer"
+         class="comp-layer"
+         data-composition-id="captions"
+         data-composition-src="compositions/captions.html"
+         data-start="0"
+         data-duration="213"
+         data-track-index="3">
+    </div>
+
+    <script>
+      const tl = gsap.timeline({ paused: true });
+      // Main video is static – no camera moves needed for faceless video
+      window.__timelines['main-video'] = tl;
+    </script>
+  </div>
+</body>
+</html>

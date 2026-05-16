@@ -1,0 +1,128 @@
+{
+  "project": "powerbank-de",
+  "language": "de",
+  "video_duration_s": 213.1,
+  "resolution": "1280x720",
+  "accent_color": "#FFD700",
+  "font": "Montserrat ExtraBold",
+  "caption_lines": 76,
+  "total_words": 380,
+  "timing_method": "silence-detection forced alignment",
+  "cards": [
+    {
+      "id": "stat-2mio",
+      "type": "stat",
+      "inTime_s": 2,
+      "outTime_s": 12,
+      "duration_s": 10,
+      "png_path": "/home/user/HyperFrames/projects/powerbank-de/card-frames/stat-2mio.png"
+    },
+    {
+      "id": "key-powerbank",
+      "type": "key",
+      "inTime_s": 16,
+      "outTime_s": 27,
+      "duration_s": 11,
+      "png_path": "/home/user/HyperFrames/projects/powerbank-de/card-frames/key-powerbank.png"
+    },
+    {
+      "id": "stat-100wh",
+      "type": "stat",
+      "inTime_s": 34,
+      "outTime_s": 44,
+      "duration_s": 10,
+      "png_path": "/home/user/HyperFrames/projects/powerbank-de/card-frames/stat-100wh.png"
+    },
+    {
+      "id": "key-noexcept",
+      "type": "key",
+      "inTime_s": 50,
+      "outTime_s": 63,
+      "duration_s": 13,
+      "png_path": "/home/user/HyperFrames/projects/powerbank-de/card-frames/key-noexcept.png"
+    },
+    {
+      "id": "key-danger",
+      "type": "key",
+      "inTime_s": 69,
+      "outTime_s": 80,
+      "duration_s": 11,
+      "png_path": "/home/user/HyperFrames/projects/powerbank-de/card-frames/key-danger.png"
+    },
+    {
+      "id": "comp-zone",
+      "type": "comp",
+      "inTime_s": 85,
+      "outTime_s": 99,
+      "duration_s": 14,
+      "png_path": "/home/user/HyperFrames/projects/powerbank-de/card-frames/comp-zone.png"
+    },
+    {
+      "id": "key-formula",
+      "type": "key",
+      "inTime_s": 104,
+      "outTime_s": 112,
+      "duration_s": 8,
+      "png_path": "/home/user/HyperFrames/projects/powerbank-de/card-frames/key-formula.png"
+    },
+    {
+      "id": "stat-74wh",
+      "type": "stat",
+      "inTime_s": 113,
+      "outTime_s": 120,
+      "duration_s": 7,
+      "png_path": "/home/user/HyperFrames/projects/powerbank-de/card-frames/stat-74wh.png"
+    },
+    {
+      "id": "quote-120",
+      "type": "quote",
+      "inTime_s": 122,
+      "outTime_s": 136,
+      "duration_s": 14,
+      "png_path": "/home/user/HyperFrames/projects/powerbank-de/card-frames/quote-120.png"
+    },
+    {
+      "id": "stat-800k",
+      "type": "stat",
+      "inTime_s": 141,
+      "outTime_s": 154,
+      "duration_s": 13,
+      "png_path": "/home/user/HyperFrames/projects/powerbank-de/card-frames/stat-800k.png"
+    },
+    {
+      "id": "key-tip",
+      "type": "key",
+      "inTime_s": 159,
+      "outTime_s": 170,
+      "duration_s": 11,
+      "png_path": "/home/user/HyperFrames/projects/powerbank-de/card-frames/key-tip.png"
+    },
+    {
+      "id": "stat-5keur",
+      "type": "stat",
+      "inTime_s": 176,
+      "outTime_s": 190,
+      "duration_s": 14,
+      "png_path": "/home/user/HyperFrames/projects/powerbank-de/card-frames/stat-5keur.png"
+    }
+  ],
+  "intro_strip": {
+    "inTime_s": 0.3,
+    "outTime_s": 7.9,
+    "png_path": "/home/user/HyperFrames/projects/powerbank-de/card-frames/intro-strip.png"
+  },
+  "scene_starts": {
+    "scene_1": 0.0,
+    "scene_2": 15.4,
+    "scene_3": 32.9,
+    "scene_4": 48.8,
+    "scene_5": 68.1,
+    "scene_6": 84.1,
+    "scene_7": 103.2,
+    "scene_8": 120.7,
+    "scene_9": 140.1,
+    "scene_10": 158.3,
+    "scene_11": 175.0,
+    "scene_12": 195.5
+  }
+}
