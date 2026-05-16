@@ -54,8 +54,8 @@ function audio(){
   var ac=new A(), t=ac.currentTime;
   var out=ac.createGain();
   out.gain.setValueAtTime(1,t);
-  out.gain.setValueAtTime(1,t+2.6);
-  out.gain.linearRampToValueAtTime(0,t+3.1);
+  out.gain.setValueAtTime(1,t+4.0);
+  out.gain.linearRampToValueAtTime(0,t+4.8);
   out.connect(ac.destination);
 
   // sub-bass boom
@@ -222,7 +222,7 @@ function draw(ts){
       g.strokeStyle='#00ffff';g.lineWidth=1;g.stroke();
     }
     // plane in center
-    plane(cx2, cy2, -Math.PI/8, 1.6, re*.9);
+    plane(cx2, cy2, -Math.PI/8, 2.4, re*.9);
     // spinning dashes
     g.translate(cx2,cy2);g.rotate(T*2.5);
     g.setLineDash([12,28]);
@@ -284,6 +284,15 @@ function draw(ts){
     g.shadowColor='#ffaa00';g.shadowBlur=65*te;
     g.fillStyle='#ffd700';g.fillText('INSIDER',W/2,H/2+88);
 
+    // large plane silhouette spanning the channel name
+    g.shadowBlur=0;
+    g.globalAlpha=te*.13;
+    g.shadowColor='#00ccff'; g.shadowBlur=40;
+    plane(W/2, H/2+29, -Math.PI/14, 18, 1);
+    g.shadowBlur=0;
+    g.globalAlpha=te*.07;
+    plane(W/2+18, H/2+29, -Math.PI/14, 18, 1);  // second pass wider glow
+
     // divider line — draws outward from center
     g.shadowBlur=0;
     var lw=eoe(titleT)*360;
@@ -327,10 +336,10 @@ function draw(ts){
   if(fi>0){g.fillStyle='rgba(0,0,0,'+fi+')';g.fillRect(0,0,W,H);}
 
   // ── fade out ─────────────────────────────
-  var fo=rmp(T,2.75,3.1);
+  var fo=rmp(T,4.2,4.8);
   if(fo>0){g.fillStyle='rgba(0,0,0,'+fo+')';g.fillRect(0,0,W,H);}
 
-  if(T<3.5) raf=requestAnimationFrame(draw);
+  if(T<5.2) raf=requestAnimationFrame(draw);
 }
 
 // preview
