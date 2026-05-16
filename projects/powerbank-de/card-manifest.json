@@ -1,0 +1,81 @@
+{
+  "cards": [
+    {
+      "id": "stat-2mio",
+      "path": "/home/user/HyperFrames/projects/powerbank-de/card-frames/stat-2mio.png",
+      "inTime": 2,
+      "outTime": 12
+    },
+    {
+      "id": "key-powerbank",
+      "path": "/home/user/HyperFrames/projects/powerbank-de/card-frames/key-powerbank.png",
+      "inTime": 16,
+      "outTime": 27
+    },
+    {
+      "id": "stat-100wh",
+      "path": "/home/user/HyperFrames/projects/powerbank-de/card-frames/stat-100wh.png",
+      "inTime": 34,
+      "outTime": 44
+    },
+    {
+      "id": "key-noexcept",
+      "path": "/home/user/HyperFrames/projects/powerbank-de/card-frames/key-noexcept.png",
+      "inTime": 50,
+      "outTime": 63
+    },
+    {
+      "id": "key-danger",
+      "path": "/home/user/HyperFrames/projects/powerbank-de/card-frames/key-danger.png",
+      "inTime": 69,
+      "outTime": 80
+    },
+    {
+      "id": "comp-zone",
+      "path": "/home/user/HyperFrames/projects/powerbank-de/card-frames/comp-zone.png",
+      "inTime": 85,
+      "outTime": 99
+    },
+    {
+      "id": "key-formula",
+      "path": "/home/user/HyperFrames/projects/powerbank-de/card-frames/key-formula.png",
+      "inTime": 104,
+      "outTime": 112
+    },
+    {
+      "id": "stat-74wh",
+      "path": "/home/user/HyperFrames/projects/powerbank-de/card-frames/stat-74wh.png",
+      "inTime": 113,
+      "outTime": 120
+    },
+    {
+      "id": "quote-120",
+      "path": "/home/user/HyperFrames/projects/powerbank-de/card-frames/quote-120.png",
+      "inTime": 122,
+      "outTime": 136
+    },
+    {
+      "id": "stat-800k",
+      "path": "/home/user/HyperFrames/projects/powerbank-de/card-frames/stat-800k.png",
+      "inTime": 141,
+      "outTime": 154
+    },
+    {
+      "id": "key-tip",
+      "path": "/home/user/HyperFrames/projects/powerbank-de/card-frames/key-tip.png",
+      "inTime": 159,
+      "outTime": 170
+    },
+    {
+      "id": "stat-5keur",
+      "path": "/home/user/HyperFrames/projects/powerbank-de/card-frames/stat-5keur.png",
+      "inTime": 176,
+      "outTime": 190
+    }
+  ],
+  "intro": {
+    "path": "/home/user/HyperFrames/projects/powerbank-de/card-frames/intro-strip.png",
+    "inTime": 0.3,
+    "outTime": 7.9
+  }
+}

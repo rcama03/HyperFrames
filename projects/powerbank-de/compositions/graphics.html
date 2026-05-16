@@ -1,0 +1,395 @@
+<template id="graphics-template">
+  <div data-composition-id="graphics" data-width="1280" data-height="720" data-duration="213">
+
+    <!-- S1: 2 Millionen Passagiere (STAT) -->
+    <div id="card-s1" class="mg-card stat-card">
+      <div class="accent-stripe"></div>
+      <div class="card-inner">
+        <div class="micro-label">PASSAGIERE</div>
+        <div class="big-number" id="num-s1">0</div>
+        <div class="context-line">jährlich aufgehalten</div>
+      </div>
+      <div class="card-icon">✈️</div>
+    </div>
+
+    <!-- S2: Powerbank (KEY POINT) -->
+    <div id="card-s2" class="mg-card key-card">
+      <div class="accent-stripe"></div>
+      <div class="card-inner">
+        <div class="tag-pill">WICHTIG</div>
+        <div class="divider"></div>
+        <div class="key-text">Powerbank kann deinen Flug ruinieren</div>
+      </div>
+    </div>
+
+    <!-- S3: 100 Wh IATA (STAT) -->
+    <div id="card-s3" class="mg-card stat-card">
+      <div class="accent-stripe"></div>
+      <div class="card-inner">
+        <div class="micro-label">IATA LIMIT</div>
+        <div class="big-number" id="num-s3">0</div>
+        <div class="context-line">Wh pro Powerbank</div>
+      </div>
+      <div class="card-icon">⚡</div>
+    </div>
+
+    <!-- S4: Keine Ausnahmen (KEY POINT) -->
+    <div id="card-s4" class="mg-card key-card">
+      <div class="accent-stripe"></div>
+      <div class="card-inner">
+        <div class="tag-pill">REGELUNG</div>
+        <div class="divider"></div>
+        <div class="key-text">Keine Ausnahmen. Kein Ermessen.</div>
+      </div>
+    </div>
+
+    <!-- S5: Brandgefahr (KEY POINT) -->
+    <div id="card-s5" class="mg-card key-card">
+      <div class="accent-stripe"></div>
+      <div class="card-inner">
+        <div class="tag-pill">GEFAHR</div>
+        <div class="divider"></div>
+        <div class="key-text">Lithium-Ionen-Akkus können im Flug in Flammen aufgehen</div>
+      </div>
+    </div>
+
+    <!-- S6: Grauzone 100-160 Wh (COMPARISON) -->
+    <div id="card-s6" class="mg-card comp-card">
+      <div class="accent-stripe"></div>
+      <div class="card-inner comp-inner">
+        <div class="comp-col">
+          <div class="comp-label">ERLAUBT</div>
+          <div class="comp-val">&lt;100 Wh</div>
+        </div>
+        <div class="comp-arrow">→</div>
+        <div class="comp-col comp-col-mid">
+          <div class="comp-label">GRAUZONE</div>
+          <div class="comp-val" style="font-size:28px;">100–160 Wh</div>
+        </div>
+        <div class="comp-arrow">→</div>
+        <div class="comp-col">
+          <div class="comp-label">VERBOTEN</div>
+          <div class="comp-val">&gt;160 Wh</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- S7: Formel + 74 Wh (KEY POINT) -->
+    <div id="card-s7" class="mg-card key-card">
+      <div class="accent-stripe"></div>
+      <div class="card-inner">
+        <div class="tag-pill">FORMEL</div>
+        <div class="divider"></div>
+        <div class="key-text">mAh × Volt ÷ 1000 = Wh</div>
+      </div>
+    </div>
+
+    <!-- S7b: 74 Wh stat card -->
+    <div id="card-s7b" class="mg-card stat-card">
+      <div class="accent-stripe"></div>
+      <div class="card-inner">
+        <div class="micro-label">20.000 mAh = SICHER</div>
+        <div class="big-number" id="num-s7b">0</div>
+        <div class="context-line">Wattstunden</div>
+      </div>
+      <div class="card-icon">✅</div>
+    </div>
+
+    <!-- S8: 120€ verloren (QUOTE) -->
+    <div id="card-s8" class="mg-card quote-card">
+      <div class="accent-stripe"></div>
+      <div class="card-inner">
+        <div class="quote-mark">"</div>
+        <div class="quote-text">120 € Powerbank konfisziert – Flug verpasst – Entschädigung: null</div>
+        <div class="quote-source">— Frankfurt, echter Fall</div>
+      </div>
+    </div>
+
+    <!-- S9: 800.000 Geräte (STAT) -->
+    <div id="card-s9" class="mg-card stat-card">
+      <div class="accent-stripe"></div>
+      <div class="card-inner">
+        <div class="micro-label">EUROPA / JAHR</div>
+        <div class="big-number" id="num-s9">0</div>
+        <div class="context-line">Elektronikgeräte beschlagnahmt</div>
+      </div>
+      <div class="card-icon">📦</div>
+    </div>
+
+    <!-- S10: Tipp 20.000 mAh (KEY POINT) -->
+    <div id="card-s10" class="mg-card key-card">
+      <div class="accent-stripe"></div>
+      <div class="card-inner">
+        <div class="tag-pill">TIPP</div>
+        <div class="divider"></div>
+        <div class="key-text">Nur Powerbanks &lt;20.000 mAh kaufen</div>
+      </div>
+    </div>
+
+    <!-- S11: 5.000 € Strafe (STAT) -->
+    <div id="card-s11" class="mg-card stat-card">
+      <div class="accent-stripe"></div>
+      <div class="card-inner">
+        <div class="micro-label">MAX. STRAFE</div>
+        <div class="big-number" id="num-s11">0</div>
+        <div class="context-line">Euro bei Verstoß</div>
+      </div>
+      <div class="card-icon">⚠️</div>
+    </div>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap');
+
+      [data-composition-id="graphics"] {
+        position: relative;
+        width: 1280px;
+        height: 720px;
+        font-family: 'Montserrat', 'Arial Black', sans-serif;
+        pointer-events: none;
+        overflow: hidden;
+      }
+
+      [data-composition-id="graphics"] .mg-card {
+        position: absolute;
+        left: 40px;
+        bottom: 100px;
+        width: 420px;
+        background: rgba(255,255,255,0.09);
+        border: 1px solid rgba(255,255,255,0.2);
+        box-shadow: 0 8px 32px rgba(0,0,0,0.45);
+        border-radius: 16px;
+        display: flex;
+        align-items: stretch;
+        overflow: hidden;
+        opacity: 0;
+        transform: translateY(12px);
+      }
+
+      [data-composition-id="graphics"] .accent-stripe {
+        width: 4px;
+        background: #FFD700;
+        flex-shrink: 0;
+      }
+
+      [data-composition-id="graphics"] .card-inner {
+        flex: 1;
+        padding: 16px 18px;
+        position: relative;
+      }
+
+      [data-composition-id="graphics"] .card-icon {
+        font-size: 28px;
+        padding: 16px 14px 16px 0;
+        display: flex;
+        align-items: flex-start;
+        padding-top: 18px;
+      }
+
+      /* STAT CARD */
+      [data-composition-id="graphics"] .micro-label {
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.15em;
+        color: #FFD700;
+        opacity: 0.85;
+        text-transform: uppercase;
+        margin-bottom: 4px;
+      }
+
+      [data-composition-id="graphics"] .big-number {
+        font-size: 52px;
+        font-weight: 800;
+        color: #FFFFFF;
+        line-height: 1;
+        letter-spacing: -1px;
+      }
+
+      [data-composition-id="graphics"] .context-line {
+        font-size: 13px;
+        font-weight: 400;
+        color: rgba(255,255,255,0.65);
+        margin-top: 4px;
+      }
+
+      /* KEY POINT CARD */
+      [data-composition-id="graphics"] .tag-pill {
+        display: inline-block;
+        background: #FFD700;
+        color: #0D0D1A;
+        font-size: 10px;
+        font-weight: 800;
+        letter-spacing: 0.12em;
+        padding: 3px 10px;
+        border-radius: 10px;
+        text-transform: uppercase;
+        margin-bottom: 8px;
+      }
+
+      [data-composition-id="graphics"] .divider {
+        height: 1px;
+        background: rgba(255,255,255,0.15);
+        margin-bottom: 8px;
+      }
+
+      [data-composition-id="graphics"] .key-text {
+        font-size: 17px;
+        font-weight: 700;
+        color: #FFFFFF;
+        line-height: 1.35;
+      }
+
+      /* COMPARISON CARD */
+      [data-composition-id="graphics"] .comp-card {
+        width: 480px;
+      }
+
+      [data-composition-id="graphics"] .comp-inner {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 14px 16px;
+      }
+
+      [data-composition-id="graphics"] .comp-col {
+        flex: 1;
+        text-align: center;
+      }
+
+      [data-composition-id="graphics"] .comp-label {
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        color: rgba(255,255,255,0.55);
+        text-transform: uppercase;
+        margin-bottom: 4px;
+      }
+
+      [data-composition-id="graphics"] .comp-val {
+        font-size: 22px;
+        font-weight: 800;
+        color: #FFFFFF;
+      }
+
+      [data-composition-id="graphics"] .comp-arrow {
+        font-size: 20px;
+        color: #FFD700;
+        font-weight: 700;
+        flex-shrink: 0;
+      }
+
+      [data-composition-id="graphics"] .comp-col-mid .comp-val {
+        color: #FFD700;
+      }
+
+      /* QUOTE CARD */
+      [data-composition-id="graphics"] .quote-card {
+        width: 460px;
+      }
+
+      [data-composition-id="graphics"] .quote-mark {
+        font-size: 48px;
+        font-weight: 800;
+        color: #FFD700;
+        line-height: 0.8;
+        margin-bottom: 4px;
+      }
+
+      [data-composition-id="graphics"] .quote-text {
+        font-size: 14px;
+        font-style: italic;
+        color: #FFFFFF;
+        line-height: 1.4;
+        font-weight: 500;
+        margin-bottom: 8px;
+      }
+
+      [data-composition-id="graphics"] .quote-source {
+        font-size: 11px;
+        color: rgba(255,255,255,0.5);
+        font-weight: 400;
+      }
+    </style>
+
+    <script>
+      (function() {
+        const tl = gsap.timeline({ paused: true });
+
+        function showCard(id, inTime, outTime, opts) {
+          const el = document.getElementById(id);
+          tl.to(el, { opacity: 1, y: 0, duration: 0.4, ease: 'power2.out' }, inTime);
+          tl.to(el, { opacity: 0, y: 8, duration: 0.3, ease: 'power2.in' }, outTime - 0.3);
+          gsap.set(el, { y: 12 });
+        }
+
+        function countUp(numId, target, inTime) {
+          const el = document.getElementById(numId);
+          if (!el) return;
+          tl.call(() => {
+            const isFloat = String(target).includes('.');
+            gsap.to({ v: 0 }, {
+              v: target,
+              duration: 1.2,
+              ease: 'power2.out',
+              onUpdate() {
+                const val = this.targets()[0].v;
+                if (isFloat) {
+                  el.textContent = val.toFixed(0);
+                } else if (target >= 100000) {
+                  el.textContent = Math.round(val).toLocaleString('de-DE');
+                } else {
+                  el.textContent = Math.round(val).toLocaleString('de-DE');
+                }
+              }
+            });
+          }, [], inTime + 0.1);
+        }
+
+        // Scene 1 (0–15.4s): 2 Mio stat card → show 2-7s
+        showCard('card-s1', 2, 12);
+        countUp('num-s1', 2000000, 2);
+        tl.call(() => {
+          document.getElementById('num-s1').textContent = '2 Mio.';
+        }, [], 3.5);
+
+        // Scene 2 (15.4–32.9s): Powerbank key point → 16-27s
+        showCard('card-s2', 16, 27);
+
+        // Scene 3 (32.9–48.8s): 100 Wh stat → 34-44s
+        showCard('card-s3', 34, 44);
+        countUp('num-s3', 100, 34);
+
+        // Scene 4 (48.8–68.1s): Keine Ausnahmen key point → 50-63s
+        showCard('card-s4', 50, 63);
+
+        // Scene 5 (68.1–84.1s): Brandgefahr → 69-80s
+        showCard('card-s5', 69, 80);
+
+        // Scene 6 (84.1–103.2s): Grauzone comparison → 85-99s
+        showCard('card-s6', 85, 99);
+
+        // Scene 7 (103.2–120.7s): Formula → 104-112s
+        showCard('card-s7', 104, 112);
+
+        // Scene 7b: 74 Wh stat → 113-120s
+        showCard('card-s7b', 113, 120);
+        countUp('num-s7b', 74, 113);
+
+        // Scene 8 (120.7–140.1s): Quote → 122-136s
+        showCard('card-s8', 122, 136);
+
+        // Scene 9 (140.1–158.3s): 800k stat → 141-154s
+        showCard('card-s9', 141, 154);
+        countUp('num-s9', 800000, 141);
+
+        // Scene 10 (158.3–175s): Tipp key point → 159-170s
+        showCard('card-s10', 159, 170);
+
+        // Scene 11 (175–195.5s): 5000€ stat → 176-190s
+        showCard('card-s11', 176, 190);
+        countUp('num-s11', 5000, 176);
+
+        window.__timelines['graphics'] = tl;
+      })();
+    </script>
+  </div>
+</template>
