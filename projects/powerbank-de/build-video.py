@@ -43,8 +43,8 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Montserrat,32,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,2,1,2,30,30,60,1
-Style: Highlight,Montserrat,32,&H0000D7FF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,2,1,2,30,30,60,1
+Style: Default,Montserrat,32,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,30,30,60,1
+Style: Highlight,Montserrat,32,&H0000D7FF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,30,30,60,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -76,9 +76,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
                 parts.append(r"{\c&H00FFFFFF&\alpha&H33&}" + " " + after)
 
             text = "".join(parts)
-            # Add frosted pill background via border style hack
-            # Use \bord4\shad0\4a&H72& for pill effect
-            text = r"{\bord0\shad1\be1}" + text
+            text = r"{\bord1\shad0}" + text
 
             w_start = word["start"]
             w_end   = word["end"]
