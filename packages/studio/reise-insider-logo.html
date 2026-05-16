@@ -25,9 +25,9 @@
 
 var S  = 800;           // canvas size
 var CX = S/2, CY = S/2; // centre
-var RO = 305;           // outer ring radius
-var RI = 188;           // inner ring radius
-var RT = (RO+RI)/2;     // text arc radius  ≈ 246
+var RO = 265;           // outer ring radius
+var RI = 215;           // inner ring radius
+var RT = (RO+RI)/2;     // text arc radius  ≈ 240
 
 var cv = document.getElementById('c');
 var g  = cv.getContext('2d');
@@ -167,13 +167,13 @@ g.restore();
 // ── "REISE" — top arc ─────────────────────────────
 g.save();
 g.shadowColor='#00aaff'; g.shadowBlur=18;
-arcText('REISE',   RT, -Math.PI/2, false, '#ffffff', 38, 7);
+arcText('REISE',   RT, -Math.PI/2, false, '#ffffff', 30, 62);
 g.restore();
 
 // ── "INSIDER" — bottom arc ────────────────────────
 g.save();
 g.shadowColor='#ffaa00'; g.shadowBlur=20;
-arcText('INSIDER', RT,  Math.PI/2, true,  '#ffd700', 38, 5);
+arcText('INSIDER', RT,  Math.PI/2, true,  '#ffd700', 30, 38);
 g.restore();
 
 // ── diamond separators (left & right) ────────────
