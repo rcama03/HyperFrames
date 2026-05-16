@@ -190,51 +190,56 @@ function drawLogo(cx,cy,ro,alpha){
   g.restore();
 }
 
-// ── hand cursor ──────────────────────────────────
+// ── hand cursor (standard OS pointer shape) ──────
 function drawHand(x,y,clicking){
-  var sc=clicking?0.88:1.0;
+  var sc=clicking?0.9:1.0;
   g.save(); g.translate(x,y); g.scale(sc,sc);
-  g.shadowColor='rgba(0,0,0,0.55)'; g.shadowBlur=12;
-  g.shadowOffsetX=3; g.shadowOffsetY=4;
+  g.shadowColor='rgba(0,0,0,0.55)'; g.shadowBlur=14;
+  g.shadowOffsetX=3; g.shadowOffsetY=5;
   g.fillStyle='#ffffff';
-  g.strokeStyle='rgba(30,30,30,0.55)'; g.lineWidth=2; g.lineJoin='round';
+  g.strokeStyle='rgba(20,20,20,0.6)'; g.lineWidth=2;
+  g.lineJoin='round'; g.lineCap='round';
 
-  // pointer hand silhouette
+  // Index finger — pointing up
   g.beginPath();
-  // fingertip → down left side of index finger
-  g.moveTo(0,-52);
-  g.quadraticCurveTo(-10,-52,-10,-30);
-  g.lineTo(-10,-8);
-  // middle, ring, pinky curled into palm
-  g.quadraticCurveTo(-10,8,-20,10);
-  g.lineTo(-22,10);
-  g.quadraticCurveTo(-30,10,-30,3);
-  g.quadraticCurveTo(-30,-4,-22,-6);
-  g.lineTo(-22,-6);
-  g.quadraticCurveTo(-26,-6,-26,-12);
-  g.quadraticCurveTo(-26,-18,-20,-18);
-  g.lineTo(-18,-18);
-  g.quadraticCurveTo(-20,-18,-20,-24);
-  g.quadraticCurveTo(-20,-30,-14,-30);
-  g.lineTo(-12,-30);
-  // right side of index finger
-  g.lineTo(10,-30);
-  g.lineTo(10,-52);
-  g.quadraticCurveTo(10,-52,0,-52);
+  g.moveTo(-9,-20);
+  g.lineTo(-9,-50);
+  g.quadraticCurveTo(-9,-60, 0,-60);
+  g.quadraticCurveTo( 9,-60, 9,-50);
+  g.lineTo(9,-20);
+  g.closePath();
   g.fill(); g.stroke();
 
-  // thumb
-  g.beginPath();
-  g.moveTo(-10,-12);
-  g.quadraticCurveTo(-20,-8,-24,0);
-  g.quadraticCurveTo(-28,8,-22,10);
-  g.strokeStyle='rgba(30,30,30,0.3)'; g.lineWidth=1;
-  g.stroke();
+  // Knuckle crease on index finger
+  g.save();
+  g.beginPath(); g.moveTo(-7,-34); g.lineTo(7,-34);
+  g.strokeStyle='rgba(0,0,0,0.13)'; g.lineWidth=1.5; g.stroke();
+  g.restore();
 
-  // knuckle line
+  // Palm body + curled-finger bumps on right + thumb on left
   g.beginPath();
-  g.moveTo(-8,-20); g.lineTo(8,-20);
-  g.strokeStyle='rgba(0,0,0,0.15)'; g.lineWidth=1.5; g.stroke();
+  g.moveTo(-9,-20);                              // left base of index
+  // thumb
+  g.bezierCurveTo(-9,-8, -20,-4, -22,4);
+  g.bezierCurveTo(-24,12, -16,18, -9,12);
+  // lower-left palm
+  g.lineTo(-9,30);
+  g.quadraticCurveTo(-9,42, 4,42);
+  g.lineTo(26,42);
+  g.quadraticCurveTo(40,42, 40,28);
+  // pinky top
+  g.lineTo(40,0);
+  g.bezierCurveTo(40,-10, 30,-10, 30,0);
+  // ring finger top
+  g.lineTo(30,-8);
+  g.bezierCurveTo(30,-20, 20,-20, 20,-8);
+  // middle finger top
+  g.lineTo(20,-14);
+  g.bezierCurveTo(20,-28, 9,-28, 9,-16);
+  // right base of index
+  g.lineTo(9,-20);
+  g.closePath();
+  g.fill(); g.stroke();
 
   g.restore();
 }
@@ -412,15 +417,6 @@ function draw(ts){
   g.textAlign='center'; g.textBaseline='middle';
   g.font=(BR*0.9)+'px sans-serif';
   g.fillText('🔔', BLX, CY+2);  // 🔔
-  g.restore();
-
-  // ── CHANNEL NAME under logo ───────────────────
-  g.save();
-  g.globalAlpha=cardA*eoe(rmp(T,0.6,1.2));
-  g.textAlign='center'; g.textBaseline='top';
-  g.font='500 13px "Courier New",monospace';
-  g.fillStyle='rgba(0,200,255,0.65)';
-  g.fillText('REISE  INSIDER', LX, CY+82);
   g.restore();
 
   // ── RIPPLES ──────────────────────────────────
