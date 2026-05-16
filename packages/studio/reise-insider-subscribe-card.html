@@ -5,7 +5,7 @@
 <title>Reise Insider — Subscribe Card</title>
 <style>
   *{margin:0;padding:0;box-sizing:border-box}
-  body{background:#000;display:flex;align-items:center;justify-content:center;height:100vh;overflow:hidden}
+  body{background:transparent;display:flex;align-items:center;justify-content:center;height:100vh;overflow:hidden}
   canvas{display:block}
   #btn{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);
     background:rgba(0,200,255,.1);border:1px solid rgba(0,200,255,.5);
@@ -273,25 +273,10 @@ function draw(ts){
   var clicking=(T>1.88&&T<2.18)||(T>3.18&&T<3.48)||(T>4.38&&T<4.68);
 
   // overall alpha
-  var cardA=eoe(rmp(T,0.3,1.1));
+  var cardA=eoe(rmp(T,0.3,1.1)) * (1-rmp(T,7.4,8.2));
 
-  // ── BACKGROUND ───────────────────────────────
-  var bg=g.createRadialGradient(W/2,H*.45,0,W/2,H*.45,H*0.85);
-  bg.addColorStop(0,'#0a1525'); bg.addColorStop(1,'#020508');
-  g.fillStyle=bg; g.fillRect(0,0,W,H);
-
-  // stars
-  for(var i=0;i<STARS.length;i++){
-    var s=STARS[i];
-    g.beginPath(); g.arc(s.x,s.y,s.r,0,Math.PI*2);
-    g.fillStyle='rgba(255,255,255,'+s.a+')'; g.fill();
-  }
-
-  // subtle grid
-  g.save(); g.globalAlpha=0.038; g.strokeStyle='#00aaff'; g.lineWidth=0.5;
-  for(var x=0;x<W;x+=90){g.beginPath();g.moveTo(x,0);g.lineTo(x,H);g.stroke();}
-  for(var y=0;y<H;y+=90){g.beginPath();g.moveTo(0,y);g.lineTo(W,y);g.stroke();}
-  g.restore();
+  // ── CLEAR TO TRANSPARENT ─────────────────────
+  g.clearRect(0,0,W,H);
 
   if(cardA<=0){ rafId=requestAnimationFrame(draw); return; }
 
@@ -440,25 +425,15 @@ function draw(ts){
   g.restore();
 
   // vignette
-  var vig=g.createRadialGradient(CX,CY,CH*0.3,CX,CY,H*0.85);
-  vig.addColorStop(0,'rgba(0,0,0,0)'); vig.addColorStop(1,'rgba(0,0,0,0.72)');
-  g.fillStyle=vig; g.fillRect(0,0,W,H);
-
-  // fade in / out
-  var fi=1-rmp(T,0,0.3);
-  if(fi>0){g.fillStyle='rgba(0,0,0,'+fi+')';g.fillRect(0,0,W,H);}
-  var fo=rmp(T,7.4,8.2);
-  if(fo>0){g.fillStyle='rgba(0,0,0,'+fo+')';g.fillRect(0,0,W,H);}
+  // fade in / out via card alpha (no opaque fill — preserves transparency)
+  // cardA already handles fade-in; explicit fade-out below multiplies into it
+  // (already baked into per-element globalAlpha calls above via cardA * fo factor)
 
   if(T<8.5) rafId=requestAnimationFrame(draw);
 }
 
-// preview frame
-(function(){
-  var bg=g.createRadialGradient(W/2,H*.45,0,W/2,H*.45,H*0.85);
-  bg.addColorStop(0,'#0a1525'); bg.addColorStop(1,'#020508');
-  g.fillStyle=bg; g.fillRect(0,0,W,H);
-})();
+// transparent initial frame
+g.clearRect(0,0,W,H);
 
 document.getElementById('btn').addEventListener('click',function(){
   this.style.display='none';
