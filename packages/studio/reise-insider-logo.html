@@ -147,15 +147,32 @@ for (var a=0; a<360; a+=5) {
   g.lineWidth=isQ?2:0.8; g.stroke();
 }
 
-// outer ring stroke
+// outer ring stroke — bold, multi-layer glow
+// layer 1: wide soft glow
+g.save();
+g.shadowColor='#ffd700'; g.shadowBlur=28;
+g.beginPath(); g.arc(CX,CY,RO,0,Math.PI*2);
+g.strokeStyle='rgba(255,210,0,0.25)'; g.lineWidth=14; g.stroke();
+g.restore();
+// layer 2: cyan outer halo
+g.save();
+g.shadowColor='#00ccff'; g.shadowBlur=22;
+g.beginPath(); g.arc(CX,CY,RO,0,Math.PI*2);
+g.strokeStyle='rgba(0,200,255,0.2)'; g.lineWidth=10; g.stroke();
+g.restore();
+// layer 3: main gradient stroke
 var outerG=g.createLinearGradient(CX-RO,CY,CX+RO,CY);
 outerG.addColorStop(0,   '#00ccff');
 outerG.addColorStop(0.35,'#ffd700');
 outerG.addColorStop(0.65,'#ffd700');
 outerG.addColorStop(1,   '#00ccff');
-g.save(); g.shadowColor='#00aaff'; g.shadowBlur=10;
+g.save(); g.shadowColor='#ffd700'; g.shadowBlur=18;
 g.beginPath(); g.arc(CX,CY,RO,0,Math.PI*2);
-g.strokeStyle=outerG; g.lineWidth=2.5; g.stroke(); g.restore();
+g.strokeStyle=outerG; g.lineWidth=5; g.stroke(); g.restore();
+// layer 4: thin bright highlight just inside
+g.save(); g.shadowColor='#ffffff'; g.shadowBlur=8;
+g.beginPath(); g.arc(CX,CY,RO-4,0,Math.PI*2);
+g.strokeStyle='rgba(255,255,255,0.18)'; g.lineWidth=1.5; g.stroke(); g.restore();
 
 // REISE — top semicircle
 // spans ~120° centred at -π/2 (top)
@@ -190,10 +207,21 @@ for (var a=0; a<360; a+=30) {
   g.strokeStyle='rgba(0,200,255,0.5)'; g.lineWidth=1; g.stroke();
 }
 
-// inner ring stroke
-g.save(); g.shadowColor='#00aaff'; g.shadowBlur=14;
+// inner ring stroke — bold, multi-layer
+// layer 1: soft cyan glow
+g.save();
+g.shadowColor='#00ccff'; g.shadowBlur=24;
 g.beginPath(); g.arc(CX,CY,RI,0,Math.PI*2);
-g.strokeStyle='#00ccff'; g.lineWidth=2; g.stroke(); g.restore();
+g.strokeStyle='rgba(0,180,255,0.2)'; g.lineWidth=12; g.stroke();
+g.restore();
+// layer 2: main solid stroke
+g.save(); g.shadowColor='#00ddff'; g.shadowBlur=16;
+g.beginPath(); g.arc(CX,CY,RI,0,Math.PI*2);
+g.strokeStyle='#00ccff'; g.lineWidth=5; g.stroke(); g.restore();
+// layer 3: thin bright inner highlight
+g.save(); g.shadowColor='#ffffff'; g.shadowBlur=6;
+g.beginPath(); g.arc(CX,CY,RI+3,0,Math.PI*2);
+g.strokeStyle='rgba(255,255,255,0.15)'; g.lineWidth=1.5; g.stroke(); g.restore();
 
 // dot nodes on inner ring
 [0,90,180,270].forEach(function(a) {
