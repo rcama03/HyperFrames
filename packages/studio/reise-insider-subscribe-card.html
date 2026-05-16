@@ -50,8 +50,8 @@ function rrect(x,y,w,h,r){
 var CX=960, CY=580;         // card centre
 var CW=960, CH=190;         // card size
 var LX=CX-CW/2+108;        // logo centre X
-var SX=CX-40, SW=230, SH=74; // subscribe button
-var LKX=CX+185, BLX=CX+285; // like / bell centres
+var SX=CX, SW=230, SH=74;     // subscribe button (centre)
+var LKX=CX-220, BLX=CX+230;  // like (LEFT of subscribe) / bell centres
 var BR=46;                   // like/bell radius
 
 // ── stars ────────────────────────────────────────
@@ -177,8 +177,8 @@ function drawLogo(cx,cy,ro,alpha){
   g.strokeStyle='#00ccff'; g.lineWidth=3; g.stroke();
   g.restore();
 
-  // aircraft
-  var sc=ri*0.155;
+  // aircraft — same proportion as final logo (sc/RI = 5.5/160)
+  var sc=ri*0.034;
   g.save(); g.translate(cx,cy); g.rotate(-Math.PI/16); g.scale(sc,sc);
   g.shadowColor='#0055ff'; g.shadowBlur=22; g.fillStyle='#ffffff';
   g.beginPath(); g.moveTo(22,0); g.lineTo(-16,-5); g.lineTo(-16,5); g.closePath(); g.fill();
@@ -241,7 +241,7 @@ function drawHand(x,y,clicking){
 
 // ── state ────────────────────────────────────────
 var T0=null, rafId=null;
-var hx=SX+150, hy=CY+300; // hand starts below-right of subscribe
+var hx=BLX+60, hy=CY+280; // hand starts bottom-right
 
 function draw(ts){
   if(!T0) T0=ts;
@@ -264,10 +264,10 @@ function draw(ts){
 
   // hand target
   var htx, hty=CY+38;
-  if(T<0.8)              { htx=SX+300; hty=CY+280; }
-  else if(T<2.4)         { htx=SX+18;  }
-  else if(T<3.6)         { htx=LKX+10; }
-  else                   { htx=BLX+10; }
+  if(T<0.8)              { htx=BLX+60;  hty=CY+280; }  // idle bottom-right
+  else if(T<2.4)         { htx=SX+18;   }               // → subscribe (centre)
+  else if(T<3.6)         { htx=LKX+10;  }               // → like (left)
+  else                   { htx=BLX+10;  }               // → bell (right)
   hx+=(htx-hx)*0.10; hy+=(hty-hy)*0.10;
   var clicking=(T>1.88&&T<2.18)||(T>3.18&&T<3.48)||(T>4.38&&T<4.68);
 
@@ -472,7 +472,7 @@ function draw(ts){
 document.getElementById('btn').addEventListener('click',function(){
   this.style.display='none';
   ripples=[]; did={sub:false,like:false,bell:false};
-  hx=SX+300; hy=CY+280;
+  hx=BLX+60; hy=CY+280;
   audio(); T0=null;
   if(rafId) cancelAnimationFrame(rafId);
   rafId=requestAnimationFrame(draw);
