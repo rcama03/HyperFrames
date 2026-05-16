@@ -1,497 +1,348 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Reise Insider — Intro</title>
-  <style>
-    * { margin:0; padding:0; box-sizing:border-box; }
-    body { background:#000; display:flex; align-items:center; justify-content:center; height:100vh; overflow:hidden; }
-    canvas { display:block; image-rendering:pixelated; }
-    #btn {
-      position:fixed; top:50%; left:50%; transform:translate(-50%,-50%);
-      background:rgba(255,100,0,0.12); border:1px solid rgba(255,120,0,0.6);
-      color:#ff7a00; font-family:'Courier New',monospace; font-size:13px;
-      letter-spacing:5px; padding:14px 40px; cursor:pointer;
-      text-transform:uppercase; z-index:100; transition:all .3s;
-    }
-    #btn:hover { background:rgba(255,100,0,0.28); box-shadow:0 0 30px rgba(255,100,0,0.5); }
-  </style>
+<meta charset="UTF-8"/>
+<title>Reise Insider — Sting</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:#000;display:flex;align-items:center;justify-content:center;height:100vh;overflow:hidden}
+  canvas{display:block}
+  #btn{
+    position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);
+    background:rgba(0,200,255,.1);border:1px solid rgba(0,200,255,.5);
+    color:#00ccff;font:600 12px 'Courier New',monospace;letter-spacing:5px;
+    padding:12px 36px;cursor:pointer;text-transform:uppercase;z-index:9
+  }
+  #btn:hover{background:rgba(0,200,255,.22);box-shadow:0 0 24px rgba(0,200,255,.4)}
+</style>
 </head>
 <body>
 <canvas id="c"></canvas>
-<button id="btn">&#9654; PLAY INTRO</button>
+<button id="btn">&#9654; PLAY</button>
 <script>
-// ═══════════════════════════════════════════════
-//  REISE INSIDER — Dramatic Aviation Intro  ~6s
-// ═══════════════════════════════════════════════
-var W = 1920, H = 1080;
-var cv = document.getElementById('c');
-var cx = cv.getContext('2d');
-cv.width = W; cv.height = H;
+/* ================================================
+   REISE INSIDER — Mid-Video Sting  (3 seconds)
+   Clean, punchy, works overlaid on any footage.
+   ================================================ */
 
-function resize() {
-  var s = Math.min(innerWidth/W, innerHeight/H);
-  cv.style.width = W*s+'px'; cv.style.height = H*s+'px';
-}
-resize(); addEventListener('resize', resize);
+var W=1920, H=1080;
+var cv=document.getElementById('c');
+var g=cv.getContext('2d');
+cv.width=W; cv.height=H;
 
-// ── easing ───────────────────────────────────
-function c01(v) { return v<0?0:v>1?1:v; }
-function rmp(v,a,b) { return c01((v-a)/(b-a)); }
-function eoo(t) { return t>=1?1:1-Math.pow(2,-10*t); }  // easeOutExpo
-function eio(t) { return t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2; } // easeInOutCubic
-function overshoot(t) {  // elastic overshoot — great for slam-in
-  var c4 = (2*Math.PI)/3;
-  if(t<=0) return 0; if(t>=1) return 1;
-  return Math.pow(2,-8*t)*Math.sin((t*10-0.75)*c4)+1;
+// scale to viewport
+function fit(){
+  var s=Math.min(innerWidth/W,innerHeight/H);
+  cv.style.width=W*s+'px'; cv.style.height=H*s+'px';
 }
+fit(); window.addEventListener('resize',fit);
 
-// ── particles ────────────────────────────────
-var PARTS = [];
-function spawnBurst(px, py, count, speed, col) {
-  for (var i=0; i<count; i++) {
-    var ang = Math.random()*Math.PI*2;
-    var spd = (Math.random()*0.6+0.4)*speed;
-    PARTS.push({
-      x:px, y:py, vx:Math.cos(ang)*spd, vy:Math.sin(ang)*spd,
-      life:1, decay:Math.random()*0.018+0.012,
-      r:Math.random()*3+1, col:col, glow:Math.random()>.5
-    });
-  }
-}
-function spawnRing(px, py, count, col) {
-  for (var i=0; i<count; i++) {
-    var ang = (i/count)*Math.PI*2;
-    var spd = Math.random()*4+3;
-    PARTS.push({
-      x:px, y:py, vx:Math.cos(ang)*spd, vy:Math.sin(ang)*spd,
-      life:1, decay:0.022, r:Math.random()*2.5+0.8, col:col, glow:true
-    });
-  }
-}
-
-// ── speed lines ──────────────────────────────
-var LINES = [];
-for (var i=0; i<120; i++) {
-  var ang = Math.random()*Math.PI*2;
-  var dst = Math.random()*Math.max(W,H)*0.55+60;
-  LINES.push({
-    ang: ang,
-    dst: dst,
-    len: Math.random()*200+60,
-    spd: Math.random()*0.06+0.03,
-    col: Math.random()>.7 ? '#ff6600' : '#00ccff',
-    life: Math.random()
-  });
-}
-
-// ── globe wireframe ──────────────────────────
-var GLOBE_R = 310;
-var GLOBE_LINES = [];
-// latitude rings
-for (var lat=-60; lat<=60; lat+=20) {
-  var pts = [];
-  var r = Math.cos(lat*Math.PI/180)*GLOBE_R;
-  var y = Math.sin(lat*Math.PI/180)*GLOBE_R;
-  for (var a=0; a<=360; a+=6) pts.push({x:Math.cos(a*Math.PI/180)*r, y:y, z:Math.sin(a*Math.PI/180)*r});
-  GLOBE_LINES.push(pts);
-}
-// longitude lines
-for (var lon=0; lon<360; lon+=30) {
-  var pts = [];
-  for (var a=-90; a<=90; a+=5) {
-    var r = Math.cos(a*Math.PI/180)*GLOBE_R;
-    pts.push({x:Math.cos(lon*Math.PI/180)*r, y:Math.sin(a*Math.PI/180)*GLOBE_R, z:Math.sin(lon*Math.PI/180)*r});
-  }
-  GLOBE_LINES.push(pts);
-}
-
-// ── flight arcs ──────────────────────────────
-var ARCS = [
-  {sx:-GLOBE_R*.7, sy:GLOBE_R*.2, ex:GLOBE_R*.6, ey:-GLOBE_R*.3, col:'#00ddff', delay:0},
-  {sx:-GLOBE_R*.4, sy:-GLOBE_R*.5, ex:GLOBE_R*.8, ey:GLOBE_R*.1, col:'#ff6600', delay:.12},
-  {sx:GLOBE_R*.1,  sy:GLOBE_R*.6,  ex:-GLOBE_R*.5, ey:-GLOBE_R*.2, col:'#00ffaa', delay:.24},
-];
-
-// ── aftershock rings ─────────────────────────
-var SHOCKWAVES = [];
-function addShockwave(px, py, col, maxR) {
-  SHOCKWAVES.push({x:px, y:py, r:0, maxR:maxR||600, col:col, life:1});
+// ── helpers ──────────────────────────────────
+function cl(v){return v<0?0:v>1?1:v;}
+function rmp(v,a,b){return cl((v-a)/(b-a));}
+function eoe(t){return t>=1?1:1-Math.pow(2,-10*t);}   // out expo
+function eoi(t){return t<=0?0:Math.pow(2,10*t-10);}   // in expo
+function eos(t){                                        // out elastic (slam)
+  var c=2*Math.PI/3;
+  return t<=0?0:t>=1?1:Math.pow(2,-9*t)*Math.sin((t*10-.75)*c)+1;
 }
 
 // ── audio ────────────────────────────────────
-function buildAudio() {
-  var AC = window.AudioContext||window.webkitAudioContext;
-  if (!AC) return;
-  var ac = new AC(); var t = ac.currentTime;
-  var master = ac.createGain();
-  master.gain.setValueAtTime(0.9, t);
-  master.gain.setValueAtTime(0.9, t+5.5);
-  master.gain.linearRampToValueAtTime(0, t+7);
-  master.connect(ac.destination);
+function audio(){
+  var A=window.AudioContext||window.webkitAudioContext;
+  if(!A) return;
+  var ac=new A(), t=ac.currentTime;
+  var out=ac.createGain();
+  out.gain.setValueAtTime(1,t);
+  out.gain.setValueAtTime(1,t+2.6);
+  out.gain.linearRampToValueAtTime(0,t+3.1);
+  out.connect(ac.destination);
 
-  // deep bass swell
-  function bass(freq, vol, st, dur) {
-    var o=ac.createOscillator(), g=ac.createGain(), f=ac.createBiquadFilter();
-    f.type='lowpass'; f.frequency.value=300;
-    o.type='sawtooth'; o.frequency.value=freq;
-    g.gain.setValueAtTime(0,st);
-    g.gain.linearRampToValueAtTime(vol,st+dur*.3);
-    g.gain.setValueAtTime(vol,st+dur*.7);
-    g.gain.linearRampToValueAtTime(0,st+dur);
-    o.connect(f);f.connect(g);g.connect(master);
-    o.start(st);o.stop(st+dur);
+  // sub-bass boom
+  function boom(freq,vol,st,dur){
+    var o=ac.createOscillator(),f=ac.createBiquadFilter(),gn=ac.createGain();
+    f.type='lowpass';f.frequency.value=260;
+    o.type='sine';o.frequency.setValueAtTime(freq,st);
+    o.frequency.exponentialRampToValueAtTime(freq*.5,st+dur);
+    gn.gain.setValueAtTime(0,st);
+    gn.gain.linearRampToValueAtTime(vol,st+.015);
+    gn.gain.exponentialRampToValueAtTime(.001,st+dur);
+    o.connect(f);f.connect(gn);gn.connect(out);
+    o.start(st);o.stop(st+dur+.1);
   }
-  bass(55, .25, t,     6.5);
-  bass(82, .18, t+.1,  6.3);
-  bass(110,.12, t+.2,  6.1);
+  boom(80,1.2, t+.02, .55);     // opening punch
+  boom(55,.8,  t+.04, .7);
+  boom(60,1.5, t+1.0, .5);      // title slam
 
-  // rumble noise burst at start
-  function noise(st, dur, vol, cutoff) {
-    var buf=ac.createBuffer(1,ac.sampleRate*dur,ac.sampleRate);
+  // noise crack
+  function crack(st,dur,vol,cut){
+    var buf=ac.createBuffer(1,Math.ceil(ac.sampleRate*dur),ac.sampleRate);
     var d=buf.getChannelData(0);
-    for(var i=0;i<d.length;i++) d[i]=(Math.random()*2-1)*Math.exp(-i/(ac.sampleRate*dur*.4));
-    var src=ac.createBufferSource(), g=ac.createGain(), f=ac.createBiquadFilter();
-    f.type='lowpass'; f.frequency.value=cutoff||400;
-    g.gain.setValueAtTime(vol,st);
-    g.gain.exponentialRampToValueAtTime(0.001,st+dur);
-    src.buffer=buf; src.connect(f);f.connect(g);g.connect(master); src.start(st);
+    for(var i=0;i<d.length;i++) d[i]=(Math.random()*2-1)*Math.exp(-i/(ac.sampleRate*dur*.3));
+    var src=ac.createBufferSource(),gn=ac.createGain(),f=ac.createBiquadFilter();
+    f.type='lowpass';f.frequency.value=cut||300;
+    gn.gain.setValueAtTime(vol,st);
+    gn.gain.exponentialRampToValueAtTime(.001,st+dur);
+    src.buffer=buf;src.connect(f);f.connect(gn);gn.connect(out);src.start(st);
   }
-  noise(t+.05, .8, 1.2, 200);   // opening impact
-  noise(t+3.8, .5, 0.9, 150);   // pre-title build
-  noise(t+4.2, .6, 1.5, 100);   // title slam
+  crack(t+.02,.4,1.8,200);      // opening
+  crack(t+1.0,.35,2.0,180);     // title
 
-  // stinger hits
-  function hit(st, freq, vol) {
-    var o=ac.createOscillator(), g=ac.createGain();
-    o.type='square'; o.frequency.setValueAtTime(freq,st);
-    o.frequency.exponentialRampToValueAtTime(freq*.4,st+.3);
-    g.gain.setValueAtTime(vol,st);
-    g.gain.exponentialRampToValueAtTime(0.001,st+.35);
-    o.connect(g);g.connect(master);o.start(st);o.stop(st+.4);
+  // metallic ring
+  function ring(st,freq,vol,dur){
+    var o=ac.createOscillator(),gn=ac.createGain();
+    o.type='sine';o.frequency.value=freq;
+    gn.gain.setValueAtTime(vol,st);
+    gn.gain.exponentialRampToValueAtTime(.001,st+dur);
+    o.connect(gn);gn.connect(out);o.start(st);o.stop(st+dur+.05);
   }
-  hit(t+.08, 80,  .7);
-  hit(t+1.2, 100, .4);
-  hit(t+2.4, 120, .4);
-  hit(t+4.2, 60,  1.0);  // title slam
+  ring(t+.05, 880, .22, .8);
+  ring(t+.08,1320, .14, .7);
+  ring(t+1.0,1760, .28, 1.0);
+  ring(t+1.05,2200,.14, .9);
 
-  // metallic ping
-  function ping(st, freq, vol) {
-    var o=ac.createOscillator(), g=ac.createGain();
-    o.type='sine'; o.frequency.value=freq;
-    g.gain.setValueAtTime(vol,st);
-    g.gain.exponentialRampToValueAtTime(0.001,st+.9);
-    o.connect(g);g.connect(master);o.start(st);o.stop(st+1);
-  }
-  ping(t+.1,  440, .25);
-  ping(t+1.2, 660, .2);
-  ping(t+2.5, 880, .2);
-  ping(t+4.2, 1320,.3);
-  ping(t+4.6, 1760,.15);
-
-  // rising tension string sweep
-  var sw=ac.createOscillator(), swg=ac.createGain(), swf=ac.createBiquadFilter();
-  swf.type='bandpass'; swf.Q.value=8;
+  // rising whoosh into slam
+  var sw=ac.createOscillator(),swg=ac.createGain(),swf=ac.createBiquadFilter();
+  swf.type='bandpass';swf.Q.value=6;
   sw.type='sawtooth';
-  sw.frequency.setValueAtTime(120,t+2);
-  sw.frequency.exponentialRampToValueAtTime(800,t+4.1);
-  swf.frequency.setValueAtTime(120,t+2);
-  swf.frequency.exponentialRampToValueAtTime(800,t+4.1);
-  swg.gain.setValueAtTime(0,t+2);
-  swg.gain.linearRampToValueAtTime(.18,t+3.5);
-  swg.gain.linearRampToValueAtTime(0,t+4.3);
-  sw.connect(swf);swf.connect(swg);swg.connect(master);
-  sw.start(t+2);sw.stop(t+4.5);
+  sw.frequency.setValueAtTime(200,t+.4);
+  sw.frequency.exponentialRampToValueAtTime(1600,t+.98);
+  swf.frequency.setValueAtTime(200,t+.4);
+  swf.frequency.exponentialRampToValueAtTime(1600,t+.98);
+  swg.gain.setValueAtTime(0,t+.4);
+  swg.gain.linearRampToValueAtTime(.2,t+.85);
+  swg.gain.linearRampToValueAtTime(0,t+1.02);
+  sw.connect(swf);swf.connect(swg);swg.connect(out);
+  sw.start(t+.4);sw.stop(t+1.1);
 
-  // high sparkle after title
-  [4.5,4.7,4.9,5.1,5.3].forEach(function(off,i){
-    ping(t+off, 2000+i*300, .08);
+  // sparkle tail
+  [1.3,1.5,1.7,1.95,2.2].forEach(function(off,i){
+    ring(t+off, 2000+i*400, .06, .5);
   });
 }
 
-// ── main state ───────────────────────────────
-var T0 = null, rafId = null;
-var burstsDone = {open:false, pre:false, slam:false};
-
-function render(ts) {
-  if (!T0) T0 = ts;
-  var T = (ts - T0) / 1000;
-
-  // reset state flags on replay
-  if (T < 0.05) { burstsDone.open=false; burstsDone.pre=false; burstsDone.slam=false; }
-
-  // one-shot bursts
-  if (T > .08 && !burstsDone.open) {
-    spawnBurst(W/2,H/2, 120, 18, '#ff6600');
-    spawnBurst(W/2,H/2, 80,  12, '#00ccff');
-    addShockwave(W/2, H/2, '#ff6600', 700);
-    burstsDone.open = true;
+// ── particle pool ────────────────────────────
+var parts=[];
+function burst(px,py,n,spd,col){
+  for(var i=0;i<n;i++){
+    var a=Math.random()*Math.PI*2;
+    var s=(Math.random()*.7+.3)*spd;
+    parts.push({x:px,y:py,vx:Math.cos(a)*s,vy:Math.sin(a)*s,
+      life:1,dec:Math.random()*.022+.014,r:Math.random()*3.5+.8,col:col});
   }
-  if (T > 3.9 && !burstsDone.pre) {
-    spawnBurst(W/2,H/2, 60, 10, '#ff8800');
-    burstsDone.pre = true;
+}
+
+// ── shockwave rings ───────────────────────────
+var waves=[];
+function wave(px,py,col,max){
+  waves.push({x:px,y:py,r:0,max:max||700,col:col,a:1});
+}
+
+// ── draw plane icon ──────────────────────────
+function plane(px,py,angle,sc,alpha){
+  g.save();
+  g.translate(px,py); g.rotate(angle); g.scale(sc,sc);
+  g.globalAlpha=alpha; g.fillStyle='#fff';
+  // body
+  g.beginPath();g.moveTo(22,0);g.lineTo(-16,-5);g.lineTo(-16,5);g.closePath();g.fill();
+  // wings
+  g.beginPath();g.moveTo(4,0);g.lineTo(-10,-24);g.lineTo(-16,-5);g.closePath();g.fill();
+  g.beginPath();g.moveTo(4,0);g.lineTo(-10,24);g.lineTo(-16,5);g.closePath();g.fill();
+  // tail
+  g.beginPath();g.moveTo(-16,-5);g.lineTo(-23,-13);g.lineTo(-20,0);g.lineTo(-23,13);g.lineTo(-16,5);g.closePath();g.fill();
+  g.restore();
+}
+
+// ── state ────────────────────────────────────
+var T0=null, raf=null;
+var did={open:false,slam:false};
+
+function draw(ts){
+  if(!T0) T0=ts;
+  var T=(ts-T0)/1000;
+
+  // one-shot events
+  if(T>.02 && !did.open){
+    burst(W/2,H/2,140,20,'#00ccff');
+    burst(W/2,H/2,80,14,'#ffffff');
+    wave(W/2,H/2,'#00ccff',800);
+    wave(W/2,H/2,'#00aaff',520);
+    did.open=true;
   }
-  if (T > 4.2 && !burstsDone.slam) {
-    spawnRing(W/2,H/2, 80, '#ffd700');
-    spawnBurst(W/2,H/2, 200, 22, '#ffd700');
-    spawnBurst(W/2,H/2, 100, 14, '#ffffff');
-    addShockwave(W/2, H/2, '#ffd700', 900);
-    addShockwave(W/2, H/2, '#ff6600', 700);
-    addShockwave(W/2, H/2, '#00ccff', 550);
-    burstsDone.slam = true;
+  if(T>1.0 && !did.slam){
+    burst(W/2,H/2,200,24,'#ffd700');
+    burst(W/2,H/2,120,16,'#ff9900');
+    burst(W/2,H/2,80,10,'#ffffff');
+    wave(W/2,H/2,'#ffd700',900);
+    wave(W/2,H/2,'#ff9900',680);
+    wave(W/2,H/2,'#ffffff',460);
+    did.slam=true;
   }
 
-  // ── clear ─────────────────────────────────
-  cx.fillStyle = '#000'; cx.fillRect(0,0,W,H);
+  // ── background ──────────────────────────
+  // Deep space — not pure black so particles read
+  var bg=g.createRadialGradient(W/2,H/2,0,W/2,H/2,H*.7);
+  bg.addColorStop(0,'#0a101e');
+  bg.addColorStop(1,'#020408');
+  g.fillStyle=bg; g.fillRect(0,0,W,H);
 
   // ── opening flash ────────────────────────
-  var openFlash = remap(T,.0,.18)*(1-remap(T,.18,.55));
-  if (openFlash>0) {
-    cx.fillStyle='rgba(255,255,255,'+(openFlash*.9)+')';
-    cx.fillRect(0,0,W,H);
-  }
-
-  // ── speed lines ──────────────────────────
-  var slA = remap(T,.05,1.2)*(1-remap(T,1.2,2.8));
-  if (slA>0) {
-    cx.save();
-    cx.translate(W/2, H/2);
-    LINES.forEach(function(l) {
-      l.life -= l.spd;
-      if (l.life<=0) l.life=1;
-      var d = l.dst * (1-l.life);
-      var x1 = Math.cos(l.ang)*d, y1=Math.sin(l.ang)*d;
-      var x2 = Math.cos(l.ang)*(d+l.len), y2=Math.sin(l.ang)*(d+l.len);
-      var a = l.life * slA * .7;
-      cx.strokeStyle = l.col.replace(')',','+a+')').replace('#','rgba(').replace('rgba(','rgba(').replace('0,','0,');
-      // simpler: just set alpha
-      cx.globalAlpha = a;
-      cx.strokeStyle = l.col;
-      cx.lineWidth = .8;
-      cx.beginPath(); cx.moveTo(x1,y1); cx.lineTo(x2,y2); cx.stroke();
-    });
-    cx.globalAlpha=1; cx.restore();
-  }
-
-  // ── rotating globe ───────────────────────
-  var globeA = remap(T,.3,1.5);
-  if (globeA>0) {
-    var gSpin = T * 0.5;
-    cx.save();
-    cx.translate(W/2, H/2);
-    var cosSpin = Math.cos(gSpin), sinSpin = Math.sin(gSpin);
-
-    function proj(p) {
-      var rx = p.x*cosSpin + p.z*sinSpin;
-      var rz = -p.x*sinSpin + p.z*cosSpin;
-      var vis = rz > -GLOBE_R * .1;
-      return {x:rx, y:p.y, vis:vis, depth:(rz+GLOBE_R)/(2*GLOBE_R)};
-    }
-
-    var ga = eoo(globeA);
-    GLOBE_LINES.forEach(function(pts) {
-      cx.beginPath();
-      var started=false;
-      pts.forEach(function(p) {
-        var pr = proj(p);
-        var alpha = ga * (.12 + pr.depth * .22) * (pr.vis?.9:.08);
-        if (!started) { cx.moveTo(pr.x,pr.y); started=true; }
-        else cx.lineTo(pr.x,pr.y);
-      });
-      cx.strokeStyle = 'rgba(0,200,255,'+ga*0.35+')';
-      cx.lineWidth = .8;
-      cx.stroke();
-    });
-
-    // flight arcs on globe
-    var arcA = remap(T,.8,2.2);
-    if (arcA>0) {
-      ARCS.forEach(function(arc) {
-        var lt = c01(arcA*1.3 - arc.delay);
-        if (lt<=0) return;
-        cx.beginPath();
-        var steps=40;
-        for(var i=0;i<=steps*lt;i++) {
-          var t2=i/steps;
-          var mx=(arc.sx+arc.ex)/2, my=(arc.sy+arc.ey)/2 - 80;
-          var bx=(1-t2)*(1-t2)*arc.sx+2*(1-t2)*t2*mx+t2*t2*arc.ex;
-          var by=(1-t2)*(1-t2)*arc.sy+2*(1-t2)*t2*my+t2*t2*arc.ey;
-          var pr=proj({x:bx,y:by,z:0});
-          var a=eoo(lt)*(i/steps)*.9;
-          if(i===0) cx.moveTo(pr.x,pr.y); else cx.lineTo(pr.x,pr.y);
-        }
-        cx.strokeStyle=arc.col;
-        cx.lineWidth=2;
-        cx.globalAlpha=eoo(arcA)*.8;
-        cx.stroke();
-        cx.globalAlpha=1;
-      });
-    }
-
-    cx.restore();
-  }
+  var fl=rmp(T,0,.12)*(1-rmp(T,.12,.45));
+  if(fl>0){g.fillStyle='rgba(255,255,255,'+fl*.95+')';g.fillRect(0,0,W,H);}
 
   // ── shockwaves ───────────────────────────
-  SHOCKWAVES.forEach(function(sw,i) {
-    sw.r += (sw.maxR - sw.r) * .09;
-    sw.life -= .025;
-    if (sw.life<0) return;
-    var a = sw.life * .7;
-    cx.beginPath();
-    cx.arc(sw.x, sw.y, sw.r, 0, Math.PI*2);
-    cx.strokeStyle = sw.col;
-    cx.globalAlpha = a;
-    cx.lineWidth = 3;
-    cx.stroke();
-    cx.globalAlpha = 1;
-  });
-  SHOCKWAVES = SHOCKWAVES.filter(function(s){ return s.life>0; });
+  for(var i=0;i<waves.length;i++){
+    var w=waves[i];
+    w.r+=(w.max-w.r)*.1;
+    w.a-=.028;
+    if(w.a<0) continue;
+    g.beginPath();g.arc(w.x,w.y,w.r,0,Math.PI*2);
+    g.strokeStyle=w.col;g.globalAlpha=w.a*.8;
+    g.lineWidth=Math.max(1,3*w.a);g.stroke();
+    g.globalAlpha=1;
+  }
+  waves=waves.filter(function(w){return w.a>0;});
+
+  // ── animated ring / logo mark ─────────────
+  var ringT=rmp(T,.08,.55);
+  if(ringT>0){
+    var re=eoe(ringT);
+    var cx2=W/2, cy2=H/2;
+    var R=120*re;
+    // outer ring
+    g.save();
+    g.beginPath();g.arc(cx2,cy2,R,0,Math.PI*2);
+    g.strokeStyle='#00ddff';g.globalAlpha=re*.7;g.lineWidth=2;g.stroke();
+    // tick marks
+    for(var a=0;a<360;a+=30){
+      var rad=a*Math.PI/180;
+      var x1=cx2+Math.cos(rad)*(R-8),y1=cy2+Math.sin(rad)*(R-8);
+      var x2=cx2+Math.cos(rad)*(R+2),y2=cy2+Math.sin(rad)*(R+2);
+      g.beginPath();g.moveTo(x1,y1);g.lineTo(x2,y2);
+      g.strokeStyle='#00ffff';g.lineWidth=1;g.stroke();
+    }
+    // plane in center
+    plane(cx2, cy2, -Math.PI/8, 1.6, re*.9);
+    // spinning dashes
+    g.translate(cx2,cy2);g.rotate(T*2.5);
+    g.setLineDash([12,28]);
+    g.beginPath();g.arc(0,0,R+18,0,Math.PI*2);
+    g.strokeStyle='rgba(0,200,255,'+re*.4+')';g.lineWidth=1;g.stroke();
+    g.setLineDash([]);
+    g.restore();
+  }
 
   // ── particles ────────────────────────────
-  PARTS.forEach(function(p) {
-    p.x += p.vx; p.y += p.vy;
-    p.vx *= .97; p.vy *= .97;
-    p.life -= p.decay;
-    if (p.life<=0) return;
-    cx.beginPath();
-    cx.arc(p.x, p.y, p.r*p.life, 0, Math.PI*2);
-    cx.fillStyle = p.col;
-    cx.globalAlpha = p.life * (p.glow?.9:.6);
-    if (p.glow) { cx.shadowColor=p.col; cx.shadowBlur=p.r*6; }
-    cx.fill();
-    cx.shadowBlur=0;
-    cx.globalAlpha=1;
-  });
-  PARTS = PARTS.filter(function(p){ return p.life>0; });
-
-  // ── pre-title tension bars ────────────────
-  var tbA = remap(T,3.5,4.1);
-  if (tbA>0) {
-    var bw = eoo(tbA)*W*.45;
-    cx.save();
-    cx.shadowColor='#ff6600'; cx.shadowBlur=20*tbA;
-    cx.fillStyle='rgba(255,100,0,'+tbA*.6+')';
-    cx.fillRect(W/2-bw, H*.5-2, bw-.5, 2);
-    cx.fillRect(W/2+.5, H*.5-2, bw-.5, 2);
-    cx.fillRect(W/2-bw, H*.5+68, bw-.5, 2);
-    cx.fillRect(W/2+.5, H*.5+68, bw-.5, 2);
-    cx.restore();
+  for(var i=0;i<parts.length;i++){
+    var p=parts[i];
+    p.x+=p.vx;p.y+=p.vy;p.vx*=.96;p.vy*=.96;p.life-=p.dec;
+    if(p.life<=0) continue;
+    g.beginPath();g.arc(p.x,p.y,p.r*p.life,0,Math.PI*2);
+    g.fillStyle=p.col;g.globalAlpha=p.life*.85;
+    g.shadowColor=p.col;g.shadowBlur=p.r*5;
+    g.fill();g.shadowBlur=0;g.globalAlpha=1;
   }
+  parts=parts.filter(function(p){return p.life>0;});
 
-  // ── MAIN TITLE ───────────────────────────
-  var titleT = remap(T, 4.2, 5.0);
-  if (titleT>0) {
-    var te = overshoot(titleT);
+  // ── TITLE SLAM ───────────────────────────
+  var titleT=rmp(T,1.0,1.55);
+  if(titleT>0){
+    var te=eos(titleT);   // elastic overshoot
 
-    // massive glow plate
-    var gr=cx.createRadialGradient(W/2,H/2,0,W/2,H/2,500);
-    gr.addColorStop(0,'rgba(255,140,0,'+(te*.28)+')');
-    gr.addColorStop(.5,'rgba(200,80,0,'+(te*.12)+')');
+    // glow plate behind text
+    var gr=g.createRadialGradient(W/2,H/2,0,W/2,H/2,480);
+    gr.addColorStop(0,'rgba(255,160,0,'+(te*.3)+')');
+    gr.addColorStop(.55,'rgba(180,80,0,'+(te*.12)+')');
     gr.addColorStop(1,'rgba(0,0,0,0)');
-    cx.fillStyle=gr; cx.fillRect(0,0,W,H);
+    g.fillStyle=gr;g.fillRect(0,0,W,H);
 
-    cx.save();
-    cx.textAlign='center'; cx.textBaseline='middle';
-    cx.globalAlpha=te;
+    g.save();
+    g.textAlign='center';g.textBaseline='middle';
 
-    // chromatic aberration offset
-    var ca = (1-titleT) * 12;
+    // chromatic aberration offset (fades out as slam settles)
+    var ca=(1-cl(titleT/.6))*16;
 
-    // REISE — white + blue
-    cx.font='900 124px "Arial Black",Impact,sans-serif';
-    if (ca>0.5) {
-      cx.fillStyle='rgba(255,0,0,.35)'; cx.fillText('REISE',W/2+ca,H/2-28);
-      cx.fillStyle='rgba(0,0,255,.35)'; cx.fillText('REISE',W/2-ca,H/2-28);
+    // REISE
+    g.font='900 130px "Arial Black",Arial,sans-serif';
+    if(ca>1){
+      g.globalAlpha=te*.3;
+      g.fillStyle='#ff0033';g.fillText('REISE',W/2+ca,H/2-30);
+      g.fillStyle='#0033ff';g.fillText('REISE',W/2-ca,H/2-30);
     }
-    cx.shadowColor='#00aaff'; cx.shadowBlur=60*te;
-    cx.fillStyle='#ffffff';
-    cx.fillText('REISE', W/2, H/2-28);
+    g.globalAlpha=te;
+    g.shadowColor='#00ccff';g.shadowBlur=55*te;
+    g.fillStyle='#ffffff';g.fillText('REISE',W/2,H/2-30);
 
-    // INSIDER — gold + amber
-    cx.font='900 124px "Arial Black",Impact,sans-serif';
-    if (ca>0.5) {
-      cx.fillStyle='rgba(255,0,0,.35)'; cx.fillText('INSIDER',W/2+ca,H/2+80);
-      cx.fillStyle='rgba(0,0,255,.35)'; cx.fillText('INSIDER',W/2-ca,H/2+80);
+    // INSIDER
+    g.font='900 130px "Arial Black",Arial,sans-serif';
+    if(ca>1){
+      g.globalAlpha=te*.3;
+      g.fillStyle='#ff0033';g.fillText('INSIDER',W/2+ca,H/2+88);
+      g.fillStyle='#0033ff';g.fillText('INSIDER',W/2-ca,H/2+88);
     }
-    cx.shadowColor='#ffaa00'; cx.shadowBlur=70*te;
-    cx.fillStyle='#ffd700';
-    cx.fillText('INSIDER', W/2, H/2+80);
+    g.globalAlpha=te;
+    g.shadowColor='#ffaa00';g.shadowBlur=65*te;
+    g.fillStyle='#ffd700';g.fillText('INSIDER',W/2,H/2+88);
 
-    // separator line
-    cx.shadowBlur=0;
-    var lw = eoo(titleT)*340;
-    cx.strokeStyle='rgba(255,200,0,'+(te*.7)+')';
-    cx.lineWidth=1.5;
-    cx.beginPath(); cx.moveTo(W/2-lw,H/2+28); cx.lineTo(W/2+lw,H/2+28); cx.stroke();
+    // divider line — draws outward from center
+    g.shadowBlur=0;
+    var lw=eoe(titleT)*360;
+    g.globalAlpha=te*.65;
+    g.strokeStyle='#ffd700';g.lineWidth=1.5;
+    g.beginPath();g.moveTo(W/2-lw,H/2+32);g.lineTo(W/2+lw,H/2+32);g.stroke();
 
     // tagline
-    var tagT = remap(T,4.8,5.6);
-    if (tagT>0) {
-      cx.globalAlpha=te*eoo(tagT);
-      cx.font='400 20px "Courier New",monospace';
-      cx.fillStyle='rgba(200,230,255,'+(tagT*.9)+')';
-      cx.shadowBlur=0;
-      cx.fillText('AVIATION  •  STORIES  •  INSIGHTS', W/2, H/2+148);
+    var tagt=rmp(T,1.6,2.2);
+    if(tagt>0){
+      g.globalAlpha=eoe(tagt)*te;
+      g.font='300 20px "Courier New",monospace';
+      g.fillStyle='rgba(180,220,255,1)';
+      g.shadowBlur=0;
+      g.fillText('AVIATION  •  STORIES  •  INSIGHTS',W/2,H/2+160);
     }
-
-    cx.restore();
+    g.restore();
   }
+
+  // ── slam flash ───────────────────────────
+  var sf=rmp(T,.98,1.08)*(1-rmp(T,1.08,1.35));
+  if(sf>0){g.fillStyle='rgba(255,255,255,'+sf*.8+')';g.fillRect(0,0,W,H);}
 
   // ── film grain ───────────────────────────
-  if (T > .05) {
-    cx.save();
-    cx.globalAlpha = .045;
-    for (var gi=0; gi<1200; gi++) {
-      var gx=Math.random()*W, gy=Math.random()*H, gs=Math.random()*2;
-      var v=Math.floor(Math.random()*255);
-      cx.fillStyle='rgb('+v+','+v+','+v+')';
-      cx.fillRect(gx,gy,gs,gs);
-    }
-    cx.restore();
+  g.save();g.globalAlpha=.04;
+  for(var i=0;i<900;i++){
+    var v=Math.random()*255|0;
+    g.fillStyle='rgb('+v+','+v+','+v+')';
+    g.fillRect(Math.random()*W|0,Math.random()*H|0,Math.random()*2+1,Math.random()*2+1);
   }
+  g.restore();
 
   // ── vignette ─────────────────────────────
-  var vig=cx.createRadialGradient(W/2,H/2,H*.2,W/2,H/2,H*.85);
-  vig.addColorStop(0,'rgba(0,0,0,0)');
-  vig.addColorStop(1,'rgba(0,0,0,0.82)');
-  cx.fillStyle=vig; cx.fillRect(0,0,W,H);
+  var vg=g.createRadialGradient(W/2,H/2,H*.18,W/2,H/2,H*.82);
+  vg.addColorStop(0,'rgba(0,0,0,0)');
+  vg.addColorStop(1,'rgba(0,0,0,.8)');
+  g.fillStyle=vg;g.fillRect(0,0,W,H);
 
-  // ── edge chromatic flicker ─────────────
-  if (T < .4) {
-    var flk = (1-remap(T,.1,.4))*Math.random()*.3;
-    cx.fillStyle='rgba(0,80,255,'+flk+')'; cx.fillRect(0,0,W,H);
-  }
+  // ── fade in ──────────────────────────────
+  var fi=1-rmp(T,0,.06);
+  if(fi>0){g.fillStyle='rgba(0,0,0,'+fi+')';g.fillRect(0,0,W,H);}
 
-  // ── fade in ───────────────────────────────
-  var fi=1-remap(T,0,.1);
-  if(fi>0){cx.fillStyle='rgba(0,0,0,'+fi+')';cx.fillRect(0,0,W,H);}
+  // ── fade out ─────────────────────────────
+  var fo=rmp(T,2.75,3.1);
+  if(fo>0){g.fillStyle='rgba(0,0,0,'+fo+')';g.fillRect(0,0,W,H);}
 
-  // ── fade out ──────────────────────────────
-  var fo=remap(T,5.8,6.8);
-  if(fo>0){cx.fillStyle='rgba(0,0,0,'+fo+')';cx.fillRect(0,0,W,H);}
-
-  if (T<7) rafId=requestAnimationFrame(render);
+  if(T<3.5) raf=requestAnimationFrame(draw);
 }
 
-// ── preview frame ────────────────────────────
-(function(){
-  cx.fillStyle='#000'; cx.fillRect(0,0,W,H);
-  // draw a few stars so it's not blank
-  for(var i=0;i<200;i++){
-    cx.beginPath(); cx.arc(Math.random()*W,Math.random()*H,Math.random()*1.5+.3,0,Math.PI*2);
-    cx.fillStyle='rgba(255,255,255,'+(Math.random()*.4+.1)+')'; cx.fill();
-  }
-})();
+// preview
+g.fillStyle='#060b14';g.fillRect(0,0,W,H);
 
 document.getElementById('btn').addEventListener('click',function(){
   this.style.display='none';
-  PARTS=[]; SHOCKWAVES=[];
-  burstsDone={open:false,pre:false,slam:false};
-  buildAudio();
+  parts=[];waves=[];did={open:false,slam:false};
+  audio();
   T0=null;
-  if(rafId) cancelAnimationFrame(rafId);
-  rafId=requestAnimationFrame(render);
+  if(raf) cancelAnimationFrame(raf);
+  raf=requestAnimationFrame(draw);
 });
 </script>
 </body>
