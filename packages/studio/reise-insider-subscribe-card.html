@@ -51,7 +51,7 @@ var CX=960, CY=580;         // card centre
 var CW=960, CH=190;         // card size
 var LX=CX-CW/2+108;        // logo centre X
 var SX=CX, SW=230, SH=74;     // subscribe button (centre)
-var LKX=CX-220, BLX=CX+230;  // like (LEFT of subscribe) / bell centres
+var LKX=CX-220, BLX=CX+326;  // like (LEFT of subscribe) / bell centres
 var BR=46;                   // like/bell radius
 
 // ── stars ────────────────────────────────────────
@@ -190,56 +190,50 @@ function drawLogo(cx,cy,ro,alpha){
   g.restore();
 }
 
-// ── hand cursor (standard OS pointer shape) ──────
+// ── hand cursor — classic browser pointer shape ──
 function drawHand(x,y,clicking){
-  var sc=clicking?0.9:1.0;
-  g.save(); g.translate(x,y); g.scale(sc,sc);
-  g.shadowColor='rgba(0,0,0,0.55)'; g.shadowBlur=14;
+  g.save();
+  g.translate(x, y + (clicking?4:0));
+  if(clicking) g.scale(0.93,0.93);
+  g.shadowColor='rgba(0,0,0,0.6)'; g.shadowBlur=12;
   g.shadowOffsetX=3; g.shadowOffsetY=5;
   g.fillStyle='#ffffff';
-  g.strokeStyle='rgba(20,20,20,0.6)'; g.lineWidth=2;
+  g.strokeStyle='rgba(20,20,20,0.7)'; g.lineWidth=2;
   g.lineJoin='round'; g.lineCap='round';
 
-  // Index finger — pointing up
+  // Single path: tip at top, clockwise around entire hand
   g.beginPath();
-  g.moveTo(-9,-20);
-  g.lineTo(-9,-50);
-  g.quadraticCurveTo(-9,-60, 0,-60);
-  g.quadraticCurveTo( 9,-60, 9,-50);
-  g.lineTo(9,-20);
+  // Index fingertip (arc at top)
+  g.moveTo(-8,-56);
+  g.arc(0,-56,8,Math.PI,0);       // rounded tip
+  // Right side of index finger down
+  g.lineTo(8,-20);
+  // Middle finger knuckle bump
+  g.bezierCurveTo(8,-30, 21,-30, 21,-20);
+  g.lineTo(21,-14);
+  // Ring finger knuckle bump
+  g.bezierCurveTo(21,-23, 34,-23, 34,-12);
+  g.lineTo(34,-5);
+  // Pinky knuckle bump
+  g.bezierCurveTo(34,-15, 46,-15, 46,-3);
+  // Palm right edge down
+  g.lineTo(46,30);
+  g.quadraticCurveTo(46,42, 33,42);
+  // Palm bottom
+  g.lineTo(-3,42);
+  g.quadraticCurveTo(-14,42, -14,30);
+  // Thumb on left side
+  g.lineTo(-14,15);
+  g.bezierCurveTo(-14,5, -26,1, -24,-7);
+  g.bezierCurveTo(-22,-15, -11,-13, -8,-20);
+  // Left side of index finger back to tip
+  g.lineTo(-8,-56);
   g.closePath();
   g.fill(); g.stroke();
 
-  // Knuckle crease on index finger
-  g.save();
-  g.beginPath(); g.moveTo(-7,-34); g.lineTo(7,-34);
-  g.strokeStyle='rgba(0,0,0,0.13)'; g.lineWidth=1.5; g.stroke();
-  g.restore();
-
-  // Palm body + curled-finger bumps on right + thumb on left
-  g.beginPath();
-  g.moveTo(-9,-20);                              // left base of index
-  // thumb
-  g.bezierCurveTo(-9,-8, -20,-4, -22,4);
-  g.bezierCurveTo(-24,12, -16,18, -9,12);
-  // lower-left palm
-  g.lineTo(-9,30);
-  g.quadraticCurveTo(-9,42, 4,42);
-  g.lineTo(26,42);
-  g.quadraticCurveTo(40,42, 40,28);
-  // pinky top
-  g.lineTo(40,0);
-  g.bezierCurveTo(40,-10, 30,-10, 30,0);
-  // ring finger top
-  g.lineTo(30,-8);
-  g.bezierCurveTo(30,-20, 20,-20, 20,-8);
-  // middle finger top
-  g.lineTo(20,-14);
-  g.bezierCurveTo(20,-28, 9,-28, 9,-16);
-  // right base of index
-  g.lineTo(9,-20);
-  g.closePath();
-  g.fill(); g.stroke();
+  // Subtle knuckle crease on index finger
+  g.beginPath(); g.moveTo(-6,-38); g.lineTo(6,-38);
+  g.strokeStyle='rgba(0,0,0,0.1)'; g.lineWidth=1.5; g.stroke();
 
   g.restore();
 }
@@ -430,10 +424,9 @@ function draw(ts){
   }
   ripples=ripples.filter(function(r){return r.a>0;});
 
-  // ── HAND CURSOR ──────────────────────────────
-  g.globalAlpha=cardA;
-  drawHand(hx,hy,clicking);
-  g.globalAlpha=1;
+  // ── HAND CURSOR — fades out after bell click ─
+  var handA = cardA * cl(1 - rmp(T, 5.1, 5.9));
+  if(handA > 0.01){ g.globalAlpha=handA; drawHand(hx,hy,clicking); g.globalAlpha=1; }
 
   // ── FILM GRAIN ───────────────────────────────
   g.save(); g.globalAlpha=0.028;
