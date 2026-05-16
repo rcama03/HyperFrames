@@ -1,0 +1,214 @@
+/**
+ * HyperFrames Shared Card Styles — Motion Graphics System
+ *
+ * Import this stylesheet into any project's graphics composition to get
+ * the standard glassmorphism card system with gold accent.
+ *
+ * Usage in a composition's <style> block:
+ *   @import url('../../../packages/shared/mg-cards.css');
+ *
+ * Or inline the contents directly into your composition's <style> block.
+ *
+ * Card types:  .mg-card.stat-card | .mg-card.key-card | .mg-card.comp-card | .mg-card.quote-card
+ * Accent:      Gold #FFD700
+ * Font:        Montserrat ExtraBold (loaded via Google Fonts)
+ * Resolution:  Designed for 1280×720; scale positions for 1920×1080
+ */
+
+/* ── Google Font ─────────────────────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap');
+
+/* ── Base card shell ─────────────────────────────────────────────────────── */
+.mg-card {
+  position: absolute;
+  left: 40px;
+  bottom: 100px;
+  width: 420px;
+  background: rgba(255, 255, 255, 0.09);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.45);
+  border-radius: 16px;
+  display: flex;
+  align-items: stretch;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(12px);
+  font-family: 'Montserrat', 'Arial Black', sans-serif;
+}
+
+/* ── Left accent stripe (gold, 4px) ─────────────────────────────────────── */
+.mg-card .accent-stripe {
+  width: 4px;
+  background: #FFD700;
+  flex-shrink: 0;
+}
+
+/* ── Card inner padding ──────────────────────────────────────────────────── */
+.mg-card .card-inner {
+  flex: 1;
+  padding: 16px 18px;
+  position: relative;
+}
+
+/* ── Card icon (top-right emoji/SVG) ─────────────────────────────────────── */
+.mg-card .card-icon {
+  font-size: 28px;
+  padding: 18px 14px 16px 0;
+  display: flex;
+  align-items: flex-start;
+}
+
+/* ── STAT CARD ───────────────────────────────────────────────────────────── */
+.mg-card .micro-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  color: #FFD700;
+  opacity: 0.85;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.mg-card .big-number {
+  font-size: 52px;
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.mg-card .context-line {
+  font-size: 13px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.65);
+  margin-top: 4px;
+}
+
+/* ── KEY POINT CARD ──────────────────────────────────────────────────────── */
+.mg-card .tag-pill {
+  display: inline-block;
+  background: #FFD700;
+  color: #0D0D1A;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  padding: 3px 10px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.mg-card .divider {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.15);
+  margin-bottom: 8px;
+}
+
+.mg-card .key-text {
+  font-size: 17px;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.35;
+}
+
+/* ── COMPARISON CARD ─────────────────────────────────────────────────────── */
+.mg-card.comp-card {
+  width: 480px;
+}
+
+.mg-card .comp-inner {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 16px;
+}
+
+.mg-card .comp-col {
+  flex: 1;
+  text-align: center;
+}
+
+.mg-card .comp-label {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: rgba(255, 255, 255, 0.55);
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.mg-card .comp-val {
+  font-size: 22px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.mg-card .comp-arrow {
+  font-size: 20px;
+  color: #FFD700;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.mg-card .comp-col-accent .comp-val {
+  color: #FFD700;
+}
+
+/* ── QUOTE CARD ──────────────────────────────────────────────────────────── */
+.mg-card.quote-card {
+  width: 460px;
+}
+
+.mg-card .quote-mark {
+  font-size: 48px;
+  font-weight: 800;
+  color: #FFD700;
+  line-height: 0.8;
+  margin-bottom: 4px;
+}
+
+.mg-card .quote-text {
+  font-size: 14px;
+  font-style: italic;
+  color: #ffffff;
+  line-height: 1.4;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.mg-card .quote-source {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+}
+
+/* ── Caption pill (shared across all projects) ───────────────────────────── */
+.caption-pill {
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 10px 28px;
+  border-radius: 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  opacity: 0;
+  max-width: 85%;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+}
+
+.caption-word {
+  font-family: 'Montserrat', 'Arial Black', sans-serif;
+  font-size: 44px;
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.7);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.caption-word.active {
+  color: #FFD700;
+}
