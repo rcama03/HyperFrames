@@ -53,6 +53,8 @@ var LX=CX-CW/2+108;        // logo centre X
 var SX=CX, SW=230, SH=74;     // subscribe button (centre)
 var LKX=CX-220, BLX=CX+220;  // like (LEFT of subscribe) / bell centres — equal gaps
 var BR=46;                   // like/bell radius
+var CL=CX-CW/2;             // card left edge (fixed)
+var CR=BLX+BR+50;           // card right edge — 50px after bell
 
 // ── stars ────────────────────────────────────────
 var rng=42;
@@ -299,30 +301,30 @@ function draw(ts){
   // wide outer glow
   g.save();
   g.shadowColor='#00ccff'; g.shadowBlur=40;
-  g.beginPath(); rrect(CX-CW/2-6,CY-CH/2-6,CW+12,CH+12,28);
+  g.beginPath(); rrect(CL-6,CY-CH/2-6,CR-CL+12,CH+12,28);
   g.strokeStyle='rgba(0,200,255,0.12)'; g.lineWidth=12; g.stroke();
   g.restore();
 
   // glass fill — gradient top to bottom
-  var gf=g.createLinearGradient(CX,CY-CH/2,CX,CY+CH/2);
+  var gf=g.createLinearGradient(CL,CY-CH/2,CR,CY+CH/2);
   gf.addColorStop(0,'rgba(14,28,55,0.92)');
   gf.addColorStop(1,'rgba(6,12,26,0.95)');
-  g.beginPath(); rrect(CX-CW/2,CY-CH/2,CW,CH,22);
+  g.beginPath(); rrect(CL,CY-CH/2,CR-CL,CH,22);
   g.fillStyle=gf; g.fill();
 
   // glass border — gold→cyan gradient
-  var gb=g.createLinearGradient(CX-CW/2,CY,CX+CW/2,CY);
+  var gb=g.createLinearGradient(CL,CY,CR,CY);
   gb.addColorStop(0,'rgba(0,200,255,0.7)');
   gb.addColorStop(0.38,'rgba(255,210,0,0.8)');
   gb.addColorStop(0.62,'rgba(255,210,0,0.8)');
   gb.addColorStop(1,'rgba(0,200,255,0.7)');
   g.save(); g.shadowColor='#ffd700'; g.shadowBlur=14;
-  g.beginPath(); rrect(CX-CW/2,CY-CH/2,CW,CH,22);
+  g.beginPath(); rrect(CL,CY-CH/2,CR-CL,CH,22);
   g.strokeStyle=gb; g.lineWidth=2; g.stroke();
   g.restore();
 
   // inner top shine
-  g.beginPath(); rrect(CX-CW/2+3,CY-CH/2+3,CW-6,6,3);
+  g.beginPath(); rrect(CL+3,CY-CH/2+3,CR-CL-6,6,3);
   g.fillStyle='rgba(255,255,255,0.07)'; g.fill();
 
   g.restore();
