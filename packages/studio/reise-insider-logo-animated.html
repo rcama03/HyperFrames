@@ -16,179 +16,274 @@
    REISE INSIDER — Animated Logo Overlay
    1920×1080 transparent canvas · logo top-left
    20-second seamless loop · all periods divide 20s
+
+   Sharpness strategy:
+   - DPR scaling so canvas pixels match physical pixels
+   - Glows rendered as separate blurred layers BEFORE
+     crisp strokes/text — shadow never touches final edges
+   - Text rendered twice: once for glow, once sharp on top
+   - imageSmoothingEnabled off for pixel-perfect lines
    ===================================================== */
 
 var W=1920, H=1080;
-var cv=document.getElementById('c');
-var g=cv.getContext('2d');
-cv.width=W; cv.height=H;
+var DPR = Math.min(window.devicePixelRatio || 1, 2);
+var cv = document.getElementById('c');
+var g  = cv.getContext('2d', { alpha: true });
+
+// Physical pixels
+cv.width  = W * DPR;
+cv.height = H * DPR;
+// CSS size stays logical
+cv.style.width  = W + 'px';
+cv.style.height = H + 'px';
+g.scale(DPR, DPR);
+g.imageSmoothingEnabled = false;
 
 // ── Logo geometry ──────────────────────────────────
-var CX=130, CY=130;   // centre — 35px from each edge after ring
-var RO=95;            // outer ring radius  → diameter 190px
-var RI=Math.round(RO*0.582);   // inner ring  ≈ 55px
-var RT=Math.round((RO+RI)/2);  // text arc midpoint ≈ 75px
+var CX=130, CY=130;
+var RO=95;
+var RI=Math.round(RO*0.582);   // ≈ 55
+var RT=Math.round((RO+RI)/2);  // ≈ 75
 
-// ── Arc text (proven correct: direct world-coord) ──
-function arcText(text, r, centerAngle, isBottom, col, fontSize, spacing) {
-  g.save();
-  g.font='900 '+fontSize+'px "Arial Black",Arial,sans-serif';
-  g.textAlign='center'; g.textBaseline='middle'; g.fillStyle=col;
+// ── Off-screen glow canvas (blurred layers only) ──
+// We composite blurred glow here then draw sharp art on top of it.
+var gc  = document.createElement('canvas');
+gc.width  = cv.width;
+gc.height = cv.height;
+var gg  = gc.getContext('2d', { alpha: true });
+gg.scale(DPR, DPR);
+
+// ── Arc text — no shadow, pure crisp fill ──────────
+function arcText(ctx, text, r, centerAngle, isBottom, col, fontSize, spacing) {
+  ctx.save();
+  ctx.font = '800 ' + fontSize + 'px "Arial Black",Arial,sans-serif';
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'middle';
+  ctx.fillStyle = col;
+  ctx.shadowBlur = 0;  // always off here — glow drawn separately
 
   var widths=[], totalW=0;
   for(var i=0;i<text.length;i++){
-    var w=g.measureText(text[i]).width; widths.push(w); totalW+=w;
+    var w=ctx.measureText(text[i]).width; widths.push(w); totalW+=w;
   }
-  totalW+=(text.length-1)*spacing;
-  var totalAng=totalW/r, cumW=0;
+  totalW += (text.length-1)*spacing;
+  var totalAng = totalW/r, cumW = 0;
 
   for(var i=0;i<text.length;i++){
-    var charMid=cumW+widths[i]/2, theta;
-    if(!isBottom) theta=(centerAngle-totalAng/2)+charMid/r;
-    else          theta=(centerAngle+totalAng/2)-charMid/r;
-    var px=CX+r*Math.cos(theta), py=CY+r*Math.sin(theta);
-    var rot=isBottom?theta-Math.PI/2:theta+Math.PI/2;
-    g.save(); g.translate(px,py); g.rotate(rot);
-    g.fillText(text[i],0,0); g.restore();
-    cumW+=widths[i]+spacing;
+    var charMid = cumW + widths[i]/2, theta;
+    if(!isBottom) theta = (centerAngle - totalAng/2) + charMid/r;
+    else          theta = (centerAngle + totalAng/2) - charMid/r;
+    var px = CX + r*Math.cos(theta), py = CY + r*Math.sin(theta);
+    var rot = isBottom ? theta - Math.PI/2 : theta + Math.PI/2;
+    ctx.save(); ctx.translate(px,py); ctx.rotate(rot);
+    ctx.fillText(text[i],0,0); ctx.restore();
+    cumW += widths[i] + spacing;
   }
-  g.restore();
+  ctx.restore();
 }
 
-// ── Diamond helper ─────────────────────────────────
-function diamond(x,y,sz,col){
-  g.save(); g.translate(x,y);
-  g.beginPath(); g.moveTo(0,-sz); g.lineTo(sz,0); g.lineTo(0,sz); g.lineTo(-sz,0);
-  g.closePath(); g.fillStyle=col; g.fill(); g.restore();
+// ── Glow-only arc text (blurred, onto gg) ─────────
+function arcTextGlow(text, r, centerAngle, isBottom, col, fontSize, spacing, blur) {
+  gg.save();
+  gg.font = '800 ' + fontSize + 'px "Arial Black",Arial,sans-serif';
+  gg.textAlign = 'center';
+  gg.textBaseline = 'middle';
+  gg.fillStyle = col;
+  gg.shadowColor = col;
+  gg.shadowBlur = blur * DPR;
+
+  var widths=[], totalW=0;
+  for(var i=0;i<text.length;i++){
+    var w=gg.measureText(text[i]).width; widths.push(w); totalW+=w;
+  }
+  totalW += (text.length-1)*spacing;
+  var totalAng = totalW/r, cumW = 0;
+
+  for(var i=0;i<text.length;i++){
+    var charMid = cumW + widths[i]/2, theta;
+    if(!isBottom) theta = (centerAngle - totalAng/2) + charMid/r;
+    else          theta = (centerAngle + totalAng/2) - charMid/r;
+    var px = CX + r*Math.cos(theta), py = CY + r*Math.sin(theta);
+    var rot = isBottom ? theta - Math.PI/2 : theta + Math.PI/2;
+    gg.save(); gg.translate(px,py); gg.rotate(rot);
+    gg.fillText(text[i],0,0); gg.restore();
+    cumW += widths[i] + spacing;
+  }
+  gg.restore();
 }
 
-// ── Aircraft ───────────────────────────────────────
-function aircraft(sc, glowAmt){
+// ── Diamond ────────────────────────────────────────
+function diamond(ctx, x, y, sz, col){
+  ctx.save(); ctx.translate(x,y);
+  ctx.beginPath(); ctx.moveTo(0,-sz); ctx.lineTo(sz,0);
+  ctx.lineTo(0,sz); ctx.lineTo(-sz,0);
+  ctx.closePath(); ctx.fillStyle=col; ctx.fill(); ctx.restore();
+}
+
+// ── Aircraft (sharp, no shadow) ───────────────────
+function aircraft(sc){
   g.save(); g.translate(CX,CY); g.rotate(-Math.PI/16); g.scale(sc,sc);
-  g.shadowColor='#0055ff'; g.shadowBlur=glowAmt; g.fillStyle='#ffffff';
+  g.fillStyle='#ffffff'; g.shadowBlur=0;
   g.beginPath(); g.moveTo(22,0); g.lineTo(-16,-5); g.lineTo(-16,5); g.closePath(); g.fill();
   g.beginPath(); g.moveTo(4,0); g.lineTo(-10,-26); g.lineTo(-16,-5); g.closePath(); g.fill();
   g.beginPath(); g.moveTo(4,0); g.lineTo(-10,26);  g.lineTo(-16,5);  g.closePath(); g.fill();
   g.beginPath(); g.moveTo(-16,-5); g.lineTo(-24,-14); g.lineTo(-20,0);
-                 g.lineTo(-24,14); g.lineTo(-16,5); g.closePath(); g.fill();
+               g.lineTo(-24,14); g.lineTo(-16,5); g.closePath(); g.fill();
   g.restore();
 }
 
-// ── Animation periods (all divide 20s for seamless loop) ──
-// glow pulse  : 4s  (5 cycles in 20s)
-// dot orbit   : 20s (1 cycle in 20s)
-// breathe     : 4s  (5 cycles in 20s)
-// tick shimmer: 10s (2 cycles in 20s) — subtle glint on outer ring
-// scanner     : 20s (1 cycle in 20s)
+// ── Aircraft glow (onto gg) ───────────────────────
+function aircraftGlow(sc, blur, col){
+  gg.save(); gg.translate(CX,CY); gg.rotate(-Math.PI/16); gg.scale(sc,sc);
+  gg.fillStyle=col; gg.shadowColor=col; gg.shadowBlur=blur*DPR;
+  gg.beginPath(); gg.moveTo(22,0); gg.lineTo(-16,-5); gg.lineTo(-16,5); gg.closePath(); gg.fill();
+  gg.beginPath(); gg.moveTo(4,0); gg.lineTo(-10,-26); gg.lineTo(-16,-5); gg.closePath(); gg.fill();
+  gg.beginPath(); gg.moveTo(4,0); gg.lineTo(-10,26);  gg.lineTo(-16,5);  gg.closePath(); gg.fill();
+  gg.beginPath(); gg.moveTo(-16,-5); gg.lineTo(-24,-14); gg.lineTo(-20,0);
+                gg.lineTo(-24,14); gg.lineTo(-16,5); gg.closePath(); gg.fill();
+  gg.restore();
+}
 
-var LOOP = 20;   // seconds per loop
+var LOOP = 20;
 
 function draw(ts){
-  var T = (ts / 1000) % LOOP;   // time within current loop (0–20s)
+  var T = (ts/1000) % LOOP;
+  var glow    = 0.5 + 0.5*Math.sin(T*2*Math.PI/4);
+  var dotAng  = T*2*Math.PI/20;
+  var breathe = 1.0 + 0.028*Math.sin(T*2*Math.PI/4);
+  var scanner = T*2*Math.PI/20;
+  var acScale = RI*0.034*breathe;
 
-  // Animation values
-  var glow     = 0.5 + 0.5 * Math.sin(T * 2*Math.PI / 4);   // 0–1, 4s
-  var dotAngle = T * 2*Math.PI / 20;                          // CCW full rotation, 20s
-  var breathe  = 1.0 + 0.028 * Math.sin(T * 2*Math.PI / 4); // ±2.8%, 4s
-  var scanner  = T * 2*Math.PI / 20;                          // scanner angle, 20s
-
+  // ── 1. Clear both canvases ──────────────────────
   g.clearRect(0,0,W,H);
+  gg.clearRect(0,0,W,H);
 
-  // ── Ring background fill (dark circle inside outer ring) ──
-  var fill=g.createRadialGradient(CX,CY,0,CX,CY,RO);
-  fill.addColorStop(0,  '#101e38');
+  // ── 2. Render all GLOW layers onto gg ──────────
+
+  // Ring background (dark fill — not a glow, but belongs under everything)
+  var fill = gg.createRadialGradient(CX,CY,0,CX,CY,RO);
+  fill.addColorStop(0,   '#101e38');
   fill.addColorStop(0.65,'#0a1628');
-  fill.addColorStop(1,  '#060e1c');
-  g.beginPath(); g.arc(CX,CY,RO,0,Math.PI*2); g.fillStyle=fill; g.fill();
+  fill.addColorStop(1,   '#060e1c');
+  gg.beginPath(); gg.arc(CX,CY,RO,0,Math.PI*2); gg.fillStyle=fill; gg.fill();
 
-  // ── Subtle scanner beam (rotating arc glow inside ring) ──
-  g.save(); g.translate(CX,CY); g.rotate(scanner);
+  // Scanner beam
+  gg.save(); gg.translate(CX,CY); gg.rotate(scanner);
   for(var sa=0; sa<Math.PI*0.55; sa+=0.025){
     var fade=1-sa/(Math.PI*0.55);
-    g.beginPath(); g.moveTo(0,0); g.arc(0,0,RI*0.88,-sa,-sa+0.03); g.closePath();
-    g.fillStyle='rgba(0,200,130,'+(0.06*fade*glow)+')'; g.fill();
+    gg.beginPath(); gg.moveTo(0,0); gg.arc(0,0,RI*0.88,-sa,-sa+0.03); gg.closePath();
+    gg.fillStyle='rgba(0,200,130,'+(0.07*fade*glow)+')'; gg.fill();
   }
-  g.restore();
+  gg.restore();
 
-  // ── Outer tick marks ──────────────────────────────
+  // Outer ring glow (wide soft halo)
+  var outerBlur = 14 + 10*glow;
+  gg.save();
+  gg.shadowColor='#ffd700'; gg.shadowBlur=outerBlur*DPR;
+  gg.beginPath(); gg.arc(CX,CY,RO,0,Math.PI*2);
+  gg.strokeStyle='rgba(255,210,0,0.5)'; gg.lineWidth=10; gg.stroke();
+  gg.restore();
+
+  // Cyan halo
+  gg.save();
+  gg.shadowColor='#00ccff'; gg.shadowBlur=(outerBlur*0.6)*DPR;
+  gg.beginPath(); gg.arc(CX,CY,RO,0,Math.PI*2);
+  gg.strokeStyle='rgba(0,200,255,0.25)'; gg.lineWidth=8; gg.stroke();
+  gg.restore();
+
+  // Inner ring glow
+  var innerBlur = 8 + 8*glow;
+  gg.save();
+  gg.shadowColor='#00ccff'; gg.shadowBlur=innerBlur*DPR;
+  gg.beginPath(); gg.arc(CX,CY,RI,0,Math.PI*2);
+  gg.strokeStyle='rgba(0,200,255,0.5)'; gg.lineWidth=4; gg.stroke();
+  gg.restore();
+
+  // Inner fill
+  var iF=gg.createRadialGradient(CX,CY,0,CX,CY,RI);
+  iF.addColorStop(0,'#0e1e38'); iF.addColorStop(0.7,'#080f1c'); iF.addColorStop(1,'#050b15');
+  gg.beginPath(); gg.arc(CX,CY,RI,0,Math.PI*2); gg.fillStyle=iF; gg.fill();
+
+  // Dot glows
+  [0,90,180,270].forEach(function(base){
+    var rad=base*Math.PI/180 - dotAng;
+    var dx=CX+Math.cos(rad)*RI, dy=CY+Math.sin(rad)*RI;
+    gg.save(); gg.shadowColor='#00ffcc'; gg.shadowBlur=8*DPR;
+    gg.beginPath(); gg.arc(dx,dy,3.5,0,Math.PI*2);
+    gg.fillStyle='rgba(0,200,255,0.7)'; gg.fill(); gg.restore();
+  });
+
+  // Aircraft glow
+  aircraftGlow(acScale, 16+8*glow, '#0066ff');
+
+  // Text glows
+  var fREISE   = Math.round(RT*0.27);
+  var fINSIDER = Math.round(RT*0.23);
+  arcTextGlow('REISE',   RT, -Math.PI/2, false, '#00aaff', fREISE,   5, 8+4*glow);
+  arcTextGlow('INSIDER', RT,  Math.PI/2, true,  '#ffaa00', fINSIDER, 3, 8+4*glow);
+
+  // Diamond glows
+  gg.save(); gg.shadowColor='#ffd700'; gg.shadowBlur=6*DPR;
+  diamond(gg, CX+RT, CY, 3, 'rgba(255,215,0,0.6)');
+  diamond(gg, CX-RT, CY, 3, 'rgba(255,215,0,0.6)');
+  gg.restore();
+
+  // Vignette
+  var vig=gg.createRadialGradient(CX,CY,RI*0.6,CX,CY,RO);
+  vig.addColorStop(0,'rgba(0,0,0,0)'); vig.addColorStop(1,'rgba(0,0,0,0.35)');
+  gg.beginPath(); gg.arc(CX,CY,RO,0,Math.PI*2); gg.fillStyle=vig; gg.fill();
+
+  // ── 3. Composite glow canvas onto main canvas ──
+  g.drawImage(gc, 0, 0, W, H);
+
+  // ── 4. Draw all SHARP layers onto main canvas ──
+  // (no shadowBlur at all from here down)
+
+  // Outer tick marks
   for(var a=0; a<360; a+=5){
     var rad=a*Math.PI/180;
     var isQ=(a%90===0), is30=(a%30===0);
-    var tLen=isQ?5:is30?3:2;
+    var tLen=isQ?5:is30?3:1.5;
     g.beginPath();
     g.moveTo(CX+Math.cos(rad)*(RO-tLen), CY+Math.sin(rad)*(RO-tLen));
     g.lineTo(CX+Math.cos(rad)*RO,        CY+Math.sin(rad)*RO);
-    g.strokeStyle=isQ?'rgba(255,210,0,0.9)':'rgba(0,200,255,0.35)';
-    g.lineWidth=isQ?1.5:0.6; g.stroke();
+    g.strokeStyle=isQ?'rgba(255,210,0,1)':'rgba(0,200,255,0.5)';
+    g.lineWidth=isQ?1.5:0.7; g.stroke();
   }
 
-  // ── Outer ring — multi-layer pulsing glow ─────────
-  var outerBlur = 12 + 10*glow;
-  // soft gold glow
-  g.save(); g.shadowColor='#ffd700'; g.shadowBlur=outerBlur;
-  g.beginPath(); g.arc(CX,CY,RO,0,Math.PI*2);
-  g.strokeStyle='rgba(255,210,0,0.18)'; g.lineWidth=8; g.stroke();
-  g.restore();
-  // main gradient stroke
+  // Outer ring — crisp gradient stroke
   var og=g.createLinearGradient(CX-RO,CY,CX+RO,CY);
   og.addColorStop(0,'#00ccff'); og.addColorStop(0.45,'#ffd700');
   og.addColorStop(0.55,'#ffd700'); og.addColorStop(1,'#00ccff');
-  g.save(); g.shadowColor='#ffd700'; g.shadowBlur=outerBlur*0.7;
   g.beginPath(); g.arc(CX,CY,RO,0,Math.PI*2);
-  g.strokeStyle=og; g.lineWidth=3; g.stroke();
-  g.restore();
-  // thin inner highlight
-  g.save(); g.shadowColor='#ffffff'; g.shadowBlur=4;
-  g.beginPath(); g.arc(CX,CY,RO-2,0,Math.PI*2);
-  g.strokeStyle='rgba(255,255,255,0.12)'; g.lineWidth=1; g.stroke();
-  g.restore();
+  g.strokeStyle=og; g.lineWidth=2.5; g.stroke();
 
-  // ── REISE top arc (stationary text) ───────────────
-  g.save(); g.shadowColor='#00aaff'; g.shadowBlur=6+4*glow;
-  arcText('REISE',   RT, -Math.PI/2, false, '#ffffff', Math.round(RT*0.27), 5);
-  g.restore();
+  // Thin white highlight on inner edge of outer ring
+  g.beginPath(); g.arc(CX,CY,RO-1.5,0,Math.PI*2);
+  g.strokeStyle='rgba(255,255,255,0.18)'; g.lineWidth=0.8; g.stroke();
 
-  // ── INSIDER bottom arc (stationary text) ──────────
-  g.save(); g.shadowColor='#ffaa00'; g.shadowBlur=7+4*glow;
-  arcText('INSIDER', RT,  Math.PI/2, true,  '#ffd700', Math.round(RT*0.23), 3);
-  g.restore();
-
-  // ── Diamond separators ────────────────────────────
-  g.save(); g.shadowColor='#ffd700'; g.shadowBlur=5;
-  diamond(CX+RT, CY, 2.5, '#ffd700');
-  diamond(CX-RT, CY, 2.5, '#ffd700');
-  g.restore();
-
-  // ── Inner ring fill ───────────────────────────────
-  var iF=g.createRadialGradient(CX,CY,0,CX,CY,RI);
-  iF.addColorStop(0,'#0e1e38'); iF.addColorStop(0.7,'#080f1c'); iF.addColorStop(1,'#050b15');
-  g.beginPath(); g.arc(CX,CY,RI,0,Math.PI*2); g.fillStyle=iF; g.fill();
-
-  // ── Inner ring stroke (pulsing cyan) ──────────────
-  var innerBlur = 8 + 8*glow;
-  g.save(); g.shadowColor='#00ccff'; g.shadowBlur=innerBlur;
+  // Inner ring — crisp cyan
   g.beginPath(); g.arc(CX,CY,RI,0,Math.PI*2);
-  g.strokeStyle='#00ccff'; g.lineWidth=2; g.stroke();
-  g.restore();
+  g.strokeStyle='#00ccff'; g.lineWidth=1.5; g.stroke();
 
-  // ── Inner dot nodes — orbiting CCW ────────────────
+  // Dots — crisp
   [0,90,180,270].forEach(function(base){
-    var rad = base*Math.PI/180 - dotAngle;   // CCW
+    var rad=base*Math.PI/180 - dotAng;
     var dx=CX+Math.cos(rad)*RI, dy=CY+Math.sin(rad)*RI;
-    g.save(); g.shadowColor='#00ffcc'; g.shadowBlur=6;
-    g.beginPath(); g.arc(dx,dy,2.5,0,Math.PI*2);
-    g.fillStyle='#00ccff'; g.fill(); g.restore();
+    g.beginPath(); g.arc(dx,dy,2.2,0,Math.PI*2);
+    g.fillStyle='#00eeff'; g.fill();
   });
 
-  // ── Aircraft (breathing scale + sync glow) ─────────
-  var acScale = RI*0.034 * breathe;
-  var acGlow  = 14 + 8*glow;
-  aircraft(acScale, acGlow);
+  // Aircraft — crisp white
+  aircraft(acScale);
 
-  // ── Soft vignette inside outer ring (depth) ────────
-  var vig=g.createRadialGradient(CX,CY,RI*0.6,CX,CY,RO);
-  vig.addColorStop(0,'rgba(0,0,0,0)'); vig.addColorStop(1,'rgba(0,0,0,0.35)');
-  g.beginPath(); g.arc(CX,CY,RO,0,Math.PI*2); g.fillStyle=vig; g.fill();
+  // Text — crisp
+  arcText(g, 'REISE',   RT, -Math.PI/2, false, '#ffffff', fREISE,   5);
+  arcText(g, 'INSIDER', RT,  Math.PI/2, true,  '#ffd700', fINSIDER, 3);
+
+  // Diamonds — crisp
+  diamond(g, CX+RT, CY, 2.5, '#ffd700');
+  diamond(g, CX-RT, CY, 2.5, '#ffd700');
 
   requestAnimationFrame(draw);
 }
