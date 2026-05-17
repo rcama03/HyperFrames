@@ -1,21 +1,26 @@
 /**
  * add-logo.js
- * Overlays logo_watermark.png in the bottom-right corner throughout the video.
- * Size: 120px  |  Opacity: 50%  |  Margin: 24px from edges
+ * Overlays the animated logo (logo_animated_overlay.webm) or static fallback
+ * (logo_watermark.png) in the top-left corner throughout the video.
+ *
+ * Animated WebM loops seamlessly via -stream_loop -1.
+ * Size: 190px  |  Margin: 35px from top-left edges
  *
  * Usage: node add-logo.js <input.mp4> <output.mp4>
  *
- * Requires: logo_watermark.png (run render-logo.js first)
+ * Requires: logo_animated_overlay.webm  (run render-logo-animated.js first)
+ *       or: logo_watermark.png          (run render-logo.js first)
  */
 
 const { spawnSync } = require('child_process');
 const path = require('path');
 const fs = require('fs');
 
-const LOGO   = path.resolve(__dirname, '../logo_watermark.png');
-const SIZE   = 120;   // px — diameter of logo in video
-const OPACITY = 0.5;  // 50%
-const MARGIN  = 24;   // px from right and bottom edges
+const STUDIO         = path.resolve(__dirname, '..');
+const LOGO_WEBM      = path.resolve(STUDIO, 'logo_animated_overlay.webm');
+const LOGO_PNG       = path.resolve(STUDIO, 'logo_watermark.png');
+const SIZE           = 190;   // px — matches the 190px rendered logo diameter
+const MARGIN         = 35;    // px from left and top edges
 
 function usage() {
   console.log('Usage: node add-logo.js <input.mp4> <output.mp4>');
@@ -24,33 +29,57 @@ function usage() {
 
 const [,, inputVideo, outputVideo] = process.argv;
 if (!inputVideo || !outputVideo) usage();
-
 if (!fs.existsSync(inputVideo)) { console.error(`Not found: ${inputVideo}`); process.exit(1); }
-if (!fs.existsSync(LOGO)) {
-  console.error('logo_watermark.png not found — run "node render-logo.js" first.');
+
+const useWebm = fs.existsSync(LOGO_WEBM);
+const usePng  = !useWebm && fs.existsSync(LOGO_PNG);
+if (!useWebm && !usePng) {
+  console.error('No logo asset found. Run render-logo-animated.js or render-logo.js first.');
   process.exit(1);
 }
 
+const logoFile = useWebm ? LOGO_WEBM : LOGO_PNG;
 console.log(`Input   : ${inputVideo}`);
-console.log(`Logo    : ${SIZE}px, ${OPACITY * 100}% opacity, bottom-right +${MARGIN}px`);
+console.log(`Logo    : ${path.basename(logoFile)}  (${SIZE}px, top-left +${MARGIN}px)`);
 console.log(`Output  : ${outputVideo}\n`);
 
-// scale logo → set alpha to OPACITY → overlay bottom-right
-// W/H = video dimensions (FFmpeg expands these automatically)
-const filter = [
-  `[1:v]scale=${SIZE}:${SIZE},format=rgba,colorchannelmixer=aa=${OPACITY}[logo]`,
-  `[0:v][logo]overlay=W-w-${MARGIN}:H-h-${MARGIN}`
-].join(';');
+let ffArgs;
+if (useWebm) {
+  // Animated WebM with alpha: loop indefinitely, trim to video length, overlay top-left
+  const filter = [
+    `[1:v]scale=${SIZE}:${SIZE}[logo]`,
+    `[0:v][logo]overlay=${MARGIN}:${MARGIN}`
+  ].join(';');
 
-const result = spawnSync('ffmpeg', [
-  '-y',
-  '-i', inputVideo,
-  '-i', LOGO,
-  '-filter_complex', filter,
-  '-c:v', 'libx264', '-preset', 'fast', '-crf', '18',
-  '-c:a', 'copy',
-  outputVideo
-], { stdio: 'inherit' });
+  ffArgs = [
+    '-y',
+    '-i', inputVideo,
+    '-stream_loop', '-1', '-i', logoFile,
+    '-filter_complex', filter,
+    '-shortest',
+    '-c:v', 'libx264', '-preset', 'fast', '-crf', '18',
+    '-c:a', 'copy',
+    outputVideo
+  ];
+} else {
+  // Static PNG fallback (50% opacity, same position)
+  const filter = [
+    `[1:v]scale=${SIZE}:${SIZE},format=rgba,colorchannelmixer=aa=0.5[logo]`,
+    `[0:v][logo]overlay=${MARGIN}:${MARGIN}`
+  ].join(';');
+
+  ffArgs = [
+    '-y',
+    '-i', inputVideo,
+    '-i', logoFile,
+    '-filter_complex', filter,
+    '-c:v', 'libx264', '-preset', 'fast', '-crf', '18',
+    '-c:a', 'copy',
+    outputVideo
+  ];
+}
+
+const result = spawnSync('ffmpeg', ffArgs, { stdio: 'inherit' });
 
 if (result.status === 0) {
   const mb = (fs.statSync(outputVideo).size / 1024 / 1024).toFixed(1);

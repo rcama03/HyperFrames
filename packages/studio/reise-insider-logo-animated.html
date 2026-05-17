@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<title>Reise Insider — Animated Logo Overlay</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:transparent;width:1920px;height:1080px;overflow:hidden}
+  canvas{display:block}
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<script>
+/* =====================================================
+   REISE INSIDER — Animated Logo Overlay
+   1920×1080 transparent canvas · logo top-left
+   20-second seamless loop · all periods divide 20s
+   ===================================================== */
+
+var W=1920, H=1080;
+var cv=document.getElementById('c');
+var g=cv.getContext('2d');
+cv.width=W; cv.height=H;
+
+// ── Logo geometry ──────────────────────────────────
+var CX=130, CY=130;   // centre — 35px from each edge after ring
+var RO=95;            // outer ring radius  → diameter 190px
+var RI=Math.round(RO*0.582);   // inner ring  ≈ 55px
+var RT=Math.round((RO+RI)/2);  // text arc midpoint ≈ 75px
+
+// ── Arc text (proven correct: direct world-coord) ──
+function arcText(text, r, centerAngle, isBottom, col, fontSize, spacing) {
+  g.save();
+  g.font='900 '+fontSize+'px "Arial Black",Arial,sans-serif';
+  g.textAlign='center'; g.textBaseline='middle'; g.fillStyle=col;
+
+  var widths=[], totalW=0;
+  for(var i=0;i<text.length;i++){
+    var w=g.measureText(text[i]).width; widths.push(w); totalW+=w;
+  }
+  totalW+=(text.length-1)*spacing;
+  var totalAng=totalW/r, cumW=0;
+
+  for(var i=0;i<text.length;i++){
+    var charMid=cumW+widths[i]/2, theta;
+    if(!isBottom) theta=(centerAngle-totalAng/2)+charMid/r;
+    else          theta=(centerAngle+totalAng/2)-charMid/r;
+    var px=CX+r*Math.cos(theta), py=CY+r*Math.sin(theta);
+    var rot=isBottom?theta-Math.PI/2:theta+Math.PI/2;
+    g.save(); g.translate(px,py); g.rotate(rot);
+    g.fillText(text[i],0,0); g.restore();
+    cumW+=widths[i]+spacing;
+  }
+  g.restore();
+}
+
+// ── Diamond helper ─────────────────────────────────
+function diamond(x,y,sz,col){
+  g.save(); g.translate(x,y);
+  g.beginPath(); g.moveTo(0,-sz); g.lineTo(sz,0); g.lineTo(0,sz); g.lineTo(-sz,0);
+  g.closePath(); g.fillStyle=col; g.fill(); g.restore();
+}
+
+// ── Aircraft ───────────────────────────────────────
+function aircraft(sc, glowAmt){
+  g.save(); g.translate(CX,CY); g.rotate(-Math.PI/16); g.scale(sc,sc);
+  g.shadowColor='#0055ff'; g.shadowBlur=glowAmt; g.fillStyle='#ffffff';
+  g.beginPath(); g.moveTo(22,0); g.lineTo(-16,-5); g.lineTo(-16,5); g.closePath(); g.fill();
+  g.beginPath(); g.moveTo(4,0); g.lineTo(-10,-26); g.lineTo(-16,-5); g.closePath(); g.fill();
+  g.beginPath(); g.moveTo(4,0); g.lineTo(-10,26);  g.lineTo(-16,5);  g.closePath(); g.fill();
+  g.beginPath(); g.moveTo(-16,-5); g.lineTo(-24,-14); g.lineTo(-20,0);
+                 g.lineTo(-24,14); g.lineTo(-16,5); g.closePath(); g.fill();
+  g.restore();
+}
+
+// ── Animation periods (all divide 20s for seamless loop) ──
+// glow pulse  : 4s  (5 cycles in 20s)
+// dot orbit   : 20s (1 cycle in 20s)
+// breathe     : 4s  (5 cycles in 20s)
+// tick shimmer: 10s (2 cycles in 20s) — subtle glint on outer ring
+// scanner     : 20s (1 cycle in 20s)
+
+var LOOP = 20;   // seconds per loop
+
+function draw(ts){
+  var T = (ts / 1000) % LOOP;   // time within current loop (0–20s)
+
+  // Animation values
+  var glow     = 0.5 + 0.5 * Math.sin(T * 2*Math.PI / 4);   // 0–1, 4s
+  var dotAngle = T * 2*Math.PI / 20;                          // CCW full rotation, 20s
+  var breathe  = 1.0 + 0.028 * Math.sin(T * 2*Math.PI / 4); // ±2.8%, 4s
+  var scanner  = T * 2*Math.PI / 20;                          // scanner angle, 20s
+
+  g.clearRect(0,0,W,H);
+
+  // ── Ring background fill (dark circle inside outer ring) ──
+  var fill=g.createRadialGradient(CX,CY,0,CX,CY,RO);
+  fill.addColorStop(0,  '#101e38');
+  fill.addColorStop(0.65,'#0a1628');
+  fill.addColorStop(1,  '#060e1c');
+  g.beginPath(); g.arc(CX,CY,RO,0,Math.PI*2); g.fillStyle=fill; g.fill();
+
+  // ── Subtle scanner beam (rotating arc glow inside ring) ──
+  g.save(); g.translate(CX,CY); g.rotate(scanner);
+  for(var sa=0; sa<Math.PI*0.55; sa+=0.025){
+    var fade=1-sa/(Math.PI*0.55);
+    g.beginPath(); g.moveTo(0,0); g.arc(0,0,RI*0.88,-sa,-sa+0.03); g.closePath();
+    g.fillStyle='rgba(0,200,130,'+(0.06*fade*glow)+')'; g.fill();
+  }
+  g.restore();
+
+  // ── Outer tick marks ──────────────────────────────
+  for(var a=0; a<360; a+=5){
+    var rad=a*Math.PI/180;
+    var isQ=(a%90===0), is30=(a%30===0);
+    var tLen=isQ?5:is30?3:2;
+    g.beginPath();
+    g.moveTo(CX+Math.cos(rad)*(RO-tLen), CY+Math.sin(rad)*(RO-tLen));
+    g.lineTo(CX+Math.cos(rad)*RO,        CY+Math.sin(rad)*RO);
+    g.strokeStyle=isQ?'rgba(255,210,0,0.9)':'rgba(0,200,255,0.35)';
+    g.lineWidth=isQ?1.5:0.6; g.stroke();
+  }
+
+  // ── Outer ring — multi-layer pulsing glow ─────────
+  var outerBlur = 12 + 10*glow;
+  // soft gold glow
+  g.save(); g.shadowColor='#ffd700'; g.shadowBlur=outerBlur;
+  g.beginPath(); g.arc(CX,CY,RO,0,Math.PI*2);
+  g.strokeStyle='rgba(255,210,0,0.18)'; g.lineWidth=8; g.stroke();
+  g.restore();
+  // main gradient stroke
+  var og=g.createLinearGradient(CX-RO,CY,CX+RO,CY);
+  og.addColorStop(0,'#00ccff'); og.addColorStop(0.45,'#ffd700');
+  og.addColorStop(0.55,'#ffd700'); og.addColorStop(1,'#00ccff');
+  g.save(); g.shadowColor='#ffd700'; g.shadowBlur=outerBlur*0.7;
+  g.beginPath(); g.arc(CX,CY,RO,0,Math.PI*2);
+  g.strokeStyle=og; g.lineWidth=3; g.stroke();
+  g.restore();
+  // thin inner highlight
+  g.save(); g.shadowColor='#ffffff'; g.shadowBlur=4;
+  g.beginPath(); g.arc(CX,CY,RO-2,0,Math.PI*2);
+  g.strokeStyle='rgba(255,255,255,0.12)'; g.lineWidth=1; g.stroke();
+  g.restore();
+
+  // ── REISE top arc (stationary text) ───────────────
+  g.save(); g.shadowColor='#00aaff'; g.shadowBlur=6+4*glow;
+  arcText('REISE',   RT, -Math.PI/2, false, '#ffffff', Math.round(RT*0.27), 5);
+  g.restore();
+
+  // ── INSIDER bottom arc (stationary text) ──────────
+  g.save(); g.shadowColor='#ffaa00'; g.shadowBlur=7+4*glow;
+  arcText('INSIDER', RT,  Math.PI/2, true,  '#ffd700', Math.round(RT*0.23), 3);
+  g.restore();
+
+  // ── Diamond separators ────────────────────────────
+  g.save(); g.shadowColor='#ffd700'; g.shadowBlur=5;
+  diamond(CX+RT, CY, 2.5, '#ffd700');
+  diamond(CX-RT, CY, 2.5, '#ffd700');
+  g.restore();
+
+  // ── Inner ring fill ───────────────────────────────
+  var iF=g.createRadialGradient(CX,CY,0,CX,CY,RI);
+  iF.addColorStop(0,'#0e1e38'); iF.addColorStop(0.7,'#080f1c'); iF.addColorStop(1,'#050b15');
+  g.beginPath(); g.arc(CX,CY,RI,0,Math.PI*2); g.fillStyle=iF; g.fill();
+
+  // ── Inner ring stroke (pulsing cyan) ──────────────
+  var innerBlur = 8 + 8*glow;
+  g.save(); g.shadowColor='#00ccff'; g.shadowBlur=innerBlur;
+  g.beginPath(); g.arc(CX,CY,RI,0,Math.PI*2);
+  g.strokeStyle='#00ccff'; g.lineWidth=2; g.stroke();
+  g.restore();
+
+  // ── Inner dot nodes — orbiting CCW ────────────────
+  [0,90,180,270].forEach(function(base){
+    var rad = base*Math.PI/180 - dotAngle;   // CCW
+    var dx=CX+Math.cos(rad)*RI, dy=CY+Math.sin(rad)*RI;
+    g.save(); g.shadowColor='#00ffcc'; g.shadowBlur=6;
+    g.beginPath(); g.arc(dx,dy,2.5,0,Math.PI*2);
+    g.fillStyle='#00ccff'; g.fill(); g.restore();
+  });
+
+  // ── Aircraft (breathing scale + sync glow) ─────────
+  var acScale = RI*0.034 * breathe;
+  var acGlow  = 14 + 8*glow;
+  aircraft(acScale, acGlow);
+
+  // ── Soft vignette inside outer ring (depth) ────────
+  var vig=g.createRadialGradient(CX,CY,RI*0.6,CX,CY,RO);
+  vig.addColorStop(0,'rgba(0,0,0,0)'); vig.addColorStop(1,'rgba(0,0,0,0.35)');
+  g.beginPath(); g.arc(CX,CY,RO,0,Math.PI*2); g.fillStyle=vig; g.fill();
+
+  requestAnimationFrame(draw);
+}
+
+requestAnimationFrame(draw);
+</script>
+</body>
+</html>

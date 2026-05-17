@@ -59,6 +59,7 @@ if (captionFile && !fs.existsSync(captionFile)) {
 
 const SCRIPTS    = __dirname;
 const STUDIO     = path.resolve(SCRIPTS, '..');
+const LOGO_WEBM  = path.resolve(STUDIO, 'logo_animated_overlay.webm');
 const LOGO_PNG   = path.resolve(STUDIO, 'logo_watermark.png');
 const CARD_WEBM  = path.resolve(STUDIO, 'subscribe_card_overlay.webm');
 
@@ -113,9 +114,15 @@ if (captionFile) console.log(`  Captions: ${captionFile}`);
 // ── Ensure rendered assets exist ──────────────────
 
 console.log('\n[Assets]');
-need(LOGO_PNG,  'render-logo.js');
+// Prefer animated WebM logo; fall back to static PNG
+if (!fs.existsSync(LOGO_WEBM) && !fs.existsSync(LOGO_PNG)) {
+  need(LOGO_WEBM, 'render-logo-animated.js');
+} else if (!fs.existsSync(LOGO_WEBM)) {
+  console.log('  (tip: run render-logo-animated.js for the animated logo)');
+}
 need(CARD_WEBM, 'render-card.js');
-console.log('  ✓ logo_watermark.png');
+const logoAsset = fs.existsSync(LOGO_WEBM) ? 'logo_animated_overlay.webm' : 'logo_watermark.png';
+console.log(`  ✓ ${logoAsset}`);
 console.log('  ✓ subscribe_card_overlay.webm');
 
 // ── Step 1 — Background music with auto-ducking ───
@@ -153,27 +160,44 @@ run('add-music', [
 ]);
 console.log('  ✓ Music added with ducking + fades');
 
-// ── Step 2 — Logo watermark ───────────────────────
+// ── Step 2 — Logo overlay (animated or static) ───
 
 const tmp2 = tmpFile('2_logo');
-const LOGO_SIZE  = 120;
-const LOGO_ALPHA = 0.5;
-const MARGIN     = 24;
+const LOGO_SIZE  = 190;   // px — matches the 190px logo diameter
+const LOGO_MARGIN = 35;   // px from top-left edges
 
 console.log('\n' + SEP);
-console.log(`  Step 2/3 — Logo watermark`);
-console.log(`  ${LOGO_SIZE}px · ${LOGO_ALPHA*100}% opacity · bottom-right corner`);
+console.log(`  Step 2/3 — Logo overlay`);
 
-run('add-logo', [
-  '-y',
-  '-i', tmp1, '-i', LOGO_PNG,
-  '-filter_complex',
-  `[1:v]scale=${LOGO_SIZE}:${LOGO_SIZE},format=rgba,colorchannelmixer=aa=${LOGO_ALPHA}[logo];[0:v][logo]overlay=W-w-${MARGIN}:H-h-${MARGIN}`,
-  '-c:v', 'libx264', '-preset', 'fast', '-crf', '18',
-  '-c:a', 'copy',
-  tmp2
-]);
-console.log('  ✓ Logo watermark added');
+let logoArgs;
+if (fs.existsSync(LOGO_WEBM)) {
+  console.log(`  Animated WebM · ${LOGO_SIZE}px · top-left +${LOGO_MARGIN}px`);
+  logoArgs = [
+    '-y',
+    '-i', tmp1,
+    '-stream_loop', '-1', '-i', LOGO_WEBM,
+    '-filter_complex',
+    `[1:v]scale=${LOGO_SIZE}:${LOGO_SIZE}[logo];[0:v][logo]overlay=${LOGO_MARGIN}:${LOGO_MARGIN}`,
+    '-shortest',
+    '-c:v', 'libx264', '-preset', 'fast', '-crf', '18',
+    '-c:a', 'copy',
+    tmp2
+  ];
+} else {
+  console.log(`  Static PNG · ${LOGO_SIZE}px · 50% opacity · top-left +${LOGO_MARGIN}px`);
+  logoArgs = [
+    '-y',
+    '-i', tmp1, '-i', LOGO_PNG,
+    '-filter_complex',
+    `[1:v]scale=${LOGO_SIZE}:${LOGO_SIZE},format=rgba,colorchannelmixer=aa=0.5[logo];[0:v][logo]overlay=${LOGO_MARGIN}:${LOGO_MARGIN}`,
+    '-c:v', 'libx264', '-preset', 'fast', '-crf', '18',
+    '-c:a', 'copy',
+    tmp2
+  ];
+}
+
+run('add-logo', logoArgs);
+console.log('  ✓ Logo overlay added');
 
 // ── Step 3 — Subscribe card ───────────────────────
 
