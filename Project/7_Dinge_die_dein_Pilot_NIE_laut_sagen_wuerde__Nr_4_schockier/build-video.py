@@ -1,24 +1,22 @@
+# -*- coding: utf-8 -*-
 """
 build-video.py  --  HyperFrames local assembler
 Usage:
-    python3 build-video.py "C:\\Videos\\your-original-video.mp4"
-
-Requirements:
-    - ffmpeg in PATH  (https://ffmpeg.org/download.html)
-    - This script lives next to timing.json and the cards/ folder
-      (clone https://github.com/rcama03/HyperFrames and cd into
-       projects/pilot-secrets-de)
+    python build-video.py "C:\\Videos\\your-original-video.mp4"
 
 Output:
-    output_final.mp4  --  YouTube-ready, CRF 18, audio zero-loss
+    output_final.mp4  -- YouTube-ready, CRF 18, audio zero-loss,
+                         word-by-word gold karaoke subtitles
 """
 
 import json
 import os
+import re
 import shutil
 import subprocess
 import sys
 
+# ── ffmpeg auto-detect ────────────────────────────────────────────────────────
 FFMPEG_HINT  = r"C:\Users\admin\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.1-full_build\bin\ffmpeg.exe"
 FFPROBE_HINT = r"C:\Users\admin\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.1-full_build\bin\ffprobe.exe"
 
@@ -34,18 +32,32 @@ def find_bin(name, hint):
 FFMPEG  = find_bin("ffmpeg",  FFMPEG_HINT)
 FFPROBE = find_bin("ffprobe", FFPROBE_HINT)
 
+# ── shared style (packages/shared/hf_style.py) ───────────────────────────────
+BASE_DIR    = os.path.dirname(os.path.abspath(__file__))
+SHARED_DIR  = os.path.normpath(os.path.join(BASE_DIR, "..", "..", "..", "packages", "shared"))
+sys.path.insert(0, SHARED_DIR)
+from hf_style import build_ass
 
-def run(cmd, desc=""):
-    print(("[ffmpeg] " + desc) if desc else "[ffmpeg] " + " ".join(str(c) for c in cmd[:4]) + " ...")
-    result = subprocess.run(cmd, capture_output=True, text=True)
-    if result.returncode != 0:
-        print("ERROR:\n" + result.stderr[-2000:])
-        sys.exit(1)
+
+# ── script parser ─────────────────────────────────────────────────────────────
+def parse_script(script_path):
+    """Return list of {scene_id, text} from script_german.txt."""
+    with open(script_path, encoding="utf-8") as f:
+        content = f.read()
+    blocks = re.split(r"\[SZENE\s+(\d+)[^\]]*\]", content)
+    scenes = {}
+    i = 1
+    while i < len(blocks) - 1:
+        scene_id = int(blocks[i])
+        text     = blocks[i + 1].strip()
+        scenes[scene_id] = text
+        i += 2
+    return scenes
 
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python3 build-video.py <path-to-original-video.mp4>")
+        print("Usage: python build-video.py <path-to-original-video.mp4>")
         sys.exit(1)
 
     src_video = os.path.abspath(sys.argv[1])
@@ -53,89 +65,76 @@ def main():
         print("File not found: " + src_video)
         sys.exit(1)
 
-    base_dir   = os.path.dirname(os.path.abspath(__file__))
-    timing_f   = os.path.join(base_dir, "timing.json")
-    audio_src  = os.path.join(base_dir, "full_voiceover.mp3")
-    output     = os.path.join(base_dir, "output_final.mp4")
+    timing_f   = os.path.join(BASE_DIR, "timing.json")
+    script_f   = os.path.join(BASE_DIR, "script_german.txt")
+    audio_src  = os.path.join(BASE_DIR, "full_voiceover.mp3")
+    ass_path   = os.path.join(BASE_DIR, "subtitles.ass")
+    output     = os.path.join(BASE_DIR, "output_final.mp4")
 
-    with open(timing_f, encoding="utf-8") as f:
-        scenes = json.load(f)
-
-    # Probe source video resolution
+    # Probe resolution
     probe = subprocess.run(
         [FFPROBE, "-v", "quiet", "-select_streams", "v:0",
-         "-show_entries", "stream=width,height",
-         "-of", "csv=p=0", src_video],
+         "-show_entries", "stream=width,height", "-of", "csv=p=0", src_video],
         capture_output=True, text=True
     )
     if probe.returncode != 0 or not probe.stdout.strip():
-        print("Could not probe video resolution -- is ffprobe installed?")
+        print("Could not probe video -- is ffprobe installed?")
         sys.exit(1)
     width, height = probe.stdout.strip().split(",")
     print("Source resolution: {}x{}".format(width, height))
 
-    # Build the complex filtergraph:
-    #   For each scene: overlay its card PNG during [start, end],
-    #   scaled to match source resolution, alpha-blended at 0.82 opacity.
-    filter_parts = []
-    inputs       = ["-i", src_video, "-i", audio_src]
+    # Build subtitle data
+    with open(timing_f, encoding="utf-8") as f:
+        timing = json.load(f)
+    script_texts = parse_script(script_f)
 
-    for i, sc in enumerate(scenes):
-        card_path = os.path.join(base_dir, sc["card_png"])
-        inputs += ["-i", card_path]
+    scenes_for_ass = []
+    for sc in timing:
+        text = script_texts.get(sc["scene_id"], "")
+        scenes_for_ass.append({
+            "text":  text,
+            "start": sc["start"],
+            "end":   sc["end"],
+        })
 
-    # Input 0 = video, 1 = audio, 2..N+1 = card PNGs
-    # Chain overlays sequentially: v0 -> overlay(card2) -> overlay(card3) -> ...
-    chain = "[0:v]"
-    for i, sc in enumerate(scenes):
-        card_idx = i + 2  # inputs offset
-        start    = sc["start"]
-        end      = sc["end"]
-        next_lbl = "[vout]" if i == len(scenes) - 1 else "[v{}]".format(i + 1)
-        prev_lbl = chain if i == 0 else "[v{}]".format(i)
-        # Scale card to source res, then overlay with enable window
-        filter_parts.append(
-            "[{}:v]scale={}:{},format=rgba[card{}]".format(
-                card_idx, width, height, i
-            )
-        )
-        filter_parts.append(
-            "{}[card{}]overlay=0:0:enable='between(t,{},{})'{}".format(
-                prev_lbl, i, start, end, next_lbl
-            )
-        )
-        chain = next_lbl  # not used after last, but harmless
+    ass_content = build_ass(scenes_for_ass, width=int(width), height=int(height))
+    with open(ass_path, "w", encoding="utf-8") as f:
+        f.write(ass_content)
+    print("Subtitles written -> subtitles.ass")
 
-    filtergraph = ";".join(filter_parts)
+    # FFmpeg: burn subtitles, swap audio
+    # Use forward slashes for ass path on Windows (ffmpeg requirement)
+    ass_ff = ass_path.replace("\\", "/").replace(":", "\\:")
 
-    cmd = (
-        [FFMPEG, "-y"]
-        + inputs
-        + [
-            "-filter_complex", filtergraph,
-            "-map", "[vout]",
-            "-map", "1:a",          # use provided voiceover
-            "-c:v", "libx264",
-            "-crf", "18",
-            "-preset", "slow",
-            "-pix_fmt", "yuv420p",  # YouTube compatibility
-            "-c:a", "copy",         # zero-loss audio
-            "-movflags", "+faststart",
-            output,
-        ]
-    )
+    cmd = [
+        FFMPEG, "-y",
+        "-i", src_video,
+        "-i", audio_src,
+        "-vf", "ass='{}'".format(ass_ff),
+        "-map", "0:v",
+        "-map", "1:a",
+        "-c:v", "libx264",
+        "-crf", "18",
+        "-preset", "slow",
+        "-pix_fmt", "yuv420p",
+        "-c:a", "copy",
+        "-movflags", "+faststart",
+        output,
+    ]
 
     print("\nBuilding final video...")
     print("  Source : " + src_video)
     print("  Audio  : " + audio_src)
     print("  Output : " + output)
-    print("  CRF    : 18 (near-lossless)")
-    print()
+    print("  Style  : Montserrat Bold, gold karaoke, CRF 18\n")
 
-    run(cmd, "compositing {} scenes onto video".format(len(scenes)))
+    result = subprocess.run(cmd, capture_output=True, text=True)
+    if result.returncode != 0:
+        print("ERROR:\n" + result.stderr[-3000:])
+        sys.exit(1)
+
     size_mb = os.path.getsize(output) / 1024 / 1024
-    print("\nDone!  output_final.mp4  ({:.1f} MB)".format(size_mb))
-    print("Ready to upload to YouTube.")
+    print("Done!  output_final.mp4  ({:.1f} MB)  -- ready for YouTube.".format(size_mb))
 
 
 if __name__ == "__main__":
