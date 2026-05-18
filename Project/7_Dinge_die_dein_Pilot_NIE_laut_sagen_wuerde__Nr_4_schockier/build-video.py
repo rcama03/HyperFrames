@@ -95,7 +95,7 @@ def main():
         prev_lbl = chain if i == 0 else "[v{}]".format(i)
         # Scale card to source res, then overlay with enable window
         filter_parts.append(
-            "[{}:v]scale={}:{},format=rgba,colorchannelmixer=aa=0.82[card{}]".format(
+            "[{}:v]scale={}:{},format=rgba[card{}]".format(
                 card_idx, width, height, i
             )
         )
