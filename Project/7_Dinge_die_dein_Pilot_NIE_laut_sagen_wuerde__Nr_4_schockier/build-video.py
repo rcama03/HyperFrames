@@ -100,7 +100,7 @@ def main():
             )
         )
         filter_parts.append(
-            "{}[card{}]overlay=0:0:enable='between(t,{},{}){}".format(
+            "{}[card{}]overlay=0:0:enable='between(t,{},{})'{}".format(
                 prev_lbl, i, start, end, next_lbl
             )
         )
