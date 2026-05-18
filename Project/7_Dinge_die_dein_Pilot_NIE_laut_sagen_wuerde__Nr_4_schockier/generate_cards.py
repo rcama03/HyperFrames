@@ -23,8 +23,8 @@ SCENES = [
 ]
 
 W, H        = 1920, 1080
-PANEL_H     = 250
-PANEL_ALPHA = 210
+PANEL_H     = 200
+PANEL_ALPHA = 200
 ACCENT      = (255, 180, 0, 255)
 TEXT_WHITE  = (255, 255, 255, 255)
 TEXT_MUTED  = (180, 190, 210, 255)
@@ -49,19 +49,17 @@ def draw_card(scene, out_path):
     img  = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     draw = ImageDraw.Draw(img)
 
-    panel_top = H - PANEL_H
-
-    # Semi-transparent dark bottom panel
+    # Semi-transparent dark TOP panel (captions live at bottom -- top is always free)
     panel = Image.new("RGBA", (W, PANEL_H), PANEL_COLOR)
-    img.alpha_composite(panel, (0, panel_top))
+    img.alpha_composite(panel, (0, 0))
 
-    # Amber accent line at top of panel
-    draw.rectangle([(0, panel_top), (W, panel_top + 5)], fill=ACCENT)
+    # Amber accent line at bottom edge of panel
+    draw.rectangle([(0, PANEL_H - 5), (W, PANEL_H)], fill=ACCENT)
 
     # Badge circle on the left
     if scene["badge"]:
         cx = 110
-        cy = panel_top + PANEL_H // 2
+        cy = PANEL_H // 2
         r  = 56
         draw.ellipse([(cx - r, cy - r), (cx + r, cy + r)], fill=ACCENT)
         f_b = load_font(44, bold=True)
@@ -69,20 +67,20 @@ def draw_card(scene, out_path):
         text_x = cx + r + 44
     else:
         f_lbl = load_font(28)
-        draw.text((80, panel_top + 18), scene["label"], font=f_lbl, fill=ACCENT)
+        draw.text((80, 14), scene["label"], font=f_lbl, fill=ACCENT)
         text_x = 80
 
     # Headline
-    f_h     = load_font(60, bold=True)
-    wrapped = textwrap.fill(scene["headline"], width=40)
-    hy      = panel_top + 30 if not scene["badge"] else panel_top + 18
+    f_h     = load_font(56, bold=True)
+    wrapped = textwrap.fill(scene["headline"], width=44)
+    hy      = 14 if not scene["badge"] else 16
     draw.text((text_x, hy), wrapped, font=f_h, fill=TEXT_WHITE)
 
     # Sub-line
-    f_s   = load_font(36)
+    f_s   = load_font(34)
     lines = wrapped.count("\n") + 1
     bbox  = draw.textbbox((0, 0), "Ag", font=f_h)
-    sub_y = hy + (bbox[3] - bbox[1]) * lines + 14
+    sub_y = hy + (bbox[3] - bbox[1]) * lines + 10
     draw.text((text_x, sub_y), scene["sub"], font=f_s, fill=TEXT_MUTED)
 
     # Save with alpha channel preserved
