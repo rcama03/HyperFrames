@@ -15,8 +15,24 @@ Output:
 
 import json
 import os
+import shutil
 import subprocess
 import sys
+
+FFMPEG_HINT  = r"C:\Users\admin\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.1-full_build\bin\ffmpeg.exe"
+FFPROBE_HINT = r"C:\Users\admin\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.1-full_build\bin\ffprobe.exe"
+
+def find_bin(name, hint):
+    if os.path.exists(hint):
+        return hint
+    found = shutil.which(name)
+    if found:
+        return found
+    print("ERROR: {} not found. Install ffmpeg and add it to PATH.".format(name))
+    sys.exit(1)
+
+FFMPEG  = find_bin("ffmpeg",  FFMPEG_HINT)
+FFPROBE = find_bin("ffprobe", FFPROBE_HINT)
 
 
 def run(cmd, desc=""):
@@ -47,7 +63,7 @@ def main():
 
     # Probe source video resolution
     probe = subprocess.run(
-        ["ffprobe", "-v", "quiet", "-select_streams", "v:0",
+        [FFPROBE, "-v", "quiet", "-select_streams", "v:0",
          "-show_entries", "stream=width,height",
          "-of", "csv=p=0", src_video],
         capture_output=True, text=True
@@ -93,7 +109,7 @@ def main():
     filtergraph = ";".join(filter_parts)
 
     cmd = (
-        ["ffmpeg", "-y"]
+        [FFMPEG, "-y"]
         + inputs
         + [
             "-filter_complex", filtergraph,
