@@ -1,34 +1,43 @@
 # -*- coding: utf-8 -*-
 """
-Generates transparent 1920x1080 card PNGs for pilot-secrets-de.
-Only the bottom panel has colour -- everything else is fully transparent
-so the background video shows through.
+Generates glassmorphism info-card PNGs for each scene.
+Cards appear bottom-left, styled like the reference powerbank video:
+  - Dark semi-transparent background, rounded corners
+  - Amber left accent bar + amber badge label
+  - Large white stat (or description) below the badge
 """
 from PIL import Image, ImageDraw, ImageFont
-import json, os, textwrap
+import json, os
 
 TOTAL_DURATION = 149.88
+W, H = 1280, 720   # match source video resolution
+
+# Card geometry (tuned to 1280x720)
+CARD_X      = 15
+CARD_Y      = 460   # sits above caption zone
+CARD_W      = 200
+CARD_H      = 82
+CARD_RADIUS = 7
+ACCENT_W    = 4     # amber left bar width
+
+# Colors
+BG          = (8, 10, 20, 215)       # dark navy, semi-transparent
+AMBER       = (255, 180, 0, 255)
+WHITE       = (255, 255, 255, 255)
+MUTED       = (180, 190, 210, 220)
 
 SCENES = [
-    {"id": 1,  "label": "HOOK",  "words": 22, "badge": None, "headline": "Dein Pilot weiss, dass ein Teil defekt ist", "sub": "-- und fliegt trotzdem."},
-    {"id": 2,  "label": "#1",   "words": 31, "badge": "01", "headline": "Minimum Equipment List",                     "sub": "Bis zu 70 defekte Teile sind erlaubt."},
-    {"id": 3,  "label": "#2",   "words": 30, "badge": "02", "headline": "Etwas holprig",                              "sub": "Pilot hat selbst Angst -- sagt es nicht."},
-    {"id": 4,  "label": "#3",   "words": 27, "badge": "03", "headline": "Nur 7 Minuten manuelle Steuerung",           "sub": "Den Rest schlaeft der Pilot ein."},
-    {"id": 5,  "label": "#4",   "words": 34, "badge": "04", "headline": "Verschiedene Gerichte + O2-Maske",           "sub": "Vergiftungsschutz. Nur 12 Min Sauerstoff."},
-    {"id": 6,  "label": "#5",   "words": 29, "badge": "05", "headline": "Geheime Schlafkabinen",                      "sub": "Dein Pilot liegt im Bett."},
-    {"id": 7,  "label": "#6",   "words": 33, "badge": "06", "headline": "Einmal pro Jahr Blitzeinschlag",             "sub": "Schweigen ist Methode."},
-    {"id": 8,  "label": "#7",   "words": 36, "badge": "07", "headline": "Die toedlichen 11 Minuten",                  "sub": "Die meisten Unfaelle -- beim Landen."},
-    {"id": 9,  "label": "OUTRO","words": 33, "badge": None, "headline": "7 Geheimnisse fliegen taeglich mit dir",     "sub": "Die Frage: Wie viele mehr gibt es noch?"},
-    {"id": 10, "label": "CTA",  "words": 32, "badge": None, "headline": "Abonniere diesen Kanal",                     "sub": "Welcher Fakt hat dich am meisten ueberrascht?"},
+    {"id": 1,  "words": 22, "badge": "PILOT",   "stat": "",        "desc": "Defekt — fliegt trotzdem"},
+    {"id": 2,  "words": 31, "badge": "#01",      "stat": "70+",     "desc": "Defekte Teile erlaubt"},
+    {"id": 3,  "words": 30, "badge": "#02",      "stat": "",        "desc": "Etwas holprig"},
+    {"id": 4,  "words": 27, "badge": "#03",      "stat": "7 MIN.",  "desc": "Manuelle Steuerung"},
+    {"id": 5,  "words": 34, "badge": "#04",      "stat": "12 MIN.", "desc": "Sauerstoff"},
+    {"id": 6,  "words": 29, "badge": "#05",      "stat": "",        "desc": "Geheime Schlafkabine"},
+    {"id": 7,  "words": 33, "badge": "#06",      "stat": "1x/Jahr", "desc": "Blitzeinschlag"},
+    {"id": 8,  "words": 36, "badge": "#07",      "stat": "11 MIN.", "desc": "Toedlichste Phase"},
+    {"id": 9,  "words": 33, "badge": "OUTRO",    "stat": "",        "desc": "7 Geheimnisse"},
+    {"id": 10, "words": 32, "badge": "#CTA",     "stat": "",        "desc": "Abonniere & Kommentiere"},
 ]
-
-W, H        = 1920, 1080
-PANEL_H     = 200
-PANEL_ALPHA = 200
-ACCENT      = (255, 180, 0, 255)
-TEXT_WHITE  = (255, 255, 255, 255)
-TEXT_MUTED  = (180, 190, 210, 255)
-PANEL_COLOR = (8, 10, 18, PANEL_ALPHA)
 
 
 def load_font(size, bold=False):
@@ -44,46 +53,53 @@ def load_font(size, bold=False):
     return ImageFont.load_default()
 
 
+def draw_rounded_rect(draw, xy, radius, fill):
+    x1, y1, x2, y2 = xy
+    draw.rectangle([x1 + radius, y1, x2 - radius, y2], fill=fill)
+    draw.rectangle([x1, y1 + radius, x2, y2 - radius], fill=fill)
+    draw.ellipse([x1, y1, x1 + 2*radius, y1 + 2*radius], fill=fill)
+    draw.ellipse([x2 - 2*radius, y1, x2, y1 + 2*radius], fill=fill)
+    draw.ellipse([x1, y2 - 2*radius, x1 + 2*radius, y2], fill=fill)
+    draw.ellipse([x2 - 2*radius, y2 - 2*radius, x2, y2], fill=fill)
+
+
 def draw_card(scene, out_path):
-    # Fully transparent canvas -- video shows through everywhere except the panel
     img  = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     draw = ImageDraw.Draw(img)
 
-    # Semi-transparent dark TOP panel (captions live at bottom -- top is always free)
-    panel = Image.new("RGBA", (W, PANEL_H), PANEL_COLOR)
-    img.alpha_composite(panel, (0, 0))
+    cx1 = CARD_X
+    cy1 = CARD_Y
+    cx2 = CARD_X + CARD_W
+    cy2 = CARD_Y + CARD_H
 
-    # Amber accent line at bottom edge of panel
-    draw.rectangle([(0, PANEL_H - 5), (W, PANEL_H)], fill=ACCENT)
+    # Glass background
+    draw_rounded_rect(draw, (cx1, cy1, cx2, cy2), CARD_RADIUS, BG)
 
-    # Badge circle on the left
-    if scene["badge"]:
-        cx = 110
-        cy = PANEL_H // 2
-        r  = 56
-        draw.ellipse([(cx - r, cy - r), (cx + r, cy + r)], fill=ACCENT)
-        f_b = load_font(44, bold=True)
-        draw.text((cx, cy), scene["badge"], font=f_b, fill=(8, 10, 18, 255), anchor="mm")
-        text_x = cx + r + 44
+    # Amber left accent bar
+    draw.rectangle(
+        [cx1, cy1 + CARD_RADIUS, cx1 + ACCENT_W, cy2 - CARD_RADIUS],
+        fill=AMBER
+    )
+
+    text_x = cx1 + ACCENT_W + 8
+
+    # Badge label (amber, small)
+    f_badge = load_font(14, bold=True)
+    draw.text((text_x, cy1 + 10), scene["badge"], font=f_badge, fill=AMBER)
+
+    # Stat (large, white) OR description (medium, white)
+    if scene["stat"]:
+        f_stat = load_font(36, bold=True)
+        draw.text((text_x, cy1 + 28), scene["stat"], font=f_stat, fill=WHITE)
+        # description below stat (muted, very small)
+        if scene["desc"]:
+            f_desc = load_font(11)
+            draw.text((text_x, cy2 - 18), scene["desc"], font=f_desc, fill=MUTED)
     else:
-        f_lbl = load_font(28)
-        draw.text((80, 14), scene["label"], font=f_lbl, fill=ACCENT)
-        text_x = 80
+        # No stat — show description in medium text
+        f_desc = load_font(16, bold=True)
+        draw.text((text_x, cy1 + 30), scene["desc"], font=f_desc, fill=WHITE)
 
-    # Headline
-    f_h     = load_font(56, bold=True)
-    wrapped = textwrap.fill(scene["headline"], width=44)
-    hy      = 14 if not scene["badge"] else 16
-    draw.text((text_x, hy), wrapped, font=f_h, fill=TEXT_WHITE)
-
-    # Sub-line
-    f_s   = load_font(34)
-    lines = wrapped.count("\n") + 1
-    bbox  = draw.textbbox((0, 0), "Ag", font=f_h)
-    sub_y = hy + (bbox[3] - bbox[1]) * lines + 10
-    draw.text((text_x, sub_y), scene["sub"], font=f_s, fill=TEXT_MUTED)
-
-    # Save with alpha channel preserved
     img.save(out_path, "PNG")
     print("  card -> " + out_path)
 
@@ -94,9 +110,12 @@ def build_timing():
     for s in SCENES:
         dur = round(s["words"] / total_words * TOTAL_DURATION, 3)
         timing.append({
-            "scene_id": s["id"], "label": s["label"],
-            "start": round(t, 3), "duration": dur, "end": round(t + dur, 3),
-            "card_png": "cards/scene_{:02d}.png".format(s["id"]),
+            "scene_id":  s["id"],
+            "label":     s["badge"],
+            "start":     round(t, 3),
+            "duration":  dur,
+            "end":       round(t + dur, 3),
+            "card_png":  "cards/scene_{:02d}.png".format(s["id"]),
         })
         t += dur
     return timing
@@ -107,7 +126,7 @@ if __name__ == "__main__":
     out_dir = os.path.join(base, "cards")
     os.makedirs(out_dir, exist_ok=True)
 
-    print("Generating transparent cards...")
+    print("Generating glassmorphism cards...")
     for s in SCENES:
         draw_card(s, os.path.join(out_dir, "scene_{:02d}.png".format(s["id"])))
 

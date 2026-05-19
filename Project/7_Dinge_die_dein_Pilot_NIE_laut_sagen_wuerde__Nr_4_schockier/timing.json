@@ -1,7 +1,7 @@
 [
   {
     "scene_id": 1,
-    "label": "HOOK",
+    "label": "PILOT",
     "start": 0.0,
     "duration": 10.741,
     "end": 10.741,
@@ -9,7 +9,7 @@
   },
   {
     "scene_id": 2,
-    "label": "#1",
+    "label": "#01",
     "start": 10.741,
     "duration": 15.134,
     "end": 25.875,
@@ -17,7 +17,7 @@
   },
   {
     "scene_id": 3,
-    "label": "#2",
+    "label": "#02",
     "start": 25.875,
     "duration": 14.646,
     "end": 40.521,
@@ -25,7 +25,7 @@
   },
   {
     "scene_id": 4,
-    "label": "#3",
+    "label": "#03",
     "start": 40.521,
     "duration": 13.182,
     "end": 53.703,
@@ -33,7 +33,7 @@
   },
   {
     "scene_id": 5,
-    "label": "#4",
+    "label": "#04",
     "start": 53.703,
     "duration": 16.599,
     "end": 70.302,
@@ -41,7 +41,7 @@
   },
   {
     "scene_id": 6,
-    "label": "#5",
+    "label": "#05",
     "start": 70.302,
     "duration": 14.158,
     "end": 84.46,
@@ -49,7 +49,7 @@
   },
   {
     "scene_id": 7,
-    "label": "#6",
+    "label": "#06",
     "start": 84.46,
     "duration": 16.111,
     "end": 100.571,
@@ -57,7 +57,7 @@
   },
   {
     "scene_id": 8,
-    "label": "#7",
+    "label": "#07",
     "start": 100.571,
     "duration": 17.576,
     "end": 118.147,
@@ -73,7 +73,7 @@
   },
   {
     "scene_id": 10,
-    "label": "CTA",
+    "label": "#CTA",
     "start": 134.258,
     "duration": 15.623,
     "end": 149.881,
