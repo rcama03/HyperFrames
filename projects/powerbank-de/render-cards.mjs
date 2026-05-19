@@ -20,8 +20,8 @@ const cards = [
   { id: 'key-powerbank',inTime: 16,  outTime: 27,  tag: 'WICHTIG',  text: 'Powerbank kann deinen Flug ruinieren', type: 'key' },
   { id: 'stat-100wh',   inTime: 34,  outTime: 44,  label: 'IATA LIMIT', value: '100', sub: 'Wh pro Powerbank', icon: '⚡', type: 'stat' },
   { id: 'key-noexcept', inTime: 50,  outTime: 63,  tag: 'REGELUNG', text: 'Keine Ausnahmen. Kein Ermessen.', type: 'key' },
-  { id: 'key-danger',   inTime: 69,  outTime: 80,  tag: 'GEFAHR',   text: 'Lithium-Ionen-Akkus können im Flug in Flammen aufgehen', type: 'key' },
-  { id: 'comp-zone',    inTime: 85,  outTime: 99,  type: 'comp' },
+  { id: 'key-danger',   inTime: 69,  outTime: 80,  tag: 'GEFAHR',   text: 'Lithium-Ionen-Akkus können im Flug in Flammen aufgehen', type: 'danger' },
+  { id: 'comp-zone',    inTime: 85,  outTime: 99,  type: 'zonebar' },
   { id: 'key-formula',  inTime: 104, outTime: 112, tag: 'FORMEL',   text: 'mAh × Volt ÷ 1000 = Wh', type: 'key' },
   { id: 'stat-74wh',    inTime: 113, outTime: 120, label: '20.000 mAh = SICHER', value: '74', sub: 'Wattstunden', icon: '✅', type: 'stat' },
   { id: 'quote-120',    inTime: 122, outTime: 136, type: 'quote',
@@ -30,6 +30,7 @@ const cards = [
   { id: 'stat-800k',    inTime: 141, outTime: 154, label: 'EUROPA / JAHR', value: '800.000', sub: 'Elektronikgeräte beschlagnahmt', icon: '📦', type: 'stat' },
   { id: 'key-tip',      inTime: 159, outTime: 170, tag: 'TIPP',     text: 'Nur Powerbanks <20.000 mAh kaufen', type: 'key' },
   { id: 'stat-5keur',   inTime: 176, outTime: 190, label: 'MAX. STRAFE', value: '5.000', sub: 'Euro bei Verstoß', icon: '⚠️', type: 'stat' },
+  { id: 'fazit',        inTime: 197, outTime: 212, type: 'fazit' },
 ];
 
 const introStrip = { id: 'intro-strip', inTime: 0.3, outTime: 7.9 };
@@ -93,6 +94,87 @@ function buildCardHTML(card) {
       </div>
     </body></html>`;
   }
+  // Effect 4: DANGER card — red accent + red glow border
+  if (card.type === 'danger') {
+    return `<!DOCTYPE html><html><head><meta charset="UTF-8">${base}</head><body>
+      <div class="card" style="width:440px;border:1px solid rgba(255,59,48,0.55);box-shadow:0 0 24px rgba(255,59,48,0.35),0 8px 32px rgba(0,0,0,0.5);">
+        <div class="stripe" style="background:#FF3B30"></div>
+        <div class="inner">
+          <div style="display:inline-block;background:#FF3B30;color:#fff;font-size:10px;font-weight:800;letter-spacing:.12em;padding:3px 10px;border-radius:10px;text-transform:uppercase;margin-bottom:8px">⚠ GEFAHR</div>
+          <div style="height:1px;background:rgba(255,59,48,.3);margin-bottom:8px"></div>
+          <div style="font-size:17px;font-weight:700;color:#FFF;line-height:1.35">${card.text}</div>
+        </div>
+      </div>
+    </body></html>`;
+  }
+
+  // Effect 5: Wh zone bar — horizontal colour-coded fill bars
+  if (card.type === 'zonebar') {
+    return `<!DOCTYPE html><html><head><meta charset="UTF-8">${base}</head><body>
+      <div class="card" style="width:500px">
+        <div class="stripe"></div>
+        <div class="inner" style="padding:14px 18px">
+          <div style="font-size:10px;font-weight:700;letter-spacing:.14em;color:${GOLD};text-transform:uppercase;margin-bottom:10px">WH-ZONEN – DEINE POWERBANK</div>
+          <div style="display:flex;flex-direction:column;gap:8px">
+            <div>
+              <div style="display:flex;justify-content:space-between;margin-bottom:3px">
+                <span style="font-size:11px;font-weight:700;color:#34C759">✔ ERLAUBT</span>
+                <span style="font-size:11px;font-weight:800;color:#FFF">&lt; 100 Wh</span>
+              </div>
+              <div style="height:10px;border-radius:5px;background:rgba(255,255,255,.1);overflow:hidden">
+                <div style="width:50%;height:100%;background:#34C759;border-radius:5px"></div>
+              </div>
+            </div>
+            <div>
+              <div style="display:flex;justify-content:space-between;margin-bottom:3px">
+                <span style="font-size:11px;font-weight:700;color:${GOLD}">⚡ GRAUZONE</span>
+                <span style="font-size:11px;font-weight:800;color:#FFF">100 – 160 Wh</span>
+              </div>
+              <div style="height:10px;border-radius:5px;background:rgba(255,255,255,.1);overflow:hidden">
+                <div style="width:75%;height:100%;background:${GOLD};border-radius:5px"></div>
+              </div>
+            </div>
+            <div>
+              <div style="display:flex;justify-content:space-between;margin-bottom:3px">
+                <span style="font-size:11px;font-weight:700;color:#FF3B30">✖ VERBOTEN</span>
+                <span style="font-size:11px;font-weight:800;color:#FFF">&gt; 160 Wh</span>
+              </div>
+              <div style="height:10px;border-radius:5px;background:rgba(255,255,255,.1);overflow:hidden">
+                <div style="width:100%;height:100%;background:#FF3B30;border-radius:5px"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body></html>`;
+  }
+
+  // Effect 6: Fazit summary card — 3 takeaways with gold checkmarks
+  if (card.type === 'fazit') {
+    return `<!DOCTYPE html><html><head><meta charset="UTF-8">${base}</head><body>
+      <div class="card" style="width:460px">
+        <div class="stripe"></div>
+        <div class="inner">
+          <div style="display:inline-block;background:${GOLD};color:#0D0D1A;font-size:10px;font-weight:800;letter-spacing:.12em;padding:3px 10px;border-radius:10px;text-transform:uppercase;margin-bottom:10px">FAZIT</div>
+          <div style="display:flex;flex-direction:column;gap:8px">
+            <div style="display:flex;align-items:flex-start;gap:8px">
+              <span style="color:${GOLD};font-size:14px;font-weight:800;flex-shrink:0;margin-top:1px">✓</span>
+              <span style="font-size:14px;font-weight:700;color:#FFF;line-height:1.3">Powerbanks &gt;100 Wh? Immer vorher fragen</span>
+            </div>
+            <div style="display:flex;align-items:flex-start;gap:8px">
+              <span style="color:${GOLD};font-size:14px;font-weight:800;flex-shrink:0;margin-top:1px">✓</span>
+              <span style="font-size:14px;font-weight:700;color:#FFF;line-height:1.3">Nur Powerbanks &lt;20.000 mAh kaufen</span>
+            </div>
+            <div style="display:flex;align-items:flex-start;gap:8px">
+              <span style="color:${GOLD};font-size:14px;font-weight:800;flex-shrink:0;margin-top:1px">✓</span>
+              <span style="font-size:14px;font-weight:700;color:#FFF;line-height:1.3">Powerbank immer ins Handgepäck</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body></html>`;
+  }
+
   if (card.type === 'comp') {
     return `<!DOCTYPE html><html><head><meta charset="UTF-8">${base}</head><body>
       <div class="card" style="width:480px">
