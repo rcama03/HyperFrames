@@ -34,7 +34,7 @@ FFPROBE = find_bin("ffprobe", FFPROBE_HINT)
 
 # ── shared style (packages/shared/hf_style.py) ───────────────────────────────
 BASE_DIR    = os.path.dirname(os.path.abspath(__file__))
-SHARED_DIR  = os.path.normpath(os.path.join(BASE_DIR, "..", "..", "..", "packages", "shared"))
+SHARED_DIR  = os.path.normpath(os.path.join(BASE_DIR, "..", "..", "packages", "shared"))
 sys.path.insert(0, SHARED_DIR)
 from hf_style import build_ass
 
