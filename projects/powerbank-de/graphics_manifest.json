@@ -12,9 +12,9 @@
     {
       "id": "stat-2mio",
       "type": "stat",
-      "inTime_s": 2,
-      "outTime_s": 12,
-      "duration_s": 10,
+      "inTime_s": 8,
+      "outTime_s": 15,
+      "duration_s": 7,
       "png_path": "/home/user/HyperFrames/projects/powerbank-de/card-frames/stat-2mio.png"
     },
     {
