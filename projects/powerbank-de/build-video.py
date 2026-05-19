@@ -49,9 +49,8 @@ probe = subprocess.run(
 )
 probe_data = json.loads(probe.stdout)
 video_stream = next(s for s in probe_data["streams"] if s["codec_type"] == "video")
-WIDTH    = video_stream["width"]
-HEIGHT   = video_stream["height"]
-DURATION = float(video_stream.get("duration", 213.1))
+WIDTH  = video_stream["width"]
+HEIGHT = video_stream["height"]
 print(f"Source: {Path(SRC_VIDEO).name}  {WIDTH}×{HEIGHT}")
 
 # ── Build ASS subtitle file (style from shared hf_style.py) ──────────────────
@@ -74,42 +73,15 @@ inputs = ["-i", SRC_VIDEO]
 for ov in all_overlays:
     inputs += ["-i", ov["path"]]
 
-filter_parts = []
+filter_parts = [f"[0:v]ass={ass_path}[subs]"]
+current = "[subs]"
 
-# Captions + gold progress bar burned onto base video
-filter_parts.append(f"[0:v]ass={ass_path}[subtitled]")
-filter_parts.append(
-    f"[subtitled]drawbox=x=0:y=ih-5:w='iw*t/{DURATION:.3f}':h=5"
-    f":color=FFD700@0.85:t=fill[base]"
-)
-current = "[base]"
-
-# Each overlay: fade alpha in/out + slide-up entrance / slide-down exit
 for idx, ov in enumerate(all_overlays):
-    in_t  = ov["inTime"]
-    out_t = ov["outTime"]
-    fade_out_st = (out_t - in_t) - 0.3
-    in_idx = idx + 1
-
-    # Pre-process PNG: fade in alpha over 0.4s, fade out alpha over 0.3s
-    card_label = f"[c{idx}]"
-    filter_parts.append(
-        f"[{in_idx}:v]fade=in:st=0:d=0.4:alpha=1,"
-        f"fade=out:st={fade_out_st:.3f}:d=0.3:alpha=1{card_label}"
-    )
-
-    # Overlay: slide up 12px on entry, slide down 8px on exit
     out_label = "[vout]" if idx == len(all_overlays) - 1 else f"[v{idx}]"
-    y = (
-        f"if(lt(t,{in_t}+0.4),"
-        f"trunc(12*(1-(t-{in_t})/0.4)),"
-        f"if(gt(t,{out_t}-0.3),"
-        f"trunc(8*(t-({out_t}-0.3))/0.3),"
-        f"0))"
-    )
     filter_parts.append(
-        f"{current}{card_label}overlay=x=0:y='{y}':"
-        f"enable='between(t,{in_t},{out_t})':format=auto{out_label}"
+        f"{current}[{idx+1}:v]overlay=0:0:"
+        f"enable='between(t,{ov['inTime']},{ov['outTime']})':"
+        f"format=auto{out_label}"
     )
     current = out_label
 
