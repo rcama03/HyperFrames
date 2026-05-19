@@ -6,10 +6,11 @@ Usage:
 
 Output:
     output_final.mp4 with:
-      - Glassmorphism info cards  (bottom-left, per scene)
-      - Word-by-word gold captions (bottom-centre, in sync with voiceover)
-      - Voiceover audio (zero-loss copy)
-      - CRF 18 (near-lossless video)
+      - Glassmorphism info cards    (bottom-left, per scene)
+      - Word-by-word gold captions  (bottom-centre, synced to voiceover)
+      - Voiceover audio
+      - Background music w/ auto-ducking (drops when voice plays, rises in silence)
+      - Source bitrate preserved
 """
 
 import json, os, re, shutil, subprocess, sys
@@ -64,7 +65,6 @@ def probe_resolution(src):
 
 
 def probe_bitrate(src):
-    """Return source video bitrate in bits/s, or None if unavailable."""
     p = subprocess.run(
         [FFPROBE, "-v", "quiet", "-select_streams", "v:0",
          "-show_entries", "stream=bit_rate", "-of", "csv=p=0", src],
@@ -73,7 +73,6 @@ def probe_bitrate(src):
     val = p.stdout.strip()
     if val and val != "N/A":
         return int(val)
-    # Fallback: use container bitrate
     p2 = subprocess.run(
         [FFPROBE, "-v", "quiet", "-show_entries", "format=bit_rate",
          "-of", "csv=p=0", src],
@@ -90,7 +89,7 @@ def main():
         print("Usage: python build-video.py <source-video.mp4>")
         sys.exit(1)
 
-    src   = os.path.abspath(sys.argv[1])
+    src = os.path.abspath(sys.argv[1])
     if not os.path.exists(src):
         print("File not found: " + src)
         sys.exit(1)
@@ -98,26 +97,28 @@ def main():
     timing_f  = os.path.join(BASE_DIR, "timing.json")
     script_f  = os.path.join(BASE_DIR, "script_german.txt")
     audio_f   = os.path.join(BASE_DIR, "full_voiceover.mp3")
+    bgm_f     = os.path.join(BASE_DIR, "background_music.mp3")
     ass_f     = os.path.join(BASE_DIR, "subtitles.ass")
     output    = os.path.join(BASE_DIR, "output_final.mp4")
+    has_bgm   = os.path.exists(bgm_f)
 
+    # ── Probe source ─────────────────────────────────────────────────────────
     width, height = probe_resolution(src)
     src_bitrate   = probe_bitrate(src)
     if src_bitrate:
-        bitrate_mbps = src_bitrate / 1_000_000
-        video_args   = ["-b:v", str(src_bitrate), "-maxrate", str(src_bitrate),
-                        "-bufsize", str(src_bitrate * 2)]
-        print("Source: {}x{}  bitrate: {:.1f} Mbps (output will match)".format(
-            width, height, bitrate_mbps))
+        video_args = ["-b:v", str(src_bitrate), "-maxrate", str(src_bitrate),
+                      "-bufsize", str(src_bitrate * 2)]
+        print("Source: {}x{}  {:.1f} Mbps (output will match)".format(
+            width, height, src_bitrate / 1e6))
     else:
         video_args = ["-crf", "16"]
         print("Source: {}x{}  (bitrate unknown, using CRF 16)".format(width, height))
 
+    # ── Build ASS subtitles ───────────────────────────────────────────────────
     with open(timing_f, encoding="utf-8") as f:
         timing = json.load(f)
     script_texts = parse_script(script_f)
 
-    # ── Build ASS subtitles ───────────────────────────────────────────────────
     scenes_for_ass = [
         {"text": script_texts.get(sc["scene_id"], ""),
          "start": sc["start"], "end": sc["end"]}
@@ -127,18 +128,25 @@ def main():
         f.write(build_ass(scenes_for_ass, width=width, height=height))
     print("Subtitles -> subtitles.ass")
 
-    # ── Build ffmpeg command ──────────────────────────────────────────────────
-    # Inputs: 0=video  1=audio  2..N+1=card PNGs
+    # ── Inputs ───────────────────────────────────────────────────────────────
+    # 0=video  1=voiceover  2..N+1=card PNGs  [N+2=bgm if present]
     inputs = ["-i", src, "-i", audio_f]
     for sc in timing:
         inputs += ["-i", os.path.join(BASE_DIR, sc["card_png"])]
+    bgm_idx = len(timing) + 2
+    if has_bgm:
+        # stream_loop -1 loops BGM indefinitely so it always covers full video
+        inputs += ["-stream_loop", "-1", "-i", bgm_f]
+        print("Background music: background_music.mp3  (auto-ducking ON)")
+    else:
+        print("Background music: none")
 
-    # Chain PNG card overlays (alpha-aware), then burn ASS subtitles on top
+    # ── Video filter chain ────────────────────────────────────────────────────
     filter_parts = []
     prev = "[0:v]"
     for i, sc in enumerate(timing):
         card_idx = i + 2
-        nxt      = "[vcard{}]".format(i)
+        nxt = "[vc{}]".format(i)
         filter_parts.append(
             "[{}:v]scale={}:{},format=rgba[c{}]".format(card_idx, width, height, i)
         )
@@ -149,41 +157,59 @@ def main():
         )
         prev = nxt
 
-    # ASS path: forward slashes, colon escaped (ffmpeg on Windows)
+    # Burn ASS subtitles (escape path for Windows)
     ass_ff = ass_f.replace("\\", "/")
     drive, rest = ass_ff.split(":/", 1)
-    ass_ff = drive + "\\:/" + rest   # e.g. C\:/Users/...
-
+    ass_ff = drive + "\\:/" + rest
     filter_parts.append(
         "{}subtitles='{}':force_style='FontName=Montserrat'[vout]".format(prev, ass_ff)
     )
 
+    # ── Audio filter chain ────────────────────────────────────────────────────
+    if has_bgm:
+        # Duck BGM using voiceover as sidechain:
+        #   threshold=0.015 : trigger ducking when voice exceeds ~1.5% amplitude
+        #   ratio=20        : compress 20:1 (aggressive duck)
+        #   attack=150      : duck starts in 150 ms
+        #   release=800     : fade back over 800 ms
+        #   volume=0.15     : BGM sits at 15% before ducking (subtle background)
+        filter_parts += [
+            "[{}:a]volume=0.15,aresample=44100[bgm]".format(bgm_idx),
+            "[1:a]aresample=44100,asplit=2[vo1][vo2]",
+            "[bgm][vo2]sidechaincompress=threshold=0.015:ratio=20:"
+            "attack=150:release=800:makeup=1[ducked]",
+            "[vo1][ducked]amix=inputs=2:duration=first:weights=1 1[aout]",
+        ]
+        audio_map = ["-map", "[aout]"]
+        audio_codec = ["-c:a", "aac", "-b:a", "192k"]
+    else:
+        audio_map  = ["-map", "1:a"]
+        audio_codec = ["-c:a", "copy"]
+
     filtergraph = ";".join(filter_parts)
 
-    cmd = [
-        FFMPEG, "-y",
-    ] + inputs + [
-        "-filter_complex", filtergraph,
-        "-map", "[vout]",
-        "-map", "1:a",
-        "-c:v", "libx264",
-    ] + video_args + [
-        "-preset", "slow",
-        "-pix_fmt", "yuv420p",
-        "-c:a", "copy",
-        "-movflags", "+faststart",
-        output,
-    ]
+    # ── Final command ─────────────────────────────────────────────────────────
+    cmd = (
+        [FFMPEG, "-y"]
+        + inputs
+        + ["-filter_complex", filtergraph]
+        + ["-map", "[vout]"]
+        + audio_map
+        + ["-c:v", "libx264"]
+        + video_args
+        + ["-preset", "slow", "-pix_fmt", "yuv420p"]
+        + audio_codec
+        + ["-movflags", "+faststart", output]
+    )
 
-    print("\nBuilding final video (cards + captions + audio)...")
+    print("\nBuilding final video...")
     result = subprocess.run(cmd, capture_output=True, text=True)
     if result.returncode != 0:
         print("ERROR:\n" + result.stderr[-3000:])
         sys.exit(1)
 
     size_mb = os.path.getsize(output) / 1024 / 1024
-    print("\nDone!  output_final.mp4  ({:.1f} MB)".format(size_mb))
-    print("Ready for YouTube.")
+    print("\nDone!  output_final.mp4  ({:.1f} MB)  -- ready for YouTube.".format(size_mb))
 
 
 if __name__ == "__main__":
