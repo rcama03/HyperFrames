@@ -3,8 +3,8 @@
     {
       "id": "stat-2mio",
       "path": "/home/user/HyperFrames/projects/powerbank-de/card-frames/stat-2mio.png",
-      "inTime": 2,
-      "outTime": 12
+      "inTime": 8,
+      "outTime": 15
     },
     {
       "id": "key-powerbank",
@@ -71,12 +71,6 @@
       "path": "/home/user/HyperFrames/projects/powerbank-de/card-frames/stat-5keur.png",
       "inTime": 176,
       "outTime": 190
-    },
-    {
-      "id": "fazit",
-      "path": "/home/user/HyperFrames/projects/powerbank-de/card-frames/fazit.png",
-      "inTime": 197,
-      "outTime": 212
     }
   ],
   "intro": {
