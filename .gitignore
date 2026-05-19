@@ -38,3 +38,8 @@ npm-debug.log*
 # Temporary
 tmp/
 .tmp/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
