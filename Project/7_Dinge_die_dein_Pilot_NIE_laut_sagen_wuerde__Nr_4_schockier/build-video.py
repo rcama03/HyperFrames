@@ -63,6 +63,28 @@ def probe_resolution(src):
     return int(w), int(h)
 
 
+def probe_bitrate(src):
+    """Return source video bitrate in bits/s, or None if unavailable."""
+    p = subprocess.run(
+        [FFPROBE, "-v", "quiet", "-select_streams", "v:0",
+         "-show_entries", "stream=bit_rate", "-of", "csv=p=0", src],
+        capture_output=True, text=True
+    )
+    val = p.stdout.strip()
+    if val and val != "N/A":
+        return int(val)
+    # Fallback: use container bitrate
+    p2 = subprocess.run(
+        [FFPROBE, "-v", "quiet", "-show_entries", "format=bit_rate",
+         "-of", "csv=p=0", src],
+        capture_output=True, text=True
+    )
+    val2 = p2.stdout.strip()
+    if val2 and val2 != "N/A":
+        return int(val2)
+    return None
+
+
 def main():
     if len(sys.argv) < 2:
         print("Usage: python build-video.py <source-video.mp4>")
@@ -80,7 +102,16 @@ def main():
     output    = os.path.join(BASE_DIR, "output_final.mp4")
 
     width, height = probe_resolution(src)
-    print("Source: {}x{}".format(width, height))
+    src_bitrate   = probe_bitrate(src)
+    if src_bitrate:
+        bitrate_mbps = src_bitrate / 1_000_000
+        video_args   = ["-b:v", str(src_bitrate), "-maxrate", str(src_bitrate),
+                        "-bufsize", str(src_bitrate * 2)]
+        print("Source: {}x{}  bitrate: {:.1f} Mbps (output will match)".format(
+            width, height, bitrate_mbps))
+    else:
+        video_args = ["-crf", "16"]
+        print("Source: {}x{}  (bitrate unknown, using CRF 16)".format(width, height))
 
     with open(timing_f, encoding="utf-8") as f:
         timing = json.load(f)
@@ -136,7 +167,7 @@ def main():
         "-map", "[vout]",
         "-map", "1:a",
         "-c:v", "libx264",
-        "-crf", "18",
+    ] + video_args + [
         "-preset", "slow",
         "-pix_fmt", "yuv420p",
         "-c:a", "copy",
