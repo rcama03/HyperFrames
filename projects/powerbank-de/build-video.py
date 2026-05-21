@@ -59,6 +59,12 @@ ass_path = HERE / "output" / "captions.ass"
 ass_path.write_text(ass_content, encoding="utf-8")
 print(f"Captions: {len(words)} words → {ass_path.name}")
 
+# ── Animated overlays (logo loop + subscribe card) ────────────────────────────
+LOGO_WEBM      = str(HERE / "overlays" / "logo.webm")
+SUBSCRIBE_WEBM = str(HERE / "overlays" / "subscribe.webm")
+SUBSCRIBE_IN   = 195.0   # appears after last card fades at 190s
+SUBSCRIBE_OUT  = 203.5   # 8.5s duration
+
 # ── Build FFmpeg overlay list ─────────────────────────────────────────────────
 all_overlays = [
     {"path": manifest["intro"]["path"],
@@ -70,16 +76,53 @@ all_overlays = [
 
 # ── Build FFmpeg command ──────────────────────────────────────────────────────
 inputs = ["-i", SRC_VIDEO]
+# Logo: loop input for full video duration
+if Path(LOGO_WEBM).exists():
+    inputs = ["-stream_loop", "-1", "-i", LOGO_WEBM] + inputs
+# Subscribe card: single-shot input
+if Path(SUBSCRIBE_WEBM).exists():
+    inputs += ["-i", SUBSCRIBE_WEBM]
+# PNG card overlays
 for ov in all_overlays:
     inputs += ["-i", ov["path"]]
 
-filter_parts = [f"[0:v]ass={ass_path}[subs]"]
+has_logo = Path(LOGO_WEBM).exists()
+has_sub  = Path(SUBSCRIBE_WEBM).exists()
+
+# Input index mapping:
+#   0 = logo.webm (looped)  [if present]
+#   1 = source video        [always]  → audio source
+#   2 = subscribe.webm      [if present]
+#   3+ = PNG card overlays
+logo_idx = 0 if has_logo else None
+src_idx  = 1 if has_logo else 0
+sub_idx  = (src_idx + 1) if has_sub else None
+card_base = src_idx + (1 if has_sub else 0) + 1
+
+filter_parts = [f"[{src_idx}:v]ass={ass_path}[subs]"]
 current = "[subs]"
 
+# Logo overlay — full video duration, loops automatically
+if has_logo:
+    filter_parts.append(
+        f"{current}[{logo_idx}:v]overlay=0:0:format=auto[with_logo]"
+    )
+    current = "[with_logo]"
+
+# Subscribe card overlay — single appearance near end
+if has_sub:
+    filter_parts.append(
+        f"{current}[{sub_idx}:v]overlay=0:0:"
+        f"enable='between(t,{SUBSCRIBE_IN},{SUBSCRIBE_OUT})':format=auto[with_sub]"
+    )
+    current = "[with_sub]"
+
+# PNG motion-graphics card overlays
 for idx, ov in enumerate(all_overlays):
+    in_idx    = card_base + idx
     out_label = "[vout]" if idx == len(all_overlays) - 1 else f"[v{idx}]"
     filter_parts.append(
-        f"{current}[{idx+1}:v]overlay=0:0:"
+        f"{current}[{in_idx}:v]overlay=0:0:"
         f"enable='between(t,{ov['inTime']},{ov['outTime']})':"
         f"format=auto{out_label}"
     )
@@ -91,7 +134,7 @@ cmd = (
     + [
         "-filter_complex", ";".join(filter_parts),
         "-map", "[vout]",
-        "-map", "0:a",
+        "-map", f"{src_idx}:a",
         # ── Encoding: preserve quality, no unnecessary compression ──
         # CRF 18 = near-lossless for h264; lower = bigger file/better quality
         # Change to crf 23 for smaller file, crf 16 for archival quality
