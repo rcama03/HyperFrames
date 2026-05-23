@@ -29,6 +29,13 @@ WORDS_JSON = HERE / "word-timings.json"
 
 Path(OUT_VIDEO).parent.mkdir(parents=True, exist_ok=True)
 
+# Copy generate-timings.py into output/ for convenience
+import shutil
+_timings_src = HERE.parents[1] / "generate-timings.py"
+_timings_dst = Path(OUT_VIDEO).parent / "generate-timings.py"
+if _timings_src.exists() and not _timings_dst.exists():
+    shutil.copy2(_timings_src, _timings_dst)
+
 if not Path(SRC_VIDEO).exists():
     print(f"ERROR: Source video not found: {SRC_VIDEO}")
     print("Usage: python3 build-video.py /path/to/your/video.mp4")
