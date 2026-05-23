@@ -172,7 +172,7 @@ cmd = (
         "-map", "[vout]",
         "-map", "[audio_out]",
         "-c:v", "libx264",
-        "-preset", "slow",
+        "-preset", "medium",
         "-crf", "18",
         "-pix_fmt", "yuv420p",
         "-c:a", "aac",
