@@ -1,58 +1,58 @@
 {
   "cards": [
     {
-      "id": "stat-97h",
-      "path": "card-frames/stat-97h.png",
-      "inTime": 22,
-      "outTime": 31
-    },
-    {
-      "id": "key-loss-aversion",
-      "path": "card-frames/key-loss-aversion.png",
-      "inTime": 40,
-      "outTime": 50
-    },
-    {
-      "id": "stat-73pct",
-      "path": "card-frames/stat-73pct.png",
-      "inTime": 55,
-      "outTime": 65
-    },
-    {
-      "id": "key-sozialer-beweis",
-      "path": "card-frames/key-sozialer-beweis.png",
-      "inTime": 80,
-      "outTime": 90
-    },
-    {
-      "id": "key-reverse-buffer",
-      "path": "card-frames/key-reverse-buffer.png",
-      "inTime": 100,
-      "outTime": 110
-    },
-    {
       "id": "chap-erschreckende",
       "path": "card-frames/chap-erschreckende.png",
-      "inTime": 19,
-      "outTime": 22
+      "inTime": 3,
+      "outTime": 7
     },
     {
       "id": "chap-herdentrieb",
       "path": "card-frames/chap-herdentrieb.png",
-      "inTime": 70,
-      "outTime": 73
+      "inTime": 82,
+      "outTime": 86
     },
     {
       "id": "chap-entkommen",
       "path": "card-frames/chap-entkommen.png",
-      "inTime": 95,
-      "outTime": 98
+      "inTime": 105,
+      "outTime": 109
     },
     {
       "id": "chap-loesung",
       "path": "card-frames/chap-loesung.png",
-      "inTime": 115,
-      "outTime": 118
+      "inTime": 118,
+      "outTime": 122
+    },
+    {
+      "id": "stat-97h",
+      "path": "card-frames/stat-97h.png",
+      "inTime": 14,
+      "outTime": 22
+    },
+    {
+      "id": "key-loss-aversion",
+      "path": "card-frames/key-loss-aversion.png",
+      "inTime": 32,
+      "outTime": 42
+    },
+    {
+      "id": "stat-73pct",
+      "path": "card-frames/stat-73pct.png",
+      "inTime": 50,
+      "outTime": 60
+    },
+    {
+      "id": "key-sozialer-beweis",
+      "path": "card-frames/key-sozialer-beweis.png",
+      "inTime": 67,
+      "outTime": 77
+    },
+    {
+      "id": "key-reverse-buffer",
+      "path": "card-frames/key-reverse-buffer.png",
+      "inTime": 93,
+      "outTime": 103
     }
   ]
 }

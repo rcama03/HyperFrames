@@ -17,67 +17,67 @@ const GOLD = '#FFD700';
 
 // ── Card definitions ──────────────────────────────────────────────────────────
 const cards = [
-  // MG cards
-  {
-    id: 'stat-97h',
-    type: 'stat',
-    inTime: 22, outTime: 31,
-    label: 'ø PRO PERSON', value: '97', sub: 'Stunden am Flughafen verschwendet', icon: '⏱️',
-  },
-  {
-    id: 'key-loss-aversion',
-    type: 'key',
-    inTime: 40, outTime: 50,
-    tag: 'PSYCHOLOGIE', text: 'Loss Aversion: Dein Gehirn übertreibt die Gefahr — unbewusst',
-  },
-  {
-    id: 'stat-73pct',
-    type: 'stat',
-    inTime: 55, outTime: 65,
-    label: 'STUDIE ZEIGT', value: '73%', sub: 'aller Reisenden kommen zu früh', icon: '📊',
-  },
-  {
-    id: 'key-sozialer-beweis',
-    type: 'key',
-    inTime: 80, outTime: 90,
-    tag: 'URINSTINKT', text: 'Sozialer Beweis: Du stellst dich an, weil alle anderen es tun',
-  },
-  {
-    id: 'key-reverse-buffer',
-    type: 'key',
-    inTime: 100, outTime: 110,
-    tag: 'METHODE', text: 'Reverse-Buffer-Prinzip — Daten statt Gefühle',
-  },
-
-  // Chapter marker cards
+  // Chapter marker cards — top-left, navy tint
   {
     id: 'chap-erschreckende',
     type: 'chapter',
-    inTime: 19, outTime: 22,
+    inTime: 3, outTime: 7,
     text: 'Der erschreckende Beweis',
   },
   {
     id: 'chap-herdentrieb',
     type: 'chapter',
-    inTime: 70, outTime: 73,
+    inTime: 82, outTime: 86,
     text: 'Der Herdentrieb',
   },
   {
     id: 'chap-entkommen',
     type: 'chapter',
-    inTime: 95, outTime: 98,
+    inTime: 105, outTime: 109,
     text: 'So entkommen',
   },
   {
     id: 'chap-loesung',
     type: 'chapter',
-    inTime: 115, outTime: 118,
+    inTime: 118, outTime: 122,
     text: 'Die Lösung',
+  },
+
+  // MG stat/key cards — bottom-left, dark glass
+  {
+    id: 'stat-97h',
+    type: 'stat',
+    inTime: 14, outTime: 22,
+    label: 'ø PRO PERSON', value: '97', sub: 'Stunden am Flughafen verschwendet', icon: '⏱️',
+  },
+  {
+    id: 'key-loss-aversion',
+    type: 'key',
+    inTime: 32, outTime: 42,
+    tag: 'PSYCHOLOGIE', text: 'Loss Aversion: Dein Gehirn übertreibt die Gefahr — unbewusst',
+  },
+  {
+    id: 'stat-73pct',
+    type: 'stat',
+    inTime: 50, outTime: 60,
+    label: 'STUDIE ZEIGT', value: '73%', sub: 'aller Reisenden kommen zu früh', icon: '📊',
+  },
+  {
+    id: 'key-sozialer-beweis',
+    type: 'key',
+    inTime: 67, outTime: 77,
+    tag: 'URINSTINKT', text: 'Sozialer Beweis: Du stellst dich an, weil alle anderen es tun',
+  },
+  {
+    id: 'key-reverse-buffer',
+    type: 'key',
+    inTime: 93, outTime: 103,
+    tag: 'METHODE', text: 'Reverse-Buffer-Prinzip — Daten statt Gefühle',
   },
 ];
 
 // ── Card HTML builders ────────────────────────────────────────────────────────
-const baseStyle = `
+const mgStyle = `
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap');
     * { margin:0; padding:0; box-sizing:border-box; }
@@ -95,9 +95,27 @@ const baseStyle = `
     .inner  { padding: 22px 26px; flex: 1; }
   </style>`;
 
+const chapStyle = `
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap');
+    * { margin:0; padding:0; box-sizing:border-box; }
+    html, body { width:${W}px; height:${H}px; background:transparent; overflow:hidden; }
+    .card {
+      position: absolute; left: 60px; top: 60px;
+      display: flex; align-items: stretch;
+      background: rgba(0,28,58,0.82);
+      border: 1.5px solid rgba(100,180,255,0.25);
+      box-shadow: 0 12px 48px rgba(0,0,0,0.65);
+      border-radius: 20px; overflow: hidden;
+      font-family: 'Montserrat', 'Arial Black', sans-serif;
+    }
+    .stripe { width: 6px; background: #4FC3F7; flex-shrink: 0; }
+    .inner  { padding: 22px 26px; flex: 1; }
+  </style>`;
+
 function buildHTML(card) {
   if (card.type === 'stat') {
-    return `<!DOCTYPE html><html><head><meta charset="UTF-8">${baseStyle}</head><body>
+    return `<!DOCTYPE html><html><head><meta charset="UTF-8">${mgStyle}</head><body>
       <div class="card" style="width:680px">
         <div class="stripe"></div>
         <div class="inner">
@@ -111,7 +129,7 @@ function buildHTML(card) {
   }
 
   if (card.type === 'key') {
-    return `<!DOCTYPE html><html><head><meta charset="UTF-8">${baseStyle}</head><body>
+    return `<!DOCTYPE html><html><head><meta charset="UTF-8">${mgStyle}</head><body>
       <div class="card" style="width:680px">
         <div class="stripe"></div>
         <div class="inner">
@@ -124,12 +142,12 @@ function buildHTML(card) {
   }
 
   if (card.type === 'chapter') {
-    return `<!DOCTYPE html><html><head><meta charset="UTF-8">${baseStyle}</head><body>
-      <div class="card" style="width:680px;left:60px;top:60px;bottom:auto">
+    return `<!DOCTYPE html><html><head><meta charset="UTF-8">${chapStyle}</head><body>
+      <div class="card" style="width:620px">
         <div class="stripe"></div>
         <div class="inner">
-          <div style="display:inline-block;background:${GOLD};color:#0D0D1A;font-size:13px;font-weight:800;letter-spacing:.12em;padding:5px 14px;border-radius:12px;text-transform:uppercase;margin-bottom:12px">KAPITEL</div>
-          <div style="height:1px;background:rgba(255,255,255,.18);margin-bottom:12px"></div>
+          <div style="display:inline-block;background:#4FC3F7;color:#001828;font-size:13px;font-weight:800;letter-spacing:.12em;padding:5px 14px;border-radius:12px;text-transform:uppercase;margin-bottom:12px">KAPITEL</div>
+          <div style="height:1px;background:rgba(100,180,255,.25);margin-bottom:12px"></div>
           <div style="font-size:28px;font-weight:800;color:#FFF;letter-spacing:-.3px;line-height:1.2">${card.text}</div>
         </div>
       </div>

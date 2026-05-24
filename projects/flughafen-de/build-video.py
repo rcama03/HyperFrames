@@ -4,6 +4,7 @@ Assembles the final flughafen-de video using FFmpeg.
 
 Features:
   - Motion graphics cards + chapter marker cards
+  - Swoosh sound effect on every card appearance
   - Background music with auto-ducking sidechain compression
   - Captions (word-level gold highlight) — activates when word-timings.json present
 
@@ -23,14 +24,17 @@ SRC_VIDEO  = sys.argv[1] if len(sys.argv) > 1 else str(HERE / "source-video.mp4"
 OUT_VIDEO  = str(HERE / "output" / (Path(SRC_VIDEO).stem + "-final.mp4"))
 MANIFEST   = HERE / "card-manifest.json"
 WORDS_JSON = HERE / "word-timings.json"
+SWOOSH     = HERE / "swoosh.mp3"
 MUSIC      = SHARED / "music" / "sleep-music-chris-haugen.mp3"
 
-MUSIC_VOL  = 0.14
+MUSIC_VOL   = 0.14
+SWOOSH_VOL  = 0.35   # subtle but audible card impact
 
 Path(OUT_VIDEO).parent.mkdir(parents=True, exist_ok=True)
 
 # ── Validate inputs ───────────────────────────────────────────────────────────
-for label, path in [("Source video", SRC_VIDEO), ("Music", MUSIC), ("Manifest", MANIFEST)]:
+for label, path in [("Source video", SRC_VIDEO), ("Music", MUSIC),
+                    ("Swoosh", SWOOSH), ("Manifest", MANIFEST)]:
     if not Path(path).exists():
         print(f"ERROR: {label} not found: {path}")
         sys.exit(1)
@@ -68,15 +72,19 @@ for c in cards:
     if not p.is_absolute():
         c["path"] = str(HERE / p)
 
+n_cards = len(cards)
+
 # ── Build FFmpeg inputs ───────────────────────────────────────────────────────
-#   [0]  source video
-#   [1…N] card PNGs
-#   [N+1] background music
+#   [0]       source video
+#   [1…N]     card PNGs
+#   [N+1]     background music
+#   [N+2]     swoosh sfx
 inputs = ["-i", SRC_VIDEO]
 for c in cards:
     inputs += ["-i", c["path"]]
-music_idx = 1 + len(cards)
-inputs += ["-i", str(MUSIC)]
+music_idx  = 1 + n_cards
+swoosh_idx = music_idx + 1
+inputs += ["-i", str(MUSIC), "-i", str(SWOOSH)]
 
 # ── Video filter chain ────────────────────────────────────────────────────────
 vf = []
@@ -89,7 +97,7 @@ else:
 
 for idx, card in enumerate(cards):
     card_stream = idx + 1
-    is_last     = (idx == len(cards) - 1)
+    is_last     = (idx == n_cards - 1)
     out_label   = "[vout]" if is_last else f"[v{idx}]"
     vf.append(
         f"{current}[{card_stream}:v]overlay=0:0:"
@@ -102,7 +110,7 @@ for idx, card in enumerate(cards):
 af = []
 fade_dur = min(3.0, DURATION * 0.03)
 
-# Background music: loop → trim → fade in/out → volume
+# Background music: loop → trim → fade → volume
 af.append(
     f"[{music_idx}:a]aloop=loop=-1:size=2147483647,"
     f"atrim=duration={DURATION},"
@@ -118,8 +126,28 @@ af.append(
     "threshold=0.015:ratio=4:attack=200:release=1200:makeup=1[bg_ducked]"
 )
 
-# Final mix
-af.append("[voice_out][bg_ducked]amix=inputs=2:duration=first:weights=1 1[audio_out]")
+# Swoosh at every card inTime — split into N copies, delay each
+af.append(
+    f"[{swoosh_idx}:a]asplit={n_cards}"
+    + "".join(f"[sw_raw{i}]" for i in range(n_cards))
+)
+for i, card in enumerate(cards):
+    delay_ms = int(card["inTime"] * 1000)
+    af.append(
+        f"[sw_raw{i}]atrim=duration=1.2,"
+        f"adelay={delay_ms}|{delay_ms},"
+        f"volume={SWOOSH_VOL}[sw{i}]"
+    )
+
+# Final mix: voice + music + all swooshes
+sw_labels = "".join(f"[sw{i}]" for i in range(n_cards))
+n_mix     = 2 + n_cards
+af.append(
+    f"[voice_out][bg_ducked]{sw_labels}"
+    f"amix=inputs={n_mix}:duration=first:weights=1 1"
+    + " 0.8" * n_cards
+    + "[audio_out]"
+)
 
 # ── Assemble FFmpeg command ───────────────────────────────────────────────────
 filter_complex = ";".join(vf + af)
