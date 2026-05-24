@@ -54,12 +54,11 @@ WIDTH        = video_stream["width"]
 HEIGHT       = video_stream["height"]
 VIDEO_DUR    = float(probe_v["format"]["duration"])
 VOICE_DUR    = float(probe_a["format"]["duration"])
-DURATION     = VOICE_DUR  # output length driven by voiceover
-PAD_DUR      = max(0.0, VOICE_DUR - VIDEO_DUR)
+DURATION     = VIDEO_DUR  # output length = video length; voiceover trimmed to fit
 
 print(f"Source : {Path(SRC_VIDEO).name}  {WIDTH}×{HEIGHT}  {VIDEO_DUR:.1f}s")
-print(f"Voice  : {Path(VOICE_MP3).name}  {VOICE_DUR:.1f}s")
-print(f"Output : {DURATION:.1f}s  (video padded +{PAD_DUR:.1f}s frozen)")
+print(f"Voice  : {Path(VOICE_MP3).name}  {VOICE_DUR:.1f}s  (trimmed to {DURATION:.1f}s)")
+print(f"Output : {DURATION:.1f}s")
 
 # ── Captions ──────────────────────────────────────────────────────────────────
 from hf_style import build_ass
@@ -93,13 +92,7 @@ inputs += ["-i", str(MUSIC), "-i", str(SWOOSH)]
 
 # ── Video filter chain ────────────────────────────────────────────────────────
 vf = []
-
-# Freeze last frame if voiceover outlasts video
-if PAD_DUR > 0.1:
-    vf.append(f"[0:v]tpad=stop_mode=clone:stop_duration={PAD_DUR:.3f}[v_padded]")
-    current = "[v_padded]"
-else:
-    current = "[0:v]"
+current = "[0:v]"
 
 # Captions
 vf.append(f"{current}ass={ass_path}[v_caps]")
@@ -130,8 +123,8 @@ af.append(
     f"volume={MUSIC_VOL}[bg_raw]"
 )
 
-# Sidechain compress music under voiceover
-af.append("[1:a]asplit=2[voice_out][voice_sc]")
+# Trim voiceover to video duration, then sidechain compress under music
+af.append(f"[1:a]atrim=end={DURATION:.3f},asplit=2[voice_out][voice_sc]")
 af.append(
     "[bg_raw][voice_sc]sidechaincompress="
     "threshold=0.015:ratio=4:attack=200:release=1200:makeup=1[bg_ducked]"
@@ -176,6 +169,7 @@ cmd = (
         "-c:a", "aac",
         "-b:a", "192k",
         "-movflags", "+faststart",
+        "-t", f"{DURATION:.3f}",
         OUT_VIDEO,
     ]
 )
