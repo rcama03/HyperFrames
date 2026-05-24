@@ -1,0 +1,70 @@
+{
+  "cards": [
+    {
+      "id": "chap-scan",
+      "path": "card-frames/chap-scan.png",
+      "inTime": 0.5,
+      "outTime": 4
+    },
+    {
+      "id": "chap-was",
+      "path": "card-frames/chap-was.png",
+      "inTime": 31,
+      "outTime": 35
+    },
+    {
+      "id": "chap-lange",
+      "path": "card-frames/chap-lange.png",
+      "inTime": 81,
+      "outTime": 85
+    },
+    {
+      "id": "chap-rechte",
+      "path": "card-frames/chap-rechte.png",
+      "inTime": 118,
+      "outTime": 122
+    },
+    {
+      "id": "stat-1mrd",
+      "path": "card-frames/stat-1mrd.png",
+      "inTime": 17,
+      "outTime": 26
+    },
+    {
+      "id": "key-3d",
+      "path": "card-frames/key-3d.png",
+      "inTime": 35,
+      "outTime": 46
+    },
+    {
+      "id": "key-ki",
+      "path": "card-frames/key-ki.png",
+      "inTime": 55,
+      "outTime": 65
+    },
+    {
+      "id": "key-gesicht",
+      "path": "card-frames/key-gesicht.png",
+      "inTime": 68,
+      "outTime": 79
+    },
+    {
+      "id": "stat-eu",
+      "path": "card-frames/stat-eu.png",
+      "inTime": 83,
+      "outTime": 90
+    },
+    {
+      "id": "stat-usa",
+      "path": "card-frames/stat-usa.png",
+      "inTime": 90,
+      "outTime": 99
+    },
+    {
+      "id": "key-recht",
+      "path": "card-frames/key-recht.png",
+      "inTime": 120,
+      "outTime": 132
+    }
+  ]
+}
