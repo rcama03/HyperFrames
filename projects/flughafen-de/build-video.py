@@ -27,8 +27,8 @@ WORDS_JSON = HERE / "word-timings.json"
 SWOOSH     = HERE / "swoosh.mp3"
 MUSIC      = SHARED / "music" / "sleep-music-chris-haugen.mp3"
 
-MUSIC_VOL   = 0.14
-SWOOSH_VOL  = 0.35   # subtle but audible card impact
+MUSIC_VOL   = 0.19
+SWOOSH_VOL  = 0.35
 
 Path(OUT_VIDEO).parent.mkdir(parents=True, exist_ok=True)
 
@@ -132,7 +132,8 @@ af.append(
     + "".join(f"[sw_raw{i}]" for i in range(n_cards))
 )
 for i, card in enumerate(cards):
-    delay_ms = int(card["inTime"] * 1000)
+    # Fire 100ms early so swoosh peak lands on card entry
+    delay_ms = max(0, int((card["inTime"] - 0.1) * 1000))
     af.append(
         f"[sw_raw{i}]atrim=duration=1.2,"
         f"adelay={delay_ms}|{delay_ms},"

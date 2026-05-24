@@ -103,8 +103,8 @@ const chapStyle = `
     .card {
       position: absolute; left: 60px; top: 60px;
       display: flex; align-items: stretch;
-      background: rgba(0,28,58,0.82);
-      border: 1.5px solid rgba(100,180,255,0.25);
+      background: rgba(0,28,58,0.52);
+      border: 1.5px solid rgba(100,180,255,0.32);
       box-shadow: 0 12px 48px rgba(0,0,0,0.65);
       border-radius: 20px; overflow: hidden;
       font-family: 'Montserrat', 'Arial Black', sans-serif;
