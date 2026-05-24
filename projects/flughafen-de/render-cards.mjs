@@ -17,61 +17,61 @@ const GOLD = '#FFD700';
 
 // ── Card definitions ──────────────────────────────────────────────────────────
 const cards = [
-  // MG cards — key stats and concepts from the script
+  // MG cards
   {
     id: 'stat-97h',
     type: 'stat',
-    inTime: 9, outTime: 18,
+    inTime: 22, outTime: 31,
     label: 'ø PRO PERSON', value: '97', sub: 'Stunden am Flughafen verschwendet', icon: '⏱️',
   },
   {
     id: 'key-loss-aversion',
     type: 'key',
-    inTime: 27, outTime: 37,
+    inTime: 40, outTime: 50,
     tag: 'PSYCHOLOGIE', text: 'Loss Aversion: Dein Gehirn übertreibt die Gefahr — unbewusst',
   },
   {
     id: 'stat-73pct',
     type: 'stat',
-    inTime: 40, outTime: 50,
+    inTime: 55, outTime: 65,
     label: 'STUDIE ZEIGT', value: '73%', sub: 'aller Reisenden kommen zu früh', icon: '📊',
   },
   {
     id: 'key-sozialer-beweis',
     type: 'key',
-    inTime: 67, outTime: 77,
+    inTime: 80, outTime: 90,
     tag: 'URINSTINKT', text: 'Sozialer Beweis: Du stellst dich an, weil alle anderen es tun',
   },
   {
     id: 'key-reverse-buffer',
     type: 'key',
-    inTime: 84, outTime: 94,
+    inTime: 100, outTime: 110,
     tag: 'METHODE', text: 'Reverse-Buffer-Prinzip — Daten statt Gefühle',
   },
 
-  // Chapter marker cards — first 2 words of each chapter title
+  // Chapter marker cards
   {
     id: 'chap-erschreckende',
     type: 'chapter',
-    inTime: 5.5, outTime: 8.5,
-    text: 'Der erschreckende',
+    inTime: 19, outTime: 22,
+    text: 'Der erschreckende Beweis',
   },
   {
     id: 'chap-herdentrieb',
     type: 'chapter',
-    inTime: 100, outTime: 103,
+    inTime: 70, outTime: 73,
     text: 'Der Herdentrieb',
   },
   {
     id: 'chap-entkommen',
     type: 'chapter',
-    inTime: 112, outTime: 115,
+    inTime: 95, outTime: 98,
     text: 'So entkommen',
   },
   {
     id: 'chap-loesung',
     type: 'chapter',
-    inTime: 122, outTime: 125,
+    inTime: 115, outTime: 118,
     text: 'Die Lösung',
   },
 ];
@@ -83,41 +83,41 @@ const baseStyle = `
     * { margin:0; padding:0; box-sizing:border-box; }
     html, body { width:${W}px; height:${H}px; background:transparent; overflow:hidden; }
     .card {
-      position: absolute; left: 48px; bottom: 120px;
+      position: absolute; left: 60px; bottom: 140px;
       display: flex; align-items: stretch;
-      background: rgba(255,255,255,0.09);
-      border: 1px solid rgba(255,255,255,0.2);
-      box-shadow: 0 8px 32px rgba(0,0,0,0.45);
-      border-radius: 16px; overflow: hidden;
+      background: rgba(10,10,30,0.72);
+      border: 1.5px solid rgba(255,255,255,0.22);
+      box-shadow: 0 12px 48px rgba(0,0,0,0.65);
+      border-radius: 20px; overflow: hidden;
       font-family: 'Montserrat', 'Arial Black', sans-serif;
     }
-    .stripe { width: 4px; background: ${GOLD}; flex-shrink: 0; }
-    .inner  { padding: 16px 18px; flex: 1; }
+    .stripe { width: 6px; background: ${GOLD}; flex-shrink: 0; }
+    .inner  { padding: 22px 26px; flex: 1; }
   </style>`;
 
 function buildHTML(card) {
   if (card.type === 'stat') {
     return `<!DOCTYPE html><html><head><meta charset="UTF-8">${baseStyle}</head><body>
-      <div class="card" style="width:460px">
+      <div class="card" style="width:680px">
         <div class="stripe"></div>
         <div class="inner">
-          <div style="font-size:11px;font-weight:700;letter-spacing:.15em;color:${GOLD};opacity:.85;text-transform:uppercase;margin-bottom:4px">${card.label}</div>
-          <div style="font-size:56px;font-weight:800;color:#FFF;line-height:1;letter-spacing:-1px">${card.value}</div>
-          <div style="font-size:13px;color:rgba(255,255,255,.65);margin-top:4px">${card.sub}</div>
+          <div style="font-size:16px;font-weight:700;letter-spacing:.15em;color:${GOLD};opacity:.9;text-transform:uppercase;margin-bottom:6px">${card.label}</div>
+          <div style="font-size:82px;font-weight:800;color:#FFF;line-height:1;letter-spacing:-2px">${card.value}</div>
+          <div style="font-size:20px;color:rgba(255,255,255,.7);margin-top:6px">${card.sub}</div>
         </div>
-        <div style="font-size:30px;padding:16px 14px 16px 0;display:flex;align-items:flex-start;padding-top:20px">${card.icon}</div>
+        <div style="font-size:46px;padding:22px 20px 22px 0;display:flex;align-items:flex-start;padding-top:26px">${card.icon}</div>
       </div>
     </body></html>`;
   }
 
   if (card.type === 'key') {
     return `<!DOCTYPE html><html><head><meta charset="UTF-8">${baseStyle}</head><body>
-      <div class="card" style="width:460px">
+      <div class="card" style="width:680px">
         <div class="stripe"></div>
         <div class="inner">
-          <div style="display:inline-block;background:${GOLD};color:#0D0D1A;font-size:10px;font-weight:800;letter-spacing:.12em;padding:3px 10px;border-radius:10px;text-transform:uppercase;margin-bottom:8px">${card.tag}</div>
-          <div style="height:1px;background:rgba(255,255,255,.15);margin-bottom:8px"></div>
-          <div style="font-size:17px;font-weight:700;color:#FFF;line-height:1.35">${card.text}</div>
+          <div style="display:inline-block;background:${GOLD};color:#0D0D1A;font-size:13px;font-weight:800;letter-spacing:.12em;padding:5px 14px;border-radius:12px;text-transform:uppercase;margin-bottom:12px">${card.tag}</div>
+          <div style="height:1px;background:rgba(255,255,255,.18);margin-bottom:12px"></div>
+          <div style="font-size:24px;font-weight:700;color:#FFF;line-height:1.4">${card.text}</div>
         </div>
       </div>
     </body></html>`;
@@ -125,11 +125,11 @@ function buildHTML(card) {
 
   if (card.type === 'chapter') {
     return `<!DOCTYPE html><html><head><meta charset="UTF-8">${baseStyle}</head><body>
-      <div class="card" style="width:380px">
-        <div class="stripe" style="background:rgba(255,215,0,0.5)"></div>
+      <div class="card" style="width:580px">
+        <div class="stripe" style="background:${GOLD}"></div>
         <div class="inner">
-          <div style="font-size:9px;font-weight:800;letter-spacing:.2em;color:rgba(255,215,0,.6);text-transform:uppercase;margin-bottom:6px">KAPITEL</div>
-          <div style="font-size:22px;font-weight:800;color:#FFF;letter-spacing:-.3px">${card.text}</div>
+          <div style="font-size:13px;font-weight:800;letter-spacing:.22em;color:${GOLD};text-transform:uppercase;margin-bottom:8px">KAPITEL</div>
+          <div style="font-size:32px;font-weight:800;color:#FFF;letter-spacing:-.3px;line-height:1.2">${card.text}</div>
         </div>
       </div>
     </body></html>`;
