@@ -125,11 +125,12 @@ function buildHTML(card) {
 
   if (card.type === 'chapter') {
     return `<!DOCTYPE html><html><head><meta charset="UTF-8">${baseStyle}</head><body>
-      <div class="card" style="width:580px">
-        <div class="stripe" style="background:${GOLD}"></div>
+      <div class="card" style="width:680px">
+        <div class="stripe"></div>
         <div class="inner">
-          <div style="font-size:13px;font-weight:800;letter-spacing:.22em;color:${GOLD};text-transform:uppercase;margin-bottom:8px">KAPITEL</div>
-          <div style="font-size:32px;font-weight:800;color:#FFF;letter-spacing:-.3px;line-height:1.2">${card.text}</div>
+          <div style="display:inline-block;background:${GOLD};color:#0D0D1A;font-size:13px;font-weight:800;letter-spacing:.12em;padding:5px 14px;border-radius:12px;text-transform:uppercase;margin-bottom:12px">KAPITEL</div>
+          <div style="height:1px;background:rgba(255,255,255,.18);margin-bottom:12px"></div>
+          <div style="font-size:28px;font-weight:800;color:#FFF;letter-spacing:-.3px;line-height:1.2">${card.text}</div>
         </div>
       </div>
     </body></html>`;
