@@ -132,10 +132,10 @@ af.append(
     + "".join(f"[sw_raw{i}]" for i in range(n_cards))
 )
 for i, card in enumerate(cards):
-    # Fire 100ms early so swoosh peak lands on card entry
-    delay_ms = max(0, int((card["inTime"] - 0.1) * 1000))
+    # Trim the 33ms lead-in silence from swoosh.mp3, then delay to exact card inTime
+    delay_ms = int(card["inTime"] * 1000)
     af.append(
-        f"[sw_raw{i}]atrim=duration=1.2,"
+        f"[sw_raw{i}]atrim=start=0.033:duration=0.95,"
         f"adelay={delay_ms}|{delay_ms},"
         f"volume={SWOOSH_VOL}[sw{i}]"
     )
