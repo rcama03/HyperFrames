@@ -186,13 +186,6 @@ Dialogue: 0,0:01:58.20,0:01:58.85,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\a
 Dialogue: 0,0:01:58.85,0:01:59.49,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DU KANNST IN DER {\c&H0000D7FF&\alpha&H00&}EU DEINE{\c&H00FFFFFF&\alpha&H33&} GESPEICHERTEN DATEN
 Dialogue: 0,0:01:59.49,0:02:00.13,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DU KANNST IN DER EU DEINE {\c&H0000D7FF&\alpha&H00&}GESPEICHERTEN{\c&H00FFFFFF&\alpha&H33&} DATEN
 Dialogue: 0,0:02:00.13,0:02:00.78,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DU KANNST IN DER EU DEINE GESPEICHERTEN {\c&H0000D7FF&\alpha&H00&}DATEN
-Dialogue: 0,0:02:00.78,0:02:01.42,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}ANFRAGEN{\c&H00FFFFFF&\alpha&H33&} UND LÖSCHEN LASSEN — ABER NUR, WENN
-Dialogue: 0,0:02:01.42,0:02:02.06,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ANFRAGEN {\c&H0000D7FF&\alpha&H00&}UND LÖSCHEN{\c&H00FFFFFF&\alpha&H33&} LASSEN — ABER NUR, WENN
-Dialogue: 0,0:02:02.06,0:02:02.71,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ANFRAGEN UND LÖSCHEN {\c&H0000D7FF&\alpha&H00&}LASSEN{\c&H00FFFFFF&\alpha&H33&} — ABER NUR, WENN
-Dialogue: 0,0:02:02.71,0:02:03.35,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ANFRAGEN UND LÖSCHEN LASSEN {\c&H0000D7FF&\alpha&H00&}— ABER{\c&H00FFFFFF&\alpha&H33&} NUR, WENN
-Dialogue: 0,0:02:03.35,0:02:03.99,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ANFRAGEN UND LÖSCHEN LASSEN — ABER {\c&H0000D7FF&\alpha&H00&}NUR, WENN
-Dialogue: 0,0:02:03.99,0:02:04.64,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}DU WEISST,{\c&H00FFFFFF&\alpha&H33&} WIE. DIE MEISTEN FRAGEN NIE. UND
-Dialogue: 0,0:02:04.64,0:02:05.28,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DU WEISST, {\c&H0000D7FF&\alpha&H00&}WIE. DIE{\c&H00FFFFFF&\alpha&H33&} MEISTEN FRAGEN NIE. UND
-Dialogue: 0,0:02:05.28,0:02:05.92,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DU WEISST, WIE. DIE {\c&H0000D7FF&\alpha&H00&}MEISTEN{\c&H00FFFFFF&\alpha&H33&} FRAGEN NIE. UND
-Dialogue: 0,0:02:05.92,0:02:06.57,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DU WEISST, WIE. DIE MEISTEN {\c&H0000D7FF&\alpha&H00&}FRAGEN{\c&H00FFFFFF&\alpha&H33&} NIE. UND
-Dialogue: 0,0:02:06.57,0:02:07.21,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DU WEISST, WIE. DIE MEISTEN FRAGEN {\c&H0000D7FF&\alpha&H00&}NIE. UND
+Dialogue: 0,0:02:00.78,0:02:01.42,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}ANFRAGEN{\c&H00FFFFFF&\alpha&H33&} UND LÖSCHEN LASSEN
+Dialogue: 0,0:02:01.42,0:02:02.06,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ANFRAGEN {\c&H0000D7FF&\alpha&H00&}UND LÖSCHEN{\c&H00FFFFFF&\alpha&H33&} LASSEN
+Dialogue: 0,0:02:02.06,0:02:02.71,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ANFRAGEN UND LÖSCHEN {\c&H0000D7FF&\alpha&H00&}LASSEN

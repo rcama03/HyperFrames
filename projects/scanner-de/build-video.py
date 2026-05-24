@@ -54,7 +54,8 @@ WIDTH        = video_stream["width"]
 HEIGHT       = video_stream["height"]
 VIDEO_DUR    = float(probe_v["format"]["duration"])
 VOICE_DUR    = float(probe_a["format"]["duration"])
-DURATION     = VIDEO_DUR  # output length = video length; voiceover trimmed to fit
+SRC_OFFSET   = 4.5        # skip dark bedroom intro; airport runway visible from this point
+DURATION     = VIDEO_DUR - SRC_OFFSET  # output length trimmed; voiceover trimmed to fit
 
 print(f"Source : {Path(SRC_VIDEO).name}  {WIDTH}×{HEIGHT}  {VIDEO_DUR:.1f}s")
 print(f"Voice  : {Path(VOICE_MP3).name}  {VOICE_DUR:.1f}s  (trimmed to {DURATION:.1f}s)")
@@ -97,7 +98,7 @@ n_cards = len(cards)
 #   [2…N+1] card PNGs
 #   [N+2]   background music
 #   [N+3]   swoosh
-inputs = ["-i", SRC_VIDEO, "-i", VOICE_MP3]
+inputs = ["-ss", str(SRC_OFFSET), "-i", SRC_VIDEO, "-i", VOICE_MP3]
 for c in cards:
     inputs += ["-i", c["path"]]
 music_idx  = 2 + n_cards
