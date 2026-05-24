@@ -63,6 +63,20 @@ print(f"Output : {DURATION:.1f}s")
 # ── Captions ──────────────────────────────────────────────────────────────────
 from hf_style import build_ass
 words = json.loads(WORDS_JSON.read_text(encoding="utf-8"))
+
+# Scale word timestamps to match actual voiceover duration
+# (timing file may be generated at a different speed than the recording)
+timing_end = words[-1]["end"]
+if abs(timing_end - VOICE_DUR) > 0.5:
+    scale = VOICE_DUR / timing_end
+    print(f"Caption sync  : scaling timestamps by {scale:.6f} ({timing_end:.2f}s → {VOICE_DUR:.2f}s)")
+    for w in words:
+        w["start"] = round(w["start"] * scale, 4)
+        w["end"]   = round(w["end"]   * scale, 4)
+
+# Only include words that fall within the output duration
+words = [w for w in words if w["start"] < DURATION]
+
 ass_content = build_ass(words, width=WIDTH, height=HEIGHT, words_per_line=5)
 ass_path = HERE / "output" / "captions.ass"
 ass_path.write_text(ass_content, encoding="utf-8")
