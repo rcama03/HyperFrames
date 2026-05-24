@@ -101,14 +101,17 @@ current = "[v_caps]"
 # Card overlays
 for idx, card in enumerate(cards):
     card_stream = idx + 2
-    is_last     = (idx == n_cards - 1)
-    out_label   = "[vout]" if is_last else f"[v{idx}]"
+    out_label   = f"[v{idx}]"
     vf.append(
         f"{current}[{card_stream}:v]overlay=0:0:"
         f"enable='between(t,{card['inTime']},{card['outTime']})':"
         f"format=auto{out_label}"
     )
     current = out_label
+
+# Fade to black in last 1.5s — hides captions and cards cleanly
+fade_out_start = DURATION - 1.5
+vf.append(f"{current}fade=t=out:st={fade_out_start:.3f}:d=1.5[vout]")
 
 # ── Audio filter chain ────────────────────────────────────────────────────────
 af = []
