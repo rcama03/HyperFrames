@@ -18,47 +18,19 @@ const GOLD = '#FFD700';
 // ── Card definitions — timed to timings.json scene boundaries ─────────────────
 const cards = [
   // Chapter marker cards — top-left, navy/cyan
-  { id: 'chap-scan',     type: 'chapter', inTime: 0.5,   outTime: 4,    text: 'Der Scan' },
-  { id: 'chap-was',      type: 'chapter', inTime: 31,    outTime: 35,   text: 'Was er speichert' },
-  { id: 'chap-lange',    type: 'chapter', inTime: 81,    outTime: 85,   text: 'Wie lange?' },
-  { id: 'chap-rechte',   type: 'chapter', inTime: 118,   outTime: 122,  text: 'Deine Rechte' },
-
-  // MG stat / key cards — bottom-left, dark gold glass
-  {
-    id: 'stat-1mrd',   type: 'stat',
-    inTime: 17, outTime: 26,
-    label: 'PRO JAHR', value: '1,4 Mrd.', sub: 'Passagiere durch europ. Flughäfen', icon: '✈️',
-  },
-  {
-    id: 'key-3d',      type: 'key',
-    inTime: 35, outTime: 46,
-    tag: 'SCANNER', text: 'Komplettes 3D-Bild: jede Kurve, jede Narbe — sichtbar',
-  },
-  {
-    id: 'key-ki',      type: 'key',
-    inTime: 55, outTime: 65,
-    tag: 'KI-ANALYSE', text: 'Gangmuster & Körperhaltung — KI sagt dein Verhalten vorher',
-  },
-  {
-    id: 'key-gesicht', type: 'key',
-    inTime: 68, outTime: 79,
-    tag: 'GESICHTSERKENNUNG', text: 'Datenbankabgleich still im Hintergrund — in unter 2 Sekunden',
-  },
-  {
-    id: 'stat-eu',     type: 'stat',
-    inTime: 83, outTime: 90,
-    label: 'EU SPEICHERT', value: '5 Jahre', sub: 'Passagierdaten pro Flug', icon: '🇪🇺',
-  },
-  {
-    id: 'stat-usa',    type: 'stat',
-    inTime: 90, outTime: 99,
-    label: 'USA SPEICHERT', value: '15 Jahre', sub: 'Passagierdaten pro Flug', icon: '🇺🇸',
-  },
-  {
-    id: 'key-recht',   type: 'key',
-    inTime: 120, outTime: 132,
-    tag: 'DEIN RECHT', text: 'EU: Du kannst gespeicherte Daten anfragen & löschen lassen',
-  },
+  // MG cards — bottom-left, dark gold glass
+  // All timings staggered so only ONE card is on screen at a time.
+  { id: 'chap-scan',     type: 'chapter', inTime: 0.5,  outTime: 4,    text: 'Der Scan' },
+  { id: 'stat-1mrd',     type: 'stat',    inTime: 17,   outTime: 26,   label: 'PRO JAHR',      value: '1,4 Mrd.', sub: 'Passagiere durch europ. Flughäfen', icon: '✈️' },
+  { id: 'chap-was',      type: 'chapter', inTime: 31,   outTime: 34,   text: 'Was er speichert' },
+  { id: 'key-3d',        type: 'key',     inTime: 35,   outTime: 45,   tag: 'SCANNER',          text: 'Komplettes 3D-Bild: jede Kurve, jede Narbe — sichtbar' },
+  { id: 'key-ki',        type: 'key',     inTime: 55,   outTime: 65,   tag: 'KI-ANALYSE',       text: 'Gangmuster & Körperhaltung — KI sagt dein Verhalten vorher' },
+  { id: 'key-gesicht',   type: 'key',     inTime: 68,   outTime: 79,   tag: 'GESICHTSERKENNUNG',text: 'Datenbankabgleich still — in unter 2 Sekunden' },
+  { id: 'chap-lange',    type: 'chapter', inTime: 80,   outTime: 83,   text: 'Wie lange?' },
+  { id: 'stat-eu',       type: 'stat',    inTime: 84,   outTime: 91,   label: 'EU SPEICHERT',   value: '5 Jahre',  sub: 'Passagierdaten pro Flug', icon: '🇪🇺' },
+  { id: 'stat-usa',      type: 'stat',    inTime: 92,   outTime: 99,   label: 'USA SPEICHERT',  value: '15 Jahre', sub: 'Passagierdaten pro Flug', icon: '🇺🇸' },
+  { id: 'chap-rechte',   type: 'chapter', inTime: 117,  outTime: 120,  text: 'Deine Rechte' },
+  { id: 'key-recht',     type: 'key',     inTime: 121,  outTime: 132,  tag: 'DEIN RECHT',       text: 'EU: Du kannst gespeicherte Daten anfragen & löschen lassen' },
 ];
 
 // ── Shared styles ─────────────────────────────────────────────────────────────

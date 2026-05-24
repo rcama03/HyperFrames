@@ -64,7 +64,7 @@ print(f"Output : {DURATION:.1f}s  (video padded +{PAD_DUR:.1f}s frozen)")
 # ── Captions ──────────────────────────────────────────────────────────────────
 from hf_style import build_ass
 words = json.loads(WORDS_JSON.read_text(encoding="utf-8"))
-ass_content = build_ass(words, width=WIDTH, height=HEIGHT)
+ass_content = build_ass(words, width=WIDTH, height=HEIGHT, words_per_line=3)
 ass_path = HERE / "output" / "captions.ass"
 ass_path.write_text(ass_content, encoding="utf-8")
 print(f"Captions: {len(words)} words → {ass_path.name}")
