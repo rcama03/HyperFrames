@@ -1,0 +1,100 @@
+{
+  "cards": [
+    {
+      "id": "chap-hook",
+      "path": "card-frames/chap-hook.png",
+      "inTime": 0.5,
+      "outTime": 4
+    },
+    {
+      "id": "stat-30sek",
+      "path": "card-frames/stat-30sek.png",
+      "inTime": 24.5,
+      "outTime": 33.5
+    },
+    {
+      "id": "chap-physik",
+      "path": "card-frames/chap-physik.png",
+      "inTime": 34.5,
+      "outTime": 38
+    },
+    {
+      "id": "stat-75pct",
+      "path": "card-frames/stat-75pct.png",
+      "inTime": 38.5,
+      "outTime": 44.5
+    },
+    {
+      "id": "stat-12min",
+      "path": "card-frames/stat-12min.png",
+      "inTime": 51.5,
+      "outTime": 59.5
+    },
+    {
+      "id": "chap-pilot",
+      "path": "card-frames/chap-pilot.png",
+      "inTime": 62.5,
+      "outTime": 66
+    },
+    {
+      "id": "stat-3000m",
+      "path": "card-frames/stat-3000m.png",
+      "inTime": 67,
+      "outTime": 72.5
+    },
+    {
+      "id": "stat-2h",
+      "path": "card-frames/stat-2h.png",
+      "inTime": 86,
+      "outTime": 95
+    },
+    {
+      "id": "key-southwest",
+      "path": "card-frames/key-southwest.png",
+      "inTime": 97.5,
+      "outTime": 108.5
+    },
+    {
+      "id": "chap-wahrheit",
+      "path": "card-frames/chap-wahrheit.png",
+      "inTime": 110.5,
+      "outTime": 114
+    },
+    {
+      "id": "key-uberbruck",
+      "path": "card-frames/key-uberbruck.png",
+      "inTime": 115,
+      "outTime": 123.5
+    },
+    {
+      "id": "chap-hypoxie",
+      "path": "card-frames/chap-hypoxie.png",
+      "inTime": 125.5,
+      "outTime": 129
+    },
+    {
+      "id": "key-tod",
+      "path": "card-frames/key-tod.png",
+      "inTime": 130,
+      "outTime": 136
+    },
+    {
+      "id": "chap-schutz",
+      "path": "card-frames/chap-schutz.png",
+      "inTime": 151,
+      "outTime": 154.5
+    },
+    {
+      "id": "chap-bonus",
+      "path": "card-frames/chap-bonus.png",
+      "inTime": 174.5,
+      "outTime": 178
+    },
+    {
+      "id": "key-selbst",
+      "path": "card-frames/key-selbst.png",
+      "inTime": 179,
+      "outTime": 186.5
+    }
+  ]
+}
