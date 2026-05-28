@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Big Title Typewriter - Hyperframes</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      width: 1920px;
+      height: 1080px;
+      background-color: #0A0A0A;
+      overflow: hidden;
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+
+    #master-root {
+      width: 1920px;
+      height: 1080px;
+      position: relative;
+    }
+
+    /* Optional B-roll video (removed automatically if no --video passed) */
+    .video-bg {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: brightness(0.45) contrast(1.05);
+    }
+
+    .vignette {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 35%, rgba(0,0,0,0.7) 100%);
+      pointer-events: none;
+    }
+
+    .title-wrap {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 0 160px;
+    }
+
+    .eyebrow {
+      color: #FF3B30;
+      font-size: 32px;
+      letter-spacing: 0.5em;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-family: 'Courier New', 'Courier', monospace;
+      margin-bottom: 40px;
+    }
+
+    .title {
+      color: #FFFFFF;
+      font-size: 220px;
+      font-weight: 900;
+      line-height: 0.95;
+      letter-spacing: -0.035em;
+      text-transform: uppercase;
+      margin: 0;
+      max-width: 1600px;
+      text-shadow: 0 6px 30px rgba(0,0,0,0.6);
+    }
+
+    .subtitle {
+      color: #D0D0D0;
+      font-size: 44px;
+      line-height: 1.35;
+      font-weight: 300;
+      margin-top: 48px;
+      letter-spacing: 0.01em;
+      max-width: 1400px;
+    }
+
+    .char {
+      display: inline-block;
+      opacity: 0;
+    }
+    .char.space {
+      width: 0.28em;
+    }
+
+    .cursor {
+      display: inline-block;
+      width: 8px;
+      height: 0.85em;
+      background: #FF3B30;
+      vertical-align: -0.12em;
+      margin-left: 10px;
+      opacity: 0;
+    }
+    .title .cursor {
+      width: 14px;
+      margin-left: 18px;
+    }
+  </style>
+</head>
+<body>
+  <div id="master-root" data-composition-id="master" data-width="1920" data-height="1080" data-duration="6">
+
+    <!-- Optional background video. Remove this <video> tag if you don't want one. -->
+    <video class="video-bg"
+           src="__VIDEO_SRC__"
+           data-start="0"
+           data-duration="6"
+           data-track-index="0">
+    </video>
+
+    <div class="vignette"></div>
+
+    <div class="title-wrap">
+      <div class="eyebrow" id="eyebrow" data-type="text"></div>
+      <h1 class="title" id="title" data-type="text"></h1>
+      <div class="subtitle" id="subtitle" data-type="text"></div>
+    </div>
+
+    <script>
+      window.__timelines = window.__timelines || {};
+
+      // ──────────────────────────────────────────────
+      // EDIT THESE STRINGS to change your title.
+      // Use "\n" inside TITLE to break onto a new line.
+      // ──────────────────────────────────────────────
+      const EYEBROW  = "INTRODUCING";
+      const TITLE    = "BIG IDEAS\nSTART HERE.";
+      const SUBTITLE = "A typewriter reveal for cinematic moments.";
+
+      // Cadence (seconds per character)
+      const EYEBROW_PER_CHAR  = 0.04;
+      const TITLE_PER_CHAR    = 0.07;
+      const SUBTITLE_PER_CHAR = 0.018;
+
+      function splitToChars(el, text) {
+        el.innerHTML = "";
+        const chars = [];
+        for (const ch of text) {
+          if (ch === "\n") {
+            el.appendChild(document.createElement("br"));
+            continue;
+          }
+          const s = document.createElement("span");
+          if (ch === " ") {
+            s.className = "char space";
+            s.innerHTML = "&nbsp;";
+          } else {
+            s.className = "char";
+            s.textContent = ch;
+          }
+          el.appendChild(s);
+          chars.push(s);
+        }
+        const cursor = document.createElement("span");
+        cursor.className = "cursor";
+        el.appendChild(cursor);
+        return { chars, cursor };
+      }
+
+      const eb = splitToChars(document.getElementById("eyebrow"),  EYEBROW);
+      const tt = splitToChars(document.getElementById("title"),    TITLE);
+      const sb = splitToChars(document.getElementById("subtitle"), SUBTITLE);
+
+      const tl = gsap.timeline({ paused: true });
+
+      // 1. Eyebrow types in
+      tl.set(eb.cursor, { opacity: 1 }, 0);
+      tl.to(eb.chars, {
+        opacity: 1,
+        duration: 0.001,
+        stagger: EYEBROW_PER_CHAR,
+        ease: "none"
+      }, 0);
+      tl.to(eb.cursor, { opacity: 0, duration: 0.001, ease: "none" }, ">+=0.15");
+
+      // 2. Big title types in
+      tl.set(tt.cursor, { opacity: 1 }, ">+=0.05");
+      tl.to(tt.chars, {
+        opacity: 1,
+        duration: 0.001,
+        stagger: TITLE_PER_CHAR,
+        ease: "none"
+      }, ">");
+
+      // Title cursor blinks a few times
+      tl.to(tt.cursor, {
+        opacity: 0,
+        duration: 0.22,
+        repeat: 5,
+        yoyo: true,
+        ease: "none"
+      }, ">+=0.1");
+
+      // 3. Subtitle types in (overlaps with the cursor blink for pacing)
+      tl.set(sb.cursor, { opacity: 1 }, "-=1.1");
+      tl.to(sb.chars, {
+        opacity: 1,
+        duration: 0.001,
+        stagger: SUBTITLE_PER_CHAR,
+        ease: "none"
+      }, "<");
+      tl.to(sb.cursor, { opacity: 0, duration: 0.001, ease: "none" }, ">+=0.1");
+
+      window.__timelines["master"] = tl;
+    </script>
+  </div>
+</body>
+</html>

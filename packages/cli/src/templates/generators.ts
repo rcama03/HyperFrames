@@ -1,4 +1,9 @@
-export type TemplateId = "warm-grain" | "play-mode" | "swiss-grid" | "vignelli";
+export type TemplateId =
+  | "warm-grain"
+  | "play-mode"
+  | "swiss-grid"
+  | "vignelli"
+  | "big-title-typewriter";
 
 export interface TemplateOption {
   id: TemplateId;
@@ -11,4 +16,5 @@ export const TEMPLATES: TemplateOption[] = [
   { id: "play-mode", label: "Play Mode", hint: "Playful elastic animations" },
   { id: "swiss-grid", label: "Swiss Grid", hint: "Structured grid layout" },
   { id: "vignelli", label: "Vignelli", hint: "Bold typography with red accents" },
+  { id: "big-title-typewriter", label: "Big Title Typewriter", hint: "Cinematic letter-by-letter title reveal" },
 ];
