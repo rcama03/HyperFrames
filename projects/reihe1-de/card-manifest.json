@@ -1,0 +1,100 @@
+{
+  "cards": [
+    {
+      "id": "chap-trick",
+      "path": "card-frames/chap-trick.png",
+      "inTime": 0.5,
+      "outTime": 4
+    },
+    {
+      "id": "stat-20pct",
+      "path": "card-frames/stat-20pct.png",
+      "inTime": 16,
+      "outTime": 25
+    },
+    {
+      "id": "key-overhead",
+      "path": "card-frames/key-overhead.png",
+      "inTime": 31,
+      "outTime": 43
+    },
+    {
+      "id": "key-klapptisch",
+      "path": "card-frames/key-klapptisch.png",
+      "inTime": 47,
+      "outTime": 58
+    },
+    {
+      "id": "key-galley",
+      "path": "card-frames/key-galley.png",
+      "inTime": 60.5,
+      "outTime": 72
+    },
+    {
+      "id": "key-kaelte",
+      "path": "card-frames/key-kaelte.png",
+      "inTime": 80,
+      "outTime": 93.5
+    },
+    {
+      "id": "chap-kabine",
+      "path": "card-frames/chap-kabine.png",
+      "inTime": 97.7,
+      "outTime": 101.2
+    },
+    {
+      "id": "stat-15cm",
+      "path": "card-frames/stat-15cm.png",
+      "inTime": 102.5,
+      "outTime": 111
+    },
+    {
+      "id": "key-gate",
+      "path": "card-frames/key-gate.png",
+      "inTime": 112,
+      "outTime": 124
+    },
+    {
+      "id": "stat-23euro",
+      "path": "card-frames/stat-23euro.png",
+      "inTime": 127,
+      "outTime": 140
+    },
+    {
+      "id": "stat-50euro",
+      "path": "card-frames/stat-50euro.png",
+      "inTime": 147.5,
+      "outTime": 159
+    },
+    {
+      "id": "key-bassinet",
+      "path": "card-frames/key-bassinet.png",
+      "inTime": 164,
+      "outTime": 175
+    },
+    {
+      "id": "key-ausnahmen",
+      "path": "card-frames/key-ausnahmen.png",
+      "inTime": 182,
+      "outTime": 193
+    },
+    {
+      "id": "chap-reihe1",
+      "path": "card-frames/chap-reihe1.png",
+      "inTime": 195,
+      "outTime": 198.5
+    },
+    {
+      "id": "stat-500k",
+      "path": "card-frames/stat-500k.png",
+      "inTime": 205,
+      "outTime": 218
+    },
+    {
+      "id": "key-seatguru",
+      "path": "card-frames/key-seatguru.png",
+      "inTime": 221,
+      "outTime": 234
+    }
+  ]
+}
