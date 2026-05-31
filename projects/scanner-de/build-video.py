@@ -55,7 +55,7 @@ HEIGHT       = video_stream["height"]
 VIDEO_DUR    = float(probe_v["format"]["duration"])
 VOICE_DUR    = float(probe_a["format"]["duration"])
 SRC_OFFSET   = 4.5        # skip dark bedroom intro; airport runway visible from this point
-DURATION     = VIDEO_DUR - SRC_OFFSET  # output length trimmed; voiceover trimmed to fit
+DURATION     = min(VIDEO_DUR - SRC_OFFSET, VOICE_DUR)  # end when shorter of video/voiceover ends
 
 print(f"Source : {Path(SRC_VIDEO).name}  {WIDTH}×{HEIGHT}  {VIDEO_DUR:.1f}s")
 print(f"Voice  : {Path(VOICE_MP3).name}  {VOICE_DUR:.1f}s  (trimmed to {DURATION:.1f}s)")

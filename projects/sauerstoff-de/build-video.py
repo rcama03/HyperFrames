@@ -57,7 +57,7 @@ WIDTH        = video_stream["width"]
 HEIGHT       = video_stream["height"]
 VIDEO_DUR    = float(probe_v["format"]["duration"])
 VOICE_DUR    = float(probe_a["format"]["duration"])
-DURATION     = VIDEO_DUR - SRC_OFFSET  # output length; voiceover trimmed to fit
+DURATION     = min(VIDEO_DUR - SRC_OFFSET, VOICE_DUR)  # end when shorter of video/voiceover ends
 
 print(f"Source : {Path(SRC_VIDEO).name}  {WIDTH}×{HEIGHT}  {VIDEO_DUR:.1f}s"
       + (f"  (starts at +{SRC_OFFSET}s)" if SRC_OFFSET else ""))
