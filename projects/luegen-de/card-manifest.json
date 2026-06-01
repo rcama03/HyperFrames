@@ -1,0 +1,136 @@
+{
+  "cards": [
+    {
+      "id": "chap-12sek",
+      "path": "card-frames/chap-12sek.png",
+      "inTime": 0.5,
+      "outTime": 5
+    },
+    {
+      "id": "chap-luege2",
+      "path": "card-frames/chap-luege2.png",
+      "inTime": 91.5,
+      "outTime": 96
+    },
+    {
+      "id": "chap-beutel",
+      "path": "card-frames/chap-beutel.png",
+      "inTime": 187.5,
+      "outTime": 192
+    },
+    {
+      "id": "chap-filter",
+      "path": "card-frames/chap-filter.png",
+      "inTime": 292,
+      "outTime": 296.5
+    },
+    {
+      "id": "chap-einfrieren",
+      "path": "card-frames/chap-einfrieren.png",
+      "inTime": 389.5,
+      "outTime": 394
+    },
+    {
+      "id": "chap-druck",
+      "path": "card-frames/chap-druck.png",
+      "inTime": 467.5,
+      "outTime": 472
+    },
+    {
+      "id": "chap-airlines",
+      "path": "card-frames/chap-airlines.png",
+      "inTime": 557.5,
+      "outTime": 562
+    },
+    {
+      "id": "stat-12sek",
+      "path": "card-frames/stat-12sek.png",
+      "inTime": 5.5,
+      "outTime": 19.5
+    },
+    {
+      "id": "stat-90pct",
+      "path": "card-frames/stat-90pct.png",
+      "inTime": 22.5,
+      "outTime": 33.5
+    },
+    {
+      "id": "stat-260c",
+      "path": "card-frames/stat-260c.png",
+      "inTime": 55.5,
+      "outTime": 72.5
+    },
+    {
+      "id": "stat-15min",
+      "path": "card-frames/stat-15min.png",
+      "inTime": 115,
+      "outTime": 128
+    },
+    {
+      "id": "stat-75pct",
+      "path": "card-frames/stat-75pct.png",
+      "inTime": 220.5,
+      "outTime": 237
+    },
+    {
+      "id": "stat-50pct",
+      "path": "card-frames/stat-50pct.png",
+      "inTime": 238.5,
+      "outTime": 255.5
+    },
+    {
+      "id": "stat-2l",
+      "path": "card-frames/stat-2l.png",
+      "inTime": 310,
+      "outTime": 326
+    },
+    {
+      "id": "stat-1988",
+      "path": "card-frames/stat-1988.png",
+      "inTime": 468.5,
+      "outTime": 485.5
+    },
+    {
+      "id": "stat-02",
+      "path": "card-frames/stat-02.png",
+      "inTime": 535,
+      "outTime": 555.5
+    },
+    {
+      "id": "key-generator",
+      "path": "card-frames/key-generator.png",
+      "inTime": 36,
+      "outTime": 53
+    },
+    {
+      "id": "key-schnur",
+      "path": "card-frames/key-schnur.png",
+      "inTime": 166.5,
+      "outTime": 186.5
+    },
+    {
+      "id": "key-hepa",
+      "path": "card-frames/key-hepa.png",
+      "inTime": 257,
+      "outTime": 276
+    },
+    {
+      "id": "key-alkohol",
+      "path": "card-frames/key-alkohol.png",
+      "inTime": 327.5,
+      "outTime": 342.5
+    },
+    {
+      "id": "key-erstar",
+      "path": "card-frames/key-erstar.png",
+      "inTime": 344,
+      "outTime": 365.5
+    },
+    {
+      "id": "key-schuhe",
+      "path": "card-frames/key-schuhe.png",
+      "inTime": 493,
+      "outTime": 507
+    }
+  ]
+}
