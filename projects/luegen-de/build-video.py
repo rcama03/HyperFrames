@@ -48,14 +48,11 @@ WIDTH        = video_stream["width"]
 HEIGHT       = video_stream["height"]
 VIDEO_DUR    = float(probe_v["format"]["duration"])
 VOICE_DUR    = float(probe_a["format"]["duration"])
-# Source video (595.6s) is shorter than voiceover (613.56s).
-# Use voiceover as master clock; video last frame will be frozen via tpad.
-DURATION     = VOICE_DUR
-VIDEO_CONTENT_DUR = VIDEO_DUR - SRC_OFFSET   # usable video: 594.1s
-VIDEO_PAD    = max(0.0, DURATION - VIDEO_CONTENT_DUR)  # ~19.46s to freeze
+DURATION     = min(VIDEO_DUR - SRC_OFFSET, VOICE_DUR)  # end when shorter of video/voiceover ends
 
-print(f"Source : {Path(SRC_VIDEO).name}  {WIDTH}×{HEIGHT}  {VIDEO_DUR:.1f}s  (offset +{SRC_OFFSET}s  usable {VIDEO_CONTENT_DUR:.1f}s  pad +{VIDEO_PAD:.1f}s)")
-print(f"Voice  : {Path(VOICE_MP3).name}  {VOICE_DUR:.1f}s")
+print(f"Source : {Path(SRC_VIDEO).name}  {WIDTH}×{HEIGHT}  {VIDEO_DUR:.1f}s"
+      + (f"  (starts at +{SRC_OFFSET}s)" if SRC_OFFSET else ""))
+print(f"Voice  : {Path(VOICE_MP3).name}  {VOICE_DUR:.1f}s  (trimmed to {DURATION:.1f}s)")
 print(f"Output : {DURATION:.1f}s")
 
 # ── Captions ──────────────────────────────────────────────────────────────────
@@ -106,11 +103,6 @@ inputs += ["-i", str(MUSIC), "-i", str(SWOOSH)]
 # ── Video filter chain ────────────────────────────────────────────────────────
 vf = []
 current = "[0:v]"
-
-# Freeze last frame if video is shorter than voiceover
-if VIDEO_PAD > 0:
-    vf.append(f"{current}tpad=stop_mode=clone:stop_duration={VIDEO_PAD:.3f}[v_padded]")
-    current = "[v_padded]"
 
 vf.append(f"{current}ass={ass_path}[v_caps]")
 current = "[v_caps]"

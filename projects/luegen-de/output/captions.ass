@@ -1021,48 +1021,6 @@ Dialogue: 0,0:09:50.22,0:09:50.78,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\a
 Dialogue: 0,0:09:50.78,0:09:51.34,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DREISSIG SEKUNDEN {\c&H0000D7FF&\alpha&H00&}AUFMERKSAMKEIT{\c&H00FFFFFF&\alpha&H33&} KÖNNTEN EINES
 Dialogue: 0,0:09:51.34,0:09:51.90,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DREISSIG SEKUNDEN AUFMERKSAMKEIT {\c&H0000D7FF&\alpha&H00&}KÖNNTEN{\c&H00FFFFFF&\alpha&H33&} EINES
 Dialogue: 0,0:09:51.90,0:09:52.46,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DREISSIG SEKUNDEN AUFMERKSAMKEIT KÖNNTEN {\c&H0000D7FF&\alpha&H00&}EINES
-Dialogue: 0,0:09:52.46,0:09:53.02,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}TAGES{\c&H00FFFFFF&\alpha&H33&} DIE WICHTIGSTEN SEKUNDEN DEINES LEBENS
-Dialogue: 0,0:09:53.02,0:09:53.58,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}TAGES {\c&H0000D7FF&\alpha&H00&}DIE WICHTIGSTEN{\c&H00FFFFFF&\alpha&H33&} SEKUNDEN DEINES LEBENS
-Dialogue: 0,0:09:53.58,0:09:54.13,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}TAGES DIE WICHTIGSTEN {\c&H0000D7FF&\alpha&H00&}SEKUNDEN{\c&H00FFFFFF&\alpha&H33&} DEINES LEBENS
-Dialogue: 0,0:09:54.13,0:09:54.69,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}TAGES DIE WICHTIGSTEN SEKUNDEN {\c&H0000D7FF&\alpha&H00&}DEINES{\c&H00FFFFFF&\alpha&H33&} LEBENS
-Dialogue: 0,0:09:54.69,0:09:55.25,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}TAGES DIE WICHTIGSTEN SEKUNDEN DEINES {\c&H0000D7FF&\alpha&H00&}LEBENS
-Dialogue: 0,0:09:55.25,0:09:55.81,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}SEIN.{\c&H00FFFFFF&\alpha&H33&} WENN DIESES VIDEO DIR ETWAS
-Dialogue: 0,0:09:56.10,0:09:56.55,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}SEIN. {\c&H0000D7FF&\alpha&H00&}WENN{\c&H00FFFFFF&\alpha&H33&} DIESES VIDEO DIR ETWAS
-Dialogue: 0,0:09:56.55,0:09:57.00,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}SEIN. WENN {\c&H0000D7FF&\alpha&H00&}DIESES{\c&H00FFFFFF&\alpha&H33&} VIDEO DIR ETWAS
-Dialogue: 0,0:09:57.00,0:09:57.45,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}SEIN. WENN DIESES {\c&H0000D7FF&\alpha&H00&}VIDEO{\c&H00FFFFFF&\alpha&H33&} DIR ETWAS
-Dialogue: 0,0:09:57.45,0:09:57.89,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}SEIN. WENN DIESES VIDEO {\c&H0000D7FF&\alpha&H00&}DIR ETWAS
-Dialogue: 0,0:09:57.89,0:09:58.34,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}NEUES{\c&H00FFFFFF&\alpha&H33&} GEZEIGT HAT — UND ICH BIN ZIEMLICH
-Dialogue: 0,0:09:58.34,0:09:58.79,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}NEUES {\c&H0000D7FF&\alpha&H00&}GEZEIGT{\c&H00FFFFFF&\alpha&H33&} HAT — UND ICH BIN ZIEMLICH
-Dialogue: 0,0:09:58.79,0:09:59.24,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}NEUES GEZEIGT {\c&H0000D7FF&\alpha&H00&}HAT —{\c&H00FFFFFF&\alpha&H33&} UND ICH BIN ZIEMLICH
-Dialogue: 0,0:09:59.24,0:09:59.68,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}NEUES GEZEIGT HAT — {\c&H0000D7FF&\alpha&H00&}UND ICH{\c&H00FFFFFF&\alpha&H33&} BIN ZIEMLICH
-Dialogue: 0,0:09:59.68,0:10:00.13,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}NEUES GEZEIGT HAT — UND ICH {\c&H0000D7FF&\alpha&H00&}BIN ZIEMLICH
-Dialogue: 0,0:10:00.13,0:10:00.58,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}SICHER,{\c&H00FFFFFF&\alpha&H33&} DASS ES DAS HAT — DANN
-Dialogue: 0,0:10:00.58,0:10:01.03,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}SICHER, {\c&H0000D7FF&\alpha&H00&}DASS{\c&H00FFFFFF&\alpha&H33&} ES DAS HAT — DANN
-Dialogue: 0,0:10:01.03,0:10:01.47,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}SICHER, DASS {\c&H0000D7FF&\alpha&H00&}ES DAS{\c&H00FFFFFF&\alpha&H33&} HAT — DANN
-Dialogue: 0,0:10:01.47,0:10:01.92,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}SICHER, DASS ES DAS {\c&H0000D7FF&\alpha&H00&}HAT —{\c&H00FFFFFF&\alpha&H33&} DANN
-Dialogue: 0,0:10:01.92,0:10:02.37,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}SICHER, DASS ES DAS HAT — {\c&H0000D7FF&\alpha&H00&}DANN
-Dialogue: 0,0:10:02.37,0:10:02.82,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}TU MIR{\c&H00FFFFFF&\alpha&H33&} EINEN GEFALLEN: TEILE ES MIT
-Dialogue: 0,0:10:02.82,0:10:03.26,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}TU MIR {\c&H0000D7FF&\alpha&H00&}EINEN{\c&H00FFFFFF&\alpha&H33&} GEFALLEN: TEILE ES MIT
-Dialogue: 0,0:10:03.26,0:10:03.71,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}TU MIR EINEN {\c&H0000D7FF&\alpha&H00&}GEFALLEN:{\c&H00FFFFFF&\alpha&H33&} TEILE ES MIT
-Dialogue: 0,0:10:03.71,0:10:04.16,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}TU MIR EINEN GEFALLEN: {\c&H0000D7FF&\alpha&H00&}TEILE{\c&H00FFFFFF&\alpha&H33&} ES MIT
-Dialogue: 0,0:10:04.16,0:10:04.61,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}TU MIR EINEN GEFALLEN: TEILE {\c&H0000D7FF&\alpha&H00&}ES MIT
-Dialogue: 0,0:10:04.61,0:10:05.05,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}JEMANDEM,{\c&H00FFFFFF&\alpha&H33&} DER BALD FLIEGT. NICHT WEIL
-Dialogue: 0,0:10:05.05,0:10:05.50,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}JEMANDEM, {\c&H0000D7FF&\alpha&H00&}DER BALD{\c&H00FFFFFF&\alpha&H33&} FLIEGT. NICHT WEIL
-Dialogue: 0,0:10:05.50,0:10:05.95,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}JEMANDEM, DER BALD {\c&H0000D7FF&\alpha&H00&}FLIEGT.{\c&H00FFFFFF&\alpha&H33&} NICHT WEIL
-Dialogue: 0,0:10:05.95,0:10:06.40,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}JEMANDEM, DER BALD FLIEGT. {\c&H0000D7FF&\alpha&H00&}NICHT{\c&H00FFFFFF&\alpha&H33&} WEIL
-Dialogue: 0,0:10:06.40,0:10:06.84,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}JEMANDEM, DER BALD FLIEGT. NICHT {\c&H0000D7FF&\alpha&H00&}WEIL
-Dialogue: 0,0:10:06.84,0:10:07.29,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}ES ANGST{\c&H00FFFFFF&\alpha&H33&} MACHT. SONDERN WEIL WISSEN
-Dialogue: 0,0:10:07.29,0:10:07.74,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ES ANGST {\c&H0000D7FF&\alpha&H00&}MACHT.{\c&H00FFFFFF&\alpha&H33&} SONDERN WEIL WISSEN
-Dialogue: 0,0:10:07.74,0:10:08.19,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ES ANGST MACHT. {\c&H0000D7FF&\alpha&H00&}SONDERN{\c&H00FFFFFF&\alpha&H33&} WEIL WISSEN
-Dialogue: 0,0:10:08.19,0:10:08.63,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ES ANGST MACHT. SONDERN {\c&H0000D7FF&\alpha&H00&}WEIL{\c&H00FFFFFF&\alpha&H33&} WISSEN
-Dialogue: 0,0:10:08.63,0:10:09.08,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ES ANGST MACHT. SONDERN WEIL {\c&H0000D7FF&\alpha&H00&}WISSEN
-Dialogue: 0,0:10:09.08,0:10:09.53,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}SCHÜTZT.{\c&H00FFFFFF&\alpha&H33&} UND ABONNIERE DEN KANAL, WENN DU MEHR
-Dialogue: 0,0:10:09.53,0:10:09.98,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}SCHÜTZT. {\c&H0000D7FF&\alpha&H00&}UND ABONNIERE{\c&H00FFFFFF&\alpha&H33&} DEN KANAL, WENN DU MEHR
-Dialogue: 0,0:10:09.98,0:10:10.42,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}SCHÜTZT. UND ABONNIERE {\c&H0000D7FF&\alpha&H00&}DEN KANAL,{\c&H00FFFFFF&\alpha&H33&} WENN DU MEHR
-Dialogue: 0,0:10:10.42,0:10:10.87,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}SCHÜTZT. UND ABONNIERE DEN KANAL, {\c&H0000D7FF&\alpha&H00&}WENN{\c&H00FFFFFF&\alpha&H33&} DU MEHR
-Dialogue: 0,0:10:10.87,0:10:11.32,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}SCHÜTZT. UND ABONNIERE DEN KANAL, WENN {\c&H0000D7FF&\alpha&H00&}DU MEHR
-Dialogue: 0,0:10:11.32,0:10:11.77,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}SOLCHE{\c&H00FFFFFF&\alpha&H33&} WAHRHEITEN WILLST, DIE ANDERE WEGLASSEN.
-Dialogue: 0,0:10:11.77,0:10:12.21,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}SOLCHE {\c&H0000D7FF&\alpha&H00&}WAHRHEITEN{\c&H00FFFFFF&\alpha&H33&} WILLST, DIE ANDERE WEGLASSEN.
-Dialogue: 0,0:10:12.21,0:10:12.66,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}SOLCHE WAHRHEITEN {\c&H0000D7FF&\alpha&H00&}WILLST,{\c&H00FFFFFF&\alpha&H33&} DIE ANDERE WEGLASSEN.
-Dialogue: 0,0:10:12.66,0:10:13.11,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}SOLCHE WAHRHEITEN WILLST, {\c&H0000D7FF&\alpha&H00&}DIE ANDERE{\c&H00FFFFFF&\alpha&H33&} WEGLASSEN.
-Dialogue: 0,0:10:13.11,0:10:13.55,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}SOLCHE WAHRHEITEN WILLST, DIE ANDERE {\c&H0000D7FF&\alpha&H00&}WEGLASSEN.
+Dialogue: 0,0:09:52.46,0:09:53.02,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}TAGES{\c&H00FFFFFF&\alpha&H33&} DIE WICHTIGSTEN SEKUNDEN
+Dialogue: 0,0:09:53.02,0:09:53.58,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}TAGES {\c&H0000D7FF&\alpha&H00&}DIE WICHTIGSTEN{\c&H00FFFFFF&\alpha&H33&} SEKUNDEN
+Dialogue: 0,0:09:53.58,0:09:54.13,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}TAGES DIE WICHTIGSTEN {\c&H0000D7FF&\alpha&H00&}SEKUNDEN
