@@ -1,0 +1,148 @@
+{
+  "cards": [
+    {
+      "id": "chap-lounge",
+      "path": "card-frames/chap-lounge.png",
+      "inTime": 0.5,
+      "outTime": 5.5
+    },
+    {
+      "id": "chap-trick3",
+      "path": "card-frames/chap-trick3.png",
+      "inTime": 97,
+      "outTime": 102
+    },
+    {
+      "id": "chap-frage",
+      "path": "card-frames/chap-frage.png",
+      "inTime": 194.5,
+      "outTime": 199.5
+    },
+    {
+      "id": "chap-hinweis",
+      "path": "card-frames/chap-hinweis.png",
+      "inTime": 291.5,
+      "outTime": 296.5
+    },
+    {
+      "id": "chap-fehler",
+      "path": "card-frames/chap-fehler.png",
+      "inTime": 388.5,
+      "outTime": 393.5
+    },
+    {
+      "id": "chap-airlines",
+      "path": "card-frames/chap-airlines.png",
+      "inTime": 485.6,
+      "outTime": 490.6
+    },
+    {
+      "id": "chap-unterschied",
+      "path": "card-frames/chap-unterschied.png",
+      "inTime": 508.5,
+      "outTime": 513.5
+    },
+    {
+      "id": "stat-80pct",
+      "path": "card-frames/stat-80pct.png",
+      "inTime": 2,
+      "outTime": 7
+    },
+    {
+      "id": "stat-50euro",
+      "path": "card-frames/stat-50euro.png",
+      "inTime": 18,
+      "outTime": 23
+    },
+    {
+      "id": "stat-1300",
+      "path": "card-frames/stat-1300.png",
+      "inTime": 48,
+      "outTime": 53
+    },
+    {
+      "id": "stat-1500",
+      "path": "card-frames/stat-1500.png",
+      "inTime": 63.5,
+      "outTime": 68.5
+    },
+    {
+      "id": "stat-80euro",
+      "path": "card-frames/stat-80euro.png",
+      "inTime": 84,
+      "outTime": 89
+    },
+    {
+      "id": "stat-40pct",
+      "path": "card-frames/stat-40pct.png",
+      "inTime": 113.5,
+      "outTime": 118.5
+    },
+    {
+      "id": "stat-8pct",
+      "path": "card-frames/stat-8pct.png",
+      "inTime": 181,
+      "outTime": 186
+    },
+    {
+      "id": "stat-150euro",
+      "path": "card-frames/stat-150euro.png",
+      "inTime": 196.5,
+      "outTime": 201.5
+    },
+    {
+      "id": "stat-70pct",
+      "path": "card-frames/stat-70pct.png",
+      "inTime": 336,
+      "outTime": 341
+    },
+    {
+      "id": "stat-7mrd",
+      "path": "card-frames/stat-7mrd.png",
+      "inTime": 467.5,
+      "outTime": 472.5
+    },
+    {
+      "id": "key-gratis",
+      "path": "card-frames/key-gratis.png",
+      "inTime": 33.5,
+      "outTime": 38.5
+    },
+    {
+      "id": "key-companion",
+      "path": "card-frames/key-companion.png",
+      "inTime": 100,
+      "outTime": 105
+    },
+    {
+      "id": "key-eu261",
+      "path": "card-frames/key-eu261.png",
+      "inTime": 143,
+      "outTime": 148
+    },
+    {
+      "id": "key-voucher",
+      "path": "card-frames/key-voucher.png",
+      "inTime": 165.5,
+      "outTime": 170.5
+    },
+    {
+      "id": "key-trial",
+      "path": "card-frames/key-trial.png",
+      "inTime": 232,
+      "outTime": 237
+    },
+    {
+      "id": "key-asia",
+      "path": "card-frames/key-asia.png",
+      "inTime": 451,
+      "outTime": 456
+    },
+    {
+      "id": "key-aktionsplan",
+      "path": "card-frames/key-aktionsplan.png",
+      "inTime": 488.5,
+      "outTime": 493.5
+    }
+  ]
+}
