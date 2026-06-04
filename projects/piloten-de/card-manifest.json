@@ -1,0 +1,136 @@
+{
+  "cards": [
+    {
+      "id": "chap-einstieg",
+      "path": "card-frames/chap-einstieg.png",
+      "inTime": 0.5,
+      "outTime": 6.5
+    },
+    {
+      "id": "chap-zahlen",
+      "path": "card-frames/chap-zahlen.png",
+      "inTime": 77.5,
+      "outTime": 83.5
+    },
+    {
+      "id": "chap-luege5",
+      "path": "card-frames/chap-luege5.png",
+      "inTime": 155,
+      "outTime": 161
+    },
+    {
+      "id": "chap-aerotoxic",
+      "path": "card-frames/chap-aerotoxic.png",
+      "inTime": 232.5,
+      "outTime": 238.5
+    },
+    {
+      "id": "chap-landung",
+      "path": "card-frames/chap-landung.png",
+      "inTime": 310.5,
+      "outTime": 316.5
+    },
+    {
+      "id": "chap-passagier",
+      "path": "card-frames/chap-passagier.png",
+      "inTime": 388,
+      "outTime": 394
+    },
+    {
+      "id": "chap-zusammenfassung",
+      "path": "card-frames/chap-zusammenfassung.png",
+      "inTime": 465.5,
+      "outTime": 471.5
+    },
+    {
+      "id": "stat-43pct",
+      "path": "card-frames/stat-43pct.png",
+      "inTime": 21,
+      "outTime": 27
+    },
+    {
+      "id": "stat-58",
+      "path": "card-frames/stat-58.png",
+      "inTime": 38,
+      "outTime": 44
+    },
+    {
+      "id": "stat-56pct",
+      "path": "card-frames/stat-56pct.png",
+      "inTime": 84.5,
+      "outTime": 90.5
+    },
+    {
+      "id": "stat-400",
+      "path": "card-frames/stat-400.png",
+      "inTime": 145,
+      "outTime": 151
+    },
+    {
+      "id": "stat-12min",
+      "path": "card-frames/stat-12min.png",
+      "inTime": 242,
+      "outTime": 248
+    },
+    {
+      "id": "stat-15sek",
+      "path": "card-frames/stat-15sek.png",
+      "inTime": 260,
+      "outTime": 266
+    },
+    {
+      "id": "stat-11mio",
+      "path": "card-frames/stat-11mio.png",
+      "inTime": 422,
+      "outTime": 428
+    },
+    {
+      "id": "stat-95x",
+      "path": "card-frames/stat-95x.png",
+      "inTime": 435,
+      "outTime": 441
+    },
+    {
+      "id": "stat-98pct",
+      "path": "card-frames/stat-98pct.png",
+      "inTime": 454,
+      "outTime": 460
+    },
+    {
+      "id": "key-mahlzeit",
+      "path": "card-frames/key-mahlzeit.png",
+      "inTime": 94,
+      "outTime": 100
+    },
+    {
+      "id": "key-notfall",
+      "path": "card-frames/key-notfall.png",
+      "inTime": 163,
+      "outTime": 169
+    },
+    {
+      "id": "key-aerotoxic",
+      "path": "card-frames/key-aerotoxic.png",
+      "inTime": 223,
+      "outTime": 229
+    },
+    {
+      "id": "key-reports",
+      "path": "card-frames/key-reports.png",
+      "inTime": 317.5,
+      "outTime": 323.5
+    },
+    {
+      "id": "key-recht",
+      "path": "card-frames/key-recht.png",
+      "inTime": 395,
+      "outTime": 401
+    },
+    {
+      "id": "key-system",
+      "path": "card-frames/key-system.png",
+      "inTime": 403,
+      "outTime": 409
+    }
+  ]
+}
