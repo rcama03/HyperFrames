@@ -7,14 +7,13 @@ Steps:
   2. Upload your word-timings.json (rename "text" field to "word" if needed)
   3. Edit SRC_OFFSET below if source video has a dark/black intro
   4. Run:
-       python3 build-video.py /path/to/source.mp4 /path/to/voiceover.mp3
+       python3 build-video.py /path/to/source.mp4
 
 Output: output/<source-name>-final.mp4
 
 Pipeline:
-  - Source audio replaced by voiceover
-  - Voiceover trimmed to source video length
-  - Word-level captions synced to voiceover
+  - Source video audio IS the voiceover (already embedded)
+  - Word-level captions synced to video audio
   - Motion graphics cards overlaid at defined timestamps
   - Swoosh SFX on every card entry
   - Background music ducked under voice
@@ -30,7 +29,6 @@ SHARED = HERE.parents[1] / "packages" / "shared"
 sys.path.insert(0, str(SHARED))
 
 SRC_VIDEO  = sys.argv[1] if len(sys.argv) > 1 else str(HERE / "source-video.mp4")
-VOICE_MP3  = sys.argv[2] if len(sys.argv) > 2 else str(HERE / "voiceover.mp3")
 OUT_VIDEO  = str(HERE / "output" / (Path(SRC_VIDEO).stem + "-final.mp4"))
 MANIFEST   = HERE / "card-manifest.json"
 WORDS_JSON = HERE / "word-timings.json"
@@ -38,14 +36,14 @@ SWOOSH     = HERE / "swoosh.mp3"
 MUSIC      = SHARED / "music" / "sleep-music-chris-haugen.mp3"
 
 # ── ✏️  EDIT THESE ─────────────────────────────────────────────────────────────
-MUSIC_VOL  = 0.19   # background music volume (0.0–1.0); raise for louder bg music
+MUSIC_VOL  = 0.24   # background music volume (0.0–1.0); raise for louder bg music
 SWOOSH_VOL = 0.35   # swoosh SFX volume
 SRC_OFFSET = 0.0    # seconds to skip at start of source (use >0 to cut dark intros)
 # ── end of editable section ───────────────────────────────────────────────────
 
 Path(OUT_VIDEO).parent.mkdir(parents=True, exist_ok=True)
 
-for label, path in [("Source video", SRC_VIDEO), ("Voiceover", VOICE_MP3),
+for label, path in [("Source video", SRC_VIDEO),
                     ("Music", MUSIC), ("Swoosh", SWOOSH), ("Manifest", MANIFEST)]:
     if not Path(path).exists():
         print(f"ERROR: {label} not found: {path}")
@@ -55,20 +53,15 @@ for label, path in [("Source video", SRC_VIDEO), ("Voiceover", VOICE_MP3),
 probe_v = json.loads(subprocess.run(
     ["ffprobe", "-v", "quiet", "-print_format", "json", "-show_streams", "-show_format", SRC_VIDEO],
     capture_output=True, text=True).stdout)
-probe_a = json.loads(subprocess.run(
-    ["ffprobe", "-v", "quiet", "-print_format", "json", "-show_format", VOICE_MP3],
-    capture_output=True, text=True).stdout)
 
 video_stream = next(s for s in probe_v["streams"] if s["codec_type"] == "video")
 WIDTH        = video_stream["width"]
 HEIGHT       = video_stream["height"]
 VIDEO_DUR    = float(probe_v["format"]["duration"])
-VOICE_DUR    = float(probe_a["format"]["duration"])
-DURATION     = min(VIDEO_DUR - SRC_OFFSET, VOICE_DUR)  # end when shorter of video/voiceover ends
+DURATION     = VIDEO_DUR - SRC_OFFSET
 
 print(f"Source : {Path(SRC_VIDEO).name}  {WIDTH}×{HEIGHT}  {VIDEO_DUR:.1f}s"
       + (f"  (starts at +{SRC_OFFSET}s)" if SRC_OFFSET else ""))
-print(f"Voice  : {Path(VOICE_MP3).name}  {VOICE_DUR:.1f}s  (trimmed to {DURATION:.1f}s)")
 print(f"Output : {DURATION:.1f}s")
 
 # ── Captions ──────────────────────────────────────────────────────────────────
@@ -77,9 +70,9 @@ words = json.loads(WORDS_JSON.read_text(encoding="utf-8"))
 
 # Scale timestamps if timing file was generated at a different speed than recording
 timing_end = words[-1]["end"]
-if abs(timing_end - VOICE_DUR) > 0.5:
-    scale = VOICE_DUR / timing_end
-    print(f"Caption sync  : scaling timestamps by {scale:.6f} ({timing_end:.2f}s → {VOICE_DUR:.2f}s)")
+if abs(timing_end - DURATION) > 0.5:
+    scale = DURATION / timing_end
+    print(f"Caption sync  : scaling timestamps by {scale:.6f} ({timing_end:.2f}s → {DURATION:.2f}s)")
     for w in words:
         w["start"] = round(w["start"] * scale, 4)
         w["end"]   = round(w["end"]   * scale, 4)
@@ -101,18 +94,17 @@ for c in cards:
 n_cards = len(cards)
 
 # ── Inputs ────────────────────────────────────────────────────────────────────
-#   [0]     source video
-#   [1]     voiceover
-#   [2…N+1] card PNGs
-#   [N+2]   background music
-#   [N+3]   swoosh
+#   [0]     source video (audio = voiceover)
+#   [1…N]   card PNGs
+#   [N+1]   background music
+#   [N+2]   swoosh
 inputs = []
 if SRC_OFFSET:
     inputs += ["-ss", str(SRC_OFFSET)]
-inputs += ["-i", SRC_VIDEO, "-i", VOICE_MP3]
+inputs += ["-i", SRC_VIDEO]
 for c in cards:
     inputs += ["-i", c["path"]]
-music_idx  = 2 + n_cards
+music_idx  = 1 + n_cards
 swoosh_idx = music_idx + 1
 inputs += ["-i", str(MUSIC), "-i", str(SWOOSH)]
 
@@ -124,7 +116,7 @@ vf.append(f"{current}ass={ass_path}[v_caps]")
 current = "[v_caps]"
 
 for idx, card in enumerate(cards):
-    card_stream = idx + 2
+    card_stream = idx + 1
     out_label   = f"[v{idx}]"
     vf.append(
         f"{current}[{card_stream}:v]overlay=0:0:"
@@ -148,7 +140,7 @@ af.append(
     f"volume={MUSIC_VOL}[bg_raw]"
 )
 
-af.append(f"[1:a]atrim=end={DURATION:.3f},asplit=2[voice_out][voice_sc]")
+af.append(f"[0:a]atrim=end={DURATION:.3f},asplit=2[voice_out][voice_sc]")
 af.append(
     "[bg_raw][voice_sc]sidechaincompress="
     "threshold=0.015:ratio=4:attack=200:release=1200:makeup=1[bg_ducked]"
@@ -187,7 +179,7 @@ cmd = (
         "-map", "[audio_out]",
         "-c:v", "libx264",
         "-preset", "medium",
-        "-crf", "18",
+        "-crf", "23",
         "-pix_fmt", "yuv420p",
         "-c:a", "aac",
         "-b:a", "192k",
@@ -202,7 +194,7 @@ result = subprocess.run(cmd, capture_output=True, text=True)
 if result.returncode == 0:
     size = Path(OUT_VIDEO).stat().st_size
     print(f"✓ Done: {OUT_VIDEO}")
-    print(f"  Size: {size/1024/1024:.0f} MB  ({WIDTH}×{HEIGHT}, CRF 18)")
+    print(f"  Size: {size/1024/1024:.0f} MB  ({WIDTH}×{HEIGHT}, CRF 23)")
 else:
     print("FFmpeg error:")
     for line in result.stderr.split("\n")[-40:]:
