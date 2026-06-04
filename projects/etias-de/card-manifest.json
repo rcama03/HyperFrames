@@ -1,0 +1,148 @@
+{
+  "cards": [
+    {
+      "id": "chap-europa",
+      "path": "card-frames/chap-europa.png",
+      "inTime": 0.5,
+      "outTime": 6.5
+    },
+    {
+      "id": "stat-60laender",
+      "path": "card-frames/stat-60laender.png",
+      "inTime": 18,
+      "outTime": 24
+    },
+    {
+      "id": "key-kein-visum",
+      "path": "card-frames/key-kein-visum.png",
+      "inTime": 35,
+      "outTime": 41
+    },
+    {
+      "id": "chap-echte",
+      "path": "card-frames/chap-echte.png",
+      "inTime": 80.5,
+      "outTime": 86.5
+    },
+    {
+      "id": "stat-750k",
+      "path": "card-frames/stat-750k.png",
+      "inTime": 98,
+      "outTime": 104
+    },
+    {
+      "id": "key-prescreening",
+      "path": "card-frames/key-prescreening.png",
+      "inTime": 115,
+      "outTime": 121
+    },
+    {
+      "id": "chap-nichteubuerger",
+      "path": "card-frames/chap-nichteubuerger.png",
+      "inTime": 160.5,
+      "outTime": 166.5
+    },
+    {
+      "id": "stat-1pt4mrd",
+      "path": "card-frames/stat-1pt4mrd.png",
+      "inTime": 178,
+      "outTime": 184
+    },
+    {
+      "id": "key-wer",
+      "path": "card-frames/key-wer.png",
+      "inTime": 198,
+      "outTime": 204
+    },
+    {
+      "id": "chap-zeitplan",
+      "path": "card-frames/chap-zeitplan.png",
+      "inTime": 240.5,
+      "outTime": 246.5
+    },
+    {
+      "id": "stat-2025",
+      "path": "card-frames/stat-2025.png",
+      "inTime": 258,
+      "outTime": 264
+    },
+    {
+      "id": "key-verzoegerung",
+      "path": "card-frames/key-verzoegerung.png",
+      "inTime": 278,
+      "outTime": 284
+    },
+    {
+      "id": "chap-kosten",
+      "path": "card-frames/chap-kosten.png",
+      "inTime": 320.5,
+      "outTime": 326.5
+    },
+    {
+      "id": "stat-7euro",
+      "path": "card-frames/stat-7euro.png",
+      "inTime": 338,
+      "outTime": 344
+    },
+    {
+      "id": "stat-3jahre",
+      "path": "card-frames/stat-3jahre.png",
+      "inTime": 358,
+      "outTime": 364
+    },
+    {
+      "id": "chap-gb",
+      "path": "card-frames/chap-gb.png",
+      "inTime": 400.5,
+      "outTime": 406.5
+    },
+    {
+      "id": "stat-eta-uk",
+      "path": "card-frames/stat-eta-uk.png",
+      "inTime": 418,
+      "outTime": 424
+    },
+    {
+      "id": "key-vorbild",
+      "path": "card-frames/key-vorbild.png",
+      "inTime": 438,
+      "outTime": 444
+    },
+    {
+      "id": "chap-kinder",
+      "path": "card-frames/chap-kinder.png",
+      "inTime": 480.5,
+      "outTime": 486.5
+    },
+    {
+      "id": "stat-unter18",
+      "path": "card-frames/stat-unter18.png",
+      "inTime": 498,
+      "outTime": 504
+    },
+    {
+      "id": "key-minderjahrige",
+      "path": "card-frames/key-minderjahrige.png",
+      "inTime": 518,
+      "outTime": 524
+    },
+    {
+      "id": "chap-grossbild",
+      "path": "card-frames/chap-grossbild.png",
+      "inTime": 560.5,
+      "outTime": 566.5
+    },
+    {
+      "id": "stat-95pct",
+      "path": "card-frames/stat-95pct.png",
+      "inTime": 578,
+      "outTime": 584
+    },
+    {
+      "id": "key-ziel",
+      "path": "card-frames/key-ziel.png",
+      "inTime": 598,
+      "outTime": 604
+    }
+  ]
+}
