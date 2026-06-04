@@ -1,0 +1,5567 @@
+[
+  {
+    "word": "Stell",
+    "start": 0.0,
+    "end": 0.611
+  },
+  {
+    "word": "dir vor:",
+    "start": 0.611,
+    "end": 1.222
+  },
+  {
+    "word": "Du stehst",
+    "start": 1.222,
+    "end": 1.834
+  },
+  {
+    "word": "am Flughafen,",
+    "start": 1.834,
+    "end": 2.445
+  },
+  {
+    "word": "dein",
+    "start": 2.445,
+    "end": 3.056
+  },
+  {
+    "word": "Koffer",
+    "start": 3.056,
+    "end": 3.667
+  },
+  {
+    "word": "ist gepackt,",
+    "start": 3.667,
+    "end": 4.278
+  },
+  {
+    "word": "dein",
+    "start": 4.278,
+    "end": 4.89
+  },
+  {
+    "word": "Flug",
+    "start": 4.89,
+    "end": 5.501
+  },
+  {
+    "word": "geht",
+    "start": 5.501,
+    "end": 6.112
+  },
+  {
+    "word": "in zwei",
+    "start": 6.112,
+    "end": 6.723
+  },
+  {
+    "word": "Stunden",
+    "start": 6.723,
+    "end": 7.335
+  },
+  {
+    "word": "— und",
+    "start": 7.335,
+    "end": 7.946
+  },
+  {
+    "word": "du darfst",
+    "start": 7.946,
+    "end": 8.557
+  },
+  {
+    "word": "nicht",
+    "start": 8.557,
+    "end": 9.168
+  },
+  {
+    "word": "einreisen.",
+    "start": 9.168,
+    "end": 9.779
+  },
+  {
+    "word": "Nicht",
+    "start": 9.779,
+    "end": 10.391
+  },
+  {
+    "word": "wegen",
+    "start": 10.391,
+    "end": 11.002
+  },
+  {
+    "word": "eines",
+    "start": 11.002,
+    "end": 11.613
+  },
+  {
+    "word": "Verbrechens.",
+    "start": 11.613,
+    "end": 12.224
+  },
+  {
+    "word": "Nicht",
+    "start": 12.224,
+    "end": 12.835
+  },
+  {
+    "word": "wegen",
+    "start": 12.835,
+    "end": 13.447
+  },
+  {
+    "word": "einer",
+    "start": 13.447,
+    "end": 14.058
+  },
+  {
+    "word": "Krankheit.",
+    "start": 14.058,
+    "end": 14.669
+  },
+  {
+    "word": "Sondern",
+    "start": 14.669,
+    "end": 15.28
+  },
+  {
+    "word": "weil",
+    "start": 15.28,
+    "end": 15.892
+  },
+  {
+    "word": "du vergessen",
+    "start": 15.892,
+    "end": 16.503
+  },
+  {
+    "word": "hast,",
+    "start": 16.503,
+    "end": 17.114
+  },
+  {
+    "word": "ein sieben",
+    "start": 17.114,
+    "end": 17.725
+  },
+  {
+    "word": "Euro",
+    "start": 17.725,
+    "end": 18.336
+  },
+  {
+    "word": "teures",
+    "start": 18.336,
+    "end": 18.948
+  },
+  {
+    "word": "Formular",
+    "start": 18.948,
+    "end": 19.559
+  },
+  {
+    "word": "auszufüllen.",
+    "start": 19.559,
+    "end": 20.17
+  },
+  {
+    "word": "Was die",
+    "start": 20.47,
+    "end": 21.018
+  },
+  {
+    "word": "meisten",
+    "start": 21.018,
+    "end": 21.567
+  },
+  {
+    "word": "Reisenden",
+    "start": 21.567,
+    "end": 22.115
+  },
+  {
+    "word": "noch",
+    "start": 22.115,
+    "end": 22.664
+  },
+  {
+    "word": "nicht",
+    "start": 22.664,
+    "end": 23.212
+  },
+  {
+    "word": "wissen:",
+    "start": 23.212,
+    "end": 23.76
+  },
+  {
+    "word": "ETIAS",
+    "start": 23.76,
+    "end": 24.309
+  },
+  {
+    "word": "ist kein",
+    "start": 24.309,
+    "end": 24.857
+  },
+  {
+    "word": "simples",
+    "start": 24.857,
+    "end": 25.405
+  },
+  {
+    "word": "Einreiseformular.",
+    "start": 25.405,
+    "end": 25.954
+  },
+  {
+    "word": "Es ist",
+    "start": 25.954,
+    "end": 26.502
+  },
+  {
+    "word": "ein KI-gestütztes",
+    "start": 26.502,
+    "end": 27.051
+  },
+  {
+    "word": "Überwachungssystem,",
+    "start": 27.051,
+    "end": 27.599
+  },
+  {
+    "word": "das deine",
+    "start": 27.599,
+    "end": 28.147
+  },
+  {
+    "word": "Reisehistorie,",
+    "start": 28.147,
+    "end": 28.696
+  },
+  {
+    "word": "deine",
+    "start": 28.696,
+    "end": 29.244
+  },
+  {
+    "word": "Kriminalakte",
+    "start": 29.244,
+    "end": 29.793
+  },
+  {
+    "word": "und sogar",
+    "start": 29.793,
+    "end": 30.341
+  },
+  {
+    "word": "deine",
+    "start": 30.341,
+    "end": 30.889
+  },
+  {
+    "word": "Verbindungen",
+    "start": 30.889,
+    "end": 31.438
+  },
+  {
+    "word": "zu bestimmten",
+    "start": 31.438,
+    "end": 31.986
+  },
+  {
+    "word": "Ländern",
+    "start": 31.986,
+    "end": 32.535
+  },
+  {
+    "word": "analysiert.",
+    "start": 32.535,
+    "end": 33.083
+  },
+  {
+    "word": "Und ein",
+    "start": 33.083,
+    "end": 33.631
+  },
+  {
+    "word": "einziger",
+    "start": 33.631,
+    "end": 34.18
+  },
+  {
+    "word": "falscher",
+    "start": 34.18,
+    "end": 34.728
+  },
+  {
+    "word": "Eintrag",
+    "start": 34.728,
+    "end": 35.276
+  },
+  {
+    "word": "kann",
+    "start": 35.276,
+    "end": 35.825
+  },
+  {
+    "word": "dich",
+    "start": 35.825,
+    "end": 36.373
+  },
+  {
+    "word": "für Jahre",
+    "start": 36.373,
+    "end": 36.922
+  },
+  {
+    "word": "sperren.",
+    "start": 36.922,
+    "end": 37.47
+  },
+  {
+    "word": "ETIAS",
+    "start": 37.77,
+    "end": 38.37
+  },
+  {
+    "word": "steht",
+    "start": 38.37,
+    "end": 38.971
+  },
+  {
+    "word": "für European",
+    "start": 38.971,
+    "end": 39.571
+  },
+  {
+    "word": "Travel",
+    "start": 39.571,
+    "end": 40.171
+  },
+  {
+    "word": "Information",
+    "start": 40.171,
+    "end": 40.772
+  },
+  {
+    "word": "and Authorisation",
+    "start": 40.772,
+    "end": 41.372
+  },
+  {
+    "word": "System.",
+    "start": 41.372,
+    "end": 41.972
+  },
+  {
+    "word": "Die EU",
+    "start": 41.972,
+    "end": 42.573
+  },
+  {
+    "word": "hat es",
+    "start": 42.573,
+    "end": 43.173
+  },
+  {
+    "word": "entwickelt,",
+    "start": 43.173,
+    "end": 43.773
+  },
+  {
+    "word": "um die",
+    "start": 43.773,
+    "end": 44.374
+  },
+  {
+    "word": "Grenzen",
+    "start": 44.374,
+    "end": 44.974
+  },
+  {
+    "word": "des Schengen-Raums",
+    "start": 44.974,
+    "end": 45.574
+  },
+  {
+    "word": "zu kontrollieren",
+    "start": 45.574,
+    "end": 46.175
+  },
+  {
+    "word": "— ohne",
+    "start": 46.175,
+    "end": 46.775
+  },
+  {
+    "word": "sichtbare",
+    "start": 46.775,
+    "end": 47.375
+  },
+  {
+    "word": "Grenzkontrollen",
+    "start": 47.375,
+    "end": 47.976
+  },
+  {
+    "word": "abzuschaffen.",
+    "start": 47.976,
+    "end": 48.576
+  },
+  {
+    "word": "Ab 2026",
+    "start": 48.576,
+    "end": 49.176
+  },
+  {
+    "word": "müssen",
+    "start": 49.176,
+    "end": 49.777
+  },
+  {
+    "word": "alle",
+    "start": 49.777,
+    "end": 50.377
+  },
+  {
+    "word": "Nicht-EU-Bürger,",
+    "start": 50.377,
+    "end": 50.977
+  },
+  {
+    "word": "die visumfrei",
+    "start": 50.977,
+    "end": 51.578
+  },
+  {
+    "word": "einreisen",
+    "start": 51.578,
+    "end": 52.178
+  },
+  {
+    "word": "dürfen,",
+    "start": 52.178,
+    "end": 52.778
+  },
+  {
+    "word": "vorab",
+    "start": 52.778,
+    "end": 53.379
+  },
+  {
+    "word": "eine",
+    "start": 53.379,
+    "end": 53.979
+  },
+  {
+    "word": "digitale",
+    "start": 53.979,
+    "end": 54.579
+  },
+  {
+    "word": "Genehmigung",
+    "start": 54.579,
+    "end": 55.18
+  },
+  {
+    "word": "beantragen.",
+    "start": 55.18,
+    "end": 55.78
+  },
+  {
+    "word": "Moment",
+    "start": 56.08,
+    "end": 56.596
+  },
+  {
+    "word": "mal —",
+    "start": 56.596,
+    "end": 57.112
+  },
+  {
+    "word": "bist",
+    "start": 57.112,
+    "end": 57.628
+  },
+  {
+    "word": "du als",
+    "start": 57.628,
+    "end": 58.144
+  },
+  {
+    "word": "Deutscher",
+    "start": 58.144,
+    "end": 58.66
+  },
+  {
+    "word": "überhaupt",
+    "start": 58.66,
+    "end": 59.176
+  },
+  {
+    "word": "betroffen?",
+    "start": 59.176,
+    "end": 59.692
+  },
+  {
+    "word": "Nein.",
+    "start": 59.692,
+    "end": 60.208
+  },
+  {
+    "word": "Deutsche,",
+    "start": 60.208,
+    "end": 60.724
+  },
+  {
+    "word": "Österreicher",
+    "start": 60.724,
+    "end": 61.239
+  },
+  {
+    "word": "und Schweizer",
+    "start": 61.239,
+    "end": 61.755
+  },
+  {
+    "word": "als EU-Bürger",
+    "start": 61.755,
+    "end": 62.271
+  },
+  {
+    "word": "sind",
+    "start": 62.271,
+    "end": 62.787
+  },
+  {
+    "word": "ausgenommen.",
+    "start": 62.787,
+    "end": 63.303
+  },
+  {
+    "word": "Aber",
+    "start": 63.303,
+    "end": 63.819
+  },
+  {
+    "word": "wenn",
+    "start": 63.819,
+    "end": 64.335
+  },
+  {
+    "word": "du Freunde",
+    "start": 64.335,
+    "end": 64.851
+  },
+  {
+    "word": "oder",
+    "start": 64.851,
+    "end": 65.367
+  },
+  {
+    "word": "Familie",
+    "start": 65.367,
+    "end": 65.883
+  },
+  {
+    "word": "aus den",
+    "start": 65.883,
+    "end": 66.399
+  },
+  {
+    "word": "USA, Australien,",
+    "start": 66.399,
+    "end": 66.915
+  },
+  {
+    "word": "Japan,",
+    "start": 66.915,
+    "end": 67.431
+  },
+  {
+    "word": "Kanada",
+    "start": 67.431,
+    "end": 67.947
+  },
+  {
+    "word": "oder",
+    "start": 67.947,
+    "end": 68.463
+  },
+  {
+    "word": "59 anderen",
+    "start": 68.463,
+    "end": 68.979
+  },
+  {
+    "word": "Ländern",
+    "start": 68.979,
+    "end": 69.495
+  },
+  {
+    "word": "besuchst",
+    "start": 69.495,
+    "end": 70.011
+  },
+  {
+    "word": "— oder",
+    "start": 70.011,
+    "end": 70.526
+  },
+  {
+    "word": "selbst",
+    "start": 70.526,
+    "end": 71.042
+  },
+  {
+    "word": "einen",
+    "start": 71.042,
+    "end": 71.558
+  },
+  {
+    "word": "zweiten",
+    "start": 71.558,
+    "end": 72.074
+  },
+  {
+    "word": "Pass",
+    "start": 72.074,
+    "end": 72.59
+  },
+  {
+    "word": "hast",
+    "start": 72.59,
+    "end": 73.106
+  },
+  {
+    "word": "— dann",
+    "start": 73.106,
+    "end": 73.622
+  },
+  {
+    "word": "ändert",
+    "start": 73.622,
+    "end": 74.138
+  },
+  {
+    "word": "sich",
+    "start": 74.138,
+    "end": 74.654
+  },
+  {
+    "word": "alles.",
+    "start": 74.654,
+    "end": 75.17
+  },
+  {
+    "word": "Hier",
+    "start": 75.47,
+    "end": 76.187
+  },
+  {
+    "word": "wird",
+    "start": 76.187,
+    "end": 76.903
+  },
+  {
+    "word": "es richtig",
+    "start": 76.903,
+    "end": 77.62
+  },
+  {
+    "word": "interessant.",
+    "start": 77.62,
+    "end": 78.336
+  },
+  {
+    "word": "Schätzungen",
+    "start": 78.336,
+    "end": 79.053
+  },
+  {
+    "word": "der Europäischen",
+    "start": 79.053,
+    "end": 79.769
+  },
+  {
+    "word": "Kommission",
+    "start": 79.769,
+    "end": 80.486
+  },
+  {
+    "word": "zufolge",
+    "start": 80.486,
+    "end": 81.203
+  },
+  {
+    "word": "werden",
+    "start": 81.203,
+    "end": 81.919
+  },
+  {
+    "word": "jährlich",
+    "start": 81.919,
+    "end": 82.636
+  },
+  {
+    "word": "über",
+    "start": 82.636,
+    "end": 83.352
+  },
+  {
+    "word": "142 Millionen",
+    "start": 83.352,
+    "end": 84.069
+  },
+  {
+    "word": "Reisende",
+    "start": 84.069,
+    "end": 84.785
+  },
+  {
+    "word": "ETIAS",
+    "start": 84.785,
+    "end": 85.502
+  },
+  {
+    "word": "beantragen",
+    "start": 85.502,
+    "end": 86.218
+  },
+  {
+    "word": "müssen.",
+    "start": 86.218,
+    "end": 86.935
+  },
+  {
+    "word": "Das ist",
+    "start": 86.935,
+    "end": 87.652
+  },
+  {
+    "word": "mehr",
+    "start": 87.652,
+    "end": 88.368
+  },
+  {
+    "word": "als die",
+    "start": 88.368,
+    "end": 89.085
+  },
+  {
+    "word": "gesamte",
+    "start": 89.085,
+    "end": 89.801
+  },
+  {
+    "word": "Bevölkerung",
+    "start": 89.801,
+    "end": 90.518
+  },
+  {
+    "word": "Deutschlands",
+    "start": 90.518,
+    "end": 91.234
+  },
+  {
+    "word": "und Frankreichs",
+    "start": 91.234,
+    "end": 91.951
+  },
+  {
+    "word": "zusammen.",
+    "start": 91.951,
+    "end": 92.667
+  },
+  {
+    "word": "Ein Verwaltungsapparat",
+    "start": 92.667,
+    "end": 93.384
+  },
+  {
+    "word": "in einer",
+    "start": 93.384,
+    "end": 94.101
+  },
+  {
+    "word": "Größenordnung,",
+    "start": 94.101,
+    "end": 94.817
+  },
+  {
+    "word": "die die",
+    "start": 94.817,
+    "end": 95.534
+  },
+  {
+    "word": "EU noch",
+    "start": 95.534,
+    "end": 96.25
+  },
+  {
+    "word": "nie zuvor",
+    "start": 96.25,
+    "end": 96.967
+  },
+  {
+    "word": "bewältigt",
+    "start": 96.967,
+    "end": 97.683
+  },
+  {
+    "word": "hat.",
+    "start": 97.683,
+    "end": 98.4
+  },
+  {
+    "word": "Der Antrag",
+    "start": 98.7,
+    "end": 99.163
+  },
+  {
+    "word": "selbst",
+    "start": 99.163,
+    "end": 99.625
+  },
+  {
+    "word": "klingt",
+    "start": 99.625,
+    "end": 100.088
+  },
+  {
+    "word": "simpel:",
+    "start": 100.088,
+    "end": 100.551
+  },
+  {
+    "word": "Du gehst",
+    "start": 100.551,
+    "end": 101.014
+  },
+  {
+    "word": "online,",
+    "start": 101.014,
+    "end": 101.476
+  },
+  {
+    "word": "füllst",
+    "start": 101.476,
+    "end": 101.939
+  },
+  {
+    "word": "ein Formular",
+    "start": 101.939,
+    "end": 102.402
+  },
+  {
+    "word": "aus, zahlst",
+    "start": 102.402,
+    "end": 102.864
+  },
+  {
+    "word": "sieben",
+    "start": 102.864,
+    "end": 103.327
+  },
+  {
+    "word": "Euro",
+    "start": 103.327,
+    "end": 103.79
+  },
+  {
+    "word": "— und",
+    "start": 103.79,
+    "end": 104.252
+  },
+  {
+    "word": "wartest.",
+    "start": 104.252,
+    "end": 104.715
+  },
+  {
+    "word": "In den",
+    "start": 104.715,
+    "end": 105.178
+  },
+  {
+    "word": "meisten",
+    "start": 105.178,
+    "end": 105.641
+  },
+  {
+    "word": "Fällen",
+    "start": 105.641,
+    "end": 106.103
+  },
+  {
+    "word": "bekommst",
+    "start": 106.103,
+    "end": 106.566
+  },
+  {
+    "word": "du innerhalb",
+    "start": 106.566,
+    "end": 107.029
+  },
+  {
+    "word": "von Minuten",
+    "start": 107.029,
+    "end": 107.491
+  },
+  {
+    "word": "eine",
+    "start": 107.491,
+    "end": 107.954
+  },
+  {
+    "word": "Antwort.",
+    "start": 107.954,
+    "end": 108.417
+  },
+  {
+    "word": "Aber",
+    "start": 108.417,
+    "end": 108.879
+  },
+  {
+    "word": "in bis",
+    "start": 108.879,
+    "end": 109.342
+  },
+  {
+    "word": "zu zehn",
+    "start": 109.342,
+    "end": 109.805
+  },
+  {
+    "word": "Prozent",
+    "start": 109.805,
+    "end": 110.268
+  },
+  {
+    "word": "aller",
+    "start": 110.268,
+    "end": 110.73
+  },
+  {
+    "word": "Fälle",
+    "start": 110.73,
+    "end": 111.193
+  },
+  {
+    "word": "kann",
+    "start": 111.193,
+    "end": 111.656
+  },
+  {
+    "word": "das Verfahren",
+    "start": 111.656,
+    "end": 112.118
+  },
+  {
+    "word": "Tage",
+    "start": 112.118,
+    "end": 112.581
+  },
+  {
+    "word": "oder",
+    "start": 112.581,
+    "end": 113.044
+  },
+  {
+    "word": "sogar",
+    "start": 113.044,
+    "end": 113.506
+  },
+  {
+    "word": "Wochen",
+    "start": 113.506,
+    "end": 113.969
+  },
+  {
+    "word": "dauern.",
+    "start": 113.969,
+    "end": 114.432
+  },
+  {
+    "word": "Und das",
+    "start": 114.432,
+    "end": 114.895
+  },
+  {
+    "word": "ist das",
+    "start": 114.895,
+    "end": 115.357
+  },
+  {
+    "word": "Problem.",
+    "start": 115.357,
+    "end": 115.82
+  },
+  {
+    "word": "Was kaum",
+    "start": 116.12,
+    "end": 116.723
+  },
+  {
+    "word": "jemand",
+    "start": 116.723,
+    "end": 117.325
+  },
+  {
+    "word": "weiß:",
+    "start": 117.325,
+    "end": 117.928
+  },
+  {
+    "word": "Beim",
+    "start": 117.928,
+    "end": 118.53
+  },
+  {
+    "word": "ETIAS-Antrag",
+    "start": 118.53,
+    "end": 119.133
+  },
+  {
+    "word": "gibt",
+    "start": 119.133,
+    "end": 119.735
+  },
+  {
+    "word": "es Fragen,",
+    "start": 119.735,
+    "end": 120.338
+  },
+  {
+    "word": "bei denen",
+    "start": 120.338,
+    "end": 120.94
+  },
+  {
+    "word": "selbst",
+    "start": 120.94,
+    "end": 121.543
+  },
+  {
+    "word": "kleine",
+    "start": 121.543,
+    "end": 122.145
+  },
+  {
+    "word": "Ungenauigkeiten",
+    "start": 122.145,
+    "end": 122.748
+  },
+  {
+    "word": "zur sofortigen",
+    "start": 122.748,
+    "end": 123.35
+  },
+  {
+    "word": "Ablehnung",
+    "start": 123.35,
+    "end": 123.953
+  },
+  {
+    "word": "führen",
+    "start": 123.953,
+    "end": 124.555
+  },
+  {
+    "word": "können.",
+    "start": 124.555,
+    "end": 125.158
+  },
+  {
+    "word": "Eine",
+    "start": 125.157,
+    "end": 125.76
+  },
+  {
+    "word": "falsch",
+    "start": 125.76,
+    "end": 126.363
+  },
+  {
+    "word": "angegebene",
+    "start": 126.362,
+    "end": 126.965
+  },
+  {
+    "word": "Adresse.",
+    "start": 126.965,
+    "end": 127.568
+  },
+  {
+    "word": "Ein vergessener",
+    "start": 127.567,
+    "end": 128.17
+  },
+  {
+    "word": "Zwischenaufenthalt.",
+    "start": 128.17,
+    "end": 128.773
+  },
+  {
+    "word": "Eine",
+    "start": 128.773,
+    "end": 129.375
+  },
+  {
+    "word": "Frage",
+    "start": 129.375,
+    "end": 129.977
+  },
+  {
+    "word": "über",
+    "start": 129.977,
+    "end": 130.58
+  },
+  {
+    "word": "Vorstrafen,",
+    "start": 130.58,
+    "end": 131.183
+  },
+  {
+    "word": "die du",
+    "start": 131.183,
+    "end": 131.785
+  },
+  {
+    "word": "zu schnell",
+    "start": 131.785,
+    "end": 132.387
+  },
+  {
+    "word": "überflogen",
+    "start": 132.387,
+    "end": 132.99
+  },
+  {
+    "word": "hast.",
+    "start": 132.99,
+    "end": 133.593
+  },
+  {
+    "word": "Die Tücken",
+    "start": 133.593,
+    "end": 134.195
+  },
+  {
+    "word": "stecken",
+    "start": 134.195,
+    "end": 134.797
+  },
+  {
+    "word": "im Detail.",
+    "start": 134.798,
+    "end": 135.4
+  },
+  {
+    "word": "Und jetzt",
+    "start": 135.7,
+    "end": 136.168
+  },
+  {
+    "word": "kommt",
+    "start": 136.168,
+    "end": 136.635
+  },
+  {
+    "word": "der Teil,",
+    "start": 136.635,
+    "end": 137.103
+  },
+  {
+    "word": "der viele",
+    "start": 137.103,
+    "end": 137.571
+  },
+  {
+    "word": "Menschen",
+    "start": 137.571,
+    "end": 138.038
+  },
+  {
+    "word": "überrascht.",
+    "start": 138.038,
+    "end": 138.506
+  },
+  {
+    "word": "Im ETIAS-Antrag",
+    "start": 138.506,
+    "end": 138.974
+  },
+  {
+    "word": "wirst",
+    "start": 138.974,
+    "end": 139.441
+  },
+  {
+    "word": "du nicht",
+    "start": 139.441,
+    "end": 139.909
+  },
+  {
+    "word": "nur nach",
+    "start": 139.909,
+    "end": 140.376
+  },
+  {
+    "word": "deinem",
+    "start": 140.376,
+    "end": 140.844
+  },
+  {
+    "word": "Reisepass",
+    "start": 140.844,
+    "end": 141.312
+  },
+  {
+    "word": "gefragt.",
+    "start": 141.312,
+    "end": 141.779
+  },
+  {
+    "word": "Du musst",
+    "start": 141.779,
+    "end": 142.247
+  },
+  {
+    "word": "angeben,",
+    "start": 142.247,
+    "end": 142.715
+  },
+  {
+    "word": "ob du",
+    "start": 142.715,
+    "end": 143.182
+  },
+  {
+    "word": "jemals",
+    "start": 143.182,
+    "end": 143.65
+  },
+  {
+    "word": "wegen",
+    "start": 143.65,
+    "end": 144.118
+  },
+  {
+    "word": "einer",
+    "start": 144.118,
+    "end": 144.585
+  },
+  {
+    "word": "Straftat",
+    "start": 144.585,
+    "end": 145.053
+  },
+  {
+    "word": "verurteilt",
+    "start": 145.053,
+    "end": 145.521
+  },
+  {
+    "word": "wurdest,",
+    "start": 145.521,
+    "end": 145.988
+  },
+  {
+    "word": "ob du",
+    "start": 145.988,
+    "end": 146.456
+  },
+  {
+    "word": "in Kriegsgebieten",
+    "start": 146.456,
+    "end": 146.924
+  },
+  {
+    "word": "warst",
+    "start": 146.924,
+    "end": 147.391
+  },
+  {
+    "word": "— und",
+    "start": 147.391,
+    "end": 147.859
+  },
+  {
+    "word": "in welchen",
+    "start": 147.859,
+    "end": 148.326
+  },
+  {
+    "word": "Ländern",
+    "start": 148.326,
+    "end": 148.794
+  },
+  {
+    "word": "du in",
+    "start": 148.794,
+    "end": 149.262
+  },
+  {
+    "word": "den letzten",
+    "start": 149.262,
+    "end": 149.729
+  },
+  {
+    "word": "zehn",
+    "start": 149.729,
+    "end": 150.197
+  },
+  {
+    "word": "Jahren",
+    "start": 150.197,
+    "end": 150.665
+  },
+  {
+    "word": "gelebt",
+    "start": 150.665,
+    "end": 151.132
+  },
+  {
+    "word": "hast.",
+    "start": 151.132,
+    "end": 151.6
+  },
+  {
+    "word": "Besonders",
+    "start": 151.9,
+    "end": 152.393
+  },
+  {
+    "word": "brisant",
+    "start": 152.393,
+    "end": 152.887
+  },
+  {
+    "word": "wird",
+    "start": 152.887,
+    "end": 153.38
+  },
+  {
+    "word": "es für",
+    "start": 153.38,
+    "end": 153.873
+  },
+  {
+    "word": "Menschen",
+    "start": 153.873,
+    "end": 154.367
+  },
+  {
+    "word": "mit Migrationshintergrund",
+    "start": 154.367,
+    "end": 154.86
+  },
+  {
+    "word": "oder",
+    "start": 154.86,
+    "end": 155.353
+  },
+  {
+    "word": "für Reisende,",
+    "start": 155.353,
+    "end": 155.847
+  },
+  {
+    "word": "die in",
+    "start": 155.847,
+    "end": 156.34
+  },
+  {
+    "word": "bestimmten",
+    "start": 156.34,
+    "end": 156.833
+  },
+  {
+    "word": "Ländern",
+    "start": 156.833,
+    "end": 157.327
+  },
+  {
+    "word": "gelebt",
+    "start": 157.327,
+    "end": 157.82
+  },
+  {
+    "word": "haben.",
+    "start": 157.82,
+    "end": 158.313
+  },
+  {
+    "word": "Wenn",
+    "start": 158.313,
+    "end": 158.807
+  },
+  {
+    "word": "du jemals",
+    "start": 158.807,
+    "end": 159.3
+  },
+  {
+    "word": "in einem",
+    "start": 159.3,
+    "end": 159.793
+  },
+  {
+    "word": "Land",
+    "start": 159.793,
+    "end": 160.287
+  },
+  {
+    "word": "warst,",
+    "start": 160.287,
+    "end": 160.78
+  },
+  {
+    "word": "das die",
+    "start": 160.78,
+    "end": 161.273
+  },
+  {
+    "word": "EU als",
+    "start": 161.273,
+    "end": 161.767
+  },
+  {
+    "word": "Risikoland",
+    "start": 161.767,
+    "end": 162.26
+  },
+  {
+    "word": "einstuft",
+    "start": 162.26,
+    "end": 162.753
+  },
+  {
+    "word": "— Iran,",
+    "start": 162.753,
+    "end": 163.247
+  },
+  {
+    "word": "Syrien,",
+    "start": 163.247,
+    "end": 163.74
+  },
+  {
+    "word": "Nordkorea,",
+    "start": 163.74,
+    "end": 164.233
+  },
+  {
+    "word": "Russland",
+    "start": 164.233,
+    "end": 164.727
+  },
+  {
+    "word": "— dann",
+    "start": 164.727,
+    "end": 165.22
+  },
+  {
+    "word": "löst",
+    "start": 165.22,
+    "end": 165.713
+  },
+  {
+    "word": "das automatisch",
+    "start": 165.713,
+    "end": 166.207
+  },
+  {
+    "word": "eine",
+    "start": 166.207,
+    "end": 166.7
+  },
+  {
+    "word": "manuelle",
+    "start": 166.7,
+    "end": 167.193
+  },
+  {
+    "word": "Überprüfung",
+    "start": 167.193,
+    "end": 167.687
+  },
+  {
+    "word": "aus.",
+    "start": 167.687,
+    "end": 168.18
+  },
+  {
+    "word": "Hier",
+    "start": 168.48,
+    "end": 169.226
+  },
+  {
+    "word": "ist die",
+    "start": 169.226,
+    "end": 169.972
+  },
+  {
+    "word": "Wahrheit,",
+    "start": 169.972,
+    "end": 170.718
+  },
+  {
+    "word": "die kaum",
+    "start": 170.718,
+    "end": 171.465
+  },
+  {
+    "word": "ein Reiseblog",
+    "start": 171.465,
+    "end": 172.211
+  },
+  {
+    "word": "erwähnt.",
+    "start": 172.211,
+    "end": 172.957
+  },
+  {
+    "word": "Dein",
+    "start": 172.957,
+    "end": 173.703
+  },
+  {
+    "word": "ETIAS-Antrag",
+    "start": 173.703,
+    "end": 174.449
+  },
+  {
+    "word": "wird",
+    "start": 174.449,
+    "end": 175.195
+  },
+  {
+    "word": "automatisch",
+    "start": 175.195,
+    "end": 175.942
+  },
+  {
+    "word": "mit mindestens",
+    "start": 175.942,
+    "end": 176.688
+  },
+  {
+    "word": "fünf",
+    "start": 176.688,
+    "end": 177.434
+  },
+  {
+    "word": "europäischen",
+    "start": 177.434,
+    "end": 178.18
+  },
+  {
+    "word": "Sicherheitsdatenbanken",
+    "start": 178.18,
+    "end": 178.926
+  },
+  {
+    "word": "abgeglichen",
+    "start": 178.926,
+    "end": 179.672
+  },
+  {
+    "word": "— darunter",
+    "start": 179.672,
+    "end": 180.418
+  },
+  {
+    "word": "Interpol,",
+    "start": 180.418,
+    "end": 181.165
+  },
+  {
+    "word": "das Schengener",
+    "start": 181.165,
+    "end": 181.911
+  },
+  {
+    "word": "Informationssystem",
+    "start": 181.911,
+    "end": 182.657
+  },
+  {
+    "word": "und Europol.",
+    "start": 182.657,
+    "end": 183.403
+  },
+  {
+    "word": "Das passiert,",
+    "start": 183.403,
+    "end": 184.149
+  },
+  {
+    "word": "ohne",
+    "start": 184.149,
+    "end": 184.895
+  },
+  {
+    "word": "dass",
+    "start": 184.895,
+    "end": 185.642
+  },
+  {
+    "word": "du es",
+    "start": 185.642,
+    "end": 186.388
+  },
+  {
+    "word": "merkst,",
+    "start": 186.388,
+    "end": 187.134
+  },
+  {
+    "word": "in Echtzeit.",
+    "start": 187.134,
+    "end": 187.88
+  },
+  {
+    "word": "Viele",
+    "start": 188.18,
+    "end": 188.696
+  },
+  {
+    "word": "vergleichen",
+    "start": 188.696,
+    "end": 189.212
+  },
+  {
+    "word": "ETIAS",
+    "start": 189.212,
+    "end": 189.728
+  },
+  {
+    "word": "mit dem",
+    "start": 189.728,
+    "end": 190.244
+  },
+  {
+    "word": "amerikanischen",
+    "start": 190.244,
+    "end": 190.76
+  },
+  {
+    "word": "ESTA-System.",
+    "start": 190.76,
+    "end": 191.276
+  },
+  {
+    "word": "Und ja,",
+    "start": 191.276,
+    "end": 191.792
+  },
+  {
+    "word": "die Grundidee",
+    "start": 191.792,
+    "end": 192.308
+  },
+  {
+    "word": "ist ähnlich.",
+    "start": 192.308,
+    "end": 192.824
+  },
+  {
+    "word": "Aber",
+    "start": 192.824,
+    "end": 193.34
+  },
+  {
+    "word": "ETIAS",
+    "start": 193.34,
+    "end": 193.856
+  },
+  {
+    "word": "ist in",
+    "start": 193.856,
+    "end": 194.372
+  },
+  {
+    "word": "einem",
+    "start": 194.372,
+    "end": 194.888
+  },
+  {
+    "word": "entscheidenden",
+    "start": 194.888,
+    "end": 195.404
+  },
+  {
+    "word": "Punkt",
+    "start": 195.404,
+    "end": 195.92
+  },
+  {
+    "word": "strenger:",
+    "start": 195.92,
+    "end": 196.436
+  },
+  {
+    "word": "Die Gültigkeit",
+    "start": 196.436,
+    "end": 196.952
+  },
+  {
+    "word": "beträgt",
+    "start": 196.952,
+    "end": 197.468
+  },
+  {
+    "word": "nur drei",
+    "start": 197.468,
+    "end": 197.984
+  },
+  {
+    "word": "Jahre",
+    "start": 197.984,
+    "end": 198.5
+  },
+  {
+    "word": "oder",
+    "start": 198.5,
+    "end": 199.016
+  },
+  {
+    "word": "bis zum",
+    "start": 199.016,
+    "end": 199.532
+  },
+  {
+    "word": "Ablauf",
+    "start": 199.532,
+    "end": 200.048
+  },
+  {
+    "word": "deines",
+    "start": 200.048,
+    "end": 200.564
+  },
+  {
+    "word": "Reisepasses",
+    "start": 200.564,
+    "end": 201.08
+  },
+  {
+    "word": "— je",
+    "start": 201.08,
+    "end": 201.596
+  },
+  {
+    "word": "nachdem,",
+    "start": 201.596,
+    "end": 202.112
+  },
+  {
+    "word": "was zuerst",
+    "start": 202.112,
+    "end": 202.628
+  },
+  {
+    "word": "kommt.",
+    "start": 202.628,
+    "end": 203.144
+  },
+  {
+    "word": "ESTA",
+    "start": 203.144,
+    "end": 203.66
+  },
+  {
+    "word": "gilt",
+    "start": 203.66,
+    "end": 204.176
+  },
+  {
+    "word": "dagegen",
+    "start": 204.176,
+    "end": 204.692
+  },
+  {
+    "word": "zwei",
+    "start": 204.692,
+    "end": 205.208
+  },
+  {
+    "word": "Jahre",
+    "start": 205.208,
+    "end": 205.724
+  },
+  {
+    "word": "länger.",
+    "start": 205.724,
+    "end": 206.24
+  },
+  {
+    "word": "Was passiert,",
+    "start": 206.54,
+    "end": 207.101
+  },
+  {
+    "word": "wenn",
+    "start": 207.101,
+    "end": 207.662
+  },
+  {
+    "word": "dein",
+    "start": 207.662,
+    "end": 208.222
+  },
+  {
+    "word": "Antrag",
+    "start": 208.222,
+    "end": 208.783
+  },
+  {
+    "word": "abgelehnt",
+    "start": 208.783,
+    "end": 209.344
+  },
+  {
+    "word": "wird?",
+    "start": 209.344,
+    "end": 209.905
+  },
+  {
+    "word": "Du kannst",
+    "start": 209.905,
+    "end": 210.466
+  },
+  {
+    "word": "Einspruch",
+    "start": 210.466,
+    "end": 211.027
+  },
+  {
+    "word": "einlegen",
+    "start": 211.027,
+    "end": 211.587
+  },
+  {
+    "word": "— aber",
+    "start": 211.587,
+    "end": 212.148
+  },
+  {
+    "word": "das dauert.",
+    "start": 212.148,
+    "end": 212.709
+  },
+  {
+    "word": "Und in",
+    "start": 212.709,
+    "end": 213.27
+  },
+  {
+    "word": "der Zwischenzeit",
+    "start": 213.27,
+    "end": 213.831
+  },
+  {
+    "word": "darfst",
+    "start": 213.831,
+    "end": 214.392
+  },
+  {
+    "word": "du nicht",
+    "start": 214.392,
+    "end": 214.952
+  },
+  {
+    "word": "reisen.",
+    "start": 214.952,
+    "end": 215.513
+  },
+  {
+    "word": "Kein",
+    "start": 215.513,
+    "end": 216.074
+  },
+  {
+    "word": "Storno.",
+    "start": 216.074,
+    "end": 216.635
+  },
+  {
+    "word": "Keine",
+    "start": 216.635,
+    "end": 217.196
+  },
+  {
+    "word": "Ausnahme.",
+    "start": 217.196,
+    "end": 217.757
+  },
+  {
+    "word": "Du hast",
+    "start": 217.757,
+    "end": 218.317
+  },
+  {
+    "word": "gebuchte",
+    "start": 218.317,
+    "end": 218.878
+  },
+  {
+    "word": "Flüge,",
+    "start": 218.878,
+    "end": 219.439
+  },
+  {
+    "word": "ein Hotel,",
+    "start": 219.439,
+    "end": 220.0
+  },
+  {
+    "word": "einen",
+    "start": 220.0,
+    "end": 220.561
+  },
+  {
+    "word": "Urlaub",
+    "start": 220.561,
+    "end": 221.122
+  },
+  {
+    "word": "— und",
+    "start": 221.122,
+    "end": 221.682
+  },
+  {
+    "word": "kommst",
+    "start": 221.682,
+    "end": 222.243
+  },
+  {
+    "word": "trotzdem",
+    "start": 222.243,
+    "end": 222.804
+  },
+  {
+    "word": "nicht",
+    "start": 222.804,
+    "end": 223.365
+  },
+  {
+    "word": "rein.",
+    "start": 223.365,
+    "end": 223.926
+  },
+  {
+    "word": "Das ist",
+    "start": 223.926,
+    "end": 224.487
+  },
+  {
+    "word": "für viele",
+    "start": 224.487,
+    "end": 225.047
+  },
+  {
+    "word": "Familien",
+    "start": 225.047,
+    "end": 225.608
+  },
+  {
+    "word": "eine",
+    "start": 225.608,
+    "end": 226.169
+  },
+  {
+    "word": "Katastrophe.",
+    "start": 226.169,
+    "end": 226.73
+  },
+  {
+    "word": "Timing",
+    "start": 227.03,
+    "end": 227.606
+  },
+  {
+    "word": "ist beim",
+    "start": 227.606,
+    "end": 228.182
+  },
+  {
+    "word": "ETIAS",
+    "start": 228.182,
+    "end": 228.759
+  },
+  {
+    "word": "absolut",
+    "start": 228.759,
+    "end": 229.335
+  },
+  {
+    "word": "entscheidend.",
+    "start": 229.335,
+    "end": 229.911
+  },
+  {
+    "word": "Die offizielle",
+    "start": 229.911,
+    "end": 230.487
+  },
+  {
+    "word": "Empfehlung",
+    "start": 230.487,
+    "end": 231.063
+  },
+  {
+    "word": "ist: mindestens",
+    "start": 231.063,
+    "end": 231.64
+  },
+  {
+    "word": "96 Stunden",
+    "start": 231.64,
+    "end": 232.216
+  },
+  {
+    "word": "vor Reisebeginn",
+    "start": 232.216,
+    "end": 232.792
+  },
+  {
+    "word": "beantragen.",
+    "start": 232.792,
+    "end": 233.368
+  },
+  {
+    "word": "Aber",
+    "start": 233.368,
+    "end": 233.944
+  },
+  {
+    "word": "erfahrene",
+    "start": 233.944,
+    "end": 234.521
+  },
+  {
+    "word": "Reisende",
+    "start": 234.521,
+    "end": 235.097
+  },
+  {
+    "word": "und Experten",
+    "start": 235.097,
+    "end": 235.673
+  },
+  {
+    "word": "sagen:",
+    "start": 235.673,
+    "end": 236.249
+  },
+  {
+    "word": "Beantrage",
+    "start": 236.249,
+    "end": 236.826
+  },
+  {
+    "word": "es mindestens",
+    "start": 236.826,
+    "end": 237.402
+  },
+  {
+    "word": "einen",
+    "start": 237.402,
+    "end": 237.978
+  },
+  {
+    "word": "Monat",
+    "start": 237.978,
+    "end": 238.554
+  },
+  {
+    "word": "vorher",
+    "start": 238.554,
+    "end": 239.13
+  },
+  {
+    "word": "— besonders",
+    "start": 239.13,
+    "end": 239.707
+  },
+  {
+    "word": "wenn",
+    "start": 239.707,
+    "end": 240.283
+  },
+  {
+    "word": "du in",
+    "start": 240.283,
+    "end": 240.859
+  },
+  {
+    "word": "einem",
+    "start": 240.859,
+    "end": 241.435
+  },
+  {
+    "word": "der manuell",
+    "start": 241.435,
+    "end": 242.011
+  },
+  {
+    "word": "geprüften",
+    "start": 242.011,
+    "end": 242.588
+  },
+  {
+    "word": "Profile",
+    "start": 242.588,
+    "end": 243.164
+  },
+  {
+    "word": "bist.",
+    "start": 243.164,
+    "end": 243.74
+  },
+  {
+    "word": "Und jetzt",
+    "start": 244.04,
+    "end": 244.979
+  },
+  {
+    "word": "die große",
+    "start": 244.979,
+    "end": 245.918
+  },
+  {
+    "word": "Frage,",
+    "start": 245.918,
+    "end": 246.857
+  },
+  {
+    "word": "die jeden",
+    "start": 246.857,
+    "end": 247.796
+  },
+  {
+    "word": "betrifft:",
+    "start": 247.796,
+    "end": 248.735
+  },
+  {
+    "word": "Wann",
+    "start": 248.735,
+    "end": 249.674
+  },
+  {
+    "word": "startet",
+    "start": 249.674,
+    "end": 250.612
+  },
+  {
+    "word": "ETIAS",
+    "start": 250.612,
+    "end": 251.551
+  },
+  {
+    "word": "wirklich?",
+    "start": 251.551,
+    "end": 252.49
+  },
+  {
+    "word": "Ursprünglich",
+    "start": 252.49,
+    "end": 253.429
+  },
+  {
+    "word": "war der",
+    "start": 253.429,
+    "end": 254.368
+  },
+  {
+    "word": "Start",
+    "start": 254.368,
+    "end": 255.307
+  },
+  {
+    "word": "für 2022",
+    "start": 255.307,
+    "end": 256.246
+  },
+  {
+    "word": "geplant.",
+    "start": 256.246,
+    "end": 257.185
+  },
+  {
+    "word": "Dann",
+    "start": 257.185,
+    "end": 258.124
+  },
+  {
+    "word": "2023.",
+    "start": 258.124,
+    "end": 259.063
+  },
+  {
+    "word": "Dann",
+    "start": 259.063,
+    "end": 260.002
+  },
+  {
+    "word": "2024.",
+    "start": 260.002,
+    "end": 260.941
+  },
+  {
+    "word": "Dann",
+    "start": 260.941,
+    "end": 261.879
+  },
+  {
+    "word": "2025.",
+    "start": 261.879,
+    "end": 262.818
+  },
+  {
+    "word": "Jetzt",
+    "start": 262.818,
+    "end": 263.757
+  },
+  {
+    "word": "heißt",
+    "start": 263.757,
+    "end": 264.696
+  },
+  {
+    "word": "es offiziell:",
+    "start": 264.696,
+    "end": 265.635
+  },
+  {
+    "word": "2026.",
+    "start": 265.635,
+    "end": 266.574
+  },
+  {
+    "word": "Aber",
+    "start": 266.574,
+    "end": 267.513
+  },
+  {
+    "word": "Insider",
+    "start": 267.513,
+    "end": 268.452
+  },
+  {
+    "word": "und EU-Beobachter",
+    "start": 268.452,
+    "end": 269.391
+  },
+  {
+    "word": "halten",
+    "start": 269.391,
+    "end": 270.33
+  },
+  {
+    "word": "sogar",
+    "start": 270.33,
+    "end": 271.269
+  },
+  {
+    "word": "2027",
+    "start": 271.269,
+    "end": 272.208
+  },
+  {
+    "word": "für realistischer.",
+    "start": 272.208,
+    "end": 273.146
+  },
+  {
+    "word": "Die Geschichte",
+    "start": 273.146,
+    "end": 274.085
+  },
+  {
+    "word": "dieses",
+    "start": 274.085,
+    "end": 275.024
+  },
+  {
+    "word": "Projekts",
+    "start": 275.024,
+    "end": 275.963
+  },
+  {
+    "word": "ist eine",
+    "start": 275.963,
+    "end": 276.902
+  },
+  {
+    "word": "Geschichte",
+    "start": 276.902,
+    "end": 277.841
+  },
+  {
+    "word": "der Verzögerungen.",
+    "start": 277.841,
+    "end": 278.78
+  },
+  {
+    "word": "Der Grund",
+    "start": 279.08,
+    "end": 279.687
+  },
+  {
+    "word": "für die",
+    "start": 279.687,
+    "end": 280.293
+  },
+  {
+    "word": "Verschiebungen",
+    "start": 280.293,
+    "end": 280.9
+  },
+  {
+    "word": "ist ernüchternd:",
+    "start": 280.9,
+    "end": 281.507
+  },
+  {
+    "word": "Das IT-System",
+    "start": 281.507,
+    "end": 282.113
+  },
+  {
+    "word": "hinter",
+    "start": 282.113,
+    "end": 282.72
+  },
+  {
+    "word": "ETIAS",
+    "start": 282.72,
+    "end": 283.327
+  },
+  {
+    "word": "war schlicht",
+    "start": 283.327,
+    "end": 283.933
+  },
+  {
+    "word": "nicht",
+    "start": 283.933,
+    "end": 284.54
+  },
+  {
+    "word": "bereit.",
+    "start": 284.54,
+    "end": 285.147
+  },
+  {
+    "word": "eu-LISA,",
+    "start": 285.147,
+    "end": 285.753
+  },
+  {
+    "word": "die europäische",
+    "start": 285.753,
+    "end": 286.36
+  },
+  {
+    "word": "IT-Agentur,",
+    "start": 286.36,
+    "end": 286.967
+  },
+  {
+    "word": "hat mehrfach",
+    "start": 286.967,
+    "end": 287.573
+  },
+  {
+    "word": "technische",
+    "start": 287.573,
+    "end": 288.18
+  },
+  {
+    "word": "Mängel",
+    "start": 288.18,
+    "end": 288.787
+  },
+  {
+    "word": "gemeldet.",
+    "start": 288.787,
+    "end": 289.393
+  },
+  {
+    "word": "Milliarden",
+    "start": 289.393,
+    "end": 290.0
+  },
+  {
+    "word": "von Euro",
+    "start": 290.0,
+    "end": 290.607
+  },
+  {
+    "word": "wurden",
+    "start": 290.607,
+    "end": 291.213
+  },
+  {
+    "word": "investiert",
+    "start": 291.213,
+    "end": 291.82
+  },
+  {
+    "word": "— und",
+    "start": 291.82,
+    "end": 292.427
+  },
+  {
+    "word": "trotzdem",
+    "start": 292.427,
+    "end": 293.033
+  },
+  {
+    "word": "hakt",
+    "start": 293.033,
+    "end": 293.64
+  },
+  {
+    "word": "es an",
+    "start": 293.64,
+    "end": 294.247
+  },
+  {
+    "word": "allen",
+    "start": 294.247,
+    "end": 294.853
+  },
+  {
+    "word": "Ecken.",
+    "start": 294.853,
+    "end": 295.46
+  },
+  {
+    "word": "Ein Mammutprojekt",
+    "start": 295.46,
+    "end": 296.067
+  },
+  {
+    "word": "mit gewaltigen",
+    "start": 296.067,
+    "end": 296.673
+  },
+  {
+    "word": "Kinderkrankheiten.",
+    "start": 296.673,
+    "end": 297.28
+  },
+  {
+    "word": "Das bedeutet",
+    "start": 297.58,
+    "end": 298.103
+  },
+  {
+    "word": "für dich",
+    "start": 298.103,
+    "end": 298.626
+  },
+  {
+    "word": "konkret:",
+    "start": 298.626,
+    "end": 299.149
+  },
+  {
+    "word": "Planes",
+    "start": 299.149,
+    "end": 299.672
+  },
+  {
+    "word": "du einen",
+    "start": 299.672,
+    "end": 300.196
+  },
+  {
+    "word": "Urlaub",
+    "start": 300.196,
+    "end": 300.719
+  },
+  {
+    "word": "nach",
+    "start": 300.719,
+    "end": 301.242
+  },
+  {
+    "word": "Europa",
+    "start": 301.242,
+    "end": 301.765
+  },
+  {
+    "word": "im Jahr",
+    "start": 301.765,
+    "end": 302.288
+  },
+  {
+    "word": "2026",
+    "start": 302.288,
+    "end": 302.811
+  },
+  {
+    "word": "— ob",
+    "start": 302.811,
+    "end": 303.334
+  },
+  {
+    "word": "du Gast",
+    "start": 303.334,
+    "end": 303.857
+  },
+  {
+    "word": "empfängst",
+    "start": 303.857,
+    "end": 304.381
+  },
+  {
+    "word": "oder",
+    "start": 304.381,
+    "end": 304.904
+  },
+  {
+    "word": "selbst",
+    "start": 304.904,
+    "end": 305.427
+  },
+  {
+    "word": "mit einem",
+    "start": 305.427,
+    "end": 305.95
+  },
+  {
+    "word": "Nicht-EU-Pass",
+    "start": 305.95,
+    "end": 306.473
+  },
+  {
+    "word": "reist",
+    "start": 306.473,
+    "end": 306.996
+  },
+  {
+    "word": "— musst",
+    "start": 306.996,
+    "end": 307.519
+  },
+  {
+    "word": "du ETIAS",
+    "start": 307.519,
+    "end": 308.042
+  },
+  {
+    "word": "einplanen.",
+    "start": 308.042,
+    "end": 308.566
+  },
+  {
+    "word": "Nicht",
+    "start": 308.566,
+    "end": 309.089
+  },
+  {
+    "word": "als lästige",
+    "start": 309.089,
+    "end": 309.612
+  },
+  {
+    "word": "Formalität,",
+    "start": 309.612,
+    "end": 310.135
+  },
+  {
+    "word": "sondern",
+    "start": 310.135,
+    "end": 310.658
+  },
+  {
+    "word": "als potenzielles",
+    "start": 310.658,
+    "end": 311.181
+  },
+  {
+    "word": "Hindernis,",
+    "start": 311.181,
+    "end": 311.704
+  },
+  {
+    "word": "das deinen",
+    "start": 311.704,
+    "end": 312.227
+  },
+  {
+    "word": "gesamten",
+    "start": 312.227,
+    "end": 312.751
+  },
+  {
+    "word": "Reiseplan",
+    "start": 312.751,
+    "end": 313.274
+  },
+  {
+    "word": "sprengen",
+    "start": 313.274,
+    "end": 313.797
+  },
+  {
+    "word": "kann.",
+    "start": 313.797,
+    "end": 314.32
+  },
+  {
+    "word": "Reden",
+    "start": 314.62,
+    "end": 315.173
+  },
+  {
+    "word": "wir über",
+    "start": 315.173,
+    "end": 315.726
+  },
+  {
+    "word": "Geld.",
+    "start": 315.726,
+    "end": 316.279
+  },
+  {
+    "word": "Der offizielle",
+    "start": 316.279,
+    "end": 316.831
+  },
+  {
+    "word": "Preis:",
+    "start": 316.831,
+    "end": 317.384
+  },
+  {
+    "word": "sieben",
+    "start": 317.384,
+    "end": 317.937
+  },
+  {
+    "word": "Euro",
+    "start": 317.937,
+    "end": 318.49
+  },
+  {
+    "word": "pro Person.",
+    "start": 318.49,
+    "end": 319.043
+  },
+  {
+    "word": "Klingt",
+    "start": 319.043,
+    "end": 319.596
+  },
+  {
+    "word": "günstig.",
+    "start": 319.596,
+    "end": 320.149
+  },
+  {
+    "word": "Aber",
+    "start": 320.149,
+    "end": 320.701
+  },
+  {
+    "word": "für eine",
+    "start": 320.701,
+    "end": 321.254
+  },
+  {
+    "word": "Familie",
+    "start": 321.254,
+    "end": 321.807
+  },
+  {
+    "word": "mit vier",
+    "start": 321.807,
+    "end": 322.36
+  },
+  {
+    "word": "Personen",
+    "start": 322.36,
+    "end": 322.913
+  },
+  {
+    "word": "sind",
+    "start": 322.913,
+    "end": 323.466
+  },
+  {
+    "word": "das schon",
+    "start": 323.466,
+    "end": 324.019
+  },
+  {
+    "word": "28 Euro.",
+    "start": 324.019,
+    "end": 324.571
+  },
+  {
+    "word": "Dazu",
+    "start": 324.571,
+    "end": 325.124
+  },
+  {
+    "word": "kommen",
+    "start": 325.124,
+    "end": 325.677
+  },
+  {
+    "word": "Drittanbieter-Dienste,",
+    "start": 325.677,
+    "end": 326.23
+  },
+  {
+    "word": "die für",
+    "start": 326.23,
+    "end": 326.783
+  },
+  {
+    "word": "angebliche",
+    "start": 326.783,
+    "end": 327.336
+  },
+  {
+    "word": "Unterstützung",
+    "start": 327.336,
+    "end": 327.889
+  },
+  {
+    "word": "beim",
+    "start": 327.889,
+    "end": 328.441
+  },
+  {
+    "word": "Ausfüllen",
+    "start": 328.441,
+    "end": 328.994
+  },
+  {
+    "word": "bis zu",
+    "start": 328.994,
+    "end": 329.547
+  },
+  {
+    "word": "70 Euro",
+    "start": 329.547,
+    "end": 330.1
+  },
+  {
+    "word": "verlangen",
+    "start": 330.1,
+    "end": 330.653
+  },
+  {
+    "word": "— obwohl",
+    "start": 330.653,
+    "end": 331.206
+  },
+  {
+    "word": "du das",
+    "start": 331.206,
+    "end": 331.759
+  },
+  {
+    "word": "problemlos",
+    "start": 331.759,
+    "end": 332.311
+  },
+  {
+    "word": "selbst",
+    "start": 332.311,
+    "end": 332.864
+  },
+  {
+    "word": "erledigen",
+    "start": 332.864,
+    "end": 333.417
+  },
+  {
+    "word": "kannst.",
+    "start": 333.417,
+    "end": 333.97
+  },
+  {
+    "word": "Das ist",
+    "start": 334.27,
+    "end": 334.82
+  },
+  {
+    "word": "kein",
+    "start": 334.82,
+    "end": 335.37
+  },
+  {
+    "word": "Scherz.",
+    "start": 335.37,
+    "end": 335.92
+  },
+  {
+    "word": "Bereits",
+    "start": 335.92,
+    "end": 336.47
+  },
+  {
+    "word": "jetzt",
+    "start": 336.47,
+    "end": 337.02
+  },
+  {
+    "word": "— obwohl",
+    "start": 337.02,
+    "end": 337.57
+  },
+  {
+    "word": "ETIAS",
+    "start": 337.57,
+    "end": 338.12
+  },
+  {
+    "word": "noch",
+    "start": 338.12,
+    "end": 338.67
+  },
+  {
+    "word": "gar nicht",
+    "start": 338.67,
+    "end": 339.22
+  },
+  {
+    "word": "aktiv",
+    "start": 339.22,
+    "end": 339.77
+  },
+  {
+    "word": "ist —",
+    "start": 339.77,
+    "end": 340.32
+  },
+  {
+    "word": "gibt",
+    "start": 340.32,
+    "end": 340.87
+  },
+  {
+    "word": "es hunderte",
+    "start": 340.87,
+    "end": 341.42
+  },
+  {
+    "word": "von Fake-Websites,",
+    "start": 341.42,
+    "end": 341.97
+  },
+  {
+    "word": "die vorgeben,",
+    "start": 341.97,
+    "end": 342.52
+  },
+  {
+    "word": "offizielle",
+    "start": 342.52,
+    "end": 343.07
+  },
+  {
+    "word": "ETIAS-Anträge",
+    "start": 343.07,
+    "end": 343.62
+  },
+  {
+    "word": "anzunehmen.",
+    "start": 343.62,
+    "end": 344.17
+  },
+  {
+    "word": "Sie kassieren",
+    "start": 344.17,
+    "end": 344.72
+  },
+  {
+    "word": "dein",
+    "start": 344.72,
+    "end": 345.27
+  },
+  {
+    "word": "Geld",
+    "start": 345.27,
+    "end": 345.82
+  },
+  {
+    "word": "und deine",
+    "start": 345.82,
+    "end": 346.37
+  },
+  {
+    "word": "persönlichen",
+    "start": 346.37,
+    "end": 346.92
+  },
+  {
+    "word": "Daten.",
+    "start": 346.92,
+    "end": 347.47
+  },
+  {
+    "word": "Die einzige",
+    "start": 347.47,
+    "end": 348.02
+  },
+  {
+    "word": "legitime",
+    "start": 348.02,
+    "end": 348.57
+  },
+  {
+    "word": "Seite",
+    "start": 348.57,
+    "end": 349.12
+  },
+  {
+    "word": "wird",
+    "start": 349.12,
+    "end": 349.67
+  },
+  {
+    "word": "die offizielle",
+    "start": 349.67,
+    "end": 350.22
+  },
+  {
+    "word": "EU-Website",
+    "start": 350.22,
+    "end": 350.77
+  },
+  {
+    "word": "sein.",
+    "start": 350.77,
+    "end": 351.32
+  },
+  {
+    "word": "Jetzt",
+    "start": 351.62,
+    "end": 352.293
+  },
+  {
+    "word": "kommt",
+    "start": 352.293,
+    "end": 352.966
+  },
+  {
+    "word": "ein Aspekt,",
+    "start": 352.966,
+    "end": 353.639
+  },
+  {
+    "word": "über",
+    "start": 353.639,
+    "end": 354.313
+  },
+  {
+    "word": "den kaum",
+    "start": 354.312,
+    "end": 354.986
+  },
+  {
+    "word": "jemand",
+    "start": 354.986,
+    "end": 355.659
+  },
+  {
+    "word": "spricht.",
+    "start": 355.659,
+    "end": 356.332
+  },
+  {
+    "word": "Wenn",
+    "start": 356.332,
+    "end": 357.005
+  },
+  {
+    "word": "Reisende",
+    "start": 357.005,
+    "end": 357.678
+  },
+  {
+    "word": "wegen",
+    "start": 357.678,
+    "end": 358.351
+  },
+  {
+    "word": "ETIAS-Problemen",
+    "start": 358.351,
+    "end": 359.024
+  },
+  {
+    "word": "Europa",
+    "start": 359.024,
+    "end": 359.698
+  },
+  {
+    "word": "meiden,",
+    "start": 359.697,
+    "end": 360.371
+  },
+  {
+    "word": "profitieren",
+    "start": 360.371,
+    "end": 361.044
+  },
+  {
+    "word": "direkte",
+    "start": 361.044,
+    "end": 361.717
+  },
+  {
+    "word": "Konkurrenten.",
+    "start": 361.717,
+    "end": 362.39
+  },
+  {
+    "word": "Länder",
+    "start": 362.39,
+    "end": 363.063
+  },
+  {
+    "word": "wie die",
+    "start": 363.063,
+    "end": 363.736
+  },
+  {
+    "word": "Türkei,",
+    "start": 363.736,
+    "end": 364.409
+  },
+  {
+    "word": "Marokko,",
+    "start": 364.409,
+    "end": 365.083
+  },
+  {
+    "word": "die Arabischen",
+    "start": 365.082,
+    "end": 365.756
+  },
+  {
+    "word": "Emirate",
+    "start": 365.756,
+    "end": 366.429
+  },
+  {
+    "word": "— alle",
+    "start": 366.429,
+    "end": 367.102
+  },
+  {
+    "word": "ohne",
+    "start": 367.102,
+    "end": 367.775
+  },
+  {
+    "word": "Vorab-Genehmigungspflicht",
+    "start": 367.775,
+    "end": 368.448
+  },
+  {
+    "word": "— haben",
+    "start": 368.448,
+    "end": 369.121
+  },
+  {
+    "word": "aktiv",
+    "start": 369.121,
+    "end": 369.794
+  },
+  {
+    "word": "damit",
+    "start": 369.794,
+    "end": 370.468
+  },
+  {
+    "word": "begonnen,",
+    "start": 370.468,
+    "end": 371.141
+  },
+  {
+    "word": "verunsicherte",
+    "start": 371.141,
+    "end": 371.814
+  },
+  {
+    "word": "Europa-Reisende",
+    "start": 371.814,
+    "end": 372.487
+  },
+  {
+    "word": "abzuwerben.",
+    "start": 372.487,
+    "end": 373.16
+  },
+  {
+    "word": "Und die",
+    "start": 373.46,
+    "end": 373.972
+  },
+  {
+    "word": "Zahlen",
+    "start": 373.972,
+    "end": 374.484
+  },
+  {
+    "word": "sprechen",
+    "start": 374.484,
+    "end": 374.996
+  },
+  {
+    "word": "für sich.",
+    "start": 374.996,
+    "end": 375.508
+  },
+  {
+    "word": "Laut",
+    "start": 375.508,
+    "end": 376.02
+  },
+  {
+    "word": "einer",
+    "start": 376.02,
+    "end": 376.532
+  },
+  {
+    "word": "Studie",
+    "start": 376.532,
+    "end": 377.044
+  },
+  {
+    "word": "der European",
+    "start": 377.044,
+    "end": 377.555
+  },
+  {
+    "word": "Travel",
+    "start": 377.555,
+    "end": 378.067
+  },
+  {
+    "word": "Commission",
+    "start": 378.067,
+    "end": 378.579
+  },
+  {
+    "word": "könnte",
+    "start": 378.579,
+    "end": 379.091
+  },
+  {
+    "word": "ETIAS",
+    "start": 379.091,
+    "end": 379.603
+  },
+  {
+    "word": "im ersten",
+    "start": 379.603,
+    "end": 380.115
+  },
+  {
+    "word": "Jahr",
+    "start": 380.115,
+    "end": 380.627
+  },
+  {
+    "word": "zu einem",
+    "start": 380.627,
+    "end": 381.139
+  },
+  {
+    "word": "Rückgang",
+    "start": 381.139,
+    "end": 381.651
+  },
+  {
+    "word": "von bis",
+    "start": 381.651,
+    "end": 382.163
+  },
+  {
+    "word": "zu vier",
+    "start": 382.163,
+    "end": 382.675
+  },
+  {
+    "word": "Prozent",
+    "start": 382.675,
+    "end": 383.187
+  },
+  {
+    "word": "bei Nicht-EU-Touristen",
+    "start": 383.187,
+    "end": 383.699
+  },
+  {
+    "word": "führen.",
+    "start": 383.699,
+    "end": 384.211
+  },
+  {
+    "word": "Bei einem",
+    "start": 384.211,
+    "end": 384.723
+  },
+  {
+    "word": "Gesamtmarkt",
+    "start": 384.723,
+    "end": 385.235
+  },
+  {
+    "word": "von über",
+    "start": 385.235,
+    "end": 385.746
+  },
+  {
+    "word": "600 Milliarden",
+    "start": 385.746,
+    "end": 386.258
+  },
+  {
+    "word": "Euro",
+    "start": 386.258,
+    "end": 386.77
+  },
+  {
+    "word": "jährlich",
+    "start": 386.77,
+    "end": 387.282
+  },
+  {
+    "word": "ist das",
+    "start": 387.282,
+    "end": 387.794
+  },
+  {
+    "word": "ein massiver",
+    "start": 387.794,
+    "end": 388.306
+  },
+  {
+    "word": "wirtschaftlicher",
+    "start": 388.306,
+    "end": 388.818
+  },
+  {
+    "word": "Einschnitt.",
+    "start": 388.818,
+    "end": 389.33
+  },
+  {
+    "word": "Großbritannien",
+    "start": 389.63,
+    "end": 390.205
+  },
+  {
+    "word": "hat ein",
+    "start": 390.205,
+    "end": 390.781
+  },
+  {
+    "word": "ähnliches",
+    "start": 390.781,
+    "end": 391.356
+  },
+  {
+    "word": "System",
+    "start": 391.356,
+    "end": 391.932
+  },
+  {
+    "word": "eingeführt",
+    "start": 391.932,
+    "end": 392.507
+  },
+  {
+    "word": "— die",
+    "start": 392.507,
+    "end": 393.083
+  },
+  {
+    "word": "ETA. Und",
+    "start": 393.083,
+    "end": 393.658
+  },
+  {
+    "word": "die Erfahrungen",
+    "start": 393.658,
+    "end": 394.234
+  },
+  {
+    "word": "sind",
+    "start": 394.234,
+    "end": 394.809
+  },
+  {
+    "word": "ein Warnzeichen.",
+    "start": 394.809,
+    "end": 395.385
+  },
+  {
+    "word": "Im ersten",
+    "start": 395.385,
+    "end": 395.96
+  },
+  {
+    "word": "halben",
+    "start": 395.96,
+    "end": 396.536
+  },
+  {
+    "word": "Jahr",
+    "start": 396.536,
+    "end": 397.111
+  },
+  {
+    "word": "nach",
+    "start": 397.111,
+    "end": 397.687
+  },
+  {
+    "word": "Einführung",
+    "start": 397.687,
+    "end": 398.262
+  },
+  {
+    "word": "gab es",
+    "start": 398.262,
+    "end": 398.838
+  },
+  {
+    "word": "über",
+    "start": 398.838,
+    "end": 399.413
+  },
+  {
+    "word": "40.000",
+    "start": 399.413,
+    "end": 399.989
+  },
+  {
+    "word": "beschwerdeführende",
+    "start": 399.989,
+    "end": 400.564
+  },
+  {
+    "word": "Reisende,",
+    "start": 400.564,
+    "end": 401.14
+  },
+  {
+    "word": "Systemausfälle",
+    "start": 401.14,
+    "end": 401.715
+  },
+  {
+    "word": "an Flughäfen",
+    "start": 401.715,
+    "end": 402.291
+  },
+  {
+    "word": "und lange",
+    "start": 402.291,
+    "end": 402.866
+  },
+  {
+    "word": "Warteschlangen",
+    "start": 402.866,
+    "end": 403.442
+  },
+  {
+    "word": "bei der",
+    "start": 403.442,
+    "end": 404.017
+  },
+  {
+    "word": "Einreise.",
+    "start": 404.017,
+    "end": 404.593
+  },
+  {
+    "word": "Europa",
+    "start": 404.593,
+    "end": 405.168
+  },
+  {
+    "word": "könnte",
+    "start": 405.168,
+    "end": 405.744
+  },
+  {
+    "word": "das gleiche",
+    "start": 405.744,
+    "end": 406.319
+  },
+  {
+    "word": "Chaos",
+    "start": 406.319,
+    "end": 406.895
+  },
+  {
+    "word": "erleben.",
+    "start": 406.895,
+    "end": 407.47
+  },
+  {
+    "word": "Die Reiseindustrie",
+    "start": 407.77,
+    "end": 408.417
+  },
+  {
+    "word": "bereitet",
+    "start": 408.417,
+    "end": 409.063
+  },
+  {
+    "word": "sich",
+    "start": 409.063,
+    "end": 409.71
+  },
+  {
+    "word": "vor. Große",
+    "start": 409.71,
+    "end": 410.356
+  },
+  {
+    "word": "Veranstalter",
+    "start": 410.356,
+    "end": 411.003
+  },
+  {
+    "word": "wie TUI,",
+    "start": 411.003,
+    "end": 411.649
+  },
+  {
+    "word": "DER Touristik",
+    "start": 411.649,
+    "end": 412.296
+  },
+  {
+    "word": "und Lufthansa",
+    "start": 412.296,
+    "end": 412.942
+  },
+  {
+    "word": "haben",
+    "start": 412.942,
+    "end": 413.589
+  },
+  {
+    "word": "begonnen,",
+    "start": 413.589,
+    "end": 414.236
+  },
+  {
+    "word": "ihre",
+    "start": 414.236,
+    "end": 414.882
+  },
+  {
+    "word": "Buchungssysteme",
+    "start": 414.882,
+    "end": 415.529
+  },
+  {
+    "word": "anzupassen.",
+    "start": 415.529,
+    "end": 416.175
+  },
+  {
+    "word": "Einige",
+    "start": 416.175,
+    "end": 416.822
+  },
+  {
+    "word": "bieten",
+    "start": 416.822,
+    "end": 417.468
+  },
+  {
+    "word": "bereits",
+    "start": 417.468,
+    "end": 418.115
+  },
+  {
+    "word": "ETIAS-Erinnerungsservices",
+    "start": 418.115,
+    "end": 418.761
+  },
+  {
+    "word": "an. Was",
+    "start": 418.761,
+    "end": 419.408
+  },
+  {
+    "word": "das bedeutet:",
+    "start": 419.408,
+    "end": 420.054
+  },
+  {
+    "word": "Die Branche",
+    "start": 420.054,
+    "end": 420.701
+  },
+  {
+    "word": "weiß,",
+    "start": 420.701,
+    "end": 421.348
+  },
+  {
+    "word": "dass",
+    "start": 421.348,
+    "end": 421.994
+  },
+  {
+    "word": "ETIAS",
+    "start": 421.994,
+    "end": 422.641
+  },
+  {
+    "word": "ein Reibungspunkt",
+    "start": 422.641,
+    "end": 423.287
+  },
+  {
+    "word": "wird",
+    "start": 423.287,
+    "end": 423.934
+  },
+  {
+    "word": "— und",
+    "start": 423.934,
+    "end": 424.58
+  },
+  {
+    "word": "versucht,",
+    "start": 424.58,
+    "end": 425.227
+  },
+  {
+    "word": "den Schaden",
+    "start": 425.227,
+    "end": 425.873
+  },
+  {
+    "word": "zu begrenzen.",
+    "start": 425.873,
+    "end": 426.52
+  },
+  {
+    "word": "Jetzt",
+    "start": 426.82,
+    "end": 427.438
+  },
+  {
+    "word": "kommen",
+    "start": 427.438,
+    "end": 428.055
+  },
+  {
+    "word": "wir zum",
+    "start": 428.055,
+    "end": 428.673
+  },
+  {
+    "word": "dunkelsten",
+    "start": 428.673,
+    "end": 429.29
+  },
+  {
+    "word": "Kapitel.",
+    "start": 429.29,
+    "end": 429.908
+  },
+  {
+    "word": "Die EU",
+    "start": 429.907,
+    "end": 430.525
+  },
+  {
+    "word": "hat eine",
+    "start": 430.525,
+    "end": 431.142
+  },
+  {
+    "word": "Liste",
+    "start": 431.142,
+    "end": 431.76
+  },
+  {
+    "word": "mit Ablehnungsgründen",
+    "start": 431.76,
+    "end": 432.377
+  },
+  {
+    "word": "veröffentlicht",
+    "start": 432.377,
+    "end": 432.995
+  },
+  {
+    "word": "— aber",
+    "start": 432.995,
+    "end": 433.613
+  },
+  {
+    "word": "sie ist",
+    "start": 433.613,
+    "end": 434.23
+  },
+  {
+    "word": "absichtlich",
+    "start": 434.23,
+    "end": 434.848
+  },
+  {
+    "word": "vage",
+    "start": 434.847,
+    "end": 435.465
+  },
+  {
+    "word": "gehalten.",
+    "start": 435.465,
+    "end": 436.082
+  },
+  {
+    "word": "Einer",
+    "start": 436.082,
+    "end": 436.7
+  },
+  {
+    "word": "der Gründe",
+    "start": 436.7,
+    "end": 437.317
+  },
+  {
+    "word": "lautet",
+    "start": 437.317,
+    "end": 437.935
+  },
+  {
+    "word": "wortwörtlich:",
+    "start": 437.935,
+    "end": 438.553
+  },
+  {
+    "word": "eine",
+    "start": 438.553,
+    "end": 439.17
+  },
+  {
+    "word": "Bedrohung",
+    "start": 439.17,
+    "end": 439.788
+  },
+  {
+    "word": "für die",
+    "start": 439.788,
+    "end": 440.405
+  },
+  {
+    "word": "öffentliche",
+    "start": 440.405,
+    "end": 441.022
+  },
+  {
+    "word": "Ordnung,",
+    "start": 441.022,
+    "end": 441.64
+  },
+  {
+    "word": "innere",
+    "start": 441.64,
+    "end": 442.257
+  },
+  {
+    "word": "Sicherheit",
+    "start": 442.257,
+    "end": 442.875
+  },
+  {
+    "word": "oder",
+    "start": 442.875,
+    "end": 443.493
+  },
+  {
+    "word": "internationale",
+    "start": 443.493,
+    "end": 444.11
+  },
+  {
+    "word": "Beziehungen.",
+    "start": 444.11,
+    "end": 444.728
+  },
+  {
+    "word": "Das ist",
+    "start": 444.728,
+    "end": 445.345
+  },
+  {
+    "word": "so breit,",
+    "start": 445.345,
+    "end": 445.962
+  },
+  {
+    "word": "dass",
+    "start": 445.962,
+    "end": 446.58
+  },
+  {
+    "word": "es fast",
+    "start": 446.58,
+    "end": 447.197
+  },
+  {
+    "word": "alles",
+    "start": 447.197,
+    "end": 447.815
+  },
+  {
+    "word": "abdecken",
+    "start": 447.815,
+    "end": 448.433
+  },
+  {
+    "word": "kann.",
+    "start": 448.433,
+    "end": 449.05
+  },
+  {
+    "word": "Deine",
+    "start": 449.35,
+    "end": 449.94
+  },
+  {
+    "word": "ETIAS-Daten",
+    "start": 449.94,
+    "end": 450.53
+  },
+  {
+    "word": "werden",
+    "start": 450.53,
+    "end": 451.12
+  },
+  {
+    "word": "für drei",
+    "start": 451.12,
+    "end": 451.71
+  },
+  {
+    "word": "Jahre",
+    "start": 451.71,
+    "end": 452.3
+  },
+  {
+    "word": "gespeichert",
+    "start": 452.3,
+    "end": 452.89
+  },
+  {
+    "word": "— nach",
+    "start": 452.89,
+    "end": 453.48
+  },
+  {
+    "word": "Ablauf",
+    "start": 453.48,
+    "end": 454.07
+  },
+  {
+    "word": "deiner",
+    "start": 454.07,
+    "end": 454.66
+  },
+  {
+    "word": "Genehmigung.",
+    "start": 454.66,
+    "end": 455.25
+  },
+  {
+    "word": "Und sie",
+    "start": 455.25,
+    "end": 455.84
+  },
+  {
+    "word": "können",
+    "start": 455.84,
+    "end": 456.43
+  },
+  {
+    "word": "an Strafverfolgungsbehörden",
+    "start": 456.43,
+    "end": 457.02
+  },
+  {
+    "word": "weitergegeben",
+    "start": 457.02,
+    "end": 457.61
+  },
+  {
+    "word": "werden,",
+    "start": 457.61,
+    "end": 458.2
+  },
+  {
+    "word": "wenn",
+    "start": 458.2,
+    "end": 458.79
+  },
+  {
+    "word": "ein berechtigtes",
+    "start": 458.79,
+    "end": 459.38
+  },
+  {
+    "word": "Sicherheitsinteresse",
+    "start": 459.38,
+    "end": 459.97
+  },
+  {
+    "word": "vorliegt.",
+    "start": 459.97,
+    "end": 460.56
+  },
+  {
+    "word": "Datenschutzorganisationen",
+    "start": 460.56,
+    "end": 461.15
+  },
+  {
+    "word": "wie Noyb",
+    "start": 461.15,
+    "end": 461.74
+  },
+  {
+    "word": "haben",
+    "start": 461.74,
+    "end": 462.33
+  },
+  {
+    "word": "bereits",
+    "start": 462.33,
+    "end": 462.92
+  },
+  {
+    "word": "rechtliche",
+    "start": 462.92,
+    "end": 463.51
+  },
+  {
+    "word": "Schritte",
+    "start": 463.51,
+    "end": 464.1
+  },
+  {
+    "word": "angekündigt.",
+    "start": 464.1,
+    "end": 464.69
+  },
+  {
+    "word": "Ein oft",
+    "start": 464.99,
+    "end": 465.504
+  },
+  {
+    "word": "übersehener",
+    "start": 465.504,
+    "end": 466.017
+  },
+  {
+    "word": "Punkt:",
+    "start": 466.017,
+    "end": 466.531
+  },
+  {
+    "word": "Auch",
+    "start": 466.531,
+    "end": 467.044
+  },
+  {
+    "word": "Kinder",
+    "start": 467.044,
+    "end": 467.558
+  },
+  {
+    "word": "unter",
+    "start": 467.558,
+    "end": 468.071
+  },
+  {
+    "word": "18 Jahren",
+    "start": 468.071,
+    "end": 468.585
+  },
+  {
+    "word": "brauchen",
+    "start": 468.585,
+    "end": 469.098
+  },
+  {
+    "word": "ETIAS.",
+    "start": 469.098,
+    "end": 469.612
+  },
+  {
+    "word": "Jedes",
+    "start": 469.612,
+    "end": 470.125
+  },
+  {
+    "word": "Kind",
+    "start": 470.125,
+    "end": 470.639
+  },
+  {
+    "word": "— egal",
+    "start": 470.639,
+    "end": 471.152
+  },
+  {
+    "word": "wie alt",
+    "start": 471.152,
+    "end": 471.666
+  },
+  {
+    "word": "— muss",
+    "start": 471.666,
+    "end": 472.179
+  },
+  {
+    "word": "einen",
+    "start": 472.179,
+    "end": 472.693
+  },
+  {
+    "word": "eigenen",
+    "start": 472.693,
+    "end": 473.206
+  },
+  {
+    "word": "Antrag",
+    "start": 473.206,
+    "end": 473.72
+  },
+  {
+    "word": "stellen.",
+    "start": 473.72,
+    "end": 474.234
+  },
+  {
+    "word": "Für Kleinkinder",
+    "start": 474.234,
+    "end": 474.747
+  },
+  {
+    "word": "unter",
+    "start": 474.747,
+    "end": 475.261
+  },
+  {
+    "word": "sechs",
+    "start": 475.261,
+    "end": 475.774
+  },
+  {
+    "word": "Jahren",
+    "start": 475.774,
+    "end": 476.288
+  },
+  {
+    "word": "entfällt",
+    "start": 476.288,
+    "end": 476.801
+  },
+  {
+    "word": "die Gebühr,",
+    "start": 476.801,
+    "end": 477.315
+  },
+  {
+    "word": "aber",
+    "start": 477.315,
+    "end": 477.828
+  },
+  {
+    "word": "der bürokratische",
+    "start": 477.828,
+    "end": 478.342
+  },
+  {
+    "word": "Aufwand",
+    "start": 478.342,
+    "end": 478.855
+  },
+  {
+    "word": "bleibt.",
+    "start": 478.855,
+    "end": 479.369
+  },
+  {
+    "word": "Für Familien",
+    "start": 479.369,
+    "end": 479.882
+  },
+  {
+    "word": "mit mehreren",
+    "start": 479.882,
+    "end": 480.396
+  },
+  {
+    "word": "Kindern",
+    "start": 480.396,
+    "end": 480.909
+  },
+  {
+    "word": "wird",
+    "start": 480.909,
+    "end": 481.423
+  },
+  {
+    "word": "das schnell",
+    "start": 481.423,
+    "end": 481.936
+  },
+  {
+    "word": "zeitaufwendig.",
+    "start": 481.936,
+    "end": 482.45
+  },
+  {
+    "word": "Und was",
+    "start": 482.75,
+    "end": 483.278
+  },
+  {
+    "word": "ist mit",
+    "start": 483.278,
+    "end": 483.806
+  },
+  {
+    "word": "Transit?",
+    "start": 483.806,
+    "end": 484.334
+  },
+  {
+    "word": "Wenn",
+    "start": 484.334,
+    "end": 484.863
+  },
+  {
+    "word": "du zum",
+    "start": 484.863,
+    "end": 485.391
+  },
+  {
+    "word": "Beispiel",
+    "start": 485.391,
+    "end": 485.919
+  },
+  {
+    "word": "von New",
+    "start": 485.919,
+    "end": 486.447
+  },
+  {
+    "word": "York",
+    "start": 486.447,
+    "end": 486.975
+  },
+  {
+    "word": "nach",
+    "start": 486.975,
+    "end": 487.503
+  },
+  {
+    "word": "Singapur",
+    "start": 487.503,
+    "end": 488.031
+  },
+  {
+    "word": "fliegst",
+    "start": 488.031,
+    "end": 488.559
+  },
+  {
+    "word": "und einen",
+    "start": 488.559,
+    "end": 489.087
+  },
+  {
+    "word": "Zwischenstopp",
+    "start": 489.087,
+    "end": 489.616
+  },
+  {
+    "word": "in Frankfurt",
+    "start": 489.616,
+    "end": 490.144
+  },
+  {
+    "word": "hast",
+    "start": 490.144,
+    "end": 490.672
+  },
+  {
+    "word": "— brauchst",
+    "start": 490.672,
+    "end": 491.2
+  },
+  {
+    "word": "du dann",
+    "start": 491.2,
+    "end": 491.728
+  },
+  {
+    "word": "ETIAS?",
+    "start": 491.728,
+    "end": 492.256
+  },
+  {
+    "word": "Die Antwort:",
+    "start": 492.256,
+    "end": 492.784
+  },
+  {
+    "word": "Ja. Sobald",
+    "start": 492.784,
+    "end": 493.312
+  },
+  {
+    "word": "du den",
+    "start": 493.312,
+    "end": 493.841
+  },
+  {
+    "word": "Schengen-Raum",
+    "start": 493.841,
+    "end": 494.369
+  },
+  {
+    "word": "betrittst,",
+    "start": 494.369,
+    "end": 494.897
+  },
+  {
+    "word": "gilt",
+    "start": 494.897,
+    "end": 495.425
+  },
+  {
+    "word": "die Genehmigungspflicht",
+    "start": 495.425,
+    "end": 495.953
+  },
+  {
+    "word": "— auch",
+    "start": 495.953,
+    "end": 496.481
+  },
+  {
+    "word": "bei einem",
+    "start": 496.481,
+    "end": 497.009
+  },
+  {
+    "word": "kurzen",
+    "start": 497.009,
+    "end": 497.537
+  },
+  {
+    "word": "Stopp",
+    "start": 497.538,
+    "end": 498.066
+  },
+  {
+    "word": "von nur",
+    "start": 498.066,
+    "end": 498.594
+  },
+  {
+    "word": "wenigen",
+    "start": 498.594,
+    "end": 499.122
+  },
+  {
+    "word": "Stunden.",
+    "start": 499.122,
+    "end": 499.65
+  },
+  {
+    "word": "Aber",
+    "start": 499.95,
+    "end": 500.685
+  },
+  {
+    "word": "es gibt",
+    "start": 500.685,
+    "end": 501.42
+  },
+  {
+    "word": "Ausnahmen",
+    "start": 501.42,
+    "end": 502.155
+  },
+  {
+    "word": "— und",
+    "start": 502.155,
+    "end": 502.89
+  },
+  {
+    "word": "die sind",
+    "start": 502.89,
+    "end": 503.625
+  },
+  {
+    "word": "politisch",
+    "start": 503.625,
+    "end": 504.36
+  },
+  {
+    "word": "interessant.",
+    "start": 504.36,
+    "end": 505.095
+  },
+  {
+    "word": "Einige",
+    "start": 505.095,
+    "end": 505.83
+  },
+  {
+    "word": "Länder",
+    "start": 505.83,
+    "end": 506.565
+  },
+  {
+    "word": "mit historisch",
+    "start": 506.565,
+    "end": 507.3
+  },
+  {
+    "word": "engen",
+    "start": 507.3,
+    "end": 508.035
+  },
+  {
+    "word": "EU-Beziehungen",
+    "start": 508.035,
+    "end": 508.77
+  },
+  {
+    "word": "sind",
+    "start": 508.77,
+    "end": 509.505
+  },
+  {
+    "word": "von ETIAS",
+    "start": 509.505,
+    "end": 510.24
+  },
+  {
+    "word": "ausgenommen.",
+    "start": 510.24,
+    "end": 510.975
+  },
+  {
+    "word": "Andorra,",
+    "start": 510.975,
+    "end": 511.71
+  },
+  {
+    "word": "Monaco,",
+    "start": 511.71,
+    "end": 512.445
+  },
+  {
+    "word": "San Marino",
+    "start": 512.445,
+    "end": 513.18
+  },
+  {
+    "word": "und der",
+    "start": 513.18,
+    "end": 513.915
+  },
+  {
+    "word": "Vatikan.",
+    "start": 513.915,
+    "end": 514.65
+  },
+  {
+    "word": "Aber",
+    "start": 514.65,
+    "end": 515.385
+  },
+  {
+    "word": "auch",
+    "start": 515.385,
+    "end": 516.12
+  },
+  {
+    "word": "bestimmte",
+    "start": 516.12,
+    "end": 516.855
+  },
+  {
+    "word": "Staatsangehörige",
+    "start": 516.855,
+    "end": 517.59
+  },
+  {
+    "word": "aus Albanien,",
+    "start": 517.59,
+    "end": 518.325
+  },
+  {
+    "word": "Bosnien",
+    "start": 518.325,
+    "end": 519.06
+  },
+  {
+    "word": "und Nordmazedonien",
+    "start": 519.06,
+    "end": 519.795
+  },
+  {
+    "word": "unter",
+    "start": 519.795,
+    "end": 520.53
+  },
+  {
+    "word": "bestimmten",
+    "start": 520.53,
+    "end": 521.265
+  },
+  {
+    "word": "Bedingungen.",
+    "start": 521.265,
+    "end": 522.0
+  },
+  {
+    "word": "Das System",
+    "start": 522.0,
+    "end": 522.735
+  },
+  {
+    "word": "ist komplizierter",
+    "start": 522.735,
+    "end": 523.47
+  },
+  {
+    "word": "als es",
+    "start": 523.47,
+    "end": 524.205
+  },
+  {
+    "word": "klingt.",
+    "start": 524.205,
+    "end": 524.94
+  },
+  {
+    "word": "Also",
+    "start": 525.24,
+    "end": 525.747
+  },
+  {
+    "word": "was kannst",
+    "start": 525.747,
+    "end": 526.254
+  },
+  {
+    "word": "du konkret",
+    "start": 526.254,
+    "end": 526.761
+  },
+  {
+    "word": "tun? Erstens:",
+    "start": 526.761,
+    "end": 527.267
+  },
+  {
+    "word": "Stell",
+    "start": 527.267,
+    "end": 527.774
+  },
+  {
+    "word": "sicher,",
+    "start": 527.774,
+    "end": 528.281
+  },
+  {
+    "word": "dass",
+    "start": 528.281,
+    "end": 528.788
+  },
+  {
+    "word": "dein",
+    "start": 528.788,
+    "end": 529.295
+  },
+  {
+    "word": "Reisepass",
+    "start": 529.295,
+    "end": 529.802
+  },
+  {
+    "word": "noch",
+    "start": 529.802,
+    "end": 530.309
+  },
+  {
+    "word": "mindestens",
+    "start": 530.309,
+    "end": 530.815
+  },
+  {
+    "word": "drei",
+    "start": 530.815,
+    "end": 531.322
+  },
+  {
+    "word": "Monate",
+    "start": 531.322,
+    "end": 531.829
+  },
+  {
+    "word": "nach",
+    "start": 531.829,
+    "end": 532.336
+  },
+  {
+    "word": "deiner",
+    "start": 532.336,
+    "end": 532.843
+  },
+  {
+    "word": "geplanten",
+    "start": 532.843,
+    "end": 533.35
+  },
+  {
+    "word": "Rückreise",
+    "start": 533.35,
+    "end": 533.857
+  },
+  {
+    "word": "gültig",
+    "start": 533.857,
+    "end": 534.363
+  },
+  {
+    "word": "ist. Zweitens:",
+    "start": 534.363,
+    "end": 534.87
+  },
+  {
+    "word": "Halte",
+    "start": 534.87,
+    "end": 535.377
+  },
+  {
+    "word": "deine",
+    "start": 535.377,
+    "end": 535.884
+  },
+  {
+    "word": "Reisehistorie",
+    "start": 535.884,
+    "end": 536.391
+  },
+  {
+    "word": "der letzten",
+    "start": 536.391,
+    "end": 536.898
+  },
+  {
+    "word": "zehn",
+    "start": 536.898,
+    "end": 537.405
+  },
+  {
+    "word": "Jahre",
+    "start": 537.405,
+    "end": 537.911
+  },
+  {
+    "word": "parat.",
+    "start": 537.911,
+    "end": 538.418
+  },
+  {
+    "word": "Drittens:",
+    "start": 538.418,
+    "end": 538.925
+  },
+  {
+    "word": "Warte",
+    "start": 538.925,
+    "end": 539.432
+  },
+  {
+    "word": "auf die",
+    "start": 539.432,
+    "end": 539.939
+  },
+  {
+    "word": "offizielle",
+    "start": 539.939,
+    "end": 540.446
+  },
+  {
+    "word": "EU-Website",
+    "start": 540.446,
+    "end": 540.953
+  },
+  {
+    "word": "— und",
+    "start": 540.953,
+    "end": 541.459
+  },
+  {
+    "word": "nutze",
+    "start": 541.459,
+    "end": 541.966
+  },
+  {
+    "word": "keine",
+    "start": 541.966,
+    "end": 542.473
+  },
+  {
+    "word": "Drittanbieter.",
+    "start": 542.473,
+    "end": 542.98
+  },
+  {
+    "word": "Vergessen",
+    "start": 543.28,
+    "end": 543.914
+  },
+  {
+    "word": "wir mal",
+    "start": 543.914,
+    "end": 544.548
+  },
+  {
+    "word": "die bürokratischen",
+    "start": 544.548,
+    "end": 545.182
+  },
+  {
+    "word": "Details.",
+    "start": 545.182,
+    "end": 545.816
+  },
+  {
+    "word": "Warum",
+    "start": 545.816,
+    "end": 546.45
+  },
+  {
+    "word": "macht",
+    "start": 546.45,
+    "end": 547.084
+  },
+  {
+    "word": "die EU",
+    "start": 547.084,
+    "end": 547.718
+  },
+  {
+    "word": "das wirklich?",
+    "start": 547.718,
+    "end": 548.352
+  },
+  {
+    "word": "Die offizielle",
+    "start": 548.352,
+    "end": 548.986
+  },
+  {
+    "word": "Begründung:",
+    "start": 548.986,
+    "end": 549.62
+  },
+  {
+    "word": "Sicherheit,",
+    "start": 549.62,
+    "end": 550.254
+  },
+  {
+    "word": "Terrorismusbekämpfung,",
+    "start": 550.254,
+    "end": 550.888
+  },
+  {
+    "word": "Kontrolle",
+    "start": 550.888,
+    "end": 551.522
+  },
+  {
+    "word": "illegaler",
+    "start": 551.522,
+    "end": 552.156
+  },
+  {
+    "word": "Migration.",
+    "start": 552.156,
+    "end": 552.79
+  },
+  {
+    "word": "Aber",
+    "start": 552.79,
+    "end": 553.424
+  },
+  {
+    "word": "Kritiker",
+    "start": 553.424,
+    "end": 554.058
+  },
+  {
+    "word": "sagen:",
+    "start": 554.058,
+    "end": 554.692
+  },
+  {
+    "word": "Es geht",
+    "start": 554.692,
+    "end": 555.326
+  },
+  {
+    "word": "auch",
+    "start": 555.326,
+    "end": 555.96
+  },
+  {
+    "word": "darum,",
+    "start": 555.96,
+    "end": 556.594
+  },
+  {
+    "word": "ein vollständiges",
+    "start": 556.594,
+    "end": 557.228
+  },
+  {
+    "word": "digitales",
+    "start": 557.228,
+    "end": 557.862
+  },
+  {
+    "word": "Profil",
+    "start": 557.862,
+    "end": 558.496
+  },
+  {
+    "word": "jedes",
+    "start": 558.496,
+    "end": 559.13
+  },
+  {
+    "word": "Nicht-EU-Bürgers",
+    "start": 559.13,
+    "end": 559.764
+  },
+  {
+    "word": "zu erstellen,",
+    "start": 559.764,
+    "end": 560.398
+  },
+  {
+    "word": "der europäischen",
+    "start": 560.398,
+    "end": 561.032
+  },
+  {
+    "word": "Boden",
+    "start": 561.032,
+    "end": 561.666
+  },
+  {
+    "word": "betritt.",
+    "start": 561.666,
+    "end": 562.3
+  },
+  {
+    "word": "Amnesty",
+    "start": 562.6,
+    "end": 563.127
+  },
+  {
+    "word": "International",
+    "start": 563.127,
+    "end": 563.654
+  },
+  {
+    "word": "und Human",
+    "start": 563.654,
+    "end": 564.18
+  },
+  {
+    "word": "Rights",
+    "start": 564.18,
+    "end": 564.707
+  },
+  {
+    "word": "Watch",
+    "start": 564.707,
+    "end": 565.234
+  },
+  {
+    "word": "haben",
+    "start": 565.234,
+    "end": 565.761
+  },
+  {
+    "word": "bereits",
+    "start": 565.761,
+    "end": 566.287
+  },
+  {
+    "word": "Bedenken",
+    "start": 566.287,
+    "end": 566.814
+  },
+  {
+    "word": "geäußert.",
+    "start": 566.814,
+    "end": 567.341
+  },
+  {
+    "word": "Sie kritisieren,",
+    "start": 567.341,
+    "end": 567.868
+  },
+  {
+    "word": "dass",
+    "start": 567.868,
+    "end": 568.394
+  },
+  {
+    "word": "ETIAS",
+    "start": 568.394,
+    "end": 568.921
+  },
+  {
+    "word": "Menschen",
+    "start": 568.921,
+    "end": 569.448
+  },
+  {
+    "word": "diskriminieren",
+    "start": 569.448,
+    "end": 569.975
+  },
+  {
+    "word": "könnte,",
+    "start": 569.975,
+    "end": 570.501
+  },
+  {
+    "word": "die aus",
+    "start": 570.501,
+    "end": 571.028
+  },
+  {
+    "word": "bestimmten",
+    "start": 571.028,
+    "end": 571.555
+  },
+  {
+    "word": "Ländern",
+    "start": 571.555,
+    "end": 572.082
+  },
+  {
+    "word": "stammen",
+    "start": 572.082,
+    "end": 572.609
+  },
+  {
+    "word": "— unabhängig",
+    "start": 572.609,
+    "end": 573.135
+  },
+  {
+    "word": "von ihrem",
+    "start": 573.135,
+    "end": 573.662
+  },
+  {
+    "word": "tatsächlichen",
+    "start": 573.662,
+    "end": 574.189
+  },
+  {
+    "word": "Verhalten.",
+    "start": 574.189,
+    "end": 574.716
+  },
+  {
+    "word": "Ein Algerier",
+    "start": 574.716,
+    "end": 575.242
+  },
+  {
+    "word": "mit sauberem",
+    "start": 575.242,
+    "end": 575.769
+  },
+  {
+    "word": "Lebenslauf",
+    "start": 575.769,
+    "end": 576.296
+  },
+  {
+    "word": "könnte",
+    "start": 576.296,
+    "end": 576.823
+  },
+  {
+    "word": "schlechter",
+    "start": 576.823,
+    "end": 577.349
+  },
+  {
+    "word": "gestellt",
+    "start": 577.349,
+    "end": 577.876
+  },
+  {
+    "word": "sein",
+    "start": 577.876,
+    "end": 578.403
+  },
+  {
+    "word": "als jemand",
+    "start": 578.403,
+    "end": 578.93
+  },
+  {
+    "word": "aus einem",
+    "start": 578.93,
+    "end": 579.456
+  },
+  {
+    "word": "privilegierten",
+    "start": 579.456,
+    "end": 579.983
+  },
+  {
+    "word": "Land.",
+    "start": 579.983,
+    "end": 580.51
+  },
+  {
+    "word": "ETIAS",
+    "start": 580.81,
+    "end": 581.431
+  },
+  {
+    "word": "ist nicht",
+    "start": 581.431,
+    "end": 582.051
+  },
+  {
+    "word": "allein.",
+    "start": 582.051,
+    "end": 582.672
+  },
+  {
+    "word": "Gleichzeitig",
+    "start": 582.672,
+    "end": 583.293
+  },
+  {
+    "word": "führt",
+    "start": 583.293,
+    "end": 583.913
+  },
+  {
+    "word": "die EU",
+    "start": 583.913,
+    "end": 584.534
+  },
+  {
+    "word": "das Entry-Exit-System",
+    "start": 584.534,
+    "end": 585.154
+  },
+  {
+    "word": "ein —",
+    "start": 585.154,
+    "end": 585.775
+  },
+  {
+    "word": "EES —",
+    "start": 585.775,
+    "end": 586.396
+  },
+  {
+    "word": "das jeden",
+    "start": 586.396,
+    "end": 587.016
+  },
+  {
+    "word": "Grenzübertritt",
+    "start": 587.016,
+    "end": 587.637
+  },
+  {
+    "word": "digitally",
+    "start": 587.637,
+    "end": 588.258
+  },
+  {
+    "word": "protokolliert.",
+    "start": 588.258,
+    "end": 588.878
+  },
+  {
+    "word": "Kombiniert",
+    "start": 588.878,
+    "end": 589.499
+  },
+  {
+    "word": "mit ETIAS",
+    "start": 589.499,
+    "end": 590.119
+  },
+  {
+    "word": "entsteht",
+    "start": 590.119,
+    "end": 590.74
+  },
+  {
+    "word": "ein lückenloses",
+    "start": 590.74,
+    "end": 591.361
+  },
+  {
+    "word": "Überwachungsnetz,",
+    "start": 591.361,
+    "end": 591.981
+  },
+  {
+    "word": "das jeden",
+    "start": 591.981,
+    "end": 592.602
+  },
+  {
+    "word": "Nicht-EU-Reisenden",
+    "start": 592.602,
+    "end": 593.223
+  },
+  {
+    "word": "von der",
+    "start": 593.223,
+    "end": 593.843
+  },
+  {
+    "word": "Antragsstellung",
+    "start": 593.843,
+    "end": 594.464
+  },
+  {
+    "word": "bis zur",
+    "start": 594.464,
+    "end": 595.084
+  },
+  {
+    "word": "Ausreise",
+    "start": 595.084,
+    "end": 595.705
+  },
+  {
+    "word": "verfolgt.",
+    "start": 595.705,
+    "end": 596.326
+  },
+  {
+    "word": "Die Zukunft",
+    "start": 596.326,
+    "end": 596.946
+  },
+  {
+    "word": "des Reisens",
+    "start": 596.946,
+    "end": 597.567
+  },
+  {
+    "word": "in Europa",
+    "start": 597.567,
+    "end": 598.188
+  },
+  {
+    "word": "sieht",
+    "start": 598.188,
+    "end": 598.808
+  },
+  {
+    "word": "grundlegend",
+    "start": 598.808,
+    "end": 599.429
+  },
+  {
+    "word": "anders",
+    "start": 599.429,
+    "end": 600.049
+  },
+  {
+    "word": "aus.",
+    "start": 600.049,
+    "end": 600.67
+  },
+  {
+    "word": "Fassen",
+    "start": 600.97,
+    "end": 601.53
+  },
+  {
+    "word": "wir zusammen,",
+    "start": 601.53,
+    "end": 602.091
+  },
+  {
+    "word": "was wirklich",
+    "start": 602.091,
+    "end": 602.651
+  },
+  {
+    "word": "wichtig",
+    "start": 602.651,
+    "end": 603.211
+  },
+  {
+    "word": "ist. ETIAS",
+    "start": 603.211,
+    "end": 603.771
+  },
+  {
+    "word": "kommt",
+    "start": 603.771,
+    "end": 604.332
+  },
+  {
+    "word": "— wahrscheinlich",
+    "start": 604.332,
+    "end": 604.892
+  },
+  {
+    "word": "2026,",
+    "start": 604.892,
+    "end": 605.452
+  },
+  {
+    "word": "vielleicht",
+    "start": 605.452,
+    "end": 606.013
+  },
+  {
+    "word": "später.",
+    "start": 606.013,
+    "end": 606.573
+  },
+  {
+    "word": "Es kostet",
+    "start": 606.573,
+    "end": 607.133
+  },
+  {
+    "word": "sieben",
+    "start": 607.133,
+    "end": 607.693
+  },
+  {
+    "word": "Euro,",
+    "start": 607.693,
+    "end": 608.254
+  },
+  {
+    "word": "kann",
+    "start": 608.254,
+    "end": 608.814
+  },
+  {
+    "word": "aber",
+    "start": 608.814,
+    "end": 609.374
+  },
+  {
+    "word": "deinen",
+    "start": 609.374,
+    "end": 609.934
+  },
+  {
+    "word": "Urlaub",
+    "start": 609.934,
+    "end": 610.495
+  },
+  {
+    "word": "ruinieren,",
+    "start": 610.495,
+    "end": 611.055
+  },
+  {
+    "word": "wenn",
+    "start": 611.055,
+    "end": 611.615
+  },
+  {
+    "word": "du es",
+    "start": 611.615,
+    "end": 612.176
+  },
+  {
+    "word": "nicht",
+    "start": 612.176,
+    "end": 612.736
+  },
+  {
+    "word": "richtig",
+    "start": 612.736,
+    "end": 613.296
+  },
+  {
+    "word": "machst.",
+    "start": 613.296,
+    "end": 613.856
+  },
+  {
+    "word": "Plane",
+    "start": 613.856,
+    "end": 614.417
+  },
+  {
+    "word": "früh,",
+    "start": 614.417,
+    "end": 614.977
+  },
+  {
+    "word": "benutze",
+    "start": 614.977,
+    "end": 615.537
+  },
+  {
+    "word": "nur offizielle",
+    "start": 615.537,
+    "end": 616.097
+  },
+  {
+    "word": "Seiten,",
+    "start": 616.098,
+    "end": 616.658
+  },
+  {
+    "word": "und informiere",
+    "start": 616.658,
+    "end": 617.218
+  },
+  {
+    "word": "alle",
+    "start": 617.218,
+    "end": 617.778
+  },
+  {
+    "word": "Nicht-EU-Freunde",
+    "start": 617.778,
+    "end": 618.339
+  },
+  {
+    "word": "und Familienmitglieder,",
+    "start": 618.339,
+    "end": 618.899
+  },
+  {
+    "word": "die nach",
+    "start": 618.899,
+    "end": 619.459
+  },
+  {
+    "word": "Europa",
+    "start": 619.459,
+    "end": 620.019
+  },
+  {
+    "word": "reisen",
+    "start": 620.019,
+    "end": 620.58
+  },
+  {
+    "word": "wollen.",
+    "start": 620.58,
+    "end": 621.14
+  },
+  {
+    "word": "Aber",
+    "start": 621.44,
+    "end": 622.0
+  },
+  {
+    "word": "die eine",
+    "start": 622.0,
+    "end": 622.561
+  },
+  {
+    "word": "Sache,",
+    "start": 622.561,
+    "end": 623.121
+  },
+  {
+    "word": "die fast",
+    "start": 623.121,
+    "end": 623.681
+  },
+  {
+    "word": "alle",
+    "start": 623.681,
+    "end": 624.241
+  },
+  {
+    "word": "übersehen:",
+    "start": 624.241,
+    "end": 624.802
+  },
+  {
+    "word": "ETIAS",
+    "start": 624.802,
+    "end": 625.362
+  },
+  {
+    "word": "kann",
+    "start": 625.362,
+    "end": 625.922
+  },
+  {
+    "word": "auch",
+    "start": 625.922,
+    "end": 626.482
+  },
+  {
+    "word": "nach",
+    "start": 626.482,
+    "end": 627.043
+  },
+  {
+    "word": "der Genehmigung",
+    "start": 627.043,
+    "end": 627.603
+  },
+  {
+    "word": "widerrufen",
+    "start": 627.603,
+    "end": 628.163
+  },
+  {
+    "word": "werden.",
+    "start": 628.163,
+    "end": 628.723
+  },
+  {
+    "word": "Wenn",
+    "start": 628.723,
+    "end": 629.284
+  },
+  {
+    "word": "du zwischen",
+    "start": 629.284,
+    "end": 629.844
+  },
+  {
+    "word": "Antragstellung",
+    "start": 629.844,
+    "end": 630.404
+  },
+  {
+    "word": "und Reise",
+    "start": 630.404,
+    "end": 630.964
+  },
+  {
+    "word": "in ein",
+    "start": 630.964,
+    "end": 631.525
+  },
+  {
+    "word": "Risikogebiet",
+    "start": 631.525,
+    "end": 632.085
+  },
+  {
+    "word": "reist,",
+    "start": 632.085,
+    "end": 632.645
+  },
+  {
+    "word": "oder",
+    "start": 632.645,
+    "end": 633.205
+  },
+  {
+    "word": "dein",
+    "start": 633.205,
+    "end": 633.766
+  },
+  {
+    "word": "Name",
+    "start": 633.766,
+    "end": 634.326
+  },
+  {
+    "word": "in einer",
+    "start": 634.326,
+    "end": 634.886
+  },
+  {
+    "word": "Datenbank",
+    "start": 634.886,
+    "end": 635.446
+  },
+  {
+    "word": "auftaucht,",
+    "start": 635.446,
+    "end": 636.007
+  },
+  {
+    "word": "kann",
+    "start": 636.007,
+    "end": 636.567
+  },
+  {
+    "word": "deine",
+    "start": 636.567,
+    "end": 637.127
+  },
+  {
+    "word": "Genehmigung",
+    "start": 637.127,
+    "end": 637.687
+  },
+  {
+    "word": "ohne",
+    "start": 637.687,
+    "end": 638.248
+  },
+  {
+    "word": "Vorwarnung",
+    "start": 638.248,
+    "end": 638.808
+  },
+  {
+    "word": "storniert",
+    "start": 638.808,
+    "end": 639.368
+  },
+  {
+    "word": "werden.",
+    "start": 639.368,
+    "end": 639.928
+  },
+  {
+    "word": "Auch",
+    "start": 639.928,
+    "end": 640.489
+  },
+  {
+    "word": "dann,",
+    "start": 640.489,
+    "end": 641.049
+  },
+  {
+    "word": "wenn",
+    "start": 641.049,
+    "end": 641.609
+  },
+  {
+    "word": "du bereits",
+    "start": 641.609,
+    "end": 642.169
+  },
+  {
+    "word": "am Flughafen",
+    "start": 642.169,
+    "end": 642.73
+  },
+  {
+    "word": "stehst.",
+    "start": 642.73,
+    "end": 643.29
+  },
+  {
+    "word": "Wenn",
+    "start": 643.59,
+    "end": 644.134
+  },
+  {
+    "word": "dich",
+    "start": 644.134,
+    "end": 644.678
+  },
+  {
+    "word": "dieser",
+    "start": 644.678,
+    "end": 645.222
+  },
+  {
+    "word": "Blick",
+    "start": 645.222,
+    "end": 645.766
+  },
+  {
+    "word": "hinter",
+    "start": 645.766,
+    "end": 646.31
+  },
+  {
+    "word": "die Kulissen",
+    "start": 646.31,
+    "end": 646.854
+  },
+  {
+    "word": "des europäischen",
+    "start": 646.854,
+    "end": 647.398
+  },
+  {
+    "word": "Reisesystems",
+    "start": 647.398,
+    "end": 647.942
+  },
+  {
+    "word": "überrascht",
+    "start": 647.942,
+    "end": 648.487
+  },
+  {
+    "word": "hat —",
+    "start": 648.487,
+    "end": 649.031
+  },
+  {
+    "word": "dann",
+    "start": 649.031,
+    "end": 649.575
+  },
+  {
+    "word": "abonniere",
+    "start": 649.575,
+    "end": 650.119
+  },
+  {
+    "word": "diesen",
+    "start": 650.119,
+    "end": 650.663
+  },
+  {
+    "word": "Kanal.",
+    "start": 650.663,
+    "end": 651.207
+  },
+  {
+    "word": "Wir zeigen",
+    "start": 651.207,
+    "end": 651.751
+  },
+  {
+    "word": "dir, was",
+    "start": 651.751,
+    "end": 652.295
+  },
+  {
+    "word": "Reiseblogs",
+    "start": 652.295,
+    "end": 652.839
+  },
+  {
+    "word": "und Mainstream-Medien",
+    "start": 652.839,
+    "end": 653.383
+  },
+  {
+    "word": "verschweigen.",
+    "start": 653.383,
+    "end": 653.927
+  },
+  {
+    "word": "Jede",
+    "start": 653.927,
+    "end": 654.471
+  },
+  {
+    "word": "Woche.",
+    "start": 654.471,
+    "end": 655.015
+  },
+  {
+    "word": "Drück",
+    "start": 655.015,
+    "end": 655.559
+  },
+  {
+    "word": "auf Abonnieren",
+    "start": 655.559,
+    "end": 656.103
+  },
+  {
+    "word": "und vergiss",
+    "start": 656.103,
+    "end": 656.648
+  },
+  {
+    "word": "nicht,",
+    "start": 656.648,
+    "end": 657.192
+  },
+  {
+    "word": "die Glocke",
+    "start": 657.192,
+    "end": 657.736
+  },
+  {
+    "word": "zu aktivieren",
+    "start": 657.736,
+    "end": 658.28
+  },
+  {
+    "word": "— damit",
+    "start": 658.28,
+    "end": 658.824
+  },
+  {
+    "word": "du keinen",
+    "start": 658.824,
+    "end": 659.368
+  },
+  {
+    "word": "dieser",
+    "start": 659.368,
+    "end": 659.912
+  },
+  {
+    "word": "Einblicke",
+    "start": 659.912,
+    "end": 660.456
+  },
+  {
+    "word": "verpasst.",
+    "start": 660.456,
+    "end": 661.0
+  }
+]
