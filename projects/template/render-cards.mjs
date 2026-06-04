@@ -27,7 +27,7 @@ const __dir = dirname(fileURLToPath(import.meta.url));
 const outDir = join(__dir, 'card-frames');
 mkdirSync(outDir, { recursive: true });
 
-const W = 1920, H = 1080;
+const W = 1280, H = 720;
 const GOLD = '#FFD700';
 
 // ── ✏️  EDIT THIS — your video's cards ────────────────────────────────────────
@@ -71,16 +71,16 @@ const mgStyle = `
     * { margin:0; padding:0; box-sizing:border-box; }
     html, body { width:${W}px; height:${H}px; background:transparent; overflow:hidden; }
     .card {
-      position: absolute; left: 60px; bottom: 140px;
+      position: absolute; left: 40px; bottom: 95px;
       display: flex; align-items: stretch;
       background: rgba(10,10,30,0.72);
       border: 1.5px solid rgba(255,255,255,0.22);
-      box-shadow: 0 12px 48px rgba(0,0,0,0.65);
-      border-radius: 20px; overflow: hidden;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.65);
+      border-radius: 14px; overflow: hidden;
       font-family: 'Montserrat', 'Arial Black', sans-serif;
     }
-    .stripe { width: 6px; background: ${GOLD}; flex-shrink: 0; }
-    .inner  { padding: 22px 26px; flex: 1; }
+    .stripe { width: 4px; background: ${GOLD}; flex-shrink: 0; }
+    .inner  { padding: 14px 18px; flex: 1; }
   </style>`;
 
 const chapStyle = `
@@ -89,52 +89,52 @@ const chapStyle = `
     * { margin:0; padding:0; box-sizing:border-box; }
     html, body { width:${W}px; height:${H}px; background:transparent; overflow:hidden; }
     .card {
-      position: absolute; left: 60px; top: 60px;
+      position: absolute; left: 40px; top: 40px;
       display: flex; align-items: stretch;
       background: rgba(0,28,58,0.52);
       border: 1.5px solid rgba(100,180,255,0.32);
-      box-shadow: 0 12px 48px rgba(0,0,0,0.65);
-      border-radius: 20px; overflow: hidden;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.65);
+      border-radius: 14px; overflow: hidden;
       font-family: 'Montserrat', 'Arial Black', sans-serif;
     }
-    .stripe { width: 6px; background: #4FC3F7; flex-shrink: 0; }
-    .inner  { padding: 22px 26px; flex: 1; }
+    .stripe { width: 4px; background: #4FC3F7; flex-shrink: 0; }
+    .inner  { padding: 14px 18px; flex: 1; }
   </style>`;
 
 function buildHTML(card) {
   if (card.type === 'stat') {
     return `<!DOCTYPE html><html><head><meta charset="UTF-8">${mgStyle}</head><body>
-      <div class="card" style="width:680px">
+      <div class="card" style="width:455px">
         <div class="stripe"></div>
         <div class="inner">
-          <div style="font-size:16px;font-weight:700;letter-spacing:.15em;color:${GOLD};opacity:.9;text-transform:uppercase;margin-bottom:6px">${card.label}</div>
-          <div style="font-size:72px;font-weight:800;color:#FFF;line-height:1;letter-spacing:-2px">${card.value}</div>
-          <div style="font-size:18px;color:rgba(255,255,255,.7);margin-top:6px">${card.sub}</div>
+          <div style="font-size:11px;font-weight:700;letter-spacing:.15em;color:${GOLD};opacity:.9;text-transform:uppercase;margin-bottom:4px">${card.label}</div>
+          <div style="font-size:48px;font-weight:800;color:#FFF;line-height:1;letter-spacing:-1px">${card.value}</div>
+          <div style="font-size:12px;color:rgba(255,255,255,.7);margin-top:4px">${card.sub}</div>
         </div>
-        <div style="font-size:44px;padding:22px 20px 22px 0;display:flex;align-items:flex-start;padding-top:26px">${card.icon}</div>
+        <div style="font-size:30px;padding:14px 14px 14px 0;display:flex;align-items:flex-start;padding-top:18px">${card.icon}</div>
       </div>
     </body></html>`;
   }
   if (card.type === 'key') {
     return `<!DOCTYPE html><html><head><meta charset="UTF-8">${mgStyle}</head><body>
-      <div class="card" style="width:680px">
+      <div class="card" style="width:455px">
         <div class="stripe"></div>
         <div class="inner">
-          <div style="display:inline-block;background:${GOLD};color:#0D0D1A;font-size:13px;font-weight:800;letter-spacing:.12em;padding:5px 14px;border-radius:12px;text-transform:uppercase;margin-bottom:12px">${card.tag}</div>
-          <div style="height:1px;background:rgba(255,255,255,.18);margin-bottom:12px"></div>
-          <div style="font-size:22px;font-weight:700;color:#FFF;line-height:1.4">${card.text}</div>
+          <div style="display:inline-block;background:${GOLD};color:#0D0D1A;font-size:9px;font-weight:800;letter-spacing:.12em;padding:4px 10px;border-radius:8px;text-transform:uppercase;margin-bottom:8px">${card.tag}</div>
+          <div style="height:1px;background:rgba(255,255,255,.18);margin-bottom:8px"></div>
+          <div style="font-size:15px;font-weight:700;color:#FFF;line-height:1.4;white-space:pre-line">${card.text}</div>
         </div>
       </div>
     </body></html>`;
   }
   if (card.type === 'chapter') {
     return `<!DOCTYPE html><html><head><meta charset="UTF-8">${chapStyle}</head><body>
-      <div class="card" style="width:620px">
+      <div class="card" style="width:415px">
         <div class="stripe"></div>
         <div class="inner">
-          <div style="display:inline-block;background:#4FC3F7;color:#001828;font-size:13px;font-weight:800;letter-spacing:.12em;padding:5px 14px;border-radius:12px;text-transform:uppercase;margin-bottom:12px">KAPITEL</div>
-          <div style="height:1px;background:rgba(100,180,255,.25);margin-bottom:12px"></div>
-          <div style="font-size:28px;font-weight:800;color:#FFF;letter-spacing:-.3px;line-height:1.2">${card.text}</div>
+          <div style="display:inline-block;background:#4FC3F7;color:#001828;font-size:9px;font-weight:800;letter-spacing:.12em;padding:4px 10px;border-radius:8px;text-transform:uppercase;margin-bottom:8px">KAPITEL</div>
+          <div style="height:1px;background:rgba(100,180,255,.25);margin-bottom:8px"></div>
+          <div style="font-size:19px;font-weight:800;color:#FFF;letter-spacing:-.2px;line-height:1.2;white-space:pre-line">${card.text}</div>
         </div>
       </div>
     </body></html>`;
