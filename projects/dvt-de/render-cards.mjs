@@ -31,38 +31,38 @@ const cards = [
   // ── Section 1: Stille Killer An (0–93.5s) ────────────────────────────────────
   { id: 'chap-stille',       type: 'chapter', inTime:   0.5, outTime:   6.5, text: 'Stille Killer\nAn Bord' },
   { id: 'stat-300pct',       type: 'stat',    inTime:  18.0, outTime:  24.0, label: 'DVT-RISIKO BEI LANGSTRECKE',   value: '↑300%',     sub: 'laut WHO bei Flügen über 4 Stunden',                    icon: '🩺' },
-  { id: 'key-dvt-def',       type: 'key',     inTime:  38.0, outTime:  44.0, tag: 'WAS IST DVT',  text: 'Blutgerinnsel in tiefen Venen —\nkann zur Lunge wandern: Lungenembolie tödlich' },
+  { id: 'key-dvt-def',       type: 'key',     inTime:  38.0, outTime:  44.0, tag: 'WAS IST DVT',  text: 'Still. Tödlich.\nUnterschätzt.' },
 
   // ── Section 2: Wahrheit Nr. 2 (93.5–191.5s) ──────────────────────────────────
   { id: 'chap-wahrheit2',    type: 'chapter', inTime:  93.5, outTime:  99.5, text: 'Wahrheit\nNr. 2' },
   { id: 'stat-blutfluss',    type: 'stat',    inTime: 111.0, outTime: 117.0, label: 'BLUTFLUSS-VERLANGSAMUNG',      value: '−50%',      sub: 'in Beinvenen beim Sitzen in engen Flugsitzen',          icon: '🦵' },
   { id: 'stat-fluessigkeit', type: 'stat',    inTime: 133.0, outTime: 139.0, label: 'FLÜSSIGKEITSVERLUST AN BORD', value: '1 Liter',   sub: 'unbemerkt verloren — Kabinenluft unter 20% Luftfeuchtigkeit', icon: '💧' },
-  { id: 'key-alkohol',       type: 'key',     inTime: 154.0, outTime: 160.0, tag: 'ACHTUNG',      text: 'Alkohol an Bord fördert Dehydration —\nGerinnungsrisiko steigt beim anschließenden Schlafen' },
+  { id: 'key-alkohol',       type: 'key',     inTime: 154.0, outTime: 160.0, tag: 'ACHTUNG',      text: 'Alkohol verdoppelt\ndas Risiko.' },
 
   // ── Section 3: Wahrheit Nr. 6 (191.5–295.5s) ─────────────────────────────────
   { id: 'chap-wahrheit6',    type: 'chapter', inTime: 191.5, outTime: 197.5, text: 'Wahrheit\nNr. 6' },
-  { id: 'key-emma',          type: 'key',     inTime: 209.0, outTime: 215.0, tag: 'ECHTER FALL',  text: 'Emma Christoffersen, 28 — starb 2000\nnach Flug Sydney→London an Lungenembolie' },
+  { id: 'key-emma',          type: 'key',     inTime: 209.0, outTime: 215.0, tag: 'ECHTER FALL',  text: 'Emma starb\nmit 28 Jahren.' },
   { id: 'stat-90min',        type: 'stat',    inTime: 232.0, outTime: 238.0, label: 'RISIKOSTART',                 value: '90 Min.',   sub: 'ununterbrochenes Sitzen — Blutfluss verändert sich messbar', icon: '⏱️' },
 
   // ── Section 4: Kompressionsstrümpfe (295.5–380.5s) ───────────────────────────
   { id: 'chap-kompressions', type: 'chapter', inTime: 295.5, outTime: 301.5, text: 'Kompressionsstrümpfe\nWirklich?' },
   { id: 'stat-90pct',        type: 'stat',    inTime: 313.0, outTime: 319.0, label: 'DVT-RISIKO REDUKTION',        value: '−90%',      sub: 'durch Reisekompressionsstrümpfe (British Medical Journal)', icon: '🧦' },
-  { id: 'key-risikogruppen', type: 'key',     inTime: 336.0, outTime: 342.0, tag: 'RISIKOGRUPPEN', text: 'Pille, 50+, Schwangere, Übergewicht —\nKrebspatienten & frisch Operierte: besonders gefährdet' },
+  { id: 'key-risikogruppen', type: 'key',     inTime: 336.0, outTime: 342.0, tag: 'RISIKOGRUPPEN', text: 'Pille. 50+.\nSchwangere. Krebs.' },
 
   // ── Section 5: Du Nach Der (380.5–483.5s) ────────────────────────────────────
   { id: 'chap-nach-flug',    type: 'chapter', inTime: 380.5, outTime: 386.5, text: 'Du Nach\nDem Flug' },
   { id: 'stat-250ml',        type: 'stat',    inTime: 398.0, outTime: 404.0, label: 'EMPFOHLENE TRINKMENGE',       value: '250 ml',    sub: 'Wasser pro Stunde — 2,5 L auf einem Zehnstundenflug',   icon: '💧' },
-  { id: 'key-48h',           type: 'key',     inTime: 421.0, outTime: 427.0, tag: 'HÖCHSTE GEFAHR', text: '48–72 Stunden NACH dem Flug —\nbei Schwellung oder Rötung sofort zum Arzt' },
+  { id: 'key-48h',           type: 'key',     inTime: 421.0, outTime: 427.0, tag: 'HÖCHSTE GEFAHR', text: 'Gefahr nach\nder Landung.' },
 
   // ── Section 6: Flugangst Und Dvt (483.5–586.5s) ──────────────────────────────
   { id: 'chap-flugangst',    type: 'chapter', inTime: 483.5, outTime: 489.5, text: 'Flugangst\nUnd DVT' },
-  { id: 'key-aspirin',       type: 'key',     inTime: 507.0, outTime: 513.0, tag: 'ACHTUNG',      text: 'Aspirin schützt NICHT vor DVT —\nnur Antikoagulantien wie Heparin sind wirksam' },
+  { id: 'key-aspirin',       type: 'key',     inTime: 507.0, outTime: 513.0, tag: 'ACHTUNG',      text: 'Aspirin\nhilft nicht.' },
   { id: 'stat-economy',      type: 'stat',    inTime: 530.0, outTime: 536.0, label: 'DVT ECONOMY VS BUSINESS',    value: '3× häufiger', sub: 'DVT-Fälle in Economy gegenüber Business/First Class', icon: '✈️' },
 
   // ── Section 7: Rechtslage — Können (586.5–656.66s) ───────────────────────────
   { id: 'chap-rechtslage',   type: 'chapter', inTime: 586.5, outTime: 592.5, text: 'Rechtslage —\nKönnen' },
-  { id: 'key-airlines',      type: 'key',     inTime: 604.0, outTime: 610.0, tag: 'AIRLINES',     text: 'Qantas & British Airways informieren proaktiv —\nviele Fluggesellschaften verschweigen das DVT-Risiko' },
-  { id: 'key-montreal',      type: 'key',     inTime: 627.0, outTime: 633.0, tag: 'RECHTSLAGE',   text: 'Montrealer Übereinkommen — Gerichte stufen DVT\nbisher meist als Eigenrisiko des Passagiers ein' },
+  { id: 'key-airlines',      type: 'key',     inTime: 604.0, outTime: 610.0, tag: 'AIRLINES',     text: 'Airlines wissen\nes seit Jahren.' },
+  { id: 'key-montreal',      type: 'key',     inTime: 627.0, outTime: 633.0, tag: 'RECHTSLAGE',   text: 'Klagen meist\nerfolglos.' },
 ];
 
 
