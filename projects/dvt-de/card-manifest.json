@@ -1,0 +1,136 @@
+{
+  "cards": [
+    {
+      "id": "chap-stille",
+      "path": "card-frames/chap-stille.png",
+      "inTime": 0.5,
+      "outTime": 6.5
+    },
+    {
+      "id": "stat-300pct",
+      "path": "card-frames/stat-300pct.png",
+      "inTime": 18,
+      "outTime": 24
+    },
+    {
+      "id": "key-dvt-def",
+      "path": "card-frames/key-dvt-def.png",
+      "inTime": 38,
+      "outTime": 44
+    },
+    {
+      "id": "chap-wahrheit2",
+      "path": "card-frames/chap-wahrheit2.png",
+      "inTime": 93.5,
+      "outTime": 99.5
+    },
+    {
+      "id": "stat-blutfluss",
+      "path": "card-frames/stat-blutfluss.png",
+      "inTime": 111,
+      "outTime": 117
+    },
+    {
+      "id": "stat-fluessigkeit",
+      "path": "card-frames/stat-fluessigkeit.png",
+      "inTime": 133,
+      "outTime": 139
+    },
+    {
+      "id": "key-alkohol",
+      "path": "card-frames/key-alkohol.png",
+      "inTime": 154,
+      "outTime": 160
+    },
+    {
+      "id": "chap-wahrheit6",
+      "path": "card-frames/chap-wahrheit6.png",
+      "inTime": 191.5,
+      "outTime": 197.5
+    },
+    {
+      "id": "key-emma",
+      "path": "card-frames/key-emma.png",
+      "inTime": 209,
+      "outTime": 215
+    },
+    {
+      "id": "stat-90min",
+      "path": "card-frames/stat-90min.png",
+      "inTime": 232,
+      "outTime": 238
+    },
+    {
+      "id": "chap-kompressions",
+      "path": "card-frames/chap-kompressions.png",
+      "inTime": 295.5,
+      "outTime": 301.5
+    },
+    {
+      "id": "stat-90pct",
+      "path": "card-frames/stat-90pct.png",
+      "inTime": 313,
+      "outTime": 319
+    },
+    {
+      "id": "key-risikogruppen",
+      "path": "card-frames/key-risikogruppen.png",
+      "inTime": 336,
+      "outTime": 342
+    },
+    {
+      "id": "chap-nach-flug",
+      "path": "card-frames/chap-nach-flug.png",
+      "inTime": 380.5,
+      "outTime": 386.5
+    },
+    {
+      "id": "stat-250ml",
+      "path": "card-frames/stat-250ml.png",
+      "inTime": 398,
+      "outTime": 404
+    },
+    {
+      "id": "key-48h",
+      "path": "card-frames/key-48h.png",
+      "inTime": 421,
+      "outTime": 427
+    },
+    {
+      "id": "chap-flugangst",
+      "path": "card-frames/chap-flugangst.png",
+      "inTime": 483.5,
+      "outTime": 489.5
+    },
+    {
+      "id": "key-aspirin",
+      "path": "card-frames/key-aspirin.png",
+      "inTime": 507,
+      "outTime": 513
+    },
+    {
+      "id": "stat-economy",
+      "path": "card-frames/stat-economy.png",
+      "inTime": 530,
+      "outTime": 536
+    },
+    {
+      "id": "chap-rechtslage",
+      "path": "card-frames/chap-rechtslage.png",
+      "inTime": 586.5,
+      "outTime": 592.5
+    },
+    {
+      "id": "key-airlines",
+      "path": "card-frames/key-airlines.png",
+      "inTime": 604,
+      "outTime": 610
+    },
+    {
+      "id": "key-montreal",
+      "path": "card-frames/key-montreal.png",
+      "inTime": 627,
+      "outTime": 633
+    }
+  ]
+}
