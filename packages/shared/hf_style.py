@@ -12,7 +12,7 @@ Usage:
 
 Caption spec:
   Font    : Montserrat Bold
-  Size    : 32px
+  Size    : 42px
   Color   : White (#FFFFFF), active word Gold (#FFD700)
   Outline : 1.5px black, no shadow, no blur
   Position: Bottom-center, MarginV=60
@@ -24,8 +24,8 @@ Caption spec:
 #         ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow,
 #         Alignment, MarginL, MarginR, MarginV, Encoding
 ASS_STYLES = """\
-Style: Default,Montserrat,34,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,30,30,60,1
-Style: Highlight,Montserrat,34,&H0000D7FF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,30,30,60,1"""
+Style: Default,Montserrat,42,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,30,30,60,1
+Style: Highlight,Montserrat,42,&H0000D7FF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,30,30,60,1"""
 
 ASS_HEADER_TEMPLATE = """\
 [Script Info]
@@ -53,14 +53,14 @@ def ts_ass(t: float) -> str:
 
 
 def build_ass(words: list[dict], width: int = 1280, height: int = 720,
-              words_per_line: int = 5) -> str:
+              words_per_line: int = 3) -> str:
     """
     Build a full ASS subtitle file from a list of word-timing dicts.
 
     Args:
         words: [{"word": str, "start": float, "end": float}, ...]
         width, height: video resolution for PlayRes
-        words_per_line: how many words per caption group
+        words_per_line: how many words per caption group (default 3)
 
     Returns:
         Complete ASS file content as a string.
@@ -88,8 +88,12 @@ def build_ass(words: list[dict], width: int = 1280, height: int = 720,
             # Clean inline override: thin outline only, no blur, no shadow
             text = r"{\bord1\shad0}" + "".join(parts)
 
-            w_start = line[0]["start"] if wi == 0 else word["start"]
-            w_end   = line[-1]["end"]  if wi == len(line) - 1 else word["end"]
+            w_start = word["start"]
+            # Hold highlight until next word starts to eliminate gaps between words
+            if wi < len(line) - 1:
+                w_end = line[wi + 1]["start"]
+            else:
+                w_end = word["end"]
 
             events.append(
                 f"Dialogue: 0,{ts_ass(w_start)},{ts_ass(w_end)}"
