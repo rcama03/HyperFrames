@@ -1,0 +1,44 @@
+{
+  "cards": [
+    {
+      "id": "c1",
+      "value": "33 Mrd. $",
+      "sub": "allein durch Gepäckgebühren"
+    },
+    {
+      "id": "c2",
+      "value": "+400%",
+      "sub": "Ryanair & Easyjet seit 2010"
+    },
+    {
+      "id": "c3",
+      "value": "300%",
+      "sub": "DVT-Risiko steigt auf Langstrecke"
+    },
+    {
+      "id": "c4",
+      "value": "−90%",
+      "sub": "DVT-Reduktion mit Kompressionsstrümpfen"
+    },
+    {
+      "id": "c5",
+      "value": "7,8 Mrd. $",
+      "sub": "Gepäckgebühren nur in den USA"
+    },
+    {
+      "id": "c6",
+      "value": "68%",
+      "sub": "Passagiere zahlen mehr als nötig"
+    },
+    {
+      "id": "c7",
+      "value": "90 Min.",
+      "sub": "bis DVT-Risikostart beim Sitzen"
+    },
+    {
+      "id": "c8",
+      "value": "6 $",
+      "sub": "Nettoprofit pro Ticket für Airlines"
+    }
+  ]
+}
