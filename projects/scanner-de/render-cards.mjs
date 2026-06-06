@@ -23,14 +23,14 @@ const cards = [
   { id: 'chap-scan',     type: 'chapter', inTime: 0.5,  outTime: 4,    text: 'Der Scan' },
   { id: 'stat-1mrd',     type: 'stat',    inTime: 17,   outTime: 26,   label: 'PRO JAHR',      value: '1,4 Mrd.', sub: 'Passagiere durch europ. Flughäfen', icon: '✈️' },
   { id: 'chap-was',      type: 'chapter', inTime: 31,   outTime: 34,   text: 'Was er speichert' },
-  { id: 'key-3d',        type: 'key',     inTime: 35,   outTime: 45,   tag: 'SCANNER',          text: 'Komplettes 3D-Bild: jede Kurve, jede Narbe — sichtbar' },
-  { id: 'key-ki',        type: 'key',     inTime: 55,   outTime: 65,   tag: 'KI-ANALYSE',       text: 'Gangmuster & Körperhaltung — KI sagt dein Verhalten vorher' },
-  { id: 'key-gesicht',   type: 'key',     inTime: 68,   outTime: 79,   tag: 'GESICHTSERKENNUNG',text: 'Datenbankabgleich still — in unter 2 Sekunden' },
+  { id: 'key-3d',        type: 'key',     inTime: 35,   outTime: 45,   tag: 'SCANNER',          text: 'Nichts bleibt\nverborgen.' },
+  { id: 'key-ki',        type: 'key',     inTime: 55,   outTime: 65,   tag: 'KI-ANALYSE',       text: 'KI liest dich.' },
+  { id: 'key-gesicht',   type: 'key',     inTime: 68,   outTime: 79,   tag: 'GESICHTSERKENNUNG',text: 'Erkannt in\n2 Sekunden.' },
   { id: 'chap-lange',    type: 'chapter', inTime: 80,   outTime: 83,   text: 'Wie lange?' },
   { id: 'stat-eu',       type: 'stat',    inTime: 84,   outTime: 91,   label: 'EU SPEICHERT',   value: '5 Jahre',  sub: 'Passagierdaten pro Flug', icon: '🇪🇺' },
   { id: 'stat-usa',      type: 'stat',    inTime: 92,   outTime: 99,   label: 'USA SPEICHERT',  value: '15 Jahre', sub: 'Passagierdaten pro Flug', icon: '🇺🇸' },
   { id: 'chap-rechte',   type: 'chapter', inTime: 117,  outTime: 120,  text: 'Deine Rechte' },
-  { id: 'key-recht',     type: 'key',     inTime: 121,  outTime: 132,  tag: 'DEIN RECHT',       text: 'EU: Du kannst gespeicherte Daten anfragen & löschen lassen' },
+  { id: 'key-recht',     type: 'key',     inTime: 121,  outTime: 132,  tag: 'DEIN RECHT',       text: 'Deine Daten.\nDein Recht.' },
 ];
 
 // ── Shared styles ─────────────────────────────────────────────────────────────
