@@ -1,0 +1,136 @@
+{
+  "cards": [
+    {
+      "id": "chap-milliarden",
+      "path": "card-frames/chap-milliarden.png",
+      "inTime": 0.5,
+      "outTime": 6.5
+    },
+    {
+      "id": "stat-33mrd",
+      "path": "card-frames/stat-33mrd.png",
+      "inTime": 18,
+      "outTime": 24
+    },
+    {
+      "id": "stat-400pct",
+      "path": "card-frames/stat-400pct.png",
+      "inTime": 38,
+      "outTime": 44
+    },
+    {
+      "id": "key-falle1",
+      "path": "card-frames/key-falle1.png",
+      "inTime": 60,
+      "outTime": 66
+    },
+    {
+      "id": "chap-kilo",
+      "path": "card-frames/chap-kilo.png",
+      "inTime": 85.5,
+      "outTime": 91.5
+    },
+    {
+      "id": "stat-kilopreis",
+      "path": "card-frames/stat-kilopreis.png",
+      "inTime": 103,
+      "outTime": 109
+    },
+    {
+      "id": "key-falle3",
+      "path": "card-frames/key-falle3.png",
+      "inTime": 130,
+      "outTime": 136
+    },
+    {
+      "id": "chap-falle5",
+      "path": "card-frames/chap-falle5.png",
+      "inTime": 175.5,
+      "outTime": 181.5
+    },
+    {
+      "id": "key-darkpattern",
+      "path": "card-frames/key-darkpattern.png",
+      "inTime": 193,
+      "outTime": 199
+    },
+    {
+      "id": "key-eu-recht",
+      "path": "card-frames/key-eu-recht.png",
+      "inTime": 228,
+      "outTime": 234
+    },
+    {
+      "id": "chap-statistik",
+      "path": "card-frames/chap-statistik.png",
+      "inTime": 262.5,
+      "outTime": 268.5
+    },
+    {
+      "id": "stat-68pct",
+      "path": "card-frames/stat-68pct.png",
+      "inTime": 280,
+      "outTime": 286
+    },
+    {
+      "id": "stat-dcc",
+      "path": "card-frames/stat-dcc.png",
+      "inTime": 315,
+      "outTime": 321
+    },
+    {
+      "id": "chap-priority",
+      "path": "card-frames/chap-priority.png",
+      "inTime": 351.5,
+      "outTime": 357.5
+    },
+    {
+      "id": "key-falle7",
+      "path": "card-frames/key-falle7.png",
+      "inTime": 369,
+      "outTime": 375
+    },
+    {
+      "id": "stat-ryanair30",
+      "path": "card-frames/stat-ryanair30.png",
+      "inTime": 410,
+      "outTime": 416
+    },
+    {
+      "id": "chap-tipp3",
+      "path": "card-frames/chap-tipp3.png",
+      "inTime": 447.5,
+      "outTime": 453.5
+    },
+    {
+      "id": "stat-waage",
+      "path": "card-frames/stat-waage.png",
+      "inTime": 465,
+      "outTime": 471
+    },
+    {
+      "id": "key-tipp1",
+      "path": "card-frames/key-tipp1.png",
+      "inTime": 500,
+      "outTime": 506
+    },
+    {
+      "id": "chap-erkenntnis",
+      "path": "card-frames/chap-erkenntnis.png",
+      "inTime": 534.5,
+      "outTime": 540.5
+    },
+    {
+      "id": "key-erkenntnis",
+      "path": "card-frames/key-erkenntnis.png",
+      "inTime": 552,
+      "outTime": 558
+    },
+    {
+      "id": "stat-nettoprofit",
+      "path": "card-frames/stat-nettoprofit.png",
+      "inTime": 578,
+      "outTime": 584
+    }
+  ]
+}
