@@ -1,4747 +1,4642 @@
 [
   {
-    "word": "Über",
+    "word": "Das Essen",
     "start": 0.0,
-    "end": 0.585
+    "end": 0.705
   },
   {
-    "word": "80 Prozent",
-    "start": 0.585,
-    "end": 1.17
+    "word": "in der",
+    "start": 0.705,
+    "end": 1.409
   },
   {
-    "word": "der Reisenden",
-    "start": 1.17,
-    "end": 1.755
+    "word": "Flughafenlounge",
+    "start": 1.409,
+    "end": 2.114
   },
   {
-    "word": "zahlen",
-    "start": 1.755,
-    "end": 2.34
+    "word": "steht",
+    "start": 2.114,
+    "end": 2.818
   },
   {
-    "word": "für den",
-    "start": 2.34,
-    "end": 2.925
-  },
-  {
-    "word": "Lounge-Zugang",
-    "start": 2.925,
-    "end": 3.51
-  },
-  {
-    "word": "— oder",
-    "start": 3.51,
-    "end": 4.095
-  },
-  {
-    "word": "glauben,",
-    "start": 4.095,
-    "end": 4.68
-  },
-  {
-    "word": "sie kämen",
-    "start": 4.68,
-    "end": 5.265
-  },
-  {
-    "word": "gar nicht",
-    "start": 5.265,
-    "end": 5.85
-  },
-  {
-    "word": "rein.",
-    "start": 5.85,
-    "end": 6.435
-  },
-  {
-    "word": "Dabei",
-    "start": 6.435,
-    "end": 7.02
-  },
-  {
-    "word": "gibt",
-    "start": 7.02,
-    "end": 7.605
-  },
-  {
-    "word": "es neun",
-    "start": 7.605,
-    "end": 8.19
-  },
-  {
-    "word": "Methoden,",
-    "start": 8.19,
-    "end": 8.775
-  },
-  {
-    "word": "mit denen",
-    "start": 8.775,
-    "end": 9.36
-  },
-  {
-    "word": "du heute",
-    "start": 9.36,
-    "end": 9.945
-  },
-  {
-    "word": "noch",
-    "start": 9.945,
-    "end": 10.53
-  },
-  {
-    "word": "kostenlos",
-    "start": 10.53,
-    "end": 11.115
-  },
-  {
-    "word": "durch",
-    "start": 11.115,
-    "end": 11.7
-  },
-  {
-    "word": "diese",
-    "start": 11.7,
-    "end": 12.285
-  },
-  {
-    "word": "Tür gehst.",
-    "start": 12.285,
-    "end": 12.87
-  },
-  {
-    "word": "Eine",
-    "start": 12.87,
-    "end": 13.455
-  },
-  {
-    "word": "davon",
-    "start": 13.455,
-    "end": 14.04
-  },
-  {
-    "word": "brauchst",
-    "start": 14.04,
-    "end": 14.625
-  },
-  {
-    "word": "du nur",
-    "start": 14.625,
-    "end": 15.21
-  },
-  {
-    "word": "fünf",
-    "start": 15.21,
-    "end": 15.795
-  },
-  {
-    "word": "Minuten.",
-    "start": 15.795,
-    "end": 16.38
-  },
-  {
-    "word": "Freies",
-    "start": 16.68,
-    "end": 17.199
-  },
-  {
-    "word": "Essen,",
-    "start": 17.199,
-    "end": 17.719
-  },
-  {
-    "word": "kostenlose",
-    "start": 17.719,
-    "end": 18.238
-  },
-  {
-    "word": "Drinks,",
-    "start": 18.238,
-    "end": 18.757
-  },
-  {
-    "word": "Ruhe",
-    "start": 18.757,
-    "end": 19.277
-  },
-  {
-    "word": "vor dem",
-    "start": 19.277,
-    "end": 19.796
-  },
-  {
-    "word": "Chaos",
-    "start": 19.796,
-    "end": 20.315
-  },
-  {
-    "word": "des Terminals",
-    "start": 20.315,
-    "end": 20.835
-  },
-  {
-    "word": "— und",
-    "start": 20.835,
-    "end": 21.354
-  },
-  {
-    "word": "Duschen,",
-    "start": 21.354,
-    "end": 21.873
-  },
-  {
-    "word": "die du",
-    "start": 21.873,
-    "end": 22.393
-  },
-  {
-    "word": "tatsächlich",
-    "start": 22.393,
-    "end": 22.912
-  },
-  {
-    "word": "nutzen",
-    "start": 22.912,
-    "end": 23.431
-  },
-  {
-    "word": "kannst.",
-    "start": 23.431,
-    "end": 23.951
-  },
-  {
-    "word": "Der durchschnittliche",
-    "start": 23.951,
-    "end": 24.47
-  },
-  {
-    "word": "Lounge-Besuch",
-    "start": 24.47,
-    "end": 24.989
-  },
-  {
-    "word": "ist umgerechnet",
-    "start": 24.989,
-    "end": 25.509
+    "word": "manchmal",
+    "start": 2.818,
+    "end": 3.523
   },
   {
     "word": "über",
-    "start": 25.509,
-    "end": 26.028
-  },
-  {
-    "word": "50 Euro",
-    "start": 26.028,
-    "end": 26.547
-  },
-  {
-    "word": "wert.",
-    "start": 26.547,
-    "end": 27.067
-  },
-  {
-    "word": "Die meisten",
-    "start": 27.067,
-    "end": 27.586
-  },
-  {
-    "word": "zahlen",
-    "start": 27.586,
-    "end": 28.105
-  },
-  {
-    "word": "keinen",
-    "start": 28.105,
-    "end": 28.625
-  },
-  {
-    "word": "Cent",
-    "start": 28.625,
-    "end": 29.144
-  },
-  {
-    "word": "dafür.",
-    "start": 29.144,
-    "end": 29.663
-  },
-  {
-    "word": "Du auch",
-    "start": 29.663,
-    "end": 30.183
-  },
-  {
-    "word": "nicht",
-    "start": 30.183,
-    "end": 30.702
-  },
-  {
-    "word": "— wenn",
-    "start": 30.702,
-    "end": 31.221
-  },
-  {
-    "word": "du weißt",
-    "start": 31.221,
-    "end": 31.741
-  },
-  {
-    "word": "wie.",
-    "start": 31.741,
-    "end": 32.26
-  },
-  {
-    "word": "Airlines",
-    "start": 32.56,
-    "end": 33.225
-  },
-  {
-    "word": "und Kreditkartenunternehmen",
-    "start": 33.225,
-    "end": 33.889
-  },
-  {
-    "word": "verdienen",
-    "start": 33.889,
-    "end": 34.554
-  },
-  {
-    "word": "jährlich",
-    "start": 34.554,
-    "end": 35.218
-  },
-  {
-    "word": "Milliarden",
-    "start": 35.218,
-    "end": 35.883
-  },
-  {
-    "word": "mit Lounge-Mitgliedschaften",
-    "start": 35.883,
-    "end": 36.547
-  },
-  {
-    "word": "und Tagespässen.",
-    "start": 36.547,
-    "end": 37.212
-  },
-  {
-    "word": "Das Geschäftsmodell",
-    "start": 37.212,
-    "end": 37.876
-  },
-  {
-    "word": "funktioniert",
-    "start": 37.876,
-    "end": 38.541
-  },
-  {
-    "word": "nur, solange",
-    "start": 38.541,
-    "end": 39.205
-  },
-  {
-    "word": "du glaubst,",
-    "start": 39.205,
-    "end": 39.87
-  },
-  {
-    "word": "es gäbe",
-    "start": 39.87,
-    "end": 40.535
-  },
-  {
-    "word": "keinen",
-    "start": 40.535,
-    "end": 41.199
-  },
-  {
-    "word": "anderen",
-    "start": 41.199,
-    "end": 41.864
-  },
-  {
-    "word": "Weg. Wir",
-    "start": 41.864,
-    "end": 42.528
-  },
-  {
-    "word": "zeigen",
-    "start": 42.528,
-    "end": 43.193
-  },
-  {
-    "word": "dir heute",
-    "start": 43.193,
-    "end": 43.857
-  },
-  {
-    "word": "genau,",
-    "start": 43.857,
-    "end": 44.522
-  },
-  {
-    "word": "wie das",
-    "start": 44.522,
-    "end": 45.186
-  },
-  {
-    "word": "System",
-    "start": 45.186,
-    "end": 45.851
-  },
-  {
-    "word": "wirklich",
-    "start": 45.851,
-    "end": 46.515
-  },
-  {
-    "word": "funktioniert.",
-    "start": 46.515,
-    "end": 47.18
-  },
-  {
-    "word": "Der bekannteste",
-    "start": 47.48,
-    "end": 47.996
-  },
-  {
-    "word": "Trick",
-    "start": 47.996,
-    "end": 48.513
-  },
-  {
-    "word": "— aber",
-    "start": 48.513,
-    "end": 49.029
-  },
-  {
-    "word": "die wenigsten",
-    "start": 49.029,
-    "end": 49.545
-  },
-  {
-    "word": "nutzen",
-    "start": 49.545,
-    "end": 50.062
-  },
-  {
-    "word": "ihn richtig.",
-    "start": 50.062,
-    "end": 50.578
-  },
-  {
-    "word": "Kreditkarten",
-    "start": 50.578,
-    "end": 51.094
-  },
-  {
-    "word": "wie die",
-    "start": 51.094,
-    "end": 51.611
-  },
-  {
-    "word": "American",
-    "start": 51.611,
-    "end": 52.127
-  },
-  {
-    "word": "Express",
-    "start": 52.127,
-    "end": 52.643
-  },
-  {
-    "word": "Platinum",
-    "start": 52.643,
-    "end": 53.16
-  },
-  {
-    "word": "oder",
-    "start": 53.16,
-    "end": 53.676
-  },
-  {
-    "word": "die Lufthansa",
-    "start": 53.676,
-    "end": 54.192
-  },
-  {
-    "word": "Miles",
-    "start": 54.192,
-    "end": 54.709
-  },
-  {
-    "word": "& More",
-    "start": 54.709,
-    "end": 55.225
-  },
-  {
-    "word": "World",
-    "start": 55.225,
-    "end": 55.741
-  },
-  {
-    "word": "Elite",
-    "start": 55.741,
-    "end": 56.258
-  },
-  {
-    "word": "geben",
-    "start": 56.258,
-    "end": 56.774
-  },
-  {
-    "word": "dir automatischen",
-    "start": 56.774,
-    "end": 57.29
-  },
-  {
-    "word": "Zugang",
-    "start": 57.29,
-    "end": 57.807
-  },
-  {
-    "word": "zu über",
-    "start": 57.807,
-    "end": 58.323
-  },
-  {
-    "word": "1.300",
-    "start": 58.323,
-    "end": 58.839
-  },
-  {
-    "word": "Lounges",
-    "start": 58.839,
-    "end": 59.356
-  },
-  {
-    "word": "weltweit.",
-    "start": 59.356,
-    "end": 59.872
-  },
-  {
-    "word": "Kein",
-    "start": 59.872,
-    "end": 60.388
-  },
-  {
-    "word": "Aufpreis,",
-    "start": 60.388,
-    "end": 60.905
-  },
-  {
-    "word": "keine",
-    "start": 60.905,
-    "end": 61.421
-  },
-  {
-    "word": "Buchung",
-    "start": 61.421,
-    "end": 61.937
-  },
-  {
-    "word": "— einfach",
-    "start": 61.937,
-    "end": 62.454
-  },
-  {
-    "word": "hingehen.",
-    "start": 62.454,
-    "end": 62.97
-  },
-  {
-    "word": "Priority",
-    "start": 63.27,
-    "end": 63.963
-  },
-  {
-    "word": "Pass",
-    "start": 63.963,
-    "end": 64.656
-  },
-  {
-    "word": "ist der",
-    "start": 64.656,
-    "end": 65.349
-  },
-  {
-    "word": "größte",
-    "start": 65.349,
-    "end": 66.042
-  },
-  {
-    "word": "unabhängige",
-    "start": 66.042,
-    "end": 66.736
-  },
-  {
-    "word": "Lounge-Netzwerk",
-    "start": 66.736,
-    "end": 67.429
-  },
-  {
-    "word": "der Welt",
-    "start": 67.429,
-    "end": 68.122
-  },
-  {
-    "word": "— über",
-    "start": 68.122,
-    "end": 68.815
-  },
-  {
-    "word": "1.500",
-    "start": 68.815,
-    "end": 69.508
-  },
-  {
-    "word": "Lounges",
-    "start": 69.508,
-    "end": 70.201
-  },
-  {
-    "word": "in mehr",
-    "start": 70.201,
-    "end": 70.894
-  },
-  {
-    "word": "als 145",
-    "start": 70.894,
-    "end": 71.587
-  },
-  {
-    "word": "Ländern.",
-    "start": 71.587,
-    "end": 72.28
-  },
-  {
-    "word": "Was kaum",
-    "start": 72.28,
-    "end": 72.973
-  },
-  {
-    "word": "jemand",
-    "start": 72.973,
-    "end": 73.667
-  },
-  {
-    "word": "weiß:",
-    "start": 73.667,
-    "end": 74.36
-  },
-  {
-    "word": "Mehrere",
-    "start": 74.36,
-    "end": 75.053
-  },
-  {
-    "word": "Konten",
-    "start": 75.053,
-    "end": 75.746
-  },
-  {
-    "word": "geben",
-    "start": 75.746,
-    "end": 76.439
-  },
-  {
-    "word": "dir diesen",
-    "start": 76.439,
-    "end": 77.132
-  },
-  {
-    "word": "Pass",
-    "start": 77.132,
-    "end": 77.825
-  },
-  {
-    "word": "kostenlos",
-    "start": 77.825,
-    "end": 78.518
-  },
-  {
-    "word": "als Zusatzleistung.",
-    "start": 78.518,
-    "end": 79.211
-  },
-  {
-    "word": "Du musst",
-    "start": 79.211,
-    "end": 79.904
-  },
-  {
-    "word": "nur wissen,",
-    "start": 79.904,
-    "end": 80.598
-  },
-  {
-    "word": "welche",
-    "start": 80.598,
-    "end": 81.291
-  },
-  {
-    "word": "Banken",
-    "start": 81.291,
-    "end": 81.984
-  },
-  {
-    "word": "das aktuell",
-    "start": 81.984,
-    "end": 82.677
-  },
-  {
-    "word": "anbieten.",
-    "start": 82.677,
-    "end": 83.37
-  },
-  {
-    "word": "Viele",
-    "start": 83.67,
-    "end": 84.199
-  },
-  {
-    "word": "Airlines",
-    "start": 84.199,
-    "end": 84.728
-  },
-  {
-    "word": "bieten",
-    "start": 84.728,
-    "end": 85.257
-  },
-  {
-    "word": "schnellen",
-    "start": 85.257,
-    "end": 85.786
-  },
-  {
-    "word": "Einstiegsstatus",
-    "start": 85.786,
-    "end": 86.315
-  },
-  {
-    "word": "— manchmal",
-    "start": 86.315,
-    "end": 86.844
-  },
-  {
-    "word": "schon",
-    "start": 86.844,
-    "end": 87.373
-  },
-  {
-    "word": "nach",
-    "start": 87.373,
-    "end": 87.902
-  },
-  {
-    "word": "nur einem",
-    "start": 87.902,
-    "end": 88.431
-  },
-  {
-    "word": "einzigen",
-    "start": 88.431,
-    "end": 88.96
-  },
-  {
-    "word": "Flug",
-    "start": 88.96,
-    "end": 89.489
-  },
-  {
-    "word": "im Jahr.",
-    "start": 89.489,
-    "end": 90.018
-  },
-  {
-    "word": "Mit dem",
-    "start": 90.018,
-    "end": 90.547
-  },
-  {
-    "word": "niedrigsten",
-    "start": 90.547,
-    "end": 91.076
-  },
-  {
-    "word": "Status",
-    "start": 91.076,
-    "end": 91.605
-  },
-  {
-    "word": "einer",
-    "start": 91.605,
-    "end": 92.134
-  },
-  {
-    "word": "Vielflieger-Allianz",
-    "start": 92.134,
-    "end": 92.663
-  },
-  {
-    "word": "wie Star",
-    "start": 92.663,
-    "end": 93.192
-  },
-  {
-    "word": "Alliance",
-    "start": 93.192,
-    "end": 93.721
-  },
-  {
-    "word": "oder",
-    "start": 93.721,
-    "end": 94.25
-  },
-  {
-    "word": "oneworld",
-    "start": 94.25,
-    "end": 94.779
-  },
-  {
-    "word": "bekommst",
-    "start": 94.779,
-    "end": 95.308
-  },
-  {
-    "word": "du bereits",
-    "start": 95.308,
-    "end": 95.837
-  },
-  {
-    "word": "Lounge-Zugang",
-    "start": 95.837,
-    "end": 96.366
-  },
-  {
-    "word": "auf Partnerflügen.",
-    "start": 96.366,
-    "end": 96.895
-  },
-  {
-    "word": "Günstige",
-    "start": 96.895,
-    "end": 97.424
-  },
-  {
-    "word": "Statusflüge",
-    "start": 97.424,
-    "end": 97.953
-  },
-  {
-    "word": "gibt",
-    "start": 97.953,
-    "end": 98.482
-  },
-  {
-    "word": "es ab",
-    "start": 98.482,
-    "end": 99.011
-  },
-  {
-    "word": "80 Euro.",
-    "start": 99.011,
-    "end": 99.54
-  },
-  {
-    "word": "Hast",
-    "start": 99.84,
-    "end": 100.384
-  },
-  {
-    "word": "du einen",
-    "start": 100.384,
-    "end": 100.928
-  },
-  {
-    "word": "Lounge-Zugang",
-    "start": 100.928,
-    "end": 101.472
-  },
-  {
-    "word": "— kannst",
-    "start": 101.472,
-    "end": 102.017
-  },
-  {
-    "word": "du in",
-    "start": 102.017,
-    "end": 102.561
-  },
-  {
-    "word": "vielen",
-    "start": 102.561,
-    "end": 103.105
-  },
-  {
-    "word": "Netzwerken",
-    "start": 103.105,
-    "end": 103.649
-  },
-  {
-    "word": "eine",
-    "start": 103.649,
-    "end": 104.193
-  },
-  {
-    "word": "Begleitperson",
-    "start": 104.193,
-    "end": 104.737
-  },
-  {
-    "word": "kostenlos",
-    "start": 104.737,
-    "end": 105.281
-  },
-  {
-    "word": "mitbringen.",
-    "start": 105.281,
-    "end": 105.826
-  },
-  {
-    "word": "Das gilt",
-    "start": 105.826,
-    "end": 106.37
-  },
-  {
-    "word": "bei Priority",
-    "start": 106.37,
-    "end": 106.914
-  },
-  {
-    "word": "Pass,",
-    "start": 106.914,
-    "end": 107.458
-  },
-  {
-    "word": "Amex",
-    "start": 107.458,
-    "end": 108.002
-  },
-  {
-    "word": "Platinum",
-    "start": 108.002,
-    "end": 108.546
-  },
-  {
-    "word": "und einigen",
-    "start": 108.546,
-    "end": 109.09
-  },
-  {
-    "word": "Airline-Lounges.",
-    "start": 109.09,
-    "end": 109.634
-  },
-  {
-    "word": "Wer clever",
-    "start": 109.634,
-    "end": 110.179
-  },
-  {
-    "word": "reist,",
-    "start": 110.179,
-    "end": 110.723
-  },
-  {
-    "word": "teilt",
-    "start": 110.723,
-    "end": 111.267
-  },
-  {
-    "word": "sich",
-    "start": 111.267,
-    "end": 111.811
-  },
-  {
-    "word": "den Zugang",
-    "start": 111.811,
-    "end": 112.355
-  },
-  {
-    "word": "mit dem",
-    "start": 112.355,
-    "end": 112.899
-  },
-  {
-    "word": "Partner",
-    "start": 112.899,
-    "end": 113.443
-  },
-  {
-    "word": "oder",
-    "start": 113.443,
-    "end": 113.988
-  },
-  {
-    "word": "Reisebegleiter",
-    "start": 113.988,
-    "end": 114.532
-  },
-  {
-    "word": "— legal",
-    "start": 114.532,
-    "end": 115.076
-  },
-  {
-    "word": "und problemlos.",
-    "start": 115.076,
-    "end": 115.62
-  },
-  {
-    "word": "Manche",
-    "start": 115.92,
-    "end": 116.414
-  },
-  {
-    "word": "Lounges",
-    "start": 116.414,
-    "end": 116.908
-  },
-  {
-    "word": "verkaufen",
-    "start": 116.908,
-    "end": 117.403
-  },
-  {
-    "word": "Tageskarten",
-    "start": 117.403,
-    "end": 117.897
-  },
-  {
-    "word": "— aber",
-    "start": 117.897,
-    "end": 118.391
-  },
-  {
-    "word": "kaum",
-    "start": 118.391,
-    "end": 118.885
-  },
-  {
-    "word": "jemand",
-    "start": 118.885,
-    "end": 119.379
-  },
-  {
-    "word": "weiß,",
-    "start": 119.379,
-    "end": 119.874
-  },
-  {
-    "word": "dass",
-    "start": 119.874,
-    "end": 120.368
-  },
-  {
-    "word": "es massive",
-    "start": 120.368,
-    "end": 120.862
-  },
-  {
-    "word": "Rabatte",
-    "start": 120.862,
-    "end": 121.356
-  },
-  {
-    "word": "gibt.",
-    "start": 121.356,
-    "end": 121.85
-  },
-  {
-    "word": "Über",
-    "start": 121.85,
-    "end": 122.345
-  },
-  {
-    "word": "Apps",
-    "start": 122.345,
-    "end": 122.839
-  },
-  {
-    "word": "wie LoungeBuddy",
-    "start": 122.839,
-    "end": 123.333
-  },
-  {
-    "word": "oder",
-    "start": 123.333,
-    "end": 123.827
-  },
-  {
-    "word": "Regus",
-    "start": 123.827,
-    "end": 124.321
-  },
-  {
-    "word": "bekommst",
-    "start": 124.321,
-    "end": 124.815
-  },
-  {
-    "word": "du dieselben",
-    "start": 124.815,
-    "end": 125.31
-  },
-  {
-    "word": "Lounges",
-    "start": 125.31,
-    "end": 125.804
-  },
-  {
-    "word": "bis zu",
-    "start": 125.804,
-    "end": 126.298
-  },
-  {
-    "word": "40 Prozent",
-    "start": 126.298,
-    "end": 126.792
-  },
-  {
-    "word": "günstiger.",
-    "start": 126.792,
-    "end": 127.286
-  },
-  {
-    "word": "In manchen",
-    "start": 127.286,
-    "end": 127.781
-  },
-  {
-    "word": "Fällen",
-    "start": 127.781,
-    "end": 128.275
-  },
-  {
-    "word": "kostet",
-    "start": 128.275,
-    "end": 128.769
-  },
-  {
-    "word": "der Zutritt",
-    "start": 128.769,
-    "end": 129.263
-  },
-  {
-    "word": "dort",
-    "start": 129.263,
-    "end": 129.757
-  },
-  {
-    "word": "weniger",
-    "start": 129.757,
-    "end": 130.252
-  },
-  {
-    "word": "als ein",
-    "start": 130.252,
-    "end": 130.746
-  },
-  {
-    "word": "Flughafenrestaurant.",
-    "start": 130.746,
-    "end": 131.24
-  },
-  {
-    "word": "Jetzt",
-    "start": 131.54,
-    "end": 132.027
-  },
-  {
-    "word": "kommen",
-    "start": 132.027,
-    "end": 132.514
-  },
-  {
-    "word": "wir zu",
-    "start": 132.514,
-    "end": 133.001
-  },
-  {
-    "word": "Trick",
-    "start": 133.001,
-    "end": 133.488
-  },
-  {
-    "word": "Nummer",
-    "start": 133.488,
-    "end": 133.975
+    "start": 3.523,
+    "end": 4.228
   },
   {
     "word": "sechs",
-    "start": 133.975,
-    "end": 134.463
-  },
-  {
-    "word": "— und",
-    "start": 134.463,
-    "end": 134.95
-  },
-  {
-    "word": "der ist",
-    "start": 134.95,
-    "end": 135.437
-  },
-  {
-    "word": "der, den",
-    "start": 135.437,
-    "end": 135.924
-  },
-  {
-    "word": "die meisten",
-    "start": 135.924,
-    "end": 136.411
-  },
-  {
-    "word": "komplett",
-    "start": 136.411,
-    "end": 136.898
-  },
-  {
-    "word": "übersehen.",
-    "start": 136.898,
-    "end": 137.385
-  },
-  {
-    "word": "Keine",
-    "start": 137.385,
-    "end": 137.872
-  },
-  {
-    "word": "Kreditkarte",
-    "start": 137.872,
-    "end": 138.359
-  },
-  {
-    "word": "nötig,",
-    "start": 138.359,
-    "end": 138.846
-  },
-  {
-    "word": "kein",
-    "start": 138.846,
-    "end": 139.334
-  },
-  {
-    "word": "Status,",
-    "start": 139.334,
-    "end": 139.821
-  },
-  {
-    "word": "keine",
-    "start": 139.821,
-    "end": 140.308
-  },
-  {
-    "word": "App. Du",
-    "start": 140.308,
-    "end": 140.795
-  },
-  {
-    "word": "brauchst",
-    "start": 140.795,
-    "end": 141.282
-  },
-  {
-    "word": "buchstäblich",
-    "start": 141.282,
-    "end": 141.769
-  },
-  {
-    "word": "nur eine",
-    "start": 141.769,
-    "end": 142.256
-  },
-  {
-    "word": "einzige",
-    "start": 142.256,
-    "end": 142.743
-  },
-  {
-    "word": "Sache,",
-    "start": 142.743,
-    "end": 143.23
-  },
-  {
-    "word": "die fast",
-    "start": 143.23,
-    "end": 143.717
-  },
-  {
-    "word": "jeder",
-    "start": 143.717,
-    "end": 144.205
-  },
-  {
-    "word": "Reisende",
-    "start": 144.205,
-    "end": 144.692
-  },
-  {
-    "word": "bereits",
-    "start": 144.692,
-    "end": 145.179
-  },
-  {
-    "word": "besitzt.",
-    "start": 145.179,
-    "end": 145.666
-  },
-  {
-    "word": "Bist",
-    "start": 145.666,
-    "end": 146.153
-  },
-  {
-    "word": "du bereit?",
-    "start": 146.153,
-    "end": 146.64
-  },
-  {
-    "word": "Wenn",
-    "start": 146.94,
-    "end": 147.605
-  },
-  {
-    "word": "dein",
-    "start": 147.605,
-    "end": 148.269
-  },
-  {
-    "word": "Flug",
-    "start": 148.269,
-    "end": 148.934
-  },
-  {
-    "word": "mehr",
-    "start": 148.934,
-    "end": 149.598
-  },
-  {
-    "word": "als zwei",
-    "start": 149.598,
-    "end": 150.263
+    "start": 4.228,
+    "end": 4.932
   },
   {
     "word": "Stunden",
-    "start": 150.263,
-    "end": 150.927
+    "start": 4.932,
+    "end": 5.637
   },
   {
-    "word": "Verspätung",
-    "start": 150.927,
-    "end": 151.592
+    "word": "auf dem",
+    "start": 5.637,
+    "end": 6.342
   },
   {
-    "word": "hat, sind",
-    "start": 151.592,
-    "end": 152.256
+    "word": "Buffet",
+    "start": 6.342,
+    "end": 7.046
   },
   {
-    "word": "viele",
-    "start": 152.256,
-    "end": 152.921
+    "word": "— ungekühlt,",
+    "start": 7.046,
+    "end": 7.751
   },
   {
-    "word": "Airlines",
-    "start": 152.921,
-    "end": 153.585
+    "word": "ungetauscht,",
+    "start": 7.751,
+    "end": 8.455
   },
   {
-    "word": "gesetzlich",
-    "start": 153.585,
-    "end": 154.25
+    "word": "einfach",
+    "start": 8.455,
+    "end": 9.16
   },
   {
-    "word": "verpflichtet,",
-    "start": 154.25,
-    "end": 154.914
+    "word": "da. Airlines",
+    "start": 9.16,
+    "end": 9.865
   },
   {
-    "word": "dir Verpflegung",
-    "start": 154.914,
-    "end": 155.579
+    "word": "nennen",
+    "start": 9.865,
+    "end": 10.569
   },
   {
-    "word": "oder",
-    "start": 155.579,
-    "end": 156.243
+    "word": "das Premium-Erlebnis.",
+    "start": 10.569,
+    "end": 11.274
   },
   {
-    "word": "Lounge-Zugang",
-    "start": 156.243,
-    "end": 156.908
+    "word": "Gesundheitsbehörden",
+    "start": 11.274,
+    "end": 11.978
   },
   {
-    "word": "anzubieten.",
-    "start": 156.908,
-    "end": 157.572
+    "word": "nennen",
+    "start": 11.978,
+    "end": 12.683
   },
   {
-    "word": "Frag",
-    "start": 157.572,
-    "end": 158.237
+    "word": "das ein",
+    "start": 12.683,
+    "end": 13.388
   },
   {
-    "word": "am Gate-Schalter",
-    "start": 158.237,
-    "end": 158.901
+    "word": "Risiko.",
+    "start": 13.388,
+    "end": 14.092
   },
   {
-    "word": "aktiv",
-    "start": 158.901,
-    "end": 159.566
-  },
-  {
-    "word": "danach",
-    "start": 159.566,
-    "end": 160.23
-  },
-  {
-    "word": "— die",
-    "start": 160.23,
-    "end": 160.895
+    "word": "Und die",
+    "start": 14.092,
+    "end": 14.797
   },
   {
     "word": "meisten",
-    "start": 160.895,
-    "end": 161.559
+    "start": 14.797,
+    "end": 15.502
   },
   {
-    "word": "Mitarbeiter",
-    "start": 161.559,
-    "end": 162.224
+    "word": "Vielflieger",
+    "start": 15.502,
+    "end": 16.206
   },
   {
-    "word": "geben",
-    "start": 162.224,
-    "end": 162.888
+    "word": "ahnen",
+    "start": 16.206,
+    "end": 16.911
   },
   {
-    "word": "es dir",
-    "start": 162.888,
-    "end": 163.553
+    "word": "nichts",
+    "start": 16.911,
+    "end": 17.615
   },
   {
-    "word": "ohne",
-    "start": 163.553,
-    "end": 164.217
+    "word": "davon.",
+    "start": 17.615,
+    "end": 18.32
   },
   {
-    "word": "Diskussion.",
-    "start": 164.217,
-    "end": 164.882
-  },
-  {
-    "word": "Die EU-Verordnung",
-    "start": 164.882,
-    "end": 165.546
-  },
-  {
-    "word": "261 schützt",
-    "start": 165.546,
-    "end": 166.211
-  },
-  {
-    "word": "dich",
-    "start": 166.211,
-    "end": 166.875
-  },
-  {
-    "word": "dabei.",
-    "start": 166.875,
-    "end": 167.54
-  },
-  {
-    "word": "Der Schlüssel",
-    "start": 167.84,
-    "end": 168.432
-  },
-  {
-    "word": "ist die",
-    "start": 168.432,
-    "end": 169.024
-  },
-  {
-    "word": "Formulierung.",
-    "start": 169.024,
-    "end": 169.616
-  },
-  {
-    "word": "Sag nicht",
-    "start": 169.616,
-    "end": 170.208
-  },
-  {
-    "word": "'Habt",
-    "start": 170.208,
-    "end": 170.8
-  },
-  {
-    "word": "ihr eine",
-    "start": 170.8,
-    "end": 171.392
-  },
-  {
-    "word": "Lounge?'",
-    "start": 171.392,
-    "end": 171.984
-  },
-  {
-    "word": "— sag:",
-    "start": 171.984,
-    "end": 172.577
-  },
-  {
-    "word": "'Gemäß",
-    "start": 172.577,
-    "end": 173.169
-  },
-  {
-    "word": "EU-Verordnung",
-    "start": 173.169,
-    "end": 173.761
-  },
-  {
-    "word": "261/2004",
-    "start": 173.761,
-    "end": 174.353
-  },
-  {
-    "word": "habe",
-    "start": 174.353,
-    "end": 174.945
-  },
-  {
-    "word": "ich bei",
-    "start": 174.945,
-    "end": 175.537
-  },
-  {
-    "word": "dieser",
-    "start": 175.537,
-    "end": 176.129
-  },
-  {
-    "word": "Verspätung",
-    "start": 176.129,
-    "end": 176.721
-  },
-  {
-    "word": "Anspruch",
-    "start": 176.721,
-    "end": 177.313
-  },
-  {
-    "word": "auf Verpflegung",
-    "start": 177.313,
-    "end": 177.905
-  },
-  {
-    "word": "— kann",
-    "start": 177.905,
-    "end": 178.497
-  },
-  {
-    "word": "ich einen",
-    "start": 178.497,
-    "end": 179.089
-  },
-  {
-    "word": "Lounge-Voucher",
-    "start": 179.089,
-    "end": 179.681
-  },
-  {
-    "word": "erhalten?'",
-    "start": 179.681,
-    "end": 180.273
-  },
-  {
-    "word": "Diese",
-    "start": 180.273,
-    "end": 180.866
-  },
-  {
-    "word": "eine",
-    "start": 180.866,
-    "end": 181.458
-  },
-  {
-    "word": "Frage",
-    "start": 181.458,
-    "end": 182.05
-  },
-  {
-    "word": "öffnet",
-    "start": 182.05,
-    "end": 182.642
-  },
-  {
-    "word": "in vielen",
-    "start": 182.642,
-    "end": 183.234
-  },
-  {
-    "word": "Fällen",
-    "start": 183.234,
-    "end": 183.826
-  },
-  {
-    "word": "sofort",
-    "start": 183.826,
-    "end": 184.418
-  },
-  {
-    "word": "die Tür.",
-    "start": 184.418,
-    "end": 185.01
-  },
-  {
-    "word": "Laut",
-    "start": 185.31,
-    "end": 185.829
-  },
-  {
-    "word": "einer",
-    "start": 185.829,
-    "end": 186.348
-  },
-  {
-    "word": "Studie",
-    "start": 186.348,
-    "end": 186.867
-  },
-  {
-    "word": "des European",
-    "start": 186.867,
-    "end": 187.386
-  },
-  {
-    "word": "Consumer",
-    "start": 187.386,
-    "end": 187.905
-  },
-  {
-    "word": "Centre",
-    "start": 187.905,
-    "end": 188.424
-  },
-  {
-    "word": "beantragen",
-    "start": 188.424,
-    "end": 188.943
-  },
-  {
-    "word": "weniger",
-    "start": 188.943,
-    "end": 189.462
-  },
-  {
-    "word": "als 8",
-    "start": 189.462,
-    "end": 189.981
-  },
-  {
-    "word": "Prozent",
-    "start": 189.981,
-    "end": 190.5
-  },
-  {
-    "word": "der berechtigten",
-    "start": 190.5,
-    "end": 191.019
-  },
-  {
-    "word": "Passagiere",
-    "start": 191.019,
-    "end": 191.538
-  },
-  {
-    "word": "ihre",
-    "start": 191.538,
-    "end": 192.057
-  },
-  {
-    "word": "Ansprüche",
-    "start": 192.057,
-    "end": 192.576
-  },
-  {
-    "word": "bei Verspätungen.",
-    "start": 192.576,
-    "end": 193.095
-  },
-  {
-    "word": "Das bedeutet:",
-    "start": 193.095,
-    "end": 193.615
-  },
-  {
-    "word": "Airlines",
-    "start": 193.615,
-    "end": 194.134
-  },
-  {
-    "word": "sparen",
-    "start": 194.134,
-    "end": 194.653
-  },
-  {
-    "word": "jährlich",
-    "start": 194.653,
-    "end": 195.172
-  },
-  {
-    "word": "hunderte",
-    "start": 195.172,
-    "end": 195.691
-  },
-  {
-    "word": "Millionen",
-    "start": 195.691,
-    "end": 196.21
-  },
-  {
-    "word": "Euro,",
-    "start": 196.21,
-    "end": 196.729
-  },
-  {
-    "word": "weil",
-    "start": 196.729,
-    "end": 197.248
-  },
-  {
-    "word": "Passagiere",
-    "start": 197.248,
-    "end": 197.767
-  },
-  {
-    "word": "einfach",
-    "start": 197.767,
-    "end": 198.286
-  },
-  {
-    "word": "nicht",
-    "start": 198.286,
-    "end": 198.805
-  },
-  {
-    "word": "fragen.",
-    "start": 198.805,
-    "end": 199.324
-  },
-  {
-    "word": "Dieses",
-    "start": 199.324,
-    "end": 199.843
-  },
-  {
-    "word": "Wissen",
-    "start": 199.843,
-    "end": 200.362
-  },
-  {
-    "word": "ist buchstäblich",
-    "start": 200.362,
-    "end": 200.881
-  },
-  {
-    "word": "Geld.",
-    "start": 200.881,
-    "end": 201.4
-  },
-  {
-    "word": "Hier",
-    "start": 201.7,
-    "end": 202.323
-  },
-  {
-    "word": "ist einer",
-    "start": 202.323,
-    "end": 202.946
-  },
-  {
-    "word": "der am",
-    "start": 202.946,
-    "end": 203.568
+    "word": "Was die",
+    "start": 18.62,
+    "end": 19.141
   },
   {
     "word": "wenigsten",
-    "start": 203.568,
-    "end": 204.191
+    "start": 19.141,
+    "end": 19.662
   },
   {
-    "word": "bekannten",
-    "start": 204.191,
-    "end": 204.814
-  },
-  {
-    "word": "Tricks:",
-    "start": 204.814,
-    "end": 205.437
-  },
-  {
-    "word": "Upgrade-Auktionen.",
-    "start": 205.437,
-    "end": 206.059
+    "word": "wissen:",
+    "start": 19.662,
+    "end": 20.183
   },
   {
     "word": "Viele",
-    "start": 206.059,
-    "end": 206.682
+    "start": 20.183,
+    "end": 20.704
   },
   {
-    "word": "Airlines",
-    "start": 206.682,
-    "end": 207.305
+    "word": "Flughafenlounges",
+    "start": 20.704,
+    "end": 21.226
   },
   {
-    "word": "— Lufthansa,",
-    "start": 207.305,
-    "end": 207.928
-  },
-  {
-    "word": "Swiss,",
-    "start": 207.928,
-    "end": 208.55
-  },
-  {
-    "word": "Austrian",
-    "start": 208.55,
-    "end": 209.173
-  },
-  {
-    "word": "— bieten",
-    "start": 209.173,
-    "end": 209.796
-  },
-  {
-    "word": "kurz",
-    "start": 209.796,
-    "end": 210.419
-  },
-  {
-    "word": "vor dem",
-    "start": 210.419,
-    "end": 211.041
-  },
-  {
-    "word": "Abflug",
-    "start": 211.041,
-    "end": 211.664
-  },
-  {
-    "word": "Business-Class-Upgrades",
-    "start": 211.664,
-    "end": 212.287
-  },
-  {
-    "word": "zu stark",
-    "start": 212.287,
-    "end": 212.91
-  },
-  {
-    "word": "reduzierten",
-    "start": 212.91,
-    "end": 213.532
-  },
-  {
-    "word": "Preisen",
-    "start": 213.532,
-    "end": 214.155
-  },
-  {
-    "word": "an. Manchmal",
-    "start": 214.155,
-    "end": 214.778
-  },
-  {
-    "word": "nur 80",
-    "start": 214.778,
-    "end": 215.401
-  },
-  {
-    "word": "bis 150",
-    "start": 215.401,
-    "end": 216.023
-  },
-  {
-    "word": "Euro.",
-    "start": 216.023,
-    "end": 216.646
-  },
-  {
-    "word": "Und Business",
-    "start": 216.646,
-    "end": 217.269
-  },
-  {
-    "word": "Class",
-    "start": 217.269,
-    "end": 217.892
-  },
-  {
-    "word": "bedeutet",
-    "start": 217.892,
-    "end": 218.514
-  },
-  {
-    "word": "automatisch",
-    "start": 218.514,
-    "end": 219.137
-  },
-  {
-    "word": "Lounge-Zugang.",
-    "start": 219.137,
-    "end": 219.76
-  },
-  {
-    "word": "Die besten",
-    "start": 220.06,
-    "end": 220.616
-  },
-  {
-    "word": "Chancen",
-    "start": 220.616,
-    "end": 221.172
-  },
-  {
-    "word": "hast",
-    "start": 221.172,
-    "end": 221.728
-  },
-  {
-    "word": "du bei",
-    "start": 221.728,
-    "end": 222.284
-  },
-  {
-    "word": "Abflügen",
-    "start": 222.284,
-    "end": 222.84
-  },
-  {
-    "word": "unter",
-    "start": 222.84,
-    "end": 223.396
-  },
-  {
-    "word": "der Woche,",
-    "start": 223.396,
-    "end": 223.952
-  },
-  {
-    "word": "vor allem",
-    "start": 223.952,
-    "end": 224.507
-  },
-  {
-    "word": "dienstags",
-    "start": 224.507,
-    "end": 225.063
-  },
-  {
-    "word": "und mittwochs.",
-    "start": 225.063,
-    "end": 225.619
-  },
-  {
-    "word": "Auf wenig",
-    "start": 225.619,
-    "end": 226.175
-  },
-  {
-    "word": "gebuchten",
-    "start": 226.175,
-    "end": 226.731
-  },
-  {
-    "word": "Strecken",
-    "start": 226.731,
-    "end": 227.287
-  },
-  {
-    "word": "sind",
-    "start": 227.287,
-    "end": 227.843
-  },
-  {
-    "word": "die Mindestgebote",
-    "start": 227.843,
-    "end": 228.399
-  },
-  {
-    "word": "oft extrem",
-    "start": 228.399,
-    "end": 228.955
-  },
-  {
-    "word": "niedrig.",
-    "start": 228.955,
-    "end": 229.511
-  },
-  {
-    "word": "Schau",
-    "start": 229.511,
-    "end": 230.067
-  },
-  {
-    "word": "in der",
-    "start": 230.067,
-    "end": 230.623
-  },
-  {
-    "word": "App deiner",
-    "start": 230.623,
-    "end": 231.179
-  },
-  {
-    "word": "Airline",
-    "start": 231.179,
-    "end": 231.735
-  },
-  {
-    "word": "unter",
-    "start": 231.735,
-    "end": 232.291
-  },
-  {
-    "word": "'Mein",
-    "start": 232.291,
-    "end": 232.847
-  },
-  {
-    "word": "Flug'",
-    "start": 232.847,
-    "end": 233.403
-  },
-  {
-    "word": "oder",
-    "start": 233.403,
-    "end": 233.958
-  },
-  {
-    "word": "'Upgrade-Angebote'",
-    "start": 233.958,
-    "end": 234.514
-  },
-  {
-    "word": "— oft",
-    "start": 234.514,
-    "end": 235.07
-  },
-  {
-    "word": "erscheint",
-    "start": 235.07,
-    "end": 235.626
-  },
-  {
-    "word": "das Angebot",
-    "start": 235.626,
-    "end": 236.182
-  },
-  {
-    "word": "48 bis",
-    "start": 236.182,
-    "end": 236.738
-  },
-  {
-    "word": "72 Stunden",
-    "start": 236.738,
-    "end": 237.294
-  },
-  {
-    "word": "vor Abflug.",
-    "start": 237.294,
-    "end": 237.85
-  },
-  {
-    "word": "Viele",
-    "start": 238.15,
-    "end": 238.812
-  },
-  {
-    "word": "Premium-Kreditkarten",
-    "start": 238.812,
-    "end": 239.474
-  },
-  {
-    "word": "bieten",
-    "start": 239.474,
-    "end": 240.136
-  },
-  {
-    "word": "kostenlose",
-    "start": 240.136,
-    "end": 240.798
-  },
-  {
-    "word": "Testzeiträume",
-    "start": 240.798,
-    "end": 241.46
-  },
-  {
-    "word": "von 30",
-    "start": 241.46,
-    "end": 242.122
-  },
-  {
-    "word": "bis 90",
-    "start": 242.122,
-    "end": 242.784
-  },
-  {
-    "word": "Tagen",
-    "start": 242.784,
-    "end": 243.446
-  },
-  {
-    "word": "— inklusive",
-    "start": 243.446,
-    "end": 244.108
-  },
-  {
-    "word": "vollem",
-    "start": 244.108,
-    "end": 244.77
-  },
-  {
-    "word": "Lounge-Zugang",
-    "start": 244.77,
-    "end": 245.432
-  },
-  {
-    "word": "ab dem",
-    "start": 245.432,
-    "end": 246.094
-  },
-  {
-    "word": "ersten",
-    "start": 246.094,
-    "end": 246.756
-  },
-  {
-    "word": "Tag. Du",
-    "start": 246.756,
-    "end": 247.418
-  },
-  {
-    "word": "meldest",
-    "start": 247.418,
-    "end": 248.08
-  },
-  {
-    "word": "dich",
-    "start": 248.08,
-    "end": 248.742
-  },
-  {
-    "word": "an, nutzt",
-    "start": 248.742,
-    "end": 249.404
-  },
-  {
-    "word": "die Lounge",
-    "start": 249.404,
-    "end": 250.066
-  },
-  {
-    "word": "auf deiner",
-    "start": 250.066,
-    "end": 250.728
-  },
-  {
-    "word": "nächsten",
-    "start": 250.728,
-    "end": 251.39
-  },
-  {
-    "word": "Reise",
-    "start": 251.39,
-    "end": 252.052
-  },
-  {
-    "word": "und kündigst",
-    "start": 252.052,
-    "end": 252.714
-  },
-  {
-    "word": "danach",
-    "start": 252.714,
-    "end": 253.376
-  },
-  {
-    "word": "fristgerecht.",
-    "start": 253.376,
-    "end": 254.038
-  },
-  {
-    "word": "Legal,",
-    "start": 254.038,
-    "end": 254.7
-  },
-  {
-    "word": "ethisch",
-    "start": 254.7,
-    "end": 255.362
-  },
-  {
-    "word": "— und",
-    "start": 255.362,
-    "end": 256.024
-  },
-  {
-    "word": "von den",
-    "start": 256.024,
-    "end": 256.686
-  },
-  {
-    "word": "Banken",
-    "start": 256.686,
-    "end": 257.348
-  },
-  {
-    "word": "so einkalkuliert.",
-    "start": 257.348,
-    "end": 258.01
-  },
-  {
-    "word": "Ein wichtiger",
-    "start": 258.31,
-    "end": 258.914
-  },
-  {
-    "word": "Hinweis:",
-    "start": 258.914,
-    "end": 259.518
-  },
-  {
-    "word": "Stelle",
-    "start": 259.518,
-    "end": 260.122
-  },
-  {
-    "word": "sicher,",
-    "start": 260.122,
-    "end": 260.726
-  },
-  {
-    "word": "dass",
-    "start": 260.726,
-    "end": 261.33
-  },
-  {
-    "word": "du den",
-    "start": 261.33,
-    "end": 261.934
-  },
-  {
-    "word": "Kündigungstermin",
-    "start": 261.934,
-    "end": 262.538
-  },
-  {
-    "word": "im Kalender",
-    "start": 262.538,
-    "end": 263.142
-  },
-  {
-    "word": "einträgst",
-    "start": 263.142,
-    "end": 263.746
-  },
-  {
-    "word": "— mindestens",
-    "start": 263.746,
-    "end": 264.35
-  },
-  {
-    "word": "eine",
-    "start": 264.35,
-    "end": 264.954
-  },
-  {
-    "word": "Woche",
-    "start": 264.954,
-    "end": 265.558
-  },
-  {
-    "word": "vor Ablauf.",
-    "start": 265.558,
-    "end": 266.162
-  },
-  {
-    "word": "Einige",
-    "start": 266.162,
-    "end": 266.766
-  },
-  {
-    "word": "Karten",
-    "start": 266.766,
-    "end": 267.37
-  },
-  {
-    "word": "berechnen",
-    "start": 267.37,
-    "end": 267.974
-  },
-  {
-    "word": "die Jahresgebühr",
-    "start": 267.974,
-    "end": 268.578
-  },
-  {
-    "word": "automatisch",
-    "start": 268.578,
-    "end": 269.182
-  },
-  {
-    "word": "am ersten",
-    "start": 269.182,
-    "end": 269.786
-  },
-  {
-    "word": "Tag nach",
-    "start": 269.786,
-    "end": 270.39
-  },
-  {
-    "word": "dem Testzeitraum.",
-    "start": 270.39,
-    "end": 270.994
-  },
-  {
-    "word": "Wer aufmerksam",
-    "start": 270.994,
-    "end": 271.598
-  },
-  {
-    "word": "ist, zahlt",
-    "start": 271.598,
-    "end": 272.202
-  },
-  {
-    "word": "keinen",
-    "start": 272.202,
-    "end": 272.806
-  },
-  {
-    "word": "Cent.",
-    "start": 272.806,
-    "end": 273.41
-  },
-  {
-    "word": "Wusstest",
-    "start": 273.71,
-    "end": 274.298
-  },
-  {
-    "word": "du, dass",
-    "start": 274.298,
-    "end": 274.886
-  },
-  {
-    "word": "bestimmte",
-    "start": 274.886,
-    "end": 275.473
-  },
-  {
-    "word": "Reisebüros",
-    "start": 275.473,
-    "end": 276.061
-  },
-  {
-    "word": "und Online-Buchungsportale",
-    "start": 276.061,
-    "end": 276.649
-  },
-  {
-    "word": "Lounge-Zugang",
-    "start": 276.649,
-    "end": 277.237
-  },
-  {
-    "word": "als kostenlosen",
-    "start": 277.237,
-    "end": 277.824
-  },
-  {
-    "word": "Bonus",
-    "start": 277.824,
-    "end": 278.412
-  },
-  {
-    "word": "zu Flugbuchungen",
-    "start": 278.412,
-    "end": 279.0
-  },
-  {
-    "word": "anbieten?",
-    "start": 279.0,
-    "end": 279.588
-  },
-  {
-    "word": "Portale",
-    "start": 279.588,
-    "end": 280.176
-  },
-  {
-    "word": "wie Amex",
-    "start": 280.176,
-    "end": 280.763
-  },
-  {
-    "word": "Travel,",
-    "start": 280.763,
-    "end": 281.351
-  },
-  {
-    "word": "Virtuoso",
-    "start": 281.351,
-    "end": 281.939
-  },
-  {
-    "word": "oder",
-    "start": 281.939,
-    "end": 282.527
-  },
-  {
-    "word": "bestimmte",
-    "start": 282.527,
-    "end": 283.114
-  },
-  {
-    "word": "Geschäftsreise-Agenturen",
-    "start": 283.114,
-    "end": 283.702
-  },
-  {
-    "word": "packen",
-    "start": 283.702,
-    "end": 284.29
-  },
-  {
-    "word": "Lounge-Vouchers",
-    "start": 284.29,
-    "end": 284.878
-  },
-  {
-    "word": "dazu",
-    "start": 284.878,
-    "end": 285.466
-  },
-  {
-    "word": "— einfach",
-    "start": 285.466,
-    "end": 286.053
-  },
-  {
-    "word": "beim",
-    "start": 286.053,
-    "end": 286.641
-  },
-  {
-    "word": "Buchen",
-    "start": 286.641,
-    "end": 287.229
-  },
-  {
-    "word": "fragen",
-    "start": 287.229,
-    "end": 287.817
-  },
-  {
-    "word": "oder",
-    "start": 287.817,
-    "end": 288.404
-  },
-  {
-    "word": "den Filter",
-    "start": 288.404,
-    "end": 288.992
-  },
-  {
-    "word": "setzen.",
-    "start": 288.992,
-    "end": 289.58
-  },
-  {
-    "word": "Viele",
-    "start": 289.88,
-    "end": 290.476
-  },
-  {
-    "word": "Reisende",
-    "start": 290.476,
-    "end": 291.072
-  },
-  {
-    "word": "glauben,",
-    "start": 291.072,
-    "end": 291.668
-  },
-  {
-    "word": "Lounges",
-    "start": 291.668,
-    "end": 292.264
-  },
-  {
-    "word": "seien",
-    "start": 292.264,
-    "end": 292.86
-  },
-  {
-    "word": "nur etwas",
-    "start": 292.86,
-    "end": 293.456
-  },
-  {
-    "word": "für Erstklasse-Passagiere",
-    "start": 293.456,
-    "end": 294.051
-  },
-  {
-    "word": "oder",
-    "start": 294.051,
-    "end": 294.647
-  },
-  {
-    "word": "Vielflieger.",
-    "start": 294.647,
-    "end": 295.243
-  },
-  {
-    "word": "Das stimmt",
-    "start": 295.243,
-    "end": 295.839
-  },
-  {
-    "word": "nicht.",
-    "start": 295.839,
-    "end": 296.435
-  },
-  {
-    "word": "Heute",
-    "start": 296.435,
-    "end": 297.031
-  },
-  {
-    "word": "ist der",
-    "start": 297.031,
-    "end": 297.627
-  },
-  {
-    "word": "durchschnittliche",
-    "start": 297.627,
-    "end": 298.223
-  },
-  {
-    "word": "Lounge-Besucher",
-    "start": 298.223,
-    "end": 298.819
-  },
-  {
-    "word": "ein Normalreisender,",
-    "start": 298.819,
-    "end": 299.415
-  },
-  {
-    "word": "der einfach",
-    "start": 299.415,
-    "end": 300.011
-  },
-  {
-    "word": "die richtigen",
-    "start": 300.011,
-    "end": 300.607
-  },
-  {
-    "word": "Zugangswege",
-    "start": 300.607,
-    "end": 301.203
-  },
-  {
-    "word": "kennt.",
-    "start": 301.203,
-    "end": 301.799
-  },
-  {
-    "word": "Der einzige",
-    "start": 301.799,
-    "end": 302.394
-  },
-  {
-    "word": "Unterschied",
-    "start": 302.394,
-    "end": 302.99
-  },
-  {
-    "word": "zwischen",
-    "start": 302.99,
-    "end": 303.586
-  },
-  {
-    "word": "dir und",
-    "start": 303.586,
-    "end": 304.182
-  },
-  {
-    "word": "ihm ist",
-    "start": 304.182,
-    "end": 304.778
-  },
-  {
-    "word": "dieses",
-    "start": 304.778,
-    "end": 305.374
-  },
-  {
-    "word": "Wissen.",
-    "start": 305.374,
-    "end": 305.97
-  },
-  {
-    "word": "Nicht",
-    "start": 306.27,
-    "end": 306.821
-  },
-  {
-    "word": "jede",
-    "start": 306.821,
-    "end": 307.373
-  },
-  {
-    "word": "Lounge",
-    "start": 307.373,
-    "end": 307.924
-  },
-  {
-    "word": "ist gleich.",
-    "start": 307.924,
-    "end": 308.475
-  },
-  {
-    "word": "Die Lufthansa",
-    "start": 308.475,
-    "end": 309.027
-  },
-  {
-    "word": "Business",
-    "start": 309.027,
-    "end": 309.578
-  },
-  {
-    "word": "Lounge",
-    "start": 309.578,
-    "end": 310.129
-  },
-  {
-    "word": "in Frankfurt",
-    "start": 310.129,
-    "end": 310.681
-  },
-  {
-    "word": "gilt",
-    "start": 310.681,
-    "end": 311.232
-  },
-  {
-    "word": "als eine",
-    "start": 311.232,
-    "end": 311.783
-  },
-  {
-    "word": "der besten",
-    "start": 311.783,
-    "end": 312.335
-  },
-  {
-    "word": "in Europa.",
-    "start": 312.335,
-    "end": 312.886
-  },
-  {
-    "word": "Singapore",
-    "start": 312.886,
-    "end": 313.437
-  },
-  {
-    "word": "Airlines",
-    "start": 313.437,
-    "end": 313.989
-  },
-  {
-    "word": "bietet",
-    "start": 313.989,
-    "end": 314.54
-  },
-  {
-    "word": "eine",
-    "start": 314.54,
-    "end": 315.091
-  },
-  {
-    "word": "eigene",
-    "start": 315.091,
-    "end": 315.643
-  },
-  {
-    "word": "Duschanlage",
-    "start": 315.643,
-    "end": 316.194
-  },
-  {
-    "word": "mit kostenlosem",
-    "start": 316.194,
-    "end": 316.745
-  },
-  {
-    "word": "Babysitter-Service.",
-    "start": 316.745,
-    "end": 317.297
-  },
-  {
-    "word": "Und in",
-    "start": 317.297,
-    "end": 317.848
-  },
-  {
-    "word": "Doha",
-    "start": 317.848,
-    "end": 318.399
-  },
-  {
-    "word": "betreibt",
-    "start": 318.399,
-    "end": 318.951
-  },
-  {
-    "word": "Qatar",
-    "start": 318.951,
-    "end": 319.502
-  },
-  {
-    "word": "Airways",
-    "start": 319.502,
-    "end": 320.053
-  },
-  {
-    "word": "eine",
-    "start": 320.053,
-    "end": 320.605
-  },
-  {
-    "word": "Lounge",
-    "start": 320.605,
-    "end": 321.156
-  },
-  {
-    "word": "mit eigenem",
-    "start": 321.156,
-    "end": 321.707
-  },
-  {
-    "word": "Spa und",
-    "start": 321.707,
-    "end": 322.259
-  },
-  {
-    "word": "Schlafkabinen.",
-    "start": 322.259,
-    "end": 322.81
-  },
-  {
-    "word": "Fassen",
-    "start": 323.11,
-    "end": 323.917
-  },
-  {
-    "word": "wir zusammen:",
-    "start": 323.917,
-    "end": 324.725
-  },
-  {
-    "word": "Richtige",
-    "start": 324.725,
-    "end": 325.532
-  },
-  {
-    "word": "Kreditkarte,",
-    "start": 325.532,
-    "end": 326.34
-  },
-  {
-    "word": "Priority",
-    "start": 326.34,
-    "end": 327.147
-  },
-  {
-    "word": "Pass",
-    "start": 327.147,
-    "end": 327.954
-  },
-  {
-    "word": "kostenlos,",
-    "start": 327.954,
-    "end": 328.762
-  },
-  {
-    "word": "Airline-Status,",
-    "start": 328.762,
-    "end": 329.569
-  },
-  {
-    "word": "Begleitpersonen-Regel,",
-    "start": 329.569,
-    "end": 330.377
-  },
-  {
-    "word": "App-Rabatte,",
-    "start": 330.377,
-    "end": 331.184
-  },
-  {
-    "word": "Verspätungs-Anspruch,",
-    "start": 331.184,
-    "end": 331.991
-  },
-  {
-    "word": "Upgrade-Auktion,",
-    "start": 331.991,
-    "end": 332.799
-  },
-  {
-    "word": "Testzeitraum,",
-    "start": 332.799,
-    "end": 333.606
-  },
-  {
-    "word": "Reisebüro-Bonus.",
-    "start": 333.606,
-    "end": 334.414
-  },
-  {
-    "word": "Neun",
-    "start": 334.414,
-    "end": 335.221
-  },
-  {
-    "word": "echte",
-    "start": 335.221,
-    "end": 336.029
-  },
-  {
-    "word": "Methoden",
-    "start": 336.029,
-    "end": 336.836
-  },
-  {
-    "word": "— alle",
-    "start": 336.836,
-    "end": 337.643
-  },
-  {
-    "word": "legal,",
-    "start": 337.643,
-    "end": 338.451
-  },
-  {
-    "word": "alle",
-    "start": 338.451,
-    "end": 339.258
-  },
-  {
-    "word": "heute",
-    "start": 339.258,
-    "end": 340.066
-  },
-  {
-    "word": "anwendbar.",
-    "start": 340.066,
-    "end": 340.873
-  },
-  {
-    "word": "Welche",
-    "start": 340.873,
-    "end": 341.68
-  },
-  {
-    "word": "passt",
-    "start": 341.68,
-    "end": 342.488
-  },
-  {
-    "word": "zu deinem",
-    "start": 342.488,
-    "end": 343.295
-  },
-  {
-    "word": "nächsten",
-    "start": 343.295,
-    "end": 344.103
-  },
-  {
-    "word": "Flug?",
-    "start": 344.103,
-    "end": 344.91
-  },
-  {
-    "word": "Der größte",
-    "start": 345.21,
-    "end": 345.735
-  },
-  {
-    "word": "Fehler",
-    "start": 345.735,
-    "end": 346.26
-  },
-  {
-    "word": "den Reisende",
-    "start": 346.26,
-    "end": 346.784
-  },
-  {
-    "word": "machen:",
-    "start": 346.784,
-    "end": 347.309
-  },
-  {
-    "word": "Sie fragen",
-    "start": 347.309,
-    "end": 347.834
-  },
-  {
-    "word": "einfach",
-    "start": 347.834,
-    "end": 348.359
-  },
-  {
-    "word": "nicht.",
-    "start": 348.359,
-    "end": 348.884
-  },
-  {
-    "word": "Studien",
-    "start": 348.884,
-    "end": 349.409
-  },
-  {
-    "word": "zeigen,",
-    "start": 349.409,
-    "end": 349.933
-  },
-  {
-    "word": "dass",
-    "start": 349.933,
-    "end": 350.458
-  },
-  {
-    "word": "fast",
-    "start": 350.458,
-    "end": 350.983
-  },
-  {
-    "word": "70 Prozent",
-    "start": 350.983,
-    "end": 351.508
-  },
-  {
-    "word": "der abgelehnten",
-    "start": 351.508,
-    "end": 352.033
-  },
-  {
-    "word": "Lounge-Besucher",
-    "start": 352.033,
-    "end": 352.558
-  },
-  {
-    "word": "nie aktiv",
-    "start": 352.558,
-    "end": 353.082
-  },
-  {
-    "word": "nach",
-    "start": 353.082,
-    "end": 353.607
-  },
-  {
-    "word": "Alternativen",
-    "start": 353.607,
-    "end": 354.132
-  },
-  {
-    "word": "oder",
-    "start": 354.132,
-    "end": 354.657
-  },
-  {
-    "word": "Ausnahmen",
-    "start": 354.657,
-    "end": 355.182
-  },
-  {
-    "word": "gefragt",
-    "start": 355.182,
-    "end": 355.707
-  },
-  {
-    "word": "haben.",
-    "start": 355.707,
-    "end": 356.231
-  },
-  {
-    "word": "Die Mitarbeiter",
-    "start": 356.231,
-    "end": 356.756
-  },
-  {
-    "word": "an der",
-    "start": 356.756,
-    "end": 357.281
-  },
-  {
-    "word": "Rezeption",
-    "start": 357.281,
-    "end": 357.806
-  },
-  {
-    "word": "haben",
-    "start": 357.806,
-    "end": 358.331
-  },
-  {
-    "word": "oft mehr",
-    "start": 358.331,
-    "end": 358.856
-  },
-  {
-    "word": "Spielraum",
-    "start": 358.856,
-    "end": 359.38
-  },
-  {
-    "word": "als du",
-    "start": 359.38,
-    "end": 359.905
-  },
-  {
-    "word": "denkst.",
-    "start": 359.905,
-    "end": 360.43
-  },
-  {
-    "word": "Wenn",
-    "start": 360.73,
-    "end": 361.273
-  },
-  {
-    "word": "du an",
-    "start": 361.273,
-    "end": 361.815
-  },
-  {
-    "word": "der Lounge-Rezeption",
-    "start": 361.815,
-    "end": 362.358
-  },
-  {
-    "word": "stehst",
-    "start": 362.358,
-    "end": 362.901
-  },
-  {
-    "word": "und unsicher",
-    "start": 362.901,
-    "end": 363.443
-  },
-  {
-    "word": "bist,",
-    "start": 363.443,
-    "end": 363.986
-  },
-  {
-    "word": "sag einfach:",
-    "start": 363.986,
-    "end": 364.529
-  },
-  {
-    "word": "'Ich",
-    "start": 364.529,
-    "end": 365.071
-  },
-  {
-    "word": "reise",
-    "start": 365.071,
-    "end": 365.614
-  },
-  {
-    "word": "oft und",
-    "start": 365.614,
-    "end": 366.157
-  },
-  {
-    "word": "überlege,",
-    "start": 366.157,
-    "end": 366.699
-  },
-  {
-    "word": "eine",
-    "start": 366.699,
-    "end": 367.242
-  },
-  {
-    "word": "Mitgliedschaft",
-    "start": 367.242,
-    "end": 367.785
-  },
-  {
-    "word": "abzuschließen",
-    "start": 367.785,
-    "end": 368.327
-  },
-  {
-    "word": "— kann",
-    "start": 368.327,
-    "end": 368.87
-  },
-  {
-    "word": "ich heute",
-    "start": 368.87,
-    "end": 369.413
-  },
-  {
-    "word": "einen",
-    "start": 369.413,
-    "end": 369.955
-  },
-  {
-    "word": "Testzugang",
-    "start": 369.955,
-    "end": 370.498
-  },
-  {
-    "word": "erhalten?'",
-    "start": 370.498,
-    "end": 371.041
-  },
-  {
-    "word": "Viele",
-    "start": 371.041,
-    "end": 371.583
-  },
-  {
-    "word": "Lounges",
-    "start": 371.583,
-    "end": 372.126
-  },
-  {
-    "word": "gewähren",
-    "start": 372.126,
-    "end": 372.669
-  },
-  {
-    "word": "Einmalzugänge",
-    "start": 372.669,
-    "end": 373.211
-  },
-  {
-    "word": "an potenzielle",
-    "start": 373.211,
-    "end": 373.754
-  },
-  {
-    "word": "Kunden.",
-    "start": 373.754,
-    "end": 374.297
-  },
-  {
-    "word": "Kein",
-    "start": 374.297,
-    "end": 374.839
-  },
-  {
-    "word": "Versprechen",
-    "start": 374.839,
-    "end": 375.382
-  },
-  {
-    "word": "nötig,",
-    "start": 375.382,
-    "end": 375.925
-  },
-  {
-    "word": "kein",
-    "start": 375.925,
-    "end": 376.467
-  },
-  {
-    "word": "Geld.",
-    "start": 376.467,
-    "end": 377.01
-  },
-  {
-    "word": "Die drei",
-    "start": 377.31,
-    "end": 377.861
-  },
-  {
-    "word": "besten",
-    "start": 377.861,
-    "end": 378.411
-  },
-  {
-    "word": "Karten",
-    "start": 378.411,
-    "end": 378.962
-  },
-  {
-    "word": "für deutschen",
-    "start": 378.962,
-    "end": 379.513
-  },
-  {
-    "word": "Reisenden",
-    "start": 379.513,
-    "end": 380.063
-  },
-  {
-    "word": "aktuell:",
-    "start": 380.063,
-    "end": 380.614
-  },
-  {
-    "word": "Erstens",
-    "start": 380.614,
-    "end": 381.165
-  },
-  {
-    "word": "die Amex",
-    "start": 381.165,
-    "end": 381.715
-  },
-  {
-    "word": "Platinum",
-    "start": 381.715,
-    "end": 382.266
-  },
-  {
-    "word": "mit globalem",
-    "start": 382.266,
-    "end": 382.816
-  },
-  {
-    "word": "Lounge-Zugang.",
-    "start": 382.816,
-    "end": 383.367
-  },
-  {
-    "word": "Zweitens",
-    "start": 383.367,
-    "end": 383.918
-  },
-  {
-    "word": "die Lufthansa",
-    "start": 383.918,
-    "end": 384.468
-  },
-  {
-    "word": "Miles",
-    "start": 384.468,
-    "end": 385.019
-  },
-  {
-    "word": "& More",
-    "start": 385.019,
-    "end": 385.57
-  },
-  {
-    "word": "World",
-    "start": 385.57,
-    "end": 386.12
-  },
-  {
-    "word": "Elite",
-    "start": 386.12,
-    "end": 386.671
-  },
-  {
-    "word": "Mastercard.",
-    "start": 386.671,
-    "end": 387.222
-  },
-  {
-    "word": "Drittens",
-    "start": 387.222,
-    "end": 387.772
-  },
-  {
-    "word": "die DKB",
-    "start": 387.772,
-    "end": 388.323
-  },
-  {
-    "word": "Visa",
-    "start": 388.323,
-    "end": 388.874
-  },
-  {
-    "word": "mit Priority",
-    "start": 388.874,
-    "end": 389.424
-  },
-  {
-    "word": "Pass",
-    "start": 389.424,
-    "end": 389.975
-  },
-  {
-    "word": "Option.",
-    "start": 389.975,
-    "end": 390.525
-  },
-  {
-    "word": "Alle",
-    "start": 390.525,
-    "end": 391.076
-  },
-  {
-    "word": "drei",
-    "start": 391.076,
-    "end": 391.627
-  },
-  {
-    "word": "bieten",
-    "start": 391.627,
-    "end": 392.177
-  },
-  {
-    "word": "unterschiedliche",
-    "start": 392.177,
-    "end": 392.728
-  },
-  {
-    "word": "Zugangsniveaus",
-    "start": 392.728,
-    "end": 393.279
-  },
-  {
-    "word": "zu verschiedenen",
-    "start": 393.279,
-    "end": 393.829
-  },
-  {
-    "word": "Preisen.",
-    "start": 393.829,
-    "end": 394.38
-  },
-  {
-    "word": "Familien",
-    "start": 394.68,
-    "end": 395.16
-  },
-  {
-    "word": "mit kleinen",
-    "start": 395.16,
-    "end": 395.641
-  },
-  {
-    "word": "Kindern",
-    "start": 395.641,
-    "end": 396.121
-  },
-  {
-    "word": "haben",
-    "start": 396.121,
-    "end": 396.601
-  },
-  {
-    "word": "in manchen",
-    "start": 396.601,
-    "end": 397.082
-  },
-  {
-    "word": "Lounges",
-    "start": 397.082,
-    "end": 397.562
-  },
-  {
-    "word": "ein besonderes",
-    "start": 397.562,
-    "end": 398.042
-  },
-  {
-    "word": "Privileg:",
-    "start": 398.042,
-    "end": 398.522
-  },
-  {
-    "word": "Kinder",
-    "start": 398.522,
-    "end": 399.003
-  },
-  {
-    "word": "unter",
-    "start": 399.003,
-    "end": 399.483
-  },
-  {
-    "word": "zwei",
-    "start": 399.483,
-    "end": 399.963
-  },
-  {
-    "word": "Jahren",
-    "start": 399.963,
-    "end": 400.444
-  },
-  {
-    "word": "sind",
-    "start": 400.444,
-    "end": 400.924
-  },
-  {
-    "word": "fast",
-    "start": 400.924,
-    "end": 401.404
-  },
-  {
-    "word": "immer",
-    "start": 401.404,
-    "end": 401.885
-  },
-  {
-    "word": "kostenlos.",
-    "start": 401.885,
-    "end": 402.365
-  },
-  {
-    "word": "Kinder",
-    "start": 402.365,
-    "end": 402.845
-  },
-  {
-    "word": "bis zwölf",
-    "start": 402.845,
-    "end": 403.326
-  },
-  {
-    "word": "Jahren",
-    "start": 403.326,
-    "end": 403.806
-  },
-  {
-    "word": "zahlen",
-    "start": 403.806,
-    "end": 404.286
-  },
-  {
-    "word": "bei Priority",
-    "start": 404.286,
-    "end": 404.767
-  },
-  {
-    "word": "Pass",
-    "start": 404.767,
-    "end": 405.247
-  },
-  {
-    "word": "Lounges",
-    "start": 405.247,
-    "end": 405.727
-  },
-  {
-    "word": "deutlich",
-    "start": 405.727,
-    "end": 406.207
-  },
-  {
-    "word": "reduzierten",
-    "start": 406.207,
-    "end": 406.688
-  },
-  {
-    "word": "Eintritt",
-    "start": 406.688,
-    "end": 407.168
-  },
-  {
-    "word": "oder",
-    "start": 407.168,
-    "end": 407.648
-  },
-  {
-    "word": "gar nichts.",
-    "start": 407.648,
-    "end": 408.129
-  },
-  {
-    "word": "Das wissen",
-    "start": 408.129,
-    "end": 408.609
-  },
-  {
-    "word": "erschreckend",
-    "start": 408.609,
-    "end": 409.089
-  },
-  {
-    "word": "wenige",
-    "start": 409.089,
-    "end": 409.57
-  },
-  {
-    "word": "Eltern.",
-    "start": 409.57,
-    "end": 410.05
-  },
-  {
-    "word": "Es gibt",
-    "start": 410.35,
-    "end": 411.037
-  },
-  {
-    "word": "eine",
-    "start": 411.037,
-    "end": 411.724
-  },
-  {
-    "word": "kostenlose",
-    "start": 411.724,
-    "end": 412.412
-  },
-  {
-    "word": "Website,",
-    "start": 412.412,
-    "end": 413.099
-  },
-  {
-    "word": "die kaum",
-    "start": 413.099,
-    "end": 413.786
-  },
-  {
-    "word": "jemand",
-    "start": 413.786,
-    "end": 414.473
-  },
-  {
-    "word": "kennt:",
-    "start": 414.473,
-    "end": 415.161
-  },
-  {
-    "word": "loungereviews.com",
-    "start": 415.161,
-    "end": 415.848
-  },
-  {
-    "word": "und sleepinginairports.net",
-    "start": 415.848,
-    "end": 416.535
-  },
-  {
-    "word": "listen",
-    "start": 416.535,
-    "end": 417.222
-  },
-  {
-    "word": "alle",
-    "start": 417.222,
-    "end": 417.91
-  },
-  {
-    "word": "Lounges",
-    "start": 417.91,
-    "end": 418.597
-  },
-  {
-    "word": "der Welt",
-    "start": 418.597,
-    "end": 419.284
-  },
-  {
-    "word": "mit Zugangsbedingungen,",
-    "start": 419.284,
-    "end": 419.971
-  },
-  {
-    "word": "Bewertungen",
-    "start": 419.971,
-    "end": 420.659
-  },
-  {
-    "word": "und aktuellen",
-    "start": 420.659,
-    "end": 421.346
-  },
-  {
-    "word": "Öffnungszeiten.",
-    "start": 421.346,
-    "end": 422.033
-  },
-  {
-    "word": "Bevor",
-    "start": 422.033,
-    "end": 422.72
-  },
-  {
-    "word": "du das",
-    "start": 422.72,
-    "end": 423.408
-  },
-  {
-    "word": "nächste",
-    "start": 423.408,
-    "end": 424.095
-  },
-  {
-    "word": "Mal fliegt",
-    "start": 424.095,
-    "end": 424.782
-  },
-  {
-    "word": "— zehn",
-    "start": 424.782,
-    "end": 425.469
-  },
-  {
-    "word": "Minuten",
-    "start": 425.469,
-    "end": 426.157
-  },
-  {
-    "word": "Recherche",
-    "start": 426.157,
-    "end": 426.844
-  },
-  {
-    "word": "können",
-    "start": 426.844,
-    "end": 427.531
-  },
-  {
-    "word": "deinen",
-    "start": 427.531,
-    "end": 428.218
-  },
-  {
-    "word": "Aufenthalt",
-    "start": 428.218,
-    "end": 428.906
-  },
-  {
-    "word": "komplett",
-    "start": 428.906,
-    "end": 429.593
-  },
-  {
-    "word": "verändern.",
-    "start": 429.593,
-    "end": 430.28
-  },
-  {
-    "word": "Airlines",
-    "start": 430.58,
-    "end": 431.145
-  },
-  {
-    "word": "investieren",
-    "start": 431.145,
-    "end": 431.71
-  },
-  {
-    "word": "Millionen",
-    "start": 431.71,
-    "end": 432.274
-  },
-  {
-    "word": "in Marketing,",
-    "start": 432.274,
-    "end": 432.839
-  },
-  {
-    "word": "um Lounge-Mitgliedschaften",
-    "start": 432.839,
-    "end": 433.404
-  },
-  {
-    "word": "zu verkaufen.",
-    "start": 433.404,
-    "end": 433.969
-  },
-  {
-    "word": "Gleichzeitig",
-    "start": 433.969,
-    "end": 434.534
-  },
-  {
-    "word": "sind",
-    "start": 434.534,
-    "end": 435.099
-  },
-  {
-    "word": "viele",
-    "start": 435.099,
-    "end": 435.663
-  },
-  {
-    "word": "Lounges",
-    "start": 435.663,
-    "end": 436.228
-  },
-  {
-    "word": "in Stoßzeiten",
-    "start": 436.228,
-    "end": 436.793
-  },
-  {
-    "word": "überfüllt",
-    "start": 436.793,
-    "end": 437.358
-  },
-  {
-    "word": "— genau",
-    "start": 437.358,
-    "end": 437.923
-  },
-  {
-    "word": "deshalb",
-    "start": 437.923,
-    "end": 438.488
-  },
-  {
-    "word": "profitieren",
-    "start": 438.488,
-    "end": 439.052
-  },
-  {
-    "word": "sie davon,",
-    "start": 439.052,
-    "end": 439.617
-  },
-  {
-    "word": "wenn",
-    "start": 439.617,
-    "end": 440.182
-  },
-  {
-    "word": "du die",
-    "start": 440.182,
-    "end": 440.747
-  },
-  {
-    "word": "kostenlosen",
-    "start": 440.747,
-    "end": 441.312
-  },
-  {
-    "word": "Zugangswege",
-    "start": 441.312,
-    "end": 441.877
+    "word": "werden",
+    "start": 21.226,
+    "end": 21.747
   },
   {
     "word": "nicht",
-    "start": 441.877,
-    "end": 442.441
+    "start": 21.747,
+    "end": 22.268
   },
   {
-    "word": "kennst.",
-    "start": 442.441,
-    "end": 443.006
-  },
-  {
-    "word": "Mehr",
-    "start": 443.006,
-    "end": 443.571
-  },
-  {
-    "word": "zahlende",
-    "start": 443.571,
-    "end": 444.136
-  },
-  {
-    "word": "Mitglieder,",
-    "start": 444.136,
-    "end": 444.701
-  },
-  {
-    "word": "weniger",
-    "start": 444.701,
-    "end": 445.266
-  },
-  {
-    "word": "Platz,",
-    "start": 445.266,
-    "end": 445.83
-  },
-  {
-    "word": "höhere",
-    "start": 445.83,
-    "end": 446.395
-  },
-  {
-    "word": "Einnahmen.",
-    "start": 446.395,
-    "end": 446.96
-  },
-  {
-    "word": "Timing",
-    "start": 447.26,
-    "end": 447.751
-  },
-  {
-    "word": "ist alles.",
-    "start": 447.751,
-    "end": 448.242
-  },
-  {
-    "word": "Die besten",
-    "start": 448.242,
-    "end": 448.734
-  },
-  {
-    "word": "Zeiten",
-    "start": 448.734,
-    "end": 449.225
-  },
-  {
-    "word": "für Lounge-Besuche",
-    "start": 449.225,
-    "end": 449.716
-  },
-  {
-    "word": "sind",
-    "start": 449.716,
-    "end": 450.207
-  },
-  {
-    "word": "früh",
-    "start": 450.207,
-    "end": 450.698
-  },
-  {
-    "word": "morgens",
-    "start": 450.698,
-    "end": 451.19
-  },
-  {
-    "word": "zwischen",
-    "start": 451.19,
-    "end": 451.681
-  },
-  {
-    "word": "sechs",
-    "start": 451.681,
-    "end": 452.172
-  },
-  {
-    "word": "und acht",
-    "start": 452.172,
-    "end": 452.663
-  },
-  {
-    "word": "Uhr und",
-    "start": 452.663,
-    "end": 453.155
-  },
-  {
-    "word": "spät",
-    "start": 453.155,
-    "end": 453.646
-  },
-  {
-    "word": "abends",
-    "start": 453.646,
-    "end": 454.137
-  },
-  {
-    "word": "nach",
-    "start": 454.137,
-    "end": 454.628
-  },
-  {
-    "word": "20 Uhr.",
-    "start": 454.628,
-    "end": 455.119
-  },
-  {
-    "word": "Mittags",
-    "start": 455.119,
-    "end": 455.611
-  },
-  {
-    "word": "und am",
-    "start": 455.611,
-    "end": 456.102
-  },
-  {
-    "word": "frühen",
-    "start": 456.102,
-    "end": 456.593
-  },
-  {
-    "word": "Nachmittag",
-    "start": 456.593,
-    "end": 457.084
-  },
-  {
-    "word": "sind",
-    "start": 457.084,
-    "end": 457.575
-  },
-  {
-    "word": "die meisten",
-    "start": 457.575,
-    "end": 458.067
-  },
-  {
-    "word": "Lounges",
-    "start": 458.067,
-    "end": 458.558
-  },
-  {
-    "word": "voll.",
-    "start": 458.558,
-    "end": 459.049
-  },
-  {
-    "word": "Wer clever",
-    "start": 459.049,
-    "end": 459.54
-  },
-  {
-    "word": "plant,",
-    "start": 459.54,
-    "end": 460.032
-  },
-  {
-    "word": "genießt",
-    "start": 460.032,
-    "end": 460.523
-  },
-  {
-    "word": "die Lounge",
-    "start": 460.523,
-    "end": 461.014
-  },
-  {
-    "word": "fast",
-    "start": 461.014,
-    "end": 461.505
-  },
-  {
-    "word": "alleine",
-    "start": 461.505,
-    "end": 461.996
-  },
-  {
-    "word": "— mit",
-    "start": 461.996,
-    "end": 462.488
-  },
-  {
-    "word": "dem besten",
-    "start": 462.488,
-    "end": 462.979
-  },
-  {
-    "word": "Service.",
-    "start": 462.979,
-    "end": 463.47
-  },
-  {
-    "word": "In Asien",
-    "start": 463.77,
-    "end": 464.337
-  },
-  {
-    "word": "sind",
-    "start": 464.337,
-    "end": 464.905
-  },
-  {
-    "word": "Lounge-Zugangsbedingungen",
-    "start": 464.905,
-    "end": 465.472
-  },
-  {
-    "word": "oft großzügiger",
-    "start": 465.472,
-    "end": 466.039
-  },
-  {
-    "word": "als in",
-    "start": 466.039,
-    "end": 466.607
-  },
-  {
-    "word": "Europa.",
-    "start": 466.607,
-    "end": 467.174
-  },
-  {
-    "word": "Flughäfen",
-    "start": 467.174,
-    "end": 467.741
-  },
-  {
-    "word": "in Singapur,",
-    "start": 467.741,
-    "end": 468.309
-  },
-  {
-    "word": "Seoul",
-    "start": 468.309,
-    "end": 468.876
-  },
-  {
-    "word": "und Tokio",
-    "start": 468.876,
-    "end": 469.443
-  },
-  {
-    "word": "bieten",
-    "start": 469.443,
-    "end": 470.011
-  },
-  {
-    "word": "teils",
-    "start": 470.011,
-    "end": 470.578
-  },
-  {
-    "word": "öffentliche",
-    "start": 470.578,
-    "end": 471.145
-  },
-  {
-    "word": "Ruhezonen",
-    "start": 471.145,
-    "end": 471.713
-  },
-  {
-    "word": "mit Lounge-ähnlichem",
-    "start": 471.713,
-    "end": 472.28
-  },
-  {
-    "word": "Komfort",
-    "start": 472.28,
-    "end": 472.847
-  },
-  {
-    "word": "kostenlos",
-    "start": 472.847,
-    "end": 473.415
-  },
-  {
-    "word": "an. In",
-    "start": 473.415,
-    "end": 473.982
-  },
-  {
-    "word": "den USA",
-    "start": 473.982,
-    "end": 474.549
-  },
-  {
-    "word": "hingegen",
-    "start": 474.549,
-    "end": 475.117
-  },
-  {
-    "word": "sind",
-    "start": 475.117,
-    "end": 475.684
-  },
-  {
-    "word": "Lounges",
-    "start": 475.684,
-    "end": 476.251
-  },
-  {
-    "word": "strenger",
-    "start": 476.251,
-    "end": 476.819
-  },
-  {
-    "word": "kontrolliert",
-    "start": 476.819,
-    "end": 477.386
-  },
-  {
-    "word": "— aber",
-    "start": 477.386,
-    "end": 477.953
-  },
-  {
-    "word": "der Priority",
-    "start": 477.953,
-    "end": 478.521
-  },
-  {
-    "word": "Pass",
-    "start": 478.521,
-    "end": 479.088
-  },
-  {
-    "word": "funktioniert",
-    "start": 479.088,
-    "end": 479.655
-  },
-  {
-    "word": "fast",
-    "start": 479.655,
-    "end": 480.223
-  },
-  {
-    "word": "überall.",
-    "start": 480.223,
-    "end": 480.79
-  },
-  {
-    "word": "Die Lounge-Industrie",
-    "start": 481.09,
-    "end": 481.722
-  },
-  {
-    "word": "wächst",
-    "start": 481.722,
-    "end": 482.354
-  },
-  {
-    "word": "rasant.",
-    "start": 482.354,
-    "end": 482.986
-  },
-  {
-    "word": "Laut",
-    "start": 482.986,
-    "end": 483.617
-  },
-  {
-    "word": "IATA-Prognosen",
-    "start": 483.617,
-    "end": 484.249
-  },
-  {
-    "word": "werden",
-    "start": 484.249,
-    "end": 484.881
-  },
-  {
-    "word": "bis 2030",
-    "start": 484.881,
-    "end": 485.513
-  },
-  {
-    "word": "über",
-    "start": 485.513,
-    "end": 486.145
-  },
-  {
-    "word": "7 Milliarden",
-    "start": 486.145,
-    "end": 486.777
-  },
-  {
-    "word": "Flugreisende",
-    "start": 486.777,
-    "end": 487.409
-  },
-  {
-    "word": "pro Jahr",
-    "start": 487.409,
-    "end": 488.041
-  },
-  {
-    "word": "erwartet",
-    "start": 488.041,
-    "end": 488.672
-  },
-  {
-    "word": "— und",
-    "start": 488.672,
-    "end": 489.304
-  },
-  {
-    "word": "die Nachfrage",
-    "start": 489.304,
-    "end": 489.936
-  },
-  {
-    "word": "nach",
-    "start": 489.936,
-    "end": 490.568
-  },
-  {
-    "word": "Premium-Lounges",
-    "start": 490.568,
-    "end": 491.2
-  },
-  {
-    "word": "steigt",
-    "start": 491.2,
-    "end": 491.832
-  },
-  {
-    "word": "überproportional.",
-    "start": 491.832,
-    "end": 492.464
+    "word": "von den",
+    "start": 22.268,
+    "end": 22.789
   },
   {
     "word": "Airlines",
-    "start": 492.464,
-    "end": 493.096
+    "start": 22.789,
+    "end": 23.31
   },
   {
-    "word": "bauen",
-    "start": 493.096,
-    "end": 493.727
+    "word": "selbst",
+    "start": 23.31,
+    "end": 23.831
   },
   {
-    "word": "massiv",
-    "start": 493.727,
-    "end": 494.359
+    "word": "betrieben,",
+    "start": 23.831,
+    "end": 24.352
   },
   {
-    "word": "aus, aber",
-    "start": 494.359,
-    "end": 494.991
+    "word": "sondern",
+    "start": 24.352,
+    "end": 24.873
   },
   {
-    "word": "die Zugangsbedingungen",
-    "start": 494.991,
-    "end": 495.623
+    "word": "von externen",
+    "start": 24.873,
+    "end": 25.394
   },
   {
-    "word": "werden",
-    "start": 495.623,
-    "end": 496.255
+    "word": "Caterern",
+    "start": 25.394,
+    "end": 25.916
   },
   {
-    "word": "gleichzeitig",
-    "start": 496.255,
-    "end": 496.887
+    "word": "mit dem",
+    "start": 25.916,
+    "end": 26.437
   },
   {
-    "word": "komplexer.",
-    "start": 496.887,
-    "end": 497.519
+    "word": "niedrigsten",
+    "start": 26.437,
+    "end": 26.958
   },
   {
-    "word": "Wer jetzt",
-    "start": 497.519,
-    "end": 498.151
+    "word": "Angebot.",
+    "start": 26.958,
+    "end": 27.479
   },
   {
-    "word": "weiß,",
-    "start": 498.151,
-    "end": 498.782
+    "word": "Das bedeutet,",
+    "start": 27.479,
+    "end": 28.0
   },
   {
-    "word": "was zu",
-    "start": 498.782,
-    "end": 499.414
+    "word": "billigste",
+    "start": 28.0,
+    "end": 28.521
   },
   {
-    "word": "tun ist,",
-    "start": 499.414,
-    "end": 500.046
+    "word": "Zutaten,",
+    "start": 28.521,
+    "end": 29.042
   },
   {
-    "word": "ist klar",
-    "start": 500.046,
-    "end": 500.678
+    "word": "minimales",
+    "start": 29.042,
+    "end": 29.563
   },
   {
-    "word": "im Vorteil.",
-    "start": 500.678,
-    "end": 501.31
-  },
-  {
-    "word": "Dein",
-    "start": 501.61,
-    "end": 502.298
-  },
-  {
-    "word": "Aktionsplan",
-    "start": 502.298,
-    "end": 502.985
-  },
-  {
-    "word": "für heute:",
-    "start": 502.985,
-    "end": 503.673
-  },
-  {
-    "word": "Prüfe,",
-    "start": 503.673,
-    "end": 504.361
-  },
-  {
-    "word": "ob deine",
-    "start": 504.361,
-    "end": 505.049
-  },
-  {
-    "word": "Kreditkarte",
-    "start": 505.049,
-    "end": 505.736
-  },
-  {
-    "word": "Priority",
-    "start": 505.736,
-    "end": 506.424
-  },
-  {
-    "word": "Pass",
-    "start": 506.424,
-    "end": 507.112
-  },
-  {
-    "word": "oder",
-    "start": 507.112,
-    "end": 507.8
-  },
-  {
-    "word": "Lounge-Zugang",
-    "start": 507.8,
-    "end": 508.487
-  },
-  {
-    "word": "bietet.",
-    "start": 508.487,
-    "end": 509.175
-  },
-  {
-    "word": "Schau",
-    "start": 509.175,
-    "end": 509.863
-  },
-  {
-    "word": "bei deiner",
-    "start": 509.863,
-    "end": 510.551
-  },
-  {
-    "word": "Airline",
-    "start": 510.551,
-    "end": 511.238
-  },
-  {
-    "word": "nach",
-    "start": 511.238,
-    "end": 511.926
-  },
-  {
-    "word": "Upgrade-Auktionen.",
-    "start": 511.926,
-    "end": 512.614
-  },
-  {
-    "word": "Und speichere",
-    "start": 512.614,
-    "end": 513.302
-  },
-  {
-    "word": "die EU-Verordnung",
-    "start": 513.302,
-    "end": 513.989
-  },
-  {
-    "word": "261/2004",
-    "start": 513.989,
-    "end": 514.677
-  },
-  {
-    "word": "auf deinem",
-    "start": 514.677,
-    "end": 515.365
-  },
-  {
-    "word": "Handy.",
-    "start": 515.365,
-    "end": 516.053
-  },
-  {
-    "word": "Diese",
-    "start": 516.053,
-    "end": 516.74
-  },
-  {
-    "word": "drei",
-    "start": 516.74,
-    "end": 517.428
-  },
-  {
-    "word": "Schritte",
-    "start": 517.428,
-    "end": 518.116
-  },
-  {
-    "word": "kosten",
-    "start": 518.116,
-    "end": 518.804
-  },
-  {
-    "word": "dich",
-    "start": 518.804,
-    "end": 519.491
-  },
-  {
-    "word": "null",
-    "start": 519.491,
-    "end": 520.179
-  },
-  {
-    "word": "Euro",
-    "start": 520.179,
-    "end": 520.867
-  },
-  {
-    "word": "und können",
-    "start": 520.867,
-    "end": 521.555
-  },
-  {
-    "word": "alles",
-    "start": 521.555,
-    "end": 522.242
-  },
-  {
-    "word": "verändern.",
-    "start": 522.242,
-    "end": 522.93
-  },
-  {
-    "word": "Es gibt",
-    "start": 523.23,
-    "end": 523.795
-  },
-  {
-    "word": "zwei",
-    "start": 523.795,
-    "end": 524.36
-  },
-  {
-    "word": "Arten",
-    "start": 524.36,
-    "end": 524.925
-  },
-  {
-    "word": "von Reisenden:",
-    "start": 524.925,
-    "end": 525.49
-  },
-  {
-    "word": "Die, die",
-    "start": 525.49,
-    "end": 526.055
-  },
-  {
-    "word": "stundenlang",
-    "start": 526.055,
-    "end": 526.62
-  },
-  {
-    "word": "im überfüllten",
-    "start": 526.62,
-    "end": 527.185
-  },
-  {
-    "word": "Terminal",
-    "start": 527.185,
-    "end": 527.75
-  },
-  {
-    "word": "warten",
-    "start": 527.75,
-    "end": 528.315
+    "word": "Personal",
+    "start": 29.563,
+    "end": 30.084
   },
   {
     "word": "— und",
-    "start": 528.315,
-    "end": 528.88
+    "start": 30.084,
+    "end": 30.606
   },
   {
-    "word": "die, die",
-    "start": 528.88,
-    "end": 529.445
+    "word": "Standards,",
+    "start": 30.606,
+    "end": 31.127
   },
   {
-    "word": "entspannt",
-    "start": 529.445,
-    "end": 530.01
+    "word": "die du",
+    "start": 31.127,
+    "end": 31.648
   },
   {
-    "word": "in der",
-    "start": 530.01,
-    "end": 530.575
+    "word": "so nicht",
+    "start": 31.648,
+    "end": 32.169
   },
   {
-    "word": "Lounge",
-    "start": 530.575,
-    "end": 531.14
+    "word": "erwartest.",
+    "start": 32.169,
+    "end": 32.69
   },
   {
-    "word": "sitzen,",
-    "start": 531.14,
-    "end": 531.705
+    "word": "Lounge-Personal",
+    "start": 32.99,
+    "end": 33.583
   },
   {
-    "word": "essen",
-    "start": 531.705,
-    "end": 532.27
+    "word": "wirbt",
+    "start": 33.583,
+    "end": 34.175
   },
   {
-    "word": "und arbeiten.",
-    "start": 532.27,
-    "end": 532.835
+    "word": "gerne",
+    "start": 34.175,
+    "end": 34.768
   },
   {
-    "word": "Der einzige",
-    "start": 532.835,
-    "end": 533.4
+    "word": "mit frisch",
+    "start": 34.767,
+    "end": 35.36
   },
   {
-    "word": "Unterschied",
-    "start": 533.4,
-    "end": 533.965
+    "word": "zubereiteten",
+    "start": 35.36,
+    "end": 35.953
   },
   {
-    "word": "ist Information.",
-    "start": 533.965,
-    "end": 534.53
+    "word": "Speisen.",
+    "start": 35.953,
+    "end": 36.545
   },
   {
-    "word": "Du hast",
-    "start": 534.53,
-    "end": 535.095
+    "word": "Die Realität?",
+    "start": 36.545,
+    "end": 37.138
   },
   {
-    "word": "jetzt",
-    "start": 535.095,
-    "end": 535.66
+    "word": "Viele",
+    "start": 37.138,
+    "end": 37.73
   },
   {
-    "word": "diese",
-    "start": 535.66,
-    "end": 536.225
+    "word": "Gerichte",
+    "start": 37.73,
+    "end": 38.323
   },
   {
-    "word": "Information.",
-    "start": 536.225,
-    "end": 536.79
+    "word": "werden",
+    "start": 38.323,
+    "end": 38.915
   },
   {
-    "word": "Die Frage",
-    "start": 536.79,
-    "end": 537.355
+    "word": "zentral",
+    "start": 38.915,
+    "end": 39.508
   },
   {
-    "word": "ist, ob",
-    "start": 537.355,
-    "end": 537.92
+    "word": "vorgekocht,",
+    "start": 39.508,
+    "end": 40.1
   },
   {
-    "word": "du sie",
-    "start": 537.92,
-    "end": 538.485
+    "word": "tiefgekühlt",
+    "start": 40.1,
+    "end": 40.693
   },
   {
-    "word": "nutzt.",
-    "start": 538.485,
-    "end": 539.05
+    "word": "angeliefert",
+    "start": 40.693,
+    "end": 41.285
   },
   {
-    "word": "Wenn",
-    "start": 539.35,
-    "end": 539.809
+    "word": "und vor",
+    "start": 41.285,
+    "end": 41.877
   },
   {
-    "word": "dir dieses",
-    "start": 539.809,
-    "end": 540.268
-  },
-  {
-    "word": "Video",
-    "start": 540.268,
-    "end": 540.727
-  },
-  {
-    "word": "geholfen",
-    "start": 540.727,
-    "end": 541.186
-  },
-  {
-    "word": "hat, lass",
-    "start": 541.186,
-    "end": 541.645
-  },
-  {
-    "word": "uns das",
-    "start": 541.645,
-    "end": 542.104
-  },
-  {
-    "word": "kurz",
-    "start": 542.104,
-    "end": 542.562
-  },
-  {
-    "word": "wissen",
-    "start": 542.562,
-    "end": 543.021
-  },
-  {
-    "word": "— ein",
-    "start": 543.021,
-    "end": 543.48
-  },
-  {
-    "word": "Like",
-    "start": 543.48,
-    "end": 543.939
-  },
-  {
-    "word": "kostet",
-    "start": 543.939,
-    "end": 544.398
-  },
-  {
-    "word": "dich",
-    "start": 544.398,
-    "end": 544.857
-  },
-  {
-    "word": "fünf",
-    "start": 544.857,
-    "end": 545.316
-  },
-  {
-    "word": "Sekunden",
-    "start": 545.316,
-    "end": 545.775
-  },
-  {
-    "word": "und hilft",
-    "start": 545.775,
-    "end": 546.234
-  },
-  {
-    "word": "uns, solche",
-    "start": 546.234,
-    "end": 546.693
-  },
-  {
-    "word": "Inhalte",
-    "start": 546.693,
-    "end": 547.152
-  },
-  {
-    "word": "weiter",
-    "start": 547.152,
-    "end": 547.611
-  },
-  {
-    "word": "zu machen.",
-    "start": 547.611,
-    "end": 548.069
-  },
-  {
-    "word": "Und wenn",
-    "start": 548.069,
-    "end": 548.528
-  },
-  {
-    "word": "du nie",
-    "start": 548.528,
-    "end": 548.987
-  },
-  {
-    "word": "wieder",
-    "start": 548.987,
-    "end": 549.446
-  },
-  {
-    "word": "einen",
-    "start": 549.446,
-    "end": 549.905
-  },
-  {
-    "word": "Reise-Trick",
-    "start": 549.905,
-    "end": 550.364
-  },
-  {
-    "word": "verpassen",
-    "start": 550.364,
-    "end": 550.823
-  },
-  {
-    "word": "willst:",
-    "start": 550.823,
-    "end": 551.282
-  },
-  {
-    "word": "Abonniere",
-    "start": 551.282,
-    "end": 551.741
-  },
-  {
-    "word": "den Kanal.",
-    "start": 551.741,
-    "end": 552.2
-  },
-  {
-    "word": "Wir haben",
-    "start": 552.2,
-    "end": 552.659
+    "word": "Ort nur",
+    "start": 41.877,
+    "end": 42.47
   },
   {
     "word": "noch",
-    "start": 552.659,
-    "end": 553.118
+    "start": 42.47,
+    "end": 43.062
   },
   {
-    "word": "viele",
-    "start": 553.118,
-    "end": 553.576
+    "word": "aufgewärmt.",
+    "start": 43.062,
+    "end": 43.655
   },
   {
-    "word": "Geheimnisse,",
-    "start": 553.576,
-    "end": 554.035
+    "word": "Frisch",
+    "start": 43.655,
+    "end": 44.248
   },
   {
-    "word": "die Airlines",
-    "start": 554.035,
-    "end": 554.494
+    "word": "bedeutet",
+    "start": 44.248,
+    "end": 44.84
   },
   {
-    "word": "lieber",
-    "start": 554.494,
-    "end": 554.953
+    "word": "hier:",
+    "start": 44.84,
+    "end": 45.433
   },
   {
-    "word": "für sich",
-    "start": 554.953,
-    "end": 555.412
+    "word": "frisch",
+    "start": 45.433,
+    "end": 46.025
   },
   {
-    "word": "behalten",
-    "start": 555.412,
-    "end": 555.871
+    "word": "aus der",
+    "start": 46.025,
+    "end": 46.617
   },
   {
-    "word": "würden.",
-    "start": 555.871,
-    "end": 556.33
+    "word": "Mikrowelle.",
+    "start": 46.617,
+    "end": 47.21
+  },
+  {
+    "word": "Laut",
+    "start": 47.51,
+    "end": 48.121
+  },
+  {
+    "word": "einer",
+    "start": 48.121,
+    "end": 48.733
+  },
+  {
+    "word": "Untersuchung",
+    "start": 48.733,
+    "end": 49.344
+  },
+  {
+    "word": "von Consumer",
+    "start": 49.344,
+    "end": 49.955
+  },
+  {
+    "word": "Reports",
+    "start": 49.955,
+    "end": 50.567
+  },
+  {
+    "word": "wurden",
+    "start": 50.567,
+    "end": 51.178
+  },
+  {
+    "word": "in über",
+    "start": 51.178,
+    "end": 51.79
+  },
+  {
+    "word": "40 Prozent",
+    "start": 51.79,
+    "end": 52.401
+  },
+  {
+    "word": "der getesteten",
+    "start": 52.401,
+    "end": 53.012
+  },
+  {
+    "word": "Flughafen-Buffets",
+    "start": 53.012,
+    "end": 53.624
+  },
+  {
+    "word": "Temperaturen",
+    "start": 53.624,
+    "end": 54.235
+  },
+  {
+    "word": "gemessen,",
+    "start": 54.235,
+    "end": 54.846
+  },
+  {
+    "word": "die deutlich",
+    "start": 54.846,
+    "end": 55.458
+  },
+  {
+    "word": "unter",
+    "start": 55.458,
+    "end": 56.069
+  },
+  {
+    "word": "den vorgeschriebenen",
+    "start": 56.069,
+    "end": 56.68
+  },
+  {
+    "word": "Warmhalte-Mindesttemperaturen",
+    "start": 56.68,
+    "end": 57.292
+  },
+  {
+    "word": "lagen.",
+    "start": 57.292,
+    "end": 57.903
+  },
+  {
+    "word": "Und das",
+    "start": 57.903,
+    "end": 58.515
+  },
+  {
+    "word": "betrifft",
+    "start": 58.515,
+    "end": 59.126
+  },
+  {
+    "word": "nicht",
+    "start": 59.126,
+    "end": 59.737
+  },
+  {
+    "word": "nur kleine",
+    "start": 59.737,
+    "end": 60.349
+  },
+  {
+    "word": "Lounges.",
+    "start": 60.349,
+    "end": 60.96
+  },
+  {
+    "word": "Viele",
+    "start": 61.26,
+    "end": 61.946
+  },
+  {
+    "word": "Lounges",
+    "start": 61.946,
+    "end": 62.632
+  },
+  {
+    "word": "haben",
+    "start": 62.632,
+    "end": 63.318
+  },
+  {
+    "word": "kein",
+    "start": 63.318,
+    "end": 64.004
+  },
+  {
+    "word": "internes",
+    "start": 64.004,
+    "end": 64.69
+  },
+  {
+    "word": "Hygiene-Protokoll",
+    "start": 64.69,
+    "end": 65.376
+  },
+  {
+    "word": "für das",
+    "start": 65.376,
+    "end": 66.062
+  },
+  {
+    "word": "Buffet.",
+    "start": 66.062,
+    "end": 66.749
+  },
+  {
+    "word": "Wann",
+    "start": 66.749,
+    "end": 67.435
+  },
+  {
+    "word": "wurde",
+    "start": 67.435,
+    "end": 68.121
+  },
+  {
+    "word": "das Essen",
+    "start": 68.121,
+    "end": 68.807
+  },
+  {
+    "word": "zuletzt",
+    "start": 68.807,
+    "end": 69.493
+  },
+  {
+    "word": "gewechselt?",
+    "start": 69.493,
+    "end": 70.179
+  },
+  {
+    "word": "Wer hat",
+    "start": 70.179,
+    "end": 70.865
+  },
+  {
+    "word": "das geprüft?",
+    "start": 70.865,
+    "end": 71.551
+  },
+  {
+    "word": "Oft gibt",
+    "start": 71.551,
+    "end": 72.237
+  },
+  {
+    "word": "es dafür",
+    "start": 72.237,
+    "end": 72.923
+  },
+  {
+    "word": "keine",
+    "start": 72.923,
+    "end": 73.609
+  },
+  {
+    "word": "klare",
+    "start": 73.609,
+    "end": 74.295
+  },
+  {
+    "word": "Verantwortung.",
+    "start": 74.295,
+    "end": 74.981
+  },
+  {
+    "word": "Und genau",
+    "start": 74.981,
+    "end": 75.668
+  },
+  {
+    "word": "das ist",
+    "start": 75.668,
+    "end": 76.354
+  },
+  {
+    "word": "der Grund,",
+    "start": 76.354,
+    "end": 77.04
+  },
+  {
+    "word": "warum",
+    "start": 77.04,
+    "end": 77.726
+  },
+  {
+    "word": "erfahrene",
+    "start": 77.726,
+    "end": 78.412
+  },
+  {
+    "word": "Vielflieger",
+    "start": 78.412,
+    "end": 79.098
+  },
+  {
+    "word": "das Buffet",
+    "start": 79.098,
+    "end": 79.784
+  },
+  {
+    "word": "meiden.",
+    "start": 79.784,
+    "end": 80.47
+  },
+  {
+    "word": "Wenn",
+    "start": 80.77,
+    "end": 81.309
+  },
+  {
+    "word": "eine",
+    "start": 81.309,
+    "end": 81.848
+  },
+  {
+    "word": "Lounge",
+    "start": 81.848,
+    "end": 82.387
+  },
+  {
+    "word": "in Frankfurt",
+    "start": 82.387,
+    "end": 82.926
+  },
+  {
+    "word": "regionale",
+    "start": 82.926,
+    "end": 83.464
+  },
+  {
+    "word": "Spezialitäten",
+    "start": 83.464,
+    "end": 84.003
+  },
+  {
+    "word": "verspricht,",
+    "start": 84.003,
+    "end": 84.542
+  },
+  {
+    "word": "klingt",
+    "start": 84.542,
+    "end": 85.081
+  },
+  {
+    "word": "das verlockend.",
+    "start": 85.081,
+    "end": 85.62
+  },
+  {
+    "word": "Aber",
+    "start": 85.62,
+    "end": 86.159
+  },
+  {
+    "word": "dieselben",
+    "start": 86.159,
+    "end": 86.698
+  },
+  {
+    "word": "Gerichte",
+    "start": 86.698,
+    "end": 87.237
+  },
+  {
+    "word": "stehen",
+    "start": 87.237,
+    "end": 87.776
+  },
+  {
+    "word": "oft auch",
+    "start": 87.776,
+    "end": 88.314
+  },
+  {
+    "word": "in Dubai",
+    "start": 88.314,
+    "end": 88.853
+  },
+  {
+    "word": "und Singapur",
+    "start": 88.853,
+    "end": 89.392
+  },
+  {
+    "word": "auf dem",
+    "start": 89.392,
+    "end": 89.931
+  },
+  {
+    "word": "Buffet",
+    "start": 89.931,
+    "end": 90.47
+  },
+  {
+    "word": "— weil",
+    "start": 90.47,
+    "end": 91.009
+  },
+  {
+    "word": "alles",
+    "start": 91.009,
+    "end": 91.548
+  },
+  {
+    "word": "vom gleichen",
+    "start": 91.548,
+    "end": 92.087
+  },
+  {
+    "word": "internationalen",
+    "start": 92.087,
+    "end": 92.626
+  },
+  {
+    "word": "Caterer",
+    "start": 92.626,
+    "end": 93.164
+  },
+  {
+    "word": "kommt.",
+    "start": 93.164,
+    "end": 93.703
+  },
+  {
+    "word": "Regional",
+    "start": 93.703,
+    "end": 94.242
+  },
+  {
+    "word": "ist nur",
+    "start": 94.242,
+    "end": 94.781
+  },
+  {
+    "word": "die Dekoration.",
+    "start": 94.781,
+    "end": 95.32
+  },
+  {
+    "word": "Eine",
+    "start": 95.62,
+    "end": 96.166
+  },
+  {
+    "word": "Frischetheke",
+    "start": 96.166,
+    "end": 96.712
+  },
+  {
+    "word": "suggeriert:",
+    "start": 96.712,
+    "end": 97.257
+  },
+  {
+    "word": "Jemand",
+    "start": 97.257,
+    "end": 97.803
+  },
+  {
+    "word": "steht",
+    "start": 97.803,
+    "end": 98.349
+  },
+  {
+    "word": "da und",
+    "start": 98.349,
+    "end": 98.895
+  },
+  {
+    "word": "bereitet",
+    "start": 98.895,
+    "end": 99.44
+  },
+  {
+    "word": "etwas",
+    "start": 99.44,
+    "end": 99.986
+  },
+  {
+    "word": "zu. Doch",
+    "start": 99.986,
+    "end": 100.532
+  },
+  {
+    "word": "hinter",
+    "start": 100.532,
+    "end": 101.078
+  },
+  {
+    "word": "vielen",
+    "start": 101.078,
+    "end": 101.623
+  },
+  {
+    "word": "Lounge-Frischetheken",
+    "start": 101.623,
+    "end": 102.169
+  },
+  {
+    "word": "verstecken",
+    "start": 102.169,
+    "end": 102.715
+  },
+  {
+    "word": "sich",
+    "start": 102.715,
+    "end": 103.261
+  },
+  {
+    "word": "vorportionierte",
+    "start": 103.261,
+    "end": 103.807
+  },
+  {
+    "word": "Vakuumpackungen,",
+    "start": 103.807,
+    "end": 104.352
+  },
+  {
+    "word": "die einfach",
+    "start": 104.352,
+    "end": 104.898
+  },
+  {
+    "word": "geöffnet",
+    "start": 104.898,
+    "end": 105.444
+  },
+  {
+    "word": "und auf",
+    "start": 105.444,
+    "end": 105.99
+  },
+  {
+    "word": "Teller",
+    "start": 105.99,
+    "end": 106.535
+  },
+  {
+    "word": "gelegt",
+    "start": 106.535,
+    "end": 107.081
+  },
+  {
+    "word": "werden.",
+    "start": 107.081,
+    "end": 107.627
+  },
+  {
+    "word": "Die weiße",
+    "start": 107.627,
+    "end": 108.173
+  },
+  {
+    "word": "Kochschürze",
+    "start": 108.173,
+    "end": 108.718
+  },
+  {
+    "word": "ist reines",
+    "start": 108.718,
+    "end": 109.264
+  },
+  {
+    "word": "Theater.",
+    "start": 109.264,
+    "end": 109.81
+  },
+  {
+    "word": "Frequent",
+    "start": 110.11,
+    "end": 110.608
+  },
+  {
+    "word": "Flyer",
+    "start": 110.608,
+    "end": 111.105
+  },
+  {
+    "word": "mit über",
+    "start": 111.105,
+    "end": 111.603
+  },
+  {
+    "word": "100 Flügen",
+    "start": 111.603,
+    "end": 112.1
+  },
+  {
+    "word": "im Jahr",
+    "start": 112.1,
+    "end": 112.598
+  },
+  {
+    "word": "berichten",
+    "start": 112.598,
+    "end": 113.096
+  },
+  {
+    "word": "in Foren",
+    "start": 113.096,
+    "end": 113.593
+  },
+  {
+    "word": "wie FlyerTalk",
+    "start": 113.593,
+    "end": 114.091
+  },
+  {
+    "word": "immer",
+    "start": 114.091,
+    "end": 114.588
+  },
+  {
+    "word": "wieder",
+    "start": 114.588,
+    "end": 115.086
+  },
+  {
+    "word": "dasselbe:",
+    "start": 115.086,
+    "end": 115.583
+  },
+  {
+    "word": "Sie nehmen",
+    "start": 115.583,
+    "end": 116.081
+  },
+  {
+    "word": "beim",
+    "start": 116.081,
+    "end": 116.579
+  },
+  {
+    "word": "Buffet",
+    "start": 116.579,
+    "end": 117.076
+  },
+  {
+    "word": "nur verpackte",
+    "start": 117.076,
+    "end": 117.574
+  },
+  {
+    "word": "Snacks",
+    "start": 117.574,
+    "end": 118.071
+  },
+  {
+    "word": "oder",
+    "start": 118.071,
+    "end": 118.569
+  },
+  {
+    "word": "bestellen",
+    "start": 118.569,
+    "end": 119.067
+  },
+  {
+    "word": "gezielt",
+    "start": 119.067,
+    "end": 119.564
+  },
+  {
+    "word": "à la",
+    "start": 119.564,
+    "end": 120.062
+  },
+  {
+    "word": "carte.",
+    "start": 120.062,
+    "end": 120.559
+  },
+  {
+    "word": "Alles",
+    "start": 120.559,
+    "end": 121.057
+  },
+  {
+    "word": "andere?",
+    "start": 121.057,
+    "end": 121.554
+  },
+  {
+    "word": "Zu riskant,",
+    "start": 121.554,
+    "end": 122.052
+  },
+  {
+    "word": "wenn",
+    "start": 122.052,
+    "end": 122.55
+  },
+  {
+    "word": "man kurz",
+    "start": 122.55,
+    "end": 123.047
+  },
+  {
+    "word": "darauf",
+    "start": 123.047,
+    "end": 123.545
+  },
+  {
+    "word": "im Flugzeug",
+    "start": 123.545,
+    "end": 124.042
+  },
+  {
+    "word": "sitzt.",
+    "start": 124.042,
+    "end": 124.54
+  },
+  {
+    "word": "Frisches",
+    "start": 124.84,
+    "end": 125.311
+  },
+  {
+    "word": "Obst",
+    "start": 125.311,
+    "end": 125.781
+  },
+  {
+    "word": "klingt",
+    "start": 125.781,
+    "end": 126.252
+  },
+  {
+    "word": "harmlos",
+    "start": 126.252,
+    "end": 126.722
+  },
+  {
+    "word": "— und",
+    "start": 126.722,
+    "end": 127.193
+  },
+  {
+    "word": "gesund.",
+    "start": 127.193,
+    "end": 127.664
+  },
+  {
+    "word": "Aber",
+    "start": 127.664,
+    "end": 128.134
+  },
+  {
+    "word": "in Lounges",
+    "start": 128.134,
+    "end": 128.605
+  },
+  {
+    "word": "ohne",
+    "start": 128.605,
+    "end": 129.076
+  },
+  {
+    "word": "ausreichend",
+    "start": 129.076,
+    "end": 129.546
+  },
+  {
+    "word": "Personal",
+    "start": 129.546,
+    "end": 130.017
+  },
+  {
+    "word": "wird",
+    "start": 130.017,
+    "end": 130.488
+  },
+  {
+    "word": "Obst",
+    "start": 130.488,
+    "end": 130.958
+  },
+  {
+    "word": "oft stundenlang",
+    "start": 130.958,
+    "end": 131.429
+  },
+  {
+    "word": "ohne",
+    "start": 131.429,
+    "end": 131.899
+  },
+  {
+    "word": "Abdeckung",
+    "start": 131.899,
+    "end": 132.37
+  },
+  {
+    "word": "stehen",
+    "start": 132.37,
+    "end": 132.841
+  },
+  {
+    "word": "gelassen.",
+    "start": 132.841,
+    "end": 133.311
+  },
+  {
+    "word": "Studien",
+    "start": 133.311,
+    "end": 133.782
+  },
+  {
+    "word": "zeigen,",
+    "start": 133.782,
+    "end": 134.253
+  },
+  {
+    "word": "dass",
+    "start": 134.252,
+    "end": 134.723
+  },
+  {
+    "word": "geschnittenes",
+    "start": 134.723,
+    "end": 135.194
+  },
+  {
+    "word": "Obst",
+    "start": 135.194,
+    "end": 135.664
+  },
+  {
+    "word": "bei Raumtemperatur",
+    "start": 135.664,
+    "end": 136.135
+  },
+  {
+    "word": "nach",
+    "start": 136.135,
+    "end": 136.606
+  },
+  {
+    "word": "zwei",
+    "start": 136.606,
+    "end": 137.076
+  },
+  {
+    "word": "Stunden",
+    "start": 137.076,
+    "end": 137.547
+  },
+  {
+    "word": "bereits",
+    "start": 137.547,
+    "end": 138.018
+  },
+  {
+    "word": "kritische",
+    "start": 138.018,
+    "end": 138.488
+  },
+  {
+    "word": "Keimwerte",
+    "start": 138.488,
+    "end": 138.959
+  },
+  {
+    "word": "erreichen",
+    "start": 138.959,
+    "end": 139.429
+  },
+  {
+    "word": "kann.",
+    "start": 139.429,
+    "end": 139.9
+  },
+  {
+    "word": "Und jetzt",
+    "start": 140.2,
+    "end": 140.815
+  },
+  {
+    "word": "kommt",
+    "start": 140.815,
+    "end": 141.43
+  },
+  {
+    "word": "Nummer",
+    "start": 141.43,
+    "end": 142.045
+  },
+  {
+    "word": "5 —",
+    "start": 142.045,
+    "end": 142.659
+  },
+  {
+    "word": "die Lüge,",
+    "start": 142.659,
+    "end": 143.274
+  },
+  {
+    "word": "die jeden",
+    "start": 143.274,
+    "end": 143.889
+  },
+  {
+    "word": "Vielflieger",
+    "start": 143.889,
+    "end": 144.504
+  },
+  {
+    "word": "ekelt,",
+    "start": 144.504,
+    "end": 145.119
+  },
+  {
+    "word": "wenn",
+    "start": 145.119,
+    "end": 145.734
+  },
+  {
+    "word": "er sie",
+    "start": 145.734,
+    "end": 146.348
+  },
+  {
+    "word": "einmal",
+    "start": 146.348,
+    "end": 146.963
+  },
+  {
+    "word": "kennt.",
+    "start": 146.963,
+    "end": 147.578
+  },
+  {
+    "word": "In mehreren",
+    "start": 147.578,
+    "end": 148.193
+  },
+  {
+    "word": "dokumentierten",
+    "start": 148.193,
+    "end": 148.808
+  },
+  {
+    "word": "Fällen",
+    "start": 148.808,
+    "end": 149.423
+  },
+  {
+    "word": "wurde",
+    "start": 149.423,
+    "end": 150.038
+  },
+  {
+    "word": "Lounge-Essen,",
+    "start": 150.038,
+    "end": 150.652
+  },
+  {
+    "word": "das am",
+    "start": 150.652,
+    "end": 151.267
+  },
+  {
+    "word": "Ende",
+    "start": 151.267,
+    "end": 151.882
+  },
+  {
+    "word": "des Tages",
+    "start": 151.882,
+    "end": 152.497
+  },
+  {
+    "word": "nicht",
+    "start": 152.497,
+    "end": 153.112
+  },
+  {
+    "word": "verbraucht",
+    "start": 153.112,
+    "end": 153.727
+  },
+  {
+    "word": "wurde,",
+    "start": 153.727,
+    "end": 154.342
+  },
+  {
+    "word": "für die",
+    "start": 154.342,
+    "end": 154.956
+  },
+  {
+    "word": "nächste",
+    "start": 154.956,
+    "end": 155.571
+  },
+  {
+    "word": "Schicht",
+    "start": 155.571,
+    "end": 156.186
+  },
+  {
+    "word": "wieder",
+    "start": 156.186,
+    "end": 156.801
+  },
+  {
+    "word": "aufgewärmt",
+    "start": 156.801,
+    "end": 157.416
+  },
+  {
+    "word": "und erneut",
+    "start": 157.416,
+    "end": 158.031
+  },
+  {
+    "word": "serviert.",
+    "start": 158.031,
+    "end": 158.645
+  },
+  {
+    "word": "Nicht",
+    "start": 158.645,
+    "end": 159.26
+  },
+  {
+    "word": "weggeworfen.",
+    "start": 159.26,
+    "end": 159.875
+  },
+  {
+    "word": "Wiederverwertet.",
+    "start": 159.875,
+    "end": 160.49
+  },
+  {
+    "word": "Warum",
+    "start": 160.79,
+    "end": 161.356
+  },
+  {
+    "word": "passiert",
+    "start": 161.356,
+    "end": 161.922
+  },
+  {
+    "word": "das? Weil",
+    "start": 161.922,
+    "end": 162.489
+  },
+  {
+    "word": "Lounge-Catering",
+    "start": 162.489,
+    "end": 163.055
+  },
+  {
+    "word": "unter",
+    "start": 163.055,
+    "end": 163.621
+  },
+  {
+    "word": "extremem",
+    "start": 163.621,
+    "end": 164.188
+  },
+  {
+    "word": "Kostendruck",
+    "start": 164.188,
+    "end": 164.754
+  },
+  {
+    "word": "steht.",
+    "start": 164.754,
+    "end": 165.32
+  },
+  {
+    "word": "Laut",
+    "start": 165.32,
+    "end": 165.886
+  },
+  {
+    "word": "Branchenschätzungen",
+    "start": 165.886,
+    "end": 166.452
+  },
+  {
+    "word": "kalkulieren",
+    "start": 166.452,
+    "end": 167.019
+  },
+  {
+    "word": "Airlines",
+    "start": 167.019,
+    "end": 167.585
+  },
+  {
+    "word": "pro Lounge-Besucher",
+    "start": 167.585,
+    "end": 168.151
+  },
+  {
+    "word": "nur zwischen",
+    "start": 168.151,
+    "end": 168.718
+  },
+  {
+    "word": "drei",
+    "start": 168.718,
+    "end": 169.284
+  },
+  {
+    "word": "und acht",
+    "start": 169.284,
+    "end": 169.85
+  },
+  {
+    "word": "Euro",
+    "start": 169.85,
+    "end": 170.416
+  },
+  {
+    "word": "für Essen",
+    "start": 170.416,
+    "end": 170.982
+  },
+  {
+    "word": "und Getränke",
+    "start": 170.982,
+    "end": 171.549
+  },
+  {
+    "word": "— das",
+    "start": 171.549,
+    "end": 172.115
+  },
+  {
+    "word": "reicht",
+    "start": 172.115,
+    "end": 172.681
+  },
+  {
+    "word": "kaum",
+    "start": 172.681,
+    "end": 173.248
+  },
+  {
+    "word": "für echte",
+    "start": 173.248,
+    "end": 173.814
+  },
+  {
+    "word": "Qualität.",
+    "start": 173.814,
+    "end": 174.38
+  },
+  {
+    "word": "Viele",
+    "start": 174.68,
+    "end": 175.254
+  },
+  {
+    "word": "Lounges",
+    "start": 175.254,
+    "end": 175.827
+  },
+  {
+    "word": "präsentieren",
+    "start": 175.827,
+    "end": 176.401
+  },
+  {
+    "word": "stolz",
+    "start": 176.401,
+    "end": 176.974
+  },
+  {
+    "word": "Hygiene-Zertifikate",
+    "start": 176.974,
+    "end": 177.548
+  },
+  {
+    "word": "an der",
+    "start": 177.548,
+    "end": 178.121
+  },
+  {
+    "word": "Wand.",
+    "start": 178.121,
+    "end": 178.695
+  },
+  {
+    "word": "Was Besucher",
+    "start": 178.695,
+    "end": 179.269
+  },
+  {
+    "word": "nicht",
+    "start": 179.269,
+    "end": 179.842
+  },
+  {
+    "word": "sehen:",
+    "start": 179.842,
+    "end": 180.416
+  },
+  {
+    "word": "Diese",
+    "start": 180.416,
+    "end": 180.989
+  },
+  {
+    "word": "Zertifikate",
+    "start": 180.989,
+    "end": 181.563
+  },
+  {
+    "word": "werden",
+    "start": 181.563,
+    "end": 182.136
+  },
+  {
+    "word": "teilweise",
+    "start": 182.136,
+    "end": 182.71
+  },
+  {
+    "word": "nur einmal",
+    "start": 182.71,
+    "end": 183.284
+  },
+  {
+    "word": "jährlich",
+    "start": 183.284,
+    "end": 183.857
+  },
+  {
+    "word": "ausgestellt",
+    "start": 183.857,
+    "end": 184.431
+  },
+  {
+    "word": "— und",
+    "start": 184.431,
+    "end": 185.004
+  },
+  {
+    "word": "was danach",
+    "start": 185.004,
+    "end": 185.578
+  },
+  {
+    "word": "passiert,",
+    "start": 185.578,
+    "end": 186.151
+  },
+  {
+    "word": "kontrolliert",
+    "start": 186.151,
+    "end": 186.725
+  },
+  {
+    "word": "niemand",
+    "start": 186.725,
+    "end": 187.299
+  },
+  {
+    "word": "täglich.",
+    "start": 187.299,
+    "end": 187.872
+  },
+  {
+    "word": "Das Zertifikat",
+    "start": 187.872,
+    "end": 188.446
+  },
+  {
+    "word": "ist kein",
+    "start": 188.446,
+    "end": 189.019
+  },
+  {
+    "word": "Schutz,",
+    "start": 189.019,
+    "end": 189.593
+  },
+  {
+    "word": "es ist",
+    "start": 189.593,
+    "end": 190.166
+  },
+  {
+    "word": "ein Marketinginstrument.",
+    "start": 190.166,
+    "end": 190.74
+  },
+  {
+    "word": "Flughafenlounges",
+    "start": 191.04,
+    "end": 191.625
+  },
+  {
+    "word": "fallen",
+    "start": 191.625,
+    "end": 192.21
+  },
+  {
+    "word": "in eine",
+    "start": 192.21,
+    "end": 192.794
+  },
+  {
+    "word": "regulatorische",
+    "start": 192.794,
+    "end": 193.379
+  },
+  {
+    "word": "Grauzone.",
+    "start": 193.379,
+    "end": 193.964
+  },
+  {
+    "word": "Sie sind",
+    "start": 193.964,
+    "end": 194.549
+  },
+  {
+    "word": "kein",
+    "start": 194.549,
+    "end": 195.134
+  },
+  {
+    "word": "öffentliches",
+    "start": 195.134,
+    "end": 195.718
+  },
+  {
+    "word": "Restaurant,",
+    "start": 195.718,
+    "end": 196.303
+  },
+  {
+    "word": "aber",
+    "start": 196.303,
+    "end": 196.888
+  },
+  {
+    "word": "auch",
+    "start": 196.888,
+    "end": 197.473
+  },
+  {
+    "word": "nicht",
+    "start": 197.473,
+    "end": 198.058
+  },
+  {
+    "word": "Teil",
+    "start": 198.058,
+    "end": 198.642
+  },
+  {
+    "word": "der Flugzeugcatering-Kette.",
+    "start": 198.642,
+    "end": 199.227
+  },
+  {
+    "word": "Das bedeutet:",
+    "start": 199.227,
+    "end": 199.812
+  },
+  {
+    "word": "Die Kontrollen",
+    "start": 199.812,
+    "end": 200.397
+  },
+  {
+    "word": "sind",
+    "start": 200.397,
+    "end": 200.982
+  },
+  {
+    "word": "weniger",
+    "start": 200.982,
+    "end": 201.566
+  },
+  {
+    "word": "streng,",
+    "start": 201.566,
+    "end": 202.151
+  },
+  {
+    "word": "die Auflagen",
+    "start": 202.151,
+    "end": 202.736
+  },
+  {
+    "word": "unklarer",
+    "start": 202.736,
+    "end": 203.321
+  },
+  {
+    "word": "— und",
+    "start": 203.321,
+    "end": 203.906
+  },
+  {
+    "word": "Verstöße",
+    "start": 203.906,
+    "end": 204.49
+  },
+  {
+    "word": "selten",
+    "start": 204.49,
+    "end": 205.075
+  },
+  {
+    "word": "öffentlich.",
+    "start": 205.075,
+    "end": 205.66
+  },
+  {
+    "word": "Prickelnd,",
+    "start": 205.96,
+    "end": 206.463
+  },
+  {
+    "word": "golden,",
+    "start": 206.463,
+    "end": 206.966
+  },
+  {
+    "word": "verführerisch",
+    "start": 206.966,
+    "end": 207.468
+  },
+  {
+    "word": "— der",
+    "start": 207.468,
+    "end": 207.971
+  },
+  {
+    "word": "Champagner",
+    "start": 207.971,
+    "end": 208.474
+  },
+  {
+    "word": "in der",
+    "start": 208.474,
+    "end": 208.977
+  },
+  {
+    "word": "Lounge",
+    "start": 208.977,
+    "end": 209.479
+  },
+  {
+    "word": "gilt",
+    "start": 209.479,
+    "end": 209.982
+  },
+  {
+    "word": "als Symbol",
+    "start": 209.982,
+    "end": 210.485
+  },
+  {
+    "word": "für Luxus.",
+    "start": 210.485,
+    "end": 210.988
+  },
+  {
+    "word": "Doch",
+    "start": 210.988,
+    "end": 211.49
+  },
+  {
+    "word": "bei genauerem",
+    "start": 211.49,
+    "end": 211.993
+  },
+  {
+    "word": "Hinsehen:",
+    "start": 211.993,
+    "end": 212.496
+  },
+  {
+    "word": "In vielen",
+    "start": 212.496,
+    "end": 212.999
+  },
+  {
+    "word": "Lounges",
+    "start": 212.999,
+    "end": 213.501
+  },
+  {
+    "word": "wird",
+    "start": 213.501,
+    "end": 214.004
+  },
+  {
+    "word": "kein",
+    "start": 214.004,
+    "end": 214.507
+  },
+  {
+    "word": "echter",
+    "start": 214.507,
+    "end": 215.01
+  },
+  {
+    "word": "Champagner",
+    "start": 215.01,
+    "end": 215.512
+  },
+  {
+    "word": "serviert,",
+    "start": 215.512,
+    "end": 216.015
+  },
+  {
+    "word": "sondern",
+    "start": 216.015,
+    "end": 216.518
+  },
+  {
+    "word": "Crémant",
+    "start": 216.518,
+    "end": 217.021
+  },
+  {
+    "word": "oder",
+    "start": 217.021,
+    "end": 217.523
+  },
+  {
+    "word": "günstiger",
+    "start": 217.523,
+    "end": 218.026
+  },
+  {
+    "word": "Schaumwein,",
+    "start": 218.026,
+    "end": 218.529
+  },
+  {
+    "word": "der in",
+    "start": 218.529,
+    "end": 219.032
+  },
+  {
+    "word": "Champagner-Gläser",
+    "start": 219.032,
+    "end": 219.534
+  },
+  {
+    "word": "umgefüllt",
+    "start": 219.534,
+    "end": 220.037
+  },
+  {
+    "word": "wird.",
+    "start": 220.037,
+    "end": 220.54
+  },
+  {
+    "word": "In einem",
+    "start": 220.84,
+    "end": 221.559
+  },
+  {
+    "word": "bekannten",
+    "start": 221.559,
+    "end": 222.277
+  },
+  {
+    "word": "Test",
+    "start": 222.277,
+    "end": 222.996
+  },
+  {
+    "word": "von The",
+    "start": 222.996,
+    "end": 223.714
+  },
+  {
+    "word": "Points",
+    "start": 223.714,
+    "end": 224.433
+  },
+  {
+    "word": "Guy wurden",
+    "start": 224.433,
+    "end": 225.151
+  },
+  {
+    "word": "Lounge-Getränke",
+    "start": 225.151,
+    "end": 225.87
+  },
+  {
+    "word": "in mehreren",
+    "start": 225.87,
+    "end": 226.589
+  },
+  {
+    "word": "Airports",
+    "start": 226.589,
+    "end": 227.307
+  },
+  {
+    "word": "analysiert.",
+    "start": 227.307,
+    "end": 228.026
+  },
+  {
+    "word": "Das Ergebnis",
+    "start": 228.026,
+    "end": 228.744
+  },
+  {
+    "word": "war eindeutig:",
+    "start": 228.744,
+    "end": 229.463
+  },
+  {
+    "word": "Nur 30",
+    "start": 229.463,
+    "end": 230.181
+  },
+  {
+    "word": "Prozent",
+    "start": 230.181,
+    "end": 230.9
+  },
+  {
+    "word": "der Lounges,",
+    "start": 230.9,
+    "end": 231.619
+  },
+  {
+    "word": "die Champagner",
+    "start": 231.619,
+    "end": 232.337
+  },
+  {
+    "word": "auf der",
+    "start": 232.337,
+    "end": 233.056
+  },
+  {
+    "word": "Karte",
+    "start": 233.056,
+    "end": 233.774
+  },
+  {
+    "word": "hatten,",
+    "start": 233.774,
+    "end": 234.493
+  },
+  {
+    "word": "servierten",
+    "start": 234.493,
+    "end": 235.211
+  },
+  {
+    "word": "auch",
+    "start": 235.211,
+    "end": 235.93
+  },
+  {
+    "word": "wirklich",
+    "start": 235.93,
+    "end": 236.649
+  },
+  {
+    "word": "Champagner.",
+    "start": 236.649,
+    "end": 237.367
+  },
+  {
+    "word": "Der Rest?",
+    "start": 237.367,
+    "end": 238.086
+  },
+  {
+    "word": "Billiger",
+    "start": 238.086,
+    "end": 238.804
+  },
+  {
+    "word": "Ersatz",
+    "start": 238.804,
+    "end": 239.523
+  },
+  {
+    "word": "ohne",
+    "start": 239.523,
+    "end": 240.241
+  },
+  {
+    "word": "Etikettenpflicht.",
+    "start": 240.241,
+    "end": 240.96
+  },
+  {
+    "word": "Noch",
+    "start": 241.26,
+    "end": 241.889
+  },
+  {
+    "word": "überraschender:",
+    "start": 241.889,
+    "end": 242.519
+  },
+  {
+    "word": "Das Leitungswasser",
+    "start": 242.519,
+    "end": 243.148
+  },
+  {
+    "word": "in Lounge-Wasserspendern",
+    "start": 243.148,
+    "end": 243.778
+  },
+  {
+    "word": "kommt",
+    "start": 243.778,
+    "end": 244.407
+  },
+  {
+    "word": "teilweise",
+    "start": 244.407,
+    "end": 245.037
+  },
+  {
+    "word": "direkt",
+    "start": 245.037,
+    "end": 245.666
+  },
+  {
+    "word": "aus der",
+    "start": 245.666,
+    "end": 246.296
+  },
+  {
+    "word": "regulären",
+    "start": 246.296,
+    "end": 246.925
+  },
+  {
+    "word": "Flughafenleitung",
+    "start": 246.925,
+    "end": 247.555
+  },
+  {
+    "word": "— ungefiltert.",
+    "start": 247.555,
+    "end": 248.184
+  },
+  {
+    "word": "In älteren",
+    "start": 248.184,
+    "end": 248.814
+  },
+  {
+    "word": "Terminals",
+    "start": 248.814,
+    "end": 249.443
+  },
+  {
+    "word": "mit veralteten",
+    "start": 249.443,
+    "end": 250.073
+  },
+  {
+    "word": "Rohren",
+    "start": 250.073,
+    "end": 250.702
+  },
+  {
+    "word": "kann",
+    "start": 250.702,
+    "end": 251.332
+  },
+  {
+    "word": "das tatsächlich",
+    "start": 251.332,
+    "end": 251.961
+  },
+  {
+    "word": "problematisch",
+    "start": 251.961,
+    "end": 252.591
+  },
+  {
+    "word": "sein.",
+    "start": 252.591,
+    "end": 253.22
+  },
+  {
+    "word": "Eine",
+    "start": 253.52,
+    "end": 254.088
+  },
+  {
+    "word": "Lounge",
+    "start": 254.088,
+    "end": 254.656
+  },
+  {
+    "word": "mit eigenem",
+    "start": 254.656,
+    "end": 255.223
+  },
+  {
+    "word": "Koch",
+    "start": 255.223,
+    "end": 255.791
+  },
+  {
+    "word": "klingt",
+    "start": 255.791,
+    "end": 256.359
+  },
+  {
+    "word": "beeindruckend.",
+    "start": 256.359,
+    "end": 256.927
+  },
+  {
+    "word": "Doch",
+    "start": 256.927,
+    "end": 257.495
+  },
+  {
+    "word": "oft ist",
+    "start": 257.495,
+    "end": 258.063
+  },
+  {
+    "word": "das beauftragte",
+    "start": 258.063,
+    "end": 258.63
+  },
+  {
+    "word": "Personal",
+    "start": 258.63,
+    "end": 259.198
+  },
+  {
+    "word": "kein",
+    "start": 259.198,
+    "end": 259.766
+  },
+  {
+    "word": "ausgebildeter",
+    "start": 259.766,
+    "end": 260.334
+  },
+  {
+    "word": "Koch,",
+    "start": 260.334,
+    "end": 260.902
+  },
+  {
+    "word": "sondern",
+    "start": 260.902,
+    "end": 261.47
+  },
+  {
+    "word": "ein angelernter",
+    "start": 261.47,
+    "end": 262.037
+  },
+  {
+    "word": "Mitarbeiter",
+    "start": 262.037,
+    "end": 262.605
+  },
+  {
+    "word": "vom Catering-Subunternehmen",
+    "start": 262.605,
+    "end": 263.173
+  },
+  {
+    "word": "— mit",
+    "start": 263.173,
+    "end": 263.741
+  },
+  {
+    "word": "minimalem",
+    "start": 263.741,
+    "end": 264.309
+  },
+  {
+    "word": "Stundenlohn",
+    "start": 264.309,
+    "end": 264.877
+  },
+  {
+    "word": "und ohne",
+    "start": 264.877,
+    "end": 265.444
+  },
+  {
+    "word": "gastronomische",
+    "start": 265.444,
+    "end": 266.012
+  },
+  {
+    "word": "Ausbildung.",
+    "start": 266.012,
+    "end": 266.58
+  },
+  {
+    "word": "Ehemalige",
+    "start": 266.88,
+    "end": 267.481
+  },
+  {
+    "word": "Lounge-Mitarbeiter",
+    "start": 267.481,
+    "end": 268.082
+  },
+  {
+    "word": "berichten",
+    "start": 268.082,
+    "end": 268.684
+  },
+  {
+    "word": "auf Plattformen",
+    "start": 268.684,
+    "end": 269.285
+  },
+  {
+    "word": "wie Reddit",
+    "start": 269.285,
+    "end": 269.886
+  },
+  {
+    "word": "und Glassdoor",
+    "start": 269.886,
+    "end": 270.487
+  },
+  {
+    "word": "von Zuständen,",
+    "start": 270.487,
+    "end": 271.088
+  },
+  {
+    "word": "die einem",
+    "start": 271.088,
+    "end": 271.69
+  },
+  {
+    "word": "den Appetit",
+    "start": 271.69,
+    "end": 272.291
+  },
+  {
+    "word": "verschlagen.",
+    "start": 272.291,
+    "end": 272.892
+  },
+  {
+    "word": "Mangelnde",
+    "start": 272.892,
+    "end": 273.493
+  },
+  {
+    "word": "Kühlketten,",
+    "start": 273.493,
+    "end": 274.094
+  },
+  {
+    "word": "keine",
+    "start": 274.094,
+    "end": 274.696
+  },
+  {
+    "word": "Zeitkontrolle",
+    "start": 274.696,
+    "end": 275.297
+  },
+  {
+    "word": "für Speisen",
+    "start": 275.297,
+    "end": 275.898
+  },
+  {
+    "word": "und Anweisungen",
+    "start": 275.898,
+    "end": 276.499
+  },
+  {
+    "word": "von oben,",
+    "start": 276.499,
+    "end": 277.1
+  },
+  {
+    "word": "Essen",
+    "start": 277.1,
+    "end": 277.702
+  },
+  {
+    "word": "nicht",
+    "start": 277.702,
+    "end": 278.303
+  },
+  {
+    "word": "wegzuwerfen,",
+    "start": 278.303,
+    "end": 278.904
+  },
+  {
+    "word": "solange",
+    "start": 278.904,
+    "end": 279.505
+  },
+  {
+    "word": "es nicht",
+    "start": 279.505,
+    "end": 280.106
+  },
+  {
+    "word": "sichtbar",
+    "start": 280.106,
+    "end": 280.708
+  },
+  {
+    "word": "verdorben",
+    "start": 280.708,
+    "end": 281.309
+  },
+  {
+    "word": "ist.",
+    "start": 281.309,
+    "end": 281.91
+  },
+  {
+    "word": "Die Kühlkette",
+    "start": 282.21,
+    "end": 282.711
+  },
+  {
+    "word": "ist das",
+    "start": 282.711,
+    "end": 283.213
+  },
+  {
+    "word": "Herzstück",
+    "start": 283.213,
+    "end": 283.714
+  },
+  {
+    "word": "der Lebensmittelsicherheit.",
+    "start": 283.714,
+    "end": 284.216
+  },
+  {
+    "word": "Wird",
+    "start": 284.216,
+    "end": 284.717
+  },
+  {
+    "word": "sie auch",
+    "start": 284.717,
+    "end": 285.219
+  },
+  {
+    "word": "nur einmal",
+    "start": 285.219,
+    "end": 285.72
+  },
+  {
+    "word": "unterbrochen",
+    "start": 285.72,
+    "end": 286.222
+  },
+  {
+    "word": "— beim",
+    "start": 286.222,
+    "end": 286.723
+  },
+  {
+    "word": "Transport,",
+    "start": 286.723,
+    "end": 287.225
+  },
+  {
+    "word": "beim",
+    "start": 287.225,
+    "end": 287.726
+  },
+  {
+    "word": "Aufbau",
+    "start": 287.726,
+    "end": 288.228
+  },
+  {
+    "word": "des Buffets,",
+    "start": 288.228,
+    "end": 288.729
+  },
+  {
+    "word": "bei der",
+    "start": 288.729,
+    "end": 289.231
+  },
+  {
+    "word": "Lagerung",
+    "start": 289.231,
+    "end": 289.732
+  },
+  {
+    "word": "— können",
+    "start": 289.732,
+    "end": 290.234
+  },
+  {
+    "word": "sich",
+    "start": 290.234,
+    "end": 290.735
+  },
+  {
+    "word": "Keime",
+    "start": 290.735,
+    "end": 291.237
+  },
+  {
+    "word": "rasend",
+    "start": 291.237,
+    "end": 291.738
+  },
+  {
+    "word": "schnell",
+    "start": 291.738,
+    "end": 292.24
+  },
+  {
+    "word": "vermehren.",
+    "start": 292.24,
+    "end": 292.741
+  },
+  {
+    "word": "Und in",
+    "start": 292.741,
+    "end": 293.243
+  },
+  {
+    "word": "vielen",
+    "start": 293.243,
+    "end": 293.744
+  },
+  {
+    "word": "Lounges",
+    "start": 293.744,
+    "end": 294.246
+  },
+  {
+    "word": "passiert",
+    "start": 294.246,
+    "end": 294.747
+  },
+  {
+    "word": "genau",
+    "start": 294.747,
+    "end": 295.249
+  },
+  {
+    "word": "das.",
+    "start": 295.249,
+    "end": 295.75
+  },
+  {
+    "word": "Es gibt",
+    "start": 296.05,
+    "end": 296.765
+  },
+  {
+    "word": "konkrete",
+    "start": 296.765,
+    "end": 297.48
+  },
+  {
+    "word": "Zeichen,",
+    "start": 297.48,
+    "end": 298.196
+  },
+  {
+    "word": "an denen",
+    "start": 298.196,
+    "end": 298.911
+  },
+  {
+    "word": "du schlechtes",
+    "start": 298.911,
+    "end": 299.626
+  },
+  {
+    "word": "Lounge-Essen",
+    "start": 299.626,
+    "end": 300.341
+  },
+  {
+    "word": "erkennst:",
+    "start": 300.341,
+    "end": 301.056
+  },
+  {
+    "word": "Dampf,",
+    "start": 301.056,
+    "end": 301.771
+  },
+  {
+    "word": "der nicht",
+    "start": 301.771,
+    "end": 302.487
+  },
+  {
+    "word": "mehr",
+    "start": 302.487,
+    "end": 303.202
+  },
+  {
+    "word": "aufsteigt",
+    "start": 303.202,
+    "end": 303.917
+  },
+  {
+    "word": "— ein",
+    "start": 303.917,
+    "end": 304.632
+  },
+  {
+    "word": "klares",
+    "start": 304.632,
+    "end": 305.347
+  },
+  {
+    "word": "Zeichen,",
+    "start": 305.347,
+    "end": 306.062
+  },
+  {
+    "word": "dass",
+    "start": 306.062,
+    "end": 306.778
+  },
+  {
+    "word": "das Essen",
+    "start": 306.778,
+    "end": 307.493
+  },
+  {
+    "word": "abgekühlt",
+    "start": 307.493,
+    "end": 308.208
+  },
+  {
+    "word": "ist. Angetrocknete",
+    "start": 308.208,
+    "end": 308.923
+  },
+  {
+    "word": "Ränder",
+    "start": 308.923,
+    "end": 309.638
+  },
+  {
+    "word": "bei Pastaschüsseln.",
+    "start": 309.638,
+    "end": 310.353
+  },
+  {
+    "word": "Und Personal,",
+    "start": 310.353,
+    "end": 311.069
+  },
+  {
+    "word": "das nie",
+    "start": 311.069,
+    "end": 311.784
+  },
+  {
+    "word": "das Buffet",
+    "start": 311.784,
+    "end": 312.499
+  },
+  {
+    "word": "kontrolliert.",
+    "start": 312.499,
+    "end": 313.214
+  },
+  {
+    "word": "Diese",
+    "start": 313.214,
+    "end": 313.929
+  },
+  {
+    "word": "drei",
+    "start": 313.929,
+    "end": 314.644
+  },
+  {
+    "word": "Signale",
+    "start": 314.644,
+    "end": 315.36
+  },
+  {
+    "word": "sind",
+    "start": 315.36,
+    "end": 316.075
+  },
+  {
+    "word": "ein Warnsystem.",
+    "start": 316.075,
+    "end": 316.79
+  },
+  {
+    "word": "Für Menschen",
+    "start": 317.09,
+    "end": 317.7
+  },
+  {
+    "word": "mit Lebensmittelallergien",
+    "start": 317.7,
+    "end": 318.309
+  },
+  {
+    "word": "ist die",
+    "start": 318.309,
+    "end": 318.919
+  },
+  {
+    "word": "Lounge",
+    "start": 318.919,
+    "end": 319.528
+  },
+  {
+    "word": "besonders",
+    "start": 319.528,
+    "end": 320.138
+  },
+  {
+    "word": "gefährlich.",
+    "start": 320.138,
+    "end": 320.748
+  },
+  {
+    "word": "Obwohl",
+    "start": 320.748,
+    "end": 321.357
+  },
+  {
+    "word": "Allergenkennzeichnung",
+    "start": 321.357,
+    "end": 321.967
+  },
+  {
+    "word": "in der",
+    "start": 321.967,
+    "end": 322.577
+  },
+  {
+    "word": "EU gesetzlich",
+    "start": 322.577,
+    "end": 323.186
+  },
+  {
+    "word": "vorgeschrieben",
+    "start": 323.186,
+    "end": 323.796
+  },
+  {
+    "word": "ist, fehlen",
+    "start": 323.796,
+    "end": 324.405
+  },
+  {
+    "word": "sie am",
+    "start": 324.405,
+    "end": 325.015
+  },
+  {
+    "word": "Lounge-Buffet",
+    "start": 325.015,
+    "end": 325.625
+  },
+  {
+    "word": "erschreckend",
+    "start": 325.625,
+    "end": 326.234
+  },
+  {
+    "word": "oft. Schätzungen",
+    "start": 326.234,
+    "end": 326.844
+  },
+  {
+    "word": "zufolge",
+    "start": 326.844,
+    "end": 327.453
+  },
+  {
+    "word": "kennzeichnen",
+    "start": 327.453,
+    "end": 328.063
+  },
+  {
+    "word": "weniger",
+    "start": 328.063,
+    "end": 328.673
+  },
+  {
+    "word": "als die",
+    "start": 328.673,
+    "end": 329.282
+  },
+  {
+    "word": "Hälfte",
+    "start": 329.282,
+    "end": 329.892
+  },
+  {
+    "word": "aller",
+    "start": 329.892,
+    "end": 330.502
+  },
+  {
+    "word": "europäischen",
+    "start": 330.502,
+    "end": 331.111
+  },
+  {
+    "word": "Lounge-Buffets",
+    "start": 331.111,
+    "end": 331.721
+  },
+  {
+    "word": "Allergene",
+    "start": 331.721,
+    "end": 332.33
+  },
+  {
+    "word": "korrekt.",
+    "start": 332.33,
+    "end": 332.94
+  },
+  {
+    "word": "Wer eine",
+    "start": 333.24,
+    "end": 333.827
+  },
+  {
+    "word": "Priority",
+    "start": 333.827,
+    "end": 334.415
+  },
+  {
+    "word": "Pass-Mitgliedschaft",
+    "start": 334.415,
+    "end": 335.002
+  },
+  {
+    "word": "zahlt,",
+    "start": 335.002,
+    "end": 335.59
+  },
+  {
+    "word": "investiert",
+    "start": 335.59,
+    "end": 336.177
+  },
+  {
+    "word": "oft über",
+    "start": 336.177,
+    "end": 336.765
+  },
+  {
+    "word": "400 Euro",
+    "start": 336.765,
+    "end": 337.352
+  },
+  {
+    "word": "im Jahr",
+    "start": 337.352,
+    "end": 337.94
+  },
+  {
+    "word": "— in",
+    "start": 337.94,
+    "end": 338.527
+  },
+  {
+    "word": "der Erwartung",
+    "start": 338.527,
+    "end": 339.115
+  },
+  {
+    "word": "echter",
+    "start": 339.115,
+    "end": 339.702
+  },
+  {
+    "word": "Premium-Qualität.",
+    "start": 339.702,
+    "end": 340.29
+  },
+  {
+    "word": "Was er",
+    "start": 340.29,
+    "end": 340.877
+  },
+  {
+    "word": "bekommt,",
+    "start": 340.877,
+    "end": 341.465
+  },
+  {
+    "word": "ist in",
+    "start": 341.465,
+    "end": 342.052
+  },
+  {
+    "word": "vielen",
+    "start": 342.052,
+    "end": 342.64
+  },
+  {
+    "word": "Fällen",
+    "start": 342.64,
+    "end": 343.227
+  },
+  {
+    "word": "aufgewärmtes",
+    "start": 343.227,
+    "end": 343.815
+  },
+  {
+    "word": "Mittelklasse-Catering,",
+    "start": 343.815,
+    "end": 344.402
+  },
+  {
+    "word": "das sich",
+    "start": 344.402,
+    "end": 344.99
+  },
+  {
+    "word": "hinter",
+    "start": 344.99,
+    "end": 345.577
+  },
+  {
+    "word": "Designmöbeln",
+    "start": 345.577,
+    "end": 346.165
+  },
+  {
+    "word": "und Erdnuss-Schalen",
+    "start": 346.165,
+    "end": 346.752
+  },
+  {
+    "word": "versteckt.",
+    "start": 346.752,
+    "end": 347.34
+  },
+  {
+    "word": "Es gibt",
+    "start": 347.64,
+    "end": 348.161
+  },
+  {
+    "word": "klare",
+    "start": 348.161,
+    "end": 348.681
+  },
+  {
+    "word": "Unterschiede.",
+    "start": 348.681,
+    "end": 349.202
+  },
+  {
+    "word": "Lounges,",
+    "start": 349.202,
+    "end": 349.723
+  },
+  {
+    "word": "die direkt",
+    "start": 349.723,
+    "end": 350.243
+  },
+  {
+    "word": "von Airlines",
+    "start": 350.243,
+    "end": 350.764
+  },
+  {
+    "word": "betrieben",
+    "start": 350.764,
+    "end": 351.285
+  },
+  {
+    "word": "werden",
+    "start": 351.285,
+    "end": 351.806
+  },
+  {
+    "word": "— wie",
+    "start": 351.806,
+    "end": 352.326
+  },
+  {
+    "word": "die Lufthansa",
+    "start": 352.326,
+    "end": 352.847
+  },
+  {
+    "word": "Senator",
+    "start": 352.847,
+    "end": 353.368
+  },
+  {
+    "word": "Lounge",
+    "start": 353.368,
+    "end": 353.888
+  },
+  {
+    "word": "oder",
+    "start": 353.888,
+    "end": 354.409
+  },
+  {
+    "word": "Singapores",
+    "start": 354.409,
+    "end": 354.93
+  },
+  {
+    "word": "The Private",
+    "start": 354.93,
+    "end": 355.45
+  },
+  {
+    "word": "Room",
+    "start": 355.45,
+    "end": 355.971
+  },
+  {
+    "word": "— haben",
+    "start": 355.971,
+    "end": 356.492
+  },
+  {
+    "word": "strengere",
+    "start": 356.492,
+    "end": 357.012
+  },
+  {
+    "word": "interne",
+    "start": 357.012,
+    "end": 357.533
+  },
+  {
+    "word": "Standards.",
+    "start": 357.533,
+    "end": 358.054
+  },
+  {
+    "word": "Aber",
+    "start": 358.054,
+    "end": 358.574
+  },
+  {
+    "word": "selbst",
+    "start": 358.574,
+    "end": 359.095
+  },
+  {
+    "word": "hier",
+    "start": 359.095,
+    "end": 359.616
+  },
+  {
+    "word": "gibt",
+    "start": 359.616,
+    "end": 360.137
+  },
+  {
+    "word": "es Ausnahmen.",
+    "start": 360.137,
+    "end": 360.657
+  },
+  {
+    "word": "Der Name",
+    "start": 360.657,
+    "end": 361.178
+  },
+  {
+    "word": "allein",
+    "start": 361.178,
+    "end": 361.699
+  },
+  {
+    "word": "garantiert",
+    "start": 361.699,
+    "end": 362.219
+  },
+  {
+    "word": "nichts.",
+    "start": 362.219,
+    "end": 362.74
+  },
+  {
+    "word": "Laut",
+    "start": 363.04,
+    "end": 363.597
+  },
+  {
+    "word": "dem jährlichen",
+    "start": 363.597,
+    "end": 364.153
+  },
+  {
+    "word": "Skytrax",
+    "start": 364.153,
+    "end": 364.71
+  },
+  {
+    "word": "Airport",
+    "start": 364.71,
+    "end": 365.266
+  },
+  {
+    "word": "Award",
+    "start": 365.266,
+    "end": 365.823
+  },
+  {
+    "word": "gehören",
+    "start": 365.823,
+    "end": 366.379
+  },
+  {
+    "word": "Lounges",
+    "start": 366.379,
+    "end": 366.936
+  },
+  {
+    "word": "in Singapur,",
+    "start": 366.936,
+    "end": 367.492
+  },
+  {
+    "word": "Katar",
+    "start": 367.492,
+    "end": 368.049
+  },
+  {
+    "word": "und Japan",
+    "start": 368.049,
+    "end": 368.606
+  },
+  {
+    "word": "zu den",
+    "start": 368.606,
+    "end": 369.162
+  },
+  {
+    "word": "besten",
+    "start": 369.162,
+    "end": 369.719
+  },
+  {
+    "word": "weltweit.",
+    "start": 369.719,
+    "end": 370.275
+  },
+  {
+    "word": "Diese",
+    "start": 370.275,
+    "end": 370.832
+  },
+  {
+    "word": "Lounges",
+    "start": 370.832,
+    "end": 371.388
+  },
+  {
+    "word": "kochen",
+    "start": 371.388,
+    "end": 371.945
+  },
+  {
+    "word": "tatsächlich",
+    "start": 371.945,
+    "end": 372.501
+  },
+  {
+    "word": "frisch,",
+    "start": 372.501,
+    "end": 373.058
+  },
+  {
+    "word": "wechseln",
+    "start": 373.058,
+    "end": 373.614
+  },
+  {
+    "word": "Speisen",
+    "start": 373.614,
+    "end": 374.171
+  },
+  {
+    "word": "regelmäßig",
+    "start": 374.171,
+    "end": 374.728
+  },
+  {
+    "word": "und beschäftigen",
+    "start": 374.728,
+    "end": 375.284
+  },
+  {
+    "word": "ausgebildetes",
+    "start": 375.284,
+    "end": 375.841
+  },
+  {
+    "word": "Küchenpersonal.",
+    "start": 375.841,
+    "end": 376.397
+  },
+  {
+    "word": "Sie zeigen,",
+    "start": 376.397,
+    "end": 376.954
+  },
+  {
+    "word": "was möglich",
+    "start": 376.954,
+    "end": 377.51
+  },
+  {
+    "word": "wäre",
+    "start": 377.51,
+    "end": 378.067
+  },
+  {
+    "word": "— wenn",
+    "start": 378.067,
+    "end": 378.623
+  },
+  {
+    "word": "man will.",
+    "start": 378.623,
+    "end": 379.18
+  },
+  {
+    "word": "Clevere",
+    "start": 379.48,
+    "end": 380.089
+  },
+  {
+    "word": "Lounge-Nutzer",
+    "start": 380.089,
+    "end": 380.699
+  },
+  {
+    "word": "nutzen",
+    "start": 380.699,
+    "end": 381.308
+  },
+  {
+    "word": "ein simples",
+    "start": 381.308,
+    "end": 381.917
+  },
+  {
+    "word": "System:",
+    "start": 381.917,
+    "end": 382.527
+  },
+  {
+    "word": "Sie schauen",
+    "start": 382.527,
+    "end": 383.136
+  },
+  {
+    "word": "sich",
+    "start": 383.136,
+    "end": 383.746
+  },
+  {
+    "word": "immer",
+    "start": 383.746,
+    "end": 384.355
+  },
+  {
+    "word": "zuerst",
+    "start": 384.355,
+    "end": 384.964
+  },
+  {
+    "word": "an, wann",
+    "start": 384.964,
+    "end": 385.574
+  },
+  {
+    "word": "das Buffet",
+    "start": 385.574,
+    "end": 386.183
+  },
+  {
+    "word": "zuletzt",
+    "start": 386.183,
+    "end": 386.792
+  },
+  {
+    "word": "erneuert",
+    "start": 386.792,
+    "end": 387.402
+  },
+  {
+    "word": "wurde.",
+    "start": 387.402,
+    "end": 388.011
+  },
+  {
+    "word": "Ist kein",
+    "start": 388.011,
+    "end": 388.621
+  },
+  {
+    "word": "Zeitstempel",
+    "start": 388.621,
+    "end": 389.23
+  },
+  {
+    "word": "sichtbar,",
+    "start": 389.23,
+    "end": 389.839
+  },
+  {
+    "word": "fragen",
+    "start": 389.839,
+    "end": 390.449
+  },
+  {
+    "word": "sie nach.",
+    "start": 390.449,
+    "end": 391.058
+  },
+  {
+    "word": "Und wenn",
+    "start": 391.058,
+    "end": 391.667
+  },
+  {
+    "word": "kein",
+    "start": 391.667,
+    "end": 392.277
+  },
+  {
+    "word": "Personal",
+    "start": 392.277,
+    "end": 392.886
+  },
+  {
+    "word": "antworten",
+    "start": 392.886,
+    "end": 393.496
+  },
+  {
+    "word": "kann",
+    "start": 393.496,
+    "end": 394.105
+  },
+  {
+    "word": "— oder",
+    "start": 394.105,
+    "end": 394.714
+  },
+  {
+    "word": "will",
+    "start": 394.714,
+    "end": 395.324
+  },
+  {
+    "word": "— ist",
+    "start": 395.324,
+    "end": 395.933
+  },
+  {
+    "word": "das Essen",
+    "start": 395.933,
+    "end": 396.542
+  },
+  {
+    "word": "tabu.",
+    "start": 396.542,
+    "end": 397.152
+  },
+  {
+    "word": "So schützt",
+    "start": 397.152,
+    "end": 397.761
+  },
+  {
+    "word": "du dich",
+    "start": 397.761,
+    "end": 398.371
+  },
+  {
+    "word": "effektiv.",
+    "start": 398.371,
+    "end": 398.98
+  },
+  {
+    "word": "Airlines",
+    "start": 399.28,
+    "end": 399.851
+  },
+  {
+    "word": "profitieren",
+    "start": 399.851,
+    "end": 400.422
+  },
+  {
+    "word": "doppelt:",
+    "start": 400.422,
+    "end": 400.992
+  },
+  {
+    "word": "Sie erheben",
+    "start": 400.992,
+    "end": 401.563
+  },
+  {
+    "word": "hohe",
+    "start": 401.563,
+    "end": 402.134
+  },
+  {
+    "word": "Lounge-Gebühren",
+    "start": 402.134,
+    "end": 402.705
+  },
+  {
+    "word": "oder",
+    "start": 402.705,
+    "end": 403.275
+  },
+  {
+    "word": "verkaufen",
+    "start": 403.275,
+    "end": 403.846
+  },
+  {
+    "word": "teure",
+    "start": 403.846,
+    "end": 404.417
+  },
+  {
+    "word": "Business-Class-Tickets",
+    "start": 404.417,
+    "end": 404.988
+  },
+  {
+    "word": "— und",
+    "start": 404.988,
+    "end": 405.558
+  },
+  {
+    "word": "outsourcen",
+    "start": 405.558,
+    "end": 406.129
+  },
+  {
+    "word": "dann",
+    "start": 406.129,
+    "end": 406.7
+  },
+  {
+    "word": "das Catering",
+    "start": 406.7,
+    "end": 407.271
+  },
+  {
+    "word": "an den",
+    "start": 407.271,
+    "end": 407.842
+  },
+  {
+    "word": "günstigsten",
+    "start": 407.842,
+    "end": 408.412
+  },
+  {
+    "word": "Anbieter.",
+    "start": 408.412,
+    "end": 408.983
+  },
+  {
+    "word": "Der Gewinn",
+    "start": 408.983,
+    "end": 409.554
+  },
+  {
+    "word": "bleibt",
+    "start": 409.554,
+    "end": 410.125
+  },
+  {
+    "word": "oben.",
+    "start": 410.125,
+    "end": 410.695
+  },
+  {
+    "word": "Die Qualität",
+    "start": 410.695,
+    "end": 411.266
+  },
+  {
+    "word": "bleibt",
+    "start": 411.266,
+    "end": 411.837
+  },
+  {
+    "word": "aus. Und",
+    "start": 411.837,
+    "end": 412.408
+  },
+  {
+    "word": "der Passagier",
+    "start": 412.408,
+    "end": 412.978
+  },
+  {
+    "word": "zahlt",
+    "start": 412.978,
+    "end": 413.549
+  },
+  {
+    "word": "beides.",
+    "start": 413.549,
+    "end": 414.12
+  },
+  {
+    "word": "Die Pandemie",
+    "start": 414.42,
+    "end": 415.022
+  },
+  {
+    "word": "hat die",
+    "start": 415.022,
+    "end": 415.625
+  },
+  {
+    "word": "Situation",
+    "start": 415.625,
+    "end": 416.227
+  },
+  {
+    "word": "verschlimmert.",
+    "start": 416.227,
+    "end": 416.83
+  },
+  {
+    "word": "Viele",
+    "start": 416.83,
+    "end": 417.432
+  },
+  {
+    "word": "Lounges",
+    "start": 417.432,
+    "end": 418.034
+  },
+  {
+    "word": "haben",
+    "start": 418.034,
+    "end": 418.637
+  },
+  {
+    "word": "ihr Personal",
+    "start": 418.637,
+    "end": 419.239
+  },
+  {
+    "word": "2020",
+    "start": 419.239,
+    "end": 419.842
+  },
+  {
+    "word": "entlassen",
+    "start": 419.842,
+    "end": 420.444
+  },
+  {
+    "word": "und nie",
+    "start": 420.444,
+    "end": 421.046
+  },
+  {
+    "word": "vollständig",
+    "start": 421.046,
+    "end": 421.649
+  },
+  {
+    "word": "ersetzt.",
+    "start": 421.649,
+    "end": 422.251
+  },
+  {
+    "word": "Seitdem",
+    "start": 422.251,
+    "end": 422.854
+  },
+  {
+    "word": "wird",
+    "start": 422.854,
+    "end": 423.456
+  },
+  {
+    "word": "mit weniger",
+    "start": 423.456,
+    "end": 424.058
+  },
+  {
+    "word": "Personal",
+    "start": 424.058,
+    "end": 424.661
+  },
+  {
+    "word": "mehr",
+    "start": 424.661,
+    "end": 425.263
+  },
+  {
+    "word": "abgedeckt",
+    "start": 425.263,
+    "end": 425.866
+  },
+  {
+    "word": "— mit",
+    "start": 425.866,
+    "end": 426.468
+  },
+  {
+    "word": "direkten",
+    "start": 426.468,
+    "end": 427.07
+  },
+  {
+    "word": "Konsequenzen",
+    "start": 427.07,
+    "end": 427.673
+  },
+  {
+    "word": "für Hygiene,",
+    "start": 427.673,
+    "end": 428.275
+  },
+  {
+    "word": "Buffet-Kontrolle",
+    "start": 428.275,
+    "end": 428.878
+  },
+  {
+    "word": "und Servicequalität.",
+    "start": 428.878,
+    "end": 429.48
+  },
+  {
+    "word": "In Frequent-Flyer-Communities",
+    "start": 429.78,
+    "end": 430.384
+  },
+  {
+    "word": "wie FlyerTalk",
+    "start": 430.384,
+    "end": 430.987
+  },
+  {
+    "word": "oder",
+    "start": 430.987,
+    "end": 431.591
+  },
+  {
+    "word": "dem Miles",
+    "start": 431.591,
+    "end": 432.195
+  },
+  {
+    "word": "and More",
+    "start": 432.195,
+    "end": 432.799
+  },
+  {
+    "word": "Forum",
+    "start": 432.799,
+    "end": 433.402
+  },
+  {
+    "word": "häufen",
+    "start": 433.402,
+    "end": 434.006
+  },
+  {
+    "word": "sich",
+    "start": 434.006,
+    "end": 434.61
+  },
+  {
+    "word": "die Beschwerden.",
+    "start": 434.61,
+    "end": 435.213
+  },
+  {
+    "word": "Vielflieger",
+    "start": 435.213,
+    "end": 435.817
+  },
+  {
+    "word": "berichten",
+    "start": 435.817,
+    "end": 436.421
+  },
+  {
+    "word": "von sinkender",
+    "start": 436.421,
+    "end": 437.024
+  },
+  {
+    "word": "Qualität",
+    "start": 437.024,
+    "end": 437.628
+  },
+  {
+    "word": "seit",
+    "start": 437.628,
+    "end": 438.232
+  },
+  {
+    "word": "2022",
+    "start": 438.232,
+    "end": 438.836
+  },
+  {
+    "word": "— weniger",
+    "start": 438.836,
+    "end": 439.439
+  },
+  {
+    "word": "Auswahl,",
+    "start": 439.439,
+    "end": 440.043
+  },
+  {
+    "word": "längere",
+    "start": 440.043,
+    "end": 440.647
+  },
+  {
+    "word": "Standzeiten,",
+    "start": 440.647,
+    "end": 441.25
+  },
+  {
+    "word": "schlechterer",
+    "start": 441.25,
+    "end": 441.854
+  },
+  {
+    "word": "Service.",
+    "start": 441.854,
+    "end": 442.458
+  },
+  {
+    "word": "Die Unzufriedenheit",
+    "start": 442.458,
+    "end": 443.061
+  },
+  {
+    "word": "wächst,",
+    "start": 443.061,
+    "end": 443.665
+  },
+  {
+    "word": "aber",
+    "start": 443.665,
+    "end": 444.269
+  },
+  {
+    "word": "laut",
+    "start": 444.269,
+    "end": 444.873
+  },
+  {
+    "word": "wird",
+    "start": 444.873,
+    "end": 445.476
+  },
+  {
+    "word": "sie kaum.",
+    "start": 445.476,
+    "end": 446.08
+  },
+  {
+    "word": "Ja —",
+    "start": 446.38,
+    "end": 446.923
+  },
+  {
+    "word": "und es",
+    "start": 446.923,
+    "end": 447.466
+  },
+  {
+    "word": "ist einfacher",
+    "start": 447.466,
+    "end": 448.009
+  },
+  {
+    "word": "als du",
+    "start": 448.009,
+    "end": 448.552
+  },
+  {
+    "word": "denkst.",
+    "start": 448.552,
+    "end": 449.095
+  },
+  {
+    "word": "Vermeide",
+    "start": 449.095,
+    "end": 449.637
+  },
+  {
+    "word": "unabgedeckte",
+    "start": 449.637,
+    "end": 450.18
+  },
+  {
+    "word": "Speisen.",
+    "start": 450.18,
+    "end": 450.723
+  },
+  {
+    "word": "Wähle",
+    "start": 450.723,
+    "end": 451.266
+  },
+  {
+    "word": "frisch",
+    "start": 451.266,
+    "end": 451.809
+  },
+  {
+    "word": "zubereitetes",
+    "start": 451.809,
+    "end": 452.352
+  },
+  {
+    "word": "à la",
+    "start": 452.352,
+    "end": 452.895
+  },
+  {
+    "word": "carte,",
+    "start": 452.895,
+    "end": 453.438
+  },
+  {
+    "word": "wenn",
+    "start": 453.438,
+    "end": 453.981
+  },
+  {
+    "word": "verfügbar.",
+    "start": 453.981,
+    "end": 454.524
+  },
+  {
+    "word": "Halte",
+    "start": 454.524,
+    "end": 455.066
+  },
+  {
+    "word": "dich",
+    "start": 455.066,
+    "end": 455.609
+  },
+  {
+    "word": "an versiegelte",
+    "start": 455.609,
+    "end": 456.152
+  },
+  {
+    "word": "Snacks.",
+    "start": 456.152,
+    "end": 456.695
+  },
+  {
+    "word": "Und frage",
+    "start": 456.695,
+    "end": 457.238
+  },
+  {
+    "word": "aktiv",
+    "start": 457.238,
+    "end": 457.781
+  },
+  {
+    "word": "nach,",
+    "start": 457.781,
+    "end": 458.324
+  },
+  {
+    "word": "wann",
+    "start": 458.324,
+    "end": 458.867
+  },
+  {
+    "word": "das Buffet",
+    "start": 458.867,
+    "end": 459.41
+  },
+  {
+    "word": "aufgefüllt",
+    "start": 459.41,
+    "end": 459.953
+  },
+  {
+    "word": "wurde.",
+    "start": 459.953,
+    "end": 460.495
+  },
+  {
+    "word": "Dein",
+    "start": 460.495,
+    "end": 461.038
+  },
+  {
+    "word": "Magen",
+    "start": 461.038,
+    "end": 461.581
+  },
+  {
+    "word": "wird",
+    "start": 461.581,
+    "end": 462.124
+  },
+  {
+    "word": "es dir",
+    "start": 462.124,
+    "end": 462.667
+  },
+  {
+    "word": "danken.",
+    "start": 462.667,
+    "end": 463.21
+  },
+  {
+    "word": "Acht",
+    "start": 463.51,
+    "end": 464.207
+  },
+  {
+    "word": "Lügen.",
+    "start": 464.207,
+    "end": 464.904
+  },
+  {
+    "word": "Eine",
+    "start": 464.904,
+    "end": 465.601
+  },
+  {
+    "word": "Wahrheit:",
+    "start": 465.601,
+    "end": 466.298
+  },
+  {
+    "word": "Das Premium-Erlebnis",
+    "start": 466.298,
+    "end": 466.995
+  },
+  {
+    "word": "der Flughafenlounge",
+    "start": 466.995,
+    "end": 467.692
+  },
+  {
+    "word": "ist in",
+    "start": 467.692,
+    "end": 468.389
+  },
+  {
+    "word": "vielen",
+    "start": 468.389,
+    "end": 469.086
+  },
+  {
+    "word": "Fällen",
+    "start": 469.086,
+    "end": 469.784
+  },
+  {
+    "word": "eine",
+    "start": 469.784,
+    "end": 470.481
+  },
+  {
+    "word": "sorgfältig",
+    "start": 470.481,
+    "end": 471.178
+  },
+  {
+    "word": "inszenierte",
+    "start": 471.178,
+    "end": 471.875
+  },
+  {
+    "word": "Illusion.",
+    "start": 471.875,
+    "end": 472.572
+  },
+  {
+    "word": "Recyceltes",
+    "start": 472.572,
+    "end": 473.269
+  },
+  {
+    "word": "Essen,",
+    "start": 473.269,
+    "end": 473.966
+  },
+  {
+    "word": "falsche",
+    "start": 473.966,
+    "end": 474.663
+  },
+  {
+    "word": "Zertifikate,",
+    "start": 474.663,
+    "end": 475.36
+  },
+  {
+    "word": "kein",
+    "start": 475.36,
+    "end": 476.057
+  },
+  {
+    "word": "echter",
+    "start": 476.057,
+    "end": 476.754
+  },
+  {
+    "word": "Koch,",
+    "start": 476.754,
+    "end": 477.451
+  },
+  {
+    "word": "kein",
+    "start": 477.451,
+    "end": 478.148
+  },
+  {
+    "word": "echter",
+    "start": 478.148,
+    "end": 478.845
+  },
+  {
+    "word": "Champagner.",
+    "start": 478.845,
+    "end": 479.542
+  },
+  {
+    "word": "Wer es",
+    "start": 479.542,
+    "end": 480.239
+  },
+  {
+    "word": "weiß,",
+    "start": 480.239,
+    "end": 480.936
+  },
+  {
+    "word": "isst",
+    "start": 480.936,
+    "end": 481.634
+  },
+  {
+    "word": "anders.",
+    "start": 481.634,
+    "end": 482.331
+  },
+  {
+    "word": "Und wer",
+    "start": 482.331,
+    "end": 483.028
+  },
+  {
+    "word": "es nicht",
+    "start": 483.028,
+    "end": 483.725
+  },
+  {
+    "word": "weiß,",
+    "start": 483.725,
+    "end": 484.422
+  },
+  {
+    "word": "zahlt",
+    "start": 484.422,
+    "end": 485.119
+  },
+  {
+    "word": "den Preis",
+    "start": 485.119,
+    "end": 485.816
+  },
+  {
+    "word": "— manchmal",
+    "start": 485.816,
+    "end": 486.513
+  },
+  {
+    "word": "buchstäblich.",
+    "start": 486.513,
+    "end": 487.21
+  },
+  {
+    "word": "Die Lösung",
+    "start": 487.51,
+    "end": 488.107
+  },
+  {
+    "word": "wäre",
+    "start": 488.107,
+    "end": 488.705
+  },
+  {
+    "word": "simpel:",
+    "start": 488.705,
+    "end": 489.302
+  },
+  {
+    "word": "verbindliche",
+    "start": 489.302,
+    "end": 489.9
+  },
+  {
+    "word": "Mindeststandards",
+    "start": 489.9,
+    "end": 490.497
+  },
+  {
+    "word": "für Lounge-Catering,",
+    "start": 490.497,
+    "end": 491.095
+  },
+  {
+    "word": "transparente",
+    "start": 491.095,
+    "end": 491.692
+  },
+  {
+    "word": "Zeitstempel",
+    "start": 491.692,
+    "end": 492.29
+  },
+  {
+    "word": "auf allen",
+    "start": 492.29,
+    "end": 492.887
+  },
+  {
+    "word": "Buffetspeisen",
+    "start": 492.887,
+    "end": 493.485
+  },
+  {
+    "word": "und unangekündigte",
+    "start": 493.485,
+    "end": 494.082
+  },
+  {
+    "word": "Hygienechecks.",
+    "start": 494.082,
+    "end": 494.68
+  },
+  {
+    "word": "Einige",
+    "start": 494.68,
+    "end": 495.277
+  },
+  {
+    "word": "Länder",
+    "start": 495.277,
+    "end": 495.875
+  },
+  {
+    "word": "wie die",
+    "start": 495.875,
+    "end": 496.472
+  },
+  {
+    "word": "Niederlande",
+    "start": 496.472,
+    "end": 497.07
+  },
+  {
+    "word": "und Schweden",
+    "start": 497.07,
+    "end": 497.667
+  },
+  {
+    "word": "gehen",
+    "start": 497.667,
+    "end": 498.265
+  },
+  {
+    "word": "diesen",
+    "start": 498.265,
+    "end": 498.862
+  },
+  {
+    "word": "Weg bereits.",
+    "start": 498.862,
+    "end": 499.46
+  },
+  {
+    "word": "Andere",
+    "start": 499.46,
+    "end": 500.057
+  },
+  {
+    "word": "hinken",
+    "start": 500.057,
+    "end": 500.655
+  },
+  {
+    "word": "weit",
+    "start": 500.655,
+    "end": 501.252
+  },
+  {
+    "word": "hinterher.",
+    "start": 501.252,
+    "end": 501.85
+  },
+  {
+    "word": "Es gibt",
+    "start": 502.15,
+    "end": 502.76
+  },
+  {
+    "word": "Lichtblicke.",
+    "start": 502.76,
+    "end": 503.369
+  },
+  {
+    "word": "Emirates",
+    "start": 503.369,
+    "end": 503.979
+  },
+  {
+    "word": "hat nach",
+    "start": 503.979,
+    "end": 504.589
+  },
+  {
+    "word": "internen",
+    "start": 504.589,
+    "end": 505.198
+  },
+  {
+    "word": "Beschwerden",
+    "start": 505.198,
+    "end": 505.808
+  },
+  {
+    "word": "2023",
+    "start": 505.808,
+    "end": 506.417
+  },
+  {
+    "word": "begonnen,",
+    "start": 506.417,
+    "end": 507.027
+  },
+  {
+    "word": "in ausgewählten",
+    "start": 507.027,
+    "end": 507.637
+  },
+  {
+    "word": "Lounges",
+    "start": 507.637,
+    "end": 508.246
+  },
+  {
+    "word": "Buffet-Zeitstempel",
+    "start": 508.246,
+    "end": 508.856
+  },
+  {
+    "word": "einzuführen.",
+    "start": 508.856,
+    "end": 509.466
+  },
+  {
+    "word": "Singapore",
+    "start": 509.466,
+    "end": 510.075
+  },
+  {
+    "word": "Airlines",
+    "start": 510.075,
+    "end": 510.685
+  },
+  {
+    "word": "schult",
+    "start": 510.685,
+    "end": 511.295
+  },
+  {
+    "word": "sein",
+    "start": 511.295,
+    "end": 511.904
+  },
+  {
+    "word": "Lounge-Personal",
+    "start": 511.904,
+    "end": 512.514
+  },
+  {
+    "word": "seit",
+    "start": 512.514,
+    "end": 513.124
+  },
+  {
+    "word": "Jahren",
+    "start": 513.124,
+    "end": 513.733
+  },
+  {
+    "word": "intensiver",
+    "start": 513.733,
+    "end": 514.343
+  },
+  {
+    "word": "als die",
+    "start": 514.343,
+    "end": 514.952
+  },
+  {
+    "word": "meisten",
+    "start": 514.952,
+    "end": 515.562
+  },
+  {
+    "word": "Konkurrenten.",
+    "start": 515.562,
+    "end": 516.172
+  },
+  {
+    "word": "Veränderung",
+    "start": 516.172,
+    "end": 516.781
+  },
+  {
+    "word": "ist möglich",
+    "start": 516.781,
+    "end": 517.391
+  },
+  {
+    "word": "— wenn",
+    "start": 517.391,
+    "end": 518.001
+  },
+  {
+    "word": "Druck",
+    "start": 518.001,
+    "end": 518.61
+  },
+  {
+    "word": "entsteht.",
+    "start": 518.61,
+    "end": 519.22
+  },
+  {
+    "word": "Jetzt",
+    "start": 519.52,
+    "end": 520.02
+  },
+  {
+    "word": "weißt",
+    "start": 520.02,
+    "end": 520.521
+  },
+  {
+    "word": "du, was",
+    "start": 520.521,
+    "end": 521.021
+  },
+  {
+    "word": "andere",
+    "start": 521.021,
+    "end": 521.521
+  },
+  {
+    "word": "nicht",
+    "start": 521.521,
+    "end": 522.022
+  },
+  {
+    "word": "wissen.",
+    "start": 522.022,
+    "end": 522.522
+  },
+  {
+    "word": "Du kannst",
+    "start": 522.522,
+    "end": 523.022
+  },
+  {
+    "word": "das Buffet",
+    "start": 523.022,
+    "end": 523.523
+  },
+  {
+    "word": "mit anderen",
+    "start": 523.523,
+    "end": 524.023
+  },
+  {
+    "word": "Augen",
+    "start": 524.023,
+    "end": 524.523
+  },
+  {
+    "word": "sehen",
+    "start": 524.523,
+    "end": 525.024
+  },
+  {
+    "word": "— und",
+    "start": 525.024,
+    "end": 525.524
+  },
+  {
+    "word": "bessere",
+    "start": 525.524,
+    "end": 526.024
+  },
+  {
+    "word": "Entscheidungen",
+    "start": 526.024,
+    "end": 526.525
+  },
+  {
+    "word": "treffen.",
+    "start": 526.525,
+    "end": 527.025
+  },
+  {
+    "word": "Teile",
+    "start": 527.025,
+    "end": 527.525
+  },
+  {
+    "word": "dieses",
+    "start": 527.525,
+    "end": 528.026
+  },
+  {
+    "word": "Wissen",
+    "start": 528.026,
+    "end": 528.526
+  },
+  {
+    "word": "mit Freunden,",
+    "start": 528.526,
+    "end": 529.026
+  },
+  {
+    "word": "die oft",
+    "start": 529.026,
+    "end": 529.527
+  },
+  {
+    "word": "fliegen.",
+    "start": 529.527,
+    "end": 530.027
+  },
+  {
+    "word": "Vielleicht",
+    "start": 530.027,
+    "end": 530.527
+  },
+  {
+    "word": "schützt",
+    "start": 530.527,
+    "end": 531.028
+  },
+  {
+    "word": "du jemanden",
+    "start": 531.028,
+    "end": 531.528
+  },
+  {
+    "word": "vor einer",
+    "start": 531.528,
+    "end": 532.028
+  },
+  {
+    "word": "unangenehmen",
+    "start": 532.028,
+    "end": 532.529
+  },
+  {
+    "word": "Erfahrung",
+    "start": 532.529,
+    "end": 533.029
+  },
+  {
+    "word": "— oder",
+    "start": 533.029,
+    "end": 533.529
+  },
+  {
+    "word": "schlechter",
+    "start": 533.529,
+    "end": 534.03
+  },
+  {
+    "word": "noch.",
+    "start": 534.03,
+    "end": 534.53
+  },
+  {
+    "word": "Wenn",
+    "start": 534.83,
+    "end": 535.333
+  },
+  {
+    "word": "dich",
+    "start": 535.333,
+    "end": 535.837
+  },
+  {
+    "word": "das überrascht",
+    "start": 535.837,
+    "end": 536.34
+  },
+  {
+    "word": "hat, dann",
+    "start": 536.34,
+    "end": 536.844
+  },
+  {
+    "word": "abonniere",
+    "start": 536.844,
+    "end": 537.347
+  },
+  {
+    "word": "diesen",
+    "start": 537.347,
+    "end": 537.851
+  },
+  {
+    "word": "Kanal",
+    "start": 537.851,
+    "end": 538.354
+  },
+  {
+    "word": "— denn",
+    "start": 538.354,
+    "end": 538.857
+  },
+  {
+    "word": "wir decken",
+    "start": 538.857,
+    "end": 539.361
+  },
+  {
+    "word": "regelmäßig",
+    "start": 539.361,
+    "end": 539.864
+  },
+  {
+    "word": "auf, was",
+    "start": 539.864,
+    "end": 540.368
+  },
+  {
+    "word": "hinter",
+    "start": 540.368,
+    "end": 540.871
+  },
+  {
+    "word": "den Kulissen",
+    "start": 540.871,
+    "end": 541.375
+  },
+  {
+    "word": "der Reisebranche",
+    "start": 541.375,
+    "end": 541.878
+  },
+  {
+    "word": "wirklich",
+    "start": 541.878,
+    "end": 542.382
+  },
+  {
+    "word": "passiert.",
+    "start": 542.382,
+    "end": 542.885
+  },
+  {
+    "word": "Klick",
+    "start": 542.885,
+    "end": 543.388
+  },
+  {
+    "word": "auf die",
+    "start": 543.388,
+    "end": 543.892
+  },
+  {
+    "word": "Glocke,",
+    "start": 543.892,
+    "end": 544.395
+  },
+  {
+    "word": "damit",
+    "start": 544.395,
+    "end": 544.899
+  },
+  {
+    "word": "du kein",
+    "start": 544.899,
+    "end": 545.402
+  },
+  {
+    "word": "Video",
+    "start": 545.402,
+    "end": 545.906
+  },
+  {
+    "word": "verpasst.",
+    "start": 545.906,
+    "end": 546.409
+  },
+  {
+    "word": "Und schreib",
+    "start": 546.409,
+    "end": 546.912
+  },
+  {
+    "word": "uns in",
+    "start": 546.912,
+    "end": 547.416
+  },
+  {
+    "word": "die Kommentare:",
+    "start": 547.416,
+    "end": 547.919
+  },
+  {
+    "word": "Hast",
+    "start": 547.919,
+    "end": 548.423
+  },
+  {
+    "word": "du selbst",
+    "start": 548.423,
+    "end": 548.926
+  },
+  {
+    "word": "schon",
+    "start": 548.926,
+    "end": 549.43
+  },
+  {
+    "word": "schlechte",
+    "start": 549.43,
+    "end": 549.933
+  },
+  {
+    "word": "Lounge-Erfahrungen",
+    "start": 549.933,
+    "end": 550.437
+  },
+  {
+    "word": "gemacht?",
+    "start": 550.437,
+    "end": 550.94
   }
 ]

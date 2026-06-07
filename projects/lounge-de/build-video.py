@@ -41,7 +41,7 @@ MUSIC      = SHARED / "music" / "sleep-music-chris-haugen.mp3"
 # ── ✏️  EDIT THESE ─────────────────────────────────────────────────────────────
 MUSIC_VOL  = 0.24   # background music volume (0.0–1.0); raise for louder bg music
 SWOOSH_VOL = 0.35   # swoosh SFX volume
-SRC_OFFSET = 1.0    # seconds to skip at start of source (use >0 to cut dark intros)
+SRC_OFFSET = 0.0    # seconds to skip at start of source (use >0 to cut dark intros)
 # ── end of editable section ───────────────────────────────────────────────────
 
 Path(OUT_VIDEO).parent.mkdir(parents=True, exist_ok=True)
@@ -87,7 +87,7 @@ if abs(timing_end - VOICE_DUR) > 0.5:
 
 words = [w for w in words if w["start"] < DURATION]
 
-ass_content = build_ass(words, width=WIDTH, height=HEIGHT, words_per_line=5)
+ass_content = build_ass(words, width=WIDTH, height=HEIGHT, words_per_line=3)
 ass_path = HERE / "output" / "captions.ass"
 ass_path.write_text(ass_content, encoding="utf-8")
 print(f"Captions: {len(words)} words → {ass_path.name}")

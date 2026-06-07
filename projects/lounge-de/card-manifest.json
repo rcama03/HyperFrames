@@ -1,148 +1,130 @@
 {
   "cards": [
     {
-      "id": "chap-lounge",
-      "path": "card-frames/chap-lounge.png",
+      "id": "chap-schock",
+      "path": "card-frames/chap-schock.png",
       "inTime": 0.5,
       "outTime": 5.5
     },
     {
-      "id": "chap-trick3",
-      "path": "card-frames/chap-trick3.png",
-      "inTime": 97,
-      "outTime": 102
+      "id": "chap-luege2",
+      "path": "card-frames/chap-luege2.png",
+      "inTime": 80.5,
+      "outTime": 85.5
     },
     {
-      "id": "chap-frage",
-      "path": "card-frames/chap-frage.png",
-      "inTime": 194.5,
-      "outTime": 199.5
+      "id": "chap-kosten",
+      "path": "card-frames/chap-kosten.png",
+      "inTime": 160.5,
+      "outTime": 165.5
     },
     {
-      "id": "chap-hinweis",
-      "path": "card-frames/chap-hinweis.png",
-      "inTime": 291.5,
-      "outTime": 296.5
+      "id": "chap-luege6",
+      "path": "card-frames/chap-luege6.png",
+      "inTime": 241,
+      "outTime": 246
     },
     {
-      "id": "chap-fehler",
-      "path": "card-frames/chap-fehler.png",
-      "inTime": 388.5,
-      "outTime": 393.5
+      "id": "chap-preis",
+      "path": "card-frames/chap-preis.png",
+      "inTime": 333,
+      "outTime": 338
     },
     {
-      "id": "chap-airlines",
-      "path": "card-frames/chap-airlines.png",
-      "inTime": 485.6,
-      "outTime": 490.6
+      "id": "chap-corona",
+      "path": "card-frames/chap-corona.png",
+      "inTime": 414,
+      "outTime": 419
     },
     {
-      "id": "chap-unterschied",
-      "path": "card-frames/chap-unterschied.png",
-      "inTime": 508.5,
-      "outTime": 513.5
-    },
-    {
-      "id": "stat-80pct",
-      "path": "card-frames/stat-80pct.png",
-      "inTime": 2,
-      "outTime": 7
-    },
-    {
-      "id": "stat-50euro",
-      "path": "card-frames/stat-50euro.png",
-      "inTime": 18,
-      "outTime": 23
-    },
-    {
-      "id": "stat-1300",
-      "path": "card-frames/stat-1300.png",
-      "inTime": 48,
-      "outTime": 53
-    },
-    {
-      "id": "stat-1500",
-      "path": "card-frames/stat-1500.png",
-      "inTime": 63.5,
-      "outTime": 68.5
-    },
-    {
-      "id": "stat-80euro",
-      "path": "card-frames/stat-80euro.png",
-      "inTime": 84,
-      "outTime": 89
+      "id": "chap-hoffnung",
+      "path": "card-frames/chap-hoffnung.png",
+      "inTime": 502,
+      "outTime": 507
     },
     {
       "id": "stat-40pct",
       "path": "card-frames/stat-40pct.png",
-      "inTime": 113.5,
-      "outTime": 118.5
+      "inTime": 50,
+      "outTime": 55
     },
     {
-      "id": "stat-8pct",
-      "path": "card-frames/stat-8pct.png",
-      "inTime": 181,
-      "outTime": 186
+      "id": "stat-100plus",
+      "path": "card-frames/stat-100plus.png",
+      "inTime": 109,
+      "outTime": 114
     },
     {
-      "id": "stat-150euro",
-      "path": "card-frames/stat-150euro.png",
-      "inTime": 196.5,
-      "outTime": 201.5
+      "id": "stat-keim2h",
+      "path": "card-frames/stat-keim2h.png",
+      "inTime": 129,
+      "outTime": 134
     },
     {
-      "id": "stat-70pct",
-      "path": "card-frames/stat-70pct.png",
-      "inTime": 336,
-      "outTime": 341
+      "id": "stat-3euro",
+      "path": "card-frames/stat-3euro.png",
+      "inTime": 167,
+      "outTime": 172
     },
     {
-      "id": "stat-7mrd",
-      "path": "card-frames/stat-7mrd.png",
-      "inTime": 467.5,
-      "outTime": 472.5
+      "id": "stat-30pct",
+      "path": "card-frames/stat-30pct.png",
+      "inTime": 221,
+      "outTime": 226
     },
     {
-      "id": "key-gratis",
-      "path": "card-frames/key-gratis.png",
-      "inTime": 33.5,
-      "outTime": 38.5
+      "id": "stat-allergen",
+      "path": "card-frames/stat-allergen.png",
+      "inTime": 317,
+      "outTime": 322
     },
     {
-      "id": "key-companion",
-      "path": "card-frames/key-companion.png",
-      "inTime": 100,
-      "outTime": 105
+      "id": "stat-400euro",
+      "path": "card-frames/stat-400euro.png",
+      "inTime": 326,
+      "outTime": 331
     },
     {
-      "id": "key-eu261",
-      "path": "card-frames/key-eu261.png",
-      "inTime": 143,
-      "outTime": 148
+      "id": "key-ungekuehlt",
+      "path": "card-frames/key-ungekuehlt.png",
+      "inTime": 7,
+      "outTime": 12
     },
     {
-      "id": "key-voucher",
-      "path": "card-frames/key-voucher.png",
-      "inTime": 165.5,
-      "outTime": 170.5
+      "id": "key-theater",
+      "path": "card-frames/key-theater.png",
+      "inTime": 103,
+      "outTime": 108
     },
     {
-      "id": "key-trial",
-      "path": "card-frames/key-trial.png",
-      "inTime": 232,
-      "outTime": 237
+      "id": "key-wiederverwertet",
+      "path": "card-frames/key-wiederverwertet.png",
+      "inTime": 149,
+      "outTime": 154
     },
     {
-      "id": "key-asia",
-      "path": "card-frames/key-asia.png",
-      "inTime": 451,
-      "outTime": 456
+      "id": "key-zertifikat",
+      "path": "card-frames/key-zertifikat.png",
+      "inTime": 182,
+      "outTime": 187
     },
     {
-      "id": "key-aktionsplan",
-      "path": "card-frames/key-aktionsplan.png",
-      "inTime": 488.5,
-      "outTime": 493.5
+      "id": "key-grauzone",
+      "path": "card-frames/key-grauzone.png",
+      "inTime": 189,
+      "outTime": 194
+    },
+    {
+      "id": "key-warnsystem",
+      "path": "card-frames/key-warnsystem.png",
+      "inTime": 303,
+      "outTime": 308
+    },
+    {
+      "id": "key-illusion",
+      "path": "card-frames/key-illusion.png",
+      "inTime": 450,
+      "outTime": 455
     }
   ]
 }

@@ -1,16 +1,16 @@
 /**
  * Renders motion graphics cards for lounge-de project.
  * Output: card-frames/*.png + card-manifest.json
- * Source video: 1280×720, voiceover 540.624s (scale=0.971245 from timings 0–556.63s)
  *
- * Chapter timestamps (user-specified, scaled to voiceover):
- *   0:00  → 0.5s   "Schockierende Lounge-Fakt"
- *   1:37  → 97.0s  "Trick 3 —"
- *   3:14  → 194.5s "Du Die Frage"
- *   4:51  → 291.5s "Wichtiger Hinweis Zur"
- *   6:28  → 388.5s "Häufigste Fehler Beim"
- *   8:05  → 485.6s "Airlines Nicht Wollen,"
- *   8:28  → 508.5s "Entscheidende Unterschied Z"
+ * Video: 1280×720, voiceover 534.24s (timings.json scaled ×0.9697)
+ * Chapter timestamps (user-specified video time):
+ *   0:00 → 0.5s   "Schmutzige Schock"
+ *   1:20 → 80.5s  "Lüge Nr. 2"
+ *   2:40 → 160.5s "Kosten-Rechnung Dahinter"
+ *   4:01 → 241.0s "Lüge Nr. 6"
+ *   5:33 → 333.0s "Echte Preis Des"
+ *   6:54 → 414.0s "Corona-Nachwirkung"
+ *   8:22 → 502.0s "Hoffnung — Veränderung"
  */
 
 import pkg from '/opt/node22/lib/node_modules/playwright/index.js';
@@ -26,42 +26,37 @@ mkdirSync(outDir, { recursive: true });
 const W = 1280, H = 720;
 const GOLD = '#FFD700';
 
-// ── Card definitions — all timings in voiceover-scaled seconds (0–540s) ───────
-// All cards are exactly 5s duration. ONE card on screen at a time.
+// All inTime/outTime in actual video seconds (voiceover-scaled). ONE card visible at a time.
 const cards = [
   // ── Chapter cards — top-left navy/cyan ──────────────────────────────────────
-  { id: 'chap-lounge',      type: 'chapter', inTime: 0.5,   outTime: 5.5,   text: 'Schockierende\nLounge-Fakt' },
-  { id: 'chap-trick3',      type: 'chapter', inTime: 97.0,  outTime: 102.0, text: 'Trick 3 —' },
-  { id: 'chap-frage',       type: 'chapter', inTime: 194.5, outTime: 199.5, text: 'Du Die Frage' },
-  { id: 'chap-hinweis',     type: 'chapter', inTime: 291.5, outTime: 296.5, text: 'Wichtiger Hinweis\nZur' },
-  { id: 'chap-fehler',      type: 'chapter', inTime: 388.5, outTime: 393.5, text: 'Häufigste Fehler\nBeim' },
-  { id: 'chap-airlines',    type: 'chapter', inTime: 485.6, outTime: 490.6, text: 'Airlines Nicht\nWollen,' },
-  { id: 'chap-unterschied', type: 'chapter', inTime: 508.5, outTime: 513.5, text: 'Entscheidende\nUnterschied Z' },
+  { id: 'chap-schock',     type: 'chapter', inTime: 0.5,   outTime: 5.5,   text: 'Schmutzige\nSchock' },
+  { id: 'chap-luege2',     type: 'chapter', inTime: 80.5,  outTime: 85.5,  text: 'Lüge Nr. 2' },
+  { id: 'chap-kosten',     type: 'chapter', inTime: 160.5, outTime: 165.5, text: 'Kosten-Rechnung\nDahinter' },
+  { id: 'chap-luege6',     type: 'chapter', inTime: 241.0, outTime: 246.0, text: 'Lüge Nr. 6' },
+  { id: 'chap-preis',      type: 'chapter', inTime: 333.0, outTime: 338.0, text: 'Echter Preis\nDes' },
+  { id: 'chap-corona',     type: 'chapter', inTime: 414.0, outTime: 419.0, text: 'Corona-\nNachwirkung' },
+  { id: 'chap-hoffnung',   type: 'chapter', inTime: 502.0, outTime: 507.0, text: 'Hoffnung —\nVeränderung' },
 
   // ── Stat cards — bottom-left gold stripe, big number ────────────────────────
-  { id: 'stat-80pct',   type: 'stat', inTime: 2.0,   outTime: 7.0,   label: 'ZAHLEN FÜR LOUNGE-ZUGANG',  value: '80 %',    sub: 'der Reisenden — obwohl es kostenlos geht',          icon: '✈️' },
-  { id: 'stat-50euro',  type: 'stat', inTime: 18.0,  outTime: 23.0,  label: 'LOUNGE-BESUCH WERT',         value: '50 €',    sub: 'im Durchschnitt — die meisten zahlen 0',            icon: '💰' },
-  { id: 'stat-1300',    type: 'stat', inTime: 48.0,  outTime: 53.0,  label: 'LOUNGES WELTWEIT',           value: '1.300',   sub: 'mit Premium-Kreditkarte — kein Aufpreis',           icon: '💳' },
-  { id: 'stat-1500',    type: 'stat', inTime: 63.5,  outTime: 68.5,  label: 'PRIORITY PASS LOUNGES',      value: '1.500',   sub: 'in mehr als 145 Ländern weltweit',                  icon: '🌍' },
-  { id: 'stat-80euro',  type: 'stat', inTime: 84.0,  outTime: 89.0,  label: 'GÜNSTIGSTE STATUSFLÜGE AB',  value: '80 €',    sub: 'ein Flug genügt für Lounge-Zugang',                 icon: '🎫' },
-  { id: 'stat-40pct',   type: 'stat', inTime: 113.5, outTime: 118.5, label: 'RABATT VIA APPS',            value: '40 %',    sub: 'LoungeBuddy, Regus — selbe Lounges günstiger',      icon: '📱' },
-  { id: 'stat-8pct',    type: 'stat', inTime: 181.0, outTime: 186.0, label: 'BEANTRAGEN IHRE RECHTE',     value: '< 8 %',   sub: 'der berechtigten Passagiere bei Verspätung',        icon: '⚖️' },
-  { id: 'stat-150euro', type: 'stat', inTime: 196.5, outTime: 201.5, label: 'BUSINESS-UPGRADE AB',        value: '150 €',   sub: 'manchmal schon ab 80 € vor dem Abflug',             icon: '🏆' },
-  { id: 'stat-70pct',   type: 'stat', inTime: 336.0, outTime: 341.0, label: 'LOUNGE-BESUCHER',            value: '70 %',    sub: 'haben nie aktiv nach Alternativen gefragt',         icon: '🚪' },
-  { id: 'stat-7mrd',    type: 'stat', inTime: 467.5, outTime: 472.5, label: 'FLUGREISENDE BIS 2030',      value: '7 Mrd.',  sub: 'Nachfrage nach Premium-Lounges steigt stark',        icon: '📈' },
+  { id: 'stat-40pct',      type: 'stat', inTime: 50.0,  outTime: 55.0,  label: 'GETESTETE BUFFETS',          value: '40 %',   sub: 'unter Warmhalte-Mindesttemperaturen',        icon: '🌡️' },
+  { id: 'stat-100plus',    type: 'stat', inTime: 109.0, outTime: 114.0, label: 'FLÜGE PRO JAHR',             value: '100+',   sub: 'Vielflieger meiden das Buffet komplett',     icon: '✈️' },
+  { id: 'stat-keim2h',     type: 'stat', inTime: 129.0, outTime: 134.0, label: 'KRITISCHE KEIMWERTE',        value: '2 Std.', sub: 'Obst bei Raumtemperatur — dann gefährlich',  icon: '⚠️' },
+  { id: 'stat-3euro',      type: 'stat', inTime: 167.0, outTime: 172.0, label: 'PRO LOUNGE-BESUCHER',        value: '3–8 €',  sub: 'Airlines kalkulieren für Essen & Getränke', icon: '💰' },
+  { id: 'stat-30pct',      type: 'stat', inTime: 221.0, outTime: 226.0, label: 'ECHTER CHAMPAGNER',          value: '30 %',   sub: 'der Lounges servieren ihn wirklich',         icon: '🥂' },
+  { id: 'stat-allergen',   type: 'stat', inTime: 317.0, outTime: 322.0, label: 'EU-LOUNGE-BUFFETS',          value: '< 50 %', sub: 'kennzeichnen Allergene korrekt',             icon: '⚖️' },
+  { id: 'stat-400euro',    type: 'stat', inTime: 326.0, outTime: 331.0, label: 'PRIORITY PASS JAHRESGEBÜHR', value: '400 €+', sub: 'für angebliche Premium-Qualität',             icon: '💳' },
 
-  // ── Key cards — bottom-left gold badge + text ────────────────────────────────
-  { id: 'key-gratis',      type: 'key', inTime: 33.5,  outTime: 38.5,  tag: 'SYSTEM',       text: 'Airlines verdienen Milliarden —\ndu kannst kostenlos eintreten' },
-  { id: 'key-companion',   type: 'key', inTime: 100.0, outTime: 105.0, tag: 'BONUS',        text: 'Begleitperson kostenlos\nmitbringen — legal & problemlos' },
-  { id: 'key-eu261',       type: 'key', inTime: 143.0, outTime: 148.0, tag: 'TRICK 6',      text: 'EU-Verordnung 261 —\ngesetzlicher Lounge-Anspruch' },
-  { id: 'key-voucher',     type: 'key', inTime: 165.5, outTime: 170.5, tag: 'FORMULIERUNG', text: '»Kann ich einen\nLounge-Voucher erhalten?«' },
-  { id: 'key-trial',       type: 'key', inTime: 232.0, outTime: 237.0, tag: 'TESTZEITRAUM', text: '30–90 Tage kostenlos —\ndann fristgerecht kündigen' },
-  { id: 'key-asia',        type: 'key', inTime: 451.0, outTime: 456.0, tag: 'ASIEN-TIPP',   text: 'Singapur, Seoul, Tokio:\nBedingungen großzügiger' },
-  { id: 'key-aktionsplan', type: 'key', inTime: 488.5, outTime: 493.5, tag: 'DEIN PLAN',    text: 'Kreditkarte prüfen +\nEU-261 auf Handy speichern' },
+  // ── Key cards — bottom-left gold badge + punchy heading ─────────────────────
+  { id: 'key-ungekuehlt',      type: 'key', inTime: 7.0,   outTime: 12.0,  tag: 'SCHOCK',       text: '6 Stunden.\nUngekühlt.' },
+  { id: 'key-theater',         type: 'key', inTime: 103.0, outTime: 108.0, tag: 'FRISCHETHEKE', text: 'Kochschürze?\nReines Theater.' },
+  { id: 'key-wiederverwertet', type: 'key', inTime: 149.0, outTime: 154.0, tag: 'LÜGE NR. 5',   text: 'Nicht weggeworfen.\nWiederverwertet.' },
+  { id: 'key-zertifikat',      type: 'key', inTime: 182.0, outTime: 187.0, tag: 'ZERTIFIKAT',   text: 'Kein Schutz.\nNur Marketing.' },
+  { id: 'key-grauzone',        type: 'key', inTime: 189.0, outTime: 194.0, tag: 'GESETZESLAGE', text: 'Regulatorische\nGrauzone.' },
+  { id: 'key-warnsystem',      type: 'key', inTime: 303.0, outTime: 308.0, tag: 'WARNSYSTEM',   text: 'Kein Dampf.\nTrocken. Kein Personal.' },
+  { id: 'key-illusion',        type: 'key', inTime: 450.0, outTime: 455.0, tag: 'WAHRHEIT',     text: 'Sorgfältig inszenierte\nIllusion.' },
 ];
 
-
-// ── Styles (scaled for 1280×720) ──────────────────────────────────────────────
+// ── Styles (1280×720) ─────────────────────────────────────────────────────────
 const mgStyle = `
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap');
