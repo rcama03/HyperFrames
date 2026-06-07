@@ -1,0 +1,76 @@
+{
+  "cards": [
+    {
+      "id": "chap-einstieg",
+      "path": "card-frames/chap-einstieg.png",
+      "inTime": 0.5,
+      "outTime": 5.5
+    },
+    {
+      "id": "chap-gehirn",
+      "path": "card-frames/chap-gehirn.png",
+      "inTime": 57,
+      "outTime": 62
+    },
+    {
+      "id": "chap-stille",
+      "path": "card-frames/chap-stille.png",
+      "inTime": 106,
+      "outTime": 111
+    },
+    {
+      "id": "chap-flugzeug",
+      "path": "card-frames/chap-flugzeug.png",
+      "inTime": 166,
+      "outTime": 171
+    },
+    {
+      "id": "stat-95pct",
+      "path": "card-frames/stat-95pct.png",
+      "inTime": 14,
+      "outTime": 19
+    },
+    {
+      "id": "stat-30verletzt",
+      "path": "card-frames/stat-30verletzt.png",
+      "inTime": 44,
+      "outTime": 49
+    },
+    {
+      "id": "stat-55pct",
+      "path": "card-frames/stat-55pct.png",
+      "inTime": 89,
+      "outTime": 94
+    },
+    {
+      "id": "stat-60pct",
+      "path": "card-frames/stat-60pct.png",
+      "inTime": 143,
+      "outTime": 148
+    },
+    {
+      "id": "key-passagier",
+      "path": "card-frames/key-passagier.png",
+      "inTime": 28,
+      "outTime": 33
+    },
+    {
+      "id": "key-panikreflex",
+      "path": "card-frames/key-panikreflex.png",
+      "inTime": 70,
+      "outTime": 75
+    },
+    {
+      "id": "key-cat",
+      "path": "card-frames/key-cat.png",
+      "inTime": 120,
+      "outTime": 125
+    },
+    {
+      "id": "key-crew",
+      "path": "card-frames/key-crew.png",
+      "inTime": 208,
+      "outTime": 213
+    }
+  ]
+}

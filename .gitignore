@@ -28,6 +28,7 @@ coverage/
 output/
 !packages/producer/tests/*/output/
 !projects/strahlung-de/output/
+!projects/turbulenz-de/output/
 
 # npm pack artifacts
 *.tgz
@@ -51,4 +52,7 @@ projects/lounge-de/source-video.mp4
 projects/lounge-de/voiceover.mp3
 projects/strahlung-de/source-video.mp4
 projects/strahlung-de/voiceover.mp3
+projects/turbulenz-de/source-video.mp4
+projects/turbulenz-de/voiceover.mp3
+projects/turbulenz-de/swoosh.mp3
 projects/strahlung-de/swoosh.mp3
