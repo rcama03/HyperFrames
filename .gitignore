@@ -27,6 +27,7 @@ coverage/
 # Rendered output (not test fixtures — those use git LFS)
 output/
 !packages/producer/tests/*/output/
+!projects/strahlung-de/output/
 
 # npm pack artifacts
 *.tgz
@@ -48,3 +49,5 @@ projects/dvt-de/source-video.mp4
 projects/baggage-de/source-video.mp4
 projects/lounge-de/source-video.mp4
 projects/lounge-de/voiceover.mp3
+projects/strahlung-de/source-video.mp4
+projects/strahlung-de/voiceover.mp3

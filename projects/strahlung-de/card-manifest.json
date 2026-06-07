@@ -1,0 +1,130 @@
+{
+  "cards": [
+    {
+      "id": "chap-einstieg",
+      "path": "card-frames/chap-einstieg.png",
+      "inTime": 0.5,
+      "outTime": 5.5
+    },
+    {
+      "id": "chap-sonne",
+      "path": "card-frames/chap-sonne.png",
+      "inTime": 82,
+      "outTime": 87
+    },
+    {
+      "id": "chap-kurz",
+      "path": "card-frames/chap-kurz.png",
+      "inTime": 181,
+      "outTime": 186
+    },
+    {
+      "id": "chap-hilft",
+      "path": "card-frames/chap-hilft.png",
+      "inTime": 268,
+      "outTime": 273
+    },
+    {
+      "id": "chap-behoerde",
+      "path": "card-frames/chap-behoerde.png",
+      "inTime": 358,
+      "outTime": 363
+    },
+    {
+      "id": "chap-wahrheit",
+      "path": "card-frames/chap-wahrheit.png",
+      "inTime": 443,
+      "outTime": 448
+    },
+    {
+      "id": "chap-relativierung",
+      "path": "card-frames/chap-relativierung.png",
+      "inTime": 529,
+      "outTime": 534
+    },
+    {
+      "id": "stat-10x",
+      "path": "card-frames/stat-10x.png",
+      "inTime": 7,
+      "outTime": 12
+    },
+    {
+      "id": "stat-1msv",
+      "path": "card-frames/stat-1msv.png",
+      "inTime": 48,
+      "outTime": 53
+    },
+    {
+      "id": "stat-6msv",
+      "path": "card-frames/stat-6msv.png",
+      "inTime": 73,
+      "outTime": 78
+    },
+    {
+      "id": "stat-30pct",
+      "path": "card-frames/stat-30pct.png",
+      "inTime": 122,
+      "outTime": 127
+    },
+    {
+      "id": "stat-51pct",
+      "path": "card-frames/stat-51pct.png",
+      "inTime": 203,
+      "outTime": 208
+    },
+    {
+      "id": "stat-56min",
+      "path": "card-frames/stat-56min.png",
+      "inTime": 247,
+      "outTime": 252
+    },
+    {
+      "id": "stat-12flug",
+      "path": "card-frames/stat-12flug.png",
+      "inTime": 405,
+      "outTime": 410
+    },
+    {
+      "id": "key-roentgen",
+      "path": "card-frames/key-roentgen.png",
+      "inTime": 14,
+      "outTime": 19
+    },
+    {
+      "id": "key-kernkraft",
+      "path": "card-frames/key-kernkraft.png",
+      "inTime": 61,
+      "outTime": 66
+    },
+    {
+      "id": "key-passagier",
+      "path": "card-frames/key-passagier.png",
+      "inTime": 96,
+      "outTime": 101
+    },
+    {
+      "id": "key-dna",
+      "path": "card-frames/key-dna.png",
+      "inTime": 148,
+      "outTime": 153
+    },
+    {
+      "id": "key-sievert",
+      "path": "card-frames/key-sievert.png",
+      "inTime": 285,
+      "outTime": 290
+    },
+    {
+      "id": "key-schwanger",
+      "path": "card-frames/key-schwanger.png",
+      "inTime": 478,
+      "outTime": 483
+    },
+    {
+      "id": "key-wissen",
+      "path": "card-frames/key-wissen.png",
+      "inTime": 551,
+      "outTime": 556
+    }
+  ]
+}

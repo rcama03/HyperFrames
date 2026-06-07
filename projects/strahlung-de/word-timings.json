@@ -1,0 +1,4682 @@
+[
+  {
+    "word": "Ein einziger",
+    "start": 0.0,
+    "end": 0.592
+  },
+  {
+    "word": "Langstreckenflug",
+    "start": 0.592,
+    "end": 1.183
+  },
+  {
+    "word": "von Frankfurt",
+    "start": 1.183,
+    "end": 1.775
+  },
+  {
+    "word": "nach",
+    "start": 1.775,
+    "end": 2.366
+  },
+  {
+    "word": "New York",
+    "start": 2.366,
+    "end": 2.958
+  },
+  {
+    "word": "setzt",
+    "start": 2.958,
+    "end": 3.55
+  },
+  {
+    "word": "dich",
+    "start": 3.55,
+    "end": 4.141
+  },
+  {
+    "word": "einer",
+    "start": 4.141,
+    "end": 4.733
+  },
+  {
+    "word": "Strahlendosis",
+    "start": 4.733,
+    "end": 5.324
+  },
+  {
+    "word": "aus, die",
+    "start": 5.324,
+    "end": 5.916
+  },
+  {
+    "word": "zehnmal",
+    "start": 5.916,
+    "end": 6.508
+  },
+  {
+    "word": "höher",
+    "start": 6.508,
+    "end": 7.099
+  },
+  {
+    "word": "ist als",
+    "start": 7.099,
+    "end": 7.691
+  },
+  {
+    "word": "eine",
+    "start": 7.691,
+    "end": 8.282
+  },
+  {
+    "word": "normale",
+    "start": 8.282,
+    "end": 8.874
+  },
+  {
+    "word": "Röntgenaufnahme",
+    "start": 8.874,
+    "end": 9.466
+  },
+  {
+    "word": "beim",
+    "start": 9.466,
+    "end": 10.057
+  },
+  {
+    "word": "Arzt.",
+    "start": 10.057,
+    "end": 10.649
+  },
+  {
+    "word": "Das weiß",
+    "start": 10.649,
+    "end": 11.24
+  },
+  {
+    "word": "kaum",
+    "start": 11.24,
+    "end": 11.832
+  },
+  {
+    "word": "jemand",
+    "start": 11.832,
+    "end": 12.424
+  },
+  {
+    "word": "— aber",
+    "start": 12.424,
+    "end": 13.015
+  },
+  {
+    "word": "es ist",
+    "start": 13.015,
+    "end": 13.607
+  },
+  {
+    "word": "wissenschaftlich",
+    "start": 13.607,
+    "end": 14.198
+  },
+  {
+    "word": "belegt.",
+    "start": 14.198,
+    "end": 14.79
+  },
+  {
+    "word": "Aber",
+    "start": 15.09,
+    "end": 15.599
+  },
+  {
+    "word": "das ist",
+    "start": 15.599,
+    "end": 16.109
+  },
+  {
+    "word": "noch",
+    "start": 16.109,
+    "end": 16.618
+  },
+  {
+    "word": "nicht",
+    "start": 16.618,
+    "end": 17.127
+  },
+  {
+    "word": "das Beunruhigendste.",
+    "start": 17.127,
+    "end": 17.636
+  },
+  {
+    "word": "Studien",
+    "start": 17.636,
+    "end": 18.146
+  },
+  {
+    "word": "der Harvard",
+    "start": 18.146,
+    "end": 18.655
+  },
+  {
+    "word": "University",
+    "start": 18.655,
+    "end": 19.164
+  },
+  {
+    "word": "zeigen,",
+    "start": 19.164,
+    "end": 19.674
+  },
+  {
+    "word": "dass",
+    "start": 19.674,
+    "end": 20.183
+  },
+  {
+    "word": "Piloten",
+    "start": 20.183,
+    "end": 20.692
+  },
+  {
+    "word": "und Flugbegleiter",
+    "start": 20.692,
+    "end": 21.201
+  },
+  {
+    "word": "eine",
+    "start": 21.201,
+    "end": 21.711
+  },
+  {
+    "word": "signifikant",
+    "start": 21.711,
+    "end": 22.22
+  },
+  {
+    "word": "höhere",
+    "start": 22.22,
+    "end": 22.729
+  },
+  {
+    "word": "Rate",
+    "start": 22.729,
+    "end": 23.239
+  },
+  {
+    "word": "bestimmter",
+    "start": 23.239,
+    "end": 23.748
+  },
+  {
+    "word": "Krebsarten",
+    "start": 23.748,
+    "end": 24.257
+  },
+  {
+    "word": "haben",
+    "start": 24.257,
+    "end": 24.766
+  },
+  {
+    "word": "als der",
+    "start": 24.766,
+    "end": 25.276
+  },
+  {
+    "word": "Durchschnittsbürger.",
+    "start": 25.276,
+    "end": 25.785
+  },
+  {
+    "word": "Das kommt",
+    "start": 25.785,
+    "end": 26.294
+  },
+  {
+    "word": "nicht",
+    "start": 26.294,
+    "end": 26.804
+  },
+  {
+    "word": "von ungefähr",
+    "start": 26.804,
+    "end": 27.313
+  },
+  {
+    "word": "— und",
+    "start": 27.313,
+    "end": 27.822
+  },
+  {
+    "word": "es betrifft",
+    "start": 27.822,
+    "end": 28.331
+  },
+  {
+    "word": "auch",
+    "start": 28.331,
+    "end": 28.841
+  },
+  {
+    "word": "dich.",
+    "start": 28.841,
+    "end": 29.35
+  },
+  {
+    "word": "Fangen",
+    "start": 29.65,
+    "end": 30.175
+  },
+  {
+    "word": "wir von",
+    "start": 30.175,
+    "end": 30.7
+  },
+  {
+    "word": "vorne",
+    "start": 30.7,
+    "end": 31.225
+  },
+  {
+    "word": "an. Was",
+    "start": 31.225,
+    "end": 31.751
+  },
+  {
+    "word": "genau",
+    "start": 31.751,
+    "end": 32.276
+  },
+  {
+    "word": "ist diese",
+    "start": 32.276,
+    "end": 32.801
+  },
+  {
+    "word": "Strahlung,",
+    "start": 32.801,
+    "end": 33.326
+  },
+  {
+    "word": "über",
+    "start": 33.326,
+    "end": 33.851
+  },
+  {
+    "word": "die wir",
+    "start": 33.851,
+    "end": 34.376
+  },
+  {
+    "word": "sprechen?",
+    "start": 34.376,
+    "end": 34.902
+  },
+  {
+    "word": "In großen",
+    "start": 34.902,
+    "end": 35.427
+  },
+  {
+    "word": "Flughöhen",
+    "start": 35.427,
+    "end": 35.952
+  },
+  {
+    "word": "— typischerweise",
+    "start": 35.952,
+    "end": 36.477
+  },
+  {
+    "word": "zwischen",
+    "start": 36.477,
+    "end": 37.002
+  },
+  {
+    "word": "10.000",
+    "start": 37.002,
+    "end": 37.527
+  },
+  {
+    "word": "und 12.000",
+    "start": 37.527,
+    "end": 38.053
+  },
+  {
+    "word": "Metern",
+    "start": 38.053,
+    "end": 38.578
+  },
+  {
+    "word": "— ist",
+    "start": 38.578,
+    "end": 39.103
+  },
+  {
+    "word": "die schützende",
+    "start": 39.103,
+    "end": 39.628
+  },
+  {
+    "word": "Atmosphäre",
+    "start": 39.628,
+    "end": 40.153
+  },
+  {
+    "word": "viel",
+    "start": 40.153,
+    "end": 40.678
+  },
+  {
+    "word": "dünner.",
+    "start": 40.678,
+    "end": 41.204
+  },
+  {
+    "word": "Kosmische",
+    "start": 41.204,
+    "end": 41.729
+  },
+  {
+    "word": "Teilchen",
+    "start": 41.729,
+    "end": 42.254
+  },
+  {
+    "word": "aus dem",
+    "start": 42.254,
+    "end": 42.779
+  },
+  {
+    "word": "Weltall",
+    "start": 42.779,
+    "end": 43.304
+  },
+  {
+    "word": "treffen",
+    "start": 43.304,
+    "end": 43.829
+  },
+  {
+    "word": "dich",
+    "start": 43.829,
+    "end": 44.355
+  },
+  {
+    "word": "dort",
+    "start": 44.355,
+    "end": 44.88
+  },
+  {
+    "word": "fast",
+    "start": 44.88,
+    "end": 45.405
+  },
+  {
+    "word": "ungebremst.",
+    "start": 45.405,
+    "end": 45.93
+  },
+  {
+    "word": "Die Internationale",
+    "start": 46.23,
+    "end": 46.861
+  },
+  {
+    "word": "Strahlenschutzkommission",
+    "start": 46.861,
+    "end": 47.492
+  },
+  {
+    "word": "hat festgelegt,",
+    "start": 47.492,
+    "end": 48.122
+  },
+  {
+    "word": "dass",
+    "start": 48.122,
+    "end": 48.753
+  },
+  {
+    "word": "Zivilpersonen",
+    "start": 48.753,
+    "end": 49.384
+  },
+  {
+    "word": "maximal",
+    "start": 49.384,
+    "end": 50.015
+  },
+  {
+    "word": "1 Millisievert",
+    "start": 50.015,
+    "end": 50.645
+  },
+  {
+    "word": "Strahlung",
+    "start": 50.645,
+    "end": 51.276
+  },
+  {
+    "word": "pro Jahr",
+    "start": 51.276,
+    "end": 51.907
+  },
+  {
+    "word": "erhalten",
+    "start": 51.907,
+    "end": 52.538
+  },
+  {
+    "word": "sollten.",
+    "start": 52.538,
+    "end": 53.168
+  },
+  {
+    "word": "Ein einziger",
+    "start": 53.168,
+    "end": 53.799
+  },
+  {
+    "word": "Flug",
+    "start": 53.799,
+    "end": 54.43
+  },
+  {
+    "word": "New York–Frankfurt",
+    "start": 54.43,
+    "end": 55.061
+  },
+  {
+    "word": "liefert",
+    "start": 55.061,
+    "end": 55.692
+  },
+  {
+    "word": "bereits",
+    "start": 55.692,
+    "end": 56.322
+  },
+  {
+    "word": "0,08",
+    "start": 56.322,
+    "end": 56.953
+  },
+  {
+    "word": "Millisievert.",
+    "start": 56.953,
+    "end": 57.584
+  },
+  {
+    "word": "Wer 12",
+    "start": 57.584,
+    "end": 58.215
+  },
+  {
+    "word": "Mal im",
+    "start": 58.215,
+    "end": 58.845
+  },
+  {
+    "word": "Jahr",
+    "start": 58.845,
+    "end": 59.476
+  },
+  {
+    "word": "fliegt,",
+    "start": 59.476,
+    "end": 60.107
+  },
+  {
+    "word": "überschreitet",
+    "start": 60.107,
+    "end": 60.738
+  },
+  {
+    "word": "diese",
+    "start": 60.738,
+    "end": 61.368
+  },
+  {
+    "word": "Grenze",
+    "start": 61.368,
+    "end": 61.999
+  },
+  {
+    "word": "deutlich.",
+    "start": 61.999,
+    "end": 62.63
+  },
+  {
+    "word": "Und jetzt",
+    "start": 62.93,
+    "end": 63.706
+  },
+  {
+    "word": "kommt",
+    "start": 63.706,
+    "end": 64.482
+  },
+  {
+    "word": "der Teil,",
+    "start": 64.482,
+    "end": 65.258
+  },
+  {
+    "word": "der Vielflieger",
+    "start": 65.258,
+    "end": 66.034
+  },
+  {
+    "word": "sofort",
+    "start": 66.034,
+    "end": 66.81
+  },
+  {
+    "word": "trifft.",
+    "start": 66.81,
+    "end": 67.586
+  },
+  {
+    "word": "Piloten",
+    "start": 67.586,
+    "end": 68.362
+  },
+  {
+    "word": "und Flugbegleiter",
+    "start": 68.362,
+    "end": 69.138
+  },
+  {
+    "word": "gelten",
+    "start": 69.138,
+    "end": 69.914
+  },
+  {
+    "word": "nach",
+    "start": 69.914,
+    "end": 70.69
+  },
+  {
+    "word": "EU-Recht",
+    "start": 70.69,
+    "end": 71.466
+  },
+  {
+    "word": "offiziell",
+    "start": 71.466,
+    "end": 72.242
+  },
+  {
+    "word": "als beruflich",
+    "start": 72.242,
+    "end": 73.018
+  },
+  {
+    "word": "strahlenexponierte",
+    "start": 73.018,
+    "end": 73.794
+  },
+  {
+    "word": "Personen",
+    "start": 73.794,
+    "end": 74.57
+  },
+  {
+    "word": "— genau",
+    "start": 74.57,
+    "end": 75.346
+  },
+  {
+    "word": "wie Kernkraftwerk-Mitarbeiter.",
+    "start": 75.346,
+    "end": 76.122
+  },
+  {
+    "word": "Sie erhalten",
+    "start": 76.122,
+    "end": 76.898
+  },
+  {
+    "word": "bis zu",
+    "start": 76.898,
+    "end": 77.674
+  },
+  {
+    "word": "6 Millisievert",
+    "start": 77.674,
+    "end": 78.45
+  },
+  {
+    "word": "pro Jahr",
+    "start": 78.45,
+    "end": 79.226
+  },
+  {
+    "word": "— sechsmal",
+    "start": 79.226,
+    "end": 80.002
+  },
+  {
+    "word": "über",
+    "start": 80.002,
+    "end": 80.778
+  },
+  {
+    "word": "der Grenze",
+    "start": 80.778,
+    "end": 81.554
+  },
+  {
+    "word": "für Normalverbraucher.",
+    "start": 81.554,
+    "end": 82.33
+  },
+  {
+    "word": "Aber",
+    "start": 82.63,
+    "end": 83.205
+  },
+  {
+    "word": "normale",
+    "start": 83.205,
+    "end": 83.781
+  },
+  {
+    "word": "Hintergrundstrahlung",
+    "start": 83.781,
+    "end": 84.356
+  },
+  {
+    "word": "ist nur",
+    "start": 84.356,
+    "end": 84.932
+  },
+  {
+    "word": "die halbe",
+    "start": 84.932,
+    "end": 85.507
+  },
+  {
+    "word": "Geschichte.",
+    "start": 85.507,
+    "end": 86.082
+  },
+  {
+    "word": "Bei sogenannten",
+    "start": 86.082,
+    "end": 86.658
+  },
+  {
+    "word": "Sonneneruptionen",
+    "start": 86.658,
+    "end": 87.233
+  },
+  {
+    "word": "— also",
+    "start": 87.233,
+    "end": 87.808
+  },
+  {
+    "word": "massiven",
+    "start": 87.808,
+    "end": 88.384
+  },
+  {
+    "word": "Energieausbrüchen",
+    "start": 88.384,
+    "end": 88.959
+  },
+  {
+    "word": "auf der",
+    "start": 88.959,
+    "end": 89.535
+  },
+  {
+    "word": "Sonne",
+    "start": 89.535,
+    "end": 90.11
+  },
+  {
+    "word": "— kann",
+    "start": 90.11,
+    "end": 90.685
+  },
+  {
+    "word": "die Strahlendosis",
+    "start": 90.685,
+    "end": 91.261
+  },
+  {
+    "word": "im Cockpit",
+    "start": 91.261,
+    "end": 91.836
+  },
+  {
+    "word": "innerhalb",
+    "start": 91.836,
+    "end": 92.412
+  },
+  {
+    "word": "von Minuten",
+    "start": 92.412,
+    "end": 92.987
+  },
+  {
+    "word": "auf das",
+    "start": 92.987,
+    "end": 93.562
+  },
+  {
+    "word": "Vielfache",
+    "start": 93.562,
+    "end": 94.138
+  },
+  {
+    "word": "ansteigen.",
+    "start": 94.138,
+    "end": 94.713
+  },
+  {
+    "word": "Und das",
+    "start": 94.713,
+    "end": 95.288
+  },
+  {
+    "word": "passiert",
+    "start": 95.288,
+    "end": 95.864
+  },
+  {
+    "word": "häufiger",
+    "start": 95.864,
+    "end": 96.439
+  },
+  {
+    "word": "als du",
+    "start": 96.439,
+    "end": 97.015
+  },
+  {
+    "word": "denkst.",
+    "start": 97.015,
+    "end": 97.59
+  },
+  {
+    "word": "Lufthansa,",
+    "start": 97.89,
+    "end": 98.505
+  },
+  {
+    "word": "Delta",
+    "start": 98.505,
+    "end": 99.12
+  },
+  {
+    "word": "und andere",
+    "start": 99.12,
+    "end": 99.734
+  },
+  {
+    "word": "Großfluglinien",
+    "start": 99.734,
+    "end": 100.349
+  },
+  {
+    "word": "haben",
+    "start": 100.349,
+    "end": 100.964
+  },
+  {
+    "word": "eigene",
+    "start": 100.964,
+    "end": 101.579
+  },
+  {
+    "word": "Strahlungsmonitore",
+    "start": 101.579,
+    "end": 102.194
+  },
+  {
+    "word": "an Bord",
+    "start": 102.194,
+    "end": 102.808
+  },
+  {
+    "word": "und Protokolle",
+    "start": 102.808,
+    "end": 103.423
+  },
+  {
+    "word": "für Sonnenstürme.",
+    "start": 103.423,
+    "end": 104.038
+  },
+  {
+    "word": "Bei extremen",
+    "start": 104.038,
+    "end": 104.653
+  },
+  {
+    "word": "Ereignissen",
+    "start": 104.653,
+    "end": 105.268
+  },
+  {
+    "word": "wird",
+    "start": 105.268,
+    "end": 105.882
+  },
+  {
+    "word": "die Flughöhe",
+    "start": 105.882,
+    "end": 106.497
+  },
+  {
+    "word": "tatsächlich",
+    "start": 106.497,
+    "end": 107.112
+  },
+  {
+    "word": "reduziert",
+    "start": 107.112,
+    "end": 107.727
+  },
+  {
+    "word": "— auf",
+    "start": 107.727,
+    "end": 108.342
+  },
+  {
+    "word": "unter",
+    "start": 108.342,
+    "end": 108.956
+  },
+  {
+    "word": "8.000",
+    "start": 108.956,
+    "end": 109.571
+  },
+  {
+    "word": "Meter.",
+    "start": 109.571,
+    "end": 110.186
+  },
+  {
+    "word": "Nur weiß",
+    "start": 110.186,
+    "end": 110.801
+  },
+  {
+    "word": "der Passagier",
+    "start": 110.801,
+    "end": 111.416
+  },
+  {
+    "word": "davon",
+    "start": 111.416,
+    "end": 112.03
+  },
+  {
+    "word": "rein",
+    "start": 112.03,
+    "end": 112.645
+  },
+  {
+    "word": "gar nichts.",
+    "start": 112.645,
+    "end": 113.26
+  },
+  {
+    "word": "Und weißt",
+    "start": 113.56,
+    "end": 114.14
+  },
+  {
+    "word": "du, welche",
+    "start": 114.14,
+    "end": 114.719
+  },
+  {
+    "word": "Flüge",
+    "start": 114.719,
+    "end": 115.299
+  },
+  {
+    "word": "am gefährlichsten",
+    "start": 115.299,
+    "end": 115.879
+  },
+  {
+    "word": "sind?",
+    "start": 115.879,
+    "end": 116.458
+  },
+  {
+    "word": "Polarrouten.",
+    "start": 116.458,
+    "end": 117.038
+  },
+  {
+    "word": "Flüge",
+    "start": 117.038,
+    "end": 117.618
+  },
+  {
+    "word": "von Europa",
+    "start": 117.618,
+    "end": 118.197
+  },
+  {
+    "word": "nach",
+    "start": 118.197,
+    "end": 118.777
+  },
+  {
+    "word": "Japan,",
+    "start": 118.777,
+    "end": 119.356
+  },
+  {
+    "word": "Kanada",
+    "start": 119.356,
+    "end": 119.936
+  },
+  {
+    "word": "oder",
+    "start": 119.936,
+    "end": 120.516
+  },
+  {
+    "word": "Alaska",
+    "start": 120.516,
+    "end": 121.095
+  },
+  {
+    "word": "führen",
+    "start": 121.095,
+    "end": 121.675
+  },
+  {
+    "word": "oft über",
+    "start": 121.675,
+    "end": 122.255
+  },
+  {
+    "word": "den Nordpol",
+    "start": 122.255,
+    "end": 122.834
+  },
+  {
+    "word": "— dort",
+    "start": 122.834,
+    "end": 123.414
+  },
+  {
+    "word": "ist der",
+    "start": 123.414,
+    "end": 123.994
+  },
+  {
+    "word": "Strahlenschutz",
+    "start": 123.994,
+    "end": 124.573
+  },
+  {
+    "word": "der Erde",
+    "start": 124.573,
+    "end": 125.153
+  },
+  {
+    "word": "am schwächsten.",
+    "start": 125.153,
+    "end": 125.733
+  },
+  {
+    "word": "Studien",
+    "start": 125.733,
+    "end": 126.312
+  },
+  {
+    "word": "zeigen",
+    "start": 126.312,
+    "end": 126.892
+  },
+  {
+    "word": "bis zu",
+    "start": 126.892,
+    "end": 127.471
+  },
+  {
+    "word": "30 Prozent",
+    "start": 127.471,
+    "end": 128.051
+  },
+  {
+    "word": "mehr",
+    "start": 128.051,
+    "end": 128.631
+  },
+  {
+    "word": "Strahlung",
+    "start": 128.631,
+    "end": 129.21
+  },
+  {
+    "word": "auf Polarrouten.",
+    "start": 129.21,
+    "end": 129.79
+  },
+  {
+    "word": "Das ist",
+    "start": 130.09,
+    "end": 130.825
+  },
+  {
+    "word": "besonders",
+    "start": 130.825,
+    "end": 131.561
+  },
+  {
+    "word": "kritisch",
+    "start": 131.561,
+    "end": 132.296
+  },
+  {
+    "word": "für schwangere",
+    "start": 132.296,
+    "end": 133.032
+  },
+  {
+    "word": "Frauen.",
+    "start": 133.032,
+    "end": 133.767
+  },
+  {
+    "word": "Die Internationale",
+    "start": 133.767,
+    "end": 134.503
+  },
+  {
+    "word": "Atomenergiebehörde",
+    "start": 134.502,
+    "end": 135.238
+  },
+  {
+    "word": "empfiehlt,",
+    "start": 135.238,
+    "end": 135.973
+  },
+  {
+    "word": "dass",
+    "start": 135.973,
+    "end": 136.709
+  },
+  {
+    "word": "Schwangere",
+    "start": 136.709,
+    "end": 137.444
+  },
+  {
+    "word": "im ersten",
+    "start": 137.444,
+    "end": 138.18
+  },
+  {
+    "word": "Trimester",
+    "start": 138.18,
+    "end": 138.915
+  },
+  {
+    "word": "keine",
+    "start": 138.915,
+    "end": 139.65
+  },
+  {
+    "word": "Langstreckenflüge",
+    "start": 139.65,
+    "end": 140.386
+  },
+  {
+    "word": "unternehmen",
+    "start": 140.386,
+    "end": 141.121
+  },
+  {
+    "word": "sollten.",
+    "start": 141.121,
+    "end": 141.857
+  },
+  {
+    "word": "Der Embryo",
+    "start": 141.857,
+    "end": 142.592
+  },
+  {
+    "word": "reagiert",
+    "start": 142.592,
+    "end": 143.328
+  },
+  {
+    "word": "in dieser",
+    "start": 143.328,
+    "end": 144.063
+  },
+  {
+    "word": "Phase",
+    "start": 144.063,
+    "end": 144.798
+  },
+  {
+    "word": "besonders",
+    "start": 144.798,
+    "end": 145.534
+  },
+  {
+    "word": "sensibel",
+    "start": 145.534,
+    "end": 146.269
+  },
+  {
+    "word": "auf ionisierende",
+    "start": 146.269,
+    "end": 147.005
+  },
+  {
+    "word": "Strahlung.",
+    "start": 147.005,
+    "end": 147.74
+  },
+  {
+    "word": "Lass",
+    "start": 148.04,
+    "end": 148.61
+  },
+  {
+    "word": "uns konkret",
+    "start": 148.61,
+    "end": 149.181
+  },
+  {
+    "word": "werden:",
+    "start": 149.181,
+    "end": 149.751
+  },
+  {
+    "word": "Was macht",
+    "start": 149.751,
+    "end": 150.321
+  },
+  {
+    "word": "diese",
+    "start": 150.321,
+    "end": 150.892
+  },
+  {
+    "word": "Strahlung",
+    "start": 150.892,
+    "end": 151.462
+  },
+  {
+    "word": "eigentlich",
+    "start": 151.462,
+    "end": 152.032
+  },
+  {
+    "word": "mit deinen",
+    "start": 152.032,
+    "end": 152.603
+  },
+  {
+    "word": "Zellen?",
+    "start": 152.603,
+    "end": 153.173
+  },
+  {
+    "word": "Ionisierende",
+    "start": 153.173,
+    "end": 153.744
+  },
+  {
+    "word": "Strahlung",
+    "start": 153.744,
+    "end": 154.314
+  },
+  {
+    "word": "kann",
+    "start": 154.314,
+    "end": 154.884
+  },
+  {
+    "word": "direkt",
+    "start": 154.884,
+    "end": 155.455
+  },
+  {
+    "word": "in die",
+    "start": 155.455,
+    "end": 156.025
+  },
+  {
+    "word": "DNA eingreifen.",
+    "start": 156.025,
+    "end": 156.595
+  },
+  {
+    "word": "Sie löst",
+    "start": 156.595,
+    "end": 157.166
+  },
+  {
+    "word": "Elektronen",
+    "start": 157.166,
+    "end": 157.736
+  },
+  {
+    "word": "aus Molekülen",
+    "start": 157.736,
+    "end": 158.306
+  },
+  {
+    "word": "heraus",
+    "start": 158.306,
+    "end": 158.877
+  },
+  {
+    "word": "und erzeugt",
+    "start": 158.877,
+    "end": 159.447
+  },
+  {
+    "word": "dabei",
+    "start": 159.447,
+    "end": 160.017
+  },
+  {
+    "word": "sogenannte",
+    "start": 160.017,
+    "end": 160.588
+  },
+  {
+    "word": "freie",
+    "start": 160.588,
+    "end": 161.158
+  },
+  {
+    "word": "Radikale",
+    "start": 161.158,
+    "end": 161.729
+  },
+  {
+    "word": "— aggressive",
+    "start": 161.729,
+    "end": 162.299
+  },
+  {
+    "word": "Teilchen,",
+    "start": 162.299,
+    "end": 162.869
+  },
+  {
+    "word": "die Zellschäden",
+    "start": 162.869,
+    "end": 163.44
+  },
+  {
+    "word": "verursachen.",
+    "start": 163.44,
+    "end": 164.01
+  },
+  {
+    "word": "Die gute",
+    "start": 164.31,
+    "end": 164.909
+  },
+  {
+    "word": "Nachricht:",
+    "start": 164.909,
+    "end": 165.509
+  },
+  {
+    "word": "Dein",
+    "start": 165.509,
+    "end": 166.108
+  },
+  {
+    "word": "Körper",
+    "start": 166.108,
+    "end": 166.707
+  },
+  {
+    "word": "ist ein",
+    "start": 166.707,
+    "end": 167.307
+  },
+  {
+    "word": "erstaunliches",
+    "start": 167.307,
+    "end": 167.906
+  },
+  {
+    "word": "Reparatursystem.",
+    "start": 167.906,
+    "end": 168.505
+  },
+  {
+    "word": "Die meisten",
+    "start": 168.505,
+    "end": 169.104
+  },
+  {
+    "word": "Strahlenschäden",
+    "start": 169.104,
+    "end": 169.704
+  },
+  {
+    "word": "heilt",
+    "start": 169.704,
+    "end": 170.303
+  },
+  {
+    "word": "er selbst.",
+    "start": 170.303,
+    "end": 170.902
+  },
+  {
+    "word": "Die schlechte",
+    "start": 170.902,
+    "end": 171.502
+  },
+  {
+    "word": "Nachricht:",
+    "start": 171.502,
+    "end": 172.101
+  },
+  {
+    "word": "Bei häufigen",
+    "start": 172.101,
+    "end": 172.7
+  },
+  {
+    "word": "Flügen",
+    "start": 172.7,
+    "end": 173.3
+  },
+  {
+    "word": "häufen",
+    "start": 173.3,
+    "end": 173.899
+  },
+  {
+    "word": "sich",
+    "start": 173.899,
+    "end": 174.498
+  },
+  {
+    "word": "winzige",
+    "start": 174.498,
+    "end": 175.098
+  },
+  {
+    "word": "Fehler",
+    "start": 175.098,
+    "end": 175.697
+  },
+  {
+    "word": "im Reparaturprozess.",
+    "start": 175.697,
+    "end": 176.296
+  },
+  {
+    "word": "Und genau",
+    "start": 176.296,
+    "end": 176.896
+  },
+  {
+    "word": "das ist",
+    "start": 176.896,
+    "end": 177.495
+  },
+  {
+    "word": "der Grund,",
+    "start": 177.495,
+    "end": 178.094
+  },
+  {
+    "word": "warum",
+    "start": 178.094,
+    "end": 178.693
+  },
+  {
+    "word": "Langzeitstudien",
+    "start": 178.693,
+    "end": 179.293
+  },
+  {
+    "word": "bei Vielfliegern",
+    "start": 179.293,
+    "end": 179.892
+  },
+  {
+    "word": "erhöhte",
+    "start": 179.892,
+    "end": 180.491
+  },
+  {
+    "word": "Risiken",
+    "start": 180.491,
+    "end": 181.091
+  },
+  {
+    "word": "zeigen.",
+    "start": 181.091,
+    "end": 181.69
+  },
+  {
+    "word": "Jetzt",
+    "start": 181.99,
+    "end": 182.623
+  },
+  {
+    "word": "fragst",
+    "start": 182.623,
+    "end": 183.256
+  },
+  {
+    "word": "du dich",
+    "start": 183.256,
+    "end": 183.889
+  },
+  {
+    "word": "vielleicht:",
+    "start": 183.889,
+    "end": 184.521
+  },
+  {
+    "word": "Was ist",
+    "start": 184.521,
+    "end": 185.154
+  },
+  {
+    "word": "mit Kurzstreckenflügen?",
+    "start": 185.154,
+    "end": 185.787
+  },
+  {
+    "word": "Tatsächlich",
+    "start": 185.787,
+    "end": 186.42
+  },
+  {
+    "word": "ist die",
+    "start": 186.42,
+    "end": 187.053
+  },
+  {
+    "word": "Strahlenbelastung",
+    "start": 187.053,
+    "end": 187.686
+  },
+  {
+    "word": "stark",
+    "start": 187.686,
+    "end": 188.319
+  },
+  {
+    "word": "dosisabhängig.",
+    "start": 188.319,
+    "end": 188.951
+  },
+  {
+    "word": "Ein Flug",
+    "start": 188.951,
+    "end": 189.584
+  },
+  {
+    "word": "München–Hamburg",
+    "start": 189.584,
+    "end": 190.217
+  },
+  {
+    "word": "dauert",
+    "start": 190.217,
+    "end": 190.85
+  },
+  {
+    "word": "etwa",
+    "start": 190.85,
+    "end": 191.483
+  },
+  {
+    "word": "70 Minuten",
+    "start": 191.483,
+    "end": 192.116
+  },
+  {
+    "word": "— da",
+    "start": 192.116,
+    "end": 192.749
+  },
+  {
+    "word": "ist die",
+    "start": 192.749,
+    "end": 193.381
+  },
+  {
+    "word": "Dosis",
+    "start": 193.381,
+    "end": 194.014
+  },
+  {
+    "word": "vernachlässigbar",
+    "start": 194.014,
+    "end": 194.647
+  },
+  {
+    "word": "gering.",
+    "start": 194.647,
+    "end": 195.28
+  },
+  {
+    "word": "Aber",
+    "start": 195.28,
+    "end": 195.913
+  },
+  {
+    "word": "ein Flug",
+    "start": 195.913,
+    "end": 196.546
+  },
+  {
+    "word": "nach",
+    "start": 196.546,
+    "end": 197.179
+  },
+  {
+    "word": "Bangkok?",
+    "start": 197.179,
+    "end": 197.811
+  },
+  {
+    "word": "11 Stunden",
+    "start": 197.811,
+    "end": 198.444
+  },
+  {
+    "word": "auf Cruising",
+    "start": 198.444,
+    "end": 199.077
+  },
+  {
+    "word": "Altitude.",
+    "start": 199.077,
+    "end": 199.71
+  },
+  {
+    "word": "Eine",
+    "start": 200.01,
+    "end": 200.762
+  },
+  {
+    "word": "Langzeitstudie",
+    "start": 200.762,
+    "end": 201.514
+  },
+  {
+    "word": "der Harvard",
+    "start": 201.514,
+    "end": 202.267
+  },
+  {
+    "word": "T.H. Chan",
+    "start": 202.267,
+    "end": 203.019
+  },
+  {
+    "word": "School",
+    "start": 203.019,
+    "end": 203.771
+  },
+  {
+    "word": "of Public",
+    "start": 203.771,
+    "end": 204.523
+  },
+  {
+    "word": "Health",
+    "start": 204.523,
+    "end": 205.276
+  },
+  {
+    "word": "untersuchte",
+    "start": 205.276,
+    "end": 206.028
+  },
+  {
+    "word": "über",
+    "start": 206.028,
+    "end": 206.78
+  },
+  {
+    "word": "5.000",
+    "start": 206.78,
+    "end": 207.532
+  },
+  {
+    "word": "Piloten",
+    "start": 207.532,
+    "end": 208.284
+  },
+  {
+    "word": "und Flugbegleiter.",
+    "start": 208.284,
+    "end": 209.037
+  },
+  {
+    "word": "Das Ergebnis:",
+    "start": 209.037,
+    "end": 209.789
+  },
+  {
+    "word": "Flugbegleiterinnen",
+    "start": 209.789,
+    "end": 210.541
+  },
+  {
+    "word": "haben",
+    "start": 210.541,
+    "end": 211.293
+  },
+  {
+    "word": "eine",
+    "start": 211.293,
+    "end": 212.046
+  },
+  {
+    "word": "51 Prozent",
+    "start": 212.046,
+    "end": 212.798
+  },
+  {
+    "word": "höhere",
+    "start": 212.798,
+    "end": 213.55
+  },
+  {
+    "word": "Rate",
+    "start": 213.55,
+    "end": 214.302
+  },
+  {
+    "word": "an Brustkrebs",
+    "start": 214.302,
+    "end": 215.054
+  },
+  {
+    "word": "als die",
+    "start": 215.054,
+    "end": 215.807
+  },
+  {
+    "word": "Durchschnittsbevölkerung.",
+    "start": 215.807,
+    "end": 216.559
+  },
+  {
+    "word": "Das ist",
+    "start": 216.559,
+    "end": 217.311
+  },
+  {
+    "word": "kein",
+    "start": 217.311,
+    "end": 218.063
+  },
+  {
+    "word": "Zufall",
+    "start": 218.063,
+    "end": 218.816
+  },
+  {
+    "word": "— das",
+    "start": 218.816,
+    "end": 219.568
+  },
+  {
+    "word": "ist Strahlung.",
+    "start": 219.568,
+    "end": 220.32
+  },
+  {
+    "word": "Aber",
+    "start": 220.62,
+    "end": 221.165
+  },
+  {
+    "word": "damit",
+    "start": 221.165,
+    "end": 221.71
+  },
+  {
+    "word": "nicht",
+    "start": 221.71,
+    "end": 222.255
+  },
+  {
+    "word": "genug.",
+    "start": 222.255,
+    "end": 222.8
+  },
+  {
+    "word": "Dieselbe",
+    "start": 222.8,
+    "end": 223.345
+  },
+  {
+    "word": "Studie",
+    "start": 223.345,
+    "end": 223.89
+  },
+  {
+    "word": "zeigte,",
+    "start": 223.89,
+    "end": 224.435
+  },
+  {
+    "word": "dass",
+    "start": 224.435,
+    "end": 224.98
+  },
+  {
+    "word": "männliche",
+    "start": 224.98,
+    "end": 225.525
+  },
+  {
+    "word": "Piloten",
+    "start": 225.525,
+    "end": 226.07
+  },
+  {
+    "word": "ein doppelt",
+    "start": 226.07,
+    "end": 226.615
+  },
+  {
+    "word": "so hohes",
+    "start": 226.615,
+    "end": 227.16
+  },
+  {
+    "word": "Risiko",
+    "start": 227.16,
+    "end": 227.705
+  },
+  {
+    "word": "für malignes",
+    "start": 227.705,
+    "end": 228.25
+  },
+  {
+    "word": "Melanom",
+    "start": 228.25,
+    "end": 228.795
+  },
+  {
+    "word": "haben",
+    "start": 228.795,
+    "end": 229.34
+  },
+  {
+    "word": "— also",
+    "start": 229.34,
+    "end": 229.885
+  },
+  {
+    "word": "Hautkrebs.",
+    "start": 229.885,
+    "end": 230.43
+  },
+  {
+    "word": "Das UV-Licht",
+    "start": 230.43,
+    "end": 230.975
+  },
+  {
+    "word": "durch",
+    "start": 230.975,
+    "end": 231.52
+  },
+  {
+    "word": "die Cockpitfenster",
+    "start": 231.52,
+    "end": 232.065
+  },
+  {
+    "word": "auf 11.000",
+    "start": 232.065,
+    "end": 232.61
+  },
+  {
+    "word": "Metern",
+    "start": 232.61,
+    "end": 233.155
+  },
+  {
+    "word": "ist dabei",
+    "start": 233.155,
+    "end": 233.7
+  },
+  {
+    "word": "nur ein",
+    "start": 233.7,
+    "end": 234.245
+  },
+  {
+    "word": "Teil",
+    "start": 234.245,
+    "end": 234.79
+  },
+  {
+    "word": "des Problems.",
+    "start": 234.79,
+    "end": 235.335
+  },
+  {
+    "word": "Der Rest",
+    "start": 235.335,
+    "end": 235.88
+  },
+  {
+    "word": "ist kosmische",
+    "start": 235.88,
+    "end": 236.425
+  },
+  {
+    "word": "Strahlung.",
+    "start": 236.425,
+    "end": 236.97
+  },
+  {
+    "word": "Und hier",
+    "start": 237.27,
+    "end": 237.795
+  },
+  {
+    "word": "kommt",
+    "start": 237.795,
+    "end": 238.32
+  },
+  {
+    "word": "ein Fakt,",
+    "start": 238.32,
+    "end": 238.844
+  },
+  {
+    "word": "der viele",
+    "start": 238.844,
+    "end": 239.369
+  },
+  {
+    "word": "überrascht:",
+    "start": 239.369,
+    "end": 239.894
+  },
+  {
+    "word": "Flugzeugfenster",
+    "start": 239.894,
+    "end": 240.419
+  },
+  {
+    "word": "blockieren",
+    "start": 240.419,
+    "end": 240.944
+  },
+  {
+    "word": "zwar",
+    "start": 240.944,
+    "end": 241.469
+  },
+  {
+    "word": "UV-B-Strahlung",
+    "start": 241.469,
+    "end": 241.993
+  },
+  {
+    "word": "fast",
+    "start": 241.993,
+    "end": 242.518
+  },
+  {
+    "word": "vollständig",
+    "start": 242.518,
+    "end": 243.043
+  },
+  {
+    "word": "— aber",
+    "start": 243.043,
+    "end": 243.568
+  },
+  {
+    "word": "UV-A-Strahlung",
+    "start": 243.568,
+    "end": 244.093
+  },
+  {
+    "word": "gelangt",
+    "start": 244.093,
+    "end": 244.618
+  },
+  {
+    "word": "ungehindert",
+    "start": 244.618,
+    "end": 245.142
+  },
+  {
+    "word": "durch.",
+    "start": 245.142,
+    "end": 245.667
+  },
+  {
+    "word": "UV-A",
+    "start": 245.667,
+    "end": 246.192
+  },
+  {
+    "word": "dringt",
+    "start": 246.192,
+    "end": 246.717
+  },
+  {
+    "word": "tief",
+    "start": 246.717,
+    "end": 247.242
+  },
+  {
+    "word": "in die",
+    "start": 247.242,
+    "end": 247.767
+  },
+  {
+    "word": "Haut",
+    "start": 247.767,
+    "end": 248.291
+  },
+  {
+    "word": "ein und",
+    "start": 248.291,
+    "end": 248.816
+  },
+  {
+    "word": "beschleunigt",
+    "start": 248.816,
+    "end": 249.341
+  },
+  {
+    "word": "die Hautalterung",
+    "start": 249.341,
+    "end": 249.866
+  },
+  {
+    "word": "und das",
+    "start": 249.866,
+    "end": 250.391
+  },
+  {
+    "word": "Krebsrisiko",
+    "start": 250.391,
+    "end": 250.916
+  },
+  {
+    "word": "— besonders",
+    "start": 250.916,
+    "end": 251.44
+  },
+  {
+    "word": "beim",
+    "start": 251.44,
+    "end": 251.965
+  },
+  {
+    "word": "Fenstersitz.",
+    "start": 251.965,
+    "end": 252.49
+  },
+  {
+    "word": "Forscher",
+    "start": 252.79,
+    "end": 253.374
+  },
+  {
+    "word": "der University",
+    "start": 253.374,
+    "end": 253.959
+  },
+  {
+    "word": "of California",
+    "start": 253.959,
+    "end": 254.543
+  },
+  {
+    "word": "haben",
+    "start": 254.543,
+    "end": 255.128
+  },
+  {
+    "word": "ausgerechnet:",
+    "start": 255.128,
+    "end": 255.712
+  },
+  {
+    "word": "Wer 56",
+    "start": 255.712,
+    "end": 256.297
+  },
+  {
+    "word": "Minuten",
+    "start": 256.297,
+    "end": 256.881
+  },
+  {
+    "word": "am Fenstersitz",
+    "start": 256.881,
+    "end": 257.466
+  },
+  {
+    "word": "sitzt",
+    "start": 257.466,
+    "end": 258.05
+  },
+  {
+    "word": "und der",
+    "start": 258.05,
+    "end": 258.634
+  },
+  {
+    "word": "Sonne",
+    "start": 258.634,
+    "end": 259.219
+  },
+  {
+    "word": "ausgesetzt",
+    "start": 259.219,
+    "end": 259.803
+  },
+  {
+    "word": "ist, erhält",
+    "start": 259.803,
+    "end": 260.388
+  },
+  {
+    "word": "dieselbe",
+    "start": 260.388,
+    "end": 260.972
+  },
+  {
+    "word": "UV-Dosis",
+    "start": 260.972,
+    "end": 261.557
+  },
+  {
+    "word": "wie 20",
+    "start": 261.557,
+    "end": 262.141
+  },
+  {
+    "word": "Minuten",
+    "start": 262.141,
+    "end": 262.726
+  },
+  {
+    "word": "auf dem",
+    "start": 262.726,
+    "end": 263.31
+  },
+  {
+    "word": "Sonnenbett.",
+    "start": 263.31,
+    "end": 263.894
+  },
+  {
+    "word": "Klingt",
+    "start": 263.894,
+    "end": 264.479
+  },
+  {
+    "word": "harmlos",
+    "start": 264.479,
+    "end": 265.063
+  },
+  {
+    "word": "— ist",
+    "start": 265.063,
+    "end": 265.648
+  },
+  {
+    "word": "aber",
+    "start": 265.648,
+    "end": 266.232
+  },
+  {
+    "word": "auf einem",
+    "start": 266.232,
+    "end": 266.817
+  },
+  {
+    "word": "Langstreckenflug",
+    "start": 266.817,
+    "end": 267.401
+  },
+  {
+    "word": "kumulativ",
+    "start": 267.401,
+    "end": 267.986
+  },
+  {
+    "word": "alarmierend.",
+    "start": 267.986,
+    "end": 268.57
+  },
+  {
+    "word": "Okay",
+    "start": 268.87,
+    "end": 269.659
+  },
+  {
+    "word": "— genug",
+    "start": 269.659,
+    "end": 270.448
+  },
+  {
+    "word": "Schreckensmeldungen.",
+    "start": 270.448,
+    "end": 271.237
+  },
+  {
+    "word": "Was kannst",
+    "start": 271.237,
+    "end": 272.026
+  },
+  {
+    "word": "du konkret",
+    "start": 272.026,
+    "end": 272.814
+  },
+  {
+    "word": "tun? Erstens:",
+    "start": 272.814,
+    "end": 273.603
+  },
+  {
+    "word": "Sonnencreme",
+    "start": 273.603,
+    "end": 274.392
+  },
+  {
+    "word": "am Fenstersitz",
+    "start": 274.392,
+    "end": 275.181
+  },
+  {
+    "word": "— klingt",
+    "start": 275.181,
+    "end": 275.97
+  },
+  {
+    "word": "seltsam,",
+    "start": 275.97,
+    "end": 276.759
+  },
+  {
+    "word": "ist aber",
+    "start": 276.759,
+    "end": 277.548
+  },
+  {
+    "word": "tatsächlich",
+    "start": 277.548,
+    "end": 278.337
+  },
+  {
+    "word": "sinnvoll.",
+    "start": 278.337,
+    "end": 279.126
+  },
+  {
+    "word": "Zweitens:",
+    "start": 279.126,
+    "end": 279.914
+  },
+  {
+    "word": "Wenn",
+    "start": 279.914,
+    "end": 280.703
+  },
+  {
+    "word": "möglich",
+    "start": 280.703,
+    "end": 281.492
+  },
+  {
+    "word": "Gangplatz",
+    "start": 281.492,
+    "end": 282.281
+  },
+  {
+    "word": "wählen.",
+    "start": 282.281,
+    "end": 283.07
+  },
+  {
+    "word": "Und drittens",
+    "start": 283.07,
+    "end": 283.859
+  },
+  {
+    "word": "— das",
+    "start": 283.859,
+    "end": 284.648
+  },
+  {
+    "word": "überrascht",
+    "start": 284.648,
+    "end": 285.437
+  },
+  {
+    "word": "die meisten",
+    "start": 285.437,
+    "end": 286.226
+  },
+  {
+    "word": "— gibt",
+    "start": 286.226,
+    "end": 287.014
+  },
+  {
+    "word": "es Apps,",
+    "start": 287.014,
+    "end": 287.803
+  },
+  {
+    "word": "die deine",
+    "start": 287.803,
+    "end": 288.592
+  },
+  {
+    "word": "Flugstrahlendosis",
+    "start": 288.592,
+    "end": 289.381
+  },
+  {
+    "word": "tracken.",
+    "start": 289.381,
+    "end": 290.17
+  },
+  {
+    "word": "Es gibt",
+    "start": 290.47,
+    "end": 291.043
+  },
+  {
+    "word": "tatsächlich",
+    "start": 291.043,
+    "end": 291.617
+  },
+  {
+    "word": "eine",
+    "start": 291.617,
+    "end": 292.19
+  },
+  {
+    "word": "App der",
+    "start": 292.19,
+    "end": 292.764
+  },
+  {
+    "word": "europäischen",
+    "start": 292.764,
+    "end": 293.337
+  },
+  {
+    "word": "Weltraumbehörde",
+    "start": 293.337,
+    "end": 293.911
+  },
+  {
+    "word": "ESA —",
+    "start": 293.911,
+    "end": 294.484
+  },
+  {
+    "word": "sie heißt",
+    "start": 294.484,
+    "end": 295.058
+  },
+  {
+    "word": "SIEVERT",
+    "start": 295.058,
+    "end": 295.631
+  },
+  {
+    "word": "und berechnet",
+    "start": 295.631,
+    "end": 296.205
+  },
+  {
+    "word": "für jeden",
+    "start": 296.205,
+    "end": 296.778
+  },
+  {
+    "word": "Flug",
+    "start": 296.778,
+    "end": 297.352
+  },
+  {
+    "word": "deine",
+    "start": 297.352,
+    "end": 297.925
+  },
+  {
+    "word": "persönliche",
+    "start": 297.925,
+    "end": 298.498
+  },
+  {
+    "word": "kosmische",
+    "start": 298.498,
+    "end": 299.072
+  },
+  {
+    "word": "Strahlendosis.",
+    "start": 299.072,
+    "end": 299.645
+  },
+  {
+    "word": "Du gibst",
+    "start": 299.645,
+    "end": 300.219
+  },
+  {
+    "word": "Abflug,",
+    "start": 300.219,
+    "end": 300.792
+  },
+  {
+    "word": "Ziel",
+    "start": 300.792,
+    "end": 301.366
+  },
+  {
+    "word": "und Sitzplatzreihe",
+    "start": 301.366,
+    "end": 301.939
+  },
+  {
+    "word": "ein —",
+    "start": 301.939,
+    "end": 302.513
+  },
+  {
+    "word": "und bekommst",
+    "start": 302.513,
+    "end": 303.086
+  },
+  {
+    "word": "sekundengenaue",
+    "start": 303.086,
+    "end": 303.66
+  },
+  {
+    "word": "Daten.",
+    "start": 303.66,
+    "end": 304.233
+  },
+  {
+    "word": "Völlig",
+    "start": 304.233,
+    "end": 304.807
+  },
+  {
+    "word": "kostenlos.",
+    "start": 304.807,
+    "end": 305.38
+  },
+  {
+    "word": "Hier",
+    "start": 305.68,
+    "end": 306.196
+  },
+  {
+    "word": "ist ein",
+    "start": 306.196,
+    "end": 306.711
+  },
+  {
+    "word": "weiterer",
+    "start": 306.711,
+    "end": 307.227
+  },
+  {
+    "word": "Aspekt,",
+    "start": 307.227,
+    "end": 307.743
+  },
+  {
+    "word": "der selten",
+    "start": 307.743,
+    "end": 308.258
+  },
+  {
+    "word": "diskutiert",
+    "start": 308.258,
+    "end": 308.774
+  },
+  {
+    "word": "wird:",
+    "start": 308.774,
+    "end": 309.289
+  },
+  {
+    "word": "Die Flughöhe",
+    "start": 309.289,
+    "end": 309.805
+  },
+  {
+    "word": "macht",
+    "start": 309.805,
+    "end": 310.321
+  },
+  {
+    "word": "einen",
+    "start": 310.321,
+    "end": 310.836
+  },
+  {
+    "word": "massiven",
+    "start": 310.836,
+    "end": 311.352
+  },
+  {
+    "word": "Unterschied.",
+    "start": 311.352,
+    "end": 311.868
+  },
+  {
+    "word": "Auf 8.000",
+    "start": 311.868,
+    "end": 312.383
+  },
+  {
+    "word": "Metern",
+    "start": 312.383,
+    "end": 312.899
+  },
+  {
+    "word": "ist die",
+    "start": 312.899,
+    "end": 313.414
+  },
+  {
+    "word": "Strahlendosis",
+    "start": 313.414,
+    "end": 313.93
+  },
+  {
+    "word": "schon",
+    "start": 313.93,
+    "end": 314.446
+  },
+  {
+    "word": "signifikant",
+    "start": 314.446,
+    "end": 314.961
+  },
+  {
+    "word": "— auf",
+    "start": 314.961,
+    "end": 315.477
+  },
+  {
+    "word": "12.000",
+    "start": 315.477,
+    "end": 315.993
+  },
+  {
+    "word": "Metern,",
+    "start": 315.993,
+    "end": 316.508
+  },
+  {
+    "word": "wo die",
+    "start": 316.508,
+    "end": 317.024
+  },
+  {
+    "word": "meisten",
+    "start": 317.024,
+    "end": 317.539
+  },
+  {
+    "word": "Langstreckenflüge",
+    "start": 317.539,
+    "end": 318.055
+  },
+  {
+    "word": "cruisen,",
+    "start": 318.055,
+    "end": 318.571
+  },
+  {
+    "word": "ist sie",
+    "start": 318.571,
+    "end": 319.086
+  },
+  {
+    "word": "nochmal",
+    "start": 319.086,
+    "end": 319.602
+  },
+  {
+    "word": "deutlich",
+    "start": 319.602,
+    "end": 320.118
+  },
+  {
+    "word": "höher.",
+    "start": 320.118,
+    "end": 320.633
+  },
+  {
+    "word": "Jeder",
+    "start": 320.633,
+    "end": 321.149
+  },
+  {
+    "word": "Kilometer",
+    "start": 321.149,
+    "end": 321.664
+  },
+  {
+    "word": "zählt.",
+    "start": 321.664,
+    "end": 322.18
+  },
+  {
+    "word": "Es gibt",
+    "start": 322.48,
+    "end": 323.074
+  },
+  {
+    "word": "noch",
+    "start": 323.074,
+    "end": 323.668
+  },
+  {
+    "word": "einen",
+    "start": 323.668,
+    "end": 324.262
+  },
+  {
+    "word": "weiteren",
+    "start": 324.262,
+    "end": 324.856
+  },
+  {
+    "word": "Effekt,",
+    "start": 324.856,
+    "end": 325.45
+  },
+  {
+    "word": "den Vielflieger",
+    "start": 325.45,
+    "end": 326.044
+  },
+  {
+    "word": "spüren",
+    "start": 326.044,
+    "end": 326.639
+  },
+  {
+    "word": "aber",
+    "start": 326.639,
+    "end": 327.233
+  },
+  {
+    "word": "selten",
+    "start": 327.233,
+    "end": 327.827
+  },
+  {
+    "word": "einordnen",
+    "start": 327.827,
+    "end": 328.421
+  },
+  {
+    "word": "können.",
+    "start": 328.421,
+    "end": 329.015
+  },
+  {
+    "word": "Strahlung",
+    "start": 329.015,
+    "end": 329.609
+  },
+  {
+    "word": "in Kombination",
+    "start": 329.609,
+    "end": 330.203
+  },
+  {
+    "word": "mit Zeitzonenwechsel",
+    "start": 330.203,
+    "end": 330.797
+  },
+  {
+    "word": "und niedrigem",
+    "start": 330.797,
+    "end": 331.391
+  },
+  {
+    "word": "Kabinendruck",
+    "start": 331.391,
+    "end": 331.985
+  },
+  {
+    "word": "stört",
+    "start": 331.985,
+    "end": 332.579
+  },
+  {
+    "word": "den Melatoninspiegel",
+    "start": 332.579,
+    "end": 333.173
+  },
+  {
+    "word": "— das",
+    "start": 333.173,
+    "end": 333.767
+  },
+  {
+    "word": "Schlafhormon.",
+    "start": 333.767,
+    "end": 334.361
+  },
+  {
+    "word": "Das erklärt,",
+    "start": 334.361,
+    "end": 334.956
+  },
+  {
+    "word": "warum",
+    "start": 334.956,
+    "end": 335.55
+  },
+  {
+    "word": "manche",
+    "start": 335.55,
+    "end": 336.144
+  },
+  {
+    "word": "Vielflieger",
+    "start": 336.144,
+    "end": 336.738
+  },
+  {
+    "word": "dauerhaft",
+    "start": 336.738,
+    "end": 337.332
+  },
+  {
+    "word": "Schlafprobleme",
+    "start": 337.332,
+    "end": 337.926
+  },
+  {
+    "word": "entwickeln.",
+    "start": 337.926,
+    "end": 338.52
+  },
+  {
+    "word": "Lass",
+    "start": 338.82,
+    "end": 339.479
+  },
+  {
+    "word": "uns jetzt",
+    "start": 339.479,
+    "end": 340.138
+  },
+  {
+    "word": "mal rechnen.",
+    "start": 340.138,
+    "end": 340.797
+  },
+  {
+    "word": "Wenn",
+    "start": 340.797,
+    "end": 341.456
+  },
+  {
+    "word": "du 20",
+    "start": 341.456,
+    "end": 342.115
+  },
+  {
+    "word": "Mal im",
+    "start": 342.115,
+    "end": 342.774
+  },
+  {
+    "word": "Jahr",
+    "start": 342.774,
+    "end": 343.433
+  },
+  {
+    "word": "nach",
+    "start": 343.433,
+    "end": 344.092
+  },
+  {
+    "word": "London",
+    "start": 344.092,
+    "end": 344.751
+  },
+  {
+    "word": "fliegst",
+    "start": 344.751,
+    "end": 345.41
+  },
+  {
+    "word": "— das",
+    "start": 345.41,
+    "end": 346.069
+  },
+  {
+    "word": "sind",
+    "start": 346.069,
+    "end": 346.728
+  },
+  {
+    "word": "Pendler",
+    "start": 346.728,
+    "end": 347.387
+  },
+  {
+    "word": "und Businessreisende",
+    "start": 347.387,
+    "end": 348.046
+  },
+  {
+    "word": "— kommt",
+    "start": 348.046,
+    "end": 348.704
+  },
+  {
+    "word": "du auf",
+    "start": 348.704,
+    "end": 349.363
+  },
+  {
+    "word": "rund",
+    "start": 349.363,
+    "end": 350.022
+  },
+  {
+    "word": "0,4 Millisievert",
+    "start": 350.022,
+    "end": 350.681
+  },
+  {
+    "word": "pro Jahr.",
+    "start": 350.681,
+    "end": 351.34
+  },
+  {
+    "word": "Wenn",
+    "start": 351.34,
+    "end": 351.999
+  },
+  {
+    "word": "du dazu",
+    "start": 351.999,
+    "end": 352.658
+  },
+  {
+    "word": "4 Mal",
+    "start": 352.658,
+    "end": 353.317
+  },
+  {
+    "word": "nach",
+    "start": 353.317,
+    "end": 353.976
+  },
+  {
+    "word": "New York",
+    "start": 353.976,
+    "end": 354.635
+  },
+  {
+    "word": "fliegst,",
+    "start": 354.635,
+    "end": 355.294
+  },
+  {
+    "word": "überschreitest",
+    "start": 355.294,
+    "end": 355.953
+  },
+  {
+    "word": "du bereits",
+    "start": 355.953,
+    "end": 356.612
+  },
+  {
+    "word": "die ICRP-Grenze",
+    "start": 356.612,
+    "end": 357.271
+  },
+  {
+    "word": "für Zivilpersonen.",
+    "start": 357.271,
+    "end": 357.93
+  },
+  {
+    "word": "Die Bundesluftfahrtbehörde",
+    "start": 358.23,
+    "end": 358.861
+  },
+  {
+    "word": "und das",
+    "start": 358.861,
+    "end": 359.492
+  },
+  {
+    "word": "BfS —",
+    "start": 359.492,
+    "end": 360.124
+  },
+  {
+    "word": "das Bundesamt",
+    "start": 360.124,
+    "end": 360.755
+  },
+  {
+    "word": "für Strahlenschutz",
+    "start": 360.755,
+    "end": 361.386
+  },
+  {
+    "word": "— bestätigen",
+    "start": 361.386,
+    "end": 362.017
+  },
+  {
+    "word": "diese",
+    "start": 362.017,
+    "end": 362.648
+  },
+  {
+    "word": "Risiken",
+    "start": 362.648,
+    "end": 363.28
+  },
+  {
+    "word": "offiziell.",
+    "start": 363.28,
+    "end": 363.911
+  },
+  {
+    "word": "Sie geben",
+    "start": 363.911,
+    "end": 364.542
+  },
+  {
+    "word": "an, dass",
+    "start": 364.542,
+    "end": 365.173
+  },
+  {
+    "word": "Vielflieger",
+    "start": 365.173,
+    "end": 365.804
+  },
+  {
+    "word": "ihre",
+    "start": 365.804,
+    "end": 366.436
+  },
+  {
+    "word": "Jahresexposition",
+    "start": 366.436,
+    "end": 367.067
+  },
+  {
+    "word": "im Blick",
+    "start": 367.067,
+    "end": 367.698
+  },
+  {
+    "word": "behalten",
+    "start": 367.698,
+    "end": 368.329
+  },
+  {
+    "word": "sollten.",
+    "start": 368.329,
+    "end": 368.96
+  },
+  {
+    "word": "Trotzdem",
+    "start": 368.96,
+    "end": 369.592
+  },
+  {
+    "word": "gibt",
+    "start": 369.592,
+    "end": 370.223
+  },
+  {
+    "word": "es keine",
+    "start": 370.223,
+    "end": 370.854
+  },
+  {
+    "word": "Pflicht",
+    "start": 370.854,
+    "end": 371.485
+  },
+  {
+    "word": "für Airlines,",
+    "start": 371.485,
+    "end": 372.116
+  },
+  {
+    "word": "Passagiere",
+    "start": 372.116,
+    "end": 372.748
+  },
+  {
+    "word": "darüber",
+    "start": 372.748,
+    "end": 373.379
+  },
+  {
+    "word": "zu informieren.",
+    "start": 373.379,
+    "end": 374.01
+  },
+  {
+    "word": "Was sagen",
+    "start": 374.31,
+    "end": 374.999
+  },
+  {
+    "word": "Ernährungswissenschaftler",
+    "start": 374.999,
+    "end": 375.688
+  },
+  {
+    "word": "dazu?",
+    "start": 375.688,
+    "end": 376.376
+  },
+  {
+    "word": "Antioxidantien",
+    "start": 376.376,
+    "end": 377.065
+  },
+  {
+    "word": "können",
+    "start": 377.065,
+    "end": 377.754
+  },
+  {
+    "word": "freie",
+    "start": 377.754,
+    "end": 378.443
+  },
+  {
+    "word": "Radikale,",
+    "start": 378.443,
+    "end": 379.132
+  },
+  {
+    "word": "die durch",
+    "start": 379.132,
+    "end": 379.82
+  },
+  {
+    "word": "Strahlung",
+    "start": 379.82,
+    "end": 380.509
+  },
+  {
+    "word": "entstehen,",
+    "start": 380.509,
+    "end": 381.198
+  },
+  {
+    "word": "neutralisieren.",
+    "start": 381.198,
+    "end": 381.887
+  },
+  {
+    "word": "Vitamin",
+    "start": 381.887,
+    "end": 382.576
+  },
+  {
+    "word": "C, Vitamin",
+    "start": 382.576,
+    "end": 383.264
+  },
+  {
+    "word": "E und",
+    "start": 383.264,
+    "end": 383.953
+  },
+  {
+    "word": "Beta-Carotin",
+    "start": 383.953,
+    "end": 384.642
+  },
+  {
+    "word": "sind",
+    "start": 384.642,
+    "end": 385.331
+  },
+  {
+    "word": "nachweislich",
+    "start": 385.331,
+    "end": 386.02
+  },
+  {
+    "word": "wirksam.",
+    "start": 386.02,
+    "end": 386.708
+  },
+  {
+    "word": "Manche",
+    "start": 386.708,
+    "end": 387.397
+  },
+  {
+    "word": "Vielflieger",
+    "start": 387.397,
+    "end": 388.086
+  },
+  {
+    "word": "schwören",
+    "start": 388.086,
+    "end": 388.775
+  },
+  {
+    "word": "auf Nahrungsergänzungsmittel",
+    "start": 388.775,
+    "end": 389.464
+  },
+  {
+    "word": "speziell",
+    "start": 389.464,
+    "end": 390.152
+  },
+  {
+    "word": "für häufige",
+    "start": 390.152,
+    "end": 390.841
+  },
+  {
+    "word": "Flieger.",
+    "start": 390.841,
+    "end": 391.53
+  },
+  {
+    "word": "Zurück",
+    "start": 391.83,
+    "end": 392.512
+  },
+  {
+    "word": "zur Harvard-Studie.",
+    "start": 392.512,
+    "end": 393.194
+  },
+  {
+    "word": "Die Forscher",
+    "start": 393.194,
+    "end": 393.876
+  },
+  {
+    "word": "fanden",
+    "start": 393.876,
+    "end": 394.558
+  },
+  {
+    "word": "auch",
+    "start": 394.558,
+    "end": 395.24
+  },
+  {
+    "word": "erhöhte",
+    "start": 395.24,
+    "end": 395.922
+  },
+  {
+    "word": "Raten",
+    "start": 395.922,
+    "end": 396.604
+  },
+  {
+    "word": "an Schilddrüsenkrebs,",
+    "start": 396.604,
+    "end": 397.286
+  },
+  {
+    "word": "Gebärmutterkrebs",
+    "start": 397.286,
+    "end": 397.968
+  },
+  {
+    "word": "und Hormonstörungen",
+    "start": 397.968,
+    "end": 398.65
+  },
+  {
+    "word": "bei Flugbegleiterinnen.",
+    "start": 398.65,
+    "end": 399.332
+  },
+  {
+    "word": "Das deutet",
+    "start": 399.332,
+    "end": 400.014
+  },
+  {
+    "word": "darauf",
+    "start": 400.014,
+    "end": 400.696
+  },
+  {
+    "word": "hin, dass",
+    "start": 400.696,
+    "end": 401.378
+  },
+  {
+    "word": "Strahlung",
+    "start": 401.378,
+    "end": 402.06
+  },
+  {
+    "word": "auch",
+    "start": 402.06,
+    "end": 402.742
+  },
+  {
+    "word": "das endokrine",
+    "start": 402.742,
+    "end": 403.424
+  },
+  {
+    "word": "System",
+    "start": 403.424,
+    "end": 404.106
+  },
+  {
+    "word": "beeinflussen",
+    "start": 404.106,
+    "end": 404.788
+  },
+  {
+    "word": "kann",
+    "start": 404.788,
+    "end": 405.47
+  },
+  {
+    "word": "— also",
+    "start": 405.47,
+    "end": 406.152
+  },
+  {
+    "word": "das Hormonsystem.",
+    "start": 406.152,
+    "end": 406.834
+  },
+  {
+    "word": "Das ist",
+    "start": 406.834,
+    "end": 407.516
+  },
+  {
+    "word": "neu und",
+    "start": 407.516,
+    "end": 408.198
+  },
+  {
+    "word": "beunruhigend.",
+    "start": 408.198,
+    "end": 408.88
+  },
+  {
+    "word": "Jetzt",
+    "start": 409.18,
+    "end": 409.819
+  },
+  {
+    "word": "haben",
+    "start": 409.819,
+    "end": 410.459
+  },
+  {
+    "word": "wir genug",
+    "start": 410.459,
+    "end": 411.098
+  },
+  {
+    "word": "Hintergrundwissen.",
+    "start": 411.098,
+    "end": 411.737
+  },
+  {
+    "word": "Lass",
+    "start": 411.737,
+    "end": 412.376
+  },
+  {
+    "word": "uns alle",
+    "start": 412.376,
+    "end": 413.016
+  },
+  {
+    "word": "8 Strahlen-Wahrheiten",
+    "start": 413.016,
+    "end": 413.655
+  },
+  {
+    "word": "zusammenfassen",
+    "start": 413.655,
+    "end": 414.294
+  },
+  {
+    "word": "— damit",
+    "start": 414.294,
+    "end": 414.933
+  },
+  {
+    "word": "du beim",
+    "start": 414.933,
+    "end": 415.573
+  },
+  {
+    "word": "nächsten",
+    "start": 415.573,
+    "end": 416.212
+  },
+  {
+    "word": "Flug",
+    "start": 416.212,
+    "end": 416.851
+  },
+  {
+    "word": "genau",
+    "start": 416.851,
+    "end": 417.49
+  },
+  {
+    "word": "weißt,",
+    "start": 417.49,
+    "end": 418.13
+  },
+  {
+    "word": "was mit",
+    "start": 418.13,
+    "end": 418.769
+  },
+  {
+    "word": "dir passiert.",
+    "start": 418.769,
+    "end": 419.408
+  },
+  {
+    "word": "Wahrheit",
+    "start": 419.408,
+    "end": 420.047
+  },
+  {
+    "word": "Nummer",
+    "start": 420.047,
+    "end": 420.687
+  },
+  {
+    "word": "1: Jeder",
+    "start": 420.687,
+    "end": 421.326
+  },
+  {
+    "word": "Langstreckenflug",
+    "start": 421.326,
+    "end": 421.965
+  },
+  {
+    "word": "bestrahlt",
+    "start": 421.965,
+    "end": 422.604
+  },
+  {
+    "word": "dich",
+    "start": 422.604,
+    "end": 423.244
+  },
+  {
+    "word": "mehr",
+    "start": 423.244,
+    "end": 423.883
+  },
+  {
+    "word": "als eine",
+    "start": 423.883,
+    "end": 424.522
+  },
+  {
+    "word": "Röntgenaufnahme",
+    "start": 424.522,
+    "end": 425.161
+  },
+  {
+    "word": "beim",
+    "start": 425.161,
+    "end": 425.801
+  },
+  {
+    "word": "Arzt.",
+    "start": 425.801,
+    "end": 426.44
+  },
+  {
+    "word": "Wahrheit",
+    "start": 426.74,
+    "end": 427.347
+  },
+  {
+    "word": "Nummer",
+    "start": 427.347,
+    "end": 427.955
+  },
+  {
+    "word": "2: Polarrouten",
+    "start": 427.955,
+    "end": 428.562
+  },
+  {
+    "word": "sind",
+    "start": 428.562,
+    "end": 429.17
+  },
+  {
+    "word": "die strahlenintensivsten",
+    "start": 429.17,
+    "end": 429.777
+  },
+  {
+    "word": "Flüge",
+    "start": 429.777,
+    "end": 430.384
+  },
+  {
+    "word": "der Welt",
+    "start": 430.384,
+    "end": 430.992
+  },
+  {
+    "word": "— bis",
+    "start": 430.992,
+    "end": 431.599
+  },
+  {
+    "word": "zu 30",
+    "start": 431.599,
+    "end": 432.207
+  },
+  {
+    "word": "Prozent",
+    "start": 432.207,
+    "end": 432.814
+  },
+  {
+    "word": "höher",
+    "start": 432.814,
+    "end": 433.421
+  },
+  {
+    "word": "als Standardrouten.",
+    "start": 433.421,
+    "end": 434.029
+  },
+  {
+    "word": "Wahrheit",
+    "start": 434.029,
+    "end": 434.636
+  },
+  {
+    "word": "Nummer",
+    "start": 434.636,
+    "end": 435.244
+  },
+  {
+    "word": "3: Dein",
+    "start": 435.244,
+    "end": 435.851
+  },
+  {
+    "word": "Fenstersitz",
+    "start": 435.851,
+    "end": 436.459
+  },
+  {
+    "word": "gibt",
+    "start": 436.459,
+    "end": 437.066
+  },
+  {
+    "word": "dir dieselbe",
+    "start": 437.066,
+    "end": 437.673
+  },
+  {
+    "word": "UV-Dosis",
+    "start": 437.673,
+    "end": 438.281
+  },
+  {
+    "word": "wie ein",
+    "start": 438.281,
+    "end": 438.888
+  },
+  {
+    "word": "Solarium",
+    "start": 438.888,
+    "end": 439.496
+  },
+  {
+    "word": "— für",
+    "start": 439.496,
+    "end": 440.103
+  },
+  {
+    "word": "jeden",
+    "start": 440.103,
+    "end": 440.71
+  },
+  {
+    "word": "56-Minuten-Block",
+    "start": 440.71,
+    "end": 441.318
+  },
+  {
+    "word": "am Fenster.",
+    "start": 441.318,
+    "end": 441.925
+  },
+  {
+    "word": "Wechsel",
+    "start": 441.925,
+    "end": 442.533
+  },
+  {
+    "word": "den Platz.",
+    "start": 442.533,
+    "end": 443.14
+  },
+  {
+    "word": "Wahrheit",
+    "start": 443.44,
+    "end": 444.09
+  },
+  {
+    "word": "Nummer",
+    "start": 444.09,
+    "end": 444.741
+  },
+  {
+    "word": "4: Piloten",
+    "start": 444.741,
+    "end": 445.391
+  },
+  {
+    "word": "gelten",
+    "start": 445.391,
+    "end": 446.042
+  },
+  {
+    "word": "rechtlich",
+    "start": 446.042,
+    "end": 446.692
+  },
+  {
+    "word": "als strahlenexponierte",
+    "start": 446.692,
+    "end": 447.342
+  },
+  {
+    "word": "Berufsgruppe",
+    "start": 447.342,
+    "end": 447.993
+  },
+  {
+    "word": "— wie",
+    "start": 447.993,
+    "end": 448.643
+  },
+  {
+    "word": "Atomkraftwerks-Mitarbeiter.",
+    "start": 448.643,
+    "end": 449.294
+  },
+  {
+    "word": "Wahrheit",
+    "start": 449.294,
+    "end": 449.944
+  },
+  {
+    "word": "Nummer",
+    "start": 449.944,
+    "end": 450.594
+  },
+  {
+    "word": "5 —",
+    "start": 450.594,
+    "end": 451.245
+  },
+  {
+    "word": "und das",
+    "start": 451.245,
+    "end": 451.895
+  },
+  {
+    "word": "trifft",
+    "start": 451.895,
+    "end": 452.546
+  },
+  {
+    "word": "Vielflieger",
+    "start": 452.546,
+    "end": 453.196
+  },
+  {
+    "word": "sofort:",
+    "start": 453.196,
+    "end": 453.846
+  },
+  {
+    "word": "Wer mehr",
+    "start": 453.846,
+    "end": 454.497
+  },
+  {
+    "word": "als 12",
+    "start": 454.497,
+    "end": 455.147
+  },
+  {
+    "word": "Mal im",
+    "start": 455.147,
+    "end": 455.798
+  },
+  {
+    "word": "Jahr",
+    "start": 455.798,
+    "end": 456.448
+  },
+  {
+    "word": "transatlantisch",
+    "start": 456.448,
+    "end": 457.098
+  },
+  {
+    "word": "fliegt,",
+    "start": 457.098,
+    "end": 457.749
+  },
+  {
+    "word": "überschreitet",
+    "start": 457.749,
+    "end": 458.399
+  },
+  {
+    "word": "die ICRP-Sicherheitsgrenze",
+    "start": 458.399,
+    "end": 459.05
+  },
+  {
+    "word": "für Normalbürger.",
+    "start": 459.05,
+    "end": 459.7
+  },
+  {
+    "word": "Wahrheit",
+    "start": 460.0,
+    "end": 460.612
+  },
+  {
+    "word": "Nummer",
+    "start": 460.612,
+    "end": 461.224
+  },
+  {
+    "word": "6: Sonneneruptionen",
+    "start": 461.224,
+    "end": 461.836
+  },
+  {
+    "word": "können",
+    "start": 461.836,
+    "end": 462.448
+  },
+  {
+    "word": "die Strahlendosis",
+    "start": 462.448,
+    "end": 463.06
+  },
+  {
+    "word": "im Cockpit",
+    "start": 463.06,
+    "end": 463.672
+  },
+  {
+    "word": "innerhalb",
+    "start": 463.672,
+    "end": 464.284
+  },
+  {
+    "word": "von Minuten",
+    "start": 464.284,
+    "end": 464.896
+  },
+  {
+    "word": "vervielfachen",
+    "start": 464.896,
+    "end": 465.508
+  },
+  {
+    "word": "— Airlines",
+    "start": 465.508,
+    "end": 466.12
+  },
+  {
+    "word": "haben",
+    "start": 466.12,
+    "end": 466.732
+  },
+  {
+    "word": "Protokolle",
+    "start": 466.732,
+    "end": 467.344
+  },
+  {
+    "word": "dafür,",
+    "start": 467.344,
+    "end": 467.956
+  },
+  {
+    "word": "du wirst",
+    "start": 467.956,
+    "end": 468.568
+  },
+  {
+    "word": "es nie",
+    "start": 468.568,
+    "end": 469.18
+  },
+  {
+    "word": "erfahren.",
+    "start": 469.18,
+    "end": 469.792
+  },
+  {
+    "word": "Wahrheit",
+    "start": 469.792,
+    "end": 470.404
+  },
+  {
+    "word": "Nummer",
+    "start": 470.404,
+    "end": 471.016
+  },
+  {
+    "word": "7: Strahlung",
+    "start": 471.016,
+    "end": 471.628
+  },
+  {
+    "word": "stört",
+    "start": 471.628,
+    "end": 472.24
+  },
+  {
+    "word": "nachweislich",
+    "start": 472.24,
+    "end": 472.852
+  },
+  {
+    "word": "den Melatoninspiegel",
+    "start": 472.852,
+    "end": 473.464
+  },
+  {
+    "word": "und verstärkt",
+    "start": 473.464,
+    "end": 474.076
+  },
+  {
+    "word": "Jetlag-Symptome",
+    "start": 474.076,
+    "end": 474.688
+  },
+  {
+    "word": "erheblich.",
+    "start": 474.688,
+    "end": 475.3
+  },
+  {
+    "word": "Und Wahrheit",
+    "start": 475.6,
+    "end": 476.177
+  },
+  {
+    "word": "Nummer",
+    "start": 476.177,
+    "end": 476.754
+  },
+  {
+    "word": "8 —",
+    "start": 476.754,
+    "end": 477.331
+  },
+  {
+    "word": "die finale,",
+    "start": 477.331,
+    "end": 477.909
+  },
+  {
+    "word": "die kaum",
+    "start": 477.909,
+    "end": 478.486
+  },
+  {
+    "word": "jemand",
+    "start": 478.486,
+    "end": 479.063
+  },
+  {
+    "word": "kennt:",
+    "start": 479.063,
+    "end": 479.64
+  },
+  {
+    "word": "Schwangere",
+    "start": 479.64,
+    "end": 480.217
+  },
+  {
+    "word": "Flugbegleiterinnen",
+    "start": 480.217,
+    "end": 480.794
+  },
+  {
+    "word": "im ersten",
+    "start": 480.794,
+    "end": 481.371
+  },
+  {
+    "word": "Trimester",
+    "start": 481.371,
+    "end": 481.949
+  },
+  {
+    "word": "haben",
+    "start": 481.949,
+    "end": 482.526
+  },
+  {
+    "word": "laut",
+    "start": 482.526,
+    "end": 483.103
+  },
+  {
+    "word": "EU-Recht",
+    "start": 483.103,
+    "end": 483.68
+  },
+  {
+    "word": "Anspruch",
+    "start": 483.68,
+    "end": 484.257
+  },
+  {
+    "word": "auf sofortige",
+    "start": 484.257,
+    "end": 484.834
+  },
+  {
+    "word": "Umschulung",
+    "start": 484.834,
+    "end": 485.411
+  },
+  {
+    "word": "am Boden.",
+    "start": 485.411,
+    "end": 485.989
+  },
+  {
+    "word": "Das ist",
+    "start": 485.989,
+    "end": 486.566
+  },
+  {
+    "word": "Gesetz.",
+    "start": 486.566,
+    "end": 487.143
+  },
+  {
+    "word": "Aber",
+    "start": 487.143,
+    "end": 487.72
+  },
+  {
+    "word": "für Passagierinnen",
+    "start": 487.72,
+    "end": 488.297
+  },
+  {
+    "word": "gibt",
+    "start": 488.297,
+    "end": 488.874
+  },
+  {
+    "word": "es keinerlei",
+    "start": 488.874,
+    "end": 489.451
+  },
+  {
+    "word": "gesetzlichen",
+    "start": 489.451,
+    "end": 490.029
+  },
+  {
+    "word": "Schutz",
+    "start": 490.029,
+    "end": 490.606
+  },
+  {
+    "word": "oder",
+    "start": 490.606,
+    "end": 491.183
+  },
+  {
+    "word": "Hinweispflicht.",
+    "start": 491.183,
+    "end": 491.76
+  },
+  {
+    "word": "Was bedeutet",
+    "start": 492.06,
+    "end": 492.833
+  },
+  {
+    "word": "das jetzt",
+    "start": 492.833,
+    "end": 493.606
+  },
+  {
+    "word": "praktisch",
+    "start": 493.606,
+    "end": 494.379
+  },
+  {
+    "word": "für dich?",
+    "start": 494.379,
+    "end": 495.152
+  },
+  {
+    "word": "Erstens:",
+    "start": 495.152,
+    "end": 495.925
+  },
+  {
+    "word": "Lade",
+    "start": 495.925,
+    "end": 496.698
+  },
+  {
+    "word": "die kostenlose",
+    "start": 496.698,
+    "end": 497.472
+  },
+  {
+    "word": "SIEVERT-App",
+    "start": 497.472,
+    "end": 498.245
+  },
+  {
+    "word": "der ESA",
+    "start": 498.245,
+    "end": 499.018
+  },
+  {
+    "word": "herunter",
+    "start": 499.018,
+    "end": 499.791
+  },
+  {
+    "word": "und tracke",
+    "start": 499.791,
+    "end": 500.564
+  },
+  {
+    "word": "deine",
+    "start": 500.564,
+    "end": 501.337
+  },
+  {
+    "word": "persönliche",
+    "start": 501.337,
+    "end": 502.11
+  },
+  {
+    "word": "Jahres-Strahlendosis.",
+    "start": 502.11,
+    "end": 502.883
+  },
+  {
+    "word": "Zweitens:",
+    "start": 502.883,
+    "end": 503.656
+  },
+  {
+    "word": "Benutze",
+    "start": 503.656,
+    "end": 504.429
+  },
+  {
+    "word": "beim",
+    "start": 504.429,
+    "end": 505.202
+  },
+  {
+    "word": "Fenstersitz",
+    "start": 505.202,
+    "end": 505.975
+  },
+  {
+    "word": "SPF-50",
+    "start": 505.975,
+    "end": 506.748
+  },
+  {
+    "word": "Sonnenschutz.",
+    "start": 506.748,
+    "end": 507.522
+  },
+  {
+    "word": "Drittens:",
+    "start": 507.522,
+    "end": 508.295
+  },
+  {
+    "word": "Buche",
+    "start": 508.295,
+    "end": 509.068
+  },
+  {
+    "word": "wenn",
+    "start": 509.068,
+    "end": 509.841
+  },
+  {
+    "word": "möglich",
+    "start": 509.841,
+    "end": 510.614
+  },
+  {
+    "word": "Gangplätze",
+    "start": 510.614,
+    "end": 511.387
+  },
+  {
+    "word": "auf Langstrecken.",
+    "start": 511.387,
+    "end": 512.16
+  },
+  {
+    "word": "Wird",
+    "start": 512.46,
+    "end": 513.027
+  },
+  {
+    "word": "es in",
+    "start": 513.027,
+    "end": 513.594
+  },
+  {
+    "word": "Zukunft",
+    "start": 513.594,
+    "end": 514.162
+  },
+  {
+    "word": "besser?",
+    "start": 514.162,
+    "end": 514.729
+  },
+  {
+    "word": "Die neue",
+    "start": 514.729,
+    "end": 515.296
+  },
+  {
+    "word": "Generation",
+    "start": 515.296,
+    "end": 515.863
+  },
+  {
+    "word": "von Flugzeugen",
+    "start": 515.863,
+    "end": 516.431
+  },
+  {
+    "word": "wie der",
+    "start": 516.431,
+    "end": 516.998
+  },
+  {
+    "word": "Boeing",
+    "start": 516.998,
+    "end": 517.565
+  },
+  {
+    "word": "787 Dreamliner",
+    "start": 517.565,
+    "end": 518.132
+  },
+  {
+    "word": "fliegt",
+    "start": 518.132,
+    "end": 518.7
+  },
+  {
+    "word": "bewusst",
+    "start": 518.7,
+    "end": 519.267
+  },
+  {
+    "word": "auf niedrigeren",
+    "start": 519.267,
+    "end": 519.834
+  },
+  {
+    "word": "Höhen",
+    "start": 519.834,
+    "end": 520.401
+  },
+  {
+    "word": "und verwendet",
+    "start": 520.401,
+    "end": 520.969
+  },
+  {
+    "word": "andere",
+    "start": 520.969,
+    "end": 521.536
+  },
+  {
+    "word": "Druckkabinen.",
+    "start": 521.536,
+    "end": 522.103
+  },
+  {
+    "word": "Das reduziert",
+    "start": 522.103,
+    "end": 522.67
+  },
+  {
+    "word": "nicht",
+    "start": 522.67,
+    "end": 523.238
+  },
+  {
+    "word": "nur die",
+    "start": 523.238,
+    "end": 523.805
+  },
+  {
+    "word": "Strahlung",
+    "start": 523.805,
+    "end": 524.372
+  },
+  {
+    "word": "leicht,",
+    "start": 524.372,
+    "end": 524.939
+  },
+  {
+    "word": "sondern",
+    "start": 524.939,
+    "end": 525.507
+  },
+  {
+    "word": "verbessert",
+    "start": 525.507,
+    "end": 526.074
+  },
+  {
+    "word": "auch",
+    "start": 526.074,
+    "end": 526.641
+  },
+  {
+    "word": "den Kabinendruck",
+    "start": 526.641,
+    "end": 527.208
+  },
+  {
+    "word": "und das",
+    "start": 527.208,
+    "end": 527.776
+  },
+  {
+    "word": "Wohlbefinden",
+    "start": 527.776,
+    "end": 528.343
+  },
+  {
+    "word": "merklich.",
+    "start": 528.343,
+    "end": 528.91
+  },
+  {
+    "word": "Bevor",
+    "start": 529.21,
+    "end": 529.771
+  },
+  {
+    "word": "du jetzt",
+    "start": 529.771,
+    "end": 530.333
+  },
+  {
+    "word": "nie wieder",
+    "start": 530.333,
+    "end": 530.894
+  },
+  {
+    "word": "fliegst:",
+    "start": 530.894,
+    "end": 531.456
+  },
+  {
+    "word": "Lass",
+    "start": 531.456,
+    "end": 532.017
+  },
+  {
+    "word": "uns das",
+    "start": 532.017,
+    "end": 532.578
+  },
+  {
+    "word": "in Relation",
+    "start": 532.578,
+    "end": 533.14
+  },
+  {
+    "word": "setzen.",
+    "start": 533.14,
+    "end": 533.701
+  },
+  {
+    "word": "Das Lebenszeitrisiko",
+    "start": 533.701,
+    "end": 534.262
+  },
+  {
+    "word": "für einen",
+    "start": 534.262,
+    "end": 534.824
+  },
+  {
+    "word": "Normalbürger,",
+    "start": 534.824,
+    "end": 535.385
+  },
+  {
+    "word": "der ab",
+    "start": 535.385,
+    "end": 535.947
+  },
+  {
+    "word": "und zu",
+    "start": 535.947,
+    "end": 536.508
+  },
+  {
+    "word": "fliegt,",
+    "start": 536.508,
+    "end": 537.069
+  },
+  {
+    "word": "ist statistisch",
+    "start": 537.069,
+    "end": 537.631
+  },
+  {
+    "word": "sehr",
+    "start": 537.631,
+    "end": 538.192
+  },
+  {
+    "word": "gering.",
+    "start": 538.192,
+    "end": 538.753
+  },
+  {
+    "word": "Das Risiko",
+    "start": 538.753,
+    "end": 539.315
+  },
+  {
+    "word": "steigt",
+    "start": 539.315,
+    "end": 539.876
+  },
+  {
+    "word": "erst",
+    "start": 539.876,
+    "end": 540.438
+  },
+  {
+    "word": "bei regelmäßigen",
+    "start": 540.438,
+    "end": 540.999
+  },
+  {
+    "word": "Langstreckenflügen",
+    "start": 540.999,
+    "end": 541.56
+  },
+  {
+    "word": "über",
+    "start": 541.56,
+    "end": 542.122
+  },
+  {
+    "word": "Jahre",
+    "start": 542.122,
+    "end": 542.683
+  },
+  {
+    "word": "spürbar.",
+    "start": 542.683,
+    "end": 543.244
+  },
+  {
+    "word": "Wissen",
+    "start": 543.244,
+    "end": 543.806
+  },
+  {
+    "word": "schützt",
+    "start": 543.806,
+    "end": 544.367
+  },
+  {
+    "word": "— Panik",
+    "start": 544.367,
+    "end": 544.929
+  },
+  {
+    "word": "nicht.",
+    "start": 544.929,
+    "end": 545.49
+  },
+  {
+    "word": "Das nächste",
+    "start": 545.79,
+    "end": 546.231
+  },
+  {
+    "word": "Mal wenn",
+    "start": 546.231,
+    "end": 546.671
+  },
+  {
+    "word": "du ins",
+    "start": 546.671,
+    "end": 547.112
+  },
+  {
+    "word": "Flugzeug",
+    "start": 547.112,
+    "end": 547.553
+  },
+  {
+    "word": "steigst,",
+    "start": 547.553,
+    "end": 547.993
+  },
+  {
+    "word": "wirst",
+    "start": 547.993,
+    "end": 548.434
+  },
+  {
+    "word": "du die",
+    "start": 548.434,
+    "end": 548.874
+  },
+  {
+    "word": "Welt",
+    "start": 548.874,
+    "end": 549.315
+  },
+  {
+    "word": "darüber",
+    "start": 549.315,
+    "end": 549.756
+  },
+  {
+    "word": "anders",
+    "start": 549.756,
+    "end": 550.196
+  },
+  {
+    "word": "sehen.",
+    "start": 550.196,
+    "end": 550.637
+  },
+  {
+    "word": "Du wirst",
+    "start": 550.637,
+    "end": 551.077
+  },
+  {
+    "word": "die Höhe",
+    "start": 551.078,
+    "end": 551.518
+  },
+  {
+    "word": "kennen,",
+    "start": 551.518,
+    "end": 551.959
+  },
+  {
+    "word": "die Route",
+    "start": 551.959,
+    "end": 552.399
+  },
+  {
+    "word": "kennen,",
+    "start": 552.399,
+    "end": 552.84
+  },
+  {
+    "word": "und du",
+    "start": 552.84,
+    "end": 553.281
+  },
+  {
+    "word": "wirst",
+    "start": 553.281,
+    "end": 553.721
+  },
+  {
+    "word": "wissen,",
+    "start": 553.721,
+    "end": 554.162
+  },
+  {
+    "word": "was in",
+    "start": 554.162,
+    "end": 554.603
+  },
+  {
+    "word": "deinem",
+    "start": 554.603,
+    "end": 555.043
+  },
+  {
+    "word": "Körper",
+    "start": 555.043,
+    "end": 555.484
+  },
+  {
+    "word": "passiert.",
+    "start": 555.484,
+    "end": 555.924
+  },
+  {
+    "word": "Dieses",
+    "start": 555.924,
+    "end": 556.365
+  },
+  {
+    "word": "Wissen",
+    "start": 556.365,
+    "end": 556.806
+  },
+  {
+    "word": "gehört",
+    "start": 556.806,
+    "end": 557.246
+  },
+  {
+    "word": "dir. Und",
+    "start": 557.246,
+    "end": 557.687
+  },
+  {
+    "word": "niemand",
+    "start": 557.687,
+    "end": 558.128
+  },
+  {
+    "word": "kann",
+    "start": 558.128,
+    "end": 558.568
+  },
+  {
+    "word": "es dir",
+    "start": 558.568,
+    "end": 559.009
+  },
+  {
+    "word": "mehr",
+    "start": 559.009,
+    "end": 559.449
+  },
+  {
+    "word": "nehmen.",
+    "start": 559.449,
+    "end": 559.89
+  },
+  {
+    "word": "Falls",
+    "start": 560.19,
+    "end": 560.668
+  },
+  {
+    "word": "dieses",
+    "start": 560.668,
+    "end": 561.147
+  },
+  {
+    "word": "Video",
+    "start": 561.147,
+    "end": 561.625
+  },
+  {
+    "word": "dir etwas",
+    "start": 561.625,
+    "end": 562.103
+  },
+  {
+    "word": "Neues",
+    "start": 562.103,
+    "end": 562.582
+  },
+  {
+    "word": "gezeigt",
+    "start": 562.582,
+    "end": 563.06
+  },
+  {
+    "word": "hat —",
+    "start": 563.06,
+    "end": 563.538
+  },
+  {
+    "word": "und das",
+    "start": 563.538,
+    "end": 564.017
+  },
+  {
+    "word": "glaube",
+    "start": 564.017,
+    "end": 564.495
+  },
+  {
+    "word": "ich schon",
+    "start": 564.495,
+    "end": 564.973
+  },
+  {
+    "word": "— dann",
+    "start": 564.973,
+    "end": 565.452
+  },
+  {
+    "word": "teile",
+    "start": 565.452,
+    "end": 565.93
+  },
+  {
+    "word": "es mit",
+    "start": 565.93,
+    "end": 566.408
+  },
+  {
+    "word": "jemandem,",
+    "start": 566.408,
+    "end": 566.887
+  },
+  {
+    "word": "der viel",
+    "start": 566.887,
+    "end": 567.365
+  },
+  {
+    "word": "fliegt.",
+    "start": 567.365,
+    "end": 567.843
+  },
+  {
+    "word": "Einem",
+    "start": 567.843,
+    "end": 568.322
+  },
+  {
+    "word": "Kollegen.",
+    "start": 568.322,
+    "end": 568.8
+  },
+  {
+    "word": "Einer",
+    "start": 568.8,
+    "end": 569.278
+  },
+  {
+    "word": "Freundin.",
+    "start": 569.278,
+    "end": 569.757
+  },
+  {
+    "word": "Denn",
+    "start": 569.757,
+    "end": 570.235
+  },
+  {
+    "word": "dieses",
+    "start": 570.235,
+    "end": 570.713
+  },
+  {
+    "word": "Wissen",
+    "start": 570.713,
+    "end": 571.192
+  },
+  {
+    "word": "kann",
+    "start": 571.192,
+    "end": 571.67
+  },
+  {
+    "word": "wirklich",
+    "start": 571.67,
+    "end": 572.148
+  },
+  {
+    "word": "etwas",
+    "start": 572.148,
+    "end": 572.627
+  },
+  {
+    "word": "verändern.",
+    "start": 572.627,
+    "end": 573.105
+  },
+  {
+    "word": "Und wenn",
+    "start": 573.105,
+    "end": 573.583
+  },
+  {
+    "word": "du kein",
+    "start": 573.583,
+    "end": 574.062
+  },
+  {
+    "word": "Video",
+    "start": 574.062,
+    "end": 574.54
+  },
+  {
+    "word": "von uns",
+    "start": 574.54,
+    "end": 575.018
+  },
+  {
+    "word": "verpassen",
+    "start": 575.018,
+    "end": 575.497
+  },
+  {
+    "word": "willst:",
+    "start": 575.497,
+    "end": 575.975
+  },
+  {
+    "word": "Abonniere",
+    "start": 575.975,
+    "end": 576.453
+  },
+  {
+    "word": "jetzt",
+    "start": 576.453,
+    "end": 576.932
+  },
+  {
+    "word": "den Kanal.",
+    "start": 576.932,
+    "end": 577.41
+  }
+]
