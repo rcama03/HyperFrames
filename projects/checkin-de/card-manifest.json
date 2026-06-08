@@ -1,0 +1,200 @@
+{
+  "cards": [
+    {
+      "id": "chap-intro",
+      "path": "card-frames/chap-intro.png",
+      "inTime": 0.5,
+      "outTime": 6,
+      "entry": "left"
+    },
+    {
+      "id": "chap-stat",
+      "path": "card-frames/chap-stat.png",
+      "inTime": 83.5,
+      "outTime": 89,
+      "entry": "left"
+    },
+    {
+      "id": "chap-praxis",
+      "path": "card-frames/chap-praxis.png",
+      "inTime": 177.5,
+      "outTime": 183,
+      "entry": "left"
+    },
+    {
+      "id": "chap-overbooking",
+      "path": "card-frames/chap-overbooking.png",
+      "inTime": 273.5,
+      "outTime": 279,
+      "entry": "left"
+    },
+    {
+      "id": "chap-airlines",
+      "path": "card-frames/chap-airlines.png",
+      "inTime": 367.5,
+      "outTime": 373,
+      "entry": "left"
+    },
+    {
+      "id": "chap-dich",
+      "path": "card-frames/chap-dich.png",
+      "inTime": 448,
+      "outTime": 453,
+      "entry": "left"
+    },
+    {
+      "id": "chap-missv",
+      "path": "card-frames/chap-missv.png",
+      "inTime": 547.5,
+      "outTime": 553,
+      "entry": "left"
+    },
+    {
+      "id": "rank-1",
+      "path": "card-frames/rank-1.png",
+      "inTime": 44.8,
+      "outTime": 55,
+      "entry": "right"
+    },
+    {
+      "id": "rank-2",
+      "path": "card-frames/rank-2.png",
+      "inTime": 62.8,
+      "outTime": 73,
+      "entry": "right"
+    },
+    {
+      "id": "rank-3",
+      "path": "card-frames/rank-3.png",
+      "inTime": 102.6,
+      "outTime": 113,
+      "entry": "right"
+    },
+    {
+      "id": "rank-4",
+      "path": "card-frames/rank-4.png",
+      "inTime": 119.1,
+      "outTime": 130,
+      "entry": "right"
+    },
+    {
+      "id": "rank-5",
+      "path": "card-frames/rank-5.png",
+      "inTime": 159.7,
+      "outTime": 170,
+      "entry": "right"
+    },
+    {
+      "id": "rank-6",
+      "path": "card-frames/rank-6.png",
+      "inTime": 195.3,
+      "outTime": 206,
+      "entry": "right"
+    },
+    {
+      "id": "rank-7",
+      "path": "card-frames/rank-7.png",
+      "inTime": 213,
+      "outTime": 224,
+      "entry": "right"
+    },
+    {
+      "id": "rank-8",
+      "path": "card-frames/rank-8.png",
+      "inTime": 254.9,
+      "outTime": 265,
+      "entry": "right"
+    },
+    {
+      "id": "rank-9",
+      "path": "card-frames/rank-9.png",
+      "inTime": 294.5,
+      "outTime": 305,
+      "entry": "right"
+    },
+    {
+      "id": "stat-namen",
+      "path": "card-frames/stat-namen.png",
+      "inTime": 88.5,
+      "outTime": 100,
+      "entry": "right"
+    },
+    {
+      "id": "stat-gepack",
+      "path": "card-frames/stat-gepack.png",
+      "inTime": 148,
+      "outTime": 158,
+      "entry": "right"
+    },
+    {
+      "id": "stat-docs",
+      "path": "card-frames/stat-docs.png",
+      "inTime": 241,
+      "outTime": 252,
+      "entry": "right"
+    },
+    {
+      "id": "stat-eu",
+      "path": "card-frames/stat-eu.png",
+      "inTime": 470,
+      "outTime": 482,
+      "entry": "right"
+    },
+    {
+      "id": "key-regel",
+      "path": "card-frames/key-regel.png",
+      "inTime": 179,
+      "outTime": 192,
+      "entry": "bottom"
+    },
+    {
+      "id": "key-protect",
+      "path": "card-frames/key-protect.png",
+      "inTime": 275,
+      "outTime": 288,
+      "entry": "bottom"
+    },
+    {
+      "id": "alert-data",
+      "path": "card-frames/alert-data.png",
+      "inTime": 369,
+      "outTime": 381,
+      "entry": "right"
+    },
+    {
+      "id": "alert-missv",
+      "path": "card-frames/alert-missv.png",
+      "inTime": 549,
+      "outTime": 561,
+      "entry": "right"
+    },
+    {
+      "id": "src-sky",
+      "path": "card-frames/src-sky.png",
+      "inTime": 90,
+      "outTime": 100,
+      "entry": "left"
+    },
+    {
+      "id": "src-iata1",
+      "path": "card-frames/src-iata1.png",
+      "inTime": 149,
+      "outTime": 158,
+      "entry": "left"
+    },
+    {
+      "id": "src-iata2",
+      "path": "card-frames/src-iata2.png",
+      "inTime": 242,
+      "outTime": 252,
+      "entry": "left"
+    },
+    {
+      "id": "src-eu261",
+      "path": "card-frames/src-eu261.png",
+      "inTime": 471,
+      "outTime": 482,
+      "entry": "left"
+    }
+  ]
+}
