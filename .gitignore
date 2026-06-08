@@ -30,6 +30,7 @@ output/
 !projects/strahlung-de/output/
 !projects/turbulenz-de/output/
 !projects/profiling-de/output/
+!projects/checkin-de/output/
 
 # npm pack artifacts
 *.tgz

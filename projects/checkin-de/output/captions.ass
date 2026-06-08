@@ -1,0 +1,1101 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Montserrat,42,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,30,30,60,1
+Style: Highlight,Montserrat,42,&H0000D7FF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,30,30,60,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.64,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}ÜBER{\c&H00FFFFFF&\alpha&H33&} 50.000 PASSAGIERE. JEDES
+Dialogue: 0,0:00:00.64,0:00:01.28,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ÜBER {\c&H0000D7FF&\alpha&H00&}50.000{\c&H00FFFFFF&\alpha&H33&} PASSAGIERE. JEDES
+Dialogue: 0,0:00:01.28,0:00:01.93,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ÜBER 50.000 {\c&H0000D7FF&\alpha&H00&}PASSAGIERE.{\c&H00FFFFFF&\alpha&H33&} JEDES
+Dialogue: 0,0:00:01.93,0:00:02.57,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ÜBER 50.000 PASSAGIERE. {\c&H0000D7FF&\alpha&H00&}JEDES
+Dialogue: 0,0:00:02.57,0:00:03.22,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}JAHR.{\c&H00FFFFFF&\alpha&H33&} IN DEUTSCHLAND ALLEIN. SIE VERPASSEN
+Dialogue: 0,0:00:03.22,0:00:03.86,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}JAHR. {\c&H0000D7FF&\alpha&H00&}IN DEUTSCHLAND{\c&H00FFFFFF&\alpha&H33&} ALLEIN. SIE VERPASSEN
+Dialogue: 0,0:00:03.86,0:00:04.51,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}JAHR. IN DEUTSCHLAND {\c&H0000D7FF&\alpha&H00&}ALLEIN.{\c&H00FFFFFF&\alpha&H33&} SIE VERPASSEN
+Dialogue: 0,0:00:04.51,0:00:05.15,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}JAHR. IN DEUTSCHLAND ALLEIN. {\c&H0000D7FF&\alpha&H00&}SIE VERPASSEN
+Dialogue: 0,0:00:05.15,0:00:05.80,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}IHREN{\c&H00FFFFFF&\alpha&H33&} FLUG — NICHT WEGEN
+Dialogue: 0,0:00:05.80,0:00:06.44,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}IHREN {\c&H0000D7FF&\alpha&H00&}FLUG{\c&H00FFFFFF&\alpha&H33&} — NICHT WEGEN
+Dialogue: 0,0:00:06.44,0:00:07.09,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}IHREN FLUG {\c&H0000D7FF&\alpha&H00&}— NICHT{\c&H00FFFFFF&\alpha&H33&} WEGEN
+Dialogue: 0,0:00:07.09,0:00:07.73,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}IHREN FLUG — NICHT {\c&H0000D7FF&\alpha&H00&}WEGEN
+Dialogue: 0,0:00:07.73,0:00:08.38,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}STAU,{\c&H00FFFFFF&\alpha&H33&} NICHT WEGEN SCHLECHTEM
+Dialogue: 0,0:00:08.38,0:00:09.02,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}STAU, {\c&H0000D7FF&\alpha&H00&}NICHT{\c&H00FFFFFF&\alpha&H33&} WEGEN SCHLECHTEM
+Dialogue: 0,0:00:09.02,0:00:09.67,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}STAU, NICHT {\c&H0000D7FF&\alpha&H00&}WEGEN{\c&H00FFFFFF&\alpha&H33&} SCHLECHTEM
+Dialogue: 0,0:00:09.67,0:00:10.31,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}STAU, NICHT WEGEN {\c&H0000D7FF&\alpha&H00&}SCHLECHTEM
+Dialogue: 0,0:00:10.31,0:00:10.96,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}WETTER,{\c&H00FFFFFF&\alpha&H33&} SONDERN WEGEN EINES
+Dialogue: 0,0:00:10.96,0:00:11.60,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WETTER, {\c&H0000D7FF&\alpha&H00&}SONDERN{\c&H00FFFFFF&\alpha&H33&} WEGEN EINES
+Dialogue: 0,0:00:11.60,0:00:12.25,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WETTER, SONDERN {\c&H0000D7FF&\alpha&H00&}WEGEN{\c&H00FFFFFF&\alpha&H33&} EINES
+Dialogue: 0,0:00:12.25,0:00:12.89,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WETTER, SONDERN WEGEN {\c&H0000D7FF&\alpha&H00&}EINES
+Dialogue: 0,0:00:12.89,0:00:13.54,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}EINZIGEN{\c&H00FFFFFF&\alpha&H33&} VERMEIDBAREN CHECK-IN-FEHLERS, DEN FAST
+Dialogue: 0,0:00:13.54,0:00:14.18,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}EINZIGEN {\c&H0000D7FF&\alpha&H00&}VERMEIDBAREN{\c&H00FFFFFF&\alpha&H33&} CHECK-IN-FEHLERS, DEN FAST
+Dialogue: 0,0:00:14.18,0:00:14.82,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}EINZIGEN VERMEIDBAREN {\c&H0000D7FF&\alpha&H00&}CHECK-IN-FEHLERS,{\c&H00FFFFFF&\alpha&H33&} DEN FAST
+Dialogue: 0,0:00:14.82,0:00:15.47,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}EINZIGEN VERMEIDBAREN CHECK-IN-FEHLERS, {\c&H0000D7FF&\alpha&H00&}DEN FAST
+Dialogue: 0,0:00:15.47,0:00:16.11,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}JEDER{\c&H00FFFFFF&\alpha&H33&} MINDESTENS EINMAL MACHT.
+Dialogue: 0,0:00:16.11,0:00:16.76,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}JEDER {\c&H0000D7FF&\alpha&H00&}MINDESTENS{\c&H00FFFFFF&\alpha&H33&} EINMAL MACHT.
+Dialogue: 0,0:00:16.76,0:00:17.40,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}JEDER MINDESTENS {\c&H0000D7FF&\alpha&H00&}EINMAL{\c&H00FFFFFF&\alpha&H33&} MACHT.
+Dialogue: 0,0:00:17.40,0:00:18.05,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}JEDER MINDESTENS EINMAL {\c&H0000D7FF&\alpha&H00&}MACHT.
+Dialogue: 0,0:00:18.34,0:00:18.82,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}WAS NOCH{\c&H00FFFFFF&\alpha&H33&} SCHLIMMER IST: AIRLINES WISSEN
+Dialogue: 0,0:00:18.82,0:00:19.29,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WAS NOCH {\c&H0000D7FF&\alpha&H00&}SCHLIMMER{\c&H00FFFFFF&\alpha&H33&} IST: AIRLINES WISSEN
+Dialogue: 0,0:00:19.29,0:00:19.77,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WAS NOCH SCHLIMMER {\c&H0000D7FF&\alpha&H00&}IST: AIRLINES{\c&H00FFFFFF&\alpha&H33&} WISSEN
+Dialogue: 0,0:00:19.77,0:00:20.25,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WAS NOCH SCHLIMMER IST: AIRLINES {\c&H0000D7FF&\alpha&H00&}WISSEN
+Dialogue: 0,0:00:20.25,0:00:20.72,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}DAS. SIE{\c&H00FFFFFF&\alpha&H33&} VERDIENEN MILLIARDEN DARAN,
+Dialogue: 0,0:00:20.72,0:00:21.20,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DAS. SIE {\c&H0000D7FF&\alpha&H00&}VERDIENEN{\c&H00FFFFFF&\alpha&H33&} MILLIARDEN DARAN,
+Dialogue: 0,0:00:21.20,0:00:21.68,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DAS. SIE VERDIENEN {\c&H0000D7FF&\alpha&H00&}MILLIARDEN{\c&H00FFFFFF&\alpha&H33&} DARAN,
+Dialogue: 0,0:00:21.68,0:00:22.16,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DAS. SIE VERDIENEN MILLIARDEN {\c&H0000D7FF&\alpha&H00&}DARAN,
+Dialogue: 0,0:00:22.16,0:00:22.63,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}DASS{\c&H00FFFFFF&\alpha&H33&} PASSAGIERE GENAU DIESE
+Dialogue: 0,0:00:22.63,0:00:23.11,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DASS {\c&H0000D7FF&\alpha&H00&}PASSAGIERE{\c&H00FFFFFF&\alpha&H33&} GENAU DIESE
+Dialogue: 0,0:00:23.11,0:00:23.59,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DASS PASSAGIERE {\c&H0000D7FF&\alpha&H00&}GENAU{\c&H00FFFFFF&\alpha&H33&} DIESE
+Dialogue: 0,0:00:23.59,0:00:24.06,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DASS PASSAGIERE GENAU {\c&H0000D7FF&\alpha&H00&}DIESE
+Dialogue: 0,0:00:24.06,0:00:24.54,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}FEHLER{\c&H00FFFFFF&\alpha&H33&} MACHEN — UND SIE SIND
+Dialogue: 0,0:00:24.54,0:00:25.02,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}FEHLER {\c&H0000D7FF&\alpha&H00&}MACHEN{\c&H00FFFFFF&\alpha&H33&} — UND SIE SIND
+Dialogue: 0,0:00:25.02,0:00:25.49,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}FEHLER MACHEN {\c&H0000D7FF&\alpha&H00&}— UND{\c&H00FFFFFF&\alpha&H33&} SIE SIND
+Dialogue: 0,0:00:25.49,0:00:25.97,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}FEHLER MACHEN — UND {\c&H0000D7FF&\alpha&H00&}SIE SIND
+Dialogue: 0,0:00:25.97,0:00:26.45,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}GESETZLICH{\c&H00FFFFFF&\alpha&H33&} NICHT VERPFLICHTET, DICH
+Dialogue: 0,0:00:26.45,0:00:26.92,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}GESETZLICH {\c&H0000D7FF&\alpha&H00&}NICHT{\c&H00FFFFFF&\alpha&H33&} VERPFLICHTET, DICH
+Dialogue: 0,0:00:26.92,0:00:27.40,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}GESETZLICH NICHT {\c&H0000D7FF&\alpha&H00&}VERPFLICHTET,{\c&H00FFFFFF&\alpha&H33&} DICH
+Dialogue: 0,0:00:27.40,0:00:27.88,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}GESETZLICH NICHT VERPFLICHTET, {\c&H0000D7FF&\alpha&H00&}DICH
+Dialogue: 0,0:00:27.88,0:00:28.35,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}DARAUF{\c&H00FFFFFF&\alpha&H33&} HINZUWEISEN. DU BIST AUF DICH
+Dialogue: 0,0:00:28.35,0:00:28.83,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DARAUF {\c&H0000D7FF&\alpha&H00&}HINZUWEISEN.{\c&H00FFFFFF&\alpha&H33&} DU BIST AUF DICH
+Dialogue: 0,0:00:28.83,0:00:29.31,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DARAUF HINZUWEISEN. {\c&H0000D7FF&\alpha&H00&}DU BIST{\c&H00FFFFFF&\alpha&H33&} AUF DICH
+Dialogue: 0,0:00:29.31,0:00:29.78,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DARAUF HINZUWEISEN. DU BIST {\c&H0000D7FF&\alpha&H00&}AUF DICH
+Dialogue: 0,0:00:29.78,0:00:30.26,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}ALLEIN{\c&H00FFFFFF&\alpha&H33&} GESTELLT. IN DEN NÄCHSTEN
+Dialogue: 0,0:00:30.26,0:00:31.03,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ALLEIN {\c&H0000D7FF&\alpha&H00&}GESTELLT.{\c&H00FFFFFF&\alpha&H33&} IN DEN NÄCHSTEN
+Dialogue: 0,0:00:31.03,0:00:31.39,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ALLEIN GESTELLT. {\c&H0000D7FF&\alpha&H00&}IN DEN{\c&H00FFFFFF&\alpha&H33&} NÄCHSTEN
+Dialogue: 0,0:00:31.39,0:00:31.75,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ALLEIN GESTELLT. IN DEN {\c&H0000D7FF&\alpha&H00&}NÄCHSTEN
+Dialogue: 0,0:00:31.75,0:00:32.11,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}MINUTEN{\c&H00FFFFFF&\alpha&H33&} ZEIGE ICH DIR ALLE
+Dialogue: 0,0:00:32.11,0:00:32.48,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}MINUTEN {\c&H0000D7FF&\alpha&H00&}ZEIGE{\c&H00FFFFFF&\alpha&H33&} ICH DIR ALLE
+Dialogue: 0,0:00:32.48,0:00:32.84,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}MINUTEN ZEIGE {\c&H0000D7FF&\alpha&H00&}ICH DIR{\c&H00FFFFFF&\alpha&H33&} ALLE
+Dialogue: 0,0:00:32.84,0:00:33.20,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}MINUTEN ZEIGE ICH DIR {\c&H0000D7FF&\alpha&H00&}ALLE
+Dialogue: 0,0:00:33.20,0:00:33.56,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}NEUN{\c&H00FFFFFF&\alpha&H33&} FEHLER — VON DENEN
+Dialogue: 0,0:00:33.56,0:00:33.92,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}NEUN {\c&H0000D7FF&\alpha&H00&}FEHLER{\c&H00FFFFFF&\alpha&H33&} — VON DENEN
+Dialogue: 0,0:00:33.92,0:00:34.28,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}NEUN FEHLER {\c&H0000D7FF&\alpha&H00&}— VON{\c&H00FFFFFF&\alpha&H33&} DENEN
+Dialogue: 0,0:00:34.28,0:00:34.65,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}NEUN FEHLER — VON {\c&H0000D7FF&\alpha&H00&}DENEN
+Dialogue: 0,0:00:34.65,0:00:35.01,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}MANCHE{\c&H00FFFFFF&\alpha&H33&} SO UNSCHEINBAR SIND, DASS
+Dialogue: 0,0:00:35.01,0:00:35.37,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}MANCHE {\c&H0000D7FF&\alpha&H00&}SO UNSCHEINBAR{\c&H00FFFFFF&\alpha&H33&} SIND, DASS
+Dialogue: 0,0:00:35.37,0:00:35.73,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}MANCHE SO UNSCHEINBAR {\c&H0000D7FF&\alpha&H00&}SIND,{\c&H00FFFFFF&\alpha&H33&} DASS
+Dialogue: 0,0:00:35.73,0:00:36.09,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}MANCHE SO UNSCHEINBAR SIND, {\c&H0000D7FF&\alpha&H00&}DASS
+Dialogue: 0,0:00:36.09,0:00:36.45,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}DU SIE{\c&H00FFFFFF&\alpha&H33&} GARANTIERT SCHON GEMACHT
+Dialogue: 0,0:00:36.45,0:00:36.82,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DU SIE {\c&H0000D7FF&\alpha&H00&}GARANTIERT{\c&H00FFFFFF&\alpha&H33&} SCHON GEMACHT
+Dialogue: 0,0:00:36.82,0:00:37.18,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DU SIE GARANTIERT {\c&H0000D7FF&\alpha&H00&}SCHON{\c&H00FFFFFF&\alpha&H33&} GEMACHT
+Dialogue: 0,0:00:37.18,0:00:37.54,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DU SIE GARANTIERT SCHON {\c&H0000D7FF&\alpha&H00&}GEMACHT
+Dialogue: 0,0:00:37.54,0:00:37.90,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}HAST,{\c&H00FFFFFF&\alpha&H33&} OHNE ES ZU WISSEN.
+Dialogue: 0,0:00:37.90,0:00:38.26,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}HAST, {\c&H0000D7FF&\alpha&H00&}OHNE{\c&H00FFFFFF&\alpha&H33&} ES ZU WISSEN.
+Dialogue: 0,0:00:38.26,0:00:38.63,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}HAST, OHNE {\c&H0000D7FF&\alpha&H00&}ES ZU{\c&H00FFFFFF&\alpha&H33&} WISSEN.
+Dialogue: 0,0:00:38.63,0:00:38.99,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}HAST, OHNE ES ZU {\c&H0000D7FF&\alpha&H00&}WISSEN.
+Dialogue: 0,0:00:38.99,0:00:39.35,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}EINIGE{\c&H00FFFFFF&\alpha&H33&} DAVON KÖNNEN DICH
+Dialogue: 0,0:00:39.35,0:00:39.71,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}EINIGE {\c&H0000D7FF&\alpha&H00&}DAVON{\c&H00FFFFFF&\alpha&H33&} KÖNNEN DICH
+Dialogue: 0,0:00:39.71,0:00:40.07,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}EINIGE DAVON {\c&H0000D7FF&\alpha&H00&}KÖNNEN{\c&H00FFFFFF&\alpha&H33&} DICH
+Dialogue: 0,0:00:40.07,0:00:40.43,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}EINIGE DAVON KÖNNEN {\c&H0000D7FF&\alpha&H00&}DICH
+Dialogue: 0,0:00:40.43,0:00:40.80,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}NICHT{\c&H00FFFFFF&\alpha&H33&} NUR DEN FLUG, SONDERN
+Dialogue: 0,0:00:40.80,0:00:41.16,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}NICHT {\c&H0000D7FF&\alpha&H00&}NUR DEN{\c&H00FFFFFF&\alpha&H33&} FLUG, SONDERN
+Dialogue: 0,0:00:41.16,0:00:41.52,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}NICHT NUR DEN {\c&H0000D7FF&\alpha&H00&}FLUG,{\c&H00FFFFFF&\alpha&H33&} SONDERN
+Dialogue: 0,0:00:41.52,0:00:41.88,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}NICHT NUR DEN FLUG, {\c&H0000D7FF&\alpha&H00&}SONDERN
+Dialogue: 0,0:00:41.88,0:00:42.24,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}AUCH{\c&H00FFFFFF&\alpha&H33&} HUNDERTE EURO KOSTEN.
+Dialogue: 0,0:00:42.24,0:00:42.60,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}AUCH {\c&H0000D7FF&\alpha&H00&}HUNDERTE{\c&H00FFFFFF&\alpha&H33&} EURO KOSTEN.
+Dialogue: 0,0:00:42.60,0:00:42.97,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}AUCH HUNDERTE {\c&H0000D7FF&\alpha&H00&}EURO{\c&H00FFFFFF&\alpha&H33&} KOSTEN.
+Dialogue: 0,0:00:42.97,0:00:43.33,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}AUCH HUNDERTE EURO {\c&H0000D7FF&\alpha&H00&}KOSTEN.
+Dialogue: 0,0:00:43.62,0:00:44.19,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}FEHLER{\c&H00FFFFFF&\alpha&H33&} NUMMER EINS. DU CHECKST
+Dialogue: 0,0:00:44.19,0:00:44.77,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}FEHLER {\c&H0000D7FF&\alpha&H00&}NUMMER{\c&H00FFFFFF&\alpha&H33&} EINS. DU CHECKST
+Dialogue: 0,0:00:44.77,0:00:45.34,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}FEHLER NUMMER {\c&H0000D7FF&\alpha&H00&}EINS.{\c&H00FFFFFF&\alpha&H33&} DU CHECKST
+Dialogue: 0,0:00:45.34,0:00:45.91,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}FEHLER NUMMER EINS. {\c&H0000D7FF&\alpha&H00&}DU CHECKST
+Dialogue: 0,0:00:45.91,0:00:46.49,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}ONLINE{\c&H00FFFFFF&\alpha&H33&} EIN — ABER ZU SPÄT.
+Dialogue: 0,0:00:46.49,0:00:47.06,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ONLINE {\c&H0000D7FF&\alpha&H00&}EIN —{\c&H00FFFFFF&\alpha&H33&} ABER ZU SPÄT.
+Dialogue: 0,0:00:47.06,0:00:47.63,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ONLINE EIN — {\c&H0000D7FF&\alpha&H00&}ABER{\c&H00FFFFFF&\alpha&H33&} ZU SPÄT.
+Dialogue: 0,0:00:47.63,0:00:48.21,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ONLINE EIN — ABER {\c&H0000D7FF&\alpha&H00&}ZU SPÄT.
+Dialogue: 0,0:00:48.21,0:00:48.78,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}DIE MEISTEN{\c&H00FFFFFF&\alpha&H33&} AIRLINES ÖFFNEN DAS ONLINE-CHECK-IN
+Dialogue: 0,0:00:48.78,0:00:49.36,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DIE MEISTEN {\c&H0000D7FF&\alpha&H00&}AIRLINES{\c&H00FFFFFF&\alpha&H33&} ÖFFNEN DAS ONLINE-CHECK-IN
+Dialogue: 0,0:00:49.36,0:00:49.93,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DIE MEISTEN AIRLINES {\c&H0000D7FF&\alpha&H00&}ÖFFNEN{\c&H00FFFFFF&\alpha&H33&} DAS ONLINE-CHECK-IN
+Dialogue: 0,0:00:49.93,0:00:50.50,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DIE MEISTEN AIRLINES ÖFFNEN {\c&H0000D7FF&\alpha&H00&}DAS ONLINE-CHECK-IN
+Dialogue: 0,0:00:50.50,0:00:51.08,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}GENAU{\c&H00FFFFFF&\alpha&H33&} 24 STUNDEN VOR ABFLUG. WER WARTET,
+Dialogue: 0,0:00:51.08,0:00:51.65,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}GENAU {\c&H0000D7FF&\alpha&H00&}24 STUNDEN{\c&H00FFFFFF&\alpha&H33&} VOR ABFLUG. WER WARTET,
+Dialogue: 0,0:00:51.65,0:00:52.22,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}GENAU 24 STUNDEN {\c&H0000D7FF&\alpha&H00&}VOR ABFLUG.{\c&H00FFFFFF&\alpha&H33&} WER WARTET,
+Dialogue: 0,0:00:52.22,0:00:52.80,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}GENAU 24 STUNDEN VOR ABFLUG. {\c&H0000D7FF&\alpha&H00&}WER WARTET,
+Dialogue: 0,0:00:52.80,0:00:53.37,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}VERLIERT.{\c&H00FFFFFF&\alpha&H33&} DIE BESTEN SITZE SIND
+Dialogue: 0,0:00:53.37,0:00:53.94,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}VERLIERT. {\c&H0000D7FF&\alpha&H00&}DIE BESTEN{\c&H00FFFFFF&\alpha&H33&} SITZE SIND
+Dialogue: 0,0:00:53.94,0:00:54.52,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}VERLIERT. DIE BESTEN {\c&H0000D7FF&\alpha&H00&}SITZE{\c&H00FFFFFF&\alpha&H33&} SIND
+Dialogue: 0,0:00:54.52,0:00:55.09,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}VERLIERT. DIE BESTEN SITZE {\c&H0000D7FF&\alpha&H00&}SIND
+Dialogue: 0,0:00:55.09,0:00:55.66,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}WEG, UND{\c&H00FFFFFF&\alpha&H33&} BEI VOLLEN FLÜGEN RISKIERST
+Dialogue: 0,0:00:55.66,0:00:56.24,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WEG, UND {\c&H0000D7FF&\alpha&H00&}BEI VOLLEN{\c&H00FFFFFF&\alpha&H33&} FLÜGEN RISKIERST
+Dialogue: 0,0:00:56.24,0:00:56.81,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WEG, UND BEI VOLLEN {\c&H0000D7FF&\alpha&H00&}FLÜGEN{\c&H00FFFFFF&\alpha&H33&} RISKIERST
+Dialogue: 0,0:00:56.81,0:00:57.39,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WEG, UND BEI VOLLEN FLÜGEN {\c&H0000D7FF&\alpha&H00&}RISKIERST
+Dialogue: 0,0:00:57.39,0:00:57.96,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}DU SOGAR,{\c&H00FFFFFF&\alpha&H33&} GAR KEINEN PLATZ MEHR
+Dialogue: 0,0:00:57.96,0:00:58.53,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DU SOGAR, {\c&H0000D7FF&\alpha&H00&}GAR KEINEN{\c&H00FFFFFF&\alpha&H33&} PLATZ MEHR
+Dialogue: 0,0:00:58.53,0:00:59.11,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DU SOGAR, GAR KEINEN {\c&H0000D7FF&\alpha&H00&}PLATZ{\c&H00FFFFFF&\alpha&H33&} MEHR
+Dialogue: 0,0:00:59.11,0:00:59.68,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DU SOGAR, GAR KEINEN PLATZ {\c&H0000D7FF&\alpha&H00&}MEHR
+Dialogue: 0,0:00:59.68,0:01:00.25,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}ZUGETEILT{\c&H00FFFFFF&\alpha&H33&} ZU BEKOMMEN. FEHLER NUMMER
+Dialogue: 0,0:01:00.25,0:01:01.12,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ZUGETEILT {\c&H0000D7FF&\alpha&H00&}ZU BEKOMMEN.{\c&H00FFFFFF&\alpha&H33&} FEHLER NUMMER
+Dialogue: 0,0:01:01.12,0:01:01.73,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ZUGETEILT ZU BEKOMMEN. {\c&H0000D7FF&\alpha&H00&}FEHLER{\c&H00FFFFFF&\alpha&H33&} NUMMER
+Dialogue: 0,0:01:01.73,0:01:02.35,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ZUGETEILT ZU BEKOMMEN. FEHLER {\c&H0000D7FF&\alpha&H00&}NUMMER
+Dialogue: 0,0:01:02.35,0:01:02.96,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}ZWEI{\c&H00FFFFFF&\alpha&H33&} — UND DIESER IST TÖDLICH
+Dialogue: 0,0:01:02.96,0:01:03.58,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ZWEI {\c&H0000D7FF&\alpha&H00&}— UND{\c&H00FFFFFF&\alpha&H33&} DIESER IST TÖDLICH
+Dialogue: 0,0:01:03.58,0:01:04.19,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ZWEI — UND {\c&H0000D7FF&\alpha&H00&}DIESER{\c&H00FFFFFF&\alpha&H33&} IST TÖDLICH
+Dialogue: 0,0:01:04.19,0:01:04.81,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ZWEI — UND DIESER {\c&H0000D7FF&\alpha&H00&}IST TÖDLICH
+Dialogue: 0,0:01:04.81,0:01:05.43,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}FÜR DEIN{\c&H00FFFFFF&\alpha&H33&} TICKET. DEIN NAME
+Dialogue: 0,0:01:05.43,0:01:06.04,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}FÜR DEIN {\c&H0000D7FF&\alpha&H00&}TICKET.{\c&H00FFFFFF&\alpha&H33&} DEIN NAME
+Dialogue: 0,0:01:06.04,0:01:06.66,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}FÜR DEIN TICKET. {\c&H0000D7FF&\alpha&H00&}DEIN{\c&H00FFFFFF&\alpha&H33&} NAME
+Dialogue: 0,0:01:06.66,0:01:07.27,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}FÜR DEIN TICKET. DEIN {\c&H0000D7FF&\alpha&H00&}NAME
+Dialogue: 0,0:01:07.27,0:01:07.89,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}IM BUCHUNGSSYSTEM{\c&H00FFFFFF&\alpha&H33&} MUSS EXAKT MIT DEM
+Dialogue: 0,0:01:07.89,0:01:08.50,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}IM BUCHUNGSSYSTEM {\c&H0000D7FF&\alpha&H00&}MUSS{\c&H00FFFFFF&\alpha&H33&} EXAKT MIT DEM
+Dialogue: 0,0:01:08.50,0:01:09.12,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}IM BUCHUNGSSYSTEM MUSS {\c&H0000D7FF&\alpha&H00&}EXAKT{\c&H00FFFFFF&\alpha&H33&} MIT DEM
+Dialogue: 0,0:01:09.12,0:01:09.73,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}IM BUCHUNGSSYSTEM MUSS EXAKT {\c&H0000D7FF&\alpha&H00&}MIT DEM
+Dialogue: 0,0:01:09.73,0:01:10.35,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}REISEPASS{\c&H00FFFFFF&\alpha&H33&} ÜBEREINSTIMMEN. EIN FEHLENDER BINDESTRICH,
+Dialogue: 0,0:01:10.35,0:01:10.96,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}REISEPASS {\c&H0000D7FF&\alpha&H00&}ÜBEREINSTIMMEN.{\c&H00FFFFFF&\alpha&H33&} EIN FEHLENDER BINDESTRICH,
+Dialogue: 0,0:01:10.96,0:01:11.58,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}REISEPASS ÜBEREINSTIMMEN. {\c&H0000D7FF&\alpha&H00&}EIN FEHLENDER{\c&H00FFFFFF&\alpha&H33&} BINDESTRICH,
+Dialogue: 0,0:01:11.58,0:01:12.19,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}REISEPASS ÜBEREINSTIMMEN. EIN FEHLENDER {\c&H0000D7FF&\alpha&H00&}BINDESTRICH,
+Dialogue: 0,0:01:12.19,0:01:12.81,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}EIN ABGEKÜRZTER{\c&H00FFFFFF&\alpha&H33&} VORNAME — DAS REICHT,
+Dialogue: 0,0:01:12.81,0:01:13.42,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}EIN ABGEKÜRZTER {\c&H0000D7FF&\alpha&H00&}VORNAME{\c&H00FFFFFF&\alpha&H33&} — DAS REICHT,
+Dialogue: 0,0:01:13.42,0:01:14.04,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}EIN ABGEKÜRZTER VORNAME {\c&H0000D7FF&\alpha&H00&}— DAS{\c&H00FFFFFF&\alpha&H33&} REICHT,
+Dialogue: 0,0:01:14.04,0:01:14.65,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}EIN ABGEKÜRZTER VORNAME — DAS {\c&H0000D7FF&\alpha&H00&}REICHT,
+Dialogue: 0,0:01:14.65,0:01:15.27,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}UM AM{\c&H00FFFFFF&\alpha&H33&} GATE ABGEWIESEN ZU WERDEN.
+Dialogue: 0,0:01:15.27,0:01:15.89,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}UM AM {\c&H0000D7FF&\alpha&H00&}GATE{\c&H00FFFFFF&\alpha&H33&} ABGEWIESEN ZU WERDEN.
+Dialogue: 0,0:01:15.89,0:01:16.50,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}UM AM GATE {\c&H0000D7FF&\alpha&H00&}ABGEWIESEN{\c&H00FFFFFF&\alpha&H33&} ZU WERDEN.
+Dialogue: 0,0:01:16.50,0:01:17.12,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}UM AM GATE ABGEWIESEN {\c&H0000D7FF&\alpha&H00&}ZU WERDEN.
+Dialogue: 0,0:01:17.12,0:01:17.73,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}AIRLINES{\c&H00FFFFFF&\alpha&H33&} SIND BEI DIESER REGEL
+Dialogue: 0,0:01:17.73,0:01:18.35,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}AIRLINES {\c&H0000D7FF&\alpha&H00&}SIND{\c&H00FFFFFF&\alpha&H33&} BEI DIESER REGEL
+Dialogue: 0,0:01:18.35,0:01:18.96,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}AIRLINES SIND {\c&H0000D7FF&\alpha&H00&}BEI DIESER{\c&H00FFFFFF&\alpha&H33&} REGEL
+Dialogue: 0,0:01:18.96,0:01:19.58,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}AIRLINES SIND BEI DIESER {\c&H0000D7FF&\alpha&H00&}REGEL
+Dialogue: 0,0:01:19.58,0:01:20.19,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}ABSOLUT{\c&H00FFFFFF&\alpha&H33&} UNNACHGIEBIG. LAUT EINER
+Dialogue: 0,0:01:20.19,0:01:21.10,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ABSOLUT {\c&H0000D7FF&\alpha&H00&}UNNACHGIEBIG.{\c&H00FFFFFF&\alpha&H33&} LAUT EINER
+Dialogue: 0,0:01:21.10,0:01:21.64,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ABSOLUT UNNACHGIEBIG. {\c&H0000D7FF&\alpha&H00&}LAUT{\c&H00FFFFFF&\alpha&H33&} EINER
+Dialogue: 0,0:01:21.64,0:01:22.19,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ABSOLUT UNNACHGIEBIG. LAUT {\c&H0000D7FF&\alpha&H00&}EINER
+Dialogue: 0,0:01:22.19,0:01:22.73,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}STUDIE{\c&H00FFFFFF&\alpha&H33&} DES REISEPORTALS SKYSCANNER ENTHÄLT
+Dialogue: 0,0:01:22.73,0:01:23.28,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}STUDIE {\c&H0000D7FF&\alpha&H00&}DES REISEPORTALS{\c&H00FFFFFF&\alpha&H33&} SKYSCANNER ENTHÄLT
+Dialogue: 0,0:01:23.28,0:01:23.82,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}STUDIE DES REISEPORTALS {\c&H0000D7FF&\alpha&H00&}SKYSCANNER{\c&H00FFFFFF&\alpha&H33&} ENTHÄLT
+Dialogue: 0,0:01:23.82,0:01:24.37,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}STUDIE DES REISEPORTALS SKYSCANNER {\c&H0000D7FF&\alpha&H00&}ENTHÄLT
+Dialogue: 0,0:01:24.37,0:01:24.91,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}JEDE{\c&H00FFFFFF&\alpha&H33&} ZEHNTE ONLINE-BUCHUNG EINEN
+Dialogue: 0,0:01:24.91,0:01:25.46,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}JEDE {\c&H0000D7FF&\alpha&H00&}ZEHNTE{\c&H00FFFFFF&\alpha&H33&} ONLINE-BUCHUNG EINEN
+Dialogue: 0,0:01:25.46,0:01:26.00,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}JEDE ZEHNTE {\c&H0000D7FF&\alpha&H00&}ONLINE-BUCHUNG{\c&H00FFFFFF&\alpha&H33&} EINEN
+Dialogue: 0,0:01:26.00,0:01:26.55,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}JEDE ZEHNTE ONLINE-BUCHUNG {\c&H0000D7FF&\alpha&H00&}EINEN
+Dialogue: 0,0:01:26.55,0:01:27.09,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}NAMENSFEHLER.{\c&H00FFFFFF&\alpha&H33&} ZEHN PROZENT. DAS KLINGT
+Dialogue: 0,0:01:27.09,0:01:27.64,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}NAMENSFEHLER. {\c&H0000D7FF&\alpha&H00&}ZEHN{\c&H00FFFFFF&\alpha&H33&} PROZENT. DAS KLINGT
+Dialogue: 0,0:01:27.64,0:01:28.18,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}NAMENSFEHLER. ZEHN {\c&H0000D7FF&\alpha&H00&}PROZENT.{\c&H00FFFFFF&\alpha&H33&} DAS KLINGT
+Dialogue: 0,0:01:28.18,0:01:28.73,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}NAMENSFEHLER. ZEHN PROZENT. {\c&H0000D7FF&\alpha&H00&}DAS KLINGT
+Dialogue: 0,0:01:28.73,0:01:29.27,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}WENIG{\c&H00FFFFFF&\alpha&H33&} — ABER BEI MILLIARDEN VON FLÜGEN
+Dialogue: 0,0:01:29.27,0:01:29.82,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WENIG {\c&H0000D7FF&\alpha&H00&}— ABER{\c&H00FFFFFF&\alpha&H33&} BEI MILLIARDEN VON FLÜGEN
+Dialogue: 0,0:01:29.82,0:01:30.36,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WENIG — ABER {\c&H0000D7FF&\alpha&H00&}BEI MILLIARDEN{\c&H00FFFFFF&\alpha&H33&} VON FLÜGEN
+Dialogue: 0,0:01:30.36,0:01:30.91,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WENIG — ABER BEI MILLIARDEN {\c&H0000D7FF&\alpha&H00&}VON FLÜGEN
+Dialogue: 0,0:01:30.91,0:01:31.45,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}WELTWEIT{\c&H00FFFFFF&\alpha&H33&} BEDEUTET DAS JEDES JAHR
+Dialogue: 0,0:01:31.45,0:01:31.99,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WELTWEIT {\c&H0000D7FF&\alpha&H00&}BEDEUTET{\c&H00FFFFFF&\alpha&H33&} DAS JEDES JAHR
+Dialogue: 0,0:01:31.99,0:01:32.54,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WELTWEIT BEDEUTET {\c&H0000D7FF&\alpha&H00&}DAS JEDES{\c&H00FFFFFF&\alpha&H33&} JAHR
+Dialogue: 0,0:01:32.54,0:01:33.08,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WELTWEIT BEDEUTET DAS JEDES {\c&H0000D7FF&\alpha&H00&}JAHR
+Dialogue: 0,0:01:33.08,0:01:33.63,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}DUTZENDE{\c&H00FFFFFF&\alpha&H33&} MILLIONEN POTENZIELL UNGÜLTIGER
+Dialogue: 0,0:01:33.63,0:01:34.17,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DUTZENDE {\c&H0000D7FF&\alpha&H00&}MILLIONEN{\c&H00FFFFFF&\alpha&H33&} POTENZIELL UNGÜLTIGER
+Dialogue: 0,0:01:34.17,0:01:34.72,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DUTZENDE MILLIONEN {\c&H0000D7FF&\alpha&H00&}POTENZIELL{\c&H00FFFFFF&\alpha&H33&} UNGÜLTIGER
+Dialogue: 0,0:01:34.72,0:01:35.26,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DUTZENDE MILLIONEN POTENZIELL {\c&H0000D7FF&\alpha&H00&}UNGÜLTIGER
+Dialogue: 0,0:01:35.26,0:01:35.81,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}TICKETS.{\c&H00FFFFFF&\alpha&H33&} UND DIE KORREKTUR? KOSTET
+Dialogue: 0,0:01:35.81,0:01:36.35,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}TICKETS. {\c&H0000D7FF&\alpha&H00&}UND DIE{\c&H00FFFFFF&\alpha&H33&} KORREKTUR? KOSTET
+Dialogue: 0,0:01:36.35,0:01:36.90,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}TICKETS. UND DIE {\c&H0000D7FF&\alpha&H00&}KORREKTUR?{\c&H00FFFFFF&\alpha&H33&} KOSTET
+Dialogue: 0,0:01:36.90,0:01:37.44,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}TICKETS. UND DIE KORREKTUR? {\c&H0000D7FF&\alpha&H00&}KOSTET
+Dialogue: 0,0:01:37.44,0:01:37.99,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}OFT MEHR{\c&H00FFFFFF&\alpha&H33&} ALS DAS URSPRÜNGLICHE TICKET.
+Dialogue: 0,0:01:37.99,0:01:38.53,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}OFT MEHR {\c&H0000D7FF&\alpha&H00&}ALS DAS{\c&H00FFFFFF&\alpha&H33&} URSPRÜNGLICHE TICKET.
+Dialogue: 0,0:01:38.53,0:01:39.08,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}OFT MEHR ALS DAS {\c&H0000D7FF&\alpha&H00&}URSPRÜNGLICHE{\c&H00FFFFFF&\alpha&H33&} TICKET.
+Dialogue: 0,0:01:39.08,0:01:39.62,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}OFT MEHR ALS DAS URSPRÜNGLICHE {\c&H0000D7FF&\alpha&H00&}TICKET.
+Dialogue: 0,0:01:39.91,0:01:40.40,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}FEHLER{\c&H00FFFFFF&\alpha&H33&} DREI. DU HAST DEINEN
+Dialogue: 0,0:01:40.40,0:01:40.90,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}FEHLER {\c&H0000D7FF&\alpha&H00&}DREI.{\c&H00FFFFFF&\alpha&H33&} DU HAST DEINEN
+Dialogue: 0,0:01:40.90,0:01:41.39,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}FEHLER DREI. {\c&H0000D7FF&\alpha&H00&}DU HAST{\c&H00FFFFFF&\alpha&H33&} DEINEN
+Dialogue: 0,0:01:41.39,0:01:41.88,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}FEHLER DREI. DU HAST {\c&H0000D7FF&\alpha&H00&}DEINEN
+Dialogue: 0,0:01:41.88,0:01:42.37,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}PASS{\c&H00FFFFFF&\alpha&H33&} — ABER HAST DU WIRKLICH
+Dialogue: 0,0:01:42.37,0:01:42.86,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}PASS {\c&H0000D7FF&\alpha&H00&}— ABER{\c&H00FFFFFF&\alpha&H33&} HAST DU WIRKLICH
+Dialogue: 0,0:01:42.86,0:01:43.35,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}PASS — ABER {\c&H0000D7FF&\alpha&H00&}HAST{\c&H00FFFFFF&\alpha&H33&} DU WIRKLICH
+Dialogue: 0,0:01:43.35,0:01:43.84,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}PASS — ABER HAST {\c&H0000D7FF&\alpha&H00&}DU WIRKLICH
+Dialogue: 0,0:01:43.84,0:01:44.33,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}GEPRÜFT,{\c&H00FFFFFF&\alpha&H33&} WIE LANGE ER NOCH GÜLTIG
+Dialogue: 0,0:01:44.33,0:01:44.83,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}GEPRÜFT, {\c&H0000D7FF&\alpha&H00&}WIE LANGE{\c&H00FFFFFF&\alpha&H33&} ER NOCH GÜLTIG
+Dialogue: 0,0:01:44.83,0:01:45.32,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}GEPRÜFT, WIE LANGE {\c&H0000D7FF&\alpha&H00&}ER NOCH{\c&H00FFFFFF&\alpha&H33&} GÜLTIG
+Dialogue: 0,0:01:45.32,0:01:45.81,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}GEPRÜFT, WIE LANGE ER NOCH {\c&H0000D7FF&\alpha&H00&}GÜLTIG
+Dialogue: 0,0:01:45.81,0:01:46.30,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}IST? VIELE{\c&H00FFFFFF&\alpha&H33&} LÄNDER VERLANGEN EINE
+Dialogue: 0,0:01:46.30,0:01:46.79,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}IST? VIELE {\c&H0000D7FF&\alpha&H00&}LÄNDER{\c&H00FFFFFF&\alpha&H33&} VERLANGEN EINE
+Dialogue: 0,0:01:46.79,0:01:47.28,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}IST? VIELE LÄNDER {\c&H0000D7FF&\alpha&H00&}VERLANGEN{\c&H00FFFFFF&\alpha&H33&} EINE
+Dialogue: 0,0:01:47.28,0:01:47.77,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}IST? VIELE LÄNDER VERLANGEN {\c&H0000D7FF&\alpha&H00&}EINE
+Dialogue: 0,0:01:47.77,0:01:48.26,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}RESTGÜLTIGKEIT{\c&H00FFFFFF&\alpha&H33&} VON MINDESTENS SECHS MONATEN
+Dialogue: 0,0:01:48.26,0:01:48.75,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}RESTGÜLTIGKEIT {\c&H0000D7FF&\alpha&H00&}VON MINDESTENS{\c&H00FFFFFF&\alpha&H33&} SECHS MONATEN
+Dialogue: 0,0:01:48.75,0:01:49.25,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}RESTGÜLTIGKEIT VON MINDESTENS {\c&H0000D7FF&\alpha&H00&}SECHS{\c&H00FFFFFF&\alpha&H33&} MONATEN
+Dialogue: 0,0:01:49.25,0:01:49.74,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}RESTGÜLTIGKEIT VON MINDESTENS SECHS {\c&H0000D7FF&\alpha&H00&}MONATEN
+Dialogue: 0,0:01:49.74,0:01:50.23,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}ÜBER{\c&H00FFFFFF&\alpha&H33&} DAS REISEDATUM HINAUS. IST DAS
+Dialogue: 0,0:01:50.23,0:01:50.72,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ÜBER {\c&H0000D7FF&\alpha&H00&}DAS REISEDATUM{\c&H00FFFFFF&\alpha&H33&} HINAUS. IST DAS
+Dialogue: 0,0:01:50.72,0:01:51.21,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ÜBER DAS REISEDATUM {\c&H0000D7FF&\alpha&H00&}HINAUS.{\c&H00FFFFFF&\alpha&H33&} IST DAS
+Dialogue: 0,0:01:51.21,0:01:51.70,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ÜBER DAS REISEDATUM HINAUS. {\c&H0000D7FF&\alpha&H00&}IST DAS
+Dialogue: 0,0:01:51.70,0:01:52.19,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}NICHT{\c&H00FFFFFF&\alpha&H33&} ERFÜLLT, WIRST DU AM
+Dialogue: 0,0:01:52.19,0:01:52.68,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}NICHT {\c&H0000D7FF&\alpha&H00&}ERFÜLLT,{\c&H00FFFFFF&\alpha&H33&} WIRST DU AM
+Dialogue: 0,0:01:52.68,0:01:53.17,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}NICHT ERFÜLLT, {\c&H0000D7FF&\alpha&H00&}WIRST{\c&H00FFFFFF&\alpha&H33&} DU AM
+Dialogue: 0,0:01:53.17,0:01:53.67,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}NICHT ERFÜLLT, WIRST {\c&H0000D7FF&\alpha&H00&}DU AM
+Dialogue: 0,0:01:53.67,0:01:54.16,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}CHECK-IN-SCHALTER{\c&H00FFFFFF&\alpha&H33&} GESTOPPT — OHNE AUSNAHME.
+Dialogue: 0,0:01:54.16,0:01:54.65,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}CHECK-IN-SCHALTER {\c&H0000D7FF&\alpha&H00&}GESTOPPT{\c&H00FFFFFF&\alpha&H33&} — OHNE AUSNAHME.
+Dialogue: 0,0:01:54.65,0:01:55.14,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}CHECK-IN-SCHALTER GESTOPPT {\c&H0000D7FF&\alpha&H00&}— OHNE{\c&H00FFFFFF&\alpha&H33&} AUSNAHME.
+Dialogue: 0,0:01:55.14,0:01:55.63,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}CHECK-IN-SCHALTER GESTOPPT — OHNE {\c&H0000D7FF&\alpha&H00&}AUSNAHME.
+Dialogue: 0,0:01:55.92,0:01:56.49,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}FEHLER{\c&H00FFFFFF&\alpha&H33&} VIER. GEPÄCK. JEDER
+Dialogue: 0,0:01:56.49,0:01:57.05,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}FEHLER {\c&H0000D7FF&\alpha&H00&}VIER.{\c&H00FFFFFF&\alpha&H33&} GEPÄCK. JEDER
+Dialogue: 0,0:01:57.05,0:01:57.62,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}FEHLER VIER. {\c&H0000D7FF&\alpha&H00&}GEPÄCK.{\c&H00FFFFFF&\alpha&H33&} JEDER
+Dialogue: 0,0:01:57.62,0:01:58.18,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}FEHLER VIER. GEPÄCK. {\c&H0000D7FF&\alpha&H00&}JEDER
+Dialogue: 0,0:01:58.18,0:01:58.75,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}GLAUBT,{\c&H00FFFFFF&\alpha&H33&} ER KENNT SEIN LIMIT
+Dialogue: 0,0:01:58.75,0:01:59.32,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}GLAUBT, {\c&H0000D7FF&\alpha&H00&}ER KENNT{\c&H00FFFFFF&\alpha&H33&} SEIN LIMIT
+Dialogue: 0,0:01:59.32,0:01:59.88,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}GLAUBT, ER KENNT {\c&H0000D7FF&\alpha&H00&}SEIN{\c&H00FFFFFF&\alpha&H33&} LIMIT
+Dialogue: 0,0:01:59.88,0:02:00.45,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}GLAUBT, ER KENNT SEIN {\c&H0000D7FF&\alpha&H00&}LIMIT
+Dialogue: 0,0:02:00.45,0:02:01.01,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}— ABER{\c&H00FFFFFF&\alpha&H33&} DIE REGELN UNTERSCHEIDEN SICH
+Dialogue: 0,0:02:01.01,0:02:01.58,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}— ABER {\c&H0000D7FF&\alpha&H00&}DIE REGELN{\c&H00FFFFFF&\alpha&H33&} UNTERSCHEIDEN SICH
+Dialogue: 0,0:02:01.58,0:02:02.14,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}— ABER DIE REGELN {\c&H0000D7FF&\alpha&H00&}UNTERSCHEIDEN{\c&H00FFFFFF&\alpha&H33&} SICH
+Dialogue: 0,0:02:02.14,0:02:02.71,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}— ABER DIE REGELN UNTERSCHEIDEN {\c&H0000D7FF&\alpha&H00&}SICH
+Dialogue: 0,0:02:02.71,0:02:03.27,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}JE NACH{\c&H00FFFFFF&\alpha&H33&} AIRLINE, ROUTE UND SOGAR
+Dialogue: 0,0:02:03.27,0:02:03.84,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}JE NACH {\c&H0000D7FF&\alpha&H00&}AIRLINE,{\c&H00FFFFFF&\alpha&H33&} ROUTE UND SOGAR
+Dialogue: 0,0:02:03.84,0:02:04.40,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}JE NACH AIRLINE, {\c&H0000D7FF&\alpha&H00&}ROUTE{\c&H00FFFFFF&\alpha&H33&} UND SOGAR
+Dialogue: 0,0:02:04.40,0:02:04.97,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}JE NACH AIRLINE, ROUTE {\c&H0000D7FF&\alpha&H00&}UND SOGAR
+Dialogue: 0,0:02:04.97,0:02:05.53,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}BUCHUNGSKLASSE{\c&H00FFFFFF&\alpha&H33&} DRAMATISCH. RYANAIR, EASYJET,
+Dialogue: 0,0:02:05.53,0:02:06.10,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BUCHUNGSKLASSE {\c&H0000D7FF&\alpha&H00&}DRAMATISCH.{\c&H00FFFFFF&\alpha&H33&} RYANAIR, EASYJET,
+Dialogue: 0,0:02:06.10,0:02:06.66,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BUCHUNGSKLASSE DRAMATISCH. {\c&H0000D7FF&\alpha&H00&}RYANAIR,{\c&H00FFFFFF&\alpha&H33&} EASYJET,
+Dialogue: 0,0:02:06.66,0:02:07.23,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BUCHUNGSKLASSE DRAMATISCH. RYANAIR, {\c&H0000D7FF&\alpha&H00&}EASYJET,
+Dialogue: 0,0:02:07.23,0:02:07.79,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}EUROWINGS{\c&H00FFFFFF&\alpha&H33&} — ALLE HABEN UNTERSCHIEDLICHE
+Dialogue: 0,0:02:07.79,0:02:08.36,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}EUROWINGS {\c&H0000D7FF&\alpha&H00&}— ALLE{\c&H00FFFFFF&\alpha&H33&} HABEN UNTERSCHIEDLICHE
+Dialogue: 0,0:02:08.36,0:02:08.93,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}EUROWINGS — ALLE {\c&H0000D7FF&\alpha&H00&}HABEN{\c&H00FFFFFF&\alpha&H33&} UNTERSCHIEDLICHE
+Dialogue: 0,0:02:08.93,0:02:09.49,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}EUROWINGS — ALLE HABEN {\c&H0000D7FF&\alpha&H00&}UNTERSCHIEDLICHE
+Dialogue: 0,0:02:09.49,0:02:10.06,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}MASSE{\c&H00FFFFFF&\alpha&H33&} UND GEWICHTSGRENZEN FÜR HANDGEPÄCK. WER DAS
+Dialogue: 0,0:02:10.06,0:02:10.62,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}MASSE {\c&H0000D7FF&\alpha&H00&}UND GEWICHTSGRENZEN{\c&H00FFFFFF&\alpha&H33&} FÜR HANDGEPÄCK. WER DAS
+Dialogue: 0,0:02:10.62,0:02:11.19,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}MASSE UND GEWICHTSGRENZEN {\c&H0000D7FF&\alpha&H00&}FÜR HANDGEPÄCK.{\c&H00FFFFFF&\alpha&H33&} WER DAS
+Dialogue: 0,0:02:11.19,0:02:11.75,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}MASSE UND GEWICHTSGRENZEN FÜR HANDGEPÄCK. {\c&H0000D7FF&\alpha&H00&}WER DAS
+Dialogue: 0,0:02:11.75,0:02:12.32,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}IGNORIERT,{\c&H00FFFFFF&\alpha&H33&} ZAHLT AM GATE BIS ZU
+Dialogue: 0,0:02:12.32,0:02:12.88,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}IGNORIERT, {\c&H0000D7FF&\alpha&H00&}ZAHLT{\c&H00FFFFFF&\alpha&H33&} AM GATE BIS ZU
+Dialogue: 0,0:02:12.88,0:02:13.45,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}IGNORIERT, ZAHLT {\c&H0000D7FF&\alpha&H00&}AM GATE{\c&H00FFFFFF&\alpha&H33&} BIS ZU
+Dialogue: 0,0:02:13.45,0:02:14.01,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}IGNORIERT, ZAHLT AM GATE {\c&H0000D7FF&\alpha&H00&}BIS ZU
+Dialogue: 0,0:02:14.01,0:02:14.58,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}60 EURO{\c&H00FFFFFF&\alpha&H33&} EXTRA. WEISST DU, WIE
+Dialogue: 0,0:02:14.58,0:02:15.44,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}60 EURO {\c&H0000D7FF&\alpha&H00&}EXTRA.{\c&H00FFFFFF&\alpha&H33&} WEISST DU, WIE
+Dialogue: 0,0:02:15.44,0:02:16.08,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}60 EURO EXTRA. {\c&H0000D7FF&\alpha&H00&}WEISST{\c&H00FFFFFF&\alpha&H33&} DU, WIE
+Dialogue: 0,0:02:16.08,0:02:16.71,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}60 EURO EXTRA. WEISST {\c&H0000D7FF&\alpha&H00&}DU, WIE
+Dialogue: 0,0:02:16.71,0:02:17.35,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}VIEL{\c&H00FFFFFF&\alpha&H33&} GELD AIRLINES ALLEIN
+Dialogue: 0,0:02:17.35,0:02:17.99,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}VIEL {\c&H0000D7FF&\alpha&H00&}GELD{\c&H00FFFFFF&\alpha&H33&} AIRLINES ALLEIN
+Dialogue: 0,0:02:17.99,0:02:18.63,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}VIEL GELD {\c&H0000D7FF&\alpha&H00&}AIRLINES{\c&H00FFFFFF&\alpha&H33&} ALLEIN
+Dialogue: 0,0:02:18.63,0:02:19.27,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}VIEL GELD AIRLINES {\c&H0000D7FF&\alpha&H00&}ALLEIN
+Dialogue: 0,0:02:19.27,0:02:19.91,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}DURCH{\c&H00FFFFFF&\alpha&H33&} GEPÄCKGEBÜHREN EINNEHMEN? LAUT
+Dialogue: 0,0:02:19.91,0:02:20.55,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DURCH {\c&H0000D7FF&\alpha&H00&}GEPÄCKGEBÜHREN{\c&H00FFFFFF&\alpha&H33&} EINNEHMEN? LAUT
+Dialogue: 0,0:02:20.55,0:02:21.19,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DURCH GEPÄCKGEBÜHREN {\c&H0000D7FF&\alpha&H00&}EINNEHMEN?{\c&H00FFFFFF&\alpha&H33&} LAUT
+Dialogue: 0,0:02:21.19,0:02:21.83,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DURCH GEPÄCKGEBÜHREN EINNEHMEN? {\c&H0000D7FF&\alpha&H00&}LAUT
+Dialogue: 0,0:02:21.83,0:02:22.46,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}IATA-DATEN{\c&H00FFFFFF&\alpha&H33&} WAREN ES ZULETZT ÜBER
+Dialogue: 0,0:02:22.46,0:02:23.10,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}IATA-DATEN {\c&H0000D7FF&\alpha&H00&}WAREN{\c&H00FFFFFF&\alpha&H33&} ES ZULETZT ÜBER
+Dialogue: 0,0:02:23.10,0:02:23.74,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}IATA-DATEN WAREN {\c&H0000D7FF&\alpha&H00&}ES ZULETZT{\c&H00FFFFFF&\alpha&H33&} ÜBER
+Dialogue: 0,0:02:23.74,0:02:24.38,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}IATA-DATEN WAREN ES ZULETZT {\c&H0000D7FF&\alpha&H00&}ÜBER
+Dialogue: 0,0:02:24.38,0:02:25.02,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}33 MILLIARDEN{\c&H00FFFFFF&\alpha&H33&} US-DOLLAR WELTWEIT — IN
+Dialogue: 0,0:02:25.02,0:02:25.66,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}33 MILLIARDEN {\c&H0000D7FF&\alpha&H00&}US-DOLLAR{\c&H00FFFFFF&\alpha&H33&} WELTWEIT — IN
+Dialogue: 0,0:02:25.66,0:02:26.30,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}33 MILLIARDEN US-DOLLAR {\c&H0000D7FF&\alpha&H00&}WELTWEIT{\c&H00FFFFFF&\alpha&H33&} — IN
+Dialogue: 0,0:02:26.30,0:02:26.94,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}33 MILLIARDEN US-DOLLAR WELTWEIT {\c&H0000D7FF&\alpha&H00&}— IN
+Dialogue: 0,0:02:26.94,0:02:27.58,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}EINEM{\c&H00FFFFFF&\alpha&H33&} EINZIGEN JAHR. DAS IST
+Dialogue: 0,0:02:27.58,0:02:28.22,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}EINEM {\c&H0000D7FF&\alpha&H00&}EINZIGEN{\c&H00FFFFFF&\alpha&H33&} JAHR. DAS IST
+Dialogue: 0,0:02:28.22,0:02:28.85,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}EINEM EINZIGEN {\c&H0000D7FF&\alpha&H00&}JAHR.{\c&H00FFFFFF&\alpha&H33&} DAS IST
+Dialogue: 0,0:02:28.85,0:02:29.49,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}EINEM EINZIGEN JAHR. {\c&H0000D7FF&\alpha&H00&}DAS IST
+Dialogue: 0,0:02:29.49,0:02:30.13,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}KEIN{\c&H00FFFFFF&\alpha&H33&} NEBENGESCHÄFT. DAS IST EIN ZENTRALES
+Dialogue: 0,0:02:30.13,0:02:30.77,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}KEIN {\c&H0000D7FF&\alpha&H00&}NEBENGESCHÄFT.{\c&H00FFFFFF&\alpha&H33&} DAS IST EIN ZENTRALES
+Dialogue: 0,0:02:30.77,0:02:31.41,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}KEIN NEBENGESCHÄFT. {\c&H0000D7FF&\alpha&H00&}DAS IST{\c&H00FFFFFF&\alpha&H33&} EIN ZENTRALES
+Dialogue: 0,0:02:31.41,0:02:32.05,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}KEIN NEBENGESCHÄFT. DAS IST {\c&H0000D7FF&\alpha&H00&}EIN ZENTRALES
+Dialogue: 0,0:02:32.05,0:02:32.69,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}GESCHÄFTSMODELL,{\c&H00FFFFFF&\alpha&H33&} DAS AUF DEINEN FEHLERN
+Dialogue: 0,0:02:32.69,0:02:33.33,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}GESCHÄFTSMODELL, {\c&H0000D7FF&\alpha&H00&}DAS AUF{\c&H00FFFFFF&\alpha&H33&} DEINEN FEHLERN
+Dialogue: 0,0:02:33.33,0:02:33.97,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}GESCHÄFTSMODELL, DAS AUF {\c&H0000D7FF&\alpha&H00&}DEINEN{\c&H00FFFFFF&\alpha&H33&} FEHLERN
+Dialogue: 0,0:02:33.97,0:02:34.60,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}GESCHÄFTSMODELL, DAS AUF DEINEN {\c&H0000D7FF&\alpha&H00&}FEHLERN
+Dialogue: 0,0:02:34.60,0:02:35.54,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}BASIERT.{\c&H00FFFFFF&\alpha&H33&} FEHLER FÜNF. DIE CHECK-IN-FRIST.
+Dialogue: 0,0:02:35.54,0:02:36.04,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BASIERT. {\c&H0000D7FF&\alpha&H00&}FEHLER{\c&H00FFFFFF&\alpha&H33&} FÜNF. DIE CHECK-IN-FRIST.
+Dialogue: 0,0:02:36.04,0:02:36.55,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BASIERT. FEHLER {\c&H0000D7FF&\alpha&H00&}FÜNF.{\c&H00FFFFFF&\alpha&H33&} DIE CHECK-IN-FRIST.
+Dialogue: 0,0:02:36.55,0:02:37.06,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BASIERT. FEHLER FÜNF. {\c&H0000D7FF&\alpha&H00&}DIE CHECK-IN-FRIST.
+Dialogue: 0,0:02:37.06,0:02:37.57,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}NICHT{\c&H00FFFFFF&\alpha&H33&} DIE ABFLUGZEIT — DIE CHECK-IN-FRIST.
+Dialogue: 0,0:02:37.57,0:02:38.08,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}NICHT {\c&H0000D7FF&\alpha&H00&}DIE ABFLUGZEIT{\c&H00FFFFFF&\alpha&H33&} — DIE CHECK-IN-FRIST.
+Dialogue: 0,0:02:38.08,0:02:38.59,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}NICHT DIE ABFLUGZEIT {\c&H0000D7FF&\alpha&H00&}— DIE{\c&H00FFFFFF&\alpha&H33&} CHECK-IN-FRIST.
+Dialogue: 0,0:02:38.59,0:02:39.10,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}NICHT DIE ABFLUGZEIT — DIE {\c&H0000D7FF&\alpha&H00&}CHECK-IN-FRIST.
+Dialogue: 0,0:02:39.10,0:02:39.61,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}DIESE{\c&H00FFFFFF&\alpha&H33&} LIEGT JE NACH AIRLINE
+Dialogue: 0,0:02:39.61,0:02:40.12,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DIESE {\c&H0000D7FF&\alpha&H00&}LIEGT{\c&H00FFFFFF&\alpha&H33&} JE NACH AIRLINE
+Dialogue: 0,0:02:40.12,0:02:40.63,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DIESE LIEGT {\c&H0000D7FF&\alpha&H00&}JE NACH{\c&H00FFFFFF&\alpha&H33&} AIRLINE
+Dialogue: 0,0:02:40.63,0:02:41.14,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DIESE LIEGT JE NACH {\c&H0000D7FF&\alpha&H00&}AIRLINE
+Dialogue: 0,0:02:41.14,0:02:41.65,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}ZWISCHEN{\c&H00FFFFFF&\alpha&H33&} 30 UND 90 MINUTEN VOR ABFLUG.
+Dialogue: 0,0:02:41.65,0:02:42.16,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ZWISCHEN {\c&H0000D7FF&\alpha&H00&}30 UND{\c&H00FFFFFF&\alpha&H33&} 90 MINUTEN VOR ABFLUG.
+Dialogue: 0,0:02:42.16,0:02:42.67,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ZWISCHEN 30 UND {\c&H0000D7FF&\alpha&H00&}90 MINUTEN{\c&H00FFFFFF&\alpha&H33&} VOR ABFLUG.
+Dialogue: 0,0:02:42.67,0:02:43.17,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ZWISCHEN 30 UND 90 MINUTEN {\c&H0000D7FF&\alpha&H00&}VOR ABFLUG.
+Dialogue: 0,0:02:43.17,0:02:43.68,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}WER ZU{\c&H00FFFFFF&\alpha&H33&} SPÄT AM SCHALTER ERSCHEINT,
+Dialogue: 0,0:02:43.68,0:02:44.19,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WER ZU {\c&H0000D7FF&\alpha&H00&}SPÄT{\c&H00FFFFFF&\alpha&H33&} AM SCHALTER ERSCHEINT,
+Dialogue: 0,0:02:44.19,0:02:44.70,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WER ZU SPÄT {\c&H0000D7FF&\alpha&H00&}AM SCHALTER{\c&H00FFFFFF&\alpha&H33&} ERSCHEINT,
+Dialogue: 0,0:02:44.70,0:02:45.21,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WER ZU SPÄT AM SCHALTER {\c&H0000D7FF&\alpha&H00&}ERSCHEINT,
+Dialogue: 0,0:02:45.21,0:02:45.72,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}BEKOMMT{\c&H00FFFFFF&\alpha&H33&} SEIN GEPÄCK NICHT
+Dialogue: 0,0:02:45.72,0:02:46.23,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BEKOMMT {\c&H0000D7FF&\alpha&H00&}SEIN{\c&H00FFFFFF&\alpha&H33&} GEPÄCK NICHT
+Dialogue: 0,0:02:46.23,0:02:46.74,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BEKOMMT SEIN {\c&H0000D7FF&\alpha&H00&}GEPÄCK{\c&H00FFFFFF&\alpha&H33&} NICHT
+Dialogue: 0,0:02:46.74,0:02:47.25,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BEKOMMT SEIN GEPÄCK {\c&H0000D7FF&\alpha&H00&}NICHT
+Dialogue: 0,0:02:47.25,0:02:47.76,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}MEHR{\c&H00FFFFFF&\alpha&H33&} AUFGEGEBEN — AUCH WENN
+Dialogue: 0,0:02:47.76,0:02:48.27,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}MEHR {\c&H0000D7FF&\alpha&H00&}AUFGEGEBEN{\c&H00FFFFFF&\alpha&H33&} — AUCH WENN
+Dialogue: 0,0:02:48.27,0:02:48.78,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}MEHR AUFGEGEBEN {\c&H0000D7FF&\alpha&H00&}— AUCH{\c&H00FFFFFF&\alpha&H33&} WENN
+Dialogue: 0,0:02:48.78,0:02:49.29,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}MEHR AUFGEGEBEN — AUCH {\c&H0000D7FF&\alpha&H00&}WENN
+Dialogue: 0,0:02:49.29,0:02:49.80,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}DAS FLUGZEUG{\c&H00FFFFFF&\alpha&H33&} NOCH ZWEI STUNDEN
+Dialogue: 0,0:02:49.80,0:02:50.31,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DAS FLUGZEUG {\c&H0000D7FF&\alpha&H00&}NOCH{\c&H00FFFFFF&\alpha&H33&} ZWEI STUNDEN
+Dialogue: 0,0:02:50.31,0:02:50.81,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DAS FLUGZEUG NOCH {\c&H0000D7FF&\alpha&H00&}ZWEI{\c&H00FFFFFF&\alpha&H33&} STUNDEN
+Dialogue: 0,0:02:50.81,0:02:51.32,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DAS FLUGZEUG NOCH ZWEI {\c&H0000D7FF&\alpha&H00&}STUNDEN
+Dialogue: 0,0:02:51.32,0:02:51.83,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}AM GATE{\c&H00FFFFFF&\alpha&H33&} STEHT. DIE GOLDENE REGEL:
+Dialogue: 0,0:02:51.83,0:02:52.63,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}AM GATE {\c&H0000D7FF&\alpha&H00&}STEHT.{\c&H00FFFFFF&\alpha&H33&} DIE GOLDENE REGEL:
+Dialogue: 0,0:02:52.63,0:02:53.14,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}AM GATE STEHT. {\c&H0000D7FF&\alpha&H00&}DIE GOLDENE{\c&H00FFFFFF&\alpha&H33&} REGEL:
+Dialogue: 0,0:02:53.14,0:02:53.65,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}AM GATE STEHT. DIE GOLDENE {\c&H0000D7FF&\alpha&H00&}REGEL:
+Dialogue: 0,0:02:53.65,0:02:54.15,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}PLANE{\c&H00FFFFFF&\alpha&H33&} IMMER MINDESTENS ZWEI
+Dialogue: 0,0:02:54.15,0:02:54.66,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}PLANE {\c&H0000D7FF&\alpha&H00&}IMMER{\c&H00FFFFFF&\alpha&H33&} MINDESTENS ZWEI
+Dialogue: 0,0:02:54.66,0:02:55.17,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}PLANE IMMER {\c&H0000D7FF&\alpha&H00&}MINDESTENS{\c&H00FFFFFF&\alpha&H33&} ZWEI
+Dialogue: 0,0:02:55.17,0:02:55.67,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}PLANE IMMER MINDESTENS {\c&H0000D7FF&\alpha&H00&}ZWEI
+Dialogue: 0,0:02:55.67,0:02:56.18,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}STUNDEN{\c&H00FFFFFF&\alpha&H33&} VOR ABFLUG AM FLUGHAFEN ZU SEIN
+Dialogue: 0,0:02:56.18,0:02:56.68,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}STUNDEN {\c&H0000D7FF&\alpha&H00&}VOR ABFLUG{\c&H00FFFFFF&\alpha&H33&} AM FLUGHAFEN ZU SEIN
+Dialogue: 0,0:02:56.68,0:02:57.19,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}STUNDEN VOR ABFLUG {\c&H0000D7FF&\alpha&H00&}AM FLUGHAFEN{\c&H00FFFFFF&\alpha&H33&} ZU SEIN
+Dialogue: 0,0:02:57.19,0:02:57.70,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}STUNDEN VOR ABFLUG AM FLUGHAFEN {\c&H0000D7FF&\alpha&H00&}ZU SEIN
+Dialogue: 0,0:02:57.70,0:02:58.20,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}— BEI{\c&H00FFFFFF&\alpha&H33&} LANGSTRECKENFLÜGEN SOGAR DREI.
+Dialogue: 0,0:02:58.20,0:02:58.71,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}— BEI {\c&H0000D7FF&\alpha&H00&}LANGSTRECKENFLÜGEN{\c&H00FFFFFF&\alpha&H33&} SOGAR DREI.
+Dialogue: 0,0:02:58.71,0:02:59.21,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}— BEI LANGSTRECKENFLÜGEN {\c&H0000D7FF&\alpha&H00&}SOGAR{\c&H00FFFFFF&\alpha&H33&} DREI.
+Dialogue: 0,0:02:59.21,0:02:59.72,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}— BEI LANGSTRECKENFLÜGEN SOGAR {\c&H0000D7FF&\alpha&H00&}DREI.
+Dialogue: 0,0:02:59.72,0:03:00.23,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}DAS KLINGT{\c&H00FFFFFF&\alpha&H33&} VIEL, ABER SICHERHEITSKONTROLLEN
+Dialogue: 0,0:03:00.23,0:03:00.73,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DAS KLINGT {\c&H0000D7FF&\alpha&H00&}VIEL,{\c&H00FFFFFF&\alpha&H33&} ABER SICHERHEITSKONTROLLEN
+Dialogue: 0,0:03:00.73,0:03:01.24,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DAS KLINGT VIEL, {\c&H0000D7FF&\alpha&H00&}ABER{\c&H00FFFFFF&\alpha&H33&} SICHERHEITSKONTROLLEN
+Dialogue: 0,0:03:01.24,0:03:01.74,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DAS KLINGT VIEL, ABER {\c&H0000D7FF&\alpha&H00&}SICHERHEITSKONTROLLEN
+Dialogue: 0,0:03:01.74,0:03:02.25,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}KÖNNEN{\c&H00FFFFFF&\alpha&H33&} SICH IN STOSSZEITEN AUF BIS
+Dialogue: 0,0:03:02.25,0:03:02.76,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}KÖNNEN {\c&H0000D7FF&\alpha&H00&}SICH{\c&H00FFFFFF&\alpha&H33&} IN STOSSZEITEN AUF BIS
+Dialogue: 0,0:03:02.76,0:03:03.26,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}KÖNNEN SICH {\c&H0000D7FF&\alpha&H00&}IN STOSSZEITEN{\c&H00FFFFFF&\alpha&H33&} AUF BIS
+Dialogue: 0,0:03:03.26,0:03:03.77,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}KÖNNEN SICH IN STOSSZEITEN {\c&H0000D7FF&\alpha&H00&}AUF BIS
+Dialogue: 0,0:03:03.77,0:03:04.27,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}ZU 45{\c&H00FFFFFF&\alpha&H33&} MINUTEN WARTEZEIT AUSDEHNEN.
+Dialogue: 0,0:03:04.27,0:03:04.78,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ZU 45 {\c&H0000D7FF&\alpha&H00&}MINUTEN{\c&H00FFFFFF&\alpha&H33&} WARTEZEIT AUSDEHNEN.
+Dialogue: 0,0:03:04.78,0:03:05.29,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ZU 45 MINUTEN {\c&H0000D7FF&\alpha&H00&}WARTEZEIT{\c&H00FFFFFF&\alpha&H33&} AUSDEHNEN.
+Dialogue: 0,0:03:05.29,0:03:05.79,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ZU 45 MINUTEN WARTEZEIT {\c&H0000D7FF&\alpha&H00&}AUSDEHNEN.
+Dialogue: 0,0:03:05.79,0:03:06.30,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}BESONDERS{\c&H00FFFFFF&\alpha&H33&} IM SOMMER ODER AN FEIERTAGEN
+Dialogue: 0,0:03:06.30,0:03:06.81,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BESONDERS {\c&H0000D7FF&\alpha&H00&}IM SOMMER{\c&H00FFFFFF&\alpha&H33&} ODER AN FEIERTAGEN
+Dialogue: 0,0:03:06.81,0:03:07.31,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BESONDERS IM SOMMER {\c&H0000D7FF&\alpha&H00&}ODER{\c&H00FFFFFF&\alpha&H33&} AN FEIERTAGEN
+Dialogue: 0,0:03:07.31,0:03:07.82,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BESONDERS IM SOMMER ODER {\c&H0000D7FF&\alpha&H00&}AN FEIERTAGEN
+Dialogue: 0,0:03:07.82,0:03:08.32,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}KANN{\c&H00FFFFFF&\alpha&H33&} ES NOCH LÄNGER DAUERN.
+Dialogue: 0,0:03:08.32,0:03:08.83,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}KANN {\c&H0000D7FF&\alpha&H00&}ES NOCH{\c&H00FFFFFF&\alpha&H33&} LÄNGER DAUERN.
+Dialogue: 0,0:03:08.83,0:03:09.34,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}KANN ES NOCH {\c&H0000D7FF&\alpha&H00&}LÄNGER{\c&H00FFFFFF&\alpha&H33&} DAUERN.
+Dialogue: 0,0:03:09.34,0:03:09.84,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}KANN ES NOCH LÄNGER {\c&H0000D7FF&\alpha&H00&}DAUERN.
+Dialogue: 0,0:03:10.13,0:03:10.62,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}FEHLER{\c&H00FFFFFF&\alpha&H33&} SECHS — UND DIESER
+Dialogue: 0,0:03:10.62,0:03:11.10,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}FEHLER {\c&H0000D7FF&\alpha&H00&}SECHS{\c&H00FFFFFF&\alpha&H33&} — UND DIESER
+Dialogue: 0,0:03:11.10,0:03:11.59,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}FEHLER SECHS {\c&H0000D7FF&\alpha&H00&}— UND{\c&H00FFFFFF&\alpha&H33&} DIESER
+Dialogue: 0,0:03:11.59,0:03:12.07,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}FEHLER SECHS — UND {\c&H0000D7FF&\alpha&H00&}DIESER
+Dialogue: 0,0:03:12.07,0:03:12.56,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}ÜBERRASCHT{\c&H00FFFFFF&\alpha&H33&} DIE MEISTEN. MANCHE AIRLINES
+Dialogue: 0,0:03:12.56,0:03:13.04,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ÜBERRASCHT {\c&H0000D7FF&\alpha&H00&}DIE MEISTEN.{\c&H00FFFFFF&\alpha&H33&} MANCHE AIRLINES
+Dialogue: 0,0:03:13.04,0:03:13.53,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ÜBERRASCHT DIE MEISTEN. {\c&H0000D7FF&\alpha&H00&}MANCHE{\c&H00FFFFFF&\alpha&H33&} AIRLINES
+Dialogue: 0,0:03:13.53,0:03:14.01,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ÜBERRASCHT DIE MEISTEN. MANCHE {\c&H0000D7FF&\alpha&H00&}AIRLINES
+Dialogue: 0,0:03:14.01,0:03:14.50,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}AKZEPTIEREN{\c&H00FFFFFF&\alpha&H33&} AM CHECK-IN-AUTOMATEN ODER BEIM
+Dialogue: 0,0:03:14.50,0:03:14.98,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}AKZEPTIEREN {\c&H0000D7FF&\alpha&H00&}AM CHECK-IN-AUTOMATEN{\c&H00FFFFFF&\alpha&H33&} ODER BEIM
+Dialogue: 0,0:03:14.98,0:03:15.47,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}AKZEPTIEREN AM CHECK-IN-AUTOMATEN {\c&H0000D7FF&\alpha&H00&}ODER{\c&H00FFFFFF&\alpha&H33&} BEIM
+Dialogue: 0,0:03:15.47,0:03:15.95,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}AKZEPTIEREN AM CHECK-IN-AUTOMATEN ODER {\c&H0000D7FF&\alpha&H00&}BEIM
+Dialogue: 0,0:03:15.95,0:03:16.44,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}ONLINE-CHECK-IN{\c&H00FFFFFF&\alpha&H33&} BESTIMMTE KREDITKARTEN NICHT.
+Dialogue: 0,0:03:16.44,0:03:16.92,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ONLINE-CHECK-IN {\c&H0000D7FF&\alpha&H00&}BESTIMMTE{\c&H00FFFFFF&\alpha&H33&} KREDITKARTEN NICHT.
+Dialogue: 0,0:03:16.92,0:03:17.41,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ONLINE-CHECK-IN BESTIMMTE {\c&H0000D7FF&\alpha&H00&}KREDITKARTEN{\c&H00FFFFFF&\alpha&H33&} NICHT.
+Dialogue: 0,0:03:17.41,0:03:17.89,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ONLINE-CHECK-IN BESTIMMTE KREDITKARTEN {\c&H0000D7FF&\alpha&H00&}NICHT.
+Dialogue: 0,0:03:17.89,0:03:18.38,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}WER SEINE{\c&H00FFFFFF&\alpha&H33&} BUCHUNG MIT PAYPAL BEZAHLT
+Dialogue: 0,0:03:18.38,0:03:18.86,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WER SEINE {\c&H0000D7FF&\alpha&H00&}BUCHUNG{\c&H00FFFFFF&\alpha&H33&} MIT PAYPAL BEZAHLT
+Dialogue: 0,0:03:18.86,0:03:19.35,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WER SEINE BUCHUNG {\c&H0000D7FF&\alpha&H00&}MIT PAYPAL{\c&H00FFFFFF&\alpha&H33&} BEZAHLT
+Dialogue: 0,0:03:19.35,0:03:19.83,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WER SEINE BUCHUNG MIT PAYPAL {\c&H0000D7FF&\alpha&H00&}BEZAHLT
+Dialogue: 0,0:03:19.83,0:03:20.32,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}HAT UND{\c&H00FFFFFF&\alpha&H33&} DANN AM KIOSK EINE
+Dialogue: 0,0:03:20.32,0:03:20.80,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}HAT UND {\c&H0000D7FF&\alpha&H00&}DANN{\c&H00FFFFFF&\alpha&H33&} AM KIOSK EINE
+Dialogue: 0,0:03:20.80,0:03:21.29,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}HAT UND DANN {\c&H0000D7FF&\alpha&H00&}AM KIOSK{\c&H00FFFFFF&\alpha&H33&} EINE
+Dialogue: 0,0:03:21.29,0:03:21.77,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}HAT UND DANN AM KIOSK {\c&H0000D7FF&\alpha&H00&}EINE
+Dialogue: 0,0:03:21.77,0:03:22.26,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}ANDERE{\c&H00FFFFFF&\alpha&H33&} KARTE VORLEGT, KANN
+Dialogue: 0,0:03:22.26,0:03:22.74,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ANDERE {\c&H0000D7FF&\alpha&H00&}KARTE{\c&H00FFFFFF&\alpha&H33&} VORLEGT, KANN
+Dialogue: 0,0:03:22.74,0:03:23.23,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ANDERE KARTE {\c&H0000D7FF&\alpha&H00&}VORLEGT,{\c&H00FFFFFF&\alpha&H33&} KANN
+Dialogue: 0,0:03:23.23,0:03:23.71,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ANDERE KARTE VORLEGT, {\c&H0000D7FF&\alpha&H00&}KANN
+Dialogue: 0,0:03:23.71,0:03:24.20,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}AUSGESPERRT{\c&H00FFFFFF&\alpha&H33&} WERDEN. DAS SYSTEM ERKENNT
+Dialogue: 0,0:03:24.20,0:03:24.68,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}AUSGESPERRT {\c&H0000D7FF&\alpha&H00&}WERDEN.{\c&H00FFFFFF&\alpha&H33&} DAS SYSTEM ERKENNT
+Dialogue: 0,0:03:24.68,0:03:25.17,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}AUSGESPERRT WERDEN. {\c&H0000D7FF&\alpha&H00&}DAS SYSTEM{\c&H00FFFFFF&\alpha&H33&} ERKENNT
+Dialogue: 0,0:03:25.17,0:03:25.65,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}AUSGESPERRT WERDEN. DAS SYSTEM {\c&H0000D7FF&\alpha&H00&}ERKENNT
+Dialogue: 0,0:03:25.65,0:03:26.14,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}DICH{\c&H00FFFFFF&\alpha&H33&} SCHLICHT NICHT. FEHLER
+Dialogue: 0,0:03:26.14,0:03:26.62,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DICH {\c&H0000D7FF&\alpha&H00&}SCHLICHT{\c&H00FFFFFF&\alpha&H33&} NICHT. FEHLER
+Dialogue: 0,0:03:26.62,0:03:27.40,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DICH SCHLICHT {\c&H0000D7FF&\alpha&H00&}NICHT.{\c&H00FFFFFF&\alpha&H33&} FEHLER
+Dialogue: 0,0:03:27.40,0:03:28.04,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DICH SCHLICHT NICHT. {\c&H0000D7FF&\alpha&H00&}FEHLER
+Dialogue: 0,0:03:28.04,0:03:28.68,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}SIEBEN.{\c&H00FFFFFF&\alpha&H33&} DU HAST ALLES — TICKET,
+Dialogue: 0,0:03:28.68,0:03:29.31,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}SIEBEN. {\c&H0000D7FF&\alpha&H00&}DU HAST{\c&H00FFFFFF&\alpha&H33&} ALLES — TICKET,
+Dialogue: 0,0:03:29.31,0:03:29.95,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}SIEBEN. DU HAST {\c&H0000D7FF&\alpha&H00&}ALLES{\c&H00FFFFFF&\alpha&H33&} — TICKET,
+Dialogue: 0,0:03:29.95,0:03:30.59,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}SIEBEN. DU HAST ALLES {\c&H0000D7FF&\alpha&H00&}— TICKET,
+Dialogue: 0,0:03:30.59,0:03:31.23,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}PASS,{\c&H00FFFFFF&\alpha&H33&} GEPÄCK — ABER KEIN
+Dialogue: 0,0:03:31.23,0:03:31.87,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}PASS, {\c&H0000D7FF&\alpha&H00&}GEPÄCK{\c&H00FFFFFF&\alpha&H33&} — ABER KEIN
+Dialogue: 0,0:03:31.87,0:03:32.51,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}PASS, GEPÄCK {\c&H0000D7FF&\alpha&H00&}— ABER{\c&H00FFFFFF&\alpha&H33&} KEIN
+Dialogue: 0,0:03:32.51,0:03:33.15,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}PASS, GEPÄCK — ABER {\c&H0000D7FF&\alpha&H00&}KEIN
+Dialogue: 0,0:03:33.15,0:03:33.78,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}VISUM.{\c&H00FFFFFF&\alpha&H33&} ODER KEIN ESTA.
+Dialogue: 0,0:03:33.78,0:03:34.42,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}VISUM. {\c&H0000D7FF&\alpha&H00&}ODER{\c&H00FFFFFF&\alpha&H33&} KEIN ESTA.
+Dialogue: 0,0:03:34.42,0:03:35.06,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}VISUM. ODER {\c&H0000D7FF&\alpha&H00&}KEIN{\c&H00FFFFFF&\alpha&H33&} ESTA.
+Dialogue: 0,0:03:35.06,0:03:35.70,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}VISUM. ODER KEIN {\c&H0000D7FF&\alpha&H00&}ESTA.
+Dialogue: 0,0:03:35.70,0:03:36.34,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}ODER{\c&H00FFFFFF&\alpha&H33&} KEINE ETA FÜR KANADA.
+Dialogue: 0,0:03:36.34,0:03:36.98,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ODER {\c&H0000D7FF&\alpha&H00&}KEINE{\c&H00FFFFFF&\alpha&H33&} ETA FÜR KANADA.
+Dialogue: 0,0:03:36.98,0:03:37.62,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ODER KEINE {\c&H0000D7FF&\alpha&H00&}ETA FÜR{\c&H00FFFFFF&\alpha&H33&} KANADA.
+Dialogue: 0,0:03:37.62,0:03:38.25,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ODER KEINE ETA FÜR {\c&H0000D7FF&\alpha&H00&}KANADA.
+Dialogue: 0,0:03:38.25,0:03:38.89,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}DIE AIRLINE{\c&H00FFFFFF&\alpha&H33&} IST GESETZLICH VERPFLICHTET, DICH
+Dialogue: 0,0:03:38.89,0:03:39.53,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DIE AIRLINE {\c&H0000D7FF&\alpha&H00&}IST GESETZLICH{\c&H00FFFFFF&\alpha&H33&} VERPFLICHTET, DICH
+Dialogue: 0,0:03:39.53,0:03:40.17,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DIE AIRLINE IST GESETZLICH {\c&H0000D7FF&\alpha&H00&}VERPFLICHTET,{\c&H00FFFFFF&\alpha&H33&} DICH
+Dialogue: 0,0:03:40.17,0:03:40.81,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DIE AIRLINE IST GESETZLICH VERPFLICHTET, {\c&H0000D7FF&\alpha&H00&}DICH
+Dialogue: 0,0:03:40.81,0:03:41.45,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}ZURÜCKZUSCHICKEN,{\c&H00FFFFFF&\alpha&H33&} WENN DU OHNE GÜLTIGE
+Dialogue: 0,0:03:41.45,0:03:42.09,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ZURÜCKZUSCHICKEN, {\c&H0000D7FF&\alpha&H00&}WENN{\c&H00FFFFFF&\alpha&H33&} DU OHNE GÜLTIGE
+Dialogue: 0,0:03:42.09,0:03:42.72,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ZURÜCKZUSCHICKEN, WENN {\c&H0000D7FF&\alpha&H00&}DU OHNE{\c&H00FFFFFF&\alpha&H33&} GÜLTIGE
+Dialogue: 0,0:03:42.72,0:03:43.36,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ZURÜCKZUSCHICKEN, WENN DU OHNE {\c&H0000D7FF&\alpha&H00&}GÜLTIGE
+Dialogue: 0,0:03:43.36,0:03:44.00,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}EINREISEGENEHMIGUNG{\c&H00FFFFFF&\alpha&H33&} FLIEGST — UND ZAHLT
+Dialogue: 0,0:03:44.00,0:03:44.64,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}EINREISEGENEHMIGUNG {\c&H0000D7FF&\alpha&H00&}FLIEGST{\c&H00FFFFFF&\alpha&H33&} — UND ZAHLT
+Dialogue: 0,0:03:44.64,0:03:45.28,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}EINREISEGENEHMIGUNG FLIEGST {\c&H0000D7FF&\alpha&H00&}— UND{\c&H00FFFFFF&\alpha&H33&} ZAHLT
+Dialogue: 0,0:03:45.28,0:03:45.92,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}EINREISEGENEHMIGUNG FLIEGST — UND {\c&H0000D7FF&\alpha&H00&}ZAHLT
+Dialogue: 0,0:03:45.92,0:03:46.56,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}SELBST{\c&H00FFFFFF&\alpha&H33&} DIE STRAFE, WENN SIE DICH
+Dialogue: 0,0:03:46.56,0:03:47.19,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}SELBST {\c&H0000D7FF&\alpha&H00&}DIE STRAFE,{\c&H00FFFFFF&\alpha&H33&} WENN SIE DICH
+Dialogue: 0,0:03:47.19,0:03:47.83,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}SELBST DIE STRAFE, {\c&H0000D7FF&\alpha&H00&}WENN{\c&H00FFFFFF&\alpha&H33&} SIE DICH
+Dialogue: 0,0:03:47.83,0:03:48.47,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}SELBST DIE STRAFE, WENN {\c&H0000D7FF&\alpha&H00&}SIE DICH
+Dialogue: 0,0:03:48.47,0:03:49.11,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}TROTZDEM{\c&H00FFFFFF&\alpha&H33&} MITNIMMT. DESHALB IST SIE
+Dialogue: 0,0:03:49.11,0:03:49.75,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}TROTZDEM {\c&H0000D7FF&\alpha&H00&}MITNIMMT.{\c&H00FFFFFF&\alpha&H33&} DESHALB IST SIE
+Dialogue: 0,0:03:49.75,0:03:50.39,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}TROTZDEM MITNIMMT. {\c&H0000D7FF&\alpha&H00&}DESHALB{\c&H00FFFFFF&\alpha&H33&} IST SIE
+Dialogue: 0,0:03:50.39,0:03:51.03,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}TROTZDEM MITNIMMT. DESHALB {\c&H0000D7FF&\alpha&H00&}IST SIE
+Dialogue: 0,0:03:51.03,0:03:51.96,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}GNADENLOS.{\c&H00FFFFFF&\alpha&H33&} SCHÄTZUNGEN DER IATA ZUFOLGE
+Dialogue: 0,0:03:51.96,0:03:52.49,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}GNADENLOS. {\c&H0000D7FF&\alpha&H00&}SCHÄTZUNGEN{\c&H00FFFFFF&\alpha&H33&} DER IATA ZUFOLGE
+Dialogue: 0,0:03:52.49,0:03:53.02,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}GNADENLOS. SCHÄTZUNGEN {\c&H0000D7FF&\alpha&H00&}DER IATA{\c&H00FFFFFF&\alpha&H33&} ZUFOLGE
+Dialogue: 0,0:03:53.02,0:03:53.56,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}GNADENLOS. SCHÄTZUNGEN DER IATA {\c&H0000D7FF&\alpha&H00&}ZUFOLGE
+Dialogue: 0,0:03:53.56,0:03:54.09,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}WERDEN{\c&H00FFFFFF&\alpha&H33&} JÄHRLICH RUND 1,2 MILLIONEN
+Dialogue: 0,0:03:54.09,0:03:54.62,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WERDEN {\c&H0000D7FF&\alpha&H00&}JÄHRLICH{\c&H00FFFFFF&\alpha&H33&} RUND 1,2 MILLIONEN
+Dialogue: 0,0:03:54.62,0:03:55.15,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WERDEN JÄHRLICH {\c&H0000D7FF&\alpha&H00&}RUND{\c&H00FFFFFF&\alpha&H33&} 1,2 MILLIONEN
+Dialogue: 0,0:03:55.15,0:03:55.69,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WERDEN JÄHRLICH RUND {\c&H0000D7FF&\alpha&H00&}1,2 MILLIONEN
+Dialogue: 0,0:03:55.69,0:03:56.22,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}PASSAGIERE{\c&H00FFFFFF&\alpha&H33&} WELTWEIT BEREITS AM CHECK-IN-SCHALTER
+Dialogue: 0,0:03:56.22,0:03:56.75,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}PASSAGIERE {\c&H0000D7FF&\alpha&H00&}WELTWEIT{\c&H00FFFFFF&\alpha&H33&} BEREITS AM CHECK-IN-SCHALTER
+Dialogue: 0,0:03:56.75,0:03:57.29,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}PASSAGIERE WELTWEIT {\c&H0000D7FF&\alpha&H00&}BEREITS{\c&H00FFFFFF&\alpha&H33&} AM CHECK-IN-SCHALTER
+Dialogue: 0,0:03:57.29,0:03:57.82,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}PASSAGIERE WELTWEIT BEREITS {\c&H0000D7FF&\alpha&H00&}AM CHECK-IN-SCHALTER
+Dialogue: 0,0:03:57.82,0:03:58.35,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}WEGEN{\c&H00FFFFFF&\alpha&H33&} FEHLENDER ODER UNGÜLTIGER
+Dialogue: 0,0:03:58.35,0:03:58.89,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WEGEN {\c&H0000D7FF&\alpha&H00&}FEHLENDER{\c&H00FFFFFF&\alpha&H33&} ODER UNGÜLTIGER
+Dialogue: 0,0:03:58.89,0:03:59.42,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WEGEN FEHLENDER {\c&H0000D7FF&\alpha&H00&}ODER{\c&H00FFFFFF&\alpha&H33&} UNGÜLTIGER
+Dialogue: 0,0:03:59.42,0:03:59.95,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WEGEN FEHLENDER ODER {\c&H0000D7FF&\alpha&H00&}UNGÜLTIGER
+Dialogue: 0,0:03:59.95,0:04:00.48,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}REISEDOKUMENTE{\c&H00FFFFFF&\alpha&H33&} ABGEWIESEN. EINE MILLION.
+Dialogue: 0,0:04:00.48,0:04:01.02,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}REISEDOKUMENTE {\c&H0000D7FF&\alpha&H00&}ABGEWIESEN.{\c&H00FFFFFF&\alpha&H33&} EINE MILLION.
+Dialogue: 0,0:04:01.02,0:04:01.55,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}REISEDOKUMENTE ABGEWIESEN. {\c&H0000D7FF&\alpha&H00&}EINE{\c&H00FFFFFF&\alpha&H33&} MILLION.
+Dialogue: 0,0:04:01.55,0:04:02.08,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}REISEDOKUMENTE ABGEWIESEN. EINE {\c&H0000D7FF&\alpha&H00&}MILLION.
+Dialogue: 0,0:04:02.08,0:04:02.62,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}DAS IST{\c&H00FFFFFF&\alpha&H33&} KEINE AUSNAHME — DAS
+Dialogue: 0,0:04:02.62,0:04:03.15,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DAS IST {\c&H0000D7FF&\alpha&H00&}KEINE{\c&H00FFFFFF&\alpha&H33&} AUSNAHME — DAS
+Dialogue: 0,0:04:03.15,0:04:03.68,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DAS IST KEINE {\c&H0000D7FF&\alpha&H00&}AUSNAHME{\c&H00FFFFFF&\alpha&H33&} — DAS
+Dialogue: 0,0:04:03.68,0:04:04.22,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DAS IST KEINE AUSNAHME {\c&H0000D7FF&\alpha&H00&}— DAS
+Dialogue: 0,0:04:04.22,0:04:04.75,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}IST EIN{\c&H00FFFFFF&\alpha&H33&} TÄGLICHES MASSENPHÄNOMEN AN DEN
+Dialogue: 0,0:04:04.75,0:04:05.28,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}IST EIN {\c&H0000D7FF&\alpha&H00&}TÄGLICHES{\c&H00FFFFFF&\alpha&H33&} MASSENPHÄNOMEN AN DEN
+Dialogue: 0,0:04:05.28,0:04:05.81,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}IST EIN TÄGLICHES {\c&H0000D7FF&\alpha&H00&}MASSENPHÄNOMEN{\c&H00FFFFFF&\alpha&H33&} AN DEN
+Dialogue: 0,0:04:05.81,0:04:06.35,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}IST EIN TÄGLICHES MASSENPHÄNOMEN {\c&H0000D7FF&\alpha&H00&}AN DEN
+Dialogue: 0,0:04:06.35,0:04:06.88,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}GRÖSSTEN{\c&H00FFFFFF&\alpha&H33&} FLUGHÄFEN DER WELT. FEHLER
+Dialogue: 0,0:04:06.88,0:04:07.41,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}GRÖSSTEN {\c&H0000D7FF&\alpha&H00&}FLUGHÄFEN{\c&H00FFFFFF&\alpha&H33&} DER WELT. FEHLER
+Dialogue: 0,0:04:07.41,0:04:08.24,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}GRÖSSTEN FLUGHÄFEN {\c&H0000D7FF&\alpha&H00&}DER WELT.{\c&H00FFFFFF&\alpha&H33&} FEHLER
+Dialogue: 0,0:04:08.24,0:04:08.72,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}GRÖSSTEN FLUGHÄFEN DER WELT. {\c&H0000D7FF&\alpha&H00&}FEHLER
+Dialogue: 0,0:04:08.72,0:04:09.21,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}ACHT.{\c&H00FFFFFF&\alpha&H33&} DU HAST KEIN OVERBOOKING
+Dialogue: 0,0:04:09.21,0:04:09.69,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ACHT. {\c&H0000D7FF&\alpha&H00&}DU HAST{\c&H00FFFFFF&\alpha&H33&} KEIN OVERBOOKING
+Dialogue: 0,0:04:09.69,0:04:10.18,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ACHT. DU HAST {\c&H0000D7FF&\alpha&H00&}KEIN{\c&H00FFFFFF&\alpha&H33&} OVERBOOKING
+Dialogue: 0,0:04:10.18,0:04:10.66,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ACHT. DU HAST KEIN {\c&H0000D7FF&\alpha&H00&}OVERBOOKING
+Dialogue: 0,0:04:10.66,0:04:11.15,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}AUF DEM{\c&H00FFFFFF&\alpha&H33&} SCHIRM. AIRLINES BUCHEN
+Dialogue: 0,0:04:11.15,0:04:11.63,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}AUF DEM {\c&H0000D7FF&\alpha&H00&}SCHIRM.{\c&H00FFFFFF&\alpha&H33&} AIRLINES BUCHEN
+Dialogue: 0,0:04:11.63,0:04:12.11,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}AUF DEM SCHIRM. {\c&H0000D7FF&\alpha&H00&}AIRLINES{\c&H00FFFFFF&\alpha&H33&} BUCHEN
+Dialogue: 0,0:04:12.11,0:04:12.60,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}AUF DEM SCHIRM. AIRLINES {\c&H0000D7FF&\alpha&H00&}BUCHEN
+Dialogue: 0,0:04:12.60,0:04:13.08,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}FLÜGE{\c&H00FFFFFF&\alpha&H33&} BEWUSST ÜBERBUCHT — IM
+Dialogue: 0,0:04:13.08,0:04:13.57,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}FLÜGE {\c&H0000D7FF&\alpha&H00&}BEWUSST{\c&H00FFFFFF&\alpha&H33&} ÜBERBUCHT — IM
+Dialogue: 0,0:04:13.57,0:04:14.05,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}FLÜGE BEWUSST {\c&H0000D7FF&\alpha&H00&}ÜBERBUCHT{\c&H00FFFFFF&\alpha&H33&} — IM
+Dialogue: 0,0:04:14.05,0:04:14.54,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}FLÜGE BEWUSST ÜBERBUCHT {\c&H0000D7FF&\alpha&H00&}— IM
+Dialogue: 0,0:04:14.54,0:04:15.02,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}DURCHSCHNITT{\c&H00FFFFFF&\alpha&H33&} WERDEN IN EUROPA ETWA
+Dialogue: 0,0:04:15.02,0:04:15.50,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DURCHSCHNITT {\c&H0000D7FF&\alpha&H00&}WERDEN{\c&H00FFFFFF&\alpha&H33&} IN EUROPA ETWA
+Dialogue: 0,0:04:15.50,0:04:15.99,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DURCHSCHNITT WERDEN {\c&H0000D7FF&\alpha&H00&}IN EUROPA{\c&H00FFFFFF&\alpha&H33&} ETWA
+Dialogue: 0,0:04:15.99,0:04:16.47,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DURCHSCHNITT WERDEN IN EUROPA {\c&H0000D7FF&\alpha&H00&}ETWA
+Dialogue: 0,0:04:16.47,0:04:16.96,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}5 BIS{\c&H00FFFFFF&\alpha&H33&} 15 PROZENT MEHR TICKETS
+Dialogue: 0,0:04:16.96,0:04:17.44,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}5 BIS {\c&H0000D7FF&\alpha&H00&}15 PROZENT{\c&H00FFFFFF&\alpha&H33&} MEHR TICKETS
+Dialogue: 0,0:04:17.44,0:04:17.93,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}5 BIS 15 PROZENT {\c&H0000D7FF&\alpha&H00&}MEHR{\c&H00FFFFFF&\alpha&H33&} TICKETS
+Dialogue: 0,0:04:17.93,0:04:18.41,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}5 BIS 15 PROZENT MEHR {\c&H0000D7FF&\alpha&H00&}TICKETS
+Dialogue: 0,0:04:18.41,0:04:18.90,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}VERKAUFT{\c&H00FFFFFF&\alpha&H33&} ALS PLÄTZE EXISTIEREN. WER ZULETZT
+Dialogue: 0,0:04:18.90,0:04:19.38,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}VERKAUFT {\c&H0000D7FF&\alpha&H00&}ALS PLÄTZE{\c&H00FFFFFF&\alpha&H33&} EXISTIEREN. WER ZULETZT
+Dialogue: 0,0:04:19.38,0:04:19.87,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}VERKAUFT ALS PLÄTZE {\c&H0000D7FF&\alpha&H00&}EXISTIEREN.{\c&H00FFFFFF&\alpha&H33&} WER ZULETZT
+Dialogue: 0,0:04:19.87,0:04:20.35,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}VERKAUFT ALS PLÄTZE EXISTIEREN. {\c&H0000D7FF&\alpha&H00&}WER ZULETZT
+Dialogue: 0,0:04:20.35,0:04:20.83,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}EINCHECKT,{\c&H00FFFFFF&\alpha&H33&} IST DER ERSTE, DER AM
+Dialogue: 0,0:04:20.83,0:04:21.32,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}EINCHECKT, {\c&H0000D7FF&\alpha&H00&}IST DER{\c&H00FFFFFF&\alpha&H33&} ERSTE, DER AM
+Dialogue: 0,0:04:21.32,0:04:21.80,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}EINCHECKT, IST DER {\c&H0000D7FF&\alpha&H00&}ERSTE,{\c&H00FFFFFF&\alpha&H33&} DER AM
+Dialogue: 0,0:04:21.80,0:04:22.29,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}EINCHECKT, IST DER ERSTE, {\c&H0000D7FF&\alpha&H00&}DER AM
+Dialogue: 0,0:04:22.29,0:04:22.77,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}GATE{\c&H00FFFFFF&\alpha&H33&} GEBETEN WIRD, AUF EINEN
+Dialogue: 0,0:04:22.77,0:04:23.26,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}GATE {\c&H0000D7FF&\alpha&H00&}GEBETEN{\c&H00FFFFFF&\alpha&H33&} WIRD, AUF EINEN
+Dialogue: 0,0:04:23.26,0:04:23.74,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}GATE GEBETEN {\c&H0000D7FF&\alpha&H00&}WIRD,{\c&H00FFFFFF&\alpha&H33&} AUF EINEN
+Dialogue: 0,0:04:23.74,0:04:24.22,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}GATE GEBETEN WIRD, {\c&H0000D7FF&\alpha&H00&}AUF EINEN
+Dialogue: 0,0:04:24.22,0:04:24.71,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}SPÄTEREN{\c&H00FFFFFF&\alpha&H33&} FLUG ZU WECHSELN. DIE SCHUTZSTRATEGIE
+Dialogue: 0,0:04:24.71,0:04:25.19,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}SPÄTEREN {\c&H0000D7FF&\alpha&H00&}FLUG{\c&H00FFFFFF&\alpha&H33&} ZU WECHSELN. DIE SCHUTZSTRATEGIE
+Dialogue: 0,0:04:25.19,0:04:25.97,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}SPÄTEREN FLUG {\c&H0000D7FF&\alpha&H00&}ZU WECHSELN.{\c&H00FFFFFF&\alpha&H33&} DIE SCHUTZSTRATEGIE
+Dialogue: 0,0:04:25.97,0:04:26.61,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}SPÄTEREN FLUG ZU WECHSELN. {\c&H0000D7FF&\alpha&H00&}DIE SCHUTZSTRATEGIE
+Dialogue: 0,0:04:26.61,0:04:27.25,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}IST SIMPEL:{\c&H00FFFFFF&\alpha&H33&} IMMER SOFORT WENN
+Dialogue: 0,0:04:27.25,0:04:27.89,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}IST SIMPEL: {\c&H0000D7FF&\alpha&H00&}IMMER{\c&H00FFFFFF&\alpha&H33&} SOFORT WENN
+Dialogue: 0,0:04:27.89,0:04:28.54,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}IST SIMPEL: IMMER {\c&H0000D7FF&\alpha&H00&}SOFORT{\c&H00FFFFFF&\alpha&H33&} WENN
+Dialogue: 0,0:04:28.54,0:04:29.18,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}IST SIMPEL: IMMER SOFORT {\c&H0000D7FF&\alpha&H00&}WENN
+Dialogue: 0,0:04:29.18,0:04:29.82,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}DAS ONLINE-CHECK-IN{\c&H00FFFFFF&\alpha&H33&} ÖFFNET EINCHECKEN — ALSO
+Dialogue: 0,0:04:29.82,0:04:30.46,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DAS ONLINE-CHECK-IN {\c&H0000D7FF&\alpha&H00&}ÖFFNET{\c&H00FFFFFF&\alpha&H33&} EINCHECKEN — ALSO
+Dialogue: 0,0:04:30.46,0:04:31.10,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DAS ONLINE-CHECK-IN ÖFFNET {\c&H0000D7FF&\alpha&H00&}EINCHECKEN{\c&H00FFFFFF&\alpha&H33&} — ALSO
+Dialogue: 0,0:04:31.10,0:04:31.74,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DAS ONLINE-CHECK-IN ÖFFNET EINCHECKEN {\c&H0000D7FF&\alpha&H00&}— ALSO
+Dialogue: 0,0:04:31.74,0:04:32.39,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}AUF DIE{\c&H00FFFFFF&\alpha&H33&} MINUTE GENAU 24 STUNDEN
+Dialogue: 0,0:04:32.39,0:04:33.03,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}AUF DIE {\c&H0000D7FF&\alpha&H00&}MINUTE{\c&H00FFFFFF&\alpha&H33&} GENAU 24 STUNDEN
+Dialogue: 0,0:04:33.03,0:04:33.67,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}AUF DIE MINUTE {\c&H0000D7FF&\alpha&H00&}GENAU{\c&H00FFFFFF&\alpha&H33&} 24 STUNDEN
+Dialogue: 0,0:04:33.67,0:04:34.31,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}AUF DIE MINUTE GENAU {\c&H0000D7FF&\alpha&H00&}24 STUNDEN
+Dialogue: 0,0:04:34.31,0:04:34.95,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}VOR ABFLUG.{\c&H00FFFFFF&\alpha&H33&} WER ZUERST EINGECHECKT IST, HAT
+Dialogue: 0,0:04:34.95,0:04:35.59,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}VOR ABFLUG. {\c&H0000D7FF&\alpha&H00&}WER ZUERST{\c&H00FFFFFF&\alpha&H33&} EINGECHECKT IST, HAT
+Dialogue: 0,0:04:35.59,0:04:36.23,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}VOR ABFLUG. WER ZUERST {\c&H0000D7FF&\alpha&H00&}EINGECHECKT{\c&H00FFFFFF&\alpha&H33&} IST, HAT
+Dialogue: 0,0:04:36.23,0:04:36.88,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}VOR ABFLUG. WER ZUERST EINGECHECKT {\c&H0000D7FF&\alpha&H00&}IST, HAT
+Dialogue: 0,0:04:36.88,0:04:37.52,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}RECHTLICH{\c&H00FFFFFF&\alpha&H33&} PRIORITÄT. AIRLINES MÜSSEN
+Dialogue: 0,0:04:37.52,0:04:38.16,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}RECHTLICH {\c&H0000D7FF&\alpha&H00&}PRIORITÄT.{\c&H00FFFFFF&\alpha&H33&} AIRLINES MÜSSEN
+Dialogue: 0,0:04:38.16,0:04:38.80,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}RECHTLICH PRIORITÄT. {\c&H0000D7FF&\alpha&H00&}AIRLINES{\c&H00FFFFFF&\alpha&H33&} MÜSSEN
+Dialogue: 0,0:04:38.80,0:04:39.44,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}RECHTLICH PRIORITÄT. AIRLINES {\c&H0000D7FF&\alpha&H00&}MÜSSEN
+Dialogue: 0,0:04:39.44,0:04:40.08,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}ZUERST{\c&H00FFFFFF&\alpha&H33&} DIE ZULETZT EINGECHECKTEN PASSAGIERE
+Dialogue: 0,0:04:40.08,0:04:40.72,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ZUERST {\c&H0000D7FF&\alpha&H00&}DIE ZULETZT{\c&H00FFFFFF&\alpha&H33&} EINGECHECKTEN PASSAGIERE
+Dialogue: 0,0:04:40.72,0:04:41.37,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ZUERST DIE ZULETZT {\c&H0000D7FF&\alpha&H00&}EINGECHECKTEN{\c&H00FFFFFF&\alpha&H33&} PASSAGIERE
+Dialogue: 0,0:04:41.37,0:04:42.01,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ZUERST DIE ZULETZT EINGECHECKTEN {\c&H0000D7FF&\alpha&H00&}PASSAGIERE
+Dialogue: 0,0:04:42.01,0:04:42.65,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}UMBETTEN.{\c&H00FFFFFF&\alpha&H33&} DAS IST EU-VERORDNUNG 261/2004
+Dialogue: 0,0:04:42.65,0:04:43.29,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}UMBETTEN. {\c&H0000D7FF&\alpha&H00&}DAS IST{\c&H00FFFFFF&\alpha&H33&} EU-VERORDNUNG 261/2004
+Dialogue: 0,0:04:43.29,0:04:43.93,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}UMBETTEN. DAS IST {\c&H0000D7FF&\alpha&H00&}EU-VERORDNUNG{\c&H00FFFFFF&\alpha&H33&} 261/2004
+Dialogue: 0,0:04:43.93,0:04:44.57,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}UMBETTEN. DAS IST EU-VERORDNUNG {\c&H0000D7FF&\alpha&H00&}261/2004
+Dialogue: 0,0:04:44.57,0:04:45.21,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}— UND{\c&H00FFFFFF&\alpha&H33&} DIE IST VERBINDLICH. FEHLER
+Dialogue: 0,0:04:45.21,0:04:45.86,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}— UND {\c&H0000D7FF&\alpha&H00&}DIE IST{\c&H00FFFFFF&\alpha&H33&} VERBINDLICH. FEHLER
+Dialogue: 0,0:04:45.86,0:04:46.79,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}— UND DIE IST {\c&H0000D7FF&\alpha&H00&}VERBINDLICH.{\c&H00FFFFFF&\alpha&H33&} FEHLER
+Dialogue: 0,0:04:46.79,0:04:47.38,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}— UND DIE IST VERBINDLICH. {\c&H0000D7FF&\alpha&H00&}FEHLER
+Dialogue: 0,0:04:47.38,0:04:47.97,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}NEUN{\c&H00FFFFFF&\alpha&H33&} — UND DIESER KLINGT
+Dialogue: 0,0:04:47.97,0:04:48.56,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}NEUN {\c&H0000D7FF&\alpha&H00&}— UND{\c&H00FFFFFF&\alpha&H33&} DIESER KLINGT
+Dialogue: 0,0:04:48.56,0:04:49.16,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}NEUN — UND {\c&H0000D7FF&\alpha&H00&}DIESER{\c&H00FFFFFF&\alpha&H33&} KLINGT
+Dialogue: 0,0:04:49.16,0:04:49.75,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}NEUN — UND DIESER {\c&H0000D7FF&\alpha&H00&}KLINGT
+Dialogue: 0,0:04:49.75,0:04:50.34,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}BANAL,{\c&H00FFFFFF&\alpha&H33&} PASSIERT ABER ERSCHRECKEND
+Dialogue: 0,0:04:50.34,0:04:50.93,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BANAL, {\c&H0000D7FF&\alpha&H00&}PASSIERT{\c&H00FFFFFF&\alpha&H33&} ABER ERSCHRECKEND
+Dialogue: 0,0:04:50.93,0:04:51.52,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BANAL, PASSIERT {\c&H0000D7FF&\alpha&H00&}ABER{\c&H00FFFFFF&\alpha&H33&} ERSCHRECKEND
+Dialogue: 0,0:04:51.52,0:04:52.11,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BANAL, PASSIERT ABER {\c&H0000D7FF&\alpha&H00&}ERSCHRECKEND
+Dialogue: 0,0:04:52.11,0:04:52.70,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}OFT. GROSSFLUGHÄFEN{\c&H00FFFFFF&\alpha&H33&} WIE FRANKFURT, LONDON HEATHROW
+Dialogue: 0,0:04:52.70,0:04:53.29,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}OFT. GROSSFLUGHÄFEN {\c&H0000D7FF&\alpha&H00&}WIE FRANKFURT,{\c&H00FFFFFF&\alpha&H33&} LONDON HEATHROW
+Dialogue: 0,0:04:53.29,0:04:53.88,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}OFT. GROSSFLUGHÄFEN WIE FRANKFURT, {\c&H0000D7FF&\alpha&H00&}LONDON{\c&H00FFFFFF&\alpha&H33&} HEATHROW
+Dialogue: 0,0:04:53.88,0:04:54.48,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}OFT. GROSSFLUGHÄFEN WIE FRANKFURT, LONDON {\c&H0000D7FF&\alpha&H00&}HEATHROW
+Dialogue: 0,0:04:54.48,0:04:55.07,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}ODER{\c&H00FFFFFF&\alpha&H33&} AMSTERDAM SCHIPHOL HABEN
+Dialogue: 0,0:04:55.07,0:04:55.66,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ODER {\c&H0000D7FF&\alpha&H00&}AMSTERDAM{\c&H00FFFFFF&\alpha&H33&} SCHIPHOL HABEN
+Dialogue: 0,0:04:55.66,0:04:56.25,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ODER AMSTERDAM {\c&H0000D7FF&\alpha&H00&}SCHIPHOL{\c&H00FFFFFF&\alpha&H33&} HABEN
+Dialogue: 0,0:04:56.25,0:04:56.84,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ODER AMSTERDAM SCHIPHOL {\c&H0000D7FF&\alpha&H00&}HABEN
+Dialogue: 0,0:04:56.84,0:04:57.43,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}MEHRERE{\c&H00FFFFFF&\alpha&H33&} TERMINALS, DIE MANCHMAL ZEHN
+Dialogue: 0,0:04:57.43,0:04:58.02,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}MEHRERE {\c&H0000D7FF&\alpha&H00&}TERMINALS,{\c&H00FFFFFF&\alpha&H33&} DIE MANCHMAL ZEHN
+Dialogue: 0,0:04:58.02,0:04:58.61,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}MEHRERE TERMINALS, {\c&H0000D7FF&\alpha&H00&}DIE MANCHMAL{\c&H00FFFFFF&\alpha&H33&} ZEHN
+Dialogue: 0,0:04:58.61,0:04:59.21,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}MEHRERE TERMINALS, DIE MANCHMAL {\c&H0000D7FF&\alpha&H00&}ZEHN
+Dialogue: 0,0:04:59.21,0:04:59.80,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}BIS FÜNFZEHN{\c&H00FFFFFF&\alpha&H33&} MINUTEN AUSEINANDER LIEGEN.
+Dialogue: 0,0:04:59.80,0:05:00.39,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BIS FÜNFZEHN {\c&H0000D7FF&\alpha&H00&}MINUTEN{\c&H00FFFFFF&\alpha&H33&} AUSEINANDER LIEGEN.
+Dialogue: 0,0:05:00.39,0:05:00.98,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BIS FÜNFZEHN MINUTEN {\c&H0000D7FF&\alpha&H00&}AUSEINANDER{\c&H00FFFFFF&\alpha&H33&} LIEGEN.
+Dialogue: 0,0:05:00.98,0:05:01.57,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BIS FÜNFZEHN MINUTEN AUSEINANDER {\c&H0000D7FF&\alpha&H00&}LIEGEN.
+Dialogue: 0,0:05:01.57,0:05:02.16,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}WER AM{\c&H00FFFFFF&\alpha&H33&} FALSCHEN TERMINAL ANKOMMT,
+Dialogue: 0,0:05:02.16,0:05:02.75,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WER AM {\c&H0000D7FF&\alpha&H00&}FALSCHEN{\c&H00FFFFFF&\alpha&H33&} TERMINAL ANKOMMT,
+Dialogue: 0,0:05:02.75,0:05:03.34,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WER AM FALSCHEN {\c&H0000D7FF&\alpha&H00&}TERMINAL{\c&H00FFFFFF&\alpha&H33&} ANKOMMT,
+Dialogue: 0,0:05:03.34,0:05:03.94,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WER AM FALSCHEN TERMINAL {\c&H0000D7FF&\alpha&H00&}ANKOMMT,
+Dialogue: 0,0:05:03.94,0:05:04.53,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}HAT SCHLICHT{\c&H00FFFFFF&\alpha&H33&} KEINE CHANCE MEHR
+Dialogue: 0,0:05:04.53,0:05:05.12,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}HAT SCHLICHT {\c&H0000D7FF&\alpha&H00&}KEINE{\c&H00FFFFFF&\alpha&H33&} CHANCE MEHR
+Dialogue: 0,0:05:05.12,0:05:05.71,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}HAT SCHLICHT KEINE {\c&H0000D7FF&\alpha&H00&}CHANCE{\c&H00FFFFFF&\alpha&H33&} MEHR
+Dialogue: 0,0:05:05.71,0:05:06.30,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}HAT SCHLICHT KEINE CHANCE {\c&H0000D7FF&\alpha&H00&}MEHR
+Dialogue: 0,0:05:06.30,0:05:06.89,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}RECHTZEITIG{\c&H00FFFFFF&\alpha&H33&} EINZUCHECKEN. HIER IST EINE
+Dialogue: 0,0:05:06.89,0:05:07.77,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}RECHTZEITIG {\c&H0000D7FF&\alpha&H00&}EINZUCHECKEN.{\c&H00FFFFFF&\alpha&H33&} HIER IST EINE
+Dialogue: 0,0:05:07.77,0:05:08.35,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}RECHTZEITIG EINZUCHECKEN. {\c&H0000D7FF&\alpha&H00&}HIER{\c&H00FFFFFF&\alpha&H33&} IST EINE
+Dialogue: 0,0:05:08.35,0:05:08.93,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}RECHTZEITIG EINZUCHECKEN. HIER {\c&H0000D7FF&\alpha&H00&}IST EINE
+Dialogue: 0,0:05:08.93,0:05:09.51,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}SACHE,{\c&H00FFFFFF&\alpha&H33&} DIE DU SOFORT TUN SOLLTEST:
+Dialogue: 0,0:05:09.51,0:05:10.09,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}SACHE, {\c&H0000D7FF&\alpha&H00&}DIE DU{\c&H00FFFFFF&\alpha&H33&} SOFORT TUN SOLLTEST:
+Dialogue: 0,0:05:10.09,0:05:10.67,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}SACHE, DIE DU {\c&H0000D7FF&\alpha&H00&}SOFORT{\c&H00FFFFFF&\alpha&H33&} TUN SOLLTEST:
+Dialogue: 0,0:05:10.67,0:05:11.24,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}SACHE, DIE DU SOFORT {\c&H0000D7FF&\alpha&H00&}TUN SOLLTEST:
+Dialogue: 0,0:05:11.24,0:05:11.82,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}LADE{\c&H00FFFFFF&\alpha&H33&} DIE APP DEINER AIRLINE
+Dialogue: 0,0:05:11.82,0:05:12.40,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}LADE {\c&H0000D7FF&\alpha&H00&}DIE APP{\c&H00FFFFFF&\alpha&H33&} DEINER AIRLINE
+Dialogue: 0,0:05:12.40,0:05:12.98,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}LADE DIE APP {\c&H0000D7FF&\alpha&H00&}DEINER{\c&H00FFFFFF&\alpha&H33&} AIRLINE
+Dialogue: 0,0:05:12.98,0:05:13.56,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}LADE DIE APP DEINER {\c&H0000D7FF&\alpha&H00&}AIRLINE
+Dialogue: 0,0:05:13.56,0:05:14.13,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}HERUNTER{\c&H00FFFFFF&\alpha&H33&} UND AKTIVIERE PUSH-BENACHRICHTIGUNGEN. DIE APP
+Dialogue: 0,0:05:14.13,0:05:14.71,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}HERUNTER {\c&H0000D7FF&\alpha&H00&}UND AKTIVIERE{\c&H00FFFFFF&\alpha&H33&} PUSH-BENACHRICHTIGUNGEN. DIE APP
+Dialogue: 0,0:05:14.71,0:05:15.29,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}HERUNTER UND AKTIVIERE {\c&H0000D7FF&\alpha&H00&}PUSH-BENACHRICHTIGUNGEN.{\c&H00FFFFFF&\alpha&H33&} DIE APP
+Dialogue: 0,0:05:15.29,0:05:15.87,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}HERUNTER UND AKTIVIERE PUSH-BENACHRICHTIGUNGEN. {\c&H0000D7FF&\alpha&H00&}DIE APP
+Dialogue: 0,0:05:15.87,0:05:16.45,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}INFORMIERT{\c&H00FFFFFF&\alpha&H33&} DICH ÜBER TERMINALWECHSEL,
+Dialogue: 0,0:05:16.45,0:05:17.02,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}INFORMIERT {\c&H0000D7FF&\alpha&H00&}DICH{\c&H00FFFFFF&\alpha&H33&} ÜBER TERMINALWECHSEL,
+Dialogue: 0,0:05:17.02,0:05:17.60,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}INFORMIERT DICH {\c&H0000D7FF&\alpha&H00&}ÜBER{\c&H00FFFFFF&\alpha&H33&} TERMINALWECHSEL,
+Dialogue: 0,0:05:17.60,0:05:18.18,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}INFORMIERT DICH ÜBER {\c&H0000D7FF&\alpha&H00&}TERMINALWECHSEL,
+Dialogue: 0,0:05:18.18,0:05:18.76,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}GATE-ÄNDERUNGEN{\c&H00FFFFFF&\alpha&H33&} UND CHECK-IN-ÖFFNUNGSZEITEN IN ECHTZEIT. DAS IST
+Dialogue: 0,0:05:18.76,0:05:19.33,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}GATE-ÄNDERUNGEN {\c&H0000D7FF&\alpha&H00&}UND CHECK-IN-ÖFFNUNGSZEITEN{\c&H00FFFFFF&\alpha&H33&} IN ECHTZEIT. DAS IST
+Dialogue: 0,0:05:19.33,0:05:19.91,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}GATE-ÄNDERUNGEN UND CHECK-IN-ÖFFNUNGSZEITEN {\c&H0000D7FF&\alpha&H00&}IN ECHTZEIT.{\c&H00FFFFFF&\alpha&H33&} DAS IST
+Dialogue: 0,0:05:19.91,0:05:20.49,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}GATE-ÄNDERUNGEN UND CHECK-IN-ÖFFNUNGSZEITEN IN ECHTZEIT. {\c&H0000D7FF&\alpha&H00&}DAS IST
+Dialogue: 0,0:05:20.49,0:05:21.07,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}KEIN{\c&H00FFFFFF&\alpha&H33&} NETTER KOMFORT — DAS
+Dialogue: 0,0:05:21.07,0:05:21.65,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}KEIN {\c&H0000D7FF&\alpha&H00&}NETTER{\c&H00FFFFFF&\alpha&H33&} KOMFORT — DAS
+Dialogue: 0,0:05:21.65,0:05:22.22,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}KEIN NETTER {\c&H0000D7FF&\alpha&H00&}KOMFORT{\c&H00FFFFFF&\alpha&H33&} — DAS
+Dialogue: 0,0:05:22.22,0:05:22.80,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}KEIN NETTER KOMFORT {\c&H0000D7FF&\alpha&H00&}— DAS
+Dialogue: 0,0:05:22.80,0:05:23.38,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}IST DEIN{\c&H00FFFFFF&\alpha&H33&} SICHERHEITSNETZ. LASS UNS TIEFER
+Dialogue: 0,0:05:23.38,0:05:24.25,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}IST DEIN {\c&H0000D7FF&\alpha&H00&}SICHERHEITSNETZ.{\c&H00FFFFFF&\alpha&H33&} LASS UNS TIEFER
+Dialogue: 0,0:05:24.25,0:05:24.82,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}IST DEIN SICHERHEITSNETZ. {\c&H0000D7FF&\alpha&H00&}LASS{\c&H00FFFFFF&\alpha&H33&} UNS TIEFER
+Dialogue: 0,0:05:24.82,0:05:25.40,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}IST DEIN SICHERHEITSNETZ. LASS {\c&H0000D7FF&\alpha&H00&}UNS TIEFER
+Dialogue: 0,0:05:25.40,0:05:25.97,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}GEHEN.{\c&H00FFFFFF&\alpha&H33&} SELF-CHECK-IN-AUTOMATEN GELTEN ALS SCHNELL
+Dialogue: 0,0:05:25.97,0:05:26.55,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}GEHEN. {\c&H0000D7FF&\alpha&H00&}SELF-CHECK-IN-AUTOMATEN{\c&H00FFFFFF&\alpha&H33&} GELTEN ALS SCHNELL
+Dialogue: 0,0:05:26.55,0:05:27.12,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}GEHEN. SELF-CHECK-IN-AUTOMATEN {\c&H0000D7FF&\alpha&H00&}GELTEN{\c&H00FFFFFF&\alpha&H33&} ALS SCHNELL
+Dialogue: 0,0:05:27.12,0:05:27.69,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}GEHEN. SELF-CHECK-IN-AUTOMATEN GELTEN {\c&H0000D7FF&\alpha&H00&}ALS SCHNELL
+Dialogue: 0,0:05:27.69,0:05:28.27,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}UND BEQUEM{\c&H00FFFFFF&\alpha&H33&} — ABER SIE SIND FÜR VIELE
+Dialogue: 0,0:05:28.27,0:05:28.84,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}UND BEQUEM {\c&H0000D7FF&\alpha&H00&}— ABER{\c&H00FFFFFF&\alpha&H33&} SIE SIND FÜR VIELE
+Dialogue: 0,0:05:28.84,0:05:29.41,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}UND BEQUEM — ABER {\c&H0000D7FF&\alpha&H00&}SIE SIND{\c&H00FFFFFF&\alpha&H33&} FÜR VIELE
+Dialogue: 0,0:05:29.41,0:05:29.99,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}UND BEQUEM — ABER SIE SIND {\c&H0000D7FF&\alpha&H00&}FÜR VIELE
+Dialogue: 0,0:05:29.99,0:05:30.56,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}PASSAGIERE{\c&H00FFFFFF&\alpha&H33&} EINE FALLE. KOMPLIZIERTE
+Dialogue: 0,0:05:30.56,0:05:31.13,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}PASSAGIERE {\c&H0000D7FF&\alpha&H00&}EINE{\c&H00FFFFFF&\alpha&H33&} FALLE. KOMPLIZIERTE
+Dialogue: 0,0:05:31.13,0:05:31.71,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}PASSAGIERE EINE {\c&H0000D7FF&\alpha&H00&}FALLE.{\c&H00FFFFFF&\alpha&H33&} KOMPLIZIERTE
+Dialogue: 0,0:05:31.71,0:05:32.28,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}PASSAGIERE EINE FALLE. {\c&H0000D7FF&\alpha&H00&}KOMPLIZIERTE
+Dialogue: 0,0:05:32.28,0:05:32.86,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}BUCHUNGEN,{\c&H00FFFFFF&\alpha&H33&} GRUPPENRESERVIERUNGEN, SONDERMENÜS ODER
+Dialogue: 0,0:05:32.86,0:05:33.43,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BUCHUNGEN, {\c&H0000D7FF&\alpha&H00&}GRUPPENRESERVIERUNGEN,{\c&H00FFFFFF&\alpha&H33&} SONDERMENÜS ODER
+Dialogue: 0,0:05:33.43,0:05:34.00,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BUCHUNGEN, GRUPPENRESERVIERUNGEN, {\c&H0000D7FF&\alpha&H00&}SONDERMENÜS{\c&H00FFFFFF&\alpha&H33&} ODER
+Dialogue: 0,0:05:34.00,0:05:34.58,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BUCHUNGEN, GRUPPENRESERVIERUNGEN, SONDERMENÜS {\c&H0000D7FF&\alpha&H00&}ODER
+Dialogue: 0,0:05:34.58,0:05:35.15,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}ROLLSTUHLBEDARF?{\c&H00FFFFFF&\alpha&H33&} DAS ALLES KANN DER AUTOMAT
+Dialogue: 0,0:05:35.15,0:05:35.72,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ROLLSTUHLBEDARF? {\c&H0000D7FF&\alpha&H00&}DAS ALLES{\c&H00FFFFFF&\alpha&H33&} KANN DER AUTOMAT
+Dialogue: 0,0:05:35.72,0:05:36.30,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ROLLSTUHLBEDARF? DAS ALLES {\c&H0000D7FF&\alpha&H00&}KANN{\c&H00FFFFFF&\alpha&H33&} DER AUTOMAT
+Dialogue: 0,0:05:36.30,0:05:36.87,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ROLLSTUHLBEDARF? DAS ALLES KANN {\c&H0000D7FF&\alpha&H00&}DER AUTOMAT
+Dialogue: 0,0:05:36.87,0:05:37.44,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}NICHT{\c&H00FFFFFF&\alpha&H33&} VERARBEITEN. DU STEHST DANN
+Dialogue: 0,0:05:37.44,0:05:38.02,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}NICHT {\c&H0000D7FF&\alpha&H00&}VERARBEITEN.{\c&H00FFFFFF&\alpha&H33&} DU STEHST DANN
+Dialogue: 0,0:05:38.02,0:05:38.59,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}NICHT VERARBEITEN. {\c&H0000D7FF&\alpha&H00&}DU STEHST{\c&H00FFFFFF&\alpha&H33&} DANN
+Dialogue: 0,0:05:38.59,0:05:39.17,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}NICHT VERARBEITEN. DU STEHST {\c&H0000D7FF&\alpha&H00&}DANN
+Dialogue: 0,0:05:39.17,0:05:39.74,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}IN EINER{\c&H00FFFFFF&\alpha&H33&} SCHLANGE, DIE DU GAR NICHT
+Dialogue: 0,0:05:39.74,0:05:40.31,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}IN EINER {\c&H0000D7FF&\alpha&H00&}SCHLANGE,{\c&H00FFFFFF&\alpha&H33&} DIE DU GAR NICHT
+Dialogue: 0,0:05:40.31,0:05:40.89,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}IN EINER SCHLANGE, {\c&H0000D7FF&\alpha&H00&}DIE DU{\c&H00FFFFFF&\alpha&H33&} GAR NICHT
+Dialogue: 0,0:05:40.89,0:05:41.46,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}IN EINER SCHLANGE, DIE DU {\c&H0000D7FF&\alpha&H00&}GAR NICHT
+Dialogue: 0,0:05:41.46,0:05:42.03,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}EINGEPLANT{\c&H00FFFFFF&\alpha&H33&} HAST. ES GIBT ETWAS,
+Dialogue: 0,0:05:42.03,0:05:42.90,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}EINGEPLANT {\c&H0000D7FF&\alpha&H00&}HAST.{\c&H00FFFFFF&\alpha&H33&} ES GIBT ETWAS,
+Dialogue: 0,0:05:42.90,0:05:43.33,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}EINGEPLANT HAST. {\c&H0000D7FF&\alpha&H00&}ES GIBT{\c&H00FFFFFF&\alpha&H33&} ETWAS,
+Dialogue: 0,0:05:43.33,0:05:43.76,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}EINGEPLANT HAST. ES GIBT {\c&H0000D7FF&\alpha&H00&}ETWAS,
+Dialogue: 0,0:05:43.76,0:05:44.19,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}DAS AIRLINES{\c&H00FFFFFF&\alpha&H33&} NIE ÖFFENTLICH ZUGEBEN: WENN
+Dialogue: 0,0:05:44.19,0:05:44.62,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DAS AIRLINES {\c&H0000D7FF&\alpha&H00&}NIE ÖFFENTLICH{\c&H00FFFFFF&\alpha&H33&} ZUGEBEN: WENN
+Dialogue: 0,0:05:44.62,0:05:45.05,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DAS AIRLINES NIE ÖFFENTLICH {\c&H0000D7FF&\alpha&H00&}ZUGEBEN:{\c&H00FFFFFF&\alpha&H33&} WENN
+Dialogue: 0,0:05:45.05,0:05:45.48,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DAS AIRLINES NIE ÖFFENTLICH ZUGEBEN: {\c&H0000D7FF&\alpha&H00&}WENN
+Dialogue: 0,0:05:45.48,0:05:45.91,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}DU MEHRFACH{\c&H00FFFFFF&\alpha&H33&} ZU SPÄT EINGECHECKT HAST
+Dialogue: 0,0:05:45.91,0:05:46.34,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DU MEHRFACH {\c&H0000D7FF&\alpha&H00&}ZU SPÄT{\c&H00FFFFFF&\alpha&H33&} EINGECHECKT HAST
+Dialogue: 0,0:05:46.34,0:05:46.77,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DU MEHRFACH ZU SPÄT {\c&H0000D7FF&\alpha&H00&}EINGECHECKT{\c&H00FFFFFF&\alpha&H33&} HAST
+Dialogue: 0,0:05:46.77,0:05:47.20,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DU MEHRFACH ZU SPÄT EINGECHECKT {\c&H0000D7FF&\alpha&H00&}HAST
+Dialogue: 0,0:05:47.20,0:05:47.63,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}ODER{\c&H00FFFFFF&\alpha&H33&} DURCH HÄUFIGE STORNIERUNGEN
+Dialogue: 0,0:05:47.63,0:05:48.06,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ODER {\c&H0000D7FF&\alpha&H00&}DURCH{\c&H00FFFFFF&\alpha&H33&} HÄUFIGE STORNIERUNGEN
+Dialogue: 0,0:05:48.06,0:05:48.49,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ODER DURCH {\c&H0000D7FF&\alpha&H00&}HÄUFIGE{\c&H00FFFFFF&\alpha&H33&} STORNIERUNGEN
+Dialogue: 0,0:05:48.49,0:05:48.92,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ODER DURCH HÄUFIGE {\c&H0000D7FF&\alpha&H00&}STORNIERUNGEN
+Dialogue: 0,0:05:48.92,0:05:49.35,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}AUFGEFALLEN{\c&H00FFFFFF&\alpha&H33&} BIST, KANN DEIN
+Dialogue: 0,0:05:49.35,0:05:49.78,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}AUFGEFALLEN {\c&H0000D7FF&\alpha&H00&}BIST,{\c&H00FFFFFF&\alpha&H33&} KANN DEIN
+Dialogue: 0,0:05:49.78,0:05:50.21,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}AUFGEFALLEN BIST, {\c&H0000D7FF&\alpha&H00&}KANN{\c&H00FFFFFF&\alpha&H33&} DEIN
+Dialogue: 0,0:05:50.21,0:05:50.64,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}AUFGEFALLEN BIST, KANN {\c&H0000D7FF&\alpha&H00&}DEIN
+Dialogue: 0,0:05:50.64,0:05:51.07,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}PROFIL{\c&H00FFFFFF&\alpha&H33&} INTERN MARKIERT WERDEN.
+Dialogue: 0,0:05:51.07,0:05:51.50,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}PROFIL {\c&H0000D7FF&\alpha&H00&}INTERN{\c&H00FFFFFF&\alpha&H33&} MARKIERT WERDEN.
+Dialogue: 0,0:05:51.50,0:05:51.93,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}PROFIL INTERN {\c&H0000D7FF&\alpha&H00&}MARKIERT{\c&H00FFFFFF&\alpha&H33&} WERDEN.
+Dialogue: 0,0:05:51.93,0:05:52.36,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}PROFIL INTERN MARKIERT {\c&H0000D7FF&\alpha&H00&}WERDEN.
+Dialogue: 0,0:05:52.36,0:05:52.79,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}DAS BEDEUTET{\c&H00FFFFFF&\alpha&H33&} BEIM NÄCHSTEN UPGRADE,
+Dialogue: 0,0:05:52.79,0:05:53.22,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DAS BEDEUTET {\c&H0000D7FF&\alpha&H00&}BEIM{\c&H00FFFFFF&\alpha&H33&} NÄCHSTEN UPGRADE,
+Dialogue: 0,0:05:53.22,0:05:53.65,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DAS BEDEUTET BEIM {\c&H0000D7FF&\alpha&H00&}NÄCHSTEN{\c&H00FFFFFF&\alpha&H33&} UPGRADE,
+Dialogue: 0,0:05:53.65,0:05:54.08,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DAS BEDEUTET BEIM NÄCHSTEN {\c&H0000D7FF&\alpha&H00&}UPGRADE,
+Dialogue: 0,0:05:54.08,0:05:54.51,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}BEIM{\c&H00FFFFFF&\alpha&H33&} NÄCHSTEN ÜBERBUCHTEN FLUG
+Dialogue: 0,0:05:54.51,0:05:54.94,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BEIM {\c&H0000D7FF&\alpha&H00&}NÄCHSTEN{\c&H00FFFFFF&\alpha&H33&} ÜBERBUCHTEN FLUG
+Dialogue: 0,0:05:54.94,0:05:55.37,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BEIM NÄCHSTEN {\c&H0000D7FF&\alpha&H00&}ÜBERBUCHTEN{\c&H00FFFFFF&\alpha&H33&} FLUG
+Dialogue: 0,0:05:55.37,0:05:55.80,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BEIM NÄCHSTEN ÜBERBUCHTEN {\c&H0000D7FF&\alpha&H00&}FLUG
+Dialogue: 0,0:05:55.80,0:05:56.23,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}— BIST{\c&H00FFFFFF&\alpha&H33&} DU DER ERSTE, DER GEHT.
+Dialogue: 0,0:05:56.23,0:05:56.66,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}— BIST {\c&H0000D7FF&\alpha&H00&}DU DER{\c&H00FFFFFF&\alpha&H33&} ERSTE, DER GEHT.
+Dialogue: 0,0:05:56.66,0:05:57.09,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}— BIST DU DER {\c&H0000D7FF&\alpha&H00&}ERSTE,{\c&H00FFFFFF&\alpha&H33&} DER GEHT.
+Dialogue: 0,0:05:57.09,0:05:57.52,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}— BIST DU DER ERSTE, {\c&H0000D7FF&\alpha&H00&}DER GEHT.
+Dialogue: 0,0:05:57.81,0:05:58.53,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}AIRLINES{\c&H00FFFFFF&\alpha&H33&} HABEN ZUGRIFF AUF UNGLAUBLICH
+Dialogue: 0,0:05:58.53,0:05:59.26,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}AIRLINES {\c&H0000D7FF&\alpha&H00&}HABEN{\c&H00FFFFFF&\alpha&H33&} ZUGRIFF AUF UNGLAUBLICH
+Dialogue: 0,0:05:59.26,0:05:59.99,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}AIRLINES HABEN {\c&H0000D7FF&\alpha&H00&}ZUGRIFF{\c&H00FFFFFF&\alpha&H33&} AUF UNGLAUBLICH
+Dialogue: 0,0:05:59.99,0:06:00.71,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}AIRLINES HABEN ZUGRIFF {\c&H0000D7FF&\alpha&H00&}AUF UNGLAUBLICH
+Dialogue: 0,0:06:00.71,0:06:01.44,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}DETAILLIERTE{\c&H00FFFFFF&\alpha&H33&} DATEN ÜBER DICH.
+Dialogue: 0,0:06:01.44,0:06:02.16,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DETAILLIERTE {\c&H0000D7FF&\alpha&H00&}DATEN{\c&H00FFFFFF&\alpha&H33&} ÜBER DICH.
+Dialogue: 0,0:06:02.16,0:06:02.89,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DETAILLIERTE DATEN {\c&H0000D7FF&\alpha&H00&}ÜBER{\c&H00FFFFFF&\alpha&H33&} DICH.
+Dialogue: 0,0:06:02.89,0:06:03.62,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DETAILLIERTE DATEN ÜBER {\c&H0000D7FF&\alpha&H00&}DICH.
+Dialogue: 0,0:06:03.62,0:06:04.34,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}DEINE{\c&H00FFFFFF&\alpha&H33&} BUCHUNGSHISTORIE, STORNIERUNGEN, DEIN
+Dialogue: 0,0:06:04.34,0:06:05.07,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DEINE {\c&H0000D7FF&\alpha&H00&}BUCHUNGSHISTORIE,{\c&H00FFFFFF&\alpha&H33&} STORNIERUNGEN, DEIN
+Dialogue: 0,0:06:05.07,0:06:05.80,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DEINE BUCHUNGSHISTORIE, {\c&H0000D7FF&\alpha&H00&}STORNIERUNGEN,{\c&H00FFFFFF&\alpha&H33&} DEIN
+Dialogue: 0,0:06:05.80,0:06:06.52,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DEINE BUCHUNGSHISTORIE, STORNIERUNGEN, {\c&H0000D7FF&\alpha&H00&}DEIN
+Dialogue: 0,0:06:06.52,0:06:07.25,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}VERHALTEN{\c&H00FFFFFF&\alpha&H33&} BEIM CHECK-IN, SOGAR
+Dialogue: 0,0:06:07.25,0:06:07.98,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}VERHALTEN {\c&H0000D7FF&\alpha&H00&}BEIM{\c&H00FFFFFF&\alpha&H33&} CHECK-IN, SOGAR
+Dialogue: 0,0:06:07.98,0:06:08.70,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}VERHALTEN BEIM {\c&H0000D7FF&\alpha&H00&}CHECK-IN,{\c&H00FFFFFF&\alpha&H33&} SOGAR
+Dialogue: 0,0:06:08.70,0:06:09.43,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}VERHALTEN BEIM CHECK-IN, {\c&H0000D7FF&\alpha&H00&}SOGAR
+Dialogue: 0,0:06:09.43,0:06:10.15,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}BESCHWERDEN{\c&H00FFFFFF&\alpha&H33&} — ALLES GESPEICHERT. LOYALTY-PROGRAMME
+Dialogue: 0,0:06:10.15,0:06:10.88,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BESCHWERDEN {\c&H0000D7FF&\alpha&H00&}— ALLES{\c&H00FFFFFF&\alpha&H33&} GESPEICHERT. LOYALTY-PROGRAMME
+Dialogue: 0,0:06:10.88,0:06:11.61,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BESCHWERDEN — ALLES {\c&H0000D7FF&\alpha&H00&}GESPEICHERT.{\c&H00FFFFFF&\alpha&H33&} LOYALTY-PROGRAMME
+Dialogue: 0,0:06:11.61,0:06:12.33,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BESCHWERDEN — ALLES GESPEICHERT. {\c&H0000D7FF&\alpha&H00&}LOYALTY-PROGRAMME
+Dialogue: 0,0:06:12.33,0:06:13.06,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}SIND{\c&H00FFFFFF&\alpha&H33&} NICHT NUR BELOHNUNGSSYSTEME. SIE SIND
+Dialogue: 0,0:06:13.06,0:06:13.79,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}SIND {\c&H0000D7FF&\alpha&H00&}NICHT{\c&H00FFFFFF&\alpha&H33&} NUR BELOHNUNGSSYSTEME. SIE SIND
+Dialogue: 0,0:06:13.79,0:06:14.51,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}SIND NICHT {\c&H0000D7FF&\alpha&H00&}NUR BELOHNUNGSSYSTEME.{\c&H00FFFFFF&\alpha&H33&} SIE SIND
+Dialogue: 0,0:06:14.51,0:06:15.24,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}SIND NICHT NUR BELOHNUNGSSYSTEME. {\c&H0000D7FF&\alpha&H00&}SIE SIND
+Dialogue: 0,0:06:15.24,0:06:15.97,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}ÜBERWACHUNGSSYSTEME,{\c&H00FFFFFF&\alpha&H33&} DIE DEIN REISEVERHALTEN VOLLSTÄNDIG
+Dialogue: 0,0:06:15.97,0:06:16.69,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ÜBERWACHUNGSSYSTEME, {\c&H0000D7FF&\alpha&H00&}DIE DEIN{\c&H00FFFFFF&\alpha&H33&} REISEVERHALTEN VOLLSTÄNDIG
+Dialogue: 0,0:06:16.69,0:06:17.42,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ÜBERWACHUNGSSYSTEME, DIE DEIN {\c&H0000D7FF&\alpha&H00&}REISEVERHALTEN{\c&H00FFFFFF&\alpha&H33&} VOLLSTÄNDIG
+Dialogue: 0,0:06:17.42,0:06:18.14,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ÜBERWACHUNGSSYSTEME, DIE DEIN REISEVERHALTEN {\c&H0000D7FF&\alpha&H00&}VOLLSTÄNDIG
+Dialogue: 0,0:06:18.14,0:06:19.16,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}ABBILDEN.{\c&H00FFFFFF&\alpha&H33&} LASS UNS PRAKTISCH WERDEN.
+Dialogue: 0,0:06:19.16,0:06:19.77,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ABBILDEN. {\c&H0000D7FF&\alpha&H00&}LASS{\c&H00FFFFFF&\alpha&H33&} UNS PRAKTISCH WERDEN.
+Dialogue: 0,0:06:19.77,0:06:20.37,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ABBILDEN. LASS {\c&H0000D7FF&\alpha&H00&}UNS PRAKTISCH{\c&H00FFFFFF&\alpha&H33&} WERDEN.
+Dialogue: 0,0:06:20.37,0:06:20.98,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ABBILDEN. LASS UNS PRAKTISCH {\c&H0000D7FF&\alpha&H00&}WERDEN.
+Dialogue: 0,0:06:20.98,0:06:21.58,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}HIER{\c&H00FFFFFF&\alpha&H33&} IST DEINE CHECKLISTE FÜR JEDEN
+Dialogue: 0,0:06:21.58,0:06:22.19,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}HIER {\c&H0000D7FF&\alpha&H00&}IST DEINE{\c&H00FFFFFF&\alpha&H33&} CHECKLISTE FÜR JEDEN
+Dialogue: 0,0:06:22.19,0:06:22.79,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}HIER IST DEINE {\c&H0000D7FF&\alpha&H00&}CHECKLISTE{\c&H00FFFFFF&\alpha&H33&} FÜR JEDEN
+Dialogue: 0,0:06:22.79,0:06:23.40,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}HIER IST DEINE CHECKLISTE {\c&H0000D7FF&\alpha&H00&}FÜR JEDEN
+Dialogue: 0,0:06:23.40,0:06:24.00,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}ABFLUG:{\c&H00FFFFFF&\alpha&H33&} REISEPASS AUF GÜLTIGKEIT PRÜFEN.
+Dialogue: 0,0:06:24.00,0:06:24.61,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ABFLUG: {\c&H0000D7FF&\alpha&H00&}REISEPASS{\c&H00FFFFFF&\alpha&H33&} AUF GÜLTIGKEIT PRÜFEN.
+Dialogue: 0,0:06:24.61,0:06:25.21,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ABFLUG: REISEPASS {\c&H0000D7FF&\alpha&H00&}AUF GÜLTIGKEIT{\c&H00FFFFFF&\alpha&H33&} PRÜFEN.
+Dialogue: 0,0:06:25.21,0:06:25.82,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ABFLUG: REISEPASS AUF GÜLTIGKEIT {\c&H0000D7FF&\alpha&H00&}PRÜFEN.
+Dialogue: 0,0:06:25.82,0:06:26.42,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}VISUMSPFLICHT{\c&H00FFFFFF&\alpha&H33&} UND ESTA VORAB BEANTRAGEN.
+Dialogue: 0,0:06:26.42,0:06:27.03,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}VISUMSPFLICHT {\c&H0000D7FF&\alpha&H00&}UND ESTA{\c&H00FFFFFF&\alpha&H33&} VORAB BEANTRAGEN.
+Dialogue: 0,0:06:27.03,0:06:27.63,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}VISUMSPFLICHT UND ESTA {\c&H0000D7FF&\alpha&H00&}VORAB{\c&H00FFFFFF&\alpha&H33&} BEANTRAGEN.
+Dialogue: 0,0:06:27.63,0:06:28.24,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}VISUMSPFLICHT UND ESTA VORAB {\c&H0000D7FF&\alpha&H00&}BEANTRAGEN.
+Dialogue: 0,0:06:28.24,0:06:28.84,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}ONLINE-CHECK-IN{\c&H00FFFFFF&\alpha&H33&} AUF DIE MINUTE GENAU
+Dialogue: 0,0:06:28.84,0:06:29.45,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ONLINE-CHECK-IN {\c&H0000D7FF&\alpha&H00&}AUF DIE{\c&H00FFFFFF&\alpha&H33&} MINUTE GENAU
+Dialogue: 0,0:06:29.45,0:06:30.05,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ONLINE-CHECK-IN AUF DIE {\c&H0000D7FF&\alpha&H00&}MINUTE{\c&H00FFFFFF&\alpha&H33&} GENAU
+Dialogue: 0,0:06:30.05,0:06:30.66,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ONLINE-CHECK-IN AUF DIE MINUTE {\c&H0000D7FF&\alpha&H00&}GENAU
+Dialogue: 0,0:06:30.66,0:06:31.26,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}ÖFFNEN.{\c&H00FFFFFF&\alpha&H33&} GEPÄCKMASSE UND -GEWICHT MESSEN
+Dialogue: 0,0:06:31.26,0:06:31.87,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ÖFFNEN. {\c&H0000D7FF&\alpha&H00&}GEPÄCKMASSE{\c&H00FFFFFF&\alpha&H33&} UND -GEWICHT MESSEN
+Dialogue: 0,0:06:31.87,0:06:32.47,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ÖFFNEN. GEPÄCKMASSE {\c&H0000D7FF&\alpha&H00&}UND -GEWICHT{\c&H00FFFFFF&\alpha&H33&} MESSEN
+Dialogue: 0,0:06:32.47,0:06:33.08,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ÖFFNEN. GEPÄCKMASSE UND -GEWICHT {\c&H0000D7FF&\alpha&H00&}MESSEN
+Dialogue: 0,0:06:33.08,0:06:33.68,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}— ZU{\c&H00FFFFFF&\alpha&H33&} HAUSE, NICHT AM FLUGHAFEN.
+Dialogue: 0,0:06:33.68,0:06:34.29,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}— ZU {\c&H0000D7FF&\alpha&H00&}HAUSE,{\c&H00FFFFFF&\alpha&H33&} NICHT AM FLUGHAFEN.
+Dialogue: 0,0:06:34.29,0:06:34.89,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}— ZU HAUSE, {\c&H0000D7FF&\alpha&H00&}NICHT{\c&H00FFFFFF&\alpha&H33&} AM FLUGHAFEN.
+Dialogue: 0,0:06:34.89,0:06:35.50,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}— ZU HAUSE, NICHT {\c&H0000D7FF&\alpha&H00&}AM FLUGHAFEN.
+Dialogue: 0,0:06:35.50,0:06:36.10,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}UND IMMER,{\c&H00FFFFFF&\alpha&H33&} IMMER DAS TERMINAL VORAB
+Dialogue: 0,0:06:36.10,0:06:36.71,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}UND IMMER, {\c&H0000D7FF&\alpha&H00&}IMMER{\c&H00FFFFFF&\alpha&H33&} DAS TERMINAL VORAB
+Dialogue: 0,0:06:36.71,0:06:37.31,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}UND IMMER, IMMER {\c&H0000D7FF&\alpha&H00&}DAS TERMINAL{\c&H00FFFFFF&\alpha&H33&} VORAB
+Dialogue: 0,0:06:37.31,0:06:37.92,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}UND IMMER, IMMER DAS TERMINAL {\c&H0000D7FF&\alpha&H00&}VORAB
+Dialogue: 0,0:06:37.92,0:06:38.81,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}BESTÄTIGEN.{\c&H00FFFFFF&\alpha&H33&} WUSSTEST DU, DASS DER CHECK-IN-MOMENT
+Dialogue: 0,0:06:38.81,0:06:39.41,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BESTÄTIGEN. {\c&H0000D7FF&\alpha&H00&}WUSSTEST{\c&H00FFFFFF&\alpha&H33&} DU, DASS DER CHECK-IN-MOMENT
+Dialogue: 0,0:06:39.41,0:06:40.01,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BESTÄTIGEN. WUSSTEST {\c&H0000D7FF&\alpha&H00&}DU, DASS{\c&H00FFFFFF&\alpha&H33&} DER CHECK-IN-MOMENT
+Dialogue: 0,0:06:40.01,0:06:40.60,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BESTÄTIGEN. WUSSTEST DU, DASS {\c&H0000D7FF&\alpha&H00&}DER CHECK-IN-MOMENT
+Dialogue: 0,0:06:40.60,0:06:41.20,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}DER BESTE{\c&H00FFFFFF&\alpha&H33&} ZEITPUNKT FÜR EIN UPGRADE
+Dialogue: 0,0:06:41.20,0:06:41.80,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DER BESTE {\c&H0000D7FF&\alpha&H00&}ZEITPUNKT{\c&H00FFFFFF&\alpha&H33&} FÜR EIN UPGRADE
+Dialogue: 0,0:06:41.80,0:06:42.40,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DER BESTE ZEITPUNKT {\c&H0000D7FF&\alpha&H00&}FÜR EIN{\c&H00FFFFFF&\alpha&H33&} UPGRADE
+Dialogue: 0,0:06:42.40,0:06:42.99,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DER BESTE ZEITPUNKT FÜR EIN {\c&H0000D7FF&\alpha&H00&}UPGRADE
+Dialogue: 0,0:06:42.99,0:06:43.59,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}IST? VIELE{\c&H00FFFFFF&\alpha&H33&} AIRLINES BIETEN DIREKT
+Dialogue: 0,0:06:43.59,0:06:44.19,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}IST? VIELE {\c&H0000D7FF&\alpha&H00&}AIRLINES{\c&H00FFFFFF&\alpha&H33&} BIETEN DIREKT
+Dialogue: 0,0:06:44.19,0:06:44.78,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}IST? VIELE AIRLINES {\c&H0000D7FF&\alpha&H00&}BIETEN{\c&H00FFFFFF&\alpha&H33&} DIREKT
+Dialogue: 0,0:06:44.78,0:06:45.38,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}IST? VIELE AIRLINES BIETEN {\c&H0000D7FF&\alpha&H00&}DIREKT
+Dialogue: 0,0:06:45.38,0:06:45.98,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}BEIM{\c&H00FFFFFF&\alpha&H33&} CHECK-IN — ONLINE ODER
+Dialogue: 0,0:06:45.98,0:06:46.57,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BEIM {\c&H0000D7FF&\alpha&H00&}CHECK-IN{\c&H00FFFFFF&\alpha&H33&} — ONLINE ODER
+Dialogue: 0,0:06:46.57,0:06:47.17,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BEIM CHECK-IN {\c&H0000D7FF&\alpha&H00&}— ONLINE{\c&H00FFFFFF&\alpha&H33&} ODER
+Dialogue: 0,0:06:47.17,0:06:47.77,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BEIM CHECK-IN — ONLINE {\c&H0000D7FF&\alpha&H00&}ODER
+Dialogue: 0,0:06:47.77,0:06:48.37,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}AM SCHALTER{\c&H00FFFFFF&\alpha&H33&} — LAST-MINUTE-UPGRADES ZU DEUTLICH REDUZIERTEN
+Dialogue: 0,0:06:48.37,0:06:48.96,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}AM SCHALTER {\c&H0000D7FF&\alpha&H00&}— LAST-MINUTE-UPGRADES{\c&H00FFFFFF&\alpha&H33&} ZU DEUTLICH REDUZIERTEN
+Dialogue: 0,0:06:48.96,0:06:49.56,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}AM SCHALTER — LAST-MINUTE-UPGRADES {\c&H0000D7FF&\alpha&H00&}ZU DEUTLICH{\c&H00FFFFFF&\alpha&H33&} REDUZIERTEN
+Dialogue: 0,0:06:49.56,0:06:50.16,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}AM SCHALTER — LAST-MINUTE-UPGRADES ZU DEUTLICH {\c&H0000D7FF&\alpha&H00&}REDUZIERTEN
+Dialogue: 0,0:06:50.16,0:06:50.75,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}PREISEN{\c&H00FFFFFF&\alpha&H33&} AN. BUSINESS CLASS FÜR MANCHMAL
+Dialogue: 0,0:06:50.75,0:06:51.35,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}PREISEN {\c&H0000D7FF&\alpha&H00&}AN. BUSINESS{\c&H00FFFFFF&\alpha&H33&} CLASS FÜR MANCHMAL
+Dialogue: 0,0:06:51.35,0:06:51.95,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}PREISEN AN. BUSINESS {\c&H0000D7FF&\alpha&H00&}CLASS{\c&H00FFFFFF&\alpha&H33&} FÜR MANCHMAL
+Dialogue: 0,0:06:51.95,0:06:52.54,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}PREISEN AN. BUSINESS CLASS {\c&H0000D7FF&\alpha&H00&}FÜR MANCHMAL
+Dialogue: 0,0:06:52.54,0:06:53.14,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}NUR 80{\c&H00FFFFFF&\alpha&H33&} BIS 150 EURO ZUSÄTZLICH.
+Dialogue: 0,0:06:53.14,0:06:53.74,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}NUR 80 {\c&H0000D7FF&\alpha&H00&}BIS 150{\c&H00FFFFFF&\alpha&H33&} EURO ZUSÄTZLICH.
+Dialogue: 0,0:06:53.74,0:06:54.34,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}NUR 80 BIS 150 {\c&H0000D7FF&\alpha&H00&}EURO{\c&H00FFFFFF&\alpha&H33&} ZUSÄTZLICH.
+Dialogue: 0,0:06:54.34,0:06:54.93,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}NUR 80 BIS 150 EURO {\c&H0000D7FF&\alpha&H00&}ZUSÄTZLICH.
+Dialogue: 0,0:06:54.93,0:06:55.53,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}WER FRÜHZEITIG{\c&H00FFFFFF&\alpha&H33&} CHECKT, BEKOMMT DAS ANGEBOT
+Dialogue: 0,0:06:55.53,0:06:56.13,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WER FRÜHZEITIG {\c&H0000D7FF&\alpha&H00&}CHECKT,{\c&H00FFFFFF&\alpha&H33&} BEKOMMT DAS ANGEBOT
+Dialogue: 0,0:06:56.13,0:06:56.72,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WER FRÜHZEITIG CHECKT, {\c&H0000D7FF&\alpha&H00&}BEKOMMT{\c&H00FFFFFF&\alpha&H33&} DAS ANGEBOT
+Dialogue: 0,0:06:56.72,0:06:57.32,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WER FRÜHZEITIG CHECKT, BEKOMMT {\c&H0000D7FF&\alpha&H00&}DAS ANGEBOT
+Dialogue: 0,0:06:57.32,0:06:58.21,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}ALS ERSTES.{\c&H00FFFFFF&\alpha&H33&} NOCH EIN TRICK, DEN KAUM
+Dialogue: 0,0:06:58.21,0:06:58.70,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ALS ERSTES. {\c&H0000D7FF&\alpha&H00&}NOCH{\c&H00FFFFFF&\alpha&H33&} EIN TRICK, DEN KAUM
+Dialogue: 0,0:06:58.70,0:06:59.19,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ALS ERSTES. NOCH {\c&H0000D7FF&\alpha&H00&}EIN TRICK,{\c&H00FFFFFF&\alpha&H33&} DEN KAUM
+Dialogue: 0,0:06:59.19,0:06:59.68,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ALS ERSTES. NOCH EIN TRICK, {\c&H0000D7FF&\alpha&H00&}DEN KAUM
+Dialogue: 0,0:06:59.68,0:07:00.17,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}JEMAND{\c&H00FFFFFF&\alpha&H33&} KENNT. WENN NOTAUSGANGSSITZE
+Dialogue: 0,0:07:00.17,0:07:00.66,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}JEMAND {\c&H0000D7FF&\alpha&H00&}KENNT.{\c&H00FFFFFF&\alpha&H33&} WENN NOTAUSGANGSSITZE
+Dialogue: 0,0:07:00.66,0:07:01.14,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}JEMAND KENNT. {\c&H0000D7FF&\alpha&H00&}WENN{\c&H00FFFFFF&\alpha&H33&} NOTAUSGANGSSITZE
+Dialogue: 0,0:07:01.14,0:07:01.63,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}JEMAND KENNT. WENN {\c&H0000D7FF&\alpha&H00&}NOTAUSGANGSSITZE
+Dialogue: 0,0:07:01.63,0:07:02.12,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}UND SITZPLÄTZE{\c&H00FFFFFF&\alpha&H33&} MIT EXTRA BEINFREIHEIT BEIM
+Dialogue: 0,0:07:02.12,0:07:02.61,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}UND SITZPLÄTZE {\c&H0000D7FF&\alpha&H00&}MIT EXTRA{\c&H00FFFFFF&\alpha&H33&} BEINFREIHEIT BEIM
+Dialogue: 0,0:07:02.61,0:07:03.10,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}UND SITZPLÄTZE MIT EXTRA {\c&H0000D7FF&\alpha&H00&}BEINFREIHEIT{\c&H00FFFFFF&\alpha&H33&} BEIM
+Dialogue: 0,0:07:03.10,0:07:03.59,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}UND SITZPLÄTZE MIT EXTRA BEINFREIHEIT {\c&H0000D7FF&\alpha&H00&}BEIM
+Dialogue: 0,0:07:03.59,0:07:04.08,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}CHECK-IN{\c&H00FFFFFF&\alpha&H33&} NOCH NICHT VERGEBEN
+Dialogue: 0,0:07:04.08,0:07:04.57,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}CHECK-IN {\c&H0000D7FF&\alpha&H00&}NOCH{\c&H00FFFFFF&\alpha&H33&} NICHT VERGEBEN
+Dialogue: 0,0:07:04.57,0:07:05.06,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}CHECK-IN NOCH {\c&H0000D7FF&\alpha&H00&}NICHT{\c&H00FFFFFF&\alpha&H33&} VERGEBEN
+Dialogue: 0,0:07:05.06,0:07:05.55,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}CHECK-IN NOCH NICHT {\c&H0000D7FF&\alpha&H00&}VERGEBEN
+Dialogue: 0,0:07:05.55,0:07:06.04,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}SIND,{\c&H00FFFFFF&\alpha&H33&} GIBT DIE AIRLINE DIESE
+Dialogue: 0,0:07:06.04,0:07:06.52,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}SIND, {\c&H0000D7FF&\alpha&H00&}GIBT{\c&H00FFFFFF&\alpha&H33&} DIE AIRLINE DIESE
+Dialogue: 0,0:07:06.52,0:07:07.01,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}SIND, GIBT {\c&H0000D7FF&\alpha&H00&}DIE AIRLINE{\c&H00FFFFFF&\alpha&H33&} DIESE
+Dialogue: 0,0:07:07.01,0:07:07.50,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}SIND, GIBT DIE AIRLINE {\c&H0000D7FF&\alpha&H00&}DIESE
+Dialogue: 0,0:07:07.50,0:07:07.99,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}OFT KOSTENLOS{\c&H00FFFFFF&\alpha&H33&} FREI — ABER NUR FÜR
+Dialogue: 0,0:07:07.99,0:07:08.48,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}OFT KOSTENLOS {\c&H0000D7FF&\alpha&H00&}FREI{\c&H00FFFFFF&\alpha&H33&} — ABER NUR FÜR
+Dialogue: 0,0:07:08.48,0:07:08.97,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}OFT KOSTENLOS FREI {\c&H0000D7FF&\alpha&H00&}— ABER{\c&H00FFFFFF&\alpha&H33&} NUR FÜR
+Dialogue: 0,0:07:08.97,0:07:09.46,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}OFT KOSTENLOS FREI — ABER {\c&H0000D7FF&\alpha&H00&}NUR FÜR
+Dialogue: 0,0:07:09.46,0:07:09.95,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}PASSAGIERE,{\c&H00FFFFFF&\alpha&H33&} DIE ZUM RICHTIGEN ZEITPUNKT
+Dialogue: 0,0:07:09.95,0:07:10.44,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}PASSAGIERE, {\c&H0000D7FF&\alpha&H00&}DIE ZUM{\c&H00FFFFFF&\alpha&H33&} RICHTIGEN ZEITPUNKT
+Dialogue: 0,0:07:10.44,0:07:10.93,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}PASSAGIERE, DIE ZUM {\c&H0000D7FF&\alpha&H00&}RICHTIGEN{\c&H00FFFFFF&\alpha&H33&} ZEITPUNKT
+Dialogue: 0,0:07:10.93,0:07:11.41,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}PASSAGIERE, DIE ZUM RICHTIGEN {\c&H0000D7FF&\alpha&H00&}ZEITPUNKT
+Dialogue: 0,0:07:11.41,0:07:11.90,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}ONLINE{\c&H00FFFFFF&\alpha&H33&} EINCHECKEN. DAS SPART DIR BIS
+Dialogue: 0,0:07:11.90,0:07:12.39,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ONLINE {\c&H0000D7FF&\alpha&H00&}EINCHECKEN.{\c&H00FFFFFF&\alpha&H33&} DAS SPART DIR BIS
+Dialogue: 0,0:07:12.39,0:07:12.88,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ONLINE EINCHECKEN. {\c&H0000D7FF&\alpha&H00&}DAS SPART{\c&H00FFFFFF&\alpha&H33&} DIR BIS
+Dialogue: 0,0:07:12.88,0:07:13.37,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ONLINE EINCHECKEN. DAS SPART {\c&H0000D7FF&\alpha&H00&}DIR BIS
+Dialogue: 0,0:07:13.37,0:07:13.86,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}ZU 40{\c&H00FFFFFF&\alpha&H33&} EURO AUFPREIS, DEN ANDERE
+Dialogue: 0,0:07:13.86,0:07:14.35,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ZU 40 {\c&H0000D7FF&\alpha&H00&}EURO{\c&H00FFFFFF&\alpha&H33&} AUFPREIS, DEN ANDERE
+Dialogue: 0,0:07:14.35,0:07:14.84,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ZU 40 EURO {\c&H0000D7FF&\alpha&H00&}AUFPREIS,{\c&H00FFFFFF&\alpha&H33&} DEN ANDERE
+Dialogue: 0,0:07:14.84,0:07:15.33,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ZU 40 EURO AUFPREIS, {\c&H0000D7FF&\alpha&H00&}DEN ANDERE
+Dialogue: 0,0:07:15.33,0:07:16.11,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}ZAHLEN.{\c&H00FFFFFF&\alpha&H33&} LASSEN WIR DIE ZAHLEN
+Dialogue: 0,0:07:16.11,0:07:16.72,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ZAHLEN. {\c&H0000D7FF&\alpha&H00&}LASSEN{\c&H00FFFFFF&\alpha&H33&} WIR DIE ZAHLEN
+Dialogue: 0,0:07:16.72,0:07:17.34,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ZAHLEN. LASSEN {\c&H0000D7FF&\alpha&H00&}WIR DIE{\c&H00FFFFFF&\alpha&H33&} ZAHLEN
+Dialogue: 0,0:07:17.34,0:07:17.96,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ZAHLEN. LASSEN WIR DIE {\c&H0000D7FF&\alpha&H00&}ZAHLEN
+Dialogue: 0,0:07:17.96,0:07:18.57,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}SPRECHEN.{\c&H00FFFFFF&\alpha&H33&} WENN DU DURCH ALLE
+Dialogue: 0,0:07:18.57,0:07:19.19,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}SPRECHEN. {\c&H0000D7FF&\alpha&H00&}WENN{\c&H00FFFFFF&\alpha&H33&} DU DURCH ALLE
+Dialogue: 0,0:07:19.19,0:07:19.81,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}SPRECHEN. WENN {\c&H0000D7FF&\alpha&H00&}DU DURCH{\c&H00FFFFFF&\alpha&H33&} ALLE
+Dialogue: 0,0:07:19.81,0:07:20.42,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}SPRECHEN. WENN DU DURCH {\c&H0000D7FF&\alpha&H00&}ALLE
+Dialogue: 0,0:07:20.42,0:07:21.04,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}NEUN{\c&H00FFFFFF&\alpha&H33&} FEHLER ZUSAMMEN RECHNEST
+Dialogue: 0,0:07:21.04,0:07:21.66,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}NEUN {\c&H0000D7FF&\alpha&H00&}FEHLER{\c&H00FFFFFF&\alpha&H33&} ZUSAMMEN RECHNEST
+Dialogue: 0,0:07:21.66,0:07:22.27,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}NEUN FEHLER {\c&H0000D7FF&\alpha&H00&}ZUSAMMEN{\c&H00FFFFFF&\alpha&H33&} RECHNEST
+Dialogue: 0,0:07:22.27,0:07:22.89,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}NEUN FEHLER ZUSAMMEN {\c&H0000D7FF&\alpha&H00&}RECHNEST
+Dialogue: 0,0:07:22.89,0:07:23.50,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}— NAMENSKORREKTUR,{\c&H00FFFFFF&\alpha&H33&} GEPÄCKGEBÜHREN, LETZTER SITZPLATZ,
+Dialogue: 0,0:07:23.50,0:07:24.12,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}— NAMENSKORREKTUR, {\c&H0000D7FF&\alpha&H00&}GEPÄCKGEBÜHREN,{\c&H00FFFFFF&\alpha&H33&} LETZTER SITZPLATZ,
+Dialogue: 0,0:07:24.12,0:07:24.74,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}— NAMENSKORREKTUR, GEPÄCKGEBÜHREN, {\c&H0000D7FF&\alpha&H00&}LETZTER{\c&H00FFFFFF&\alpha&H33&} SITZPLATZ,
+Dialogue: 0,0:07:24.74,0:07:25.35,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}— NAMENSKORREKTUR, GEPÄCKGEBÜHREN, LETZTER {\c&H0000D7FF&\alpha&H00&}SITZPLATZ,
+Dialogue: 0,0:07:25.35,0:07:25.97,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}VERPASSTER{\c&H00FFFFFF&\alpha&H33&} FLUG UND NEUTICKET — KANNST
+Dialogue: 0,0:07:25.97,0:07:26.59,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}VERPASSTER {\c&H0000D7FF&\alpha&H00&}FLUG{\c&H00FFFFFF&\alpha&H33&} UND NEUTICKET — KANNST
+Dialogue: 0,0:07:26.59,0:07:27.20,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}VERPASSTER FLUG {\c&H0000D7FF&\alpha&H00&}UND NEUTICKET{\c&H00FFFFFF&\alpha&H33&} — KANNST
+Dialogue: 0,0:07:27.20,0:07:27.82,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}VERPASSTER FLUG UND NEUTICKET {\c&H0000D7FF&\alpha&H00&}— KANNST
+Dialogue: 0,0:07:27.82,0:07:28.44,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}DU LEICHT{\c&H00FFFFFF&\alpha&H33&} 500 BIS 800 EURO ZUSÄTZLICH
+Dialogue: 0,0:07:28.44,0:07:29.05,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DU LEICHT {\c&H0000D7FF&\alpha&H00&}500 BIS{\c&H00FFFFFF&\alpha&H33&} 800 EURO ZUSÄTZLICH
+Dialogue: 0,0:07:29.05,0:07:29.67,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DU LEICHT 500 BIS {\c&H0000D7FF&\alpha&H00&}800 EURO{\c&H00FFFFFF&\alpha&H33&} ZUSÄTZLICH
+Dialogue: 0,0:07:29.67,0:07:30.29,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DU LEICHT 500 BIS 800 EURO {\c&H0000D7FF&\alpha&H00&}ZUSÄTZLICH
+Dialogue: 0,0:07:30.29,0:07:30.90,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}BEZAHLEN.{\c&H00FFFFFF&\alpha&H33&} FÜR EINEN FEHLER, DEN DU
+Dialogue: 0,0:07:30.90,0:07:31.52,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BEZAHLEN. {\c&H0000D7FF&\alpha&H00&}FÜR EINEN{\c&H00FFFFFF&\alpha&H33&} FEHLER, DEN DU
+Dialogue: 0,0:07:31.52,0:07:32.14,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BEZAHLEN. FÜR EINEN {\c&H0000D7FF&\alpha&H00&}FEHLER,{\c&H00FFFFFF&\alpha&H33&} DEN DU
+Dialogue: 0,0:07:32.14,0:07:32.75,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BEZAHLEN. FÜR EINEN FEHLER, {\c&H0000D7FF&\alpha&H00&}DEN DU
+Dialogue: 0,0:07:32.75,0:07:33.37,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}IN DREI{\c&H00FFFFFF&\alpha&H33&} MINUTEN AM ABEND ZUVOR
+Dialogue: 0,0:07:33.37,0:07:33.98,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}IN DREI {\c&H0000D7FF&\alpha&H00&}MINUTEN{\c&H00FFFFFF&\alpha&H33&} AM ABEND ZUVOR
+Dialogue: 0,0:07:33.98,0:07:34.60,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}IN DREI MINUTEN {\c&H0000D7FF&\alpha&H00&}AM ABEND{\c&H00FFFFFF&\alpha&H33&} ZUVOR
+Dialogue: 0,0:07:34.60,0:07:35.22,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}IN DREI MINUTEN AM ABEND {\c&H0000D7FF&\alpha&H00&}ZUVOR
+Dialogue: 0,0:07:35.22,0:07:35.83,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}VERHINDERT{\c&H00FFFFFF&\alpha&H33&} HÄTTEST. EU-VERORDNUNG 261/2004
+Dialogue: 0,0:07:35.83,0:07:36.74,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}VERHINDERT {\c&H0000D7FF&\alpha&H00&}HÄTTEST.{\c&H00FFFFFF&\alpha&H33&} EU-VERORDNUNG 261/2004
+Dialogue: 0,0:07:36.74,0:07:37.37,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}VERHINDERT HÄTTEST. {\c&H0000D7FF&\alpha&H00&}EU-VERORDNUNG{\c&H00FFFFFF&\alpha&H33&} 261/2004
+Dialogue: 0,0:07:37.37,0:07:37.99,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}VERHINDERT HÄTTEST. EU-VERORDNUNG {\c&H0000D7FF&\alpha&H00&}261/2004
+Dialogue: 0,0:07:37.99,0:07:38.62,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}IST DEIN{\c&H00FFFFFF&\alpha&H33&} STÄRKSTES SCHUTZSCHILD. BEI FLUGAUSFALL,
+Dialogue: 0,0:07:38.62,0:07:39.25,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}IST DEIN {\c&H0000D7FF&\alpha&H00&}STÄRKSTES{\c&H00FFFFFF&\alpha&H33&} SCHUTZSCHILD. BEI FLUGAUSFALL,
+Dialogue: 0,0:07:39.25,0:07:39.87,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}IST DEIN STÄRKSTES {\c&H0000D7FF&\alpha&H00&}SCHUTZSCHILD.{\c&H00FFFFFF&\alpha&H33&} BEI FLUGAUSFALL,
+Dialogue: 0,0:07:39.87,0:07:40.50,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}IST DEIN STÄRKSTES SCHUTZSCHILD. {\c&H0000D7FF&\alpha&H00&}BEI FLUGAUSFALL,
+Dialogue: 0,0:07:40.50,0:07:41.12,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}OVERBOOKING{\c&H00FFFFFF&\alpha&H33&} ODER LANGER VERSPÄTUNG
+Dialogue: 0,0:07:41.12,0:07:41.75,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}OVERBOOKING {\c&H0000D7FF&\alpha&H00&}ODER{\c&H00FFFFFF&\alpha&H33&} LANGER VERSPÄTUNG
+Dialogue: 0,0:07:41.75,0:07:42.37,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}OVERBOOKING ODER {\c&H0000D7FF&\alpha&H00&}LANGER{\c&H00FFFFFF&\alpha&H33&} VERSPÄTUNG
+Dialogue: 0,0:07:42.37,0:07:43.00,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}OVERBOOKING ODER LANGER {\c&H0000D7FF&\alpha&H00&}VERSPÄTUNG
+Dialogue: 0,0:07:43.00,0:07:43.63,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}HAST{\c&H00FFFFFF&\alpha&H33&} DU ANSPRUCH AUF BIS ZU 600
+Dialogue: 0,0:07:43.63,0:07:44.25,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}HAST {\c&H0000D7FF&\alpha&H00&}DU ANSPRUCH{\c&H00FFFFFF&\alpha&H33&} AUF BIS ZU 600
+Dialogue: 0,0:07:44.25,0:07:44.88,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}HAST DU ANSPRUCH {\c&H0000D7FF&\alpha&H00&}AUF BIS{\c&H00FFFFFF&\alpha&H33&} ZU 600
+Dialogue: 0,0:07:44.88,0:07:45.50,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}HAST DU ANSPRUCH AUF BIS {\c&H0000D7FF&\alpha&H00&}ZU 600
+Dialogue: 0,0:07:45.50,0:07:46.13,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}EURO{\c&H00FFFFFF&\alpha&H33&} ENTSCHÄDIGUNG PRO PERSON — AUTOMATISCH,
+Dialogue: 0,0:07:46.13,0:07:46.76,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}EURO {\c&H0000D7FF&\alpha&H00&}ENTSCHÄDIGUNG{\c&H00FFFFFF&\alpha&H33&} PRO PERSON — AUTOMATISCH,
+Dialogue: 0,0:07:46.76,0:07:47.38,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}EURO ENTSCHÄDIGUNG {\c&H0000D7FF&\alpha&H00&}PRO PERSON{\c&H00FFFFFF&\alpha&H33&} — AUTOMATISCH,
+Dialogue: 0,0:07:47.38,0:07:48.01,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}EURO ENTSCHÄDIGUNG PRO PERSON {\c&H0000D7FF&\alpha&H00&}— AUTOMATISCH,
+Dialogue: 0,0:07:48.01,0:07:48.63,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}OHNE{\c&H00FFFFFF&\alpha&H33&} ANWALT, OHNE GROSSEN
+Dialogue: 0,0:07:48.63,0:07:49.26,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}OHNE {\c&H0000D7FF&\alpha&H00&}ANWALT,{\c&H00FFFFFF&\alpha&H33&} OHNE GROSSEN
+Dialogue: 0,0:07:49.26,0:07:49.88,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}OHNE ANWALT, {\c&H0000D7FF&\alpha&H00&}OHNE{\c&H00FFFFFF&\alpha&H33&} GROSSEN
+Dialogue: 0,0:07:49.88,0:07:50.51,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}OHNE ANWALT, OHNE {\c&H0000D7FF&\alpha&H00&}GROSSEN
+Dialogue: 0,0:07:50.51,0:07:51.14,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}AUFWAND.{\c&H00FFFFFF&\alpha&H33&} ABER: DIE AIRLINES VERSCHWEIGEN
+Dialogue: 0,0:07:51.14,0:07:51.76,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}AUFWAND. {\c&H0000D7FF&\alpha&H00&}ABER:{\c&H00FFFFFF&\alpha&H33&} DIE AIRLINES VERSCHWEIGEN
+Dialogue: 0,0:07:51.76,0:07:52.39,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}AUFWAND. ABER: {\c&H0000D7FF&\alpha&H00&}DIE AIRLINES{\c&H00FFFFFF&\alpha&H33&} VERSCHWEIGEN
+Dialogue: 0,0:07:52.39,0:07:53.01,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}AUFWAND. ABER: DIE AIRLINES {\c&H0000D7FF&\alpha&H00&}VERSCHWEIGEN
+Dialogue: 0,0:07:53.01,0:07:53.64,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}DAS AKTIV.{\c&H00FFFFFF&\alpha&H33&} DU MUSST ES SELBST EINFORDERN.
+Dialogue: 0,0:07:53.64,0:07:54.27,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DAS AKTIV. {\c&H0000D7FF&\alpha&H00&}DU MUSST{\c&H00FFFFFF&\alpha&H33&} ES SELBST EINFORDERN.
+Dialogue: 0,0:07:54.27,0:07:54.89,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DAS AKTIV. DU MUSST {\c&H0000D7FF&\alpha&H00&}ES SELBST{\c&H00FFFFFF&\alpha&H33&} EINFORDERN.
+Dialogue: 0,0:07:54.89,0:07:55.52,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DAS AKTIV. DU MUSST ES SELBST {\c&H0000D7FF&\alpha&H00&}EINFORDERN.
+Dialogue: 0,0:07:55.81,0:07:56.39,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}DIE ENTSCHÄDIGUNG{\c&H00FFFFFF&\alpha&H33&} BEANTRAGST DU DIREKT SCHRIFTLICH
+Dialogue: 0,0:07:56.39,0:07:56.97,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DIE ENTSCHÄDIGUNG {\c&H0000D7FF&\alpha&H00&}BEANTRAGST{\c&H00FFFFFF&\alpha&H33&} DU DIREKT SCHRIFTLICH
+Dialogue: 0,0:07:56.97,0:07:57.55,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DIE ENTSCHÄDIGUNG BEANTRAGST {\c&H0000D7FF&\alpha&H00&}DU DIREKT{\c&H00FFFFFF&\alpha&H33&} SCHRIFTLICH
+Dialogue: 0,0:07:57.55,0:07:58.13,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DIE ENTSCHÄDIGUNG BEANTRAGST DU DIREKT {\c&H0000D7FF&\alpha&H00&}SCHRIFTLICH
+Dialogue: 0,0:07:58.13,0:07:58.70,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}BEI DER{\c&H00FFFFFF&\alpha&H33&} AIRLINE — PER E-MAIL
+Dialogue: 0,0:07:58.70,0:07:59.28,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BEI DER {\c&H0000D7FF&\alpha&H00&}AIRLINE{\c&H00FFFFFF&\alpha&H33&} — PER E-MAIL
+Dialogue: 0,0:07:59.28,0:07:59.86,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BEI DER AIRLINE {\c&H0000D7FF&\alpha&H00&}— PER{\c&H00FFFFFF&\alpha&H33&} E-MAIL
+Dialogue: 0,0:07:59.86,0:08:00.44,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BEI DER AIRLINE — PER {\c&H0000D7FF&\alpha&H00&}E-MAIL
+Dialogue: 0,0:08:00.44,0:08:01.02,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}REICHT.{\c&H00FFFFFF&\alpha&H33&} WICHTIG: BEWAHRE IMMER
+Dialogue: 0,0:08:01.02,0:08:01.60,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}REICHT. {\c&H0000D7FF&\alpha&H00&}WICHTIG:{\c&H00FFFFFF&\alpha&H33&} BEWAHRE IMMER
+Dialogue: 0,0:08:01.60,0:08:02.18,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}REICHT. WICHTIG: {\c&H0000D7FF&\alpha&H00&}BEWAHRE{\c&H00FFFFFF&\alpha&H33&} IMMER
+Dialogue: 0,0:08:02.18,0:08:02.76,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}REICHT. WICHTIG: BEWAHRE {\c&H0000D7FF&\alpha&H00&}IMMER
+Dialogue: 0,0:08:02.76,0:08:03.34,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}BOARDING{\c&H00FFFFFF&\alpha&H33&} PASS, BUCHUNGSBESTÄTIGUNG UND FOTOS
+Dialogue: 0,0:08:03.34,0:08:03.92,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BOARDING {\c&H0000D7FF&\alpha&H00&}PASS,{\c&H00FFFFFF&\alpha&H33&} BUCHUNGSBESTÄTIGUNG UND FOTOS
+Dialogue: 0,0:08:03.92,0:08:04.50,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BOARDING PASS, {\c&H0000D7FF&\alpha&H00&}BUCHUNGSBESTÄTIGUNG{\c&H00FFFFFF&\alpha&H33&} UND FOTOS
+Dialogue: 0,0:08:04.50,0:08:05.08,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BOARDING PASS, BUCHUNGSBESTÄTIGUNG {\c&H0000D7FF&\alpha&H00&}UND FOTOS
+Dialogue: 0,0:08:05.08,0:08:05.66,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}DER ANZEIGETAFEL{\c&H00FFFFFF&\alpha&H33&} AUF. PLATTFORMEN WIE FLIGHTRIGHT ODER
+Dialogue: 0,0:08:05.66,0:08:06.23,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DER ANZEIGETAFEL {\c&H0000D7FF&\alpha&H00&}AUF. PLATTFORMEN{\c&H00FFFFFF&\alpha&H33&} WIE FLIGHTRIGHT ODER
+Dialogue: 0,0:08:06.23,0:08:06.81,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DER ANZEIGETAFEL AUF. PLATTFORMEN {\c&H0000D7FF&\alpha&H00&}WIE FLIGHTRIGHT{\c&H00FFFFFF&\alpha&H33&} ODER
+Dialogue: 0,0:08:06.81,0:08:07.39,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DER ANZEIGETAFEL AUF. PLATTFORMEN WIE FLIGHTRIGHT {\c&H0000D7FF&\alpha&H00&}ODER
+Dialogue: 0,0:08:07.39,0:08:07.97,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}AIRHELP{\c&H00FFFFFF&\alpha&H33&} ÜBERNEHMEN DIE ABWICKLUNG AUF ERFOLGSBASIS,
+Dialogue: 0,0:08:07.97,0:08:08.55,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}AIRHELP {\c&H0000D7FF&\alpha&H00&}ÜBERNEHMEN{\c&H00FFFFFF&\alpha&H33&} DIE ABWICKLUNG AUF ERFOLGSBASIS,
+Dialogue: 0,0:08:08.55,0:08:09.13,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}AIRHELP ÜBERNEHMEN {\c&H0000D7FF&\alpha&H00&}DIE ABWICKLUNG{\c&H00FFFFFF&\alpha&H33&} AUF ERFOLGSBASIS,
+Dialogue: 0,0:08:09.13,0:08:09.71,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}AIRHELP ÜBERNEHMEN DIE ABWICKLUNG {\c&H0000D7FF&\alpha&H00&}AUF ERFOLGSBASIS,
+Dialogue: 0,0:08:09.71,0:08:10.29,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}WENN{\c&H00FFFFFF&\alpha&H33&} DIE AIRLINE VERWEIGERT. HIER
+Dialogue: 0,0:08:10.29,0:08:10.87,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WENN {\c&H0000D7FF&\alpha&H00&}DIE AIRLINE{\c&H00FFFFFF&\alpha&H33&} VERWEIGERT. HIER
+Dialogue: 0,0:08:10.87,0:08:11.74,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WENN DIE AIRLINE {\c&H0000D7FF&\alpha&H00&}VERWEIGERT.{\c&H00FFFFFF&\alpha&H33&} HIER
+Dialogue: 0,0:08:11.74,0:08:12.22,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WENN DIE AIRLINE VERWEIGERT. {\c&H0000D7FF&\alpha&H00&}HIER
+Dialogue: 0,0:08:12.22,0:08:12.71,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}IST ETWAS,{\c&H00FFFFFF&\alpha&H33&} DAS FAST FOOD KETTEN
+Dialogue: 0,0:08:12.71,0:08:13.19,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}IST ETWAS, {\c&H0000D7FF&\alpha&H00&}DAS FAST{\c&H00FFFFFF&\alpha&H33&} FOOD KETTEN
+Dialogue: 0,0:08:13.19,0:08:13.68,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}IST ETWAS, DAS FAST {\c&H0000D7FF&\alpha&H00&}FOOD{\c&H00FFFFFF&\alpha&H33&} KETTEN
+Dialogue: 0,0:08:13.68,0:08:14.16,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}IST ETWAS, DAS FAST FOOD {\c&H0000D7FF&\alpha&H00&}KETTEN
+Dialogue: 0,0:08:14.16,0:08:14.65,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}UND AIRLINES{\c&H00FFFFFF&\alpha&H33&} GEMEINSAM HABEN: BEIDE
+Dialogue: 0,0:08:14.65,0:08:15.13,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}UND AIRLINES {\c&H0000D7FF&\alpha&H00&}GEMEINSAM{\c&H00FFFFFF&\alpha&H33&} HABEN: BEIDE
+Dialogue: 0,0:08:15.13,0:08:15.62,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}UND AIRLINES GEMEINSAM {\c&H0000D7FF&\alpha&H00&}HABEN:{\c&H00FFFFFF&\alpha&H33&} BEIDE
+Dialogue: 0,0:08:15.62,0:08:16.10,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}UND AIRLINES GEMEINSAM HABEN: {\c&H0000D7FF&\alpha&H00&}BEIDE
+Dialogue: 0,0:08:16.10,0:08:16.58,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}ORDNEN{\c&H00FFFFFF&\alpha&H33&} DICH UNBEWUSST. WENN
+Dialogue: 0,0:08:16.58,0:08:17.07,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ORDNEN {\c&H0000D7FF&\alpha&H00&}DICH{\c&H00FFFFFF&\alpha&H33&} UNBEWUSST. WENN
+Dialogue: 0,0:08:17.07,0:08:17.55,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ORDNEN DICH {\c&H0000D7FF&\alpha&H00&}UNBEWUSST.{\c&H00FFFFFF&\alpha&H33&} WENN
+Dialogue: 0,0:08:17.55,0:08:18.04,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ORDNEN DICH UNBEWUSST. {\c&H0000D7FF&\alpha&H00&}WENN
+Dialogue: 0,0:08:18.04,0:08:18.52,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}DU BEIM{\c&H00FFFFFF&\alpha&H33&} CHECK-IN KEINEN SITZ
+Dialogue: 0,0:08:18.52,0:08:19.01,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DU BEIM {\c&H0000D7FF&\alpha&H00&}CHECK-IN{\c&H00FFFFFF&\alpha&H33&} KEINEN SITZ
+Dialogue: 0,0:08:19.01,0:08:19.49,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DU BEIM CHECK-IN {\c&H0000D7FF&\alpha&H00&}KEINEN{\c&H00FFFFFF&\alpha&H33&} SITZ
+Dialogue: 0,0:08:19.49,0:08:19.97,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DU BEIM CHECK-IN KEINEN {\c&H0000D7FF&\alpha&H00&}SITZ
+Dialogue: 0,0:08:19.97,0:08:20.46,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}WÄHLST,{\c&H00FFFFFF&\alpha&H33&} LANDET DIE AIRLINE-SOFTWARE DICH
+Dialogue: 0,0:08:20.46,0:08:20.94,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WÄHLST, {\c&H0000D7FF&\alpha&H00&}LANDET{\c&H00FFFFFF&\alpha&H33&} DIE AIRLINE-SOFTWARE DICH
+Dialogue: 0,0:08:20.94,0:08:21.43,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WÄHLST, LANDET {\c&H0000D7FF&\alpha&H00&}DIE AIRLINE-SOFTWARE{\c&H00FFFFFF&\alpha&H33&} DICH
+Dialogue: 0,0:08:21.43,0:08:21.91,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WÄHLST, LANDET DIE AIRLINE-SOFTWARE {\c&H0000D7FF&\alpha&H00&}DICH
+Dialogue: 0,0:08:21.91,0:08:22.40,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}AUTOMATISCH{\c&H00FFFFFF&\alpha&H33&} AUF DEM SCHLECHTESTEN VERFÜGBAREN
+Dialogue: 0,0:08:22.40,0:08:22.88,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}AUTOMATISCH {\c&H0000D7FF&\alpha&H00&}AUF DEM{\c&H00FFFFFF&\alpha&H33&} SCHLECHTESTEN VERFÜGBAREN
+Dialogue: 0,0:08:22.88,0:08:23.37,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}AUTOMATISCH AUF DEM {\c&H0000D7FF&\alpha&H00&}SCHLECHTESTEN{\c&H00FFFFFF&\alpha&H33&} VERFÜGBAREN
+Dialogue: 0,0:08:23.37,0:08:23.85,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}AUTOMATISCH AUF DEM SCHLECHTESTEN {\c&H0000D7FF&\alpha&H00&}VERFÜGBAREN
+Dialogue: 0,0:08:23.85,0:08:24.34,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}PLATZ{\c&H00FFFFFF&\alpha&H33&} — LETZTER REIHE, MITTE,
+Dialogue: 0,0:08:24.34,0:08:24.82,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}PLATZ {\c&H0000D7FF&\alpha&H00&}— LETZTER{\c&H00FFFFFF&\alpha&H33&} REIHE, MITTE,
+Dialogue: 0,0:08:24.82,0:08:25.30,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}PLATZ — LETZTER {\c&H0000D7FF&\alpha&H00&}REIHE,{\c&H00FFFFFF&\alpha&H33&} MITTE,
+Dialogue: 0,0:08:25.30,0:08:25.79,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}PLATZ — LETZTER REIHE, {\c&H0000D7FF&\alpha&H00&}MITTE,
+Dialogue: 0,0:08:25.79,0:08:26.27,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}KEIN{\c&H00FFFFFF&\alpha&H33&} FENSTER. DAS IST KEIN
+Dialogue: 0,0:08:26.27,0:08:26.76,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}KEIN {\c&H0000D7FF&\alpha&H00&}FENSTER.{\c&H00FFFFFF&\alpha&H33&} DAS IST KEIN
+Dialogue: 0,0:08:26.76,0:08:27.24,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}KEIN FENSTER. {\c&H0000D7FF&\alpha&H00&}DAS IST{\c&H00FFFFFF&\alpha&H33&} KEIN
+Dialogue: 0,0:08:27.24,0:08:27.73,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}KEIN FENSTER. DAS IST {\c&H0000D7FF&\alpha&H00&}KEIN
+Dialogue: 0,0:08:27.73,0:08:28.21,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}ZUFALL.{\c&H00FFFFFF&\alpha&H33&} DAS IST ALGORITHMUS. KURZE
+Dialogue: 0,0:08:28.21,0:08:28.69,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ZUFALL. {\c&H0000D7FF&\alpha&H00&}DAS IST{\c&H00FFFFFF&\alpha&H33&} ALGORITHMUS. KURZE
+Dialogue: 0,0:08:28.69,0:08:29.47,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ZUFALL. DAS IST {\c&H0000D7FF&\alpha&H00&}ALGORITHMUS.{\c&H00FFFFFF&\alpha&H33&} KURZE
+Dialogue: 0,0:08:29.47,0:08:30.20,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ZUFALL. DAS IST ALGORITHMUS. {\c&H0000D7FF&\alpha&H00&}KURZE
+Dialogue: 0,0:08:30.20,0:08:30.92,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}ZUSAMMENFASSUNG:{\c&H00FFFFFF&\alpha&H33&} ZU SPÄTES ONLINE-CHECK-IN. NAMENSABWEICHUNG
+Dialogue: 0,0:08:30.92,0:08:31.64,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ZUSAMMENFASSUNG: {\c&H0000D7FF&\alpha&H00&}ZU SPÄTES{\c&H00FFFFFF&\alpha&H33&} ONLINE-CHECK-IN. NAMENSABWEICHUNG
+Dialogue: 0,0:08:31.64,0:08:32.37,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ZUSAMMENFASSUNG: ZU SPÄTES {\c&H0000D7FF&\alpha&H00&}ONLINE-CHECK-IN.{\c&H00FFFFFF&\alpha&H33&} NAMENSABWEICHUNG
+Dialogue: 0,0:08:32.37,0:08:33.09,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ZUSAMMENFASSUNG: ZU SPÄTES ONLINE-CHECK-IN. {\c&H0000D7FF&\alpha&H00&}NAMENSABWEICHUNG
+Dialogue: 0,0:08:33.09,0:08:33.81,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}BEIM{\c&H00FFFFFF&\alpha&H33&} TICKET. ABGELAUFENER PASS.
+Dialogue: 0,0:08:33.81,0:08:34.54,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BEIM {\c&H0000D7FF&\alpha&H00&}TICKET.{\c&H00FFFFFF&\alpha&H33&} ABGELAUFENER PASS.
+Dialogue: 0,0:08:34.54,0:08:35.26,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BEIM TICKET. {\c&H0000D7FF&\alpha&H00&}ABGELAUFENER{\c&H00FFFFFF&\alpha&H33&} PASS.
+Dialogue: 0,0:08:35.26,0:08:35.98,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BEIM TICKET. ABGELAUFENER {\c&H0000D7FF&\alpha&H00&}PASS.
+Dialogue: 0,0:08:35.98,0:08:36.71,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}GEPÄCKLIMITS{\c&H00FFFFFF&\alpha&H33&} IGNORIERT. CHECK-IN-FRIST VERPASST.
+Dialogue: 0,0:08:36.71,0:08:37.43,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}GEPÄCKLIMITS {\c&H0000D7FF&\alpha&H00&}IGNORIERT.{\c&H00FFFFFF&\alpha&H33&} CHECK-IN-FRIST VERPASST.
+Dialogue: 0,0:08:37.43,0:08:38.15,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}GEPÄCKLIMITS IGNORIERT. {\c&H0000D7FF&\alpha&H00&}CHECK-IN-FRIST{\c&H00FFFFFF&\alpha&H33&} VERPASST.
+Dialogue: 0,0:08:38.15,0:08:38.88,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}GEPÄCKLIMITS IGNORIERT. CHECK-IN-FRIST {\c&H0000D7FF&\alpha&H00&}VERPASST.
+Dialogue: 0,0:08:38.88,0:08:39.60,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}FALSCHE{\c&H00FFFFFF&\alpha&H33&} ZAHLUNGSMETHODE AM AUTOMATEN. FEHLENDES
+Dialogue: 0,0:08:39.60,0:08:40.32,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}FALSCHE {\c&H0000D7FF&\alpha&H00&}ZAHLUNGSMETHODE{\c&H00FFFFFF&\alpha&H33&} AM AUTOMATEN. FEHLENDES
+Dialogue: 0,0:08:40.32,0:08:41.05,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}FALSCHE ZAHLUNGSMETHODE {\c&H0000D7FF&\alpha&H00&}AM AUTOMATEN.{\c&H00FFFFFF&\alpha&H33&} FEHLENDES
+Dialogue: 0,0:08:41.05,0:08:41.77,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}FALSCHE ZAHLUNGSMETHODE AM AUTOMATEN. {\c&H0000D7FF&\alpha&H00&}FEHLENDES
+Dialogue: 0,0:08:41.77,0:08:42.49,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}VISUM{\c&H00FFFFFF&\alpha&H33&} ODER ESTA. NICHT
+Dialogue: 0,0:08:42.49,0:08:43.21,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}VISUM {\c&H0000D7FF&\alpha&H00&}ODER{\c&H00FFFFFF&\alpha&H33&} ESTA. NICHT
+Dialogue: 0,0:08:43.21,0:08:43.94,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}VISUM ODER {\c&H0000D7FF&\alpha&H00&}ESTA.{\c&H00FFFFFF&\alpha&H33&} NICHT
+Dialogue: 0,0:08:43.94,0:08:44.66,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}VISUM ODER ESTA. {\c&H0000D7FF&\alpha&H00&}NICHT
+Dialogue: 0,0:08:44.66,0:08:45.39,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}GEGEN{\c&H00FFFFFF&\alpha&H33&} OVERBOOKING ABGESICHERT. UND: FALSCHES
+Dialogue: 0,0:08:45.39,0:08:46.11,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}GEGEN {\c&H0000D7FF&\alpha&H00&}OVERBOOKING{\c&H00FFFFFF&\alpha&H33&} ABGESICHERT. UND: FALSCHES
+Dialogue: 0,0:08:46.11,0:08:46.83,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}GEGEN OVERBOOKING {\c&H0000D7FF&\alpha&H00&}ABGESICHERT.{\c&H00FFFFFF&\alpha&H33&} UND: FALSCHES
+Dialogue: 0,0:08:46.83,0:08:47.55,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}GEGEN OVERBOOKING ABGESICHERT. {\c&H0000D7FF&\alpha&H00&}UND: FALSCHES
+Dialogue: 0,0:08:47.55,0:08:48.28,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}TERMINAL{\c&H00FFFFFF&\alpha&H33&} ERWISCHT. NEUN FEHLER
+Dialogue: 0,0:08:48.28,0:08:49.00,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}TERMINAL {\c&H0000D7FF&\alpha&H00&}ERWISCHT.{\c&H00FFFFFF&\alpha&H33&} NEUN FEHLER
+Dialogue: 0,0:08:49.00,0:08:49.73,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}TERMINAL ERWISCHT. {\c&H0000D7FF&\alpha&H00&}NEUN{\c&H00FFFFFF&\alpha&H33&} FEHLER
+Dialogue: 0,0:08:49.73,0:08:50.45,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}TERMINAL ERWISCHT. NEUN {\c&H0000D7FF&\alpha&H00&}FEHLER
+Dialogue: 0,0:08:50.45,0:08:51.17,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}— EINER{\c&H00FFFFFF&\alpha&H33&} DAVON REICHT. DAS GRÖSSTE
+Dialogue: 0,0:08:51.17,0:08:51.90,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}— EINER {\c&H0000D7FF&\alpha&H00&}DAVON{\c&H00FFFFFF&\alpha&H33&} REICHT. DAS GRÖSSTE
+Dialogue: 0,0:08:51.90,0:08:52.91,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}— EINER DAVON {\c&H0000D7FF&\alpha&H00&}REICHT.{\c&H00FFFFFF&\alpha&H33&} DAS GRÖSSTE
+Dialogue: 0,0:08:52.91,0:08:53.51,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}— EINER DAVON REICHT. {\c&H0000D7FF&\alpha&H00&}DAS GRÖSSTE
+Dialogue: 0,0:08:53.51,0:08:54.10,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}MISSVERSTÄNDNIS?{\c&H00FFFFFF&\alpha&H33&} DASS CHECK-IN NUR EINE
+Dialogue: 0,0:08:54.10,0:08:54.70,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}MISSVERSTÄNDNIS? {\c&H0000D7FF&\alpha&H00&}DASS{\c&H00FFFFFF&\alpha&H33&} CHECK-IN NUR EINE
+Dialogue: 0,0:08:54.70,0:08:55.29,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}MISSVERSTÄNDNIS? DASS {\c&H0000D7FF&\alpha&H00&}CHECK-IN{\c&H00FFFFFF&\alpha&H33&} NUR EINE
+Dialogue: 0,0:08:55.29,0:08:55.89,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}MISSVERSTÄNDNIS? DASS CHECK-IN {\c&H0000D7FF&\alpha&H00&}NUR EINE
+Dialogue: 0,0:08:55.89,0:08:56.48,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}BÜROKRATISCHE{\c&H00FFFFFF&\alpha&H33&} FORMALITÄT IST. DABEI IST ES
+Dialogue: 0,0:08:56.48,0:08:57.08,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BÜROKRATISCHE {\c&H0000D7FF&\alpha&H00&}FORMALITÄT{\c&H00FFFFFF&\alpha&H33&} IST. DABEI IST ES
+Dialogue: 0,0:08:57.08,0:08:57.67,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BÜROKRATISCHE FORMALITÄT {\c&H0000D7FF&\alpha&H00&}IST. DABEI{\c&H00FFFFFF&\alpha&H33&} IST ES
+Dialogue: 0,0:08:57.67,0:08:58.27,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BÜROKRATISCHE FORMALITÄT IST. DABEI {\c&H0000D7FF&\alpha&H00&}IST ES
+Dialogue: 0,0:08:58.27,0:08:58.87,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}DER MOMENT,{\c&H00FFFFFF&\alpha&H33&} IN DEM DU DEINE GESAMTE
+Dialogue: 0,0:08:58.87,0:08:59.46,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DER MOMENT, {\c&H0000D7FF&\alpha&H00&}IN DEM{\c&H00FFFFFF&\alpha&H33&} DU DEINE GESAMTE
+Dialogue: 0,0:08:59.46,0:09:00.06,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DER MOMENT, IN DEM {\c&H0000D7FF&\alpha&H00&}DU DEINE{\c&H00FFFFFF&\alpha&H33&} GESAMTE
+Dialogue: 0,0:09:00.06,0:09:00.65,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DER MOMENT, IN DEM DU DEINE {\c&H0000D7FF&\alpha&H00&}GESAMTE
+Dialogue: 0,0:09:00.65,0:09:01.25,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}REISE{\c&H00FFFFFF&\alpha&H33&} SICHERN ODER GEFÄHRDEN
+Dialogue: 0,0:09:01.25,0:09:01.84,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}REISE {\c&H0000D7FF&\alpha&H00&}SICHERN{\c&H00FFFFFF&\alpha&H33&} ODER GEFÄHRDEN
+Dialogue: 0,0:09:01.84,0:09:02.44,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}REISE SICHERN {\c&H0000D7FF&\alpha&H00&}ODER{\c&H00FFFFFF&\alpha&H33&} GEFÄHRDEN
+Dialogue: 0,0:09:02.44,0:09:03.03,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}REISE SICHERN ODER {\c&H0000D7FF&\alpha&H00&}GEFÄHRDEN
+Dialogue: 0,0:09:03.03,0:09:03.63,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}KANNST{\c&H00FFFFFF&\alpha&H33&} — IN WENIGER ALS FÜNF
+Dialogue: 0,0:09:03.63,0:09:04.22,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}KANNST {\c&H0000D7FF&\alpha&H00&}— IN{\c&H00FFFFFF&\alpha&H33&} WENIGER ALS FÜNF
+Dialogue: 0,0:09:04.22,0:09:04.82,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}KANNST — IN {\c&H0000D7FF&\alpha&H00&}WENIGER{\c&H00FFFFFF&\alpha&H33&} ALS FÜNF
+Dialogue: 0,0:09:04.82,0:09:05.41,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}KANNST — IN WENIGER {\c&H0000D7FF&\alpha&H00&}ALS FÜNF
+Dialogue: 0,0:09:05.41,0:09:06.01,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}MINUTEN.{\c&H00FFFFFF&\alpha&H33&} WER DAS IGNORIERT, RISKIERT
+Dialogue: 0,0:09:06.01,0:09:06.61,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}MINUTEN. {\c&H0000D7FF&\alpha&H00&}WER DAS{\c&H00FFFFFF&\alpha&H33&} IGNORIERT, RISKIERT
+Dialogue: 0,0:09:06.61,0:09:07.20,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}MINUTEN. WER DAS {\c&H0000D7FF&\alpha&H00&}IGNORIERT,{\c&H00FFFFFF&\alpha&H33&} RISKIERT
+Dialogue: 0,0:09:07.20,0:09:07.80,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}MINUTEN. WER DAS IGNORIERT, {\c&H0000D7FF&\alpha&H00&}RISKIERT
+Dialogue: 0,0:09:07.80,0:09:08.39,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}NICHT{\c&H00FFFFFF&\alpha&H33&} NUR DEN FLUG, SONDERN
+Dialogue: 0,0:09:08.39,0:09:08.99,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}NICHT {\c&H0000D7FF&\alpha&H00&}NUR DEN{\c&H00FFFFFF&\alpha&H33&} FLUG, SONDERN
+Dialogue: 0,0:09:08.99,0:09:09.58,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}NICHT NUR DEN {\c&H0000D7FF&\alpha&H00&}FLUG,{\c&H00FFFFFF&\alpha&H33&} SONDERN
+Dialogue: 0,0:09:09.58,0:09:10.18,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}NICHT NUR DEN FLUG, {\c&H0000D7FF&\alpha&H00&}SONDERN
+Dialogue: 0,0:09:10.18,0:09:10.77,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}IM SCHLIMMSTEN{\c&H00FFFFFF&\alpha&H33&} FALL SEINEN GANZEN
+Dialogue: 0,0:09:10.77,0:09:11.37,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}IM SCHLIMMSTEN {\c&H0000D7FF&\alpha&H00&}FALL{\c&H00FFFFFF&\alpha&H33&} SEINEN GANZEN
+Dialogue: 0,0:09:11.37,0:09:11.96,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}IM SCHLIMMSTEN FALL {\c&H0000D7FF&\alpha&H00&}SEINEN{\c&H00FFFFFF&\alpha&H33&} GANZEN
+Dialogue: 0,0:09:11.96,0:09:12.56,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}IM SCHLIMMSTEN FALL SEINEN {\c&H0000D7FF&\alpha&H00&}GANZEN
+Dialogue: 0,0:09:12.56,0:09:13.45,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}URLAUB.{\c&H00FFFFFF&\alpha&H33&} VIELREISENDE BEHANDELN DEN CHECK-IN
+Dialogue: 0,0:09:13.45,0:09:14.05,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}URLAUB. {\c&H0000D7FF&\alpha&H00&}VIELREISENDE{\c&H00FFFFFF&\alpha&H33&} BEHANDELN DEN CHECK-IN
+Dialogue: 0,0:09:14.05,0:09:14.66,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}URLAUB. VIELREISENDE {\c&H0000D7FF&\alpha&H00&}BEHANDELN{\c&H00FFFFFF&\alpha&H33&} DEN CHECK-IN
+Dialogue: 0,0:09:14.66,0:09:15.27,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}URLAUB. VIELREISENDE BEHANDELN {\c&H0000D7FF&\alpha&H00&}DEN CHECK-IN
+Dialogue: 0,0:09:15.27,0:09:15.87,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}WIE EINEN{\c&H00FFFFFF&\alpha&H33&} VERTRAG. SIE DOKUMENTIEREN ALLES
+Dialogue: 0,0:09:15.87,0:09:16.48,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WIE EINEN {\c&H0000D7FF&\alpha&H00&}VERTRAG.{\c&H00FFFFFF&\alpha&H33&} SIE DOKUMENTIEREN ALLES
+Dialogue: 0,0:09:16.48,0:09:17.08,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WIE EINEN VERTRAG. {\c&H0000D7FF&\alpha&H00&}SIE DOKUMENTIEREN{\c&H00FFFFFF&\alpha&H33&} ALLES
+Dialogue: 0,0:09:17.08,0:09:17.69,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WIE EINEN VERTRAG. SIE DOKUMENTIEREN {\c&H0000D7FF&\alpha&H00&}ALLES
+Dialogue: 0,0:09:17.69,0:09:18.30,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}— SCREENSHOT{\c&H00FFFFFF&\alpha&H33&} DER BUCHUNGSBESTÄTIGUNG, FOTO DES BOARDING
+Dialogue: 0,0:09:18.30,0:09:18.90,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}— SCREENSHOT {\c&H0000D7FF&\alpha&H00&}DER BUCHUNGSBESTÄTIGUNG,{\c&H00FFFFFF&\alpha&H33&} FOTO DES BOARDING
+Dialogue: 0,0:09:18.90,0:09:19.51,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}— SCREENSHOT DER BUCHUNGSBESTÄTIGUNG, {\c&H0000D7FF&\alpha&H00&}FOTO{\c&H00FFFFFF&\alpha&H33&} DES BOARDING
+Dialogue: 0,0:09:19.51,0:09:20.12,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}— SCREENSHOT DER BUCHUNGSBESTÄTIGUNG, FOTO {\c&H0000D7FF&\alpha&H00&}DES BOARDING
+Dialogue: 0,0:09:20.12,0:09:20.72,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}PASSES,{\c&H00FFFFFF&\alpha&H33&} GESPEICHERTE AIRLINE-KONTAKTNUMMER. SIE VERTRAUEN
+Dialogue: 0,0:09:20.72,0:09:21.33,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}PASSES, {\c&H0000D7FF&\alpha&H00&}GESPEICHERTE{\c&H00FFFFFF&\alpha&H33&} AIRLINE-KONTAKTNUMMER. SIE VERTRAUEN
+Dialogue: 0,0:09:21.33,0:09:21.93,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}PASSES, GESPEICHERTE {\c&H0000D7FF&\alpha&H00&}AIRLINE-KONTAKTNUMMER.{\c&H00FFFFFF&\alpha&H33&} SIE VERTRAUEN
+Dialogue: 0,0:09:21.93,0:09:22.54,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}PASSES, GESPEICHERTE AIRLINE-KONTAKTNUMMER. {\c&H0000D7FF&\alpha&H00&}SIE VERTRAUEN
+Dialogue: 0,0:09:22.54,0:09:23.15,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}NICHTS{\c&H00FFFFFF&\alpha&H33&} DEM ZUFALL. UND GENAU DESHALB
+Dialogue: 0,0:09:23.15,0:09:23.75,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}NICHTS {\c&H0000D7FF&\alpha&H00&}DEM ZUFALL.{\c&H00FFFFFF&\alpha&H33&} UND GENAU DESHALB
+Dialogue: 0,0:09:23.75,0:09:24.36,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}NICHTS DEM ZUFALL. {\c&H0000D7FF&\alpha&H00&}UND GENAU{\c&H00FFFFFF&\alpha&H33&} DESHALB
+Dialogue: 0,0:09:24.36,0:09:24.97,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}NICHTS DEM ZUFALL. UND GENAU {\c&H0000D7FF&\alpha&H00&}DESHALB
+Dialogue: 0,0:09:24.97,0:09:25.57,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}VERPASSEN{\c&H00FFFFFF&\alpha&H33&} SIE IHREN FLUG SO GUT
+Dialogue: 0,0:09:25.57,0:09:26.18,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}VERPASSEN {\c&H0000D7FF&\alpha&H00&}SIE IHREN{\c&H00FFFFFF&\alpha&H33&} FLUG SO GUT
+Dialogue: 0,0:09:26.18,0:09:26.78,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}VERPASSEN SIE IHREN {\c&H0000D7FF&\alpha&H00&}FLUG{\c&H00FFFFFF&\alpha&H33&} SO GUT
+Dialogue: 0,0:09:26.78,0:09:27.39,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}VERPASSEN SIE IHREN FLUG {\c&H0000D7FF&\alpha&H00&}SO GUT
+Dialogue: 0,0:09:27.39,0:09:28.00,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}WIE NIE{\c&H00FFFFFF&\alpha&H33&} — WÄHREND ANDERE IM CHAOS
+Dialogue: 0,0:09:28.00,0:09:28.60,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WIE NIE {\c&H0000D7FF&\alpha&H00&}— WÄHREND{\c&H00FFFFFF&\alpha&H33&} ANDERE IM CHAOS
+Dialogue: 0,0:09:28.60,0:09:29.21,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WIE NIE — WÄHREND {\c&H0000D7FF&\alpha&H00&}ANDERE{\c&H00FFFFFF&\alpha&H33&} IM CHAOS
+Dialogue: 0,0:09:29.21,0:09:29.81,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WIE NIE — WÄHREND ANDERE {\c&H0000D7FF&\alpha&H00&}IM CHAOS
+Dialogue: 0,0:09:29.81,0:09:30.71,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}VERSINKEN.{\c&H00FFFFFF&\alpha&H33&} DER CHECK-IN VERÄNDERT SICH
+Dialogue: 0,0:09:30.71,0:09:31.29,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}VERSINKEN. {\c&H0000D7FF&\alpha&H00&}DER CHECK-IN{\c&H00FFFFFF&\alpha&H33&} VERÄNDERT SICH
+Dialogue: 0,0:09:31.29,0:09:31.87,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}VERSINKEN. DER CHECK-IN {\c&H0000D7FF&\alpha&H00&}VERÄNDERT{\c&H00FFFFFF&\alpha&H33&} SICH
+Dialogue: 0,0:09:31.87,0:09:32.45,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}VERSINKEN. DER CHECK-IN VERÄNDERT {\c&H0000D7FF&\alpha&H00&}SICH
+Dialogue: 0,0:09:32.45,0:09:33.03,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}GERADE{\c&H00FFFFFF&\alpha&H33&} GRUNDLEGEND. BIOMETRISCHE GESICHTSERKENNUNG,
+Dialogue: 0,0:09:33.03,0:09:33.61,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}GERADE {\c&H0000D7FF&\alpha&H00&}GRUNDLEGEND.{\c&H00FFFFFF&\alpha&H33&} BIOMETRISCHE GESICHTSERKENNUNG,
+Dialogue: 0,0:09:33.61,0:09:34.19,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}GERADE GRUNDLEGEND. {\c&H0000D7FF&\alpha&H00&}BIOMETRISCHE{\c&H00FFFFFF&\alpha&H33&} GESICHTSERKENNUNG,
+Dialogue: 0,0:09:34.19,0:09:34.77,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}GERADE GRUNDLEGEND. BIOMETRISCHE {\c&H0000D7FF&\alpha&H00&}GESICHTSERKENNUNG,
+Dialogue: 0,0:09:34.77,0:09:35.35,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}KI-GESTÜTZTE{\c&H00FFFFFF&\alpha&H33&} GEPÄCKKONTROLLEN, VOLLAUTOMATISIERTE GATES
+Dialogue: 0,0:09:35.35,0:09:35.93,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}KI-GESTÜTZTE {\c&H0000D7FF&\alpha&H00&}GEPÄCKKONTROLLEN,{\c&H00FFFFFF&\alpha&H33&} VOLLAUTOMATISIERTE GATES
+Dialogue: 0,0:09:35.93,0:09:36.50,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}KI-GESTÜTZTE GEPÄCKKONTROLLEN, {\c&H0000D7FF&\alpha&H00&}VOLLAUTOMATISIERTE{\c&H00FFFFFF&\alpha&H33&} GATES
+Dialogue: 0,0:09:36.50,0:09:37.08,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}KI-GESTÜTZTE GEPÄCKKONTROLLEN, VOLLAUTOMATISIERTE {\c&H0000D7FF&\alpha&H00&}GATES
+Dialogue: 0,0:09:37.08,0:09:37.66,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}— AIRLINES{\c&H00FFFFFF&\alpha&H33&} INVESTIEREN MILLIARDEN, UM DEN
+Dialogue: 0,0:09:37.66,0:09:38.24,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}— AIRLINES {\c&H0000D7FF&\alpha&H00&}INVESTIEREN{\c&H00FFFFFF&\alpha&H33&} MILLIARDEN, UM DEN
+Dialogue: 0,0:09:38.24,0:09:38.82,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}— AIRLINES INVESTIEREN {\c&H0000D7FF&\alpha&H00&}MILLIARDEN,{\c&H00FFFFFF&\alpha&H33&} UM DEN
+Dialogue: 0,0:09:38.82,0:09:39.40,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}— AIRLINES INVESTIEREN MILLIARDEN, {\c&H0000D7FF&\alpha&H00&}UM DEN
+Dialogue: 0,0:09:39.40,0:09:39.98,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}PROZESS{\c&H00FFFFFF&\alpha&H33&} ZU BESCHLEUNIGEN. ABER GLEICHZEITIG
+Dialogue: 0,0:09:39.98,0:09:40.56,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}PROZESS {\c&H0000D7FF&\alpha&H00&}ZU BESCHLEUNIGEN.{\c&H00FFFFFF&\alpha&H33&} ABER GLEICHZEITIG
+Dialogue: 0,0:09:40.56,0:09:41.14,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}PROZESS ZU BESCHLEUNIGEN. {\c&H0000D7FF&\alpha&H00&}ABER{\c&H00FFFFFF&\alpha&H33&} GLEICHZEITIG
+Dialogue: 0,0:09:41.14,0:09:41.72,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}PROZESS ZU BESCHLEUNIGEN. ABER {\c&H0000D7FF&\alpha&H00&}GLEICHZEITIG
+Dialogue: 0,0:09:41.72,0:09:42.30,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}WERDEN{\c&H00FFFFFF&\alpha&H33&} DIE FEHLERQUELLEN KOMPLEXER. WER DIE
+Dialogue: 0,0:09:42.30,0:09:42.88,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WERDEN {\c&H0000D7FF&\alpha&H00&}DIE FEHLERQUELLEN{\c&H00FFFFFF&\alpha&H33&} KOMPLEXER. WER DIE
+Dialogue: 0,0:09:42.88,0:09:43.46,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WERDEN DIE FEHLERQUELLEN {\c&H0000D7FF&\alpha&H00&}KOMPLEXER.{\c&H00FFFFFF&\alpha&H33&} WER DIE
+Dialogue: 0,0:09:43.46,0:09:44.03,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}WERDEN DIE FEHLERQUELLEN KOMPLEXER. {\c&H0000D7FF&\alpha&H00&}WER DIE
+Dialogue: 0,0:09:44.03,0:09:44.61,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}NEUEN{\c&H00FFFFFF&\alpha&H33&} SYSTEME NICHT VERSTEHT,
+Dialogue: 0,0:09:44.61,0:09:45.19,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}NEUEN {\c&H0000D7FF&\alpha&H00&}SYSTEME{\c&H00FFFFFF&\alpha&H33&} NICHT VERSTEHT,
+Dialogue: 0,0:09:45.19,0:09:45.77,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}NEUEN SYSTEME {\c&H0000D7FF&\alpha&H00&}NICHT{\c&H00FFFFFF&\alpha&H33&} VERSTEHT,
+Dialogue: 0,0:09:45.77,0:09:46.35,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}NEUEN SYSTEME NICHT {\c&H0000D7FF&\alpha&H00&}VERSTEHT,
+Dialogue: 0,0:09:46.35,0:09:46.93,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}MACHT{\c&H00FFFFFF&\alpha&H33&} IN ZUKUNFT NEUE FEHLER.
+Dialogue: 0,0:09:46.93,0:09:47.51,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}MACHT {\c&H0000D7FF&\alpha&H00&}IN ZUKUNFT{\c&H00FFFFFF&\alpha&H33&} NEUE FEHLER.
+Dialogue: 0,0:09:47.51,0:09:48.09,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}MACHT IN ZUKUNFT {\c&H0000D7FF&\alpha&H00&}NEUE{\c&H00FFFFFF&\alpha&H33&} FEHLER.
+Dialogue: 0,0:09:48.09,0:09:48.67,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}MACHT IN ZUKUNFT NEUE {\c&H0000D7FF&\alpha&H00&}FEHLER.
+Dialogue: 0,0:09:48.96,0:09:49.55,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}DU WEISST{\c&H00FFFFFF&\alpha&H33&} JETZT, WAS 99 PROZENT
+Dialogue: 0,0:09:49.55,0:09:50.14,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DU WEISST {\c&H0000D7FF&\alpha&H00&}JETZT,{\c&H00FFFFFF&\alpha&H33&} WAS 99 PROZENT
+Dialogue: 0,0:09:50.14,0:09:50.73,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DU WEISST JETZT, {\c&H0000D7FF&\alpha&H00&}WAS 99{\c&H00FFFFFF&\alpha&H33&} PROZENT
+Dialogue: 0,0:09:50.73,0:09:51.31,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DU WEISST JETZT, WAS 99 {\c&H0000D7FF&\alpha&H00&}PROZENT
+Dialogue: 0,0:09:51.31,0:09:51.90,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}DER REISENDEN{\c&H00FFFFFF&\alpha&H33&} NICHT WISSEN — ODER
+Dialogue: 0,0:09:51.90,0:09:52.49,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DER REISENDEN {\c&H0000D7FF&\alpha&H00&}NICHT{\c&H00FFFFFF&\alpha&H33&} WISSEN — ODER
+Dialogue: 0,0:09:52.49,0:09:53.08,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DER REISENDEN NICHT {\c&H0000D7FF&\alpha&H00&}WISSEN{\c&H00FFFFFF&\alpha&H33&} — ODER
+Dialogue: 0,0:09:53.08,0:09:53.67,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DER REISENDEN NICHT WISSEN {\c&H0000D7FF&\alpha&H00&}— ODER
+Dialogue: 0,0:09:53.67,0:09:54.26,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}ERST{\c&H00FFFFFF&\alpha&H33&} LERNEN, NACHDEM ES ZU
+Dialogue: 0,0:09:54.26,0:09:54.85,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ERST {\c&H0000D7FF&\alpha&H00&}LERNEN,{\c&H00FFFFFF&\alpha&H33&} NACHDEM ES ZU
+Dialogue: 0,0:09:54.85,0:09:55.43,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ERST LERNEN, {\c&H0000D7FF&\alpha&H00&}NACHDEM{\c&H00FFFFFF&\alpha&H33&} ES ZU
+Dialogue: 0,0:09:55.43,0:09:56.02,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ERST LERNEN, NACHDEM {\c&H0000D7FF&\alpha&H00&}ES ZU
+Dialogue: 0,0:09:56.02,0:09:56.61,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}SPÄT{\c&H00FFFFFF&\alpha&H33&} IST. CHECK-IN IST KEIN SELBSTLÄUFER.
+Dialogue: 0,0:09:56.61,0:09:57.20,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}SPÄT {\c&H0000D7FF&\alpha&H00&}IST. CHECK-IN{\c&H00FFFFFF&\alpha&H33&} IST KEIN SELBSTLÄUFER.
+Dialogue: 0,0:09:57.20,0:09:57.79,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}SPÄT IST. CHECK-IN {\c&H0000D7FF&\alpha&H00&}IST KEIN{\c&H00FFFFFF&\alpha&H33&} SELBSTLÄUFER.
+Dialogue: 0,0:09:57.79,0:09:58.38,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}SPÄT IST. CHECK-IN IST KEIN {\c&H0000D7FF&\alpha&H00&}SELBSTLÄUFER.
+Dialogue: 0,0:09:58.38,0:09:58.97,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}ES IST{\c&H00FFFFFF&\alpha&H33&} EIN PROZESS MIT KLAREN REGELN,
+Dialogue: 0,0:09:58.97,0:09:59.55,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ES IST {\c&H0000D7FF&\alpha&H00&}EIN PROZESS{\c&H00FFFFFF&\alpha&H33&} MIT KLAREN REGELN,
+Dialogue: 0,0:09:59.55,0:10:00.14,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ES IST EIN PROZESS {\c&H0000D7FF&\alpha&H00&}MIT KLAREN{\c&H00FFFFFF&\alpha&H33&} REGELN,
+Dialogue: 0,0:10:00.14,0:10:00.73,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}ES IST EIN PROZESS MIT KLAREN {\c&H0000D7FF&\alpha&H00&}REGELN,
+Dialogue: 0,0:10:00.73,0:10:01.32,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}VERSTECKTEN{\c&H00FFFFFF&\alpha&H33&} FALLEN UND ECHTEN FINANZIELLEN
+Dialogue: 0,0:10:01.32,0:10:01.91,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}VERSTECKTEN {\c&H0000D7FF&\alpha&H00&}FALLEN{\c&H00FFFFFF&\alpha&H33&} UND ECHTEN FINANZIELLEN
+Dialogue: 0,0:10:01.91,0:10:02.50,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}VERSTECKTEN FALLEN {\c&H0000D7FF&\alpha&H00&}UND ECHTEN{\c&H00FFFFFF&\alpha&H33&} FINANZIELLEN
+Dialogue: 0,0:10:02.50,0:10:03.08,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}VERSTECKTEN FALLEN UND ECHTEN {\c&H0000D7FF&\alpha&H00&}FINANZIELLEN
+Dialogue: 0,0:10:03.08,0:10:03.67,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}KONSEQUENZEN.{\c&H00FFFFFF&\alpha&H33&} WER VORBEREITET REIST, REIST
+Dialogue: 0,0:10:03.67,0:10:04.26,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}KONSEQUENZEN. {\c&H0000D7FF&\alpha&H00&}WER VORBEREITET{\c&H00FFFFFF&\alpha&H33&} REIST, REIST
+Dialogue: 0,0:10:04.26,0:10:04.85,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}KONSEQUENZEN. WER VORBEREITET {\c&H0000D7FF&\alpha&H00&}REIST,{\c&H00FFFFFF&\alpha&H33&} REIST
+Dialogue: 0,0:10:04.85,0:10:05.44,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}KONSEQUENZEN. WER VORBEREITET REIST, {\c&H0000D7FF&\alpha&H00&}REIST
+Dialogue: 0,0:10:05.44,0:10:06.03,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}BESSER.{\c&H00FFFFFF&\alpha&H33&} IMMER. WENN DIR DIESES
+Dialogue: 0,0:10:06.03,0:10:06.91,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BESSER. {\c&H0000D7FF&\alpha&H00&}IMMER.{\c&H00FFFFFF&\alpha&H33&} WENN DIR DIESES
+Dialogue: 0,0:10:06.91,0:10:07.36,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BESSER. IMMER. {\c&H0000D7FF&\alpha&H00&}WENN{\c&H00FFFFFF&\alpha&H33&} DIR DIESES
+Dialogue: 0,0:10:07.36,0:10:07.81,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BESSER. IMMER. WENN {\c&H0000D7FF&\alpha&H00&}DIR DIESES
+Dialogue: 0,0:10:07.81,0:10:08.26,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}VIDEO{\c&H00FFFFFF&\alpha&H33&} GEHOLFEN HAT, DANN LASS
+Dialogue: 0,0:10:08.26,0:10:08.71,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}VIDEO {\c&H0000D7FF&\alpha&H00&}GEHOLFEN{\c&H00FFFFFF&\alpha&H33&} HAT, DANN LASS
+Dialogue: 0,0:10:08.71,0:10:09.16,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}VIDEO GEHOLFEN {\c&H0000D7FF&\alpha&H00&}HAT, DANN{\c&H00FFFFFF&\alpha&H33&} LASS
+Dialogue: 0,0:10:09.16,0:10:09.61,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}VIDEO GEHOLFEN HAT, DANN {\c&H0000D7FF&\alpha&H00&}LASS
+Dialogue: 0,0:10:09.61,0:10:10.07,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}GERN{\c&H00FFFFFF&\alpha&H33&} EIN ABO DA — DAMIT
+Dialogue: 0,0:10:10.07,0:10:10.52,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}GERN {\c&H0000D7FF&\alpha&H00&}EIN ABO{\c&H00FFFFFF&\alpha&H33&} DA — DAMIT
+Dialogue: 0,0:10:10.52,0:10:10.97,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}GERN EIN ABO {\c&H0000D7FF&\alpha&H00&}DA —{\c&H00FFFFFF&\alpha&H33&} DAMIT
+Dialogue: 0,0:10:10.97,0:10:11.42,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}GERN EIN ABO DA — {\c&H0000D7FF&\alpha&H00&}DAMIT
+Dialogue: 0,0:10:11.42,0:10:11.87,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}DU BEIM{\c&H00FFFFFF&\alpha&H33&} NÄCHSTEN MAL NICHT DERJENIGE
+Dialogue: 0,0:10:11.87,0:10:12.32,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DU BEIM {\c&H0000D7FF&\alpha&H00&}NÄCHSTEN{\c&H00FFFFFF&\alpha&H33&} MAL NICHT DERJENIGE
+Dialogue: 0,0:10:12.32,0:10:12.77,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DU BEIM NÄCHSTEN {\c&H0000D7FF&\alpha&H00&}MAL NICHT{\c&H00FFFFFF&\alpha&H33&} DERJENIGE
+Dialogue: 0,0:10:12.77,0:10:13.22,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}DU BEIM NÄCHSTEN MAL NICHT {\c&H0000D7FF&\alpha&H00&}DERJENIGE
+Dialogue: 0,0:10:13.22,0:10:13.68,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}BIST,{\c&H00FFFFFF&\alpha&H33&} DER AM GATE STEHT
+Dialogue: 0,0:10:13.68,0:10:14.13,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BIST, {\c&H0000D7FF&\alpha&H00&}DER AM{\c&H00FFFFFF&\alpha&H33&} GATE STEHT
+Dialogue: 0,0:10:14.13,0:10:14.58,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BIST, DER AM {\c&H0000D7FF&\alpha&H00&}GATE{\c&H00FFFFFF&\alpha&H33&} STEHT
+Dialogue: 0,0:10:14.58,0:10:15.03,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BIST, DER AM GATE {\c&H0000D7FF&\alpha&H00&}STEHT
+Dialogue: 0,0:10:15.03,0:10:15.48,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}UND NICHT{\c&H00FFFFFF&\alpha&H33&} WEITERKOMMT. TEILE ES AUCH
+Dialogue: 0,0:10:15.48,0:10:15.93,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}UND NICHT {\c&H0000D7FF&\alpha&H00&}WEITERKOMMT.{\c&H00FFFFFF&\alpha&H33&} TEILE ES AUCH
+Dialogue: 0,0:10:15.93,0:10:16.38,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}UND NICHT WEITERKOMMT. {\c&H0000D7FF&\alpha&H00&}TEILE{\c&H00FFFFFF&\alpha&H33&} ES AUCH
+Dialogue: 0,0:10:16.38,0:10:16.83,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}UND NICHT WEITERKOMMT. TEILE {\c&H0000D7FF&\alpha&H00&}ES AUCH
+Dialogue: 0,0:10:16.83,0:10:17.29,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}MIT JEMANDEM,{\c&H00FFFFFF&\alpha&H33&} DER BALD FLIEGT. ES KÖNNTE
+Dialogue: 0,0:10:17.29,0:10:17.74,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}MIT JEMANDEM, {\c&H0000D7FF&\alpha&H00&}DER BALD{\c&H00FFFFFF&\alpha&H33&} FLIEGT. ES KÖNNTE
+Dialogue: 0,0:10:17.74,0:10:18.19,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}MIT JEMANDEM, DER BALD {\c&H0000D7FF&\alpha&H00&}FLIEGT.{\c&H00FFFFFF&\alpha&H33&} ES KÖNNTE
+Dialogue: 0,0:10:18.19,0:10:18.64,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}MIT JEMANDEM, DER BALD FLIEGT. {\c&H0000D7FF&\alpha&H00&}ES KÖNNTE
+Dialogue: 0,0:10:18.64,0:10:19.09,Default,,0,0,0,,{\bord1\shad0}{\c&H0000D7FF&\alpha&H00&}BUCHSTÄBLICH{\c&H00FFFFFF&\alpha&H33&} SEINEN URLAUB RETTEN.
+Dialogue: 0,0:10:19.09,0:10:19.54,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BUCHSTÄBLICH {\c&H0000D7FF&\alpha&H00&}SEINEN{\c&H00FFFFFF&\alpha&H33&} URLAUB RETTEN.
+Dialogue: 0,0:10:19.54,0:10:19.99,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BUCHSTÄBLICH SEINEN {\c&H0000D7FF&\alpha&H00&}URLAUB{\c&H00FFFFFF&\alpha&H33&} RETTEN.
+Dialogue: 0,0:10:19.99,0:10:20.44,Default,,0,0,0,,{\bord1\shad0}{\c&H00FFFFFF&\alpha&H33&}BUCHSTÄBLICH SEINEN URLAUB {\c&H0000D7FF&\alpha&H00&}RETTEN.
