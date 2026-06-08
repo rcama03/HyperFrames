@@ -1,0 +1,5942 @@
+[
+  {
+    "word": "Innerhalb",
+    "start": 0.0,
+    "end": 0.583
+  },
+  {
+    "word": "von 7",
+    "start": 0.583,
+    "end": 1.165
+  },
+  {
+    "word": "Sekunden",
+    "start": 1.165,
+    "end": 1.748
+  },
+  {
+    "word": "hat ein",
+    "start": 1.748,
+    "end": 2.331
+  },
+  {
+    "word": "erfahrener",
+    "start": 2.331,
+    "end": 2.913
+  },
+  {
+    "word": "Profiling-Beamter",
+    "start": 2.913,
+    "end": 3.496
+  },
+  {
+    "word": "bereits",
+    "start": 3.496,
+    "end": 4.079
+  },
+  {
+    "word": "entschieden,",
+    "start": 4.079,
+    "end": 4.661
+  },
+  {
+    "word": "ob du",
+    "start": 4.661,
+    "end": 5.244
+  },
+  {
+    "word": "ein Risiko",
+    "start": 5.244,
+    "end": 5.827
+  },
+  {
+    "word": "darstellst.",
+    "start": 5.827,
+    "end": 6.409
+  },
+  {
+    "word": "Nicht",
+    "start": 6.409,
+    "end": 6.992
+  },
+  {
+    "word": "durch",
+    "start": 6.992,
+    "end": 7.575
+  },
+  {
+    "word": "deinen",
+    "start": 7.575,
+    "end": 8.157
+  },
+  {
+    "word": "Pass,",
+    "start": 8.157,
+    "end": 8.74
+  },
+  {
+    "word": "nicht",
+    "start": 8.74,
+    "end": 9.323
+  },
+  {
+    "word": "durch",
+    "start": 9.323,
+    "end": 9.905
+  },
+  {
+    "word": "deinen",
+    "start": 9.905,
+    "end": 10.488
+  },
+  {
+    "word": "Koffer",
+    "start": 10.488,
+    "end": 11.071
+  },
+  {
+    "word": "— sondern",
+    "start": 11.071,
+    "end": 11.653
+  },
+  {
+    "word": "durch",
+    "start": 11.653,
+    "end": 12.236
+  },
+  {
+    "word": "die Art,",
+    "start": 12.236,
+    "end": 12.819
+  },
+  {
+    "word": "wie du",
+    "start": 12.819,
+    "end": 13.401
+  },
+  {
+    "word": "gehst,",
+    "start": 13.401,
+    "end": 13.984
+  },
+  {
+    "word": "schaust",
+    "start": 13.984,
+    "end": 14.567
+  },
+  {
+    "word": "und atmest.",
+    "start": 14.567,
+    "end": 15.149
+  },
+  {
+    "word": "Und du",
+    "start": 15.149,
+    "end": 15.732
+  },
+  {
+    "word": "weißt",
+    "start": 15.732,
+    "end": 16.315
+  },
+  {
+    "word": "es nicht",
+    "start": 16.315,
+    "end": 16.897
+  },
+  {
+    "word": "mal.",
+    "start": 16.897,
+    "end": 17.48
+  },
+  {
+    "word": "Was die",
+    "start": 17.78,
+    "end": 18.339
+  },
+  {
+    "word": "meisten",
+    "start": 18.339,
+    "end": 18.897
+  },
+  {
+    "word": "Reisenden",
+    "start": 18.897,
+    "end": 19.456
+  },
+  {
+    "word": "nicht",
+    "start": 19.456,
+    "end": 20.014
+  },
+  {
+    "word": "wissen:",
+    "start": 20.014,
+    "end": 20.573
+  },
+  {
+    "word": "Flughäfen",
+    "start": 20.573,
+    "end": 21.131
+  },
+  {
+    "word": "in Europa",
+    "start": 21.131,
+    "end": 21.69
+  },
+  {
+    "word": "und den",
+    "start": 21.69,
+    "end": 22.248
+  },
+  {
+    "word": "USA setzen",
+    "start": 22.248,
+    "end": 22.807
+  },
+  {
+    "word": "seit",
+    "start": 22.807,
+    "end": 23.365
+  },
+  {
+    "word": "Jahren",
+    "start": 23.365,
+    "end": 23.924
+  },
+  {
+    "word": "speziell",
+    "start": 23.924,
+    "end": 24.482
+  },
+  {
+    "word": "ausgebildete",
+    "start": 24.482,
+    "end": 25.041
+  },
+  {
+    "word": "Behavioral",
+    "start": 25.041,
+    "end": 25.599
+  },
+  {
+    "word": "Detection",
+    "start": 25.599,
+    "end": 26.158
+  },
+  {
+    "word": "Officers",
+    "start": 26.158,
+    "end": 26.716
+  },
+  {
+    "word": "ein. Diese",
+    "start": 26.716,
+    "end": 27.275
+  },
+  {
+    "word": "Beamten",
+    "start": 27.275,
+    "end": 27.834
+  },
+  {
+    "word": "sind",
+    "start": 27.834,
+    "end": 28.392
+  },
+  {
+    "word": "darauf",
+    "start": 28.392,
+    "end": 28.951
+  },
+  {
+    "word": "trainiert,",
+    "start": 28.951,
+    "end": 29.509
+  },
+  {
+    "word": "über",
+    "start": 29.509,
+    "end": 30.068
+  },
+  {
+    "word": "200 einzelne",
+    "start": 30.068,
+    "end": 30.626
+  },
+  {
+    "word": "Mikroverhaltensweisen",
+    "start": 30.626,
+    "end": 31.185
+  },
+  {
+    "word": "zu erkennen",
+    "start": 31.185,
+    "end": 31.743
+  },
+  {
+    "word": "— viele",
+    "start": 31.743,
+    "end": 32.302
+  },
+  {
+    "word": "davon",
+    "start": 32.302,
+    "end": 32.86
+  },
+  {
+    "word": "unbewusst.",
+    "start": 32.86,
+    "end": 33.419
+  },
+  {
+    "word": "Das ist",
+    "start": 33.419,
+    "end": 33.977
+  },
+  {
+    "word": "keine",
+    "start": 33.977,
+    "end": 34.536
+  },
+  {
+    "word": "Fiktion.",
+    "start": 34.536,
+    "end": 35.094
+  },
+  {
+    "word": "Das passiert",
+    "start": 35.094,
+    "end": 35.653
+  },
+  {
+    "word": "täglich",
+    "start": 35.653,
+    "end": 36.211
+  },
+  {
+    "word": "bei dir.",
+    "start": 36.211,
+    "end": 36.77
+  },
+  {
+    "word": "Behavioral",
+    "start": 37.07,
+    "end": 37.68
+  },
+  {
+    "word": "Detection",
+    "start": 37.68,
+    "end": 38.29
+  },
+  {
+    "word": "Officers",
+    "start": 38.29,
+    "end": 38.9
+  },
+  {
+    "word": "— kurz",
+    "start": 38.9,
+    "end": 39.51
+  },
+  {
+    "word": "BDOs",
+    "start": 39.51,
+    "end": 40.12
+  },
+  {
+    "word": "— sind",
+    "start": 40.12,
+    "end": 40.73
+  },
+  {
+    "word": "keine",
+    "start": 40.73,
+    "end": 41.34
+  },
+  {
+    "word": "normalen",
+    "start": 41.34,
+    "end": 41.95
+  },
+  {
+    "word": "Sicherheitsleute.",
+    "start": 41.95,
+    "end": 42.56
+  },
+  {
+    "word": "Sie durchlaufen",
+    "start": 42.56,
+    "end": 43.17
+  },
+  {
+    "word": "eine",
+    "start": 43.17,
+    "end": 43.78
+  },
+  {
+    "word": "mehrwöchige",
+    "start": 43.78,
+    "end": 44.39
+  },
+  {
+    "word": "Spezialausbildung",
+    "start": 44.39,
+    "end": 45.0
+  },
+  {
+    "word": "in Psychologie,",
+    "start": 45.0,
+    "end": 45.61
+  },
+  {
+    "word": "Körpersprache",
+    "start": 45.61,
+    "end": 46.22
+  },
+  {
+    "word": "und Stressreaktionen.",
+    "start": 46.22,
+    "end": 46.83
+  },
+  {
+    "word": "Manche",
+    "start": 46.83,
+    "end": 47.44
+  },
+  {
+    "word": "von ihnen",
+    "start": 47.44,
+    "end": 48.05
+  },
+  {
+    "word": "haben",
+    "start": 48.05,
+    "end": 48.66
+  },
+  {
+    "word": "über",
+    "start": 48.66,
+    "end": 49.27
+  },
+  {
+    "word": "zehntausend",
+    "start": 49.27,
+    "end": 49.88
+  },
+  {
+    "word": "Passagiere",
+    "start": 49.88,
+    "end": 50.49
+  },
+  {
+    "word": "beobachtet.",
+    "start": 50.49,
+    "end": 51.1
+  },
+  {
+    "word": "Sie erkennen",
+    "start": 51.1,
+    "end": 51.71
+  },
+  {
+    "word": "Muster,",
+    "start": 51.71,
+    "end": 52.32
+  },
+  {
+    "word": "die du",
+    "start": 52.32,
+    "end": 52.93
+  },
+  {
+    "word": "selbst",
+    "start": 52.93,
+    "end": 53.54
+  },
+  {
+    "word": "an dir",
+    "start": 53.54,
+    "end": 54.15
+  },
+  {
+    "word": "nicht",
+    "start": 54.15,
+    "end": 54.76
+  },
+  {
+    "word": "kennst.",
+    "start": 54.76,
+    "end": 55.37
+  },
+  {
+    "word": "Der Moment,",
+    "start": 55.67,
+    "end": 56.298
+  },
+  {
+    "word": "in dem",
+    "start": 56.298,
+    "end": 56.925
+  },
+  {
+    "word": "du die",
+    "start": 56.925,
+    "end": 57.553
+  },
+  {
+    "word": "Sicherheitszone",
+    "start": 57.553,
+    "end": 58.18
+  },
+  {
+    "word": "betrittst,",
+    "start": 58.18,
+    "end": 58.808
+  },
+  {
+    "word": "beginnt",
+    "start": 58.808,
+    "end": 59.436
+  },
+  {
+    "word": "die Uhr.",
+    "start": 59.436,
+    "end": 60.063
+  },
+  {
+    "word": "Beamte",
+    "start": 60.063,
+    "end": 60.691
+  },
+  {
+    "word": "beobachten,",
+    "start": 60.691,
+    "end": 61.318
+  },
+  {
+    "word": "wohin",
+    "start": 61.318,
+    "end": 61.946
+  },
+  {
+    "word": "dein",
+    "start": 61.946,
+    "end": 62.573
+  },
+  {
+    "word": "Blick",
+    "start": 62.573,
+    "end": 63.201
+  },
+  {
+    "word": "als erstes",
+    "start": 63.201,
+    "end": 63.829
+  },
+  {
+    "word": "geht.",
+    "start": 63.829,
+    "end": 64.456
+  },
+  {
+    "word": "Schaust",
+    "start": 64.456,
+    "end": 65.084
+  },
+  {
+    "word": "du zu",
+    "start": 65.084,
+    "end": 65.711
+  },
+  {
+    "word": "den Kameras?",
+    "start": 65.711,
+    "end": 66.339
+  },
+  {
+    "word": "Zur Notausgangstür?",
+    "start": 66.339,
+    "end": 66.967
+  },
+  {
+    "word": "Oder",
+    "start": 66.967,
+    "end": 67.594
+  },
+  {
+    "word": "suchst",
+    "start": 67.594,
+    "end": 68.222
+  },
+  {
+    "word": "du Augenkontakt",
+    "start": 68.222,
+    "end": 68.849
+  },
+  {
+    "word": "— oder",
+    "start": 68.849,
+    "end": 69.477
+  },
+  {
+    "word": "vermeidest",
+    "start": 69.477,
+    "end": 70.104
+  },
+  {
+    "word": "ihn aktiv?",
+    "start": 70.104,
+    "end": 70.732
+  },
+  {
+    "word": "Jede",
+    "start": 70.732,
+    "end": 71.36
+  },
+  {
+    "word": "dieser",
+    "start": 71.36,
+    "end": 71.987
+  },
+  {
+    "word": "Reaktionen",
+    "start": 71.987,
+    "end": 72.615
+  },
+  {
+    "word": "sendet",
+    "start": 72.615,
+    "end": 73.242
+  },
+  {
+    "word": "ein Signal.",
+    "start": 73.242,
+    "end": 73.87
+  },
+  {
+    "word": "Das amerikanische",
+    "start": 74.17,
+    "end": 74.944
+  },
+  {
+    "word": "SPOT-Programm",
+    "start": 74.944,
+    "end": 75.719
+  },
+  {
+    "word": "— Screening",
+    "start": 75.719,
+    "end": 76.493
+  },
+  {
+    "word": "of Passengers",
+    "start": 76.493,
+    "end": 77.268
+  },
+  {
+    "word": "by Observation",
+    "start": 77.268,
+    "end": 78.042
+  },
+  {
+    "word": "Techniques",
+    "start": 78.042,
+    "end": 78.817
+  },
+  {
+    "word": "— wurde",
+    "start": 78.817,
+    "end": 79.591
+  },
+  {
+    "word": "nach",
+    "start": 79.591,
+    "end": 80.366
+  },
+  {
+    "word": "dem 11.",
+    "start": 80.366,
+    "end": 81.14
+  },
+  {
+    "word": "September",
+    "start": 81.14,
+    "end": 81.914
+  },
+  {
+    "word": "entwickelt",
+    "start": 81.914,
+    "end": 82.689
+  },
+  {
+    "word": "und kostet",
+    "start": 82.689,
+    "end": 83.463
+  },
+  {
+    "word": "die TSA",
+    "start": 83.463,
+    "end": 84.238
+  },
+  {
+    "word": "jährlich",
+    "start": 84.238,
+    "end": 85.012
+  },
+  {
+    "word": "über",
+    "start": 85.012,
+    "end": 85.787
+  },
+  {
+    "word": "900 Millionen",
+    "start": 85.787,
+    "end": 86.561
+  },
+  {
+    "word": "Dollar.",
+    "start": 86.561,
+    "end": 87.336
+  },
+  {
+    "word": "Es basiert",
+    "start": 87.336,
+    "end": 88.11
+  },
+  {
+    "word": "auf wissenschaftlichen",
+    "start": 88.11,
+    "end": 88.884
+  },
+  {
+    "word": "Erkenntnissen",
+    "start": 88.884,
+    "end": 89.659
+  },
+  {
+    "word": "zur Stresserkennung.",
+    "start": 89.659,
+    "end": 90.433
+  },
+  {
+    "word": "Und es",
+    "start": 90.433,
+    "end": 91.208
+  },
+  {
+    "word": "wird",
+    "start": 91.208,
+    "end": 91.982
+  },
+  {
+    "word": "heute",
+    "start": 91.982,
+    "end": 92.757
+  },
+  {
+    "word": "an über",
+    "start": 92.757,
+    "end": 93.531
+  },
+  {
+    "word": "180 US-Flughäfen",
+    "start": 93.531,
+    "end": 94.306
+  },
+  {
+    "word": "eingesetzt.",
+    "start": 94.306,
+    "end": 95.08
+  },
+  {
+    "word": "Einer",
+    "start": 95.38,
+    "end": 95.957
+  },
+  {
+    "word": "der wichtigsten",
+    "start": 95.957,
+    "end": 96.534
+  },
+  {
+    "word": "Indikatoren:",
+    "start": 96.534,
+    "end": 97.111
+  },
+  {
+    "word": "Schwitzen",
+    "start": 97.111,
+    "end": 97.688
+  },
+  {
+    "word": "in klimatisierten",
+    "start": 97.688,
+    "end": 98.264
+  },
+  {
+    "word": "Räumen.",
+    "start": 98.264,
+    "end": 98.841
+  },
+  {
+    "word": "Wenn",
+    "start": 98.841,
+    "end": 99.418
+  },
+  {
+    "word": "deine",
+    "start": 99.418,
+    "end": 99.995
+  },
+  {
+    "word": "Stirn",
+    "start": 99.995,
+    "end": 100.572
+  },
+  {
+    "word": "feucht",
+    "start": 100.572,
+    "end": 101.149
+  },
+  {
+    "word": "ist, obwohl",
+    "start": 101.149,
+    "end": 101.726
+  },
+  {
+    "word": "es 20",
+    "start": 101.726,
+    "end": 102.302
+  },
+  {
+    "word": "Grad",
+    "start": 102.302,
+    "end": 102.879
+  },
+  {
+    "word": "im Terminal",
+    "start": 102.879,
+    "end": 103.456
+  },
+  {
+    "word": "hat, registriert",
+    "start": 103.456,
+    "end": 104.033
+  },
+  {
+    "word": "ein trainierter",
+    "start": 104.033,
+    "end": 104.61
+  },
+  {
+    "word": "Beamter",
+    "start": 104.61,
+    "end": 105.187
+  },
+  {
+    "word": "das sofort.",
+    "start": 105.187,
+    "end": 105.764
+  },
+  {
+    "word": "Stress",
+    "start": 105.764,
+    "end": 106.341
+  },
+  {
+    "word": "aktiviert",
+    "start": 106.341,
+    "end": 106.917
+  },
+  {
+    "word": "das sympathische",
+    "start": 106.917,
+    "end": 107.494
+  },
+  {
+    "word": "Nervensystem",
+    "start": 107.494,
+    "end": 108.071
+  },
+  {
+    "word": "— und",
+    "start": 108.071,
+    "end": 108.648
+  },
+  {
+    "word": "das lässt",
+    "start": 108.648,
+    "end": 109.225
+  },
+  {
+    "word": "sich",
+    "start": 109.225,
+    "end": 109.802
+  },
+  {
+    "word": "nicht",
+    "start": 109.802,
+    "end": 110.379
+  },
+  {
+    "word": "einfach",
+    "start": 110.379,
+    "end": 110.956
+  },
+  {
+    "word": "abschalten.",
+    "start": 110.956,
+    "end": 111.532
+  },
+  {
+    "word": "Dein",
+    "start": 111.532,
+    "end": 112.109
+  },
+  {
+    "word": "Körper",
+    "start": 112.109,
+    "end": 112.686
+  },
+  {
+    "word": "lügt",
+    "start": 112.686,
+    "end": 113.263
+  },
+  {
+    "word": "nicht.",
+    "start": 113.263,
+    "end": 113.84
+  },
+  {
+    "word": "Deine",
+    "start": 114.14,
+    "end": 114.714
+  },
+  {
+    "word": "Hände",
+    "start": 114.714,
+    "end": 115.287
+  },
+  {
+    "word": "verraten",
+    "start": 115.287,
+    "end": 115.861
+  },
+  {
+    "word": "unglaublich",
+    "start": 115.861,
+    "end": 116.434
+  },
+  {
+    "word": "viel.",
+    "start": 116.434,
+    "end": 117.008
+  },
+  {
+    "word": "Zittern,",
+    "start": 117.008,
+    "end": 117.581
+  },
+  {
+    "word": "übermäßiges",
+    "start": 117.581,
+    "end": 118.155
+  },
+  {
+    "word": "Reiben,",
+    "start": 118.155,
+    "end": 118.728
+  },
+  {
+    "word": "Finger",
+    "start": 118.728,
+    "end": 119.302
+  },
+  {
+    "word": "ineinander",
+    "start": 119.302,
+    "end": 119.875
+  },
+  {
+    "word": "verschränken",
+    "start": 119.875,
+    "end": 120.449
+  },
+  {
+    "word": "oder",
+    "start": 120.449,
+    "end": 121.022
+  },
+  {
+    "word": "sich",
+    "start": 121.022,
+    "end": 121.596
+  },
+  {
+    "word": "ständig",
+    "start": 121.596,
+    "end": 122.169
+  },
+  {
+    "word": "am Gesicht",
+    "start": 122.169,
+    "end": 122.743
+  },
+  {
+    "word": "berühren",
+    "start": 122.743,
+    "end": 123.316
+  },
+  {
+    "word": "— all",
+    "start": 123.316,
+    "end": 123.89
+  },
+  {
+    "word": "das sind",
+    "start": 123.89,
+    "end": 124.464
+  },
+  {
+    "word": "klassische",
+    "start": 124.464,
+    "end": 125.037
+  },
+  {
+    "word": "Stressindikatoren.",
+    "start": 125.037,
+    "end": 125.611
+  },
+  {
+    "word": "Profiler",
+    "start": 125.611,
+    "end": 126.184
+  },
+  {
+    "word": "nennen",
+    "start": 126.184,
+    "end": 126.758
+  },
+  {
+    "word": "das sogenannte",
+    "start": 126.758,
+    "end": 127.331
+  },
+  {
+    "word": "Selbstberuhigungsgesten.",
+    "start": 127.331,
+    "end": 127.905
+  },
+  {
+    "word": "Je mehr",
+    "start": 127.905,
+    "end": 128.478
+  },
+  {
+    "word": "davon",
+    "start": 128.478,
+    "end": 129.052
+  },
+  {
+    "word": "gleichzeitig",
+    "start": 129.052,
+    "end": 129.625
+  },
+  {
+    "word": "auftreten,",
+    "start": 129.625,
+    "end": 130.199
+  },
+  {
+    "word": "desto",
+    "start": 130.199,
+    "end": 130.772
+  },
+  {
+    "word": "höher",
+    "start": 130.772,
+    "end": 131.346
+  },
+  {
+    "word": "steigt",
+    "start": 131.346,
+    "end": 131.919
+  },
+  {
+    "word": "dein",
+    "start": 131.919,
+    "end": 132.493
+  },
+  {
+    "word": "unsichtbarer",
+    "start": 132.493,
+    "end": 133.066
+  },
+  {
+    "word": "Risikoscore.",
+    "start": 133.066,
+    "end": 133.64
+  },
+  {
+    "word": "Wie du",
+    "start": 133.94,
+    "end": 134.479
+  },
+  {
+    "word": "gehst,",
+    "start": 134.479,
+    "end": 135.019
+  },
+  {
+    "word": "sagt",
+    "start": 135.019,
+    "end": 135.558
+  },
+  {
+    "word": "mehr",
+    "start": 135.558,
+    "end": 136.098
+  },
+  {
+    "word": "als du",
+    "start": 136.098,
+    "end": 136.637
+  },
+  {
+    "word": "denkst.",
+    "start": 136.637,
+    "end": 137.177
+  },
+  {
+    "word": "Zu langsam",
+    "start": 137.177,
+    "end": 137.716
+  },
+  {
+    "word": "gehen",
+    "start": 137.716,
+    "end": 138.256
+  },
+  {
+    "word": "kann",
+    "start": 138.256,
+    "end": 138.795
+  },
+  {
+    "word": "auf Orientierungslosigkeit",
+    "start": 138.795,
+    "end": 139.334
+  },
+  {
+    "word": "oder",
+    "start": 139.334,
+    "end": 139.874
+  },
+  {
+    "word": "Planung",
+    "start": 139.874,
+    "end": 140.413
+  },
+  {
+    "word": "hindeuten.",
+    "start": 140.413,
+    "end": 140.953
+  },
+  {
+    "word": "Zu schnell",
+    "start": 140.953,
+    "end": 141.492
+  },
+  {
+    "word": "gehen",
+    "start": 141.492,
+    "end": 142.032
+  },
+  {
+    "word": "auf Fluchtimpulse.",
+    "start": 142.032,
+    "end": 142.571
+  },
+  {
+    "word": "Beamte",
+    "start": 142.571,
+    "end": 143.111
+  },
+  {
+    "word": "achten",
+    "start": 143.111,
+    "end": 143.65
+  },
+  {
+    "word": "auch",
+    "start": 143.65,
+    "end": 144.189
+  },
+  {
+    "word": "auf plötzliche",
+    "start": 144.189,
+    "end": 144.729
+  },
+  {
+    "word": "Richtungswechsel,",
+    "start": 144.729,
+    "end": 145.268
+  },
+  {
+    "word": "kurze",
+    "start": 145.268,
+    "end": 145.808
+  },
+  {
+    "word": "Stopps",
+    "start": 145.808,
+    "end": 146.347
+  },
+  {
+    "word": "ohne",
+    "start": 146.347,
+    "end": 146.887
+  },
+  {
+    "word": "Grund,",
+    "start": 146.887,
+    "end": 147.426
+  },
+  {
+    "word": "oder",
+    "start": 147.426,
+    "end": 147.966
+  },
+  {
+    "word": "den Blick",
+    "start": 147.966,
+    "end": 148.505
+  },
+  {
+    "word": "über",
+    "start": 148.505,
+    "end": 149.044
+  },
+  {
+    "word": "die Schulter.",
+    "start": 149.044,
+    "end": 149.584
+  },
+  {
+    "word": "Diese",
+    "start": 149.584,
+    "end": 150.123
+  },
+  {
+    "word": "Muster",
+    "start": 150.123,
+    "end": 150.663
+  },
+  {
+    "word": "werden",
+    "start": 150.663,
+    "end": 151.202
+  },
+  {
+    "word": "intern",
+    "start": 151.202,
+    "end": 151.742
+  },
+  {
+    "word": "als Avoidance",
+    "start": 151.742,
+    "end": 152.281
+  },
+  {
+    "word": "Behavior",
+    "start": 152.281,
+    "end": 152.821
+  },
+  {
+    "word": "klassifiziert.",
+    "start": 152.821,
+    "end": 153.36
+  },
+  {
+    "word": "Beamte",
+    "start": 153.66,
+    "end": 154.284
+  },
+  {
+    "word": "arbeiten",
+    "start": 154.284,
+    "end": 154.907
+  },
+  {
+    "word": "nicht",
+    "start": 154.907,
+    "end": 155.531
+  },
+  {
+    "word": "nach",
+    "start": 155.531,
+    "end": 156.154
+  },
+  {
+    "word": "Bauchgefühl.",
+    "start": 156.154,
+    "end": 156.778
+  },
+  {
+    "word": "In vielen",
+    "start": 156.778,
+    "end": 157.402
+  },
+  {
+    "word": "Ländern",
+    "start": 157.402,
+    "end": 158.025
+  },
+  {
+    "word": "gibt",
+    "start": 158.025,
+    "end": 158.649
+  },
+  {
+    "word": "es standardisierte",
+    "start": 158.649,
+    "end": 159.272
+  },
+  {
+    "word": "Bewertungssysteme",
+    "start": 159.273,
+    "end": 159.896
+  },
+  {
+    "word": "— sogenannte",
+    "start": 159.896,
+    "end": 160.52
+  },
+  {
+    "word": "Risiko-Scores.",
+    "start": 160.52,
+    "end": 161.143
+  },
+  {
+    "word": "Jedes",
+    "start": 161.143,
+    "end": 161.767
+  },
+  {
+    "word": "auffällige",
+    "start": 161.767,
+    "end": 162.391
+  },
+  {
+    "word": "Verhalten",
+    "start": 162.391,
+    "end": 163.014
+  },
+  {
+    "word": "gibt",
+    "start": 163.014,
+    "end": 163.638
+  },
+  {
+    "word": "Punkte.",
+    "start": 163.638,
+    "end": 164.261
+  },
+  {
+    "word": "Ab einem",
+    "start": 164.261,
+    "end": 164.885
+  },
+  {
+    "word": "bestimmten",
+    "start": 164.885,
+    "end": 165.509
+  },
+  {
+    "word": "Schwellenwert",
+    "start": 165.509,
+    "end": 166.132
+  },
+  {
+    "word": "wirst",
+    "start": 166.132,
+    "end": 166.756
+  },
+  {
+    "word": "du für",
+    "start": 166.756,
+    "end": 167.379
+  },
+  {
+    "word": "eine",
+    "start": 167.379,
+    "end": 168.003
+  },
+  {
+    "word": "erweiterte",
+    "start": 168.003,
+    "end": 168.627
+  },
+  {
+    "word": "Kontrolle",
+    "start": 168.627,
+    "end": 169.25
+  },
+  {
+    "word": "markiert",
+    "start": 169.25,
+    "end": 169.874
+  },
+  {
+    "word": "— ohne",
+    "start": 169.874,
+    "end": 170.497
+  },
+  {
+    "word": "es zu",
+    "start": 170.498,
+    "end": 171.121
+  },
+  {
+    "word": "wissen.",
+    "start": 171.121,
+    "end": 171.745
+  },
+  {
+    "word": "Und ohne",
+    "start": 171.745,
+    "end": 172.368
+  },
+  {
+    "word": "dass",
+    "start": 172.368,
+    "end": 172.992
+  },
+  {
+    "word": "du etwas",
+    "start": 172.992,
+    "end": 173.616
+  },
+  {
+    "word": "Illegales",
+    "start": 173.616,
+    "end": 174.239
+  },
+  {
+    "word": "getan",
+    "start": 174.239,
+    "end": 174.863
+  },
+  {
+    "word": "haben",
+    "start": 174.863,
+    "end": 175.486
+  },
+  {
+    "word": "musst.",
+    "start": 175.486,
+    "end": 176.11
+  },
+  {
+    "word": "Entgegen",
+    "start": 176.41,
+    "end": 176.953
+  },
+  {
+    "word": "vieler",
+    "start": 176.953,
+    "end": 177.496
+  },
+  {
+    "word": "Mythen",
+    "start": 177.496,
+    "end": 178.038
+  },
+  {
+    "word": "interessiert",
+    "start": 178.038,
+    "end": 178.581
+  },
+  {
+    "word": "sich",
+    "start": 178.581,
+    "end": 179.124
+  },
+  {
+    "word": "ein Profiler",
+    "start": 179.124,
+    "end": 179.667
+  },
+  {
+    "word": "nicht",
+    "start": 179.667,
+    "end": 180.209
+  },
+  {
+    "word": "für teure",
+    "start": 180.209,
+    "end": 180.752
+  },
+  {
+    "word": "oder",
+    "start": 180.752,
+    "end": 181.295
+  },
+  {
+    "word": "günstige",
+    "start": 181.295,
+    "end": 181.838
+  },
+  {
+    "word": "Kleidung.",
+    "start": 181.838,
+    "end": 182.381
+  },
+  {
+    "word": "Was zählt:",
+    "start": 182.381,
+    "end": 182.923
+  },
+  {
+    "word": "Passt",
+    "start": 182.923,
+    "end": 183.466
+  },
+  {
+    "word": "deine",
+    "start": 183.466,
+    "end": 184.009
+  },
+  {
+    "word": "Kleidung",
+    "start": 184.009,
+    "end": 184.552
+  },
+  {
+    "word": "zur Reiseroute",
+    "start": 184.552,
+    "end": 185.094
+  },
+  {
+    "word": "und Jahreszeit?",
+    "start": 185.094,
+    "end": 185.637
+  },
+  {
+    "word": "Trägt",
+    "start": 185.637,
+    "end": 186.18
+  },
+  {
+    "word": "jemand",
+    "start": 186.18,
+    "end": 186.723
+  },
+  {
+    "word": "im Sommer",
+    "start": 186.723,
+    "end": 187.266
+  },
+  {
+    "word": "einen",
+    "start": 187.266,
+    "end": 187.808
+  },
+  {
+    "word": "langen",
+    "start": 187.808,
+    "end": 188.351
+  },
+  {
+    "word": "Mantel",
+    "start": 188.351,
+    "end": 188.894
+  },
+  {
+    "word": "ohne",
+    "start": 188.894,
+    "end": 189.437
+  },
+  {
+    "word": "ersichtlichen",
+    "start": 189.437,
+    "end": 189.979
+  },
+  {
+    "word": "Grund?",
+    "start": 189.979,
+    "end": 190.522
+  },
+  {
+    "word": "Oder",
+    "start": 190.522,
+    "end": 191.065
+  },
+  {
+    "word": "umgekehrt",
+    "start": 191.065,
+    "end": 191.608
+  },
+  {
+    "word": "— minimale",
+    "start": 191.608,
+    "end": 192.151
+  },
+  {
+    "word": "Kleidung",
+    "start": 192.151,
+    "end": 192.693
+  },
+  {
+    "word": "auf einem",
+    "start": 192.693,
+    "end": 193.236
+  },
+  {
+    "word": "Langstreckenflug",
+    "start": 193.236,
+    "end": 193.779
+  },
+  {
+    "word": "nach",
+    "start": 193.779,
+    "end": 194.322
+  },
+  {
+    "word": "Skandinavien?",
+    "start": 194.322,
+    "end": 194.864
+  },
+  {
+    "word": "Das fällt",
+    "start": 194.864,
+    "end": 195.407
+  },
+  {
+    "word": "auf.",
+    "start": 195.407,
+    "end": 195.95
+  },
+  {
+    "word": "Manchmal",
+    "start": 196.25,
+    "end": 196.759
+  },
+  {
+    "word": "fragt",
+    "start": 196.759,
+    "end": 197.268
+  },
+  {
+    "word": "ein Beamter",
+    "start": 197.268,
+    "end": 197.778
+  },
+  {
+    "word": "dich",
+    "start": 197.778,
+    "end": 198.287
+  },
+  {
+    "word": "etwas",
+    "start": 198.287,
+    "end": 198.796
+  },
+  {
+    "word": "scheinbar",
+    "start": 198.796,
+    "end": 199.305
+  },
+  {
+    "word": "Harmloses:",
+    "start": 199.305,
+    "end": 199.815
+  },
+  {
+    "word": "Wohin",
+    "start": 199.815,
+    "end": 200.324
+  },
+  {
+    "word": "fliegst",
+    "start": 200.324,
+    "end": 200.833
+  },
+  {
+    "word": "du? Wie",
+    "start": 200.833,
+    "end": 201.342
+  },
+  {
+    "word": "lange",
+    "start": 201.342,
+    "end": 201.852
+  },
+  {
+    "word": "bleibst",
+    "start": 201.852,
+    "end": 202.361
+  },
+  {
+    "word": "du? Reist",
+    "start": 202.361,
+    "end": 202.87
+  },
+  {
+    "word": "du alleine?",
+    "start": 202.87,
+    "end": 203.379
+  },
+  {
+    "word": "Das klingt",
+    "start": 203.379,
+    "end": 203.888
+  },
+  {
+    "word": "nach",
+    "start": 203.888,
+    "end": 204.398
+  },
+  {
+    "word": "Small",
+    "start": 204.398,
+    "end": 204.907
+  },
+  {
+    "word": "Talk",
+    "start": 204.907,
+    "end": 205.416
+  },
+  {
+    "word": "— ist",
+    "start": 205.416,
+    "end": 205.925
+  },
+  {
+    "word": "aber",
+    "start": 205.925,
+    "end": 206.435
+  },
+  {
+    "word": "ein strukturiertes",
+    "start": 206.435,
+    "end": 206.944
+  },
+  {
+    "word": "Verhör.",
+    "start": 206.944,
+    "end": 207.453
+  },
+  {
+    "word": "Sie beobachten",
+    "start": 207.453,
+    "end": 207.962
+  },
+  {
+    "word": "nicht",
+    "start": 207.962,
+    "end": 208.472
+  },
+  {
+    "word": "nur die",
+    "start": 208.472,
+    "end": 208.981
+  },
+  {
+    "word": "Antwort,",
+    "start": 208.981,
+    "end": 209.49
+  },
+  {
+    "word": "sondern",
+    "start": 209.49,
+    "end": 209.999
+  },
+  {
+    "word": "die Zeit",
+    "start": 209.999,
+    "end": 210.508
+  },
+  {
+    "word": "bis zur",
+    "start": 210.508,
+    "end": 211.018
+  },
+  {
+    "word": "Antwort,",
+    "start": 211.018,
+    "end": 211.527
+  },
+  {
+    "word": "deinen",
+    "start": 211.527,
+    "end": 212.036
+  },
+  {
+    "word": "Blickkontakt",
+    "start": 212.036,
+    "end": 212.545
+  },
+  {
+    "word": "und ob",
+    "start": 212.545,
+    "end": 213.055
+  },
+  {
+    "word": "du die",
+    "start": 213.055,
+    "end": 213.564
+  },
+  {
+    "word": "Geschichte",
+    "start": 213.564,
+    "end": 214.073
+  },
+  {
+    "word": "beim",
+    "start": 214.073,
+    "end": 214.582
+  },
+  {
+    "word": "zweiten",
+    "start": 214.582,
+    "end": 215.092
+  },
+  {
+    "word": "Mal identisch",
+    "start": 215.092,
+    "end": 215.601
+  },
+  {
+    "word": "erzählst.",
+    "start": 215.601,
+    "end": 216.11
+  },
+  {
+    "word": "Eines",
+    "start": 216.41,
+    "end": 216.96
+  },
+  {
+    "word": "der stärksten",
+    "start": 216.96,
+    "end": 217.511
+  },
+  {
+    "word": "Warnsignale",
+    "start": 217.511,
+    "end": 218.061
+  },
+  {
+    "word": "überhaupt:",
+    "start": 218.061,
+    "end": 218.611
+  },
+  {
+    "word": "Inkonsistenz.",
+    "start": 218.611,
+    "end": 219.161
+  },
+  {
+    "word": "Wenn",
+    "start": 219.161,
+    "end": 219.712
+  },
+  {
+    "word": "jemand",
+    "start": 219.712,
+    "end": 220.262
+  },
+  {
+    "word": "sagt,",
+    "start": 220.262,
+    "end": 220.812
+  },
+  {
+    "word": "er fliegt",
+    "start": 220.812,
+    "end": 221.362
+  },
+  {
+    "word": "zum Urlaub,",
+    "start": 221.362,
+    "end": 221.913
+  },
+  {
+    "word": "aber",
+    "start": 221.913,
+    "end": 222.463
+  },
+  {
+    "word": "keine",
+    "start": 222.463,
+    "end": 223.013
+  },
+  {
+    "word": "Hotelreservierung",
+    "start": 223.013,
+    "end": 223.564
+  },
+  {
+    "word": "nennen",
+    "start": 223.564,
+    "end": 224.114
+  },
+  {
+    "word": "kann.",
+    "start": 224.114,
+    "end": 224.664
+  },
+  {
+    "word": "Oder",
+    "start": 224.664,
+    "end": 225.214
+  },
+  {
+    "word": "wenn",
+    "start": 225.214,
+    "end": 225.765
+  },
+  {
+    "word": "das Gepäck",
+    "start": 225.765,
+    "end": 226.315
+  },
+  {
+    "word": "nicht",
+    "start": 226.315,
+    "end": 226.865
+  },
+  {
+    "word": "zur behaupteten",
+    "start": 226.865,
+    "end": 227.415
+  },
+  {
+    "word": "Reisedauer",
+    "start": 227.415,
+    "end": 227.966
+  },
+  {
+    "word": "passt.",
+    "start": 227.966,
+    "end": 228.516
+  },
+  {
+    "word": "Ein Wochenendtrip",
+    "start": 228.516,
+    "end": 229.066
+  },
+  {
+    "word": "mit drei",
+    "start": 229.066,
+    "end": 229.616
+  },
+  {
+    "word": "Koffern",
+    "start": 229.616,
+    "end": 230.167
+  },
+  {
+    "word": "— oder",
+    "start": 230.167,
+    "end": 230.717
+  },
+  {
+    "word": "eine",
+    "start": 230.717,
+    "end": 231.267
+  },
+  {
+    "word": "zweiwöchige",
+    "start": 231.267,
+    "end": 231.818
+  },
+  {
+    "word": "Reise",
+    "start": 231.818,
+    "end": 232.368
+  },
+  {
+    "word": "nur mit",
+    "start": 232.368,
+    "end": 232.918
+  },
+  {
+    "word": "Handgepäck.",
+    "start": 232.918,
+    "end": 233.468
+  },
+  {
+    "word": "Beamte",
+    "start": 233.468,
+    "end": 234.019
+  },
+  {
+    "word": "merken",
+    "start": 234.019,
+    "end": 234.569
+  },
+  {
+    "word": "sich",
+    "start": 234.569,
+    "end": 235.119
+  },
+  {
+    "word": "solche",
+    "start": 235.119,
+    "end": 235.669
+  },
+  {
+    "word": "Widersprüche",
+    "start": 235.669,
+    "end": 236.22
+  },
+  {
+    "word": "sofort.",
+    "start": 236.22,
+    "end": 236.77
+  },
+  {
+    "word": "Laut",
+    "start": 237.07,
+    "end": 237.747
+  },
+  {
+    "word": "einem",
+    "start": 237.747,
+    "end": 238.425
+  },
+  {
+    "word": "Bericht",
+    "start": 238.425,
+    "end": 239.102
+  },
+  {
+    "word": "des US",
+    "start": 239.102,
+    "end": 239.779
+  },
+  {
+    "word": "Government",
+    "start": 239.779,
+    "end": 240.456
+  },
+  {
+    "word": "Accountability",
+    "start": 240.456,
+    "end": 241.134
+  },
+  {
+    "word": "Office",
+    "start": 241.134,
+    "end": 241.811
+  },
+  {
+    "word": "wurden",
+    "start": 241.811,
+    "end": 242.488
+  },
+  {
+    "word": "durch",
+    "start": 242.488,
+    "end": 243.165
+  },
+  {
+    "word": "das SPOT-Programm",
+    "start": 243.165,
+    "end": 243.843
+  },
+  {
+    "word": "zwischen",
+    "start": 243.843,
+    "end": 244.52
+  },
+  {
+    "word": "2008",
+    "start": 244.52,
+    "end": 245.197
+  },
+  {
+    "word": "und 2012",
+    "start": 245.197,
+    "end": 245.875
+  },
+  {
+    "word": "über",
+    "start": 245.875,
+    "end": 246.552
+  },
+  {
+    "word": "61.000",
+    "start": 246.552,
+    "end": 247.229
+  },
+  {
+    "word": "Passagiere",
+    "start": 247.229,
+    "end": 247.906
+  },
+  {
+    "word": "für erweiterte",
+    "start": 247.906,
+    "end": 248.584
+  },
+  {
+    "word": "Kontrollen",
+    "start": 248.584,
+    "end": 249.261
+  },
+  {
+    "word": "markiert.",
+    "start": 249.261,
+    "end": 249.938
+  },
+  {
+    "word": "Davon",
+    "start": 249.938,
+    "end": 250.615
+  },
+  {
+    "word": "wurden",
+    "start": 250.615,
+    "end": 251.293
+  },
+  {
+    "word": "nur 0,6",
+    "start": 251.293,
+    "end": 251.97
+  },
+  {
+    "word": "Prozent",
+    "start": 251.97,
+    "end": 252.647
+  },
+  {
+    "word": "festgenommen",
+    "start": 252.647,
+    "end": 253.325
+  },
+  {
+    "word": "— und",
+    "start": 253.325,
+    "end": 254.002
+  },
+  {
+    "word": "die meisten",
+    "start": 254.002,
+    "end": 254.679
+  },
+  {
+    "word": "davon",
+    "start": 254.679,
+    "end": 255.356
+  },
+  {
+    "word": "wegen",
+    "start": 255.356,
+    "end": 256.034
+  },
+  {
+    "word": "Einwanderungsverstößen,",
+    "start": 256.034,
+    "end": 256.711
+  },
+  {
+    "word": "nicht",
+    "start": 256.711,
+    "end": 257.388
+  },
+  {
+    "word": "wegen",
+    "start": 257.388,
+    "end": 258.065
+  },
+  {
+    "word": "terroristischer",
+    "start": 258.065,
+    "end": 258.743
+  },
+  {
+    "word": "Aktivitäten.",
+    "start": 258.743,
+    "end": 259.42
+  },
+  {
+    "word": "Viele",
+    "start": 259.72,
+    "end": 260.244
+  },
+  {
+    "word": "Menschen",
+    "start": 260.244,
+    "end": 260.769
+  },
+  {
+    "word": "glauben,",
+    "start": 260.769,
+    "end": 261.293
+  },
+  {
+    "word": "Profiling",
+    "start": 261.293,
+    "end": 261.817
+  },
+  {
+    "word": "bedeute,",
+    "start": 261.817,
+    "end": 262.342
+  },
+  {
+    "word": "bestimmte",
+    "start": 262.342,
+    "end": 262.866
+  },
+  {
+    "word": "ethnische",
+    "start": 262.866,
+    "end": 263.39
+  },
+  {
+    "word": "Gruppen",
+    "start": 263.39,
+    "end": 263.915
+  },
+  {
+    "word": "gezielt",
+    "start": 263.915,
+    "end": 264.439
+  },
+  {
+    "word": "herauszufiltern.",
+    "start": 264.439,
+    "end": 264.963
+  },
+  {
+    "word": "Offiziell",
+    "start": 264.963,
+    "end": 265.488
+  },
+  {
+    "word": "basiert",
+    "start": 265.488,
+    "end": 266.012
+  },
+  {
+    "word": "behavioral",
+    "start": 266.012,
+    "end": 266.536
+  },
+  {
+    "word": "profiling",
+    "start": 266.536,
+    "end": 267.061
+  },
+  {
+    "word": "ausschließlich",
+    "start": 267.061,
+    "end": 267.585
+  },
+  {
+    "word": "auf Verhalten",
+    "start": 267.585,
+    "end": 268.109
+  },
+  {
+    "word": "— nicht",
+    "start": 268.109,
+    "end": 268.634
+  },
+  {
+    "word": "auf Hautfarbe",
+    "start": 268.634,
+    "end": 269.158
+  },
+  {
+    "word": "oder",
+    "start": 269.158,
+    "end": 269.682
+  },
+  {
+    "word": "Herkunft.",
+    "start": 269.682,
+    "end": 270.206
+  },
+  {
+    "word": "Doch",
+    "start": 270.206,
+    "end": 270.731
+  },
+  {
+    "word": "Studien",
+    "start": 270.731,
+    "end": 271.255
+  },
+  {
+    "word": "zeigen,",
+    "start": 271.255,
+    "end": 271.779
+  },
+  {
+    "word": "dass",
+    "start": 271.779,
+    "end": 272.304
+  },
+  {
+    "word": "unbewusste",
+    "start": 272.304,
+    "end": 272.828
+  },
+  {
+    "word": "Vorurteile",
+    "start": 272.828,
+    "end": 273.352
+  },
+  {
+    "word": "bei Beamten",
+    "start": 273.352,
+    "end": 273.877
+  },
+  {
+    "word": "eine",
+    "start": 273.877,
+    "end": 274.401
+  },
+  {
+    "word": "Rolle",
+    "start": 274.401,
+    "end": 274.925
+  },
+  {
+    "word": "spielen",
+    "start": 274.925,
+    "end": 275.45
+  },
+  {
+    "word": "können.",
+    "start": 275.45,
+    "end": 275.974
+  },
+  {
+    "word": "Ein Thema,",
+    "start": 275.974,
+    "end": 276.498
+  },
+  {
+    "word": "das in",
+    "start": 276.498,
+    "end": 277.023
+  },
+  {
+    "word": "der Branche",
+    "start": 277.023,
+    "end": 277.547
+  },
+  {
+    "word": "heiß",
+    "start": 277.547,
+    "end": 278.071
+  },
+  {
+    "word": "diskutiert",
+    "start": 278.071,
+    "end": 278.596
+  },
+  {
+    "word": "wird.",
+    "start": 278.596,
+    "end": 279.12
+  },
+  {
+    "word": "Hier",
+    "start": 279.42,
+    "end": 279.969
+  },
+  {
+    "word": "ist das",
+    "start": 279.969,
+    "end": 280.519
+  },
+  {
+    "word": "Paradoxe:",
+    "start": 280.519,
+    "end": 281.068
+  },
+  {
+    "word": "Wer weiß,",
+    "start": 281.068,
+    "end": 281.617
+  },
+  {
+    "word": "dass",
+    "start": 281.617,
+    "end": 282.167
+  },
+  {
+    "word": "er beobachtet",
+    "start": 282.167,
+    "end": 282.716
+  },
+  {
+    "word": "wird,",
+    "start": 282.716,
+    "end": 283.266
+  },
+  {
+    "word": "verhält",
+    "start": 283.266,
+    "end": 283.815
+  },
+  {
+    "word": "sich",
+    "start": 283.815,
+    "end": 284.364
+  },
+  {
+    "word": "oft merkwürdiger",
+    "start": 284.364,
+    "end": 284.914
+  },
+  {
+    "word": "als normalerweise.",
+    "start": 284.914,
+    "end": 285.463
+  },
+  {
+    "word": "Unschuldige",
+    "start": 285.463,
+    "end": 286.012
+  },
+  {
+    "word": "Passagiere,",
+    "start": 286.012,
+    "end": 286.562
+  },
+  {
+    "word": "die Angst",
+    "start": 286.562,
+    "end": 287.111
+  },
+  {
+    "word": "vor Kontrollen",
+    "start": 287.111,
+    "end": 287.661
+  },
+  {
+    "word": "haben,",
+    "start": 287.661,
+    "end": 288.21
+  },
+  {
+    "word": "zeigen",
+    "start": 288.21,
+    "end": 288.759
+  },
+  {
+    "word": "häufig",
+    "start": 288.759,
+    "end": 289.309
+  },
+  {
+    "word": "mehr",
+    "start": 289.309,
+    "end": 289.858
+  },
+  {
+    "word": "Stressreaktionen",
+    "start": 289.858,
+    "end": 290.407
+  },
+  {
+    "word": "als jemand",
+    "start": 290.407,
+    "end": 290.957
+  },
+  {
+    "word": "mit einem",
+    "start": 290.957,
+    "end": 291.506
+  },
+  {
+    "word": "echten",
+    "start": 291.506,
+    "end": 292.056
+  },
+  {
+    "word": "Vorsatz.",
+    "start": 292.056,
+    "end": 292.605
+  },
+  {
+    "word": "Das System",
+    "start": 292.605,
+    "end": 293.154
+  },
+  {
+    "word": "ist nicht",
+    "start": 293.154,
+    "end": 293.704
+  },
+  {
+    "word": "fehlerfrei",
+    "start": 293.704,
+    "end": 294.253
+  },
+  {
+    "word": "— und",
+    "start": 294.253,
+    "end": 294.802
+  },
+  {
+    "word": "das wissen",
+    "start": 294.802,
+    "end": 295.352
+  },
+  {
+    "word": "auch",
+    "start": 295.352,
+    "end": 295.901
+  },
+  {
+    "word": "die Beamten",
+    "start": 295.901,
+    "end": 296.451
+  },
+  {
+    "word": "selbst.",
+    "start": 296.451,
+    "end": 297.0
+  },
+  {
+    "word": "Kein",
+    "start": 297.3,
+    "end": 297.876
+  },
+  {
+    "word": "Flughafensicherheitssystem",
+    "start": 297.876,
+    "end": 298.452
+  },
+  {
+    "word": "der Welt",
+    "start": 298.452,
+    "end": 299.028
+  },
+  {
+    "word": "gilt",
+    "start": 299.028,
+    "end": 299.605
+  },
+  {
+    "word": "als effektiver",
+    "start": 299.605,
+    "end": 300.181
+  },
+  {
+    "word": "als das",
+    "start": 300.181,
+    "end": 300.757
+  },
+  {
+    "word": "israelische",
+    "start": 300.757,
+    "end": 301.333
+  },
+  {
+    "word": "am Ben-Gurion-Flughafen",
+    "start": 301.333,
+    "end": 301.909
+  },
+  {
+    "word": "in Tel",
+    "start": 301.909,
+    "end": 302.485
+  },
+  {
+    "word": "Aviv.",
+    "start": 302.485,
+    "end": 303.061
+  },
+  {
+    "word": "Dort",
+    "start": 303.061,
+    "end": 303.637
+  },
+  {
+    "word": "werden",
+    "start": 303.637,
+    "end": 304.214
+  },
+  {
+    "word": "Passagiere",
+    "start": 304.214,
+    "end": 304.79
+  },
+  {
+    "word": "in konzentrischen",
+    "start": 304.79,
+    "end": 305.366
+  },
+  {
+    "word": "Sicherheitsringen",
+    "start": 305.366,
+    "end": 305.942
+  },
+  {
+    "word": "bereits",
+    "start": 305.942,
+    "end": 306.518
+  },
+  {
+    "word": "beim",
+    "start": 306.518,
+    "end": 307.094
+  },
+  {
+    "word": "Betreten",
+    "start": 307.094,
+    "end": 307.67
+  },
+  {
+    "word": "des Flughafengeländes",
+    "start": 307.67,
+    "end": 308.246
+  },
+  {
+    "word": "beobachtet.",
+    "start": 308.246,
+    "end": 308.823
+  },
+  {
+    "word": "Das Gespräch",
+    "start": 308.823,
+    "end": 309.399
+  },
+  {
+    "word": "mit einem",
+    "start": 309.399,
+    "end": 309.975
+  },
+  {
+    "word": "Beamten",
+    "start": 309.975,
+    "end": 310.551
+  },
+  {
+    "word": "dauert",
+    "start": 310.551,
+    "end": 311.127
+  },
+  {
+    "word": "im Schnitt",
+    "start": 311.127,
+    "end": 311.703
+  },
+  {
+    "word": "fünf",
+    "start": 311.703,
+    "end": 312.279
+  },
+  {
+    "word": "bis zehn",
+    "start": 312.279,
+    "end": 312.855
+  },
+  {
+    "word": "Minuten",
+    "start": 312.855,
+    "end": 313.432
+  },
+  {
+    "word": "— für",
+    "start": 313.432,
+    "end": 314.008
+  },
+  {
+    "word": "jeden",
+    "start": 314.008,
+    "end": 314.584
+  },
+  {
+    "word": "Passagier.",
+    "start": 314.584,
+    "end": 315.16
+  },
+  {
+    "word": "Israelische",
+    "start": 315.46,
+    "end": 316.025
+  },
+  {
+    "word": "Beamte",
+    "start": 316.025,
+    "end": 316.589
+  },
+  {
+    "word": "stellen",
+    "start": 316.589,
+    "end": 317.154
+  },
+  {
+    "word": "gezielt",
+    "start": 317.154,
+    "end": 317.719
+  },
+  {
+    "word": "Fragen,",
+    "start": 317.719,
+    "end": 318.284
+  },
+  {
+    "word": "bei denen",
+    "start": 318.284,
+    "end": 318.848
+  },
+  {
+    "word": "eine",
+    "start": 318.848,
+    "end": 319.413
+  },
+  {
+    "word": "vorbereitete",
+    "start": 319.413,
+    "end": 319.978
+  },
+  {
+    "word": "Lüge",
+    "start": 319.978,
+    "end": 320.543
+  },
+  {
+    "word": "nicht",
+    "start": 320.543,
+    "end": 321.107
+  },
+  {
+    "word": "ausreicht.",
+    "start": 321.107,
+    "end": 321.672
+  },
+  {
+    "word": "Nicht",
+    "start": 321.672,
+    "end": 322.237
+  },
+  {
+    "word": "weil",
+    "start": 322.237,
+    "end": 322.802
+  },
+  {
+    "word": "die Frage",
+    "start": 322.802,
+    "end": 323.366
+  },
+  {
+    "word": "selbst",
+    "start": 323.366,
+    "end": 323.931
+  },
+  {
+    "word": "schwer",
+    "start": 323.931,
+    "end": 324.496
+  },
+  {
+    "word": "ist —",
+    "start": 324.496,
+    "end": 325.061
+  },
+  {
+    "word": "sondern",
+    "start": 325.061,
+    "end": 325.625
+  },
+  {
+    "word": "weil",
+    "start": 325.625,
+    "end": 326.19
+  },
+  {
+    "word": "sie deine",
+    "start": 326.19,
+    "end": 326.755
+  },
+  {
+    "word": "Reaktionszeit",
+    "start": 326.755,
+    "end": 327.319
+  },
+  {
+    "word": "messen.",
+    "start": 327.319,
+    "end": 327.884
+  },
+  {
+    "word": "Auf eine",
+    "start": 327.884,
+    "end": 328.449
+  },
+  {
+    "word": "ehrliche",
+    "start": 328.449,
+    "end": 329.014
+  },
+  {
+    "word": "Frage",
+    "start": 329.014,
+    "end": 329.578
+  },
+  {
+    "word": "antwortet",
+    "start": 329.578,
+    "end": 330.143
+  },
+  {
+    "word": "man in",
+    "start": 330.143,
+    "end": 330.708
+  },
+  {
+    "word": "unter",
+    "start": 330.708,
+    "end": 331.273
+  },
+  {
+    "word": "zwei",
+    "start": 331.273,
+    "end": 331.837
+  },
+  {
+    "word": "Sekunden.",
+    "start": 331.837,
+    "end": 332.402
+  },
+  {
+    "word": "Wer länger",
+    "start": 332.402,
+    "end": 332.967
+  },
+  {
+    "word": "braucht,",
+    "start": 332.967,
+    "end": 333.532
+  },
+  {
+    "word": "sucht",
+    "start": 333.532,
+    "end": 334.096
+  },
+  {
+    "word": "nach",
+    "start": 334.096,
+    "end": 334.661
+  },
+  {
+    "word": "der richtigen",
+    "start": 334.661,
+    "end": 335.226
+  },
+  {
+    "word": "Version",
+    "start": 335.226,
+    "end": 335.791
+  },
+  {
+    "word": "seiner",
+    "start": 335.791,
+    "end": 336.355
+  },
+  {
+    "word": "Geschichte.",
+    "start": 336.355,
+    "end": 336.92
+  },
+  {
+    "word": "Profiling-Beamte",
+    "start": 337.22,
+    "end": 337.786
+  },
+  {
+    "word": "werden",
+    "start": 337.786,
+    "end": 338.352
+  },
+  {
+    "word": "auch",
+    "start": 338.352,
+    "end": 338.918
+  },
+  {
+    "word": "in der",
+    "start": 338.918,
+    "end": 339.484
+  },
+  {
+    "word": "Erkennung",
+    "start": 339.484,
+    "end": 340.05
+  },
+  {
+    "word": "sogenannter",
+    "start": 340.05,
+    "end": 340.616
+  },
+  {
+    "word": "Mikroausdrücke",
+    "start": 340.616,
+    "end": 341.182
+  },
+  {
+    "word": "geschult.",
+    "start": 341.182,
+    "end": 341.748
+  },
+  {
+    "word": "Das sind",
+    "start": 341.748,
+    "end": 342.314
+  },
+  {
+    "word": "blitzschnelle",
+    "start": 342.314,
+    "end": 342.88
+  },
+  {
+    "word": "Gesichtsregungen,",
+    "start": 342.88,
+    "end": 343.446
+  },
+  {
+    "word": "die weniger",
+    "start": 343.446,
+    "end": 344.012
+  },
+  {
+    "word": "als ein",
+    "start": 344.012,
+    "end": 344.578
+  },
+  {
+    "word": "Fünftel",
+    "start": 344.578,
+    "end": 345.144
+  },
+  {
+    "word": "einer",
+    "start": 345.144,
+    "end": 345.71
+  },
+  {
+    "word": "Sekunde",
+    "start": 345.71,
+    "end": 346.276
+  },
+  {
+    "word": "dauern",
+    "start": 346.276,
+    "end": 346.842
+  },
+  {
+    "word": "und echte",
+    "start": 346.842,
+    "end": 347.408
+  },
+  {
+    "word": "Emotionen",
+    "start": 347.408,
+    "end": 347.974
+  },
+  {
+    "word": "verraten",
+    "start": 347.974,
+    "end": 348.54
+  },
+  {
+    "word": "— auch",
+    "start": 348.54,
+    "end": 349.106
+  },
+  {
+    "word": "wenn",
+    "start": 349.106,
+    "end": 349.672
+  },
+  {
+    "word": "man versucht,",
+    "start": 349.672,
+    "end": 350.238
+  },
+  {
+    "word": "sie zu",
+    "start": 350.238,
+    "end": 350.804
+  },
+  {
+    "word": "unterdrücken.",
+    "start": 350.804,
+    "end": 351.37
+  },
+  {
+    "word": "Angst,",
+    "start": 351.37,
+    "end": 351.936
+  },
+  {
+    "word": "Verachtung,",
+    "start": 351.936,
+    "end": 352.502
+  },
+  {
+    "word": "Überraschung",
+    "start": 352.502,
+    "end": 353.068
+  },
+  {
+    "word": "— sichtbar",
+    "start": 353.068,
+    "end": 353.634
+  },
+  {
+    "word": "in Millisekunden.",
+    "start": 353.634,
+    "end": 354.2
+  },
+  {
+    "word": "Mittlerweile",
+    "start": 354.5,
+    "end": 355.15
+  },
+  {
+    "word": "helfen",
+    "start": 355.15,
+    "end": 355.801
+  },
+  {
+    "word": "Algorithmen",
+    "start": 355.801,
+    "end": 356.451
+  },
+  {
+    "word": "und KI-gestützte",
+    "start": 356.451,
+    "end": 357.102
+  },
+  {
+    "word": "Kameras",
+    "start": 357.102,
+    "end": 357.752
+  },
+  {
+    "word": "den Beamten.",
+    "start": 357.752,
+    "end": 358.402
+  },
+  {
+    "word": "Systeme",
+    "start": 358.402,
+    "end": 359.053
+  },
+  {
+    "word": "wie iBorderCtrl,",
+    "start": 359.053,
+    "end": 359.703
+  },
+  {
+    "word": "erprobt",
+    "start": 359.703,
+    "end": 360.354
+  },
+  {
+    "word": "an europäischen",
+    "start": 360.354,
+    "end": 361.004
+  },
+  {
+    "word": "Grenzübergängen,",
+    "start": 361.004,
+    "end": 361.654
+  },
+  {
+    "word": "analysieren",
+    "start": 361.654,
+    "end": 362.305
+  },
+  {
+    "word": "Augenbewegungen",
+    "start": 362.305,
+    "end": 362.955
+  },
+  {
+    "word": "und Sprachmuster",
+    "start": 362.955,
+    "end": 363.606
+  },
+  {
+    "word": "in Echtzeit.",
+    "start": 363.606,
+    "end": 364.256
+  },
+  {
+    "word": "Noch",
+    "start": 364.256,
+    "end": 364.906
+  },
+  {
+    "word": "sind",
+    "start": 364.906,
+    "end": 365.557
+  },
+  {
+    "word": "diese",
+    "start": 365.557,
+    "end": 366.207
+  },
+  {
+    "word": "Systeme",
+    "start": 366.207,
+    "end": 366.858
+  },
+  {
+    "word": "nicht",
+    "start": 366.858,
+    "end": 367.508
+  },
+  {
+    "word": "flächendeckend",
+    "start": 367.508,
+    "end": 368.158
+  },
+  {
+    "word": "im Einsatz",
+    "start": 368.158,
+    "end": 368.809
+  },
+  {
+    "word": "— aber",
+    "start": 368.809,
+    "end": 369.459
+  },
+  {
+    "word": "die Richtung",
+    "start": 369.459,
+    "end": 370.11
+  },
+  {
+    "word": "ist klar.",
+    "start": 370.11,
+    "end": 370.76
+  },
+  {
+    "word": "Verschränkte",
+    "start": 371.06,
+    "end": 371.618
+  },
+  {
+    "word": "Arme,",
+    "start": 371.618,
+    "end": 372.176
+  },
+  {
+    "word": "gesenkter",
+    "start": 372.176,
+    "end": 372.734
+  },
+  {
+    "word": "Blick,",
+    "start": 372.734,
+    "end": 373.293
+  },
+  {
+    "word": "eingezogene",
+    "start": 373.293,
+    "end": 373.851
+  },
+  {
+    "word": "Schultern",
+    "start": 373.851,
+    "end": 374.409
+  },
+  {
+    "word": "— viele",
+    "start": 374.409,
+    "end": 374.967
+  },
+  {
+    "word": "denken,",
+    "start": 374.967,
+    "end": 375.525
+  },
+  {
+    "word": "das macht",
+    "start": 375.525,
+    "end": 376.083
+  },
+  {
+    "word": "einen",
+    "start": 376.083,
+    "end": 376.641
+  },
+  {
+    "word": "verdächtig.",
+    "start": 376.641,
+    "end": 377.199
+  },
+  {
+    "word": "Stimmt",
+    "start": 377.199,
+    "end": 377.757
+  },
+  {
+    "word": "nicht",
+    "start": 377.757,
+    "end": 378.316
+  },
+  {
+    "word": "unbedingt.",
+    "start": 378.316,
+    "end": 378.874
+  },
+  {
+    "word": "Beamte",
+    "start": 378.874,
+    "end": 379.432
+  },
+  {
+    "word": "achten",
+    "start": 379.432,
+    "end": 379.99
+  },
+  {
+    "word": "mehr",
+    "start": 379.99,
+    "end": 380.548
+  },
+  {
+    "word": "auf Abweichungen",
+    "start": 380.548,
+    "end": 381.106
+  },
+  {
+    "word": "von deinem",
+    "start": 381.106,
+    "end": 381.664
+  },
+  {
+    "word": "Normalverhalten",
+    "start": 381.664,
+    "end": 382.223
+  },
+  {
+    "word": "als auf",
+    "start": 382.223,
+    "end": 382.781
+  },
+  {
+    "word": "einzelne",
+    "start": 382.781,
+    "end": 383.339
+  },
+  {
+    "word": "Gesten.",
+    "start": 383.339,
+    "end": 383.897
+  },
+  {
+    "word": "Wer immer",
+    "start": 383.897,
+    "end": 384.455
+  },
+  {
+    "word": "defensiv",
+    "start": 384.455,
+    "end": 385.013
+  },
+  {
+    "word": "ist, wirkt",
+    "start": 385.013,
+    "end": 385.571
+  },
+  {
+    "word": "weniger",
+    "start": 385.571,
+    "end": 386.129
+  },
+  {
+    "word": "verdächtig",
+    "start": 386.129,
+    "end": 386.688
+  },
+  {
+    "word": "als jemand,",
+    "start": 386.688,
+    "end": 387.246
+  },
+  {
+    "word": "der plötzlich",
+    "start": 387.246,
+    "end": 387.804
+  },
+  {
+    "word": "anders",
+    "start": 387.804,
+    "end": 388.362
+  },
+  {
+    "word": "wird.",
+    "start": 388.362,
+    "end": 388.92
+  },
+  {
+    "word": "Wenn",
+    "start": 389.22,
+    "end": 389.865
+  },
+  {
+    "word": "du herausgegriffen",
+    "start": 389.865,
+    "end": 390.509
+  },
+  {
+    "word": "wirst,",
+    "start": 390.509,
+    "end": 391.154
+  },
+  {
+    "word": "wirst",
+    "start": 391.154,
+    "end": 391.798
+  },
+  {
+    "word": "du in",
+    "start": 391.798,
+    "end": 392.443
+  },
+  {
+    "word": "einen",
+    "start": 392.443,
+    "end": 393.087
+  },
+  {
+    "word": "separaten",
+    "start": 393.087,
+    "end": 393.732
+  },
+  {
+    "word": "Bereich",
+    "start": 393.732,
+    "end": 394.376
+  },
+  {
+    "word": "geführt.",
+    "start": 394.376,
+    "end": 395.021
+  },
+  {
+    "word": "Die Befragung",
+    "start": 395.021,
+    "end": 395.665
+  },
+  {
+    "word": "ist strukturiert",
+    "start": 395.665,
+    "end": 396.31
+  },
+  {
+    "word": "und kann",
+    "start": 396.31,
+    "end": 396.955
+  },
+  {
+    "word": "20 bis",
+    "start": 396.955,
+    "end": 397.599
+  },
+  {
+    "word": "90 Minuten",
+    "start": 397.599,
+    "end": 398.244
+  },
+  {
+    "word": "dauern.",
+    "start": 398.244,
+    "end": 398.888
+  },
+  {
+    "word": "Du hast",
+    "start": 398.888,
+    "end": 399.533
+  },
+  {
+    "word": "das Recht,",
+    "start": 399.533,
+    "end": 400.177
+  },
+  {
+    "word": "Fragen",
+    "start": 400.177,
+    "end": 400.822
+  },
+  {
+    "word": "zu beantworten",
+    "start": 400.822,
+    "end": 401.466
+  },
+  {
+    "word": "oder",
+    "start": 401.466,
+    "end": 402.111
+  },
+  {
+    "word": "zu schweigen",
+    "start": 402.111,
+    "end": 402.755
+  },
+  {
+    "word": "— aber",
+    "start": 402.755,
+    "end": 403.4
+  },
+  {
+    "word": "dein",
+    "start": 403.4,
+    "end": 404.045
+  },
+  {
+    "word": "Verhalten",
+    "start": 404.045,
+    "end": 404.689
+  },
+  {
+    "word": "während",
+    "start": 404.689,
+    "end": 405.334
+  },
+  {
+    "word": "des Schweigens",
+    "start": 405.334,
+    "end": 405.978
+  },
+  {
+    "word": "wird",
+    "start": 405.978,
+    "end": 406.623
+  },
+  {
+    "word": "ebenfalls",
+    "start": 406.623,
+    "end": 407.267
+  },
+  {
+    "word": "bewertet.",
+    "start": 407.267,
+    "end": 407.912
+  },
+  {
+    "word": "Es gibt",
+    "start": 407.912,
+    "end": 408.556
+  },
+  {
+    "word": "keinen",
+    "start": 408.556,
+    "end": 409.201
+  },
+  {
+    "word": "neutralen",
+    "start": 409.201,
+    "end": 409.845
+  },
+  {
+    "word": "Zustand.",
+    "start": 409.845,
+    "end": 410.49
+  },
+  {
+    "word": "Nicht",
+    "start": 410.79,
+    "end": 411.302
+  },
+  {
+    "word": "nur dein",
+    "start": 411.302,
+    "end": 411.813
+  },
+  {
+    "word": "Verhalten",
+    "start": 411.813,
+    "end": 412.325
+  },
+  {
+    "word": "wird",
+    "start": 412.325,
+    "end": 412.837
+  },
+  {
+    "word": "analysiert",
+    "start": 412.837,
+    "end": 413.348
+  },
+  {
+    "word": "— auch",
+    "start": 413.348,
+    "end": 413.86
+  },
+  {
+    "word": "dein",
+    "start": 413.86,
+    "end": 414.372
+  },
+  {
+    "word": "Gepäck",
+    "start": 414.372,
+    "end": 414.883
+  },
+  {
+    "word": "erzählt",
+    "start": 414.883,
+    "end": 415.395
+  },
+  {
+    "word": "eine",
+    "start": 415.395,
+    "end": 415.907
+  },
+  {
+    "word": "Geschichte.",
+    "start": 415.907,
+    "end": 416.418
+  },
+  {
+    "word": "Sehr",
+    "start": 416.418,
+    "end": 416.93
+  },
+  {
+    "word": "ordentlich",
+    "start": 416.93,
+    "end": 417.442
+  },
+  {
+    "word": "gepackte",
+    "start": 417.442,
+    "end": 417.953
+  },
+  {
+    "word": "Koffer",
+    "start": 417.953,
+    "end": 418.465
+  },
+  {
+    "word": "ohne",
+    "start": 418.465,
+    "end": 418.977
+  },
+  {
+    "word": "persönliche",
+    "start": 418.977,
+    "end": 419.488
+  },
+  {
+    "word": "Gegenstände",
+    "start": 419.488,
+    "end": 420.0
+  },
+  {
+    "word": "können",
+    "start": 420.0,
+    "end": 420.512
+  },
+  {
+    "word": "genauso",
+    "start": 420.512,
+    "end": 421.023
+  },
+  {
+    "word": "auffällig",
+    "start": 421.023,
+    "end": 421.535
+  },
+  {
+    "word": "sein",
+    "start": 421.535,
+    "end": 422.047
+  },
+  {
+    "word": "wie chaotisch",
+    "start": 422.047,
+    "end": 422.558
+  },
+  {
+    "word": "gepackte.",
+    "start": 422.558,
+    "end": 423.07
+  },
+  {
+    "word": "Beamte",
+    "start": 423.07,
+    "end": 423.582
+  },
+  {
+    "word": "fragen",
+    "start": 423.582,
+    "end": 424.093
+  },
+  {
+    "word": "sich:",
+    "start": 424.093,
+    "end": 424.605
+  },
+  {
+    "word": "Passt",
+    "start": 424.605,
+    "end": 425.117
+  },
+  {
+    "word": "das Gepäck",
+    "start": 425.117,
+    "end": 425.628
+  },
+  {
+    "word": "zur Person?",
+    "start": 425.628,
+    "end": 426.14
+  },
+  {
+    "word": "Zur Reise?",
+    "start": 426.14,
+    "end": 426.652
+  },
+  {
+    "word": "Zu der",
+    "start": 426.652,
+    "end": 427.163
+  },
+  {
+    "word": "Geschichte,",
+    "start": 427.163,
+    "end": 427.675
+  },
+  {
+    "word": "die der",
+    "start": 427.675,
+    "end": 428.187
+  },
+  {
+    "word": "Passagier",
+    "start": 428.187,
+    "end": 428.698
+  },
+  {
+    "word": "erzählt?",
+    "start": 428.698,
+    "end": 429.21
+  },
+  {
+    "word": "Wer ein",
+    "start": 429.51,
+    "end": 430.024
+  },
+  {
+    "word": "Ticket",
+    "start": 430.024,
+    "end": 430.538
+  },
+  {
+    "word": "kurz",
+    "start": 430.538,
+    "end": 431.052
+  },
+  {
+    "word": "vor Abflug",
+    "start": 431.052,
+    "end": 431.566
+  },
+  {
+    "word": "kauft",
+    "start": 431.566,
+    "end": 432.081
+  },
+  {
+    "word": "und bar",
+    "start": 432.081,
+    "end": 432.595
+  },
+  {
+    "word": "bezahlt,",
+    "start": 432.595,
+    "end": 433.109
+  },
+  {
+    "word": "landet",
+    "start": 433.109,
+    "end": 433.623
+  },
+  {
+    "word": "automatisch",
+    "start": 433.623,
+    "end": 434.137
+  },
+  {
+    "word": "auf einem",
+    "start": 434.137,
+    "end": 434.651
+  },
+  {
+    "word": "erhöhten",
+    "start": 434.651,
+    "end": 435.165
+  },
+  {
+    "word": "Aufmerksamkeitsradar.",
+    "start": 435.165,
+    "end": 435.679
+  },
+  {
+    "word": "Schätzungen",
+    "start": 435.679,
+    "end": 436.194
+  },
+  {
+    "word": "zufolge",
+    "start": 436.194,
+    "end": 436.708
+  },
+  {
+    "word": "werden",
+    "start": 436.708,
+    "end": 437.222
+  },
+  {
+    "word": "solche",
+    "start": 437.222,
+    "end": 437.736
+  },
+  {
+    "word": "Tickets",
+    "start": 437.736,
+    "end": 438.25
+  },
+  {
+    "word": "in über",
+    "start": 438.25,
+    "end": 438.764
+  },
+  {
+    "word": "40 Prozent",
+    "start": 438.764,
+    "end": 439.278
+  },
+  {
+    "word": "der Fälle",
+    "start": 439.278,
+    "end": 439.792
+  },
+  {
+    "word": "für eine",
+    "start": 439.792,
+    "end": 440.306
+  },
+  {
+    "word": "manuelle",
+    "start": 440.306,
+    "end": 440.821
+  },
+  {
+    "word": "Überprüfung",
+    "start": 440.821,
+    "end": 441.335
+  },
+  {
+    "word": "markiert.",
+    "start": 441.335,
+    "end": 441.849
+  },
+  {
+    "word": "Das ist",
+    "start": 441.849,
+    "end": 442.363
+  },
+  {
+    "word": "kein",
+    "start": 442.363,
+    "end": 442.877
+  },
+  {
+    "word": "Zufall",
+    "start": 442.877,
+    "end": 443.391
+  },
+  {
+    "word": "— es",
+    "start": 443.391,
+    "end": 443.905
+  },
+  {
+    "word": "ist ein",
+    "start": 443.905,
+    "end": 444.419
+  },
+  {
+    "word": "Algorithmus,",
+    "start": 444.419,
+    "end": 444.934
+  },
+  {
+    "word": "der bereits",
+    "start": 444.934,
+    "end": 445.448
+  },
+  {
+    "word": "vor deiner",
+    "start": 445.448,
+    "end": 445.962
+  },
+  {
+    "word": "Ankunft",
+    "start": 445.962,
+    "end": 446.476
+  },
+  {
+    "word": "läuft.",
+    "start": 446.476,
+    "end": 446.99
+  },
+  {
+    "word": "Noch",
+    "start": 447.29,
+    "end": 447.86
+  },
+  {
+    "word": "bevor",
+    "start": 447.86,
+    "end": 448.43
+  },
+  {
+    "word": "du den",
+    "start": 448.43,
+    "end": 449.0
+  },
+  {
+    "word": "Flughafen",
+    "start": 449.0,
+    "end": 449.57
+  },
+  {
+    "word": "betrittst,",
+    "start": 449.57,
+    "end": 450.14
+  },
+  {
+    "word": "kann",
+    "start": 450.14,
+    "end": 450.71
+  },
+  {
+    "word": "dein",
+    "start": 450.71,
+    "end": 451.28
+  },
+  {
+    "word": "digitales",
+    "start": 451.28,
+    "end": 451.85
+  },
+  {
+    "word": "Profil",
+    "start": 451.85,
+    "end": 452.42
+  },
+  {
+    "word": "bereits",
+    "start": 452.42,
+    "end": 452.99
+  },
+  {
+    "word": "überprüft",
+    "start": 452.99,
+    "end": 453.56
+  },
+  {
+    "word": "worden",
+    "start": 453.56,
+    "end": 454.13
+  },
+  {
+    "word": "sein.",
+    "start": 454.13,
+    "end": 454.7
+  },
+  {
+    "word": "In den",
+    "start": 454.7,
+    "end": 455.27
+  },
+  {
+    "word": "USA erlaubt",
+    "start": 455.27,
+    "end": 455.84
+  },
+  {
+    "word": "das Heimatschutzministerium",
+    "start": 455.84,
+    "end": 456.41
+  },
+  {
+    "word": "die Überprüfung",
+    "start": 456.41,
+    "end": 456.98
+  },
+  {
+    "word": "öffentlicher",
+    "start": 456.98,
+    "end": 457.55
+  },
+  {
+    "word": "Social-Media-Profile",
+    "start": 457.55,
+    "end": 458.12
+  },
+  {
+    "word": "von Visa-Antragstellern.",
+    "start": 458.12,
+    "end": 458.69
+  },
+  {
+    "word": "Was du",
+    "start": 458.69,
+    "end": 459.26
+  },
+  {
+    "word": "postest,",
+    "start": 459.26,
+    "end": 459.83
+  },
+  {
+    "word": "welchen",
+    "start": 459.83,
+    "end": 460.4
+  },
+  {
+    "word": "Gruppen",
+    "start": 460.4,
+    "end": 460.97
+  },
+  {
+    "word": "du folgst",
+    "start": 460.97,
+    "end": 461.54
+  },
+  {
+    "word": "— das",
+    "start": 461.54,
+    "end": 462.11
+  },
+  {
+    "word": "kann",
+    "start": 462.11,
+    "end": 462.68
+  },
+  {
+    "word": "Einfluss",
+    "start": 462.68,
+    "end": 463.25
+  },
+  {
+    "word": "auf deine",
+    "start": 463.25,
+    "end": 463.82
+  },
+  {
+    "word": "Einreisegenehmigung",
+    "start": 463.82,
+    "end": 464.39
+  },
+  {
+    "word": "haben.",
+    "start": 464.39,
+    "end": 464.96
+  },
+  {
+    "word": "Es gibt",
+    "start": 465.26,
+    "end": 465.92
+  },
+  {
+    "word": "dokumentierte",
+    "start": 465.92,
+    "end": 466.58
+  },
+  {
+    "word": "Fälle,",
+    "start": 466.58,
+    "end": 467.24
+  },
+  {
+    "word": "in denen",
+    "start": 467.24,
+    "end": 467.9
+  },
+  {
+    "word": "Profiling",
+    "start": 467.9,
+    "end": 468.56
+  },
+  {
+    "word": "zu ernsthaften",
+    "start": 468.56,
+    "end": 469.22
+  },
+  {
+    "word": "Fehlern",
+    "start": 469.22,
+    "end": 469.88
+  },
+  {
+    "word": "geführt",
+    "start": 469.88,
+    "end": 470.54
+  },
+  {
+    "word": "hat. Mathematikprofessor",
+    "start": 470.54,
+    "end": 471.2
+  },
+  {
+    "word": "Guido",
+    "start": 471.2,
+    "end": 471.86
+  },
+  {
+    "word": "Menzio",
+    "start": 471.86,
+    "end": 472.52
+  },
+  {
+    "word": "wurde",
+    "start": 472.52,
+    "end": 473.18
+  },
+  {
+    "word": "2016",
+    "start": 473.18,
+    "end": 473.84
+  },
+  {
+    "word": "von einem",
+    "start": 473.84,
+    "end": 474.5
+  },
+  {
+    "word": "Flugzeug",
+    "start": 474.5,
+    "end": 475.16
+  },
+  {
+    "word": "verwiesen,",
+    "start": 475.16,
+    "end": 475.82
+  },
+  {
+    "word": "weil",
+    "start": 475.82,
+    "end": 476.48
+  },
+  {
+    "word": "eine",
+    "start": 476.48,
+    "end": 477.14
+  },
+  {
+    "word": "Mitpassagierin",
+    "start": 477.14,
+    "end": 477.8
+  },
+  {
+    "word": "seine",
+    "start": 477.8,
+    "end": 478.46
+  },
+  {
+    "word": "Gleichungen",
+    "start": 478.46,
+    "end": 479.12
+  },
+  {
+    "word": "für terroristische",
+    "start": 479.12,
+    "end": 479.78
+  },
+  {
+    "word": "Notizen",
+    "start": 479.78,
+    "end": 480.44
+  },
+  {
+    "word": "hielt.",
+    "start": 480.44,
+    "end": 481.1
+  },
+  {
+    "word": "Die Crew",
+    "start": 481.1,
+    "end": 481.76
+  },
+  {
+    "word": "handelte",
+    "start": 481.76,
+    "end": 482.42
+  },
+  {
+    "word": "nach",
+    "start": 482.42,
+    "end": 483.08
+  },
+  {
+    "word": "Hinweis",
+    "start": 483.08,
+    "end": 483.74
+  },
+  {
+    "word": "— und",
+    "start": 483.74,
+    "end": 484.4
+  },
+  {
+    "word": "lag vollkommen",
+    "start": 484.4,
+    "end": 485.06
+  },
+  {
+    "word": "falsch.",
+    "start": 485.06,
+    "end": 485.72
+  },
+  {
+    "word": "Solche",
+    "start": 486.02,
+    "end": 486.6
+  },
+  {
+    "word": "Fälle",
+    "start": 486.6,
+    "end": 487.179
+  },
+  {
+    "word": "sind",
+    "start": 487.179,
+    "end": 487.759
+  },
+  {
+    "word": "keine",
+    "start": 487.759,
+    "end": 488.339
+  },
+  {
+    "word": "Ausnahmen.",
+    "start": 488.339,
+    "end": 488.919
+  },
+  {
+    "word": "Ein arabischsprachiger",
+    "start": 488.919,
+    "end": 489.498
+  },
+  {
+    "word": "Politikwissenschaftler",
+    "start": 489.498,
+    "end": 490.078
+  },
+  {
+    "word": "wurde",
+    "start": 490.078,
+    "end": 490.658
+  },
+  {
+    "word": "2016",
+    "start": 490.658,
+    "end": 491.237
+  },
+  {
+    "word": "von einem",
+    "start": 491.237,
+    "end": 491.817
+  },
+  {
+    "word": "United-Airlines-Flug",
+    "start": 491.817,
+    "end": 492.397
+  },
+  {
+    "word": "geholt,",
+    "start": 492.397,
+    "end": 492.976
+  },
+  {
+    "word": "weil",
+    "start": 492.976,
+    "end": 493.556
+  },
+  {
+    "word": "seine",
+    "start": 493.556,
+    "end": 494.136
+  },
+  {
+    "word": "Sprache",
+    "start": 494.136,
+    "end": 494.716
+  },
+  {
+    "word": "einen",
+    "start": 494.716,
+    "end": 495.295
+  },
+  {
+    "word": "Mitpassagier",
+    "start": 495.295,
+    "end": 495.875
+  },
+  {
+    "word": "beunruhigt",
+    "start": 495.875,
+    "end": 496.455
+  },
+  {
+    "word": "hatte.",
+    "start": 496.455,
+    "end": 497.034
+  },
+  {
+    "word": "Eine",
+    "start": 497.034,
+    "end": 497.614
+  },
+  {
+    "word": "muslimische",
+    "start": 497.614,
+    "end": 498.194
+  },
+  {
+    "word": "Frau",
+    "start": 498.194,
+    "end": 498.774
+  },
+  {
+    "word": "wurde",
+    "start": 498.774,
+    "end": 499.353
+  },
+  {
+    "word": "vom Sitz",
+    "start": 499.353,
+    "end": 499.933
+  },
+  {
+    "word": "entfernt,",
+    "start": 499.933,
+    "end": 500.513
+  },
+  {
+    "word": "weil",
+    "start": 500.513,
+    "end": 501.092
+  },
+  {
+    "word": "sie keinen",
+    "start": 501.092,
+    "end": 501.672
+  },
+  {
+    "word": "Alkohol",
+    "start": 501.672,
+    "end": 502.252
+  },
+  {
+    "word": "bestellt",
+    "start": 502.252,
+    "end": 502.831
+  },
+  {
+    "word": "hatte.",
+    "start": 502.831,
+    "end": 503.411
+  },
+  {
+    "word": "Profiling",
+    "start": 503.411,
+    "end": 503.991
+  },
+  {
+    "word": "auf Basis",
+    "start": 503.991,
+    "end": 504.571
+  },
+  {
+    "word": "von Unwissen",
+    "start": 504.571,
+    "end": 505.15
+  },
+  {
+    "word": "ist gefährlich.",
+    "start": 505.15,
+    "end": 505.73
+  },
+  {
+    "word": "Wenn",
+    "start": 506.03,
+    "end": 506.523
+  },
+  {
+    "word": "du für",
+    "start": 506.523,
+    "end": 507.016
+  },
+  {
+    "word": "eine",
+    "start": 507.016,
+    "end": 507.509
+  },
+  {
+    "word": "erweiterte",
+    "start": 507.509,
+    "end": 508.003
+  },
+  {
+    "word": "Kontrolle",
+    "start": 508.003,
+    "end": 508.496
+  },
+  {
+    "word": "ausgewählt",
+    "start": 508.496,
+    "end": 508.989
+  },
+  {
+    "word": "wirst,",
+    "start": 508.989,
+    "end": 509.482
+  },
+  {
+    "word": "muss",
+    "start": 509.482,
+    "end": 509.975
+  },
+  {
+    "word": "der Beamte",
+    "start": 509.975,
+    "end": 510.468
+  },
+  {
+    "word": "dir nicht",
+    "start": 510.468,
+    "end": 510.961
+  },
+  {
+    "word": "sagen,",
+    "start": 510.961,
+    "end": 511.455
+  },
+  {
+    "word": "warum.",
+    "start": 511.455,
+    "end": 511.948
+  },
+  {
+    "word": "In den",
+    "start": 511.948,
+    "end": 512.441
+  },
+  {
+    "word": "meisten",
+    "start": 512.441,
+    "end": 512.934
+  },
+  {
+    "word": "Ländern",
+    "start": 512.934,
+    "end": 513.427
+  },
+  {
+    "word": "gilt:",
+    "start": 513.427,
+    "end": 513.92
+  },
+  {
+    "word": "Sicherheitsprotokolle",
+    "start": 513.92,
+    "end": 514.413
+  },
+  {
+    "word": "sind",
+    "start": 514.413,
+    "end": 514.907
+  },
+  {
+    "word": "geheim.",
+    "start": 514.907,
+    "end": 515.4
+  },
+  {
+    "word": "Du hast",
+    "start": 515.4,
+    "end": 515.893
+  },
+  {
+    "word": "kein",
+    "start": 515.893,
+    "end": 516.386
+  },
+  {
+    "word": "Recht",
+    "start": 516.386,
+    "end": 516.879
+  },
+  {
+    "word": "auf Einsicht",
+    "start": 516.879,
+    "end": 517.372
+  },
+  {
+    "word": "in deinen",
+    "start": 517.372,
+    "end": 517.865
+  },
+  {
+    "word": "Risiko-Score.",
+    "start": 517.865,
+    "end": 518.359
+  },
+  {
+    "word": "Und in",
+    "start": 518.359,
+    "end": 518.852
+  },
+  {
+    "word": "manchen",
+    "start": 518.852,
+    "end": 519.345
+  },
+  {
+    "word": "Systemen",
+    "start": 519.345,
+    "end": 519.838
+  },
+  {
+    "word": "bleibt",
+    "start": 519.838,
+    "end": 520.331
+  },
+  {
+    "word": "eine",
+    "start": 520.331,
+    "end": 520.824
+  },
+  {
+    "word": "einmal",
+    "start": 520.824,
+    "end": 521.317
+  },
+  {
+    "word": "erstellte",
+    "start": 521.317,
+    "end": 521.811
+  },
+  {
+    "word": "Markierung",
+    "start": 521.811,
+    "end": 522.304
+  },
+  {
+    "word": "jahrelang",
+    "start": 522.304,
+    "end": 522.797
+  },
+  {
+    "word": "gespeichert.",
+    "start": 522.797,
+    "end": 523.29
+  },
+  {
+    "word": "Die US-amerikanische",
+    "start": 523.59,
+    "end": 524.137
+  },
+  {
+    "word": "No-Fly-List",
+    "start": 524.137,
+    "end": 524.684
+  },
+  {
+    "word": "enthält",
+    "start": 524.684,
+    "end": 525.23
+  },
+  {
+    "word": "laut",
+    "start": 525.23,
+    "end": 525.777
+  },
+  {
+    "word": "Medienberichten",
+    "start": 525.777,
+    "end": 526.324
+  },
+  {
+    "word": "mehrere",
+    "start": 526.324,
+    "end": 526.871
+  },
+  {
+    "word": "tausend",
+    "start": 526.871,
+    "end": 527.417
+  },
+  {
+    "word": "Namen",
+    "start": 527.417,
+    "end": 527.964
+  },
+  {
+    "word": "— darunter",
+    "start": 527.964,
+    "end": 528.511
+  },
+  {
+    "word": "viele",
+    "start": 528.511,
+    "end": 529.058
+  },
+  {
+    "word": "Personen,",
+    "start": 529.058,
+    "end": 529.605
+  },
+  {
+    "word": "die nie",
+    "start": 529.605,
+    "end": 530.151
+  },
+  {
+    "word": "einer",
+    "start": 530.151,
+    "end": 530.698
+  },
+  {
+    "word": "Straftat",
+    "start": 530.698,
+    "end": 531.245
+  },
+  {
+    "word": "beschuldigt",
+    "start": 531.245,
+    "end": 531.792
+  },
+  {
+    "word": "wurden.",
+    "start": 531.792,
+    "end": 532.338
+  },
+  {
+    "word": "Babys",
+    "start": 532.338,
+    "end": 532.885
+  },
+  {
+    "word": "und Kleinkinder",
+    "start": 532.885,
+    "end": 533.432
+  },
+  {
+    "word": "wurden",
+    "start": 533.432,
+    "end": 533.979
+  },
+  {
+    "word": "fälschlicherweise",
+    "start": 533.979,
+    "end": 534.525
+  },
+  {
+    "word": "eingetragen.",
+    "start": 534.525,
+    "end": 535.072
+  },
+  {
+    "word": "Und wer",
+    "start": 535.072,
+    "end": 535.619
+  },
+  {
+    "word": "einmal",
+    "start": 535.619,
+    "end": 536.166
+  },
+  {
+    "word": "auf der",
+    "start": 536.166,
+    "end": 536.713
+  },
+  {
+    "word": "Liste",
+    "start": 536.713,
+    "end": 537.259
+  },
+  {
+    "word": "steht,",
+    "start": 537.259,
+    "end": 537.806
+  },
+  {
+    "word": "kämpft",
+    "start": 537.806,
+    "end": 538.353
+  },
+  {
+    "word": "oft jahrelang,",
+    "start": 538.353,
+    "end": 538.9
+  },
+  {
+    "word": "um wieder",
+    "start": 538.9,
+    "end": 539.446
+  },
+  {
+    "word": "gestrichen",
+    "start": 539.446,
+    "end": 539.993
+  },
+  {
+    "word": "zu werden.",
+    "start": 539.993,
+    "end": 540.54
+  },
+  {
+    "word": "Was kannst",
+    "start": 540.84,
+    "end": 541.566
+  },
+  {
+    "word": "du tun,",
+    "start": 541.566,
+    "end": 542.293
+  },
+  {
+    "word": "um unnötigen",
+    "start": 542.292,
+    "end": 543.019
+  },
+  {
+    "word": "Verdacht",
+    "start": 543.019,
+    "end": 543.745
+  },
+  {
+    "word": "zu vermeiden?",
+    "start": 543.745,
+    "end": 544.471
+  },
+  {
+    "word": "Erstens:",
+    "start": 544.471,
+    "end": 545.197
+  },
+  {
+    "word": "Sei konsistent.",
+    "start": 545.197,
+    "end": 545.924
+  },
+  {
+    "word": "Deine",
+    "start": 545.924,
+    "end": 546.65
+  },
+  {
+    "word": "Geschichte",
+    "start": 546.65,
+    "end": 547.376
+  },
+  {
+    "word": "über",
+    "start": 547.376,
+    "end": 548.102
+  },
+  {
+    "word": "die Reise",
+    "start": 548.102,
+    "end": 548.829
+  },
+  {
+    "word": "sollte",
+    "start": 548.829,
+    "end": 549.555
+  },
+  {
+    "word": "immer",
+    "start": 549.555,
+    "end": 550.281
+  },
+  {
+    "word": "dieselbe",
+    "start": 550.281,
+    "end": 551.007
+  },
+  {
+    "word": "sein.",
+    "start": 551.007,
+    "end": 551.734
+  },
+  {
+    "word": "Zweitens:",
+    "start": 551.734,
+    "end": 552.46
+  },
+  {
+    "word": "Kein",
+    "start": 552.46,
+    "end": 553.186
+  },
+  {
+    "word": "übertriebenes",
+    "start": 553.186,
+    "end": 553.913
+  },
+  {
+    "word": "Freundlichkeitsverhalten",
+    "start": 553.912,
+    "end": 554.639
+  },
+  {
+    "word": "— das",
+    "start": 554.639,
+    "end": 555.365
+  },
+  {
+    "word": "wirkt",
+    "start": 555.365,
+    "end": 556.091
+  },
+  {
+    "word": "genau",
+    "start": 556.091,
+    "end": 556.817
+  },
+  {
+    "word": "so auffällig",
+    "start": 556.817,
+    "end": 557.544
+  },
+  {
+    "word": "wie Feindseligkeit.",
+    "start": 557.544,
+    "end": 558.27
+  },
+  {
+    "word": "Drittens:",
+    "start": 558.27,
+    "end": 558.996
+  },
+  {
+    "word": "Langsam",
+    "start": 558.996,
+    "end": 559.722
+  },
+  {
+    "word": "und ruhig",
+    "start": 559.722,
+    "end": 560.449
+  },
+  {
+    "word": "gehen",
+    "start": 560.449,
+    "end": 561.175
+  },
+  {
+    "word": "— nicht",
+    "start": 561.175,
+    "end": 561.901
+  },
+  {
+    "word": "schlendern,",
+    "start": 561.901,
+    "end": 562.627
+  },
+  {
+    "word": "nicht",
+    "start": 562.627,
+    "end": 563.354
+  },
+  {
+    "word": "hetzen.",
+    "start": 563.354,
+    "end": 564.08
+  },
+  {
+    "word": "Ein letztes",
+    "start": 564.38,
+    "end": 564.952
+  },
+  {
+    "word": "Detail,",
+    "start": 564.952,
+    "end": 565.523
+  },
+  {
+    "word": "das Profiler",
+    "start": 565.523,
+    "end": 566.095
+  },
+  {
+    "word": "lieben:",
+    "start": 566.095,
+    "end": 566.667
+  },
+  {
+    "word": "direkter,",
+    "start": 566.667,
+    "end": 567.238
+  },
+  {
+    "word": "aber",
+    "start": 567.238,
+    "end": 567.81
+  },
+  {
+    "word": "nicht",
+    "start": 567.81,
+    "end": 568.382
+  },
+  {
+    "word": "starrer",
+    "start": 568.382,
+    "end": 568.953
+  },
+  {
+    "word": "Augenkontakt.",
+    "start": 568.953,
+    "end": 569.525
+  },
+  {
+    "word": "Zu viel",
+    "start": 569.525,
+    "end": 570.097
+  },
+  {
+    "word": "Augenkontakt",
+    "start": 570.097,
+    "end": 570.668
+  },
+  {
+    "word": "wirkt",
+    "start": 570.668,
+    "end": 571.24
+  },
+  {
+    "word": "aggressiv",
+    "start": 571.24,
+    "end": 571.812
+  },
+  {
+    "word": "oder",
+    "start": 571.812,
+    "end": 572.383
+  },
+  {
+    "word": "kalkuliert.",
+    "start": 572.383,
+    "end": 572.955
+  },
+  {
+    "word": "Zu wenig",
+    "start": 572.955,
+    "end": 573.527
+  },
+  {
+    "word": "wirkt",
+    "start": 573.527,
+    "end": 574.098
+  },
+  {
+    "word": "ausweichend.",
+    "start": 574.098,
+    "end": 574.67
+  },
+  {
+    "word": "Der natürliche",
+    "start": 574.67,
+    "end": 575.242
+  },
+  {
+    "word": "Mittelweg",
+    "start": 575.242,
+    "end": 575.813
+  },
+  {
+    "word": "— kurz",
+    "start": 575.813,
+    "end": 576.385
+  },
+  {
+    "word": "anschauen,",
+    "start": 576.385,
+    "end": 576.957
+  },
+  {
+    "word": "leicht",
+    "start": 576.957,
+    "end": 577.528
+  },
+  {
+    "word": "lächeln,",
+    "start": 577.528,
+    "end": 578.1
+  },
+  {
+    "word": "weiterblicken",
+    "start": 578.1,
+    "end": 578.672
+  },
+  {
+    "word": "— signalisiert",
+    "start": 578.672,
+    "end": 579.243
+  },
+  {
+    "word": "Normalität.",
+    "start": 579.243,
+    "end": 579.815
+  },
+  {
+    "word": "Es klingt",
+    "start": 579.815,
+    "end": 580.387
+  },
+  {
+    "word": "simpel,",
+    "start": 580.387,
+    "end": 580.958
+  },
+  {
+    "word": "aber",
+    "start": 580.958,
+    "end": 581.53
+  },
+  {
+    "word": "genau",
+    "start": 581.53,
+    "end": 582.102
+  },
+  {
+    "word": "das fällt",
+    "start": 582.102,
+    "end": 582.673
+  },
+  {
+    "word": "unter",
+    "start": 582.673,
+    "end": 583.245
+  },
+  {
+    "word": "Stress",
+    "start": 583.245,
+    "end": 583.817
+  },
+  {
+    "word": "am häufigsten",
+    "start": 583.817,
+    "end": 584.388
+  },
+  {
+    "word": "weg.",
+    "start": 584.388,
+    "end": 584.96
+  },
+  {
+    "word": "Ehemalige",
+    "start": 585.26,
+    "end": 585.812
+  },
+  {
+    "word": "TSA-Beamte",
+    "start": 585.812,
+    "end": 586.364
+  },
+  {
+    "word": "und Sicherheitsexperten,",
+    "start": 586.364,
+    "end": 586.916
+  },
+  {
+    "word": "die in",
+    "start": 586.916,
+    "end": 587.468
+  },
+  {
+    "word": "Medien",
+    "start": 587.468,
+    "end": 588.021
+  },
+  {
+    "word": "wie dem",
+    "start": 588.021,
+    "end": 588.573
+  },
+  {
+    "word": "Atlantic",
+    "start": 588.573,
+    "end": 589.125
+  },
+  {
+    "word": "oder",
+    "start": 589.125,
+    "end": 589.677
+  },
+  {
+    "word": "dem Guardian",
+    "start": 589.677,
+    "end": 590.229
+  },
+  {
+    "word": "gesprochen",
+    "start": 590.229,
+    "end": 590.781
+  },
+  {
+    "word": "haben,",
+    "start": 590.781,
+    "end": 591.333
+  },
+  {
+    "word": "sagen",
+    "start": 591.333,
+    "end": 591.885
+  },
+  {
+    "word": "übereinstimmend:",
+    "start": 591.885,
+    "end": 592.438
+  },
+  {
+    "word": "Sie suchen",
+    "start": 592.438,
+    "end": 592.99
+  },
+  {
+    "word": "nicht",
+    "start": 592.99,
+    "end": 593.542
+  },
+  {
+    "word": "nach",
+    "start": 593.542,
+    "end": 594.094
+  },
+  {
+    "word": "Bösen",
+    "start": 594.094,
+    "end": 594.646
+  },
+  {
+    "word": "— sie",
+    "start": 594.646,
+    "end": 595.198
+  },
+  {
+    "word": "suchen",
+    "start": 595.198,
+    "end": 595.75
+  },
+  {
+    "word": "nach",
+    "start": 595.75,
+    "end": 596.302
+  },
+  {
+    "word": "Abweichungen.",
+    "start": 596.302,
+    "end": 596.855
+  },
+  {
+    "word": "Der Großteil",
+    "start": 596.855,
+    "end": 597.407
+  },
+  {
+    "word": "der Menschen",
+    "start": 597.407,
+    "end": 597.959
+  },
+  {
+    "word": "ist komplett",
+    "start": 597.959,
+    "end": 598.511
+  },
+  {
+    "word": "unauffällig.",
+    "start": 598.511,
+    "end": 599.063
+  },
+  {
+    "word": "Aber",
+    "start": 599.063,
+    "end": 599.615
+  },
+  {
+    "word": "die wenigen,",
+    "start": 599.615,
+    "end": 600.167
+  },
+  {
+    "word": "die aus",
+    "start": 600.167,
+    "end": 600.719
+  },
+  {
+    "word": "dem Muster",
+    "start": 600.719,
+    "end": 601.272
+  },
+  {
+    "word": "fallen,",
+    "start": 601.272,
+    "end": 601.824
+  },
+  {
+    "word": "fallen",
+    "start": 601.824,
+    "end": 602.376
+  },
+  {
+    "word": "sofort",
+    "start": 602.376,
+    "end": 602.928
+  },
+  {
+    "word": "auf.",
+    "start": 602.928,
+    "end": 603.48
+  },
+  {
+    "word": "Das ist",
+    "start": 603.78,
+    "end": 604.276
+  },
+  {
+    "word": "die eigentliche",
+    "start": 604.276,
+    "end": 604.771
+  },
+  {
+    "word": "Frage.",
+    "start": 604.771,
+    "end": 605.267
+  },
+  {
+    "word": "Mehrere",
+    "start": 605.267,
+    "end": 605.763
+  },
+  {
+    "word": "unabhängige",
+    "start": 605.763,
+    "end": 606.258
+  },
+  {
+    "word": "Studien",
+    "start": 606.258,
+    "end": 606.754
+  },
+  {
+    "word": "— darunter",
+    "start": 606.754,
+    "end": 607.25
+  },
+  {
+    "word": "eine",
+    "start": 607.25,
+    "end": 607.745
+  },
+  {
+    "word": "des Government",
+    "start": 607.745,
+    "end": 608.241
+  },
+  {
+    "word": "Accountability",
+    "start": 608.241,
+    "end": 608.737
+  },
+  {
+    "word": "Office",
+    "start": 608.737,
+    "end": 609.232
+  },
+  {
+    "word": "— kamen",
+    "start": 609.232,
+    "end": 609.728
+  },
+  {
+    "word": "zu dem",
+    "start": 609.728,
+    "end": 610.224
+  },
+  {
+    "word": "Schluss,",
+    "start": 610.224,
+    "end": 610.719
+  },
+  {
+    "word": "dass",
+    "start": 610.719,
+    "end": 611.215
+  },
+  {
+    "word": "es keine",
+    "start": 611.215,
+    "end": 611.711
+  },
+  {
+    "word": "wissenschaftlichen",
+    "start": 611.711,
+    "end": 612.206
+  },
+  {
+    "word": "Belege",
+    "start": 612.206,
+    "end": 612.702
+  },
+  {
+    "word": "dafür",
+    "start": 612.702,
+    "end": 613.198
+  },
+  {
+    "word": "gibt,",
+    "start": 613.198,
+    "end": 613.694
+  },
+  {
+    "word": "dass",
+    "start": 613.694,
+    "end": 614.189
+  },
+  {
+    "word": "SPOT",
+    "start": 614.189,
+    "end": 614.685
+  },
+  {
+    "word": "zuverlässig",
+    "start": 614.685,
+    "end": 615.181
+  },
+  {
+    "word": "zwischen",
+    "start": 615.181,
+    "end": 615.676
+  },
+  {
+    "word": "sicheren",
+    "start": 615.676,
+    "end": 616.172
+  },
+  {
+    "word": "und gefährlichen",
+    "start": 616.172,
+    "end": 616.668
+  },
+  {
+    "word": "Passagieren",
+    "start": 616.668,
+    "end": 617.163
+  },
+  {
+    "word": "unterscheiden",
+    "start": 617.163,
+    "end": 617.659
+  },
+  {
+    "word": "kann.",
+    "start": 617.659,
+    "end": 618.155
+  },
+  {
+    "word": "Das System",
+    "start": 618.155,
+    "end": 618.65
+  },
+  {
+    "word": "kostet",
+    "start": 618.65,
+    "end": 619.146
+  },
+  {
+    "word": "Milliarden",
+    "start": 619.146,
+    "end": 619.642
+  },
+  {
+    "word": "— aber",
+    "start": 619.642,
+    "end": 620.137
+  },
+  {
+    "word": "sein",
+    "start": 620.137,
+    "end": 620.633
+  },
+  {
+    "word": "Nutzen",
+    "start": 620.633,
+    "end": 621.129
+  },
+  {
+    "word": "ist wissenschaftlich",
+    "start": 621.129,
+    "end": 621.624
+  },
+  {
+    "word": "umstritten.",
+    "start": 621.624,
+    "end": 622.12
+  },
+  {
+    "word": "Die nächste",
+    "start": 622.42,
+    "end": 622.982
+  },
+  {
+    "word": "Generation",
+    "start": 622.982,
+    "end": 623.545
+  },
+  {
+    "word": "der Sicherheitssysteme",
+    "start": 623.545,
+    "end": 624.107
+  },
+  {
+    "word": "wird",
+    "start": 624.107,
+    "end": 624.669
+  },
+  {
+    "word": "noch",
+    "start": 624.669,
+    "end": 625.231
+  },
+  {
+    "word": "tiefer",
+    "start": 625.231,
+    "end": 625.794
+  },
+  {
+    "word": "in dein",
+    "start": 625.794,
+    "end": 626.356
+  },
+  {
+    "word": "Verhalten",
+    "start": 626.356,
+    "end": 626.918
+  },
+  {
+    "word": "eindringen.",
+    "start": 626.918,
+    "end": 627.48
+  },
+  {
+    "word": "Ganganalyse-Algorithmen,",
+    "start": 627.48,
+    "end": 628.043
+  },
+  {
+    "word": "Herzfrequenzmessung",
+    "start": 628.043,
+    "end": 628.605
+  },
+  {
+    "word": "per Kamera,",
+    "start": 628.605,
+    "end": 629.167
+  },
+  {
+    "word": "thermale",
+    "start": 629.167,
+    "end": 629.729
+  },
+  {
+    "word": "Gesichtserkennung",
+    "start": 629.729,
+    "end": 630.292
+  },
+  {
+    "word": "— all",
+    "start": 630.292,
+    "end": 630.854
+  },
+  {
+    "word": "das befindet",
+    "start": 630.854,
+    "end": 631.416
+  },
+  {
+    "word": "sich",
+    "start": 631.416,
+    "end": 631.978
+  },
+  {
+    "word": "bereits",
+    "start": 631.978,
+    "end": 632.541
+  },
+  {
+    "word": "in der",
+    "start": 632.541,
+    "end": 633.103
+  },
+  {
+    "word": "Erprobungsphase.",
+    "start": 633.103,
+    "end": 633.665
+  },
+  {
+    "word": "Die Frage",
+    "start": 633.665,
+    "end": 634.227
+  },
+  {
+    "word": "ist nicht",
+    "start": 634.227,
+    "end": 634.79
+  },
+  {
+    "word": "mehr",
+    "start": 634.79,
+    "end": 635.352
+  },
+  {
+    "word": "ob —",
+    "start": 635.352,
+    "end": 635.914
+  },
+  {
+    "word": "sondern",
+    "start": 635.914,
+    "end": 636.476
+  },
+  {
+    "word": "wann",
+    "start": 636.476,
+    "end": 637.039
+  },
+  {
+    "word": "diese",
+    "start": 637.039,
+    "end": 637.601
+  },
+  {
+    "word": "Systeme",
+    "start": 637.601,
+    "end": 638.163
+  },
+  {
+    "word": "flächendeckend",
+    "start": 638.163,
+    "end": 638.725
+  },
+  {
+    "word": "eingesetzt",
+    "start": 638.725,
+    "end": 639.288
+  },
+  {
+    "word": "werden.",
+    "start": 639.288,
+    "end": 639.85
+  },
+  {
+    "word": "Am Ende",
+    "start": 640.15,
+    "end": 640.751
+  },
+  {
+    "word": "stellt",
+    "start": 640.751,
+    "end": 641.352
+  },
+  {
+    "word": "sich",
+    "start": 641.352,
+    "end": 641.952
+  },
+  {
+    "word": "eine",
+    "start": 641.952,
+    "end": 642.553
+  },
+  {
+    "word": "grundlegende",
+    "start": 642.553,
+    "end": 643.154
+  },
+  {
+    "word": "Frage:",
+    "start": 643.154,
+    "end": 643.755
+  },
+  {
+    "word": "Wie viel",
+    "start": 643.755,
+    "end": 644.356
+  },
+  {
+    "word": "Überwachung",
+    "start": 644.356,
+    "end": 644.957
+  },
+  {
+    "word": "sind",
+    "start": 644.957,
+    "end": 645.557
+  },
+  {
+    "word": "wir bereit",
+    "start": 645.557,
+    "end": 646.158
+  },
+  {
+    "word": "zu akzeptieren,",
+    "start": 646.158,
+    "end": 646.759
+  },
+  {
+    "word": "um sicher",
+    "start": 646.759,
+    "end": 647.36
+  },
+  {
+    "word": "zu fliegen?",
+    "start": 647.36,
+    "end": 647.961
+  },
+  {
+    "word": "Jede",
+    "start": 647.961,
+    "end": 648.562
+  },
+  {
+    "word": "neue",
+    "start": 648.562,
+    "end": 649.162
+  },
+  {
+    "word": "Technologie,",
+    "start": 649.162,
+    "end": 649.763
+  },
+  {
+    "word": "jede",
+    "start": 649.763,
+    "end": 650.364
+  },
+  {
+    "word": "zusätzliche",
+    "start": 650.364,
+    "end": 650.965
+  },
+  {
+    "word": "Analyse",
+    "start": 650.965,
+    "end": 651.566
+  },
+  {
+    "word": "kommt",
+    "start": 651.566,
+    "end": 652.167
+  },
+  {
+    "word": "mit einem",
+    "start": 652.167,
+    "end": 652.767
+  },
+  {
+    "word": "Preis",
+    "start": 652.767,
+    "end": 653.368
+  },
+  {
+    "word": "— und",
+    "start": 653.368,
+    "end": 653.969
+  },
+  {
+    "word": "der wird",
+    "start": 653.969,
+    "end": 654.57
+  },
+  {
+    "word": "nicht",
+    "start": 654.57,
+    "end": 655.171
+  },
+  {
+    "word": "in Euro",
+    "start": 655.171,
+    "end": 655.772
+  },
+  {
+    "word": "gemessen,",
+    "start": 655.772,
+    "end": 656.372
+  },
+  {
+    "word": "sondern",
+    "start": 656.372,
+    "end": 656.973
+  },
+  {
+    "word": "in Privatsphäre.",
+    "start": 656.973,
+    "end": 657.574
+  },
+  {
+    "word": "Das ist",
+    "start": 657.574,
+    "end": 658.175
+  },
+  {
+    "word": "eine",
+    "start": 658.175,
+    "end": 658.776
+  },
+  {
+    "word": "gesellschaftliche",
+    "start": 658.776,
+    "end": 659.377
+  },
+  {
+    "word": "Entscheidung,",
+    "start": 659.377,
+    "end": 659.977
+  },
+  {
+    "word": "die wir",
+    "start": 659.977,
+    "end": 660.578
+  },
+  {
+    "word": "alle",
+    "start": 660.578,
+    "end": 661.179
+  },
+  {
+    "word": "treffen.",
+    "start": 661.179,
+    "end": 661.78
+  },
+  {
+    "word": "Das nächste",
+    "start": 662.08,
+    "end": 662.643
+  },
+  {
+    "word": "Mal, wenn",
+    "start": 662.643,
+    "end": 663.205
+  },
+  {
+    "word": "du durch",
+    "start": 663.205,
+    "end": 663.768
+  },
+  {
+    "word": "die Sicherheitskontrolle",
+    "start": 663.768,
+    "end": 664.331
+  },
+  {
+    "word": "gehst,",
+    "start": 664.331,
+    "end": 664.893
+  },
+  {
+    "word": "weißt",
+    "start": 664.893,
+    "end": 665.456
+  },
+  {
+    "word": "du: Du",
+    "start": 665.456,
+    "end": 666.019
+  },
+  {
+    "word": "wirst",
+    "start": 666.019,
+    "end": 666.581
+  },
+  {
+    "word": "bewertet.",
+    "start": 666.581,
+    "end": 667.144
+  },
+  {
+    "word": "Nicht",
+    "start": 667.144,
+    "end": 667.707
+  },
+  {
+    "word": "nur von",
+    "start": 667.707,
+    "end": 668.269
+  },
+  {
+    "word": "Maschinen",
+    "start": 668.269,
+    "end": 668.832
+  },
+  {
+    "word": "— sondern",
+    "start": 668.832,
+    "end": 669.395
+  },
+  {
+    "word": "von geschulten",
+    "start": 669.395,
+    "end": 669.957
+  },
+  {
+    "word": "Menschen,",
+    "start": 669.957,
+    "end": 670.52
+  },
+  {
+    "word": "die in",
+    "start": 670.52,
+    "end": 671.083
+  },
+  {
+    "word": "Sekundenbruchteilen",
+    "start": 671.083,
+    "end": 671.645
+  },
+  {
+    "word": "Entscheidungen",
+    "start": 671.645,
+    "end": 672.208
+  },
+  {
+    "word": "treffen.",
+    "start": 672.208,
+    "end": 672.771
+  },
+  {
+    "word": "Bleib",
+    "start": 672.771,
+    "end": 673.333
+  },
+  {
+    "word": "ruhig,",
+    "start": 673.333,
+    "end": 673.896
+  },
+  {
+    "word": "bleib",
+    "start": 673.896,
+    "end": 674.459
+  },
+  {
+    "word": "konsistent,",
+    "start": 674.459,
+    "end": 675.021
+  },
+  {
+    "word": "bleib",
+    "start": 675.021,
+    "end": 675.584
+  },
+  {
+    "word": "du selbst.",
+    "start": 675.584,
+    "end": 676.147
+  },
+  {
+    "word": "Das ist",
+    "start": 676.147,
+    "end": 676.709
+  },
+  {
+    "word": "die beste",
+    "start": 676.709,
+    "end": 677.272
+  },
+  {
+    "word": "Strategie,",
+    "start": 677.272,
+    "end": 677.835
+  },
+  {
+    "word": "die du",
+    "start": 677.835,
+    "end": 678.397
+  },
+  {
+    "word": "hast.",
+    "start": 678.397,
+    "end": 678.96
+  },
+  {
+    "word": "Wenn",
+    "start": 679.26,
+    "end": 679.763
+  },
+  {
+    "word": "dich",
+    "start": 679.763,
+    "end": 680.267
+  },
+  {
+    "word": "dieses",
+    "start": 680.267,
+    "end": 680.77
+  },
+  {
+    "word": "Thema",
+    "start": 680.77,
+    "end": 681.273
+  },
+  {
+    "word": "fasziniert",
+    "start": 681.273,
+    "end": 681.777
+  },
+  {
+    "word": "hat, dann",
+    "start": 681.777,
+    "end": 682.28
+  },
+  {
+    "word": "abonniere",
+    "start": 682.28,
+    "end": 682.783
+  },
+  {
+    "word": "jetzt",
+    "start": 682.783,
+    "end": 683.287
+  },
+  {
+    "word": "den Kanal",
+    "start": 683.287,
+    "end": 683.79
+  },
+  {
+    "word": "— hier",
+    "start": 683.79,
+    "end": 684.293
+  },
+  {
+    "word": "erscheinen",
+    "start": 684.293,
+    "end": 684.797
+  },
+  {
+    "word": "regelmäßig",
+    "start": 684.797,
+    "end": 685.3
+  },
+  {
+    "word": "Videos",
+    "start": 685.3,
+    "end": 685.803
+  },
+  {
+    "word": "über",
+    "start": 685.803,
+    "end": 686.307
+  },
+  {
+    "word": "Reise-Geheimnisse,",
+    "start": 686.307,
+    "end": 686.81
+  },
+  {
+    "word": "die du",
+    "start": 686.81,
+    "end": 687.313
+  },
+  {
+    "word": "nirgendwo",
+    "start": 687.313,
+    "end": 687.817
+  },
+  {
+    "word": "sonst",
+    "start": 687.817,
+    "end": 688.32
+  },
+  {
+    "word": "so kompakt",
+    "start": 688.32,
+    "end": 688.823
+  },
+  {
+    "word": "findest.",
+    "start": 688.823,
+    "end": 689.327
+  },
+  {
+    "word": "Hinterlasse",
+    "start": 689.327,
+    "end": 689.83
+  },
+  {
+    "word": "einen",
+    "start": 689.83,
+    "end": 690.333
+  },
+  {
+    "word": "Kommentar:",
+    "start": 690.333,
+    "end": 690.837
+  },
+  {
+    "word": "Was hat",
+    "start": 690.837,
+    "end": 691.34
+  },
+  {
+    "word": "dich",
+    "start": 691.34,
+    "end": 691.843
+  },
+  {
+    "word": "am meisten",
+    "start": 691.843,
+    "end": 692.347
+  },
+  {
+    "word": "überrascht?",
+    "start": 692.347,
+    "end": 692.85
+  },
+  {
+    "word": "Ich lese",
+    "start": 692.85,
+    "end": 693.353
+  },
+  {
+    "word": "wirklich",
+    "start": 693.353,
+    "end": 693.857
+  },
+  {
+    "word": "alles.",
+    "start": 693.857,
+    "end": 694.36
+  }
+]

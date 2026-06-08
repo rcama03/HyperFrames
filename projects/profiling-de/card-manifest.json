@@ -1,0 +1,130 @@
+{
+  "cards": [
+    {
+      "id": "chap-urteil",
+      "path": "card-frames/chap-urteil.png",
+      "inTime": 0.5,
+      "outTime": 5.5
+    },
+    {
+      "id": "chap-signal1",
+      "path": "card-frames/chap-signal1.png",
+      "inTime": 95.5,
+      "outTime": 100.5
+    },
+    {
+      "id": "chap-auffaellt",
+      "path": "card-frames/chap-auffaellt.png",
+      "inTime": 176.5,
+      "outTime": 181.5
+    },
+    {
+      "id": "chap-mythos",
+      "path": "card-frames/chap-mythos.png",
+      "inTime": 259.5,
+      "outTime": 264.5
+    },
+    {
+      "id": "chap-mikro",
+      "path": "card-frames/chap-mikro.png",
+      "inTime": 337.5,
+      "outTime": 342.5
+    },
+    {
+      "id": "chap-lastmin",
+      "path": "card-frames/chap-lastmin.png",
+      "inTime": 429.5,
+      "outTime": 434.5
+    },
+    {
+      "id": "chap-nofly",
+      "path": "card-frames/chap-nofly.png",
+      "inTime": 523.5,
+      "outTime": 528.5
+    },
+    {
+      "id": "chap-system",
+      "path": "card-frames/chap-system.png",
+      "inTime": 603.5,
+      "outTime": 608.5
+    },
+    {
+      "id": "stat-7sek",
+      "path": "card-frames/stat-7sek.png",
+      "inTime": 7,
+      "outTime": 12
+    },
+    {
+      "id": "stat-200",
+      "path": "card-frames/stat-200.png",
+      "inTime": 27,
+      "outTime": 32
+    },
+    {
+      "id": "stat-900mio",
+      "path": "card-frames/stat-900mio.png",
+      "inTime": 74,
+      "outTime": 79
+    },
+    {
+      "id": "stat-61000",
+      "path": "card-frames/stat-61000.png",
+      "inTime": 237,
+      "outTime": 242
+    },
+    {
+      "id": "stat-2sek",
+      "path": "card-frames/stat-2sek.png",
+      "inTime": 355,
+      "outTime": 360
+    },
+    {
+      "id": "stat-40pct",
+      "path": "card-frames/stat-40pct.png",
+      "inTime": 490,
+      "outTime": 495
+    },
+    {
+      "id": "stat-1000namen",
+      "path": "card-frames/stat-1000namen.png",
+      "inTime": 533,
+      "outTime": 538
+    },
+    {
+      "id": "key-koerper",
+      "path": "card-frames/key-koerper.png",
+      "inTime": 112,
+      "outTime": 117
+    },
+    {
+      "id": "key-risiko",
+      "path": "card-frames/key-risiko.png",
+      "inTime": 170,
+      "outTime": 175
+    },
+    {
+      "id": "key-smalltalk",
+      "path": "card-frames/key-smalltalk.png",
+      "inTime": 199,
+      "outTime": 204
+    },
+    {
+      "id": "key-inkonsistenz",
+      "path": "card-frames/key-inkonsistenz.png",
+      "inTime": 272,
+      "outTime": 277
+    },
+    {
+      "id": "key-paradox",
+      "path": "card-frames/key-paradox.png",
+      "inTime": 447,
+      "outTime": 452
+    },
+    {
+      "id": "key-tipp",
+      "path": "card-frames/key-tipp.png",
+      "inTime": 617,
+      "outTime": 622
+    }
+  ]
+}
