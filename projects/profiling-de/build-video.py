@@ -21,7 +21,7 @@ SWOOSH     = HERE / "swoosh.mp3"
 MUSIC      = SHARED / "music" / "sleep-music-chris-haugen.mp3"
 
 MUSIC_VOL  = 0.24
-SWOOSH_VOL = 0.35
+SWOOSH_VOL = 1.2
 SRC_OFFSET = 0.0
 
 Path(OUT_VIDEO).parent.mkdir(parents=True, exist_ok=True)
