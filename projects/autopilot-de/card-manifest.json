@@ -1,0 +1,228 @@
+{
+  "cards": [
+    {
+      "id": "chap-1",
+      "path": "card-frames/chap-1.png",
+      "inTime": 1,
+      "outTime": 8,
+      "entry": "left"
+    },
+    {
+      "id": "stat-99",
+      "path": "card-frames/stat-99.png",
+      "inTime": 4.5,
+      "outTime": 14,
+      "entry": "right"
+    },
+    {
+      "id": "stat-1914",
+      "path": "card-frames/stat-1914.png",
+      "inTime": 52,
+      "outTime": 62,
+      "entry": "right"
+    },
+    {
+      "id": "alert-phasen",
+      "path": "card-frames/alert-phasen.png",
+      "inTime": 70,
+      "outTime": 82,
+      "entry": "right"
+    },
+    {
+      "id": "chap-2",
+      "path": "card-frames/chap-2.png",
+      "inTime": 92.5,
+      "outTime": 99,
+      "entry": "left"
+    },
+    {
+      "id": "alert-1000ft",
+      "path": "card-frames/alert-1000ft.png",
+      "inTime": 96,
+      "outTime": 110,
+      "entry": "bottom"
+    },
+    {
+      "id": "key-v1",
+      "path": "card-frames/key-v1.png",
+      "inTime": 111,
+      "outTime": 124,
+      "entry": "bottom"
+    },
+    {
+      "id": "stat-faa",
+      "path": "card-frames/stat-faa.png",
+      "inTime": 163.5,
+      "outTime": 175,
+      "entry": "right"
+    },
+    {
+      "id": "src-faa",
+      "path": "card-frames/src-faa.png",
+      "inTime": 164,
+      "outTime": 175,
+      "entry": "left"
+    },
+    {
+      "id": "chap-3",
+      "path": "card-frames/chap-3.png",
+      "inTime": 186.2,
+      "outTime": 193,
+      "entry": "left"
+    },
+    {
+      "id": "def-catiii",
+      "path": "card-frames/def-catiii.png",
+      "inTime": 193.5,
+      "outTime": 207,
+      "entry": "top"
+    },
+    {
+      "id": "alert-autoland",
+      "path": "card-frames/alert-autoland.png",
+      "inTime": 209,
+      "outTime": 221,
+      "entry": "right"
+    },
+    {
+      "id": "alert-cat",
+      "path": "card-frames/alert-cat.png",
+      "inTime": 244,
+      "outTime": 258,
+      "entry": "top"
+    },
+    {
+      "id": "src-qatar",
+      "path": "card-frames/src-qatar.png",
+      "inTime": 248,
+      "outTime": 263,
+      "entry": "left"
+    },
+    {
+      "id": "key-kontext",
+      "path": "card-frames/key-kontext.png",
+      "inTime": 266,
+      "outTime": 278,
+      "entry": "bottom"
+    },
+    {
+      "id": "chap-4",
+      "path": "card-frames/chap-4.png",
+      "inTime": 280.9,
+      "outTime": 287,
+      "entry": "left"
+    },
+    {
+      "id": "alert-af447",
+      "path": "card-frames/alert-af447.png",
+      "inTime": 284,
+      "outTime": 298,
+      "entry": "right"
+    },
+    {
+      "id": "def-skill",
+      "path": "card-frames/def-skill.png",
+      "inTime": 307,
+      "outTime": 321,
+      "entry": "top"
+    },
+    {
+      "id": "key-airbus",
+      "path": "card-frames/key-airbus.png",
+      "inTime": 326,
+      "outTime": 340,
+      "entry": "bottom"
+    },
+    {
+      "id": "alert-mcas",
+      "path": "card-frames/alert-mcas.png",
+      "inTime": 346,
+      "outTime": 360,
+      "entry": "right"
+    },
+    {
+      "id": "chap-5",
+      "path": "card-frames/chap-5.png",
+      "inTime": 375.8,
+      "outTime": 382,
+      "entry": "left"
+    },
+    {
+      "id": "key-einpilot",
+      "path": "card-frames/key-einpilot.png",
+      "inTime": 382.5,
+      "outTime": 396,
+      "entry": "bottom"
+    },
+    {
+      "id": "stat-60",
+      "path": "card-frames/stat-60.png",
+      "inTime": 415.6,
+      "outTime": 428,
+      "entry": "right"
+    },
+    {
+      "id": "src-sully",
+      "path": "card-frames/src-sully.png",
+      "inTime": 444,
+      "outTime": 458,
+      "entry": "left"
+    },
+    {
+      "id": "stat-208",
+      "path": "card-frames/stat-208.png",
+      "inTime": 466,
+      "outTime": 478,
+      "entry": "right"
+    },
+    {
+      "id": "chap-6",
+      "path": "card-frames/chap-6.png",
+      "inTime": 475.4,
+      "outTime": 482,
+      "entry": "left"
+    },
+    {
+      "id": "def-garmin",
+      "path": "card-frames/def-garmin.png",
+      "inTime": 482.5,
+      "outTime": 496,
+      "entry": "top"
+    },
+    {
+      "id": "alert-ki",
+      "path": "card-frames/alert-ki.png",
+      "inTime": 506,
+      "outTime": 520,
+      "entry": "right"
+    },
+    {
+      "id": "stat-risk",
+      "path": "card-frames/stat-risk.png",
+      "inTime": 527.8,
+      "outTime": 541,
+      "entry": "right"
+    },
+    {
+      "id": "chap-7",
+      "path": "card-frames/chap-7.png",
+      "inTime": 561.8,
+      "outTime": 568,
+      "entry": "left"
+    },
+    {
+      "id": "alert-paradox",
+      "path": "card-frames/alert-paradox.png",
+      "inTime": 565,
+      "outTime": 579,
+      "entry": "bottom"
+    },
+    {
+      "id": "key-5facts",
+      "path": "card-frames/key-5facts.png",
+      "inTime": 597.9,
+      "outTime": 612,
+      "entry": "bottom"
+    }
+  ]
+}

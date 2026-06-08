@@ -1,0 +1,5137 @@
+[
+  {
+    "word": "Der Autopilot",
+    "start": 0.0,
+    "end": 0.77
+  },
+  {
+    "word": "fliegt.",
+    "start": 0.77,
+    "end": 1.54
+  },
+  {
+    "word": "Fast",
+    "start": 1.54,
+    "end": 2.31
+  },
+  {
+    "word": "immer.",
+    "start": 2.31,
+    "end": 3.08
+  },
+  {
+    "word": "Du sitzt",
+    "start": 3.08,
+    "end": 3.85
+  },
+  {
+    "word": "entspannt",
+    "start": 3.85,
+    "end": 4.62
+  },
+  {
+    "word": "in deinem",
+    "start": 4.62,
+    "end": 5.39
+  },
+  {
+    "word": "Sitz",
+    "start": 5.39,
+    "end": 6.16
+  },
+  {
+    "word": "— und",
+    "start": 6.16,
+    "end": 6.93
+  },
+  {
+    "word": "glaubst,",
+    "start": 6.93,
+    "end": 7.7
+  },
+  {
+    "word": "zwei",
+    "start": 7.7,
+    "end": 8.47
+  },
+  {
+    "word": "erfahrene",
+    "start": 8.47,
+    "end": 9.24
+  },
+  {
+    "word": "Piloten",
+    "start": 9.24,
+    "end": 10.01
+  },
+  {
+    "word": "steuern",
+    "start": 10.01,
+    "end": 10.78
+  },
+  {
+    "word": "das Flugzeug.",
+    "start": 10.78,
+    "end": 11.55
+  },
+  {
+    "word": "Aber",
+    "start": 11.55,
+    "end": 12.32
+  },
+  {
+    "word": "die Wahrheit",
+    "start": 12.32,
+    "end": 13.09
+  },
+  {
+    "word": "ist ERSCHRECKEND:",
+    "start": 13.09,
+    "end": 13.86
+  },
+  {
+    "word": "Auf einem",
+    "start": 13.86,
+    "end": 14.63
+  },
+  {
+    "word": "typischen",
+    "start": 14.63,
+    "end": 15.4
+  },
+  {
+    "word": "Langstreckenflug",
+    "start": 15.4,
+    "end": 16.17
+  },
+  {
+    "word": "übernimmt",
+    "start": 16.17,
+    "end": 16.94
+  },
+  {
+    "word": "der Autopilot",
+    "start": 16.94,
+    "end": 17.71
+  },
+  {
+    "word": "bis zu",
+    "start": 17.71,
+    "end": 18.48
+  },
+  {
+    "word": "99 Prozent",
+    "start": 18.48,
+    "end": 19.25
+  },
+  {
+    "word": "der Steuerung.",
+    "start": 19.25,
+    "end": 20.02
+  },
+  {
+    "word": "Was passiert",
+    "start": 20.02,
+    "end": 20.79
+  },
+  {
+    "word": "in den",
+    "start": 20.79,
+    "end": 21.56
+  },
+  {
+    "word": "restlichen",
+    "start": 21.56,
+    "end": 22.33
+  },
+  {
+    "word": "Minuten?",
+    "start": 22.33,
+    "end": 23.1
+  },
+  {
+    "word": "Airlines",
+    "start": 23.4,
+    "end": 23.933
+  },
+  {
+    "word": "verschweigen",
+    "start": 23.933,
+    "end": 24.466
+  },
+  {
+    "word": "etwas.",
+    "start": 24.466,
+    "end": 25.0
+  },
+  {
+    "word": "Etwas",
+    "start": 25.0,
+    "end": 25.533
+  },
+  {
+    "word": "Wichtiges.",
+    "start": 25.533,
+    "end": 26.066
+  },
+  {
+    "word": "Denn",
+    "start": 26.066,
+    "end": 26.599
+  },
+  {
+    "word": "wenn",
+    "start": 26.599,
+    "end": 27.132
+  },
+  {
+    "word": "Passagiere",
+    "start": 27.132,
+    "end": 27.666
+  },
+  {
+    "word": "wüssten,",
+    "start": 27.666,
+    "end": 28.199
+  },
+  {
+    "word": "bei welchen",
+    "start": 28.199,
+    "end": 28.732
+  },
+  {
+    "word": "Phasen",
+    "start": 28.732,
+    "end": 29.265
+  },
+  {
+    "word": "der Autopilot",
+    "start": 29.265,
+    "end": 29.798
+  },
+  {
+    "word": "DEAKTIVIERT",
+    "start": 29.798,
+    "end": 30.332
+  },
+  {
+    "word": "ist —",
+    "start": 30.332,
+    "end": 30.865
+  },
+  {
+    "word": "und warum",
+    "start": 30.865,
+    "end": 31.398
+  },
+  {
+    "word": "genau",
+    "start": 31.398,
+    "end": 31.931
+  },
+  {
+    "word": "dann",
+    "start": 31.931,
+    "end": 32.464
+  },
+  {
+    "word": "die größte",
+    "start": 32.464,
+    "end": 32.998
+  },
+  {
+    "word": "Gefahr",
+    "start": 32.998,
+    "end": 33.531
+  },
+  {
+    "word": "lauert",
+    "start": 33.531,
+    "end": 34.064
+  },
+  {
+    "word": "— würden",
+    "start": 34.064,
+    "end": 34.597
+  },
+  {
+    "word": "viele",
+    "start": 34.597,
+    "end": 35.13
+  },
+  {
+    "word": "nie wieder",
+    "start": 35.13,
+    "end": 35.664
+  },
+  {
+    "word": "so ruhig",
+    "start": 35.664,
+    "end": 36.197
+  },
+  {
+    "word": "einsteigen.",
+    "start": 36.197,
+    "end": 36.73
+  },
+  {
+    "word": "Beginnen",
+    "start": 37.03,
+    "end": 37.758
+  },
+  {
+    "word": "wir mit",
+    "start": 37.758,
+    "end": 38.486
+  },
+  {
+    "word": "dem, was",
+    "start": 38.486,
+    "end": 39.215
+  },
+  {
+    "word": "die meisten",
+    "start": 39.215,
+    "end": 39.943
+  },
+  {
+    "word": "falsch",
+    "start": 39.943,
+    "end": 40.671
+  },
+  {
+    "word": "verstehen.",
+    "start": 40.671,
+    "end": 41.399
+  },
+  {
+    "word": "Der Autopilot",
+    "start": 41.399,
+    "end": 42.127
+  },
+  {
+    "word": "ist kein",
+    "start": 42.127,
+    "end": 42.855
+  },
+  {
+    "word": "Roboterpilot.",
+    "start": 42.855,
+    "end": 43.584
+  },
+  {
+    "word": "Er ist",
+    "start": 43.584,
+    "end": 44.312
+  },
+  {
+    "word": "ein hochentwickeltes",
+    "start": 44.312,
+    "end": 45.04
+  },
+  {
+    "word": "Stabilisierungssystem",
+    "start": 45.04,
+    "end": 45.768
+  },
+  {
+    "word": "— entworfen,",
+    "start": 45.768,
+    "end": 46.496
+  },
+  {
+    "word": "um Kurs,",
+    "start": 46.496,
+    "end": 47.225
+  },
+  {
+    "word": "Höhe",
+    "start": 47.225,
+    "end": 47.953
+  },
+  {
+    "word": "und Geschwindigkeit",
+    "start": 47.953,
+    "end": 48.681
+  },
+  {
+    "word": "zu halten.",
+    "start": 48.681,
+    "end": 49.409
+  },
+  {
+    "word": "Fliegen",
+    "start": 49.409,
+    "end": 50.137
+  },
+  {
+    "word": "im eigentlichen",
+    "start": 50.137,
+    "end": 50.865
+  },
+  {
+    "word": "Sinne?",
+    "start": 50.865,
+    "end": 51.594
+  },
+  {
+    "word": "Das können",
+    "start": 51.594,
+    "end": 52.322
+  },
+  {
+    "word": "nur Menschen.",
+    "start": 52.322,
+    "end": 53.05
+  },
+  {
+    "word": "Der erste",
+    "start": 53.35,
+    "end": 53.935
+  },
+  {
+    "word": "Autopilot",
+    "start": 53.935,
+    "end": 54.52
+  },
+  {
+    "word": "flog",
+    "start": 54.52,
+    "end": 55.105
+  },
+  {
+    "word": "1914",
+    "start": 55.105,
+    "end": 55.689
+  },
+  {
+    "word": "— über",
+    "start": 55.689,
+    "end": 56.274
+  },
+  {
+    "word": "110 Jahre",
+    "start": 56.274,
+    "end": 56.859
+  },
+  {
+    "word": "ist das",
+    "start": 56.859,
+    "end": 57.444
+  },
+  {
+    "word": "her. Lawrence",
+    "start": 57.444,
+    "end": 58.029
+  },
+  {
+    "word": "Sperry",
+    "start": 58.029,
+    "end": 58.614
+  },
+  {
+    "word": "demonstrierte",
+    "start": 58.614,
+    "end": 59.198
+  },
+  {
+    "word": "ihn damals",
+    "start": 59.198,
+    "end": 59.783
+  },
+  {
+    "word": "mit ausgestreckten",
+    "start": 59.783,
+    "end": 60.368
+  },
+  {
+    "word": "Armen",
+    "start": 60.368,
+    "end": 60.953
+  },
+  {
+    "word": "über",
+    "start": 60.953,
+    "end": 61.538
+  },
+  {
+    "word": "Paris.",
+    "start": 61.538,
+    "end": 62.123
+  },
+  {
+    "word": "Die Menge",
+    "start": 62.123,
+    "end": 62.707
+  },
+  {
+    "word": "war FASSUNGSLOS.",
+    "start": 62.707,
+    "end": 63.292
+  },
+  {
+    "word": "Seitdem",
+    "start": 63.292,
+    "end": 63.877
+  },
+  {
+    "word": "hat sich",
+    "start": 63.877,
+    "end": 64.462
+  },
+  {
+    "word": "die Technologie",
+    "start": 64.462,
+    "end": 65.047
+  },
+  {
+    "word": "so weit",
+    "start": 65.047,
+    "end": 65.632
+  },
+  {
+    "word": "entwickelt,",
+    "start": 65.632,
+    "end": 66.216
+  },
+  {
+    "word": "dass",
+    "start": 66.216,
+    "end": 66.801
+  },
+  {
+    "word": "moderne",
+    "start": 66.801,
+    "end": 67.386
+  },
+  {
+    "word": "Systeme",
+    "start": 67.386,
+    "end": 67.971
+  },
+  {
+    "word": "selbst",
+    "start": 67.971,
+    "end": 68.556
+  },
+  {
+    "word": "landen",
+    "start": 68.556,
+    "end": 69.141
+  },
+  {
+    "word": "können",
+    "start": 69.141,
+    "end": 69.725
+  },
+  {
+    "word": "— unter",
+    "start": 69.725,
+    "end": 70.31
+  },
+  {
+    "word": "bestimmten",
+    "start": 70.31,
+    "end": 70.895
+  },
+  {
+    "word": "Bedingungen.",
+    "start": 70.895,
+    "end": 71.48
+  },
+  {
+    "word": "Jetzt",
+    "start": 71.78,
+    "end": 72.517
+  },
+  {
+    "word": "das Entscheidende.",
+    "start": 72.517,
+    "end": 73.255
+  },
+  {
+    "word": "Es gibt",
+    "start": 73.255,
+    "end": 73.992
+  },
+  {
+    "word": "drei",
+    "start": 73.992,
+    "end": 74.73
+  },
+  {
+    "word": "Momente",
+    "start": 74.73,
+    "end": 75.467
+  },
+  {
+    "word": "in jedem",
+    "start": 75.467,
+    "end": 76.205
+  },
+  {
+    "word": "Flug,",
+    "start": 76.205,
+    "end": 76.942
+  },
+  {
+    "word": "in denen",
+    "start": 76.942,
+    "end": 77.679
+  },
+  {
+    "word": "der Autopilot",
+    "start": 77.679,
+    "end": 78.417
+  },
+  {
+    "word": "abgeschaltet",
+    "start": 78.417,
+    "end": 79.154
+  },
+  {
+    "word": "wird",
+    "start": 79.154,
+    "end": 79.892
+  },
+  {
+    "word": "— oder",
+    "start": 79.892,
+    "end": 80.629
+  },
+  {
+    "word": "sein",
+    "start": 80.629,
+    "end": 81.366
+  },
+  {
+    "word": "muss.",
+    "start": 81.366,
+    "end": 82.104
+  },
+  {
+    "word": "Start.",
+    "start": 82.104,
+    "end": 82.841
+  },
+  {
+    "word": "Landung.",
+    "start": 82.841,
+    "end": 83.579
+  },
+  {
+    "word": "Und turbulente",
+    "start": 83.579,
+    "end": 84.316
+  },
+  {
+    "word": "Schlechtwetterphasen.",
+    "start": 84.316,
+    "end": 85.054
+  },
+  {
+    "word": "Das sind",
+    "start": 85.054,
+    "end": 85.791
+  },
+  {
+    "word": "exakt",
+    "start": 85.791,
+    "end": 86.528
+  },
+  {
+    "word": "die Momente,",
+    "start": 86.528,
+    "end": 87.266
+  },
+  {
+    "word": "in denen",
+    "start": 87.266,
+    "end": 88.003
+  },
+  {
+    "word": "ein Fehler",
+    "start": 88.003,
+    "end": 88.741
+  },
+  {
+    "word": "TÖDLICH",
+    "start": 88.741,
+    "end": 89.478
+  },
+  {
+    "word": "enden",
+    "start": 89.478,
+    "end": 90.215
+  },
+  {
+    "word": "kann.",
+    "start": 90.215,
+    "end": 90.953
+  },
+  {
+    "word": "Und in",
+    "start": 90.953,
+    "end": 91.69
+  },
+  {
+    "word": "denen",
+    "start": 91.69,
+    "end": 92.428
+  },
+  {
+    "word": "Menschen",
+    "start": 92.428,
+    "end": 93.165
+  },
+  {
+    "word": "das Ruder",
+    "start": 93.165,
+    "end": 93.903
+  },
+  {
+    "word": "übernehmen.",
+    "start": 93.903,
+    "end": 94.64
+  },
+  {
+    "word": "Der Start.",
+    "start": 94.94,
+    "end": 95.528
+  },
+  {
+    "word": "Viele",
+    "start": 95.528,
+    "end": 96.116
+  },
+  {
+    "word": "denken,",
+    "start": 96.116,
+    "end": 96.704
+  },
+  {
+    "word": "das ist",
+    "start": 96.704,
+    "end": 97.293
+  },
+  {
+    "word": "der einfache",
+    "start": 97.293,
+    "end": 97.881
+  },
+  {
+    "word": "Teil.",
+    "start": 97.881,
+    "end": 98.469
+  },
+  {
+    "word": "Falsch.",
+    "start": 98.469,
+    "end": 99.057
+  },
+  {
+    "word": "Die ersten",
+    "start": 99.057,
+    "end": 99.645
+  },
+  {
+    "word": "drei",
+    "start": 99.645,
+    "end": 100.233
+  },
+  {
+    "word": "Minuten",
+    "start": 100.233,
+    "end": 100.821
+  },
+  {
+    "word": "nach",
+    "start": 100.821,
+    "end": 101.409
+  },
+  {
+    "word": "dem Abheben",
+    "start": 101.409,
+    "end": 101.998
+  },
+  {
+    "word": "sind",
+    "start": 101.998,
+    "end": 102.586
+  },
+  {
+    "word": "statistisch",
+    "start": 102.586,
+    "end": 103.174
+  },
+  {
+    "word": "die gefährlichste",
+    "start": 103.174,
+    "end": 103.762
+  },
+  {
+    "word": "Phase",
+    "start": 103.762,
+    "end": 104.35
+  },
+  {
+    "word": "eines",
+    "start": 104.35,
+    "end": 104.938
+  },
+  {
+    "word": "Fluges.",
+    "start": 104.938,
+    "end": 105.526
+  },
+  {
+    "word": "Der Autopilot",
+    "start": 105.526,
+    "end": 106.114
+  },
+  {
+    "word": "greift",
+    "start": 106.114,
+    "end": 106.703
+  },
+  {
+    "word": "frühestens",
+    "start": 106.703,
+    "end": 107.291
+  },
+  {
+    "word": "nach",
+    "start": 107.291,
+    "end": 107.879
+  },
+  {
+    "word": "1.000",
+    "start": 107.879,
+    "end": 108.467
+  },
+  {
+    "word": "Fuß Höhe",
+    "start": 108.467,
+    "end": 109.055
+  },
+  {
+    "word": "ein —",
+    "start": 109.055,
+    "end": 109.643
+  },
+  {
+    "word": "das sind",
+    "start": 109.643,
+    "end": 110.231
+  },
+  {
+    "word": "rund",
+    "start": 110.231,
+    "end": 110.819
+  },
+  {
+    "word": "300 Meter.",
+    "start": 110.819,
+    "end": 111.407
+  },
+  {
+    "word": "Bis dahin",
+    "start": 111.407,
+    "end": 111.996
+  },
+  {
+    "word": "liegt",
+    "start": 111.996,
+    "end": 112.584
+  },
+  {
+    "word": "alles",
+    "start": 112.584,
+    "end": 113.172
+  },
+  {
+    "word": "in Menschenhand.",
+    "start": 113.172,
+    "end": 113.76
+  },
+  {
+    "word": "Beim",
+    "start": 114.06,
+    "end": 114.631
+  },
+  {
+    "word": "Start",
+    "start": 114.631,
+    "end": 115.202
+  },
+  {
+    "word": "übernimmt",
+    "start": 115.202,
+    "end": 115.773
+  },
+  {
+    "word": "der Pilot",
+    "start": 115.773,
+    "end": 116.344
+  },
+  {
+    "word": "die volle",
+    "start": 116.344,
+    "end": 116.915
+  },
+  {
+    "word": "Kontrolle",
+    "start": 116.915,
+    "end": 117.486
+  },
+  {
+    "word": "— ohne",
+    "start": 117.486,
+    "end": 118.058
+  },
+  {
+    "word": "Netz.",
+    "start": 118.058,
+    "end": 118.629
+  },
+  {
+    "word": "Er muss",
+    "start": 118.629,
+    "end": 119.2
+  },
+  {
+    "word": "in Sekundenbruchteilen",
+    "start": 119.2,
+    "end": 119.771
+  },
+  {
+    "word": "reagieren,",
+    "start": 119.771,
+    "end": 120.342
+  },
+  {
+    "word": "wenn",
+    "start": 120.342,
+    "end": 120.913
+  },
+  {
+    "word": "ein Triebwerk",
+    "start": 120.913,
+    "end": 121.484
+  },
+  {
+    "word": "ausfällt",
+    "start": 121.484,
+    "end": 122.055
+  },
+  {
+    "word": "oder",
+    "start": 122.055,
+    "end": 122.626
+  },
+  {
+    "word": "ein Vogel",
+    "start": 122.626,
+    "end": 123.197
+  },
+  {
+    "word": "eingesogen",
+    "start": 123.197,
+    "end": 123.768
+  },
+  {
+    "word": "wird.",
+    "start": 123.768,
+    "end": 124.339
+  },
+  {
+    "word": "Das nennt",
+    "start": 124.339,
+    "end": 124.91
+  },
+  {
+    "word": "sich",
+    "start": 124.91,
+    "end": 125.481
+  },
+  {
+    "word": "V1-Entscheidung:",
+    "start": 125.481,
+    "end": 126.053
+  },
+  {
+    "word": "Abbruch",
+    "start": 126.053,
+    "end": 126.624
+  },
+  {
+    "word": "oder",
+    "start": 126.624,
+    "end": 127.195
+  },
+  {
+    "word": "Weiterfliegen?",
+    "start": 127.195,
+    "end": 127.766
+  },
+  {
+    "word": "FALSCH",
+    "start": 127.766,
+    "end": 128.337
+  },
+  {
+    "word": "entschieden",
+    "start": 128.337,
+    "end": 128.908
+  },
+  {
+    "word": "bedeutet",
+    "start": 128.908,
+    "end": 129.479
+  },
+  {
+    "word": "Katastrophe.",
+    "start": 129.479,
+    "end": 130.05
+  },
+  {
+    "word": "Dann,",
+    "start": 130.35,
+    "end": 130.937
+  },
+  {
+    "word": "auf Reiseflughöhe,",
+    "start": 130.937,
+    "end": 131.524
+  },
+  {
+    "word": "geschieht",
+    "start": 131.524,
+    "end": 132.111
+  },
+  {
+    "word": "das Eindrucksvolle.",
+    "start": 132.111,
+    "end": 132.698
+  },
+  {
+    "word": "Der Autopilot",
+    "start": 132.698,
+    "end": 133.284
+  },
+  {
+    "word": "übernimmt.",
+    "start": 133.284,
+    "end": 133.871
+  },
+  {
+    "word": "Er hält",
+    "start": 133.871,
+    "end": 134.458
+  },
+  {
+    "word": "den Kurs",
+    "start": 134.458,
+    "end": 135.045
+  },
+  {
+    "word": "auf den",
+    "start": 135.045,
+    "end": 135.632
+  },
+  {
+    "word": "Meter",
+    "start": 135.632,
+    "end": 136.219
+  },
+  {
+    "word": "genau,",
+    "start": 136.219,
+    "end": 136.806
+  },
+  {
+    "word": "korrigiert",
+    "start": 136.806,
+    "end": 137.393
+  },
+  {
+    "word": "Windabweichungen",
+    "start": 137.393,
+    "end": 137.98
+  },
+  {
+    "word": "automatisch",
+    "start": 137.98,
+    "end": 138.567
+  },
+  {
+    "word": "— und",
+    "start": 138.567,
+    "end": 139.153
+  },
+  {
+    "word": "kann",
+    "start": 139.153,
+    "end": 139.74
+  },
+  {
+    "word": "über",
+    "start": 139.74,
+    "end": 140.327
+  },
+  {
+    "word": "Stunden",
+    "start": 140.327,
+    "end": 140.914
+  },
+  {
+    "word": "ohne",
+    "start": 140.914,
+    "end": 141.501
+  },
+  {
+    "word": "menschliche",
+    "start": 141.501,
+    "end": 142.088
+  },
+  {
+    "word": "Eingriffe",
+    "start": 142.088,
+    "end": 142.675
+  },
+  {
+    "word": "fliegen.",
+    "start": 142.675,
+    "end": 143.262
+  },
+  {
+    "word": "Piloten",
+    "start": 143.262,
+    "end": 143.849
+  },
+  {
+    "word": "überwachen",
+    "start": 143.849,
+    "end": 144.436
+  },
+  {
+    "word": "das System.",
+    "start": 144.436,
+    "end": 145.022
+  },
+  {
+    "word": "Mehr",
+    "start": 145.022,
+    "end": 145.609
+  },
+  {
+    "word": "ist oft",
+    "start": 145.609,
+    "end": 146.196
+  },
+  {
+    "word": "NICHT",
+    "start": 146.196,
+    "end": 146.783
+  },
+  {
+    "word": "nötig.",
+    "start": 146.783,
+    "end": 147.37
+  },
+  {
+    "word": "Und was",
+    "start": 147.67,
+    "end": 148.253
+  },
+  {
+    "word": "machen",
+    "start": 148.253,
+    "end": 148.836
+  },
+  {
+    "word": "Piloten,",
+    "start": 148.836,
+    "end": 149.42
+  },
+  {
+    "word": "wenn",
+    "start": 149.42,
+    "end": 150.003
+  },
+  {
+    "word": "der Autopilot",
+    "start": 150.003,
+    "end": 150.586
+  },
+  {
+    "word": "fliegt?",
+    "start": 150.586,
+    "end": 151.169
+  },
+  {
+    "word": "Offiziell:",
+    "start": 151.169,
+    "end": 151.753
+  },
+  {
+    "word": "Systeme",
+    "start": 151.753,
+    "end": 152.336
+  },
+  {
+    "word": "überwachen,",
+    "start": 152.336,
+    "end": 152.919
+  },
+  {
+    "word": "Wetter",
+    "start": 152.919,
+    "end": 153.502
+  },
+  {
+    "word": "checken,",
+    "start": 153.502,
+    "end": 154.086
+  },
+  {
+    "word": "kommunizieren.",
+    "start": 154.086,
+    "end": 154.669
+  },
+  {
+    "word": "Inoffiziell?",
+    "start": 154.669,
+    "end": 155.252
+  },
+  {
+    "word": "Es gibt",
+    "start": 155.252,
+    "end": 155.835
+  },
+  {
+    "word": "dokumentierte",
+    "start": 155.835,
+    "end": 156.419
+  },
+  {
+    "word": "Fälle,",
+    "start": 156.419,
+    "end": 157.002
+  },
+  {
+    "word": "in denen",
+    "start": 157.002,
+    "end": 157.585
+  },
+  {
+    "word": "Piloten",
+    "start": 157.585,
+    "end": 158.168
+  },
+  {
+    "word": "EINGESCHLAFEN",
+    "start": 158.168,
+    "end": 158.751
+  },
+  {
+    "word": "sind",
+    "start": 158.751,
+    "end": 159.335
+  },
+  {
+    "word": "— beide",
+    "start": 159.335,
+    "end": 159.918
+  },
+  {
+    "word": "gleichzeitig.",
+    "start": 159.918,
+    "end": 160.501
+  },
+  {
+    "word": "Bei einem",
+    "start": 160.501,
+    "end": 161.084
+  },
+  {
+    "word": "Flug",
+    "start": 161.084,
+    "end": 161.668
+  },
+  {
+    "word": "2008",
+    "start": 161.668,
+    "end": 162.251
+  },
+  {
+    "word": "über",
+    "start": 162.251,
+    "end": 162.834
+  },
+  {
+    "word": "Hawaii",
+    "start": 162.834,
+    "end": 163.417
+  },
+  {
+    "word": "flogen",
+    "start": 163.417,
+    "end": 164.001
+  },
+  {
+    "word": "zwei",
+    "start": 164.001,
+    "end": 164.584
+  },
+  {
+    "word": "Piloten",
+    "start": 164.584,
+    "end": 165.167
+  },
+  {
+    "word": "schlafend",
+    "start": 165.167,
+    "end": 165.75
+  },
+  {
+    "word": "40 Minuten",
+    "start": 165.75,
+    "end": 166.334
+  },
+  {
+    "word": "am Ziel",
+    "start": 166.334,
+    "end": 166.917
+  },
+  {
+    "word": "vorbei.",
+    "start": 166.917,
+    "end": 167.5
+  },
+  {
+    "word": "Pilotenmüdigkeit",
+    "start": 167.8,
+    "end": 168.543
+  },
+  {
+    "word": "ist ein",
+    "start": 168.543,
+    "end": 169.285
+  },
+  {
+    "word": "RIESIGES",
+    "start": 169.285,
+    "end": 170.028
+  },
+  {
+    "word": "Problem.",
+    "start": 170.028,
+    "end": 170.77
+  },
+  {
+    "word": "Die FAA",
+    "start": 170.77,
+    "end": 171.513
+  },
+  {
+    "word": "schätzt,",
+    "start": 171.513,
+    "end": 172.255
+  },
+  {
+    "word": "dass",
+    "start": 172.255,
+    "end": 172.998
+  },
+  {
+    "word": "Müdigkeit",
+    "start": 172.998,
+    "end": 173.741
+  },
+  {
+    "word": "an rund",
+    "start": 173.741,
+    "end": 174.483
+  },
+  {
+    "word": "20 bis",
+    "start": 174.483,
+    "end": 175.226
+  },
+  {
+    "word": "25 Prozent",
+    "start": 175.226,
+    "end": 175.968
+  },
+  {
+    "word": "aller",
+    "start": 175.968,
+    "end": 176.711
+  },
+  {
+    "word": "Flugunfälle",
+    "start": 176.711,
+    "end": 177.454
+  },
+  {
+    "word": "beteiligt",
+    "start": 177.454,
+    "end": 178.196
+  },
+  {
+    "word": "ist. Airlines",
+    "start": 178.196,
+    "end": 178.939
+  },
+  {
+    "word": "wissen",
+    "start": 178.939,
+    "end": 179.681
+  },
+  {
+    "word": "das. Regulierungen",
+    "start": 179.681,
+    "end": 180.424
+  },
+  {
+    "word": "existieren.",
+    "start": 180.424,
+    "end": 181.166
+  },
+  {
+    "word": "Und trotzdem",
+    "start": 181.166,
+    "end": 181.909
+  },
+  {
+    "word": "fliegen",
+    "start": 181.909,
+    "end": 182.652
+  },
+  {
+    "word": "täglich",
+    "start": 182.652,
+    "end": 183.394
+  },
+  {
+    "word": "Piloten,",
+    "start": 183.394,
+    "end": 184.137
+  },
+  {
+    "word": "die weit",
+    "start": 184.137,
+    "end": 184.879
+  },
+  {
+    "word": "unter",
+    "start": 184.879,
+    "end": 185.622
+  },
+  {
+    "word": "optimaler",
+    "start": 185.622,
+    "end": 186.365
+  },
+  {
+    "word": "Konzentration",
+    "start": 186.365,
+    "end": 187.107
+  },
+  {
+    "word": "arbeiten",
+    "start": 187.107,
+    "end": 187.85
+  },
+  {
+    "word": "— während",
+    "start": 187.85,
+    "end": 188.592
+  },
+  {
+    "word": "der Autopilot",
+    "start": 188.592,
+    "end": 189.335
+  },
+  {
+    "word": "still",
+    "start": 189.335,
+    "end": 190.077
+  },
+  {
+    "word": "übernimmt.",
+    "start": 190.077,
+    "end": 190.82
+  },
+  {
+    "word": "Jetzt",
+    "start": 191.12,
+    "end": 191.697
+  },
+  {
+    "word": "zu etwas,",
+    "start": 191.697,
+    "end": 192.274
+  },
+  {
+    "word": "das die",
+    "start": 192.274,
+    "end": 192.851
+  },
+  {
+    "word": "wenigsten",
+    "start": 192.851,
+    "end": 193.428
+  },
+  {
+    "word": "kennen:",
+    "start": 193.428,
+    "end": 194.005
+  },
+  {
+    "word": "Autoland.",
+    "start": 194.005,
+    "end": 194.583
+  },
+  {
+    "word": "Bei sehr",
+    "start": 194.583,
+    "end": 195.16
+  },
+  {
+    "word": "schlechter",
+    "start": 195.16,
+    "end": 195.737
+  },
+  {
+    "word": "Sicht",
+    "start": 195.737,
+    "end": 196.314
+  },
+  {
+    "word": "— Nebel,",
+    "start": 196.314,
+    "end": 196.891
+  },
+  {
+    "word": "Schneesturm",
+    "start": 196.891,
+    "end": 197.468
+  },
+  {
+    "word": "— können",
+    "start": 197.468,
+    "end": 198.045
+  },
+  {
+    "word": "moderne",
+    "start": 198.045,
+    "end": 198.622
+  },
+  {
+    "word": "Flugzeuge",
+    "start": 198.622,
+    "end": 199.199
+  },
+  {
+    "word": "vollautomatisch",
+    "start": 199.199,
+    "end": 199.776
+  },
+  {
+    "word": "landen.",
+    "start": 199.776,
+    "end": 200.354
+  },
+  {
+    "word": "Das System",
+    "start": 200.354,
+    "end": 200.931
+  },
+  {
+    "word": "heißt",
+    "start": 200.931,
+    "end": 201.508
+  },
+  {
+    "word": "CAT III",
+    "start": 201.508,
+    "end": 202.085
+  },
+  {
+    "word": "ILS. Die",
+    "start": 202.085,
+    "end": 202.662
+  },
+  {
+    "word": "Maschine",
+    "start": 202.662,
+    "end": 203.239
+  },
+  {
+    "word": "fliegt",
+    "start": 203.239,
+    "end": 203.816
+  },
+  {
+    "word": "sich",
+    "start": 203.816,
+    "end": 204.393
+  },
+  {
+    "word": "selbst",
+    "start": 204.393,
+    "end": 204.97
+  },
+  {
+    "word": "auf die",
+    "start": 204.97,
+    "end": 205.547
+  },
+  {
+    "word": "Bahn.",
+    "start": 205.547,
+    "end": 206.125
+  },
+  {
+    "word": "Der Pilot?",
+    "start": 206.125,
+    "end": 206.702
+  },
+  {
+    "word": "Er sitzt",
+    "start": 206.702,
+    "end": 207.279
+  },
+  {
+    "word": "dabei",
+    "start": 207.279,
+    "end": 207.856
+  },
+  {
+    "word": "und SCHAUT",
+    "start": 207.856,
+    "end": 208.433
+  },
+  {
+    "word": "zu.",
+    "start": 208.433,
+    "end": 209.01
+  },
+  {
+    "word": "Aber",
+    "start": 209.31,
+    "end": 209.834
+  },
+  {
+    "word": "Autoland",
+    "start": 209.834,
+    "end": 210.357
+  },
+  {
+    "word": "funktioniert",
+    "start": 210.357,
+    "end": 210.881
+  },
+  {
+    "word": "nicht",
+    "start": 210.881,
+    "end": 211.405
+  },
+  {
+    "word": "immer.",
+    "start": 211.405,
+    "end": 211.929
+  },
+  {
+    "word": "Nicht",
+    "start": 211.929,
+    "end": 212.452
+  },
+  {
+    "word": "jeder",
+    "start": 212.452,
+    "end": 212.976
+  },
+  {
+    "word": "Flughafen",
+    "start": 212.976,
+    "end": 213.5
+  },
+  {
+    "word": "hat das",
+    "start": 213.5,
+    "end": 214.024
+  },
+  {
+    "word": "nötige",
+    "start": 214.024,
+    "end": 214.547
+  },
+  {
+    "word": "Bodensystem.",
+    "start": 214.547,
+    "end": 215.071
+  },
+  {
+    "word": "Nicht",
+    "start": 215.071,
+    "end": 215.595
+  },
+  {
+    "word": "jedes",
+    "start": 215.595,
+    "end": 216.119
+  },
+  {
+    "word": "Flugzeug",
+    "start": 216.119,
+    "end": 216.642
+  },
+  {
+    "word": "ist dafür",
+    "start": 216.642,
+    "end": 217.166
+  },
+  {
+    "word": "zertifiziert.",
+    "start": 217.166,
+    "end": 217.69
+  },
+  {
+    "word": "Und wenn",
+    "start": 217.69,
+    "end": 218.214
+  },
+  {
+    "word": "beides",
+    "start": 218.214,
+    "end": 218.737
+  },
+  {
+    "word": "zusammenkommt",
+    "start": 218.737,
+    "end": 219.261
+  },
+  {
+    "word": "— schlechte",
+    "start": 219.261,
+    "end": 219.785
+  },
+  {
+    "word": "Sicht",
+    "start": 219.785,
+    "end": 220.309
+  },
+  {
+    "word": "und kein",
+    "start": 220.309,
+    "end": 220.832
+  },
+  {
+    "word": "Autoland",
+    "start": 220.832,
+    "end": 221.356
+  },
+  {
+    "word": "— dann",
+    "start": 221.356,
+    "end": 221.88
+  },
+  {
+    "word": "muss",
+    "start": 221.88,
+    "end": 222.404
+  },
+  {
+    "word": "der Pilot",
+    "start": 222.404,
+    "end": 222.927
+  },
+  {
+    "word": "manuell",
+    "start": 222.927,
+    "end": 223.451
+  },
+  {
+    "word": "durch",
+    "start": 223.451,
+    "end": 223.975
+  },
+  {
+    "word": "den NEBEL.",
+    "start": 223.975,
+    "end": 224.499
+  },
+  {
+    "word": "Das ist",
+    "start": 224.499,
+    "end": 225.022
+  },
+  {
+    "word": "echter",
+    "start": 225.022,
+    "end": 225.546
+  },
+  {
+    "word": "Stress.",
+    "start": 225.546,
+    "end": 226.07
+  },
+  {
+    "word": "Turbulenz.",
+    "start": 226.37,
+    "end": 226.954
+  },
+  {
+    "word": "Das Wort,",
+    "start": 226.954,
+    "end": 227.539
+  },
+  {
+    "word": "das Passagiere",
+    "start": 227.539,
+    "end": 228.123
+  },
+  {
+    "word": "nervös",
+    "start": 228.123,
+    "end": 228.707
+  },
+  {
+    "word": "macht.",
+    "start": 228.707,
+    "end": 229.292
+  },
+  {
+    "word": "Was die",
+    "start": 229.292,
+    "end": 229.876
+  },
+  {
+    "word": "meisten",
+    "start": 229.876,
+    "end": 230.46
+  },
+  {
+    "word": "nicht",
+    "start": 230.46,
+    "end": 231.045
+  },
+  {
+    "word": "wissen:",
+    "start": 231.045,
+    "end": 231.629
+  },
+  {
+    "word": "Der Autopilot",
+    "start": 231.629,
+    "end": 232.213
+  },
+  {
+    "word": "bleibt",
+    "start": 232.213,
+    "end": 232.798
+  },
+  {
+    "word": "während",
+    "start": 232.798,
+    "end": 233.382
+  },
+  {
+    "word": "leichter",
+    "start": 233.382,
+    "end": 233.966
+  },
+  {
+    "word": "bis mittlerer",
+    "start": 233.966,
+    "end": 234.551
+  },
+  {
+    "word": "Turbulenzen",
+    "start": 234.551,
+    "end": 235.135
+  },
+  {
+    "word": "aktiv.",
+    "start": 235.135,
+    "end": 235.719
+  },
+  {
+    "word": "Er kämpft",
+    "start": 235.719,
+    "end": 236.304
+  },
+  {
+    "word": "ständig",
+    "start": 236.304,
+    "end": 236.888
+  },
+  {
+    "word": "dagegen",
+    "start": 236.888,
+    "end": 237.472
+  },
+  {
+    "word": "an —",
+    "start": 237.472,
+    "end": 238.057
+  },
+  {
+    "word": "kleine",
+    "start": 238.057,
+    "end": 238.641
+  },
+  {
+    "word": "Korrekturen,",
+    "start": 238.641,
+    "end": 239.225
+  },
+  {
+    "word": "hundertmal",
+    "start": 239.225,
+    "end": 239.81
+  },
+  {
+    "word": "pro Sekunde.",
+    "start": 239.81,
+    "end": 240.394
+  },
+  {
+    "word": "Bei starker",
+    "start": 240.394,
+    "end": 240.978
+  },
+  {
+    "word": "Turbulenz",
+    "start": 240.978,
+    "end": 241.563
+  },
+  {
+    "word": "aber",
+    "start": 241.563,
+    "end": 242.147
+  },
+  {
+    "word": "kann",
+    "start": 242.147,
+    "end": 242.731
+  },
+  {
+    "word": "er ÜBERFORDERT",
+    "start": 242.731,
+    "end": 243.316
+  },
+  {
+    "word": "sein.",
+    "start": 243.316,
+    "end": 243.9
+  },
+  {
+    "word": "Clear",
+    "start": 244.2,
+    "end": 244.857
+  },
+  {
+    "word": "Air Turbulence",
+    "start": 244.857,
+    "end": 245.513
+  },
+  {
+    "word": "ist die",
+    "start": 245.513,
+    "end": 246.17
+  },
+  {
+    "word": "gefährlichste",
+    "start": 246.17,
+    "end": 246.826
+  },
+  {
+    "word": "Art. Unsichtbar.",
+    "start": 246.826,
+    "end": 247.483
+  },
+  {
+    "word": "Kein",
+    "start": 247.483,
+    "end": 248.139
+  },
+  {
+    "word": "Radar",
+    "start": 248.139,
+    "end": 248.796
+  },
+  {
+    "word": "zeigt",
+    "start": 248.796,
+    "end": 249.452
+  },
+  {
+    "word": "sie. Sie",
+    "start": 249.452,
+    "end": 250.109
+  },
+  {
+    "word": "trifft",
+    "start": 250.109,
+    "end": 250.766
+  },
+  {
+    "word": "ohne",
+    "start": 250.766,
+    "end": 251.422
+  },
+  {
+    "word": "Warnung",
+    "start": 251.422,
+    "end": 252.079
+  },
+  {
+    "word": "— und",
+    "start": 252.079,
+    "end": 252.735
+  },
+  {
+    "word": "dann",
+    "start": 252.735,
+    "end": 253.392
+  },
+  {
+    "word": "passiert",
+    "start": 253.392,
+    "end": 254.048
+  },
+  {
+    "word": "das Schlimmste",
+    "start": 254.048,
+    "end": 254.705
+  },
+  {
+    "word": "in Sekundenbruchteilen.",
+    "start": 254.705,
+    "end": 255.362
+  },
+  {
+    "word": "Ein Flug",
+    "start": 255.362,
+    "end": 256.018
+  },
+  {
+    "word": "von Qatar",
+    "start": 256.018,
+    "end": 256.675
+  },
+  {
+    "word": "Airways",
+    "start": 256.675,
+    "end": 257.331
+  },
+  {
+    "word": "2023",
+    "start": 257.331,
+    "end": 257.988
+  },
+  {
+    "word": "stürzte",
+    "start": 257.988,
+    "end": 258.644
+  },
+  {
+    "word": "durch",
+    "start": 258.644,
+    "end": 259.301
+  },
+  {
+    "word": "Clear",
+    "start": 259.301,
+    "end": 259.957
+  },
+  {
+    "word": "Air Turbulenz",
+    "start": 259.957,
+    "end": 260.614
+  },
+  {
+    "word": "40 Meter",
+    "start": 260.614,
+    "end": 261.271
+  },
+  {
+    "word": "in der",
+    "start": 261.271,
+    "end": 261.927
+  },
+  {
+    "word": "Luft",
+    "start": 261.927,
+    "end": 262.584
+  },
+  {
+    "word": "ab. 12",
+    "start": 262.584,
+    "end": 263.24
+  },
+  {
+    "word": "Verletzte.",
+    "start": 263.24,
+    "end": 263.897
+  },
+  {
+    "word": "Das Flugzeug",
+    "start": 263.897,
+    "end": 264.553
+  },
+  {
+    "word": "war MACHTLOS.",
+    "start": 264.553,
+    "end": 265.21
+  },
+  {
+    "word": "Hier",
+    "start": 265.51,
+    "end": 266.149
+  },
+  {
+    "word": "liegt",
+    "start": 266.149,
+    "end": 266.789
+  },
+  {
+    "word": "das eigentliche",
+    "start": 266.789,
+    "end": 267.428
+  },
+  {
+    "word": "Geheimnis.",
+    "start": 267.428,
+    "end": 268.068
+  },
+  {
+    "word": "Der Autopilot",
+    "start": 268.068,
+    "end": 268.707
+  },
+  {
+    "word": "ist PRÄZISER",
+    "start": 268.707,
+    "end": 269.347
+  },
+  {
+    "word": "als jeder",
+    "start": 269.347,
+    "end": 269.986
+  },
+  {
+    "word": "Mensch",
+    "start": 269.986,
+    "end": 270.625
+  },
+  {
+    "word": "— in",
+    "start": 270.625,
+    "end": 271.265
+  },
+  {
+    "word": "stabilen",
+    "start": 271.265,
+    "end": 271.904
+  },
+  {
+    "word": "Bedingungen.",
+    "start": 271.904,
+    "end": 272.544
+  },
+  {
+    "word": "Aber",
+    "start": 272.544,
+    "end": 273.183
+  },
+  {
+    "word": "er versteht",
+    "start": 273.183,
+    "end": 273.823
+  },
+  {
+    "word": "den Kontext",
+    "start": 273.823,
+    "end": 274.462
+  },
+  {
+    "word": "nicht.",
+    "start": 274.462,
+    "end": 275.101
+  },
+  {
+    "word": "Er weiß",
+    "start": 275.101,
+    "end": 275.741
+  },
+  {
+    "word": "nicht,",
+    "start": 275.741,
+    "end": 276.38
+  },
+  {
+    "word": "warum",
+    "start": 276.38,
+    "end": 277.02
+  },
+  {
+    "word": "etwas",
+    "start": 277.02,
+    "end": 277.659
+  },
+  {
+    "word": "passiert.",
+    "start": 277.659,
+    "end": 278.299
+  },
+  {
+    "word": "Und genau",
+    "start": 278.299,
+    "end": 278.938
+  },
+  {
+    "word": "deshalb",
+    "start": 278.938,
+    "end": 279.577
+  },
+  {
+    "word": "sitzen",
+    "start": 279.577,
+    "end": 280.217
+  },
+  {
+    "word": "Piloten",
+    "start": 280.217,
+    "end": 280.856
+  },
+  {
+    "word": "noch",
+    "start": 280.856,
+    "end": 281.496
+  },
+  {
+    "word": "immer",
+    "start": 281.496,
+    "end": 282.135
+  },
+  {
+    "word": "vorne",
+    "start": 282.135,
+    "end": 282.775
+  },
+  {
+    "word": "— nicht",
+    "start": 282.775,
+    "end": 283.414
+  },
+  {
+    "word": "als Backup,",
+    "start": 283.414,
+    "end": 284.053
+  },
+  {
+    "word": "sondern",
+    "start": 284.053,
+    "end": 284.693
+  },
+  {
+    "word": "als das",
+    "start": 284.693,
+    "end": 285.332
+  },
+  {
+    "word": "einzige",
+    "start": 285.332,
+    "end": 285.972
+  },
+  {
+    "word": "Element,",
+    "start": 285.972,
+    "end": 286.611
+  },
+  {
+    "word": "das denken",
+    "start": 286.611,
+    "end": 287.251
+  },
+  {
+    "word": "kann.",
+    "start": 287.251,
+    "end": 287.89
+  },
+  {
+    "word": "2009.",
+    "start": 288.19,
+    "end": 288.817
+  },
+  {
+    "word": "Air France",
+    "start": 288.817,
+    "end": 289.445
+  },
+  {
+    "word": "Flug",
+    "start": 289.445,
+    "end": 290.072
+  },
+  {
+    "word": "447. Mitten",
+    "start": 290.072,
+    "end": 290.699
+  },
+  {
+    "word": "über",
+    "start": 290.699,
+    "end": 291.327
+  },
+  {
+    "word": "dem Atlantik",
+    "start": 291.327,
+    "end": 291.954
+  },
+  {
+    "word": "gefrieren",
+    "start": 291.954,
+    "end": 292.581
+  },
+  {
+    "word": "die Pitot-Rohre",
+    "start": 292.581,
+    "end": 293.209
+  },
+  {
+    "word": "ein —",
+    "start": 293.209,
+    "end": 293.836
+  },
+  {
+    "word": "die Sensoren,",
+    "start": 293.836,
+    "end": 294.463
+  },
+  {
+    "word": "die dem",
+    "start": 294.463,
+    "end": 295.091
+  },
+  {
+    "word": "Autopiloten",
+    "start": 295.091,
+    "end": 295.718
+  },
+  {
+    "word": "die Geschwindigkeit",
+    "start": 295.718,
+    "end": 296.345
+  },
+  {
+    "word": "melden.",
+    "start": 296.345,
+    "end": 296.973
+  },
+  {
+    "word": "Das System",
+    "start": 296.973,
+    "end": 297.6
+  },
+  {
+    "word": "schaltet",
+    "start": 297.6,
+    "end": 298.227
+  },
+  {
+    "word": "ab. Die",
+    "start": 298.227,
+    "end": 298.855
+  },
+  {
+    "word": "Piloten",
+    "start": 298.855,
+    "end": 299.482
+  },
+  {
+    "word": "übernehmen.",
+    "start": 299.482,
+    "end": 300.109
+  },
+  {
+    "word": "Und sie",
+    "start": 300.109,
+    "end": 300.737
+  },
+  {
+    "word": "fliegen",
+    "start": 300.737,
+    "end": 301.364
+  },
+  {
+    "word": "das Flugzeug",
+    "start": 301.364,
+    "end": 301.991
+  },
+  {
+    "word": "in den",
+    "start": 301.991,
+    "end": 302.619
+  },
+  {
+    "word": "Absturz",
+    "start": 302.619,
+    "end": 303.246
+  },
+  {
+    "word": "— DREI",
+    "start": 303.246,
+    "end": 303.873
+  },
+  {
+    "word": "Minuten",
+    "start": 303.873,
+    "end": 304.501
+  },
+  {
+    "word": "lang,",
+    "start": 304.501,
+    "end": 305.128
+  },
+  {
+    "word": "ohne",
+    "start": 305.128,
+    "end": 305.755
+  },
+  {
+    "word": "es zu",
+    "start": 305.755,
+    "end": 306.383
+  },
+  {
+    "word": "merken.",
+    "start": 306.383,
+    "end": 307.01
+  },
+  {
+    "word": "Der Unfall",
+    "start": 307.31,
+    "end": 307.841
+  },
+  {
+    "word": "zeigte",
+    "start": 307.841,
+    "end": 308.372
+  },
+  {
+    "word": "ein erschreckendes",
+    "start": 308.372,
+    "end": 308.902
+  },
+  {
+    "word": "Paradox.",
+    "start": 308.902,
+    "end": 309.433
+  },
+  {
+    "word": "Piloten,",
+    "start": 309.433,
+    "end": 309.964
+  },
+  {
+    "word": "die zu",
+    "start": 309.964,
+    "end": 310.495
+  },
+  {
+    "word": "sehr",
+    "start": 310.495,
+    "end": 311.026
+  },
+  {
+    "word": "auf den",
+    "start": 311.026,
+    "end": 311.557
+  },
+  {
+    "word": "Autopiloten",
+    "start": 311.557,
+    "end": 312.087
+  },
+  {
+    "word": "vertrauen,",
+    "start": 312.087,
+    "end": 312.618
+  },
+  {
+    "word": "verlieren",
+    "start": 312.618,
+    "end": 313.149
+  },
+  {
+    "word": "ihre",
+    "start": 313.149,
+    "end": 313.68
+  },
+  {
+    "word": "manuellen",
+    "start": 313.68,
+    "end": 314.211
+  },
+  {
+    "word": "Fähigkeiten.",
+    "start": 314.211,
+    "end": 314.742
+  },
+  {
+    "word": "Das nennt",
+    "start": 314.742,
+    "end": 315.272
+  },
+  {
+    "word": "sich",
+    "start": 315.272,
+    "end": 315.803
+  },
+  {
+    "word": "Skill",
+    "start": 315.803,
+    "end": 316.334
+  },
+  {
+    "word": "Degradation",
+    "start": 316.334,
+    "end": 316.865
+  },
+  {
+    "word": "— der",
+    "start": 316.865,
+    "end": 317.396
+  },
+  {
+    "word": "schleichende",
+    "start": 317.396,
+    "end": 317.927
+  },
+  {
+    "word": "Verlust",
+    "start": 317.927,
+    "end": 318.457
+  },
+  {
+    "word": "von Können",
+    "start": 318.457,
+    "end": 318.988
+  },
+  {
+    "word": "durch",
+    "start": 318.988,
+    "end": 319.519
+  },
+  {
+    "word": "zu wenig",
+    "start": 319.519,
+    "end": 320.05
+  },
+  {
+    "word": "Praxis.",
+    "start": 320.05,
+    "end": 320.581
+  },
+  {
+    "word": "Eine",
+    "start": 320.581,
+    "end": 321.112
+  },
+  {
+    "word": "Studie",
+    "start": 321.112,
+    "end": 321.642
+  },
+  {
+    "word": "der FAA",
+    "start": 321.642,
+    "end": 322.173
+  },
+  {
+    "word": "fand:",
+    "start": 322.173,
+    "end": 322.704
+  },
+  {
+    "word": "Piloten",
+    "start": 322.704,
+    "end": 323.235
+  },
+  {
+    "word": "brauchen",
+    "start": 323.235,
+    "end": 323.766
+  },
+  {
+    "word": "REGELMÄSSIGES",
+    "start": 323.766,
+    "end": 324.297
+  },
+  {
+    "word": "manuelles",
+    "start": 324.297,
+    "end": 324.827
+  },
+  {
+    "word": "Fliegen,",
+    "start": 324.827,
+    "end": 325.358
+  },
+  {
+    "word": "um sicher",
+    "start": 325.358,
+    "end": 325.889
+  },
+  {
+    "word": "zu bleiben.",
+    "start": 325.889,
+    "end": 326.42
+  },
+  {
+    "word": "Die Luftfahrtbehörden",
+    "start": 326.72,
+    "end": 327.301
+  },
+  {
+    "word": "schlagen",
+    "start": 327.301,
+    "end": 327.881
+  },
+  {
+    "word": "Alarm.",
+    "start": 327.881,
+    "end": 328.462
+  },
+  {
+    "word": "Flugzeuge",
+    "start": 328.462,
+    "end": 329.042
+  },
+  {
+    "word": "sind",
+    "start": 329.042,
+    "end": 329.623
+  },
+  {
+    "word": "heute",
+    "start": 329.623,
+    "end": 330.204
+  },
+  {
+    "word": "so automatisiert,",
+    "start": 330.204,
+    "end": 330.784
+  },
+  {
+    "word": "dass",
+    "start": 330.784,
+    "end": 331.365
+  },
+  {
+    "word": "Piloten",
+    "start": 331.365,
+    "end": 331.945
+  },
+  {
+    "word": "manchmal",
+    "start": 331.945,
+    "end": 332.526
+  },
+  {
+    "word": "nur noch",
+    "start": 332.526,
+    "end": 333.107
+  },
+  {
+    "word": "Systemmanager",
+    "start": 333.107,
+    "end": 333.687
+  },
+  {
+    "word": "sind.",
+    "start": 333.687,
+    "end": 334.268
+  },
+  {
+    "word": "Boeing",
+    "start": 334.268,
+    "end": 334.848
+  },
+  {
+    "word": "und Airbus",
+    "start": 334.848,
+    "end": 335.429
+  },
+  {
+    "word": "streiten",
+    "start": 335.429,
+    "end": 336.01
+  },
+  {
+    "word": "seit",
+    "start": 336.01,
+    "end": 336.59
+  },
+  {
+    "word": "Jahren,",
+    "start": 336.59,
+    "end": 337.171
+  },
+  {
+    "word": "wie viel",
+    "start": 337.171,
+    "end": 337.752
+  },
+  {
+    "word": "Kontrolle",
+    "start": 337.752,
+    "end": 338.332
+  },
+  {
+    "word": "der Pilot",
+    "start": 338.332,
+    "end": 338.913
+  },
+  {
+    "word": "behalten",
+    "start": 338.913,
+    "end": 339.493
+  },
+  {
+    "word": "soll.",
+    "start": 339.493,
+    "end": 340.074
+  },
+  {
+    "word": "Airbus",
+    "start": 340.074,
+    "end": 340.655
+  },
+  {
+    "word": "setzt",
+    "start": 340.655,
+    "end": 341.235
+  },
+  {
+    "word": "auf Fly-by-Wire",
+    "start": 341.235,
+    "end": 341.816
+  },
+  {
+    "word": "mit GRENZEN.",
+    "start": 341.816,
+    "end": 342.396
+  },
+  {
+    "word": "Boeing",
+    "start": 342.396,
+    "end": 342.977
+  },
+  {
+    "word": "lässt",
+    "start": 342.977,
+    "end": 343.558
+  },
+  {
+    "word": "Piloten",
+    "start": 343.558,
+    "end": 344.138
+  },
+  {
+    "word": "immer",
+    "start": 344.138,
+    "end": 344.719
+  },
+  {
+    "word": "die letzte",
+    "start": 344.719,
+    "end": 345.299
+  },
+  {
+    "word": "Entscheidung.",
+    "start": 345.299,
+    "end": 345.88
+  },
+  {
+    "word": "Boeing",
+    "start": 346.18,
+    "end": 346.958
+  },
+  {
+    "word": "737 MAX.",
+    "start": 346.958,
+    "end": 347.736
+  },
+  {
+    "word": "Das MCAS-System",
+    "start": 347.736,
+    "end": 348.514
+  },
+  {
+    "word": "— eine",
+    "start": 348.514,
+    "end": 349.292
+  },
+  {
+    "word": "automatische",
+    "start": 349.292,
+    "end": 350.07
+  },
+  {
+    "word": "Stabilisierungssoftware",
+    "start": 350.07,
+    "end": 350.848
+  },
+  {
+    "word": "— drückte",
+    "start": 350.848,
+    "end": 351.626
+  },
+  {
+    "word": "zweimal",
+    "start": 351.626,
+    "end": 352.404
+  },
+  {
+    "word": "die Nase",
+    "start": 352.404,
+    "end": 353.182
+  },
+  {
+    "word": "des Flugzeugs",
+    "start": 353.182,
+    "end": 353.96
+  },
+  {
+    "word": "nach",
+    "start": 353.96,
+    "end": 354.738
+  },
+  {
+    "word": "unten.",
+    "start": 354.738,
+    "end": 355.516
+  },
+  {
+    "word": "Piloten",
+    "start": 355.516,
+    "end": 356.294
+  },
+  {
+    "word": "kämpften",
+    "start": 356.294,
+    "end": 357.072
+  },
+  {
+    "word": "dagegen.",
+    "start": 357.072,
+    "end": 357.85
+  },
+  {
+    "word": "Sie verloren.",
+    "start": 357.85,
+    "end": 358.628
+  },
+  {
+    "word": "346 Menschen",
+    "start": 358.628,
+    "end": 359.406
+  },
+  {
+    "word": "STARBEN.",
+    "start": 359.406,
+    "end": 360.184
+  },
+  {
+    "word": "Das System",
+    "start": 360.184,
+    "end": 360.962
+  },
+  {
+    "word": "hatte",
+    "start": 360.962,
+    "end": 361.74
+  },
+  {
+    "word": "automatisch",
+    "start": 361.74,
+    "end": 362.518
+  },
+  {
+    "word": "entschieden",
+    "start": 362.518,
+    "end": 363.296
+  },
+  {
+    "word": "— und",
+    "start": 363.296,
+    "end": 364.074
+  },
+  {
+    "word": "es lag",
+    "start": 364.074,
+    "end": 364.852
+  },
+  {
+    "word": "falsch.",
+    "start": 364.852,
+    "end": 365.63
+  },
+  {
+    "word": "Das ist",
+    "start": 365.93,
+    "end": 366.6
+  },
+  {
+    "word": "der Moment,",
+    "start": 366.6,
+    "end": 367.269
+  },
+  {
+    "word": "in dem",
+    "start": 367.269,
+    "end": 367.939
+  },
+  {
+    "word": "du verstehst,",
+    "start": 367.939,
+    "end": 368.609
+  },
+  {
+    "word": "wer wirklich",
+    "start": 368.609,
+    "end": 369.278
+  },
+  {
+    "word": "das Flugzeug",
+    "start": 369.278,
+    "end": 369.948
+  },
+  {
+    "word": "kontrolliert.",
+    "start": 369.948,
+    "end": 370.618
+  },
+  {
+    "word": "Es ist",
+    "start": 370.618,
+    "end": 371.287
+  },
+  {
+    "word": "nicht",
+    "start": 371.287,
+    "end": 371.957
+  },
+  {
+    "word": "der Autopilot.",
+    "start": 371.957,
+    "end": 372.627
+  },
+  {
+    "word": "Es ist",
+    "start": 372.627,
+    "end": 373.296
+  },
+  {
+    "word": "nicht",
+    "start": 373.296,
+    "end": 373.966
+  },
+  {
+    "word": "mal immer",
+    "start": 373.966,
+    "end": 374.636
+  },
+  {
+    "word": "der Pilot.",
+    "start": 374.636,
+    "end": 375.305
+  },
+  {
+    "word": "Es ist",
+    "start": 375.305,
+    "end": 375.975
+  },
+  {
+    "word": "ein komplexes",
+    "start": 375.975,
+    "end": 376.644
+  },
+  {
+    "word": "System",
+    "start": 376.644,
+    "end": 377.314
+  },
+  {
+    "word": "aus Software,",
+    "start": 377.314,
+    "end": 377.984
+  },
+  {
+    "word": "Sensoren",
+    "start": 377.984,
+    "end": 378.653
+  },
+  {
+    "word": "und menschlichem",
+    "start": 378.653,
+    "end": 379.323
+  },
+  {
+    "word": "Urteil",
+    "start": 379.323,
+    "end": 379.993
+  },
+  {
+    "word": "— das",
+    "start": 379.993,
+    "end": 380.662
+  },
+  {
+    "word": "nur dann",
+    "start": 380.662,
+    "end": 381.332
+  },
+  {
+    "word": "SICHER",
+    "start": 381.332,
+    "end": 382.002
+  },
+  {
+    "word": "ist, wenn",
+    "start": 382.002,
+    "end": 382.671
+  },
+  {
+    "word": "alle",
+    "start": 382.671,
+    "end": 383.341
+  },
+  {
+    "word": "drei",
+    "start": 383.341,
+    "end": 384.011
+  },
+  {
+    "word": "Teile",
+    "start": 384.011,
+    "end": 384.68
+  },
+  {
+    "word": "funktionieren.",
+    "start": 384.68,
+    "end": 385.35
+  },
+  {
+    "word": "Jetzt",
+    "start": 385.65,
+    "end": 386.323
+  },
+  {
+    "word": "wird",
+    "start": 386.323,
+    "end": 386.996
+  },
+  {
+    "word": "es KONTROVERS.",
+    "start": 386.996,
+    "end": 387.67
+  },
+  {
+    "word": "Airlines",
+    "start": 387.67,
+    "end": 388.343
+  },
+  {
+    "word": "träumen",
+    "start": 388.343,
+    "end": 389.016
+  },
+  {
+    "word": "von einem",
+    "start": 389.016,
+    "end": 389.689
+  },
+  {
+    "word": "Einpiloten-Cockpit.",
+    "start": 389.689,
+    "end": 390.362
+  },
+  {
+    "word": "Nur ein",
+    "start": 390.362,
+    "end": 391.036
+  },
+  {
+    "word": "Pilot",
+    "start": 391.036,
+    "end": 391.709
+  },
+  {
+    "word": "vorne",
+    "start": 391.709,
+    "end": 392.382
+  },
+  {
+    "word": "— der",
+    "start": 392.382,
+    "end": 393.055
+  },
+  {
+    "word": "andere",
+    "start": 393.055,
+    "end": 393.729
+  },
+  {
+    "word": "am Boden,",
+    "start": 393.729,
+    "end": 394.402
+  },
+  {
+    "word": "der per",
+    "start": 394.402,
+    "end": 395.075
+  },
+  {
+    "word": "Fernsteuerung",
+    "start": 395.075,
+    "end": 395.748
+  },
+  {
+    "word": "assistiert.",
+    "start": 395.748,
+    "end": 396.421
+  },
+  {
+    "word": "Airbus",
+    "start": 396.421,
+    "end": 397.095
+  },
+  {
+    "word": "testet",
+    "start": 397.095,
+    "end": 397.768
+  },
+  {
+    "word": "das bereits.",
+    "start": 397.768,
+    "end": 398.441
+  },
+  {
+    "word": "Die EASA",
+    "start": 398.441,
+    "end": 399.114
+  },
+  {
+    "word": "prüft",
+    "start": 399.114,
+    "end": 399.787
+  },
+  {
+    "word": "Regulierungen.",
+    "start": 399.787,
+    "end": 400.461
+  },
+  {
+    "word": "Das würde",
+    "start": 400.461,
+    "end": 401.134
+  },
+  {
+    "word": "Milliarden",
+    "start": 401.134,
+    "end": 401.807
+  },
+  {
+    "word": "sparen.",
+    "start": 401.807,
+    "end": 402.48
+  },
+  {
+    "word": "Und du",
+    "start": 402.48,
+    "end": 403.154
+  },
+  {
+    "word": "wärst",
+    "start": 403.154,
+    "end": 403.827
+  },
+  {
+    "word": "das Versuchskaninchen.",
+    "start": 403.827,
+    "end": 404.5
+  },
+  {
+    "word": "Und vollautonomes",
+    "start": 404.8,
+    "end": 405.513
+  },
+  {
+    "word": "Fliegen",
+    "start": 405.513,
+    "end": 406.226
+  },
+  {
+    "word": "ohne",
+    "start": 406.226,
+    "end": 406.939
+  },
+  {
+    "word": "Piloten?",
+    "start": 406.939,
+    "end": 407.652
+  },
+  {
+    "word": "Die Technologie",
+    "start": 407.652,
+    "end": 408.365
+  },
+  {
+    "word": "existiert",
+    "start": 408.365,
+    "end": 409.078
+  },
+  {
+    "word": "bereits",
+    "start": 409.078,
+    "end": 409.791
+  },
+  {
+    "word": "in Teilen.",
+    "start": 409.791,
+    "end": 410.504
+  },
+  {
+    "word": "Drohnen",
+    "start": 410.504,
+    "end": 411.217
+  },
+  {
+    "word": "fliegen",
+    "start": 411.217,
+    "end": 411.93
+  },
+  {
+    "word": "autonom.",
+    "start": 411.93,
+    "end": 412.643
+  },
+  {
+    "word": "Militärflugzeuge",
+    "start": 412.643,
+    "end": 413.356
+  },
+  {
+    "word": "auch.",
+    "start": 413.356,
+    "end": 414.069
+  },
+  {
+    "word": "Aber",
+    "start": 414.069,
+    "end": 414.782
+  },
+  {
+    "word": "ein vollbesetzter",
+    "start": 414.782,
+    "end": 415.495
+  },
+  {
+    "word": "Airbus",
+    "start": 415.495,
+    "end": 416.208
+  },
+  {
+    "word": "A380",
+    "start": 416.208,
+    "end": 416.921
+  },
+  {
+    "word": "mit 500",
+    "start": 416.921,
+    "end": 417.634
+  },
+  {
+    "word": "Passagieren",
+    "start": 417.634,
+    "end": 418.347
+  },
+  {
+    "word": "— ohne",
+    "start": 418.347,
+    "end": 419.06
+  },
+  {
+    "word": "Piloten?",
+    "start": 419.06,
+    "end": 419.773
+  },
+  {
+    "word": "Die Industrie",
+    "start": 419.773,
+    "end": 420.486
+  },
+  {
+    "word": "sagt:",
+    "start": 420.486,
+    "end": 421.199
+  },
+  {
+    "word": "Vielleicht",
+    "start": 421.199,
+    "end": 421.912
+  },
+  {
+    "word": "in 20",
+    "start": 421.912,
+    "end": 422.625
+  },
+  {
+    "word": "bis 30",
+    "start": 422.625,
+    "end": 423.338
+  },
+  {
+    "word": "Jahren.",
+    "start": 423.338,
+    "end": 424.051
+  },
+  {
+    "word": "Die ÖFFENTLICHKEIT",
+    "start": 424.051,
+    "end": 424.764
+  },
+  {
+    "word": "lehnt",
+    "start": 424.764,
+    "end": 425.477
+  },
+  {
+    "word": "es ab.",
+    "start": 425.477,
+    "end": 426.19
+  },
+  {
+    "word": "Umfragen",
+    "start": 426.49,
+    "end": 427.16
+  },
+  {
+    "word": "zeigen",
+    "start": 427.16,
+    "end": 427.831
+  },
+  {
+    "word": "Erstaunliches.",
+    "start": 427.831,
+    "end": 428.501
+  },
+  {
+    "word": "Rund",
+    "start": 428.501,
+    "end": 429.172
+  },
+  {
+    "word": "60 Prozent",
+    "start": 429.172,
+    "end": 429.842
+  },
+  {
+    "word": "der Passagiere",
+    "start": 429.842,
+    "end": 430.512
+  },
+  {
+    "word": "glauben,",
+    "start": 430.512,
+    "end": 431.183
+  },
+  {
+    "word": "der Autopilot",
+    "start": 431.183,
+    "end": 431.853
+  },
+  {
+    "word": "könne",
+    "start": 431.853,
+    "end": 432.523
+  },
+  {
+    "word": "im Notfall",
+    "start": 432.523,
+    "end": 433.194
+  },
+  {
+    "word": "selbstständig",
+    "start": 433.194,
+    "end": 433.864
+  },
+  {
+    "word": "handeln.",
+    "start": 433.864,
+    "end": 434.535
+  },
+  {
+    "word": "Das ist",
+    "start": 434.535,
+    "end": 435.205
+  },
+  {
+    "word": "FALSCH.",
+    "start": 435.205,
+    "end": 435.875
+  },
+  {
+    "word": "Der Autopilot",
+    "start": 435.875,
+    "end": 436.546
+  },
+  {
+    "word": "reagiert",
+    "start": 436.546,
+    "end": 437.216
+  },
+  {
+    "word": "auf Programmbefehle",
+    "start": 437.216,
+    "end": 437.887
+  },
+  {
+    "word": "— nicht",
+    "start": 437.887,
+    "end": 438.557
+  },
+  {
+    "word": "auf unerwartete",
+    "start": 438.557,
+    "end": 439.227
+  },
+  {
+    "word": "Krisen.",
+    "start": 439.227,
+    "end": 439.898
+  },
+  {
+    "word": "Notfälle",
+    "start": 439.898,
+    "end": 440.568
+  },
+  {
+    "word": "brauchen",
+    "start": 440.568,
+    "end": 441.238
+  },
+  {
+    "word": "immer",
+    "start": 441.238,
+    "end": 441.909
+  },
+  {
+    "word": "noch",
+    "start": 441.909,
+    "end": 442.579
+  },
+  {
+    "word": "menschliche",
+    "start": 442.579,
+    "end": 443.25
+  },
+  {
+    "word": "Intelligenz.",
+    "start": 443.25,
+    "end": 443.92
+  },
+  {
+    "word": "Erinnerst",
+    "start": 444.22,
+    "end": 444.967
+  },
+  {
+    "word": "du dich",
+    "start": 444.967,
+    "end": 445.715
+  },
+  {
+    "word": "an Captain",
+    "start": 445.715,
+    "end": 446.462
+  },
+  {
+    "word": "Sully?",
+    "start": 446.462,
+    "end": 447.209
+  },
+  {
+    "word": "2009",
+    "start": 447.209,
+    "end": 447.957
+  },
+  {
+    "word": "traf",
+    "start": 447.957,
+    "end": 448.704
+  },
+  {
+    "word": "US Airways",
+    "start": 448.704,
+    "end": 449.451
+  },
+  {
+    "word": "1549",
+    "start": 449.451,
+    "end": 450.199
+  },
+  {
+    "word": "einen",
+    "start": 450.199,
+    "end": 450.946
+  },
+  {
+    "word": "Vogelschlag",
+    "start": 450.946,
+    "end": 451.693
+  },
+  {
+    "word": "— beide",
+    "start": 451.693,
+    "end": 452.441
+  },
+  {
+    "word": "Triebwerke",
+    "start": 452.441,
+    "end": 453.188
+  },
+  {
+    "word": "aus. Der",
+    "start": 453.188,
+    "end": 453.935
+  },
+  {
+    "word": "Autopilot?",
+    "start": 453.935,
+    "end": 454.683
+  },
+  {
+    "word": "NUTZLOS.",
+    "start": 454.683,
+    "end": 455.43
+  },
+  {
+    "word": "Sully",
+    "start": 455.43,
+    "end": 456.177
+  },
+  {
+    "word": "landete",
+    "start": 456.177,
+    "end": 456.925
+  },
+  {
+    "word": "den Airbus",
+    "start": 456.925,
+    "end": 457.672
+  },
+  {
+    "word": "manuell",
+    "start": 457.672,
+    "end": 458.419
+  },
+  {
+    "word": "auf dem",
+    "start": 458.419,
+    "end": 459.167
+  },
+  {
+    "word": "Hudson",
+    "start": 459.167,
+    "end": 459.914
+  },
+  {
+    "word": "River.",
+    "start": 459.914,
+    "end": 460.661
+  },
+  {
+    "word": "155 Menschen",
+    "start": 460.661,
+    "end": 461.409
+  },
+  {
+    "word": "überlebten.",
+    "start": 461.409,
+    "end": 462.156
+  },
+  {
+    "word": "Das wäre",
+    "start": 462.156,
+    "end": 462.903
+  },
+  {
+    "word": "mit einem",
+    "start": 462.903,
+    "end": 463.651
+  },
+  {
+    "word": "Autopiloten",
+    "start": 463.651,
+    "end": 464.398
+  },
+  {
+    "word": "schlicht",
+    "start": 464.398,
+    "end": 465.145
+  },
+  {
+    "word": "unmöglich",
+    "start": 465.145,
+    "end": 465.893
+  },
+  {
+    "word": "gewesen.",
+    "start": 465.893,
+    "end": 466.64
+  },
+  {
+    "word": "Sully",
+    "start": 466.94,
+    "end": 467.602
+  },
+  {
+    "word": "sagte",
+    "start": 467.602,
+    "end": 468.265
+  },
+  {
+    "word": "später:",
+    "start": 468.265,
+    "end": 468.927
+  },
+  {
+    "word": "Er hatte",
+    "start": 468.927,
+    "end": 469.589
+  },
+  {
+    "word": "nur 208",
+    "start": 469.589,
+    "end": 470.251
+  },
+  {
+    "word": "Sekunden.",
+    "start": 470.251,
+    "end": 470.914
+  },
+  {
+    "word": "Kein",
+    "start": 470.914,
+    "end": 471.576
+  },
+  {
+    "word": "Handbuch,",
+    "start": 471.576,
+    "end": 472.238
+  },
+  {
+    "word": "kein",
+    "start": 472.238,
+    "end": 472.9
+  },
+  {
+    "word": "Algorithmus,",
+    "start": 472.9,
+    "end": 473.563
+  },
+  {
+    "word": "keine",
+    "start": 473.563,
+    "end": 474.225
+  },
+  {
+    "word": "KI hätte",
+    "start": 474.225,
+    "end": 474.887
+  },
+  {
+    "word": "diese",
+    "start": 474.887,
+    "end": 475.549
+  },
+  {
+    "word": "Entscheidung",
+    "start": 475.549,
+    "end": 476.212
+  },
+  {
+    "word": "getroffen.",
+    "start": 476.212,
+    "end": 476.874
+  },
+  {
+    "word": "Der Mensch",
+    "start": 476.874,
+    "end": 477.536
+  },
+  {
+    "word": "entschied",
+    "start": 477.536,
+    "end": 478.198
+  },
+  {
+    "word": "in dem",
+    "start": 478.198,
+    "end": 478.861
+  },
+  {
+    "word": "Moment,",
+    "start": 478.861,
+    "end": 479.523
+  },
+  {
+    "word": "wo alle",
+    "start": 479.523,
+    "end": 480.185
+  },
+  {
+    "word": "Systeme",
+    "start": 480.185,
+    "end": 480.847
+  },
+  {
+    "word": "versagten.",
+    "start": 480.847,
+    "end": 481.51
+  },
+  {
+    "word": "Das ist",
+    "start": 481.51,
+    "end": 482.172
+  },
+  {
+    "word": "der Kern",
+    "start": 482.172,
+    "end": 482.834
+  },
+  {
+    "word": "der ganzen",
+    "start": 482.834,
+    "end": 483.496
+  },
+  {
+    "word": "Geschichte",
+    "start": 483.496,
+    "end": 484.159
+  },
+  {
+    "word": "— und",
+    "start": 484.159,
+    "end": 484.821
+  },
+  {
+    "word": "warum",
+    "start": 484.821,
+    "end": 485.483
+  },
+  {
+    "word": "Piloten",
+    "start": 485.483,
+    "end": 486.145
+  },
+  {
+    "word": "UNVERZICHTBAR",
+    "start": 486.145,
+    "end": 486.808
+  },
+  {
+    "word": "bleiben.",
+    "start": 486.808,
+    "end": 487.47
+  },
+  {
+    "word": "Aber",
+    "start": 487.77,
+    "end": 488.333
+  },
+  {
+    "word": "die Technologie",
+    "start": 488.333,
+    "end": 488.896
+  },
+  {
+    "word": "schläft",
+    "start": 488.896,
+    "end": 489.459
+  },
+  {
+    "word": "nicht.",
+    "start": 489.459,
+    "end": 490.022
+  },
+  {
+    "word": "Künstliche",
+    "start": 490.022,
+    "end": 490.585
+  },
+  {
+    "word": "Intelligenz",
+    "start": 490.585,
+    "end": 491.148
+  },
+  {
+    "word": "hält",
+    "start": 491.148,
+    "end": 491.711
+  },
+  {
+    "word": "Einzug",
+    "start": 491.711,
+    "end": 492.274
+  },
+  {
+    "word": "ins Cockpit.",
+    "start": 492.274,
+    "end": 492.837
+  },
+  {
+    "word": "Systeme",
+    "start": 492.837,
+    "end": 493.4
+  },
+  {
+    "word": "wie Garmin",
+    "start": 493.4,
+    "end": 493.963
+  },
+  {
+    "word": "Autoland",
+    "start": 493.963,
+    "end": 494.526
+  },
+  {
+    "word": "können",
+    "start": 494.526,
+    "end": 495.089
+  },
+  {
+    "word": "heute",
+    "start": 495.089,
+    "end": 495.652
+  },
+  {
+    "word": "ein kleines",
+    "start": 495.652,
+    "end": 496.215
+  },
+  {
+    "word": "Flugzeug",
+    "start": 496.215,
+    "end": 496.778
+  },
+  {
+    "word": "vollständig",
+    "start": 496.778,
+    "end": 497.342
+  },
+  {
+    "word": "landen",
+    "start": 497.342,
+    "end": 497.905
+  },
+  {
+    "word": "— auch",
+    "start": 497.905,
+    "end": 498.468
+  },
+  {
+    "word": "wenn",
+    "start": 498.468,
+    "end": 499.031
+  },
+  {
+    "word": "der Pilot",
+    "start": 499.031,
+    "end": 499.594
+  },
+  {
+    "word": "bewusstlos",
+    "start": 499.594,
+    "end": 500.157
+  },
+  {
+    "word": "ist. Der",
+    "start": 500.157,
+    "end": 500.72
+  },
+  {
+    "word": "Passagier",
+    "start": 500.72,
+    "end": 501.283
+  },
+  {
+    "word": "drückt",
+    "start": 501.283,
+    "end": 501.846
+  },
+  {
+    "word": "einfach",
+    "start": 501.846,
+    "end": 502.409
+  },
+  {
+    "word": "einen",
+    "start": 502.409,
+    "end": 502.972
+  },
+  {
+    "word": "Knopf.",
+    "start": 502.972,
+    "end": 503.535
+  },
+  {
+    "word": "Das klingt",
+    "start": 503.535,
+    "end": 504.098
+  },
+  {
+    "word": "fantastisch.",
+    "start": 504.098,
+    "end": 504.661
+  },
+  {
+    "word": "Und ist",
+    "start": 504.661,
+    "end": 505.224
+  },
+  {
+    "word": "es auch",
+    "start": 505.224,
+    "end": 505.787
+  },
+  {
+    "word": "— FAST.",
+    "start": 505.787,
+    "end": 506.35
+  },
+  {
+    "word": "Das Problem:",
+    "start": 506.65,
+    "end": 507.208
+  },
+  {
+    "word": "Diese",
+    "start": 507.208,
+    "end": 507.766
+  },
+  {
+    "word": "Systeme",
+    "start": 507.766,
+    "end": 508.324
+  },
+  {
+    "word": "funktionieren",
+    "start": 508.324,
+    "end": 508.882
+  },
+  {
+    "word": "nur unter",
+    "start": 508.882,
+    "end": 509.44
+  },
+  {
+    "word": "definierten",
+    "start": 509.44,
+    "end": 509.998
+  },
+  {
+    "word": "Bedingungen.",
+    "start": 509.998,
+    "end": 510.556
+  },
+  {
+    "word": "KI kann",
+    "start": 510.556,
+    "end": 511.113
+  },
+  {
+    "word": "nicht",
+    "start": 511.113,
+    "end": 511.671
+  },
+  {
+    "word": "improvisieren.",
+    "start": 511.671,
+    "end": 512.229
+  },
+  {
+    "word": "Sie kann",
+    "start": 512.229,
+    "end": 512.787
+  },
+  {
+    "word": "nicht",
+    "start": 512.787,
+    "end": 513.345
+  },
+  {
+    "word": "mit Unwägbarkeiten",
+    "start": 513.345,
+    "end": 513.903
+  },
+  {
+    "word": "umgehen,",
+    "start": 513.903,
+    "end": 514.461
+  },
+  {
+    "word": "die außerhalb",
+    "start": 514.461,
+    "end": 515.019
+  },
+  {
+    "word": "ihres",
+    "start": 515.019,
+    "end": 515.577
+  },
+  {
+    "word": "Trainings",
+    "start": 515.577,
+    "end": 516.135
+  },
+  {
+    "word": "liegen.",
+    "start": 516.135,
+    "end": 516.693
+  },
+  {
+    "word": "Und in",
+    "start": 516.693,
+    "end": 517.251
+  },
+  {
+    "word": "der Luftfahrt",
+    "start": 517.251,
+    "end": 517.809
+  },
+  {
+    "word": "— wo",
+    "start": 517.809,
+    "end": 518.367
+  },
+  {
+    "word": "jeder",
+    "start": 518.367,
+    "end": 518.924
+  },
+  {
+    "word": "Notfall",
+    "start": 518.924,
+    "end": 519.482
+  },
+  {
+    "word": "EINZIGARTIG",
+    "start": 519.482,
+    "end": 520.04
+  },
+  {
+    "word": "ist —",
+    "start": 520.04,
+    "end": 520.598
+  },
+  {
+    "word": "ist das",
+    "start": 520.598,
+    "end": 521.156
+  },
+  {
+    "word": "eine",
+    "start": 521.156,
+    "end": 521.714
+  },
+  {
+    "word": "fundamentale",
+    "start": 521.714,
+    "end": 522.272
+  },
+  {
+    "word": "Schwäche.",
+    "start": 522.272,
+    "end": 522.83
+  },
+  {
+    "word": "Und hier",
+    "start": 523.13,
+    "end": 523.776
+  },
+  {
+    "word": "ist, was",
+    "start": 523.776,
+    "end": 524.421
+  },
+  {
+    "word": "Airlines",
+    "start": 524.421,
+    "end": 525.067
+  },
+  {
+    "word": "dir bewusst",
+    "start": 525.067,
+    "end": 525.713
+  },
+  {
+    "word": "VERSCHWEIGEN.",
+    "start": 525.713,
+    "end": 526.359
+  },
+  {
+    "word": "Sie betonen",
+    "start": 526.359,
+    "end": 527.004
+  },
+  {
+    "word": "gerne,",
+    "start": 527.004,
+    "end": 527.65
+  },
+  {
+    "word": "wie sicher",
+    "start": 527.65,
+    "end": 528.296
+  },
+  {
+    "word": "der Autopilot",
+    "start": 528.296,
+    "end": 528.941
+  },
+  {
+    "word": "ist. Aber",
+    "start": 528.941,
+    "end": 529.587
+  },
+  {
+    "word": "sie erwähnen",
+    "start": 529.587,
+    "end": 530.233
+  },
+  {
+    "word": "nie, dass",
+    "start": 530.233,
+    "end": 530.879
+  },
+  {
+    "word": "er in",
+    "start": 530.879,
+    "end": 531.524
+  },
+  {
+    "word": "einem",
+    "start": 531.524,
+    "end": 532.17
+  },
+  {
+    "word": "Notfall",
+    "start": 532.17,
+    "end": 532.816
+  },
+  {
+    "word": "deaktiviert",
+    "start": 532.816,
+    "end": 533.461
+  },
+  {
+    "word": "werden",
+    "start": 533.461,
+    "end": 534.107
+  },
+  {
+    "word": "muss.",
+    "start": 534.107,
+    "end": 534.753
+  },
+  {
+    "word": "Sie sagen",
+    "start": 534.753,
+    "end": 535.399
+  },
+  {
+    "word": "nicht,",
+    "start": 535.399,
+    "end": 536.044
+  },
+  {
+    "word": "dass",
+    "start": 536.044,
+    "end": 536.69
+  },
+  {
+    "word": "Piloten",
+    "start": 536.69,
+    "end": 537.336
+  },
+  {
+    "word": "manchmal",
+    "start": 537.336,
+    "end": 537.981
+  },
+  {
+    "word": "kämpfen,",
+    "start": 537.981,
+    "end": 538.627
+  },
+  {
+    "word": "ihn zu",
+    "start": 538.627,
+    "end": 539.273
+  },
+  {
+    "word": "übersteuern.",
+    "start": 539.273,
+    "end": 539.919
+  },
+  {
+    "word": "Transparenz?",
+    "start": 539.919,
+    "end": 540.564
+  },
+  {
+    "word": "Fehlanzeige.",
+    "start": 540.564,
+    "end": 541.21
+  },
+  {
+    "word": "Trotz",
+    "start": 541.51,
+    "end": 542.187
+  },
+  {
+    "word": "allem",
+    "start": 542.187,
+    "end": 542.864
+  },
+  {
+    "word": "ist Fliegen",
+    "start": 542.864,
+    "end": 543.541
+  },
+  {
+    "word": "die sicherste",
+    "start": 543.541,
+    "end": 544.218
+  },
+  {
+    "word": "Transportform",
+    "start": 544.218,
+    "end": 544.895
+  },
+  {
+    "word": "der Welt.",
+    "start": 544.895,
+    "end": 545.572
+  },
+  {
+    "word": "Die Wahrscheinlichkeit,",
+    "start": 545.572,
+    "end": 546.248
+  },
+  {
+    "word": "bei einem",
+    "start": 546.248,
+    "end": 546.925
+  },
+  {
+    "word": "Flugzeugabsturz",
+    "start": 546.925,
+    "end": 547.602
+  },
+  {
+    "word": "zu sterben,",
+    "start": 547.602,
+    "end": 548.279
+  },
+  {
+    "word": "liegt",
+    "start": 548.279,
+    "end": 548.956
+  },
+  {
+    "word": "bei etwa",
+    "start": 548.956,
+    "end": 549.633
+  },
+  {
+    "word": "1 zu",
+    "start": 549.633,
+    "end": 550.31
+  },
+  {
+    "word": "11 Millionen.",
+    "start": 550.31,
+    "end": 550.987
+  },
+  {
+    "word": "Im Auto?",
+    "start": 550.987,
+    "end": 551.664
+  },
+  {
+    "word": "1 zu",
+    "start": 551.664,
+    "end": 552.341
+  },
+  {
+    "word": "100. Diese",
+    "start": 552.341,
+    "end": 553.018
+  },
+  {
+    "word": "Sicherheit",
+    "start": 553.018,
+    "end": 553.695
+  },
+  {
+    "word": "ist kein",
+    "start": 553.695,
+    "end": 554.372
+  },
+  {
+    "word": "Zufall",
+    "start": 554.372,
+    "end": 555.048
+  },
+  {
+    "word": "— sie",
+    "start": 555.048,
+    "end": 555.725
+  },
+  {
+    "word": "ist das",
+    "start": 555.725,
+    "end": 556.402
+  },
+  {
+    "word": "Ergebnis",
+    "start": 556.402,
+    "end": 557.079
+  },
+  {
+    "word": "von Jahrzehnten",
+    "start": 557.079,
+    "end": 557.756
+  },
+  {
+    "word": "aus FEHLERN",
+    "start": 557.756,
+    "end": 558.433
+  },
+  {
+    "word": "und Lernen.",
+    "start": 558.433,
+    "end": 559.11
+  },
+  {
+    "word": "Die eigentliche",
+    "start": 559.41,
+    "end": 560.006
+  },
+  {
+    "word": "Botschaft",
+    "start": 560.006,
+    "end": 560.602
+  },
+  {
+    "word": "ist diese:",
+    "start": 560.602,
+    "end": 561.198
+  },
+  {
+    "word": "Autopilot",
+    "start": 561.198,
+    "end": 561.794
+  },
+  {
+    "word": "macht",
+    "start": 561.794,
+    "end": 562.39
+  },
+  {
+    "word": "Fliegen",
+    "start": 562.39,
+    "end": 562.986
+  },
+  {
+    "word": "sicherer",
+    "start": 562.986,
+    "end": 563.582
+  },
+  {
+    "word": "— aber",
+    "start": 563.582,
+    "end": 564.179
+  },
+  {
+    "word": "nur zusammen",
+    "start": 564.179,
+    "end": 564.775
+  },
+  {
+    "word": "mit einem",
+    "start": 564.775,
+    "end": 565.371
+  },
+  {
+    "word": "kompetenten",
+    "start": 565.371,
+    "end": 565.967
+  },
+  {
+    "word": "Piloten",
+    "start": 565.967,
+    "end": 566.563
+  },
+  {
+    "word": "dahinter.",
+    "start": 566.563,
+    "end": 567.159
+  },
+  {
+    "word": "Es ist",
+    "start": 567.159,
+    "end": 567.755
+  },
+  {
+    "word": "eine",
+    "start": 567.755,
+    "end": 568.351
+  },
+  {
+    "word": "Partnerschaft.",
+    "start": 568.351,
+    "end": 568.947
+  },
+  {
+    "word": "Maschine",
+    "start": 568.947,
+    "end": 569.543
+  },
+  {
+    "word": "und Mensch.",
+    "start": 569.543,
+    "end": 570.139
+  },
+  {
+    "word": "Jeder",
+    "start": 570.139,
+    "end": 570.735
+  },
+  {
+    "word": "übernimmt,",
+    "start": 570.735,
+    "end": 571.331
+  },
+  {
+    "word": "wenn",
+    "start": 571.331,
+    "end": 571.927
+  },
+  {
+    "word": "der andere",
+    "start": 571.927,
+    "end": 572.524
+  },
+  {
+    "word": "SCHWÄCHELT.",
+    "start": 572.524,
+    "end": 573.12
+  },
+  {
+    "word": "Das ist",
+    "start": 573.12,
+    "end": 573.716
+  },
+  {
+    "word": "das eigentliche",
+    "start": 573.716,
+    "end": 574.312
+  },
+  {
+    "word": "Wunder",
+    "start": 574.312,
+    "end": 574.908
+  },
+  {
+    "word": "der modernen",
+    "start": 574.908,
+    "end": 575.504
+  },
+  {
+    "word": "Luftfahrt.",
+    "start": 575.504,
+    "end": 576.1
+  },
+  {
+    "word": "Und jetzt",
+    "start": 576.4,
+    "end": 577.051
+  },
+  {
+    "word": "das finale",
+    "start": 577.051,
+    "end": 577.701
+  },
+  {
+    "word": "Geheimnis",
+    "start": 577.701,
+    "end": 578.352
+  },
+  {
+    "word": "— das,",
+    "start": 578.352,
+    "end": 579.003
+  },
+  {
+    "word": "worüber",
+    "start": 579.003,
+    "end": 579.653
+  },
+  {
+    "word": "in der",
+    "start": 579.653,
+    "end": 580.304
+  },
+  {
+    "word": "Branche",
+    "start": 580.304,
+    "end": 580.955
+  },
+  {
+    "word": "kaum",
+    "start": 580.955,
+    "end": 581.605
+  },
+  {
+    "word": "gesprochen",
+    "start": 581.605,
+    "end": 582.256
+  },
+  {
+    "word": "wird.",
+    "start": 582.256,
+    "end": 582.906
+  },
+  {
+    "word": "Je mehr",
+    "start": 582.906,
+    "end": 583.557
+  },
+  {
+    "word": "wir dem",
+    "start": 583.557,
+    "end": 584.208
+  },
+  {
+    "word": "Autopiloten",
+    "start": 584.208,
+    "end": 584.858
+  },
+  {
+    "word": "vertrauen,",
+    "start": 584.858,
+    "end": 585.509
+  },
+  {
+    "word": "desto",
+    "start": 585.509,
+    "end": 586.16
+  },
+  {
+    "word": "abhängiger",
+    "start": 586.16,
+    "end": 586.81
+  },
+  {
+    "word": "werden",
+    "start": 586.81,
+    "end": 587.461
+  },
+  {
+    "word": "wir von",
+    "start": 587.461,
+    "end": 588.112
+  },
+  {
+    "word": "ihm. Und",
+    "start": 588.112,
+    "end": 588.762
+  },
+  {
+    "word": "je abhängiger",
+    "start": 588.762,
+    "end": 589.413
+  },
+  {
+    "word": "wir sind,",
+    "start": 589.413,
+    "end": 590.064
+  },
+  {
+    "word": "desto",
+    "start": 590.064,
+    "end": 590.714
+  },
+  {
+    "word": "GEFÄHRLICHER",
+    "start": 590.714,
+    "end": 591.365
+  },
+  {
+    "word": "wird",
+    "start": 591.365,
+    "end": 592.015
+  },
+  {
+    "word": "der Moment,",
+    "start": 592.015,
+    "end": 592.666
+  },
+  {
+    "word": "wenn",
+    "start": 592.666,
+    "end": 593.317
+  },
+  {
+    "word": "er versagt.",
+    "start": 593.317,
+    "end": 593.967
+  },
+  {
+    "word": "Das ist",
+    "start": 593.967,
+    "end": 594.618
+  },
+  {
+    "word": "die stille",
+    "start": 594.618,
+    "end": 595.269
+  },
+  {
+    "word": "Kehrseite",
+    "start": 595.269,
+    "end": 595.919
+  },
+  {
+    "word": "des Fortschritts.",
+    "start": 595.919,
+    "end": 596.57
+  },
+  {
+    "word": "Das nächste",
+    "start": 596.87,
+    "end": 597.365
+  },
+  {
+    "word": "Mal, wenn",
+    "start": 597.365,
+    "end": 597.86
+  },
+  {
+    "word": "du einsteigst",
+    "start": 597.86,
+    "end": 598.355
+  },
+  {
+    "word": "und die",
+    "start": 598.355,
+    "end": 598.849
+  },
+  {
+    "word": "Gurte",
+    "start": 598.849,
+    "end": 599.344
+  },
+  {
+    "word": "schnallst",
+    "start": 599.344,
+    "end": 599.839
+  },
+  {
+    "word": "— denk",
+    "start": 599.839,
+    "end": 600.334
+  },
+  {
+    "word": "daran.",
+    "start": 600.334,
+    "end": 600.829
+  },
+  {
+    "word": "Der Autopilot",
+    "start": 600.829,
+    "end": 601.324
+  },
+  {
+    "word": "ist dein",
+    "start": 601.324,
+    "end": 601.818
+  },
+  {
+    "word": "stiller",
+    "start": 601.818,
+    "end": 602.313
+  },
+  {
+    "word": "Freund.",
+    "start": 602.313,
+    "end": 602.808
+  },
+  {
+    "word": "Aber",
+    "start": 602.808,
+    "end": 603.303
+  },
+  {
+    "word": "dein",
+    "start": 603.303,
+    "end": 603.798
+  },
+  {
+    "word": "echter",
+    "start": 603.798,
+    "end": 604.293
+  },
+  {
+    "word": "Schutz",
+    "start": 604.293,
+    "end": 604.788
+  },
+  {
+    "word": "sitzt",
+    "start": 604.788,
+    "end": 605.282
+  },
+  {
+    "word": "vorne",
+    "start": 605.282,
+    "end": 605.777
+  },
+  {
+    "word": "im Cockpit,",
+    "start": 605.777,
+    "end": 606.272
+  },
+  {
+    "word": "trinkt",
+    "start": 606.272,
+    "end": 606.767
+  },
+  {
+    "word": "Kaffee,",
+    "start": 606.767,
+    "end": 607.262
+  },
+  {
+    "word": "überwacht",
+    "start": 607.262,
+    "end": 607.757
+  },
+  {
+    "word": "Bildschirme",
+    "start": 607.757,
+    "end": 608.252
+  },
+  {
+    "word": "und ist",
+    "start": 608.252,
+    "end": 608.746
+  },
+  {
+    "word": "bereit,",
+    "start": 608.746,
+    "end": 609.241
+  },
+  {
+    "word": "in drei",
+    "start": 609.241,
+    "end": 609.736
+  },
+  {
+    "word": "Sekunden",
+    "start": 609.736,
+    "end": 610.231
+  },
+  {
+    "word": "ALLES",
+    "start": 610.231,
+    "end": 610.726
+  },
+  {
+    "word": "zu übernehmen.",
+    "start": 610.726,
+    "end": 611.221
+  },
+  {
+    "word": "Das ist",
+    "start": 611.221,
+    "end": 611.715
+  },
+  {
+    "word": "kein",
+    "start": 611.715,
+    "end": 612.21
+  },
+  {
+    "word": "kleiner",
+    "start": 612.21,
+    "end": 612.705
+  },
+  {
+    "word": "Job.",
+    "start": 612.705,
+    "end": 613.2
+  },
+  {
+    "word": "Fünf",
+    "start": 613.5,
+    "end": 614.197
+  },
+  {
+    "word": "Wahrheiten,",
+    "start": 614.197,
+    "end": 614.894
+  },
+  {
+    "word": "die du",
+    "start": 614.894,
+    "end": 615.591
+  },
+  {
+    "word": "jetzt",
+    "start": 615.591,
+    "end": 616.288
+  },
+  {
+    "word": "kennst.",
+    "start": 616.288,
+    "end": 616.985
+  },
+  {
+    "word": "Erstens:",
+    "start": 616.985,
+    "end": 617.682
+  },
+  {
+    "word": "Autopilot",
+    "start": 617.682,
+    "end": 618.379
+  },
+  {
+    "word": "fliegt",
+    "start": 618.379,
+    "end": 619.076
+  },
+  {
+    "word": "bis zu",
+    "start": 619.076,
+    "end": 619.773
+  },
+  {
+    "word": "99 Prozent.",
+    "start": 619.773,
+    "end": 620.47
+  },
+  {
+    "word": "Zweitens:",
+    "start": 620.47,
+    "end": 621.167
+  },
+  {
+    "word": "Start",
+    "start": 621.167,
+    "end": 621.864
+  },
+  {
+    "word": "und Landung",
+    "start": 621.864,
+    "end": 622.561
+  },
+  {
+    "word": "sind",
+    "start": 622.561,
+    "end": 623.258
+  },
+  {
+    "word": "manuell.",
+    "start": 623.258,
+    "end": 623.955
+  },
+  {
+    "word": "Drittens:",
+    "start": 623.955,
+    "end": 624.652
+  },
+  {
+    "word": "Pilotenmüdigkeit",
+    "start": 624.652,
+    "end": 625.348
+  },
+  {
+    "word": "ist real",
+    "start": 625.348,
+    "end": 626.045
+  },
+  {
+    "word": "und unterschätzt.",
+    "start": 626.045,
+    "end": 626.742
+  },
+  {
+    "word": "Viertens:",
+    "start": 626.742,
+    "end": 627.439
+  },
+  {
+    "word": "Ohne",
+    "start": 627.439,
+    "end": 628.136
+  },
+  {
+    "word": "menschliches",
+    "start": 628.136,
+    "end": 628.833
+  },
+  {
+    "word": "Urteil",
+    "start": 628.833,
+    "end": 629.53
+  },
+  {
+    "word": "wäre",
+    "start": 629.53,
+    "end": 630.227
+  },
+  {
+    "word": "AF447",
+    "start": 630.227,
+    "end": 630.924
+  },
+  {
+    "word": "vielleicht",
+    "start": 630.924,
+    "end": 631.621
+  },
+  {
+    "word": "ÜBERLEBBAR",
+    "start": 631.621,
+    "end": 632.318
+  },
+  {
+    "word": "gewesen.",
+    "start": 632.318,
+    "end": 633.015
+  },
+  {
+    "word": "Fünftens:",
+    "start": 633.015,
+    "end": 633.712
+  },
+  {
+    "word": "Die Zukunft",
+    "start": 633.712,
+    "end": 634.409
+  },
+  {
+    "word": "ist ungewiss",
+    "start": 634.409,
+    "end": 635.106
+  },
+  {
+    "word": "— und",
+    "start": 635.106,
+    "end": 635.803
+  },
+  {
+    "word": "aufregend.",
+    "start": 635.803,
+    "end": 636.5
+  },
+  {
+    "word": "Wenn",
+    "start": 636.8,
+    "end": 637.248
+  },
+  {
+    "word": "dich",
+    "start": 637.248,
+    "end": 637.696
+  },
+  {
+    "word": "dieses",
+    "start": 637.696,
+    "end": 638.144
+  },
+  {
+    "word": "Thema",
+    "start": 638.144,
+    "end": 638.592
+  },
+  {
+    "word": "fasziniert",
+    "start": 638.592,
+    "end": 639.04
+  },
+  {
+    "word": "hat —",
+    "start": 639.04,
+    "end": 639.488
+  },
+  {
+    "word": "und du",
+    "start": 639.488,
+    "end": 639.936
+  },
+  {
+    "word": "mehr",
+    "start": 639.936,
+    "end": 640.384
+  },
+  {
+    "word": "über",
+    "start": 640.384,
+    "end": 640.832
+  },
+  {
+    "word": "die verborgenen",
+    "start": 640.832,
+    "end": 641.28
+  },
+  {
+    "word": "Wahrheiten",
+    "start": 641.28,
+    "end": 641.728
+  },
+  {
+    "word": "der Luftfahrt",
+    "start": 641.728,
+    "end": 642.176
+  },
+  {
+    "word": "wissen",
+    "start": 642.176,
+    "end": 642.624
+  },
+  {
+    "word": "möchtest",
+    "start": 642.624,
+    "end": 643.072
+  },
+  {
+    "word": "— dann",
+    "start": 643.072,
+    "end": 643.52
+  },
+  {
+    "word": "abonniere",
+    "start": 643.52,
+    "end": 643.968
+  },
+  {
+    "word": "jetzt",
+    "start": 643.968,
+    "end": 644.416
+  },
+  {
+    "word": "diesen",
+    "start": 644.416,
+    "end": 644.864
+  },
+  {
+    "word": "Kanal.",
+    "start": 644.864,
+    "end": 645.312
+  },
+  {
+    "word": "Jede",
+    "start": 645.312,
+    "end": 645.76
+  },
+  {
+    "word": "Woche",
+    "start": 645.76,
+    "end": 646.208
+  },
+  {
+    "word": "neue",
+    "start": 646.208,
+    "end": 646.656
+  },
+  {
+    "word": "Einblicke",
+    "start": 646.656,
+    "end": 647.104
+  },
+  {
+    "word": "hinter",
+    "start": 647.104,
+    "end": 647.552
+  },
+  {
+    "word": "die Kulissen",
+    "start": 647.552,
+    "end": 648.0
+  },
+  {
+    "word": "von Flugzeugen,",
+    "start": 648.0,
+    "end": 648.448
+  },
+  {
+    "word": "Airlines",
+    "start": 648.448,
+    "end": 648.896
+  },
+  {
+    "word": "und der",
+    "start": 648.896,
+    "end": 649.344
+  },
+  {
+    "word": "Welt",
+    "start": 649.344,
+    "end": 649.792
+  },
+  {
+    "word": "des Reisens.",
+    "start": 649.792,
+    "end": 650.24
+  },
+  {
+    "word": "Du wirst",
+    "start": 650.24,
+    "end": 650.688
+  },
+  {
+    "word": "ÜBERRASCHT",
+    "start": 650.688,
+    "end": 651.136
+  },
+  {
+    "word": "sein,",
+    "start": 651.136,
+    "end": 651.584
+  },
+  {
+    "word": "was noch",
+    "start": 651.584,
+    "end": 652.032
+  },
+  {
+    "word": "kommt.",
+    "start": 652.032,
+    "end": 652.48
+  }
+]

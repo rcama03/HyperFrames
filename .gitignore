@@ -31,6 +31,7 @@ output/
 !projects/turbulenz-de/output/
 !projects/profiling-de/output/
 !projects/checkin-de/output/
+!projects/autopilot-de/output/
 
 # npm pack artifacts
 *.tgz
@@ -64,3 +65,6 @@ projects/profiling-de/swoosh.mp3
 projects/checkin-de/source-video.mp4
 projects/checkin-de/voiceover.mp3
 projects/checkin-de/swoosh.mp3
+projects/autopilot-de/source-video.mp4
+projects/autopilot-de/voiceover.mp3
+projects/autopilot-de/swoosh.mp3
