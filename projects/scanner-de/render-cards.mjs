@@ -52,7 +52,7 @@ const mgStyle = `
     .card {
       position: absolute; left: 60px; bottom: 140px;
       display: flex; align-items: stretch;
-      background: rgba(10,10,30,0.72);
+      background: rgba(10,10,30,0.50);
       border: 1.5px solid rgba(255,215,0,0.35);
       box-shadow: 0 12px 48px rgba(0,0,0,0.65);
       border-radius: 20px; overflow: hidden;
@@ -70,7 +70,7 @@ const chapStyle = `
     .card {
       position: absolute; left: 60px; top: 60px;
       display: flex; align-items: stretch;
-      background: rgba(0,8,30,0.90);
+      background: rgba(0,8,30,0.50);
       border: 2px solid rgba(0,229,255,0.45);
       box-shadow: 0 12px 48px rgba(0,0,0,0.65);
       border-radius: 20px; overflow: hidden;
@@ -120,7 +120,7 @@ function buildHTML(card) {
   // ── ALERT ──────────────────────────────────────────────────────────────────
   if (card.type === 'alert') {
     return `<!DOCTYPE html><html><head><meta charset="UTF-8">
-    ${bottomCardStyle('#FF3C3C','rgba(35,5,5,0.90)')}
+    ${bottomCardStyle('#FF3C3C','rgba(35,5,5,0.50)')}
     </head><body>
       <div class="card" style="width:840px">
         <div class="stripe"></div>
@@ -136,7 +136,7 @@ function buildHTML(card) {
   // ── DEFINITION ─────────────────────────────────────────────────────────────
   if (card.type === 'definition') {
     return `<!DOCTYPE html><html><head><meta charset="UTF-8">
-    ${topCardStyle('#00BCD4','rgba(0,18,28,0.90)')}
+    ${topCardStyle('#00BCD4','rgba(0,18,28,0.50)')}
     </head><body>
       <div class="card" style="width:825px">
         <div class="stripe"></div>
@@ -153,7 +153,7 @@ function buildHTML(card) {
   // ── QUOTE ──────────────────────────────────────────────────────────────────
   if (card.type === 'quote') {
     return `<!DOCTYPE html><html><head><meta charset="UTF-8">
-    ${bottomCardStyle('#9C27B0','rgba(15,5,30,0.90)', 0.45)}
+    ${bottomCardStyle('#9C27B0','rgba(15,5,30,0.50)', 0.45)}
     </head><body>
       <div class="card" style="width:870px">
         <div class="stripe"></div>
@@ -174,7 +174,7 @@ function buildHTML(card) {
       *{margin:0;padding:0;box-sizing:border-box;}
       html,body{width:${W}px;height:${H}px;background:transparent;overflow:hidden;}
       .card{position:absolute;right:60px;bottom:140px;display:flex;align-items:center;gap:14px;
-        background:rgba(5,20,10,0.82);border:1.5px solid rgba(76,175,80,0.35);
+        background:rgba(5,20,10,0.50);border:1.5px solid rgba(76,175,80,0.35);
         box-shadow:0 6px 24px rgba(0,0,0,0.5);border-radius:12px;padding:14px 24px;
         font-family:'Montserrat','Arial Black',sans-serif;}
     </style>
@@ -194,7 +194,7 @@ function buildHTML(card) {
       *{margin:0;padding:0;box-sizing:border-box;}
       html,body{width:${W}px;height:${H}px;background:transparent;overflow:hidden;}
       .card{position:absolute;left:60px;bottom:140px;display:flex;align-items:stretch;
-        background:rgba(20,14,0,0.90);border:2px solid rgba(255,143,0,0.5);
+        background:rgba(20,14,0,0.50);border:2px solid rgba(255,143,0,0.5);
         box-shadow:0 12px 48px rgba(0,0,0,0.65);border-radius:20px;overflow:hidden;
         font-family:'Montserrat','Arial Black',sans-serif;}
       .rank-block{display:flex;align-items:center;justify-content:center;

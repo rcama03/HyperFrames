@@ -4,12 +4,12 @@ Assembles the packing-de video using FFmpeg.
 
 Features:
   - Word-level gold-highlight captions (ASS)
-  - Motion graphics cards + chapter marker cards
+  - Motion graphics cards + chapter marker cards (50% translucent backgrounds)
   - Swoosh SFX on every card appearance
   - Background music with auto-ducking
   - Zoom punch-ins on chapter cards (1.1× snap)
   - Screen shake on dramatic stat moments
-  - Gold progress bar (top edge, grows with playback)
+  - Amber progress bar (top edge, grows with playback)
 
 Usage:
   python3 build-video.py /path/to/source-video.mp4 /path/to/voiceover.mp3
