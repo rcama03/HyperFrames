@@ -1,0 +1,214 @@
+{
+  "cards": [
+    {
+      "id": "chap-1",
+      "path": "card-frames/chap-1.png",
+      "inTime": 0.5,
+      "outTime": 7
+    },
+    {
+      "id": "stat-200",
+      "path": "card-frames/stat-200.png",
+      "inTime": 5,
+      "outTime": 15
+    },
+    {
+      "id": "rank-1",
+      "path": "card-frames/rank-1.png",
+      "inTime": 51.8,
+      "outTime": 61.9
+    },
+    {
+      "id": "stat-68",
+      "path": "card-frames/stat-68.png",
+      "inTime": 62,
+      "outTime": 67
+    },
+    {
+      "id": "alert-gewicht",
+      "path": "card-frames/alert-gewicht.png",
+      "inTime": 67.3,
+      "outTime": 78
+    },
+    {
+      "id": "chap-2",
+      "path": "card-frames/chap-2.png",
+      "inTime": 81.7,
+      "outTime": 88
+    },
+    {
+      "id": "rank-2",
+      "path": "card-frames/rank-2.png",
+      "inTime": 81.7,
+      "outTime": 92
+    },
+    {
+      "id": "stat-roll",
+      "path": "card-frames/stat-roll.png",
+      "inTime": 95,
+      "outTime": 106
+    },
+    {
+      "id": "key-ranger",
+      "path": "card-frames/key-ranger.png",
+      "inTime": 107,
+      "outTime": 113.5
+    },
+    {
+      "id": "rank-3",
+      "path": "card-frames/rank-3.png",
+      "inTime": 113.9,
+      "outTime": 124
+    },
+    {
+      "id": "key-cube",
+      "path": "card-frames/key-cube.png",
+      "inTime": 128.7,
+      "outTime": 136
+    },
+    {
+      "id": "stat-2x",
+      "path": "card-frames/stat-2x.png",
+      "inTime": 136.5,
+      "outTime": 143
+    },
+    {
+      "id": "rank-4",
+      "path": "card-frames/rank-4.png",
+      "inTime": 143.4,
+      "outTime": 153.5
+    },
+    {
+      "id": "key-hohlraum",
+      "path": "card-frames/key-hohlraum.png",
+      "inTime": 158.5,
+      "outTime": 170
+    },
+    {
+      "id": "chap-3",
+      "path": "card-frames/chap-3.png",
+      "inTime": 176.2,
+      "outTime": 182.5
+    },
+    {
+      "id": "rank-5",
+      "path": "card-frames/rank-5.png",
+      "inTime": 176.2,
+      "outTime": 186.5
+    },
+    {
+      "id": "def-capsule",
+      "path": "card-frames/def-capsule.png",
+      "inTime": 192.3,
+      "outTime": 206
+    },
+    {
+      "id": "key-capsule",
+      "path": "card-frames/key-capsule.png",
+      "inTime": 192.3,
+      "outTime": 204
+    },
+    {
+      "id": "rank-6",
+      "path": "card-frames/rank-6.png",
+      "inTime": 206.8,
+      "outTime": 217
+    },
+    {
+      "id": "key-fluessig",
+      "path": "card-frames/key-fluessig.png",
+      "inTime": 223,
+      "outTime": 235
+    },
+    {
+      "id": "chap-4",
+      "path": "card-frames/chap-4.png",
+      "inTime": 254.2,
+      "outTime": 260.5
+    },
+    {
+      "id": "rank-7",
+      "path": "card-frames/rank-7.png",
+      "inTime": 254.2,
+      "outTime": 264.5
+    },
+    {
+      "id": "stat-52",
+      "path": "card-frames/stat-52.png",
+      "inTime": 271.5,
+      "outTime": 282
+    },
+    {
+      "id": "src-which",
+      "path": "card-frames/src-which.png",
+      "inTime": 286.4,
+      "outTime": 297
+    },
+    {
+      "id": "rank-8",
+      "path": "card-frames/rank-8.png",
+      "inTime": 299.6,
+      "outTime": 310
+    },
+    {
+      "id": "alert-powerbank",
+      "path": "card-frames/alert-powerbank.png",
+      "inTime": 315.5,
+      "outTime": 326
+    },
+    {
+      "id": "src-iata",
+      "path": "card-frames/src-iata.png",
+      "inTime": 315.5,
+      "outTime": 326
+    },
+    {
+      "id": "chap-5",
+      "path": "card-frames/chap-5.png",
+      "inTime": 346.7,
+      "outTime": 353
+    },
+    {
+      "id": "rank-9",
+      "path": "card-frames/rank-9.png",
+      "inTime": 346.7,
+      "outTime": 357
+    },
+    {
+      "id": "stat-42",
+      "path": "card-frames/stat-42.png",
+      "inTime": 362.6,
+      "outTime": 373
+    },
+    {
+      "id": "src-umfrage",
+      "path": "card-frames/src-umfrage.png",
+      "inTime": 362.6,
+      "outTime": 373
+    },
+    {
+      "id": "key-tsa",
+      "path": "card-frames/key-tsa.png",
+      "inTime": 378.5,
+      "outTime": 390
+    },
+    {
+      "id": "stat-airtag",
+      "path": "card-frames/stat-airtag.png",
+      "inTime": 395.1,
+      "outTime": 407
+    },
+    {
+      "id": "stat-200y",
+      "path": "card-frames/stat-200y.png",
+      "inTime": 430.4,
+      "outTime": 441
+    },
+    {
+      "id": "chap-6",
+      "path": "card-frames/chap-6.png",
+      "inTime": 446.1,
+      "outTime": 452.5
+    }
+  ]
+}
