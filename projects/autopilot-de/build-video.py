@@ -67,7 +67,7 @@ for w in words:
 
 words = [w for w in words if w["start"] < DURATION]
 
-ass_content = build_ass(words, width=WIDTH, height=HEIGHT, words_per_line=4)
+ass_content = build_ass(words, width=WIDTH, height=HEIGHT, words_per_line=3)
 ass_path = HERE / "output" / "captions.ass"
 ass_path.write_text(ass_content, encoding="utf-8")
 print(f"Captions: {len(words)} words → {ass_path.name}")
