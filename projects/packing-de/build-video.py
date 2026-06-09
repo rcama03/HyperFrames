@@ -72,6 +72,8 @@ VIDEO_DUR    = float(probe_v["format"]["duration"])
 VOICE_DUR    = float(probe_a["format"]["duration"])
 SRC_OFFSET   = 0.0
 DURATION     = min(VIDEO_DUR - SRC_OFFSET, VOICE_DUR)
+_fr          = video_stream.get("r_frame_rate", "30/1").split("/")
+FPS          = int(_fr[0]) // int(_fr[1])
 
 print(f"Source : {Path(SRC_VIDEO).name}  {WIDTH}×{HEIGHT}  {VIDEO_DUR:.1f}s")
 print(f"Voice  : {Path(VOICE_MP3).name}  {VOICE_DUR:.1f}s  (trimmed to {DURATION:.1f}s)")
@@ -117,7 +119,9 @@ for c in cards:
     inputs += ["-i", c["path"]]
 music_idx  = 2 + n_cards
 swoosh_idx = music_idx + 1
-inputs += ["-i", str(MUSIC), "-i", str(SWOOSH)]
+bar_idx    = swoosh_idx + 1
+inputs += ["-i", str(MUSIC), "-i", str(SWOOSH),
+           "-f", "lavfi", "-i", f"color=c={BAR_COLOR}:size={WIDTH}x{BAR_H}:rate={FPS}"]
 
 # ── Video filter chain ────────────────────────────────────────────────────────
 vf = []
@@ -177,19 +181,12 @@ vf.append(
 current = "[v_shake]"
 
 # ── Gold progress bar ─────────────────────────────────────────────────────────
-# Parse BAR_COLOR hex → R,G,B for geq (drawbox lacks eval=frame in FFmpeg 6)
-_hex = BAR_COLOR.replace("0x","").replace("#","")
-BAR_R, BAR_G, BAR_B = int(_hex[0:2],16), int(_hex[2:4],16), int(_hex[4:6],16)
-_cond = f"lt(Y,{BAR_H})*lt(X,{WIDTH}*T/{DURATION:.3f})"
+# scale(eval=frame) on a lavfi color source — fast, no per-pixel math
+TOTAL_FRAMES = DURATION * FPS
 vf.append(
-    f"{current}format=rgb24,"
-    f"geq="
-    f"r='if({_cond},{BAR_R},r(X,Y))':"
-    f"g='if({_cond},{BAR_G},g(X,Y))':"
-    f"b='if({_cond},{BAR_B},b(X,Y))':"
-    f"interpolation=nearest,"
-    f"format=yuv420p[vout]"
+    f"[{bar_idx}:v]scale=w='max(1,{WIDTH}*n/{TOTAL_FRAMES:.3f})':h={BAR_H}:eval=frame[bar_grow]"
 )
+vf.append(f"{current}[bar_grow]overlay=0:0:format=auto[vout]")
 
 # ── Audio filter chain ────────────────────────────────────────────────────────
 af = []
