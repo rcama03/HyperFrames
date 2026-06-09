@@ -3,7 +3,6 @@
 Assembles the scanner-de video using FFmpeg.
 
 Features:
-  - External voiceover replaces source audio
   - Video frozen/padded to match voiceover duration
   - Word-level gold-highlight captions (ASS)
   - Motion graphics cards + chapter marker cards
@@ -96,7 +95,7 @@ if abs(timing_end - VOICE_DUR) > 0.5:
 # Only include words that fall within the output duration
 words = [w for w in words if w["start"] < DURATION]
 
-ass_content = build_ass(words, width=WIDTH, height=HEIGHT, words_per_line=5)
+ass_content = build_ass(words, width=WIDTH, height=HEIGHT, words_per_line=3)
 ass_path = HERE / "output" / "captions.ass"
 ass_path.write_text(ass_content, encoding="utf-8")
 print(f"Captions: {len(words)} words → {ass_path.name}")
