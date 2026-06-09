@@ -180,10 +180,18 @@ vf.append(
 current = "[v_shake]"
 
 # ── Gold progress bar ─────────────────────────────────────────────────────────
-bar_w = f"{WIDTH}*(t/{DURATION:.3f})"
+# Parse BAR_COLOR hex → R,G,B for geq (drawbox lacks eval=frame in FFmpeg 6)
+_hex = BAR_COLOR.replace("0x","").replace("#","")
+BAR_R, BAR_G, BAR_B = int(_hex[0:2],16), int(_hex[2:4],16), int(_hex[4:6],16)
+_cond = f"lt(Y,{BAR_H})*lt(X,{WIDTH}*T/{DURATION:.3f})"
 vf.append(
-    f"{current}drawbox=x=0:y=0:w='{bar_w}':h={BAR_H}:"
-    f"color={BAR_COLOR}@1.0:t=fill[vout]"
+    f"{current}format=rgb24,"
+    f"geq="
+    f"r='if({_cond},{BAR_R},r(X,Y))':"
+    f"g='if({_cond},{BAR_G},g(X,Y))':"
+    f"b='if({_cond},{BAR_B},b(X,Y))':"
+    f"interpolation=nearest,"
+    f"format=yuv420p[vout]"
 )
 
 # ── Audio filter chain ────────────────────────────────────────────────────────
