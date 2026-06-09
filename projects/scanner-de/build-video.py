@@ -9,6 +9,9 @@ Features:
   - Motion graphics cards + chapter marker cards
   - Swoosh SFX on every card appearance
   - Background music with auto-ducking
+  - Zoom punch-ins on chapter cards (1.1× snap)
+  - Screen shake on dramatic stat moments
+  - Gold progress bar (top edge, grows with playback)
 
 Usage:
   python3 build-video.py /path/to/source-video.mp4 /path/to/voiceover.mp3
@@ -32,6 +35,21 @@ MUSIC      = SHARED / "music" / "sleep-music-chris-haugen.mp3"
 
 MUSIC_VOL  = 0.19
 SWOOSH_VOL = 0.35
+
+# ── Effects config ────────────────────────────────────────────────────────────
+ZOOM_SCALE  = 1.10   # snap zoom factor
+ZOOM_DUR    = 0.15   # seconds per zoom snap
+SHAKE_MARGIN = 15    # pixels of extra frame for shake headroom
+SHAKE_PX    = 12     # shake displacement in pixels
+SHAKE_DUR   = 0.7    # seconds per shake event
+BAR_H       = 8      # progress bar height px
+BAR_COLOR   = "0xFFB300"  # amber gold
+
+# Trigger zoom on chapter card inTimes
+ZOOM_TIMES  = [0.5, 31.0, 80.0, 117.0]   # chap-scan, chap-was, chap-lange, chap-rechte
+
+# Trigger shake on dramatic stat reveals
+SHAKE_TIMES = [17.0, 84.0, 92.0]         # stat-1mrd, stat-eu, stat-usa
 
 Path(OUT_VIDEO).parent.mkdir(parents=True, exist_ok=True)
 
@@ -124,9 +142,50 @@ for idx, card in enumerate(cards):
     )
     current = out_label
 
-# Fade to black in last 1.5s — hides captions and cards cleanly
+# Fade to black in last 1.5s
 fade_out_start = DURATION - 1.5
-vf.append(f"{current}fade=t=out:st={fade_out_start:.3f}:d=1.5[vout]")
+vf.append(f"{current}fade=t=out:st={fade_out_start:.3f}:d=1.5[v_base]")
+current = "[v_base]"
+
+# ── Zoom punch-ins ────────────────────────────────────────────────────────────
+ZW = int(WIDTH  * ZOOM_SCALE)
+ZH = int(HEIGHT * ZOOM_SCALE)
+ZX = (ZW - WIDTH)  // 2
+ZY = (ZH - HEIGHT) // 2
+zoom_cond = "+".join(f"between(t,{t},{t+ZOOM_DUR})" for t in ZOOM_TIMES)
+vf.append(f"{current}split[v_main][v_zsrc]")
+vf.append(f"[v_zsrc]scale={ZW}:{ZH},crop={WIDTH}:{HEIGHT}:{ZX}:{ZY}[v_zoomed]")
+vf.append(f"[v_main][v_zoomed]overlay=0:0:enable='({zoom_cond})'[v_zoom]")
+current = "[v_zoom]"
+
+# ── Screen shake ──────────────────────────────────────────────────────────────
+SW = WIDTH  + 2 * SHAKE_MARGIN
+SH = HEIGHT + 2 * SHAKE_MARGIN
+
+def _shake_axis(phase_offset):
+    parts = []
+    for t in SHAKE_TIMES:
+        parts.append(
+            f"if(between(t,{t},{t+SHAKE_DUR}),"
+            f"{SHAKE_PX}*sin(80*(t-{t})+{phase_offset}),0)"
+        )
+    offset = "+".join(parts) if parts else "0"
+    return f"{SHAKE_MARGIN}+({offset})"
+
+sx = _shake_axis(0)
+sy = _shake_axis(1.5)
+vf.append(
+    f"{current}scale={SW}:{SH},"
+    f"crop={WIDTH}:{HEIGHT}:x='{sx}':y='{sy}'[v_shake]"
+)
+current = "[v_shake]"
+
+# ── Gold progress bar ─────────────────────────────────────────────────────────
+bar_w = f"{WIDTH}*(t/{DURATION:.3f})"
+vf.append(
+    f"{current}drawbox=x=0:y=0:w='{bar_w}':h={BAR_H}:"
+    f"color={BAR_COLOR}@1.0:t=fill[vout]"
+)
 
 # ── Audio filter chain ────────────────────────────────────────────────────────
 af = []
