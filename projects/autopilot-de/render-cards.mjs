@@ -59,7 +59,7 @@ const hr = (c) =>
 
 function chapHTML(label, text) {
   return `<!DOCTYPE html><html><head><meta charset="UTF-8">
-  ${topCard('#00E5FF','rgba(0,8,30,0.90)','rgba(0,229,255,0.45)',560)}
+  ${topCard('#00E5FF','rgba(0,3,15,0.96)','rgba(0,229,255,0.45)',560)}
   </head><body><div class="card"><div class="stripe"></div><div class="inner">
     ${bdg('#00E5FF','#000d1a',label)}
     ${hr('rgba(0,229,255,.2)')}
@@ -69,7 +69,7 @@ function chapHTML(label, text) {
 
 function statHTML(value, label, sub) {
   return `<!DOCTYPE html><html><head><meta charset="UTF-8">
-  ${btmCard('#FFC107','rgba(20,14,0,0.90)','rgba(255,193,7,0.45)',520)}
+  ${btmCard('#FFC107','rgba(10,8,0,0.96)','rgba(255,193,7,0.45)',520)}
   </head><body><div class="card"><div class="stripe"></div><div class="inner">
     ${bdg('#FFC107','#1a0f00','STATISTIK')}
     ${hr('rgba(255,193,7,.25)')}
@@ -81,7 +81,7 @@ function statHTML(value, label, sub) {
 
 function keyHTML(tag, text) {
   return `<!DOCTYPE html><html><head><meta charset="UTF-8">
-  ${btmCard('#FF6D00','rgba(20,8,0,0.90)','rgba(255,109,0,0.45)',540)}
+  ${btmCard('#FF6D00','rgba(10,4,0,0.96)','rgba(255,109,0,0.45)',540)}
   </head><body><div class="card"><div class="stripe"></div><div class="inner">
     ${bdg('#FF6D00','#fff',tag)}
     ${hr('rgba(255,109,0,.25)')}
@@ -91,7 +91,7 @@ function keyHTML(tag, text) {
 
 function alertHTML(text) {
   return `<!DOCTYPE html><html><head><meta charset="UTF-8">
-  ${btmCard('#FF3C3C','rgba(35,5,5,0.90)','rgba(255,60,60,0.5)',560)}
+  ${btmCard('#FF3C3C','rgba(20,2,2,0.96)','rgba(255,60,60,0.5)',560)}
   </head><body><div class="card"><div class="stripe"></div><div class="inner">
     ${bdg('#FF3C3C','#fff','⚠ ACHTUNG')}
     ${hr('rgba(255,60,60,.3)')}
@@ -101,7 +101,7 @@ function alertHTML(text) {
 
 function defHTML(term, text) {
   return `<!DOCTYPE html><html><head><meta charset="UTF-8">
-  ${topCard('#00BCD4','rgba(0,14,20,0.90)','rgba(0,188,212,0.45)',580)}
+  ${topCard('#00BCD4','rgba(0,7,12,0.96)','rgba(0,188,212,0.45)',580)}
   </head><body><div class="card"><div class="stripe"></div><div class="inner">
     ${bdg('#00BCD4','#001a20','DEFINITION')}
     ${hr('rgba(0,188,212,.25)')}
@@ -114,7 +114,7 @@ function sourceHTML(text) {
   return `<!DOCTYPE html><html><head><meta charset="UTF-8">
   <style>${base}
   .card{position:absolute;right:40px;bottom:${BOTTOM};display:flex;align-items:center;gap:10px;
-    background:rgba(5,20,10,0.82);border:1px solid rgba(76,175,80,0.35);
+    background:rgba(2,11,5,0.92);border:1px solid rgba(76,175,80,0.35);
     box-shadow:0 4px 16px rgba(0,0,0,.5);border-radius:8px;padding:10px 18px;
     font-family:'Montserrat','Arial Black',sans-serif;}
   </style>
