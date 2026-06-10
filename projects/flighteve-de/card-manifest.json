@@ -1,0 +1,184 @@
+{
+  "cards": [
+    {
+      "id": "chap-1",
+      "path": "card-frames/chap-1.png",
+      "inTime": 0.5,
+      "outTime": 6
+    },
+    {
+      "id": "stat-50mio",
+      "path": "card-frames/stat-50mio.png",
+      "inTime": 22,
+      "outTime": 32
+    },
+    {
+      "id": "src-iata",
+      "path": "card-frames/src-iata.png",
+      "inTime": 22,
+      "outTime": 30
+    },
+    {
+      "id": "rank-1",
+      "path": "card-frames/rank-1.png",
+      "inTime": 39.5,
+      "outTime": 50
+    },
+    {
+      "id": "src-expedia",
+      "path": "card-frames/src-expedia.png",
+      "inTime": 40,
+      "outTime": 47
+    },
+    {
+      "id": "key-packlist",
+      "path": "card-frames/key-packlist.png",
+      "inTime": 61,
+      "outTime": 71
+    },
+    {
+      "id": "rank-2",
+      "path": "card-frames/rank-2.png",
+      "inTime": 78.5,
+      "outTime": 88
+    },
+    {
+      "id": "chap-2",
+      "path": "card-frames/chap-2.png",
+      "inTime": 101,
+      "outTime": 107
+    },
+    {
+      "id": "stat-55eur",
+      "path": "card-frames/stat-55eur.png",
+      "inTime": 108,
+      "outTime": 117.5
+    },
+    {
+      "id": "rank-3",
+      "path": "card-frames/rank-3.png",
+      "inTime": 121.5,
+      "outTime": 131.5
+    },
+    {
+      "id": "key-airline",
+      "path": "card-frames/key-airline.png",
+      "inTime": 140.5,
+      "outTime": 150.5
+    },
+    {
+      "id": "rank-4",
+      "path": "card-frames/rank-4.png",
+      "inTime": 160.5,
+      "outTime": 170.5
+    },
+    {
+      "id": "key-sleep",
+      "path": "card-frames/key-sleep.png",
+      "inTime": 179,
+      "outTime": 189
+    },
+    {
+      "id": "chap-3",
+      "path": "card-frames/chap-3.png",
+      "inTime": 201.5,
+      "outTime": 207.5
+    },
+    {
+      "id": "rank-5",
+      "path": "card-frames/rank-5.png",
+      "inTime": 208,
+      "outTime": 218
+    },
+    {
+      "id": "alert-gate",
+      "path": "card-frames/alert-gate.png",
+      "inTime": 222,
+      "outTime": 232
+    },
+    {
+      "id": "rank-6",
+      "path": "card-frames/rank-6.png",
+      "inTime": 261,
+      "outTime": 271
+    },
+    {
+      "id": "chap-4",
+      "path": "card-frames/chap-4.png",
+      "inTime": 281,
+      "outTime": 287
+    },
+    {
+      "id": "alert-passport",
+      "path": "card-frames/alert-passport.png",
+      "inTime": 289,
+      "outTime": 299
+    },
+    {
+      "id": "key-passport",
+      "path": "card-frames/key-passport.png",
+      "inTime": 302,
+      "outTime": 312
+    },
+    {
+      "id": "rank-7",
+      "path": "card-frames/rank-7.png",
+      "inTime": 322,
+      "outTime": 332
+    },
+    {
+      "id": "key-transfer",
+      "path": "card-frames/key-transfer.png",
+      "inTime": 339.5,
+      "outTime": 349.5
+    },
+    {
+      "id": "rank-8",
+      "path": "card-frames/rank-8.png",
+      "inTime": 358.5,
+      "outTime": 367.5
+    },
+    {
+      "id": "stat-usa",
+      "path": "card-frames/stat-usa.png",
+      "inTime": 368,
+      "outTime": 377
+    },
+    {
+      "id": "chap-5",
+      "path": "card-frames/chap-5.png",
+      "inTime": 378,
+      "outTime": 384
+    },
+    {
+      "id": "stat-10eur",
+      "path": "card-frames/stat-10eur.png",
+      "inTime": 378.5,
+      "outTime": 388
+    },
+    {
+      "id": "rank-9",
+      "path": "card-frames/rank-9.png",
+      "inTime": 416.5,
+      "outTime": 426.5
+    },
+    {
+      "id": "key-offline",
+      "path": "card-frames/key-offline.png",
+      "inTime": 435.5,
+      "outTime": 445.5
+    },
+    {
+      "id": "key-bargeld",
+      "path": "card-frames/key-bargeld.png",
+      "inTime": 456,
+      "outTime": 465.5
+    },
+    {
+      "id": "chap-6",
+      "path": "card-frames/chap-6.png",
+      "inTime": 473,
+      "outTime": 479
+    }
+  ]
+}
