@@ -45,7 +45,7 @@ BAR_COLOR    = "0xFFB300"
 SRC_OFFSET = 0.0
 
 # Chapter card inTimes
-ZOOM_TIMES  = [0.5, 75.5, 169.5, 260.5, 336.5, 415.5, 498.0, 577.0]
+ZOOM_TIMES  = [75.5, 169.5, 260.5, 336.5, 415.5, 498.0, 577.0]
 # Dramatic stat reveals
 SHAKE_TIMES = [22.0, 82.5, 398.0]
 

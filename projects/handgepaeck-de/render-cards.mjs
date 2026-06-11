@@ -104,9 +104,7 @@ const sourceHTML = (text) => `<!DOCTYPE html><html><head><meta charset="UTF-8">
 // Chapter timestamps: 0:00 | 1:16 (75.5s) | 2:53 (169.5s) | 4:27 (260.5s)
 //                     5:45 (336.5s) | 7:05 (415.5s) | 8:30 (498s) | 9:51 (577s)
 const cards = [
-  // ── Chapter 1: Schock-Hook (0:00) ─────────────────────────────────────────
-  { id: 'chap-1',       inTime: 0.5,   outTime: 6.0,   html: chapHTML('SCHOCK-HOOK', 'Neue Handgepäck-Regeln\nJuni 2026') },
-  { id: 'stat-60pct',   inTime: 22.0,  outTime: 32.0,  html: statHTML('60%', 'EUROPÄISCHE STUDIE', 'Reisende verstehen Handgepäck-Regeln FALSCH') },
+{ id: 'stat-60pct',   inTime: 22.0,  outTime: 32.0,  html: statHTML('60%', 'EUROPÄISCHE STUDIE', 'Reisende verstehen Handgepäck-Regeln FALSCH') },
   { id: 'src-eu',       inTime: 22.0,  outTime: 30.0,  html: sourceHTML('Europäischer Verbraucherverband') },
 
   // ── Scene 4: Neue Maße (~54s) ──────────────────────────────────────────────

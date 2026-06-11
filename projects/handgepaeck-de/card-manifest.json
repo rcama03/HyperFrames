@@ -1,12 +1,6 @@
 {
   "cards": [
-    {
-      "id": "chap-1",
-      "path": "card-frames/chap-1.png",
-      "inTime": 0.5,
-      "outTime": 6
-    },
-    {
+{
       "id": "stat-60pct",
       "path": "card-frames/stat-60pct.png",
       "inTime": 22,
