@@ -52,7 +52,7 @@ const hr = (c) =>
 const chapHTML = (label, text) => `<!DOCTYPE html><html><head><meta charset="UTF-8">
   ${topCard('#00E5FF','rgba(0,3,15,0.50)','rgba(0,229,255,0.45)',580)}
   </head><body><div class="card"><div class="stripe"></div><div class="inner">
-    ${bdg('#00E5FF','#000d1a',label)}${hr('rgba(0,229,255,.2)')}
+    ${label ? bdg('#00E5FF','#000d1a',label) : ''}${hr('rgba(0,229,255,.2)')}
     <div style="font-size:21px;font-weight:800;color:#FFF;line-height:1.4">${text}</div>
   </div></div></body></html>`;
 
