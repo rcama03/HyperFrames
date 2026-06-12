@@ -1,0 +1,154 @@
+{
+  "cards": [
+    {
+      "id": "stat-25mio",
+      "path": "card-frames/stat-25mio.png",
+      "inTime": 2.5,
+      "outTime": 12.5
+    },
+    {
+      "id": "stat-60pct",
+      "path": "card-frames/stat-60pct.png",
+      "inTime": 35.8,
+      "outTime": 45.8
+    },
+    {
+      "id": "stat-40pct",
+      "path": "card-frames/stat-40pct.png",
+      "inTime": 111.8,
+      "outTime": 121.8
+    },
+    {
+      "id": "stat-3x",
+      "path": "card-frames/stat-3x.png",
+      "inTime": 268,
+      "outTime": 278
+    },
+    {
+      "id": "stat-70pct",
+      "path": "card-frames/stat-70pct.png",
+      "inTime": 355,
+      "outTime": 365
+    },
+    {
+      "id": "stat-1500",
+      "path": "card-frames/stat-1500.png",
+      "inTime": 412,
+      "outTime": 422
+    },
+    {
+      "id": "key-schild",
+      "path": "card-frames/key-schild.png",
+      "inTime": 54.3,
+      "outTime": 64.3
+    },
+    {
+      "id": "key-innen",
+      "path": "card-frames/key-innen.png",
+      "inTime": 71.8,
+      "outTime": 81.8
+    },
+    {
+      "id": "key-foto",
+      "path": "card-frames/key-foto.png",
+      "inTime": 126.4,
+      "outTime": 136.4
+    },
+    {
+      "id": "key-tracker",
+      "path": "card-frames/key-tracker.png",
+      "inTime": 198,
+      "outTime": 208
+    },
+    {
+      "id": "key-frueh",
+      "path": "card-frames/key-frueh.png",
+      "inTime": 255.4,
+      "outTime": 265.4
+    },
+    {
+      "id": "key-etikett",
+      "path": "card-frames/key-etikett.png",
+      "inTime": 292.5,
+      "outTime": 302.5
+    },
+    {
+      "id": "alert-schwarz",
+      "path": "card-frames/alert-schwarz.png",
+      "inTime": 113,
+      "outTime": 123
+    },
+    {
+      "id": "alert-lastmin",
+      "path": "card-frames/alert-lastmin.png",
+      "inTime": 280,
+      "outTime": 290
+    },
+    {
+      "id": "alert-tickets",
+      "path": "card-frames/alert-tickets.png",
+      "inTime": 384,
+      "outTime": 394
+    },
+    {
+      "id": "alert-pir",
+      "path": "card-frames/alert-pir.png",
+      "inTime": 399,
+      "outTime": 409
+    },
+    {
+      "id": "chap-2",
+      "path": "card-frames/chap-2.png",
+      "inTime": 93.5,
+      "outTime": 105.5
+    },
+    {
+      "id": "chap-3",
+      "path": "card-frames/chap-3.png",
+      "inTime": 183.3,
+      "outTime": 195.3
+    },
+    {
+      "id": "chap-4",
+      "path": "card-frames/chap-4.png",
+      "inTime": 274.1,
+      "outTime": 286.1
+    },
+    {
+      "id": "chap-5",
+      "path": "card-frames/chap-5.png",
+      "inTime": 351.9,
+      "outTime": 363.9
+    },
+    {
+      "id": "chap-6",
+      "path": "card-frames/chap-6.png",
+      "inTime": 457.7,
+      "outTime": 469.7
+    },
+    {
+      "id": "chap-7",
+      "path": "card-frames/chap-7.png",
+      "inTime": 536.4,
+      "outTime": 548.4
+    },
+    {
+      "id": "src-iata",
+      "path": "card-frames/src-iata.png",
+      "inTime": 368.5,
+      "outTime": 380.5
+    },
+    {
+      "id": "src-montreal",
+      "path": "card-frames/src-montreal.png",
+      "inTime": 419,
+      "outTime": 431
+    },
+    {
+      "id": "src-sita",
+      "path": "card-frames/src-sita.png",
+      "inTime": 477.5,
+      "outTime": 489.5
+    }
+  ]
+}
