@@ -1,0 +1,142 @@
+{
+  "cards": [
+    {
+      "id": "chap-n1",
+      "path": "card-frames/chap-n1.png",
+      "inTime": 43.1,
+      "outTime": 55.1
+    },
+    {
+      "id": "chap-n2",
+      "path": "card-frames/chap-n2.png",
+      "inTime": 81.5,
+      "outTime": 93.5
+    },
+    {
+      "id": "chap-n3",
+      "path": "card-frames/chap-n3.png",
+      "inTime": 116.2,
+      "outTime": 128.2
+    },
+    {
+      "id": "chap-n4",
+      "path": "card-frames/chap-n4.png",
+      "inTime": 172.9,
+      "outTime": 184.9
+    },
+    {
+      "id": "chap-n5",
+      "path": "card-frames/chap-n5.png",
+      "inTime": 213.6,
+      "outTime": 225.6
+    },
+    {
+      "id": "chap-n6",
+      "path": "card-frames/chap-n6.png",
+      "inTime": 249.1,
+      "outTime": 261.1
+    },
+    {
+      "id": "chap-n7",
+      "path": "card-frames/chap-n7.png",
+      "inTime": 285,
+      "outTime": 297
+    },
+    {
+      "id": "chap-n8",
+      "path": "card-frames/chap-n8.png",
+      "inTime": 341.3,
+      "outTime": 353.3
+    },
+    {
+      "id": "chap-industrie",
+      "path": "card-frames/chap-industrie.png",
+      "inTime": 444.3,
+      "outTime": 456.3
+    },
+    {
+      "id": "stat-60pct",
+      "path": "card-frames/stat-60pct.png",
+      "inTime": 2.5,
+      "outTime": 12.5
+    },
+    {
+      "id": "stat-10mio",
+      "path": "card-frames/stat-10mio.png",
+      "inTime": 28.7,
+      "outTime": 38.7
+    },
+    {
+      "id": "stat-32usd",
+      "path": "card-frames/stat-32usd.png",
+      "inTime": 95,
+      "outTime": 105
+    },
+    {
+      "id": "stat-30pct",
+      "path": "card-frames/stat-30pct.png",
+      "inTime": 269.2,
+      "outTime": 279.2
+    },
+    {
+      "id": "stat-35usd",
+      "path": "card-frames/stat-35usd.png",
+      "inTime": 323,
+      "outTime": 333
+    },
+    {
+      "id": "alert-nichts",
+      "path": "card-frames/alert-nichts.png",
+      "inTime": 148,
+      "outTime": 158
+    },
+    {
+      "id": "alert-restaurant",
+      "path": "card-frames/alert-restaurant.png",
+      "inTime": 204,
+      "outTime": 214
+    },
+    {
+      "id": "alert-bank",
+      "path": "card-frames/alert-bank.png",
+      "inTime": 304.6,
+      "outTime": 314.6
+    },
+    {
+      "id": "key-preise",
+      "path": "card-frames/key-preise.png",
+      "inTime": 362.8,
+      "outTime": 372.8
+    },
+    {
+      "id": "key-drei",
+      "path": "card-frames/key-drei.png",
+      "inTime": 427.4,
+      "outTime": 437.4
+    },
+    {
+      "id": "key-loungebuddy",
+      "path": "card-frames/key-loungebuddy.png",
+      "inTime": 464.2,
+      "outTime": 474.2
+    },
+    {
+      "id": "src-pp",
+      "path": "card-frames/src-pp.png",
+      "inTime": 44,
+      "outTime": 56
+    },
+    {
+      "id": "src-collinson",
+      "path": "card-frames/src-collinson.png",
+      "inTime": 464.2,
+      "outTime": 476.2
+    },
+    {
+      "id": "src-loungebuddy",
+      "path": "card-frames/src-loungebuddy.png",
+      "inTime": 499.9,
+      "outTime": 511.9
+    }
+  ]
+}
