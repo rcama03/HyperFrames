@@ -1,0 +1,5911 @@
+{
+  "project_id": "WM_2026_Flug_USA_buchen_-_die_wichtigsten_Tipps_jetzt",
+  "total_duration": 596.11,
+  "entry_count": 984,
+  "entries": [
+    {
+      "text": "Wer wartet,",
+      "start": 0.0,
+      "end": 0.733,
+      "scene_id": 1
+    },
+    {
+      "text": "VERLIERT.",
+      "start": 0.733,
+      "end": 1.465,
+      "scene_id": 1
+    },
+    {
+      "text": "Flüge",
+      "start": 1.465,
+      "end": 2.198,
+      "scene_id": 1
+    },
+    {
+      "text": "zur WM",
+      "start": 2.198,
+      "end": 2.93,
+      "scene_id": 1
+    },
+    {
+      "text": "2026",
+      "start": 2.93,
+      "end": 3.663,
+      "scene_id": 1
+    },
+    {
+      "text": "in die",
+      "start": 3.663,
+      "end": 4.396,
+      "scene_id": 1
+    },
+    {
+      "text": "USA kosten",
+      "start": 4.396,
+      "end": 5.128,
+      "scene_id": 1
+    },
+    {
+      "text": "heute",
+      "start": 5.128,
+      "end": 5.861,
+      "scene_id": 1
+    },
+    {
+      "text": "noch",
+      "start": 5.861,
+      "end": 6.593,
+      "scene_id": 1
+    },
+    {
+      "text": "unter",
+      "start": 6.593,
+      "end": 7.326,
+      "scene_id": 1
+    },
+    {
+      "text": "600 Euro",
+      "start": 7.326,
+      "end": 8.059,
+      "scene_id": 1
+    },
+    {
+      "text": "— doch",
+      "start": 8.059,
+      "end": 8.791,
+      "scene_id": 1
+    },
+    {
+      "text": "Experten",
+      "start": 8.791,
+      "end": 9.524,
+      "scene_id": 1
+    },
+    {
+      "text": "warnen:",
+      "start": 9.524,
+      "end": 10.256,
+      "scene_id": 1
+    },
+    {
+      "text": "Wer nach",
+      "start": 10.256,
+      "end": 10.989,
+      "scene_id": 1
+    },
+    {
+      "text": "der Gruppenauslosung",
+      "start": 10.989,
+      "end": 11.721,
+      "scene_id": 1
+    },
+    {
+      "text": "bucht,",
+      "start": 11.721,
+      "end": 12.454,
+      "scene_id": 1
+    },
+    {
+      "text": "zahlt",
+      "start": 12.454,
+      "end": 13.187,
+      "scene_id": 1
+    },
+    {
+      "text": "locker",
+      "start": 13.187,
+      "end": 13.919,
+      "scene_id": 1
+    },
+    {
+      "text": "das Dreifache.",
+      "start": 13.919,
+      "end": 14.652,
+      "scene_id": 1
+    },
+    {
+      "text": "Das Zeitfenster",
+      "start": 14.652,
+      "end": 15.384,
+      "scene_id": 1
+    },
+    {
+      "text": "schließt",
+      "start": 15.384,
+      "end": 16.117,
+      "scene_id": 1
+    },
+    {
+      "text": "sich",
+      "start": 16.117,
+      "end": 16.85,
+      "scene_id": 1
+    },
+    {
+      "text": "schneller,",
+      "start": 16.85,
+      "end": 17.582,
+      "scene_id": 1
+    },
+    {
+      "text": "als die",
+      "start": 17.582,
+      "end": 18.315,
+      "scene_id": 1
+    },
+    {
+      "text": "meisten",
+      "start": 18.315,
+      "end": 19.047,
+      "scene_id": 1
+    },
+    {
+      "text": "denken.",
+      "start": 19.047,
+      "end": 19.78,
+      "scene_id": 1
+    },
+    {
+      "text": "Airlines",
+      "start": 20.08,
+      "end": 20.744,
+      "scene_id": 2
+    },
+    {
+      "text": "haben",
+      "start": 20.744,
+      "end": 21.408,
+      "scene_id": 2
+    },
+    {
+      "text": "die WM-Spielorte",
+      "start": 21.408,
+      "end": 22.072,
+      "scene_id": 2
+    },
+    {
+      "text": "bereits",
+      "start": 22.072,
+      "end": 22.735,
+      "scene_id": 2
+    },
+    {
+      "text": "im Kalender.",
+      "start": 22.735,
+      "end": 23.399,
+      "scene_id": 2
+    },
+    {
+      "text": "Sie warten",
+      "start": 23.399,
+      "end": 24.063,
+      "scene_id": 2
+    },
+    {
+      "text": "nur darauf,",
+      "start": 24.063,
+      "end": 24.727,
+      "scene_id": 2
+    },
+    {
+      "text": "dass",
+      "start": 24.727,
+      "end": 25.391,
+      "scene_id": 2
+    },
+    {
+      "text": "du zögerst.",
+      "start": 25.391,
+      "end": 26.055,
+      "scene_id": 2
+    },
+    {
+      "text": "Sobald",
+      "start": 26.055,
+      "end": 26.718,
+      "scene_id": 2
+    },
+    {
+      "text": "die Nachfrage",
+      "start": 26.718,
+      "end": 27.382,
+      "scene_id": 2
+    },
+    {
+      "text": "explodiert,",
+      "start": 27.382,
+      "end": 28.046,
+      "scene_id": 2
+    },
+    {
+      "text": "aktivieren",
+      "start": 28.046,
+      "end": 28.71,
+      "scene_id": 2
+    },
+    {
+      "text": "sie Algorithmen,",
+      "start": 28.71,
+      "end": 29.374,
+      "scene_id": 2
+    },
+    {
+      "text": "die Preise",
+      "start": 29.374,
+      "end": 30.038,
+      "scene_id": 2
+    },
+    {
+      "text": "in Echtzeit",
+      "start": 30.038,
+      "end": 30.702,
+      "scene_id": 2
+    },
+    {
+      "text": "erhöhen",
+      "start": 30.702,
+      "end": 31.365,
+      "scene_id": 2
+    },
+    {
+      "text": "— manchmal",
+      "start": 31.365,
+      "end": 32.029,
+      "scene_id": 2
+    },
+    {
+      "text": "innerhalb",
+      "start": 32.029,
+      "end": 32.693,
+      "scene_id": 2
+    },
+    {
+      "text": "von Stunden.",
+      "start": 32.693,
+      "end": 33.357,
+      "scene_id": 2
+    },
+    {
+      "text": "Das nennst",
+      "start": 33.357,
+      "end": 34.021,
+      "scene_id": 2
+    },
+    {
+      "text": "du freien",
+      "start": 34.021,
+      "end": 34.685,
+      "scene_id": 2
+    },
+    {
+      "text": "Markt.",
+      "start": 34.685,
+      "end": 35.348,
+      "scene_id": 2
+    },
+    {
+      "text": "Ich nenne",
+      "start": 35.348,
+      "end": 36.012,
+      "scene_id": 2
+    },
+    {
+      "text": "es eine",
+      "start": 36.012,
+      "end": 36.676,
+      "scene_id": 2
+    },
+    {
+      "text": "FALLE.",
+      "start": 36.676,
+      "end": 37.34,
+      "scene_id": 2
+    },
+    {
+      "text": "Die WM",
+      "start": 37.64,
+      "end": 38.347,
+      "scene_id": 3
+    },
+    {
+      "text": "2026",
+      "start": 38.347,
+      "end": 39.054,
+      "scene_id": 3
+    },
+    {
+      "text": "ist keine",
+      "start": 39.054,
+      "end": 39.761,
+      "scene_id": 3
+    },
+    {
+      "text": "gewöhnliche",
+      "start": 39.761,
+      "end": 40.468,
+      "scene_id": 3
+    },
+    {
+      "text": "Weltmeisterschaft.",
+      "start": 40.468,
+      "end": 41.175,
+      "scene_id": 3
+    },
+    {
+      "text": "Erstmals",
+      "start": 41.175,
+      "end": 41.882,
+      "scene_id": 3
+    },
+    {
+      "text": "spielen",
+      "start": 41.882,
+      "end": 42.589,
+      "scene_id": 3
+    },
+    {
+      "text": "48 Mannschaften",
+      "start": 42.589,
+      "end": 43.296,
+      "scene_id": 3
+    },
+    {
+      "text": "— das",
+      "start": 43.296,
+      "end": 44.003,
+      "scene_id": 3
+    },
+    {
+      "text": "sind",
+      "start": 44.003,
+      "end": 44.71,
+      "scene_id": 3
+    },
+    {
+      "text": "104 Spiele,",
+      "start": 44.71,
+      "end": 45.417,
+      "scene_id": 3
+    },
+    {
+      "text": "verteilt",
+      "start": 45.417,
+      "end": 46.124,
+      "scene_id": 3
+    },
+    {
+      "text": "auf 16",
+      "start": 46.124,
+      "end": 46.831,
+      "scene_id": 3
+    },
+    {
+      "text": "Städte",
+      "start": 46.831,
+      "end": 47.539,
+      "scene_id": 3
+    },
+    {
+      "text": "in drei",
+      "start": 47.539,
+      "end": 48.246,
+      "scene_id": 3
+    },
+    {
+      "text": "Ländern:",
+      "start": 48.246,
+      "end": 48.953,
+      "scene_id": 3
+    },
+    {
+      "text": "USA, Kanada",
+      "start": 48.953,
+      "end": 49.66,
+      "scene_id": 3
+    },
+    {
+      "text": "und Mexiko.",
+      "start": 49.66,
+      "end": 50.367,
+      "scene_id": 3
+    },
+    {
+      "text": "Das bedeutet:",
+      "start": 50.367,
+      "end": 51.074,
+      "scene_id": 3
+    },
+    {
+      "text": "Millionen",
+      "start": 51.074,
+      "end": 51.781,
+      "scene_id": 3
+    },
+    {
+      "text": "Fans,",
+      "start": 51.781,
+      "end": 52.488,
+      "scene_id": 3
+    },
+    {
+      "text": "riesige",
+      "start": 52.488,
+      "end": 53.195,
+      "scene_id": 3
+    },
+    {
+      "text": "Nachfrage,",
+      "start": 53.195,
+      "end": 53.902,
+      "scene_id": 3
+    },
+    {
+      "text": "und ein",
+      "start": 53.902,
+      "end": 54.609,
+      "scene_id": 3
+    },
+    {
+      "text": "Flugmarkt,",
+      "start": 54.609,
+      "end": 55.316,
+      "scene_id": 3
+    },
+    {
+      "text": "der komplett",
+      "start": 55.316,
+      "end": 56.023,
+      "scene_id": 3
+    },
+    {
+      "text": "explodiert.",
+      "start": 56.023,
+      "end": 56.73,
+      "scene_id": 3
+    },
+    {
+      "text": "Für deutsche",
+      "start": 57.03,
+      "end": 57.556,
+      "scene_id": 4
+    },
+    {
+      "text": "Fans",
+      "start": 57.556,
+      "end": 58.081,
+      "scene_id": 4
+    },
+    {
+      "text": "sind",
+      "start": 58.081,
+      "end": 58.607,
+      "scene_id": 4
+    },
+    {
+      "text": "vor allem",
+      "start": 58.607,
+      "end": 59.133,
+      "scene_id": 4
+    },
+    {
+      "text": "diese",
+      "start": 59.133,
+      "end": 59.659,
+      "scene_id": 4
+    },
+    {
+      "text": "Städte",
+      "start": 59.659,
+      "end": 60.184,
+      "scene_id": 4
+    },
+    {
+      "text": "relevant:",
+      "start": 60.184,
+      "end": 60.71,
+      "scene_id": 4
+    },
+    {
+      "text": "New York,",
+      "start": 60.71,
+      "end": 61.236,
+      "scene_id": 4
+    },
+    {
+      "text": "Los Angeles,",
+      "start": 61.236,
+      "end": 61.761,
+      "scene_id": 4
+    },
+    {
+      "text": "Dallas,",
+      "start": 61.761,
+      "end": 62.287,
+      "scene_id": 4
+    },
+    {
+      "text": "Miami,",
+      "start": 62.287,
+      "end": 62.813,
+      "scene_id": 4
+    },
+    {
+      "text": "San Francisco",
+      "start": 62.813,
+      "end": 63.339,
+      "scene_id": 4
+    },
+    {
+      "text": "und Seattle.",
+      "start": 63.339,
+      "end": 63.864,
+      "scene_id": 4
+    },
+    {
+      "text": "Das Finale",
+      "start": 63.864,
+      "end": 64.39,
+      "scene_id": 4
+    },
+    {
+      "text": "findet",
+      "start": 64.39,
+      "end": 64.916,
+      "scene_id": 4
+    },
+    {
+      "text": "im MetLife",
+      "start": 64.916,
+      "end": 65.441,
+      "scene_id": 4
+    },
+    {
+      "text": "Stadium",
+      "start": 65.441,
+      "end": 65.967,
+      "scene_id": 4
+    },
+    {
+      "text": "in New",
+      "start": 65.967,
+      "end": 66.493,
+      "scene_id": 4
+    },
+    {
+      "text": "Jersey",
+      "start": 66.493,
+      "end": 67.019,
+      "scene_id": 4
+    },
+    {
+      "text": "statt",
+      "start": 67.019,
+      "end": 67.544,
+      "scene_id": 4
+    },
+    {
+      "text": "— direkt",
+      "start": 67.544,
+      "end": 68.07,
+      "scene_id": 4
+    },
+    {
+      "text": "vor New",
+      "start": 68.07,
+      "end": 68.596,
+      "scene_id": 4
+    },
+    {
+      "text": "York.",
+      "start": 68.596,
+      "end": 69.121,
+      "scene_id": 4
+    },
+    {
+      "text": "Wer dorthin",
+      "start": 69.121,
+      "end": 69.647,
+      "scene_id": 4
+    },
+    {
+      "text": "will,",
+      "start": 69.647,
+      "end": 70.173,
+      "scene_id": 4
+    },
+    {
+      "text": "muss",
+      "start": 70.173,
+      "end": 70.699,
+      "scene_id": 4
+    },
+    {
+      "text": "JETZT",
+      "start": 70.699,
+      "end": 71.224,
+      "scene_id": 4
+    },
+    {
+      "text": "handeln.",
+      "start": 71.224,
+      "end": 71.75,
+      "scene_id": 4
+    },
+    {
+      "text": "Hier",
+      "start": 72.05,
+      "end": 72.832,
+      "scene_id": 5
+    },
+    {
+      "text": "ist der",
+      "start": 72.832,
+      "end": 73.615,
+      "scene_id": 5
+    },
+    {
+      "text": "Kern-Tipp,",
+      "start": 73.615,
+      "end": 74.397,
+      "scene_id": 5
+    },
+    {
+      "text": "den Reiseprofis",
+      "start": 74.397,
+      "end": 75.18,
+      "scene_id": 5
+    },
+    {
+      "text": "kennen.",
+      "start": 75.18,
+      "end": 75.962,
+      "scene_id": 5
+    },
+    {
+      "text": "Das beste",
+      "start": 75.962,
+      "end": 76.745,
+      "scene_id": 5
+    },
+    {
+      "text": "Buchungsfenster",
+      "start": 76.745,
+      "end": 77.528,
+      "scene_id": 5
+    },
+    {
+      "text": "für Langstreckenflüge",
+      "start": 77.528,
+      "end": 78.31,
+      "scene_id": 5
+    },
+    {
+      "text": "liegt",
+      "start": 78.31,
+      "end": 79.093,
+      "scene_id": 5
+    },
+    {
+      "text": "zwischen",
+      "start": 79.093,
+      "end": 79.875,
+      "scene_id": 5
+    },
+    {
+      "text": "drei",
+      "start": 79.875,
+      "end": 80.657,
+      "scene_id": 5
+    },
+    {
+      "text": "und sechs",
+      "start": 80.657,
+      "end": 81.44,
+      "scene_id": 5
+    },
+    {
+      "text": "Monaten",
+      "start": 81.44,
+      "end": 82.222,
+      "scene_id": 5
+    },
+    {
+      "text": "vor dem",
+      "start": 82.222,
+      "end": 83.005,
+      "scene_id": 5
+    },
+    {
+      "text": "Abflug.",
+      "start": 83.005,
+      "end": 83.787,
+      "scene_id": 5
+    },
+    {
+      "text": "Für die",
+      "start": 83.787,
+      "end": 84.57,
+      "scene_id": 5
+    },
+    {
+      "text": "WM —",
+      "start": 84.57,
+      "end": 85.352,
+      "scene_id": 5
+    },
+    {
+      "text": "die im",
+      "start": 85.352,
+      "end": 86.135,
+      "scene_id": 5
+    },
+    {
+      "text": "Juni",
+      "start": 86.135,
+      "end": 86.917,
+      "scene_id": 5
+    },
+    {
+      "text": "2026",
+      "start": 86.917,
+      "end": 87.7,
+      "scene_id": 5
+    },
+    {
+      "text": "startet",
+      "start": 87.7,
+      "end": 88.482,
+      "scene_id": 5
+    },
+    {
+      "text": "— bedeutet",
+      "start": 88.483,
+      "end": 89.265,
+      "scene_id": 5
+    },
+    {
+      "text": "das: Dezember",
+      "start": 89.265,
+      "end": 90.047,
+      "scene_id": 5
+    },
+    {
+      "text": "2025",
+      "start": 90.047,
+      "end": 90.83,
+      "scene_id": 5
+    },
+    {
+      "text": "bis Februar",
+      "start": 90.83,
+      "end": 91.612,
+      "scene_id": 5
+    },
+    {
+      "text": "2026",
+      "start": 91.612,
+      "end": 92.395,
+      "scene_id": 5
+    },
+    {
+      "text": "ist dein",
+      "start": 92.395,
+      "end": 93.177,
+      "scene_id": 5
+    },
+    {
+      "text": "goldenes",
+      "start": 93.177,
+      "end": 93.96,
+      "scene_id": 5
+    },
+    {
+      "text": "Zeitfenster.",
+      "start": 93.96,
+      "end": 94.742,
+      "scene_id": 5
+    },
+    {
+      "text": "DANACH",
+      "start": 94.742,
+      "end": 95.525,
+      "scene_id": 5
+    },
+    {
+      "text": "wird's",
+      "start": 95.525,
+      "end": 96.307,
+      "scene_id": 5
+    },
+    {
+      "text": "teuer.",
+      "start": 96.308,
+      "end": 97.09,
+      "scene_id": 5
+    },
+    {
+      "text": "Die Gruppenauslosung",
+      "start": 97.39,
+      "end": 97.944,
+      "scene_id": 6
+    },
+    {
+      "text": "zur WM",
+      "start": 97.944,
+      "end": 98.498,
+      "scene_id": 6
+    },
+    {
+      "text": "2026",
+      "start": 98.498,
+      "end": 99.052,
+      "scene_id": 6
+    },
+    {
+      "text": "findet",
+      "start": 99.052,
+      "end": 99.606,
+      "scene_id": 6
+    },
+    {
+      "text": "voraussichtlich",
+      "start": 99.606,
+      "end": 100.16,
+      "scene_id": 6
+    },
+    {
+      "text": "Anfang",
+      "start": 100.16,
+      "end": 100.714,
+      "scene_id": 6
+    },
+    {
+      "text": "2026",
+      "start": 100.714,
+      "end": 101.268,
+      "scene_id": 6
+    },
+    {
+      "text": "statt.",
+      "start": 101.268,
+      "end": 101.822,
+      "scene_id": 6
+    },
+    {
+      "text": "In dem",
+      "start": 101.822,
+      "end": 102.376,
+      "scene_id": 6
+    },
+    {
+      "text": "Moment,",
+      "start": 102.376,
+      "end": 102.93,
+      "scene_id": 6
+    },
+    {
+      "text": "in dem",
+      "start": 102.93,
+      "end": 103.484,
+      "scene_id": 6
+    },
+    {
+      "text": "Deutschland",
+      "start": 103.484,
+      "end": 104.038,
+      "scene_id": 6
+    },
+    {
+      "text": "seine",
+      "start": 104.038,
+      "end": 104.592,
+      "scene_id": 6
+    },
+    {
+      "text": "Gruppe",
+      "start": 104.592,
+      "end": 105.146,
+      "scene_id": 6
+    },
+    {
+      "text": "kennt,",
+      "start": 105.146,
+      "end": 105.7,
+      "scene_id": 6
+    },
+    {
+      "text": "suchen",
+      "start": 105.7,
+      "end": 106.254,
+      "scene_id": 6
+    },
+    {
+      "text": "Millionen",
+      "start": 106.254,
+      "end": 106.808,
+      "scene_id": 6
+    },
+    {
+      "text": "Fans",
+      "start": 106.808,
+      "end": 107.362,
+      "scene_id": 6
+    },
+    {
+      "text": "gleichzeitig",
+      "start": 107.362,
+      "end": 107.916,
+      "scene_id": 6
+    },
+    {
+      "text": "nach",
+      "start": 107.916,
+      "end": 108.47,
+      "scene_id": 6
+    },
+    {
+      "text": "Flügen",
+      "start": 108.47,
+      "end": 109.024,
+      "scene_id": 6
+    },
+    {
+      "text": "— und",
+      "start": 109.024,
+      "end": 109.578,
+      "scene_id": 6
+    },
+    {
+      "text": "die Preise",
+      "start": 109.578,
+      "end": 110.132,
+      "scene_id": 6
+    },
+    {
+      "text": "schießen",
+      "start": 110.132,
+      "end": 110.686,
+      "scene_id": 6
+    },
+    {
+      "text": "innerhalb",
+      "start": 110.686,
+      "end": 111.24,
+      "scene_id": 6
+    },
+    {
+      "text": "von Minuten",
+      "start": 111.24,
+      "end": 111.794,
+      "scene_id": 6
+    },
+    {
+      "text": "durch",
+      "start": 111.794,
+      "end": 112.348,
+      "scene_id": 6
+    },
+    {
+      "text": "die Decke.",
+      "start": 112.348,
+      "end": 112.902,
+      "scene_id": 6
+    },
+    {
+      "text": "Das ist",
+      "start": 112.902,
+      "end": 113.456,
+      "scene_id": 6
+    },
+    {
+      "text": "BEWIESEN.",
+      "start": 113.456,
+      "end": 114.01,
+      "scene_id": 6
+    },
+    {
+      "text": "Viele",
+      "start": 114.31,
+      "end": 114.836,
+      "scene_id": 7
+    },
+    {
+      "text": "fragen",
+      "start": 114.836,
+      "end": 115.362,
+      "scene_id": 7
+    },
+    {
+      "text": "sich:",
+      "start": 115.362,
+      "end": 115.888,
+      "scene_id": 7
+    },
+    {
+      "text": "Was, wenn",
+      "start": 115.888,
+      "end": 116.414,
+      "scene_id": 7
+    },
+    {
+      "text": "Deutschland",
+      "start": 116.414,
+      "end": 116.94,
+      "scene_id": 7
+    },
+    {
+      "text": "nicht",
+      "start": 116.94,
+      "end": 117.466,
+      "scene_id": 7
+    },
+    {
+      "text": "weiterkommt?",
+      "start": 117.466,
+      "end": 117.992,
+      "scene_id": 7
+    },
+    {
+      "text": "Gute",
+      "start": 117.992,
+      "end": 118.517,
+      "scene_id": 7
+    },
+    {
+      "text": "Frage.",
+      "start": 118.517,
+      "end": 119.043,
+      "scene_id": 7
+    },
+    {
+      "text": "Deshalb",
+      "start": 119.043,
+      "end": 119.569,
+      "scene_id": 7
+    },
+    {
+      "text": "lohnen",
+      "start": 119.569,
+      "end": 120.095,
+      "scene_id": 7
+    },
+    {
+      "text": "sich",
+      "start": 120.095,
+      "end": 120.621,
+      "scene_id": 7
+    },
+    {
+      "text": "flexible",
+      "start": 120.621,
+      "end": 121.147,
+      "scene_id": 7
+    },
+    {
+      "text": "Tickets",
+      "start": 121.147,
+      "end": 121.673,
+      "scene_id": 7
+    },
+    {
+      "text": "mit kostenloser",
+      "start": 121.673,
+      "end": 122.199,
+      "scene_id": 7
+    },
+    {
+      "text": "Umbuchung.",
+      "start": 122.199,
+      "end": 122.725,
+      "scene_id": 7
+    },
+    {
+      "text": "Ja, sie",
+      "start": 122.725,
+      "end": 123.251,
+      "scene_id": 7
+    },
+    {
+      "text": "kosten",
+      "start": 123.251,
+      "end": 123.777,
+      "scene_id": 7
+    },
+    {
+      "text": "etwa",
+      "start": 123.777,
+      "end": 124.303,
+      "scene_id": 7
+    },
+    {
+      "text": "80 bis",
+      "start": 124.303,
+      "end": 124.829,
+      "scene_id": 7
+    },
+    {
+      "text": "150 Euro",
+      "start": 124.829,
+      "end": 125.355,
+      "scene_id": 7
+    },
+    {
+      "text": "mehr",
+      "start": 125.355,
+      "end": 125.881,
+      "scene_id": 7
+    },
+    {
+      "text": "— aber",
+      "start": 125.881,
+      "end": 126.407,
+      "scene_id": 7
+    },
+    {
+      "text": "das ist",
+      "start": 126.407,
+      "end": 126.933,
+      "scene_id": 7
+    },
+    {
+      "text": "NICHTS",
+      "start": 126.933,
+      "end": 127.458,
+      "scene_id": 7
+    },
+    {
+      "text": "verglichen",
+      "start": 127.458,
+      "end": 127.984,
+      "scene_id": 7
+    },
+    {
+      "text": "mit dem",
+      "start": 127.984,
+      "end": 128.51,
+      "scene_id": 7
+    },
+    {
+      "text": "Verlust",
+      "start": 128.51,
+      "end": 129.036,
+      "scene_id": 7
+    },
+    {
+      "text": "eines",
+      "start": 129.036,
+      "end": 129.562,
+      "scene_id": 7
+    },
+    {
+      "text": "nicht",
+      "start": 129.562,
+      "end": 130.088,
+      "scene_id": 7
+    },
+    {
+      "text": "erstattungsfähigen",
+      "start": 130.088,
+      "end": 130.614,
+      "scene_id": 7
+    },
+    {
+      "text": "Tickets.",
+      "start": 130.614,
+      "end": 131.14,
+      "scene_id": 7
+    },
+    {
+      "text": "Nicht",
+      "start": 131.44,
+      "end": 131.987,
+      "scene_id": 8
+    },
+    {
+      "text": "alle",
+      "start": 131.987,
+      "end": 132.534,
+      "scene_id": 8
+    },
+    {
+      "text": "Airlines",
+      "start": 132.534,
+      "end": 133.08,
+      "scene_id": 8
+    },
+    {
+      "text": "sind",
+      "start": 133.08,
+      "end": 133.627,
+      "scene_id": 8
+    },
+    {
+      "text": "gleich",
+      "start": 133.627,
+      "end": 134.174,
+      "scene_id": 8
+    },
+    {
+      "text": "teuer.",
+      "start": 134.174,
+      "end": 134.721,
+      "scene_id": 8
+    },
+    {
+      "text": "Lufthansa,",
+      "start": 134.721,
+      "end": 135.267,
+      "scene_id": 8
+    },
+    {
+      "text": "United",
+      "start": 135.267,
+      "end": 135.814,
+      "scene_id": 8
+    },
+    {
+      "text": "und Delta",
+      "start": 135.814,
+      "end": 136.361,
+      "scene_id": 8
+    },
+    {
+      "text": "dominieren",
+      "start": 136.361,
+      "end": 136.908,
+      "scene_id": 8
+    },
+    {
+      "text": "die Direktflüge",
+      "start": 136.908,
+      "end": 137.455,
+      "scene_id": 8
+    },
+    {
+      "text": "— aber",
+      "start": 137.455,
+      "end": 138.001,
+      "scene_id": 8
+    },
+    {
+      "text": "Condor,",
+      "start": 138.001,
+      "end": 138.548,
+      "scene_id": 8
+    },
+    {
+      "text": "Norse",
+      "start": 138.548,
+      "end": 139.095,
+      "scene_id": 8
+    },
+    {
+      "text": "Atlantic",
+      "start": 139.095,
+      "end": 139.642,
+      "scene_id": 8
+    },
+    {
+      "text": "und Level",
+      "start": 139.642,
+      "end": 140.188,
+      "scene_id": 8
+    },
+    {
+      "text": "bieten",
+      "start": 140.188,
+      "end": 140.735,
+      "scene_id": 8
+    },
+    {
+      "text": "oft MASSIV",
+      "start": 140.735,
+      "end": 141.282,
+      "scene_id": 8
+    },
+    {
+      "text": "günstigere",
+      "start": 141.282,
+      "end": 141.829,
+      "scene_id": 8
+    },
+    {
+      "text": "Alternativen",
+      "start": 141.829,
+      "end": 142.375,
+      "scene_id": 8
+    },
+    {
+      "text": "mit Stopp.",
+      "start": 142.375,
+      "end": 142.922,
+      "scene_id": 8
+    },
+    {
+      "text": "Der Haken:",
+      "start": 142.922,
+      "end": 143.469,
+      "scene_id": 8
+    },
+    {
+      "text": "Wer während",
+      "start": 143.469,
+      "end": 144.016,
+      "scene_id": 8
+    },
+    {
+      "text": "der WM",
+      "start": 144.016,
+      "end": 144.563,
+      "scene_id": 8
+    },
+    {
+      "text": "umsteigt,",
+      "start": 144.563,
+      "end": 145.109,
+      "scene_id": 8
+    },
+    {
+      "text": "riskiert",
+      "start": 145.109,
+      "end": 145.656,
+      "scene_id": 8
+    },
+    {
+      "text": "verpasste",
+      "start": 145.656,
+      "end": 146.203,
+      "scene_id": 8
+    },
+    {
+      "text": "Anschlüsse.",
+      "start": 146.203,
+      "end": 146.75,
+      "scene_id": 8
+    },
+    {
+      "text": "Darauf",
+      "start": 146.75,
+      "end": 147.296,
+      "scene_id": 8
+    },
+    {
+      "text": "kommen",
+      "start": 147.296,
+      "end": 147.843,
+      "scene_id": 8
+    },
+    {
+      "text": "wir noch.",
+      "start": 147.843,
+      "end": 148.39,
+      "scene_id": 8
+    },
+    {
+      "text": "Google",
+      "start": 148.69,
+      "end": 149.245,
+      "scene_id": 9
+    },
+    {
+      "text": "Flights",
+      "start": 149.245,
+      "end": 149.801,
+      "scene_id": 9
+    },
+    {
+      "text": "ist dein",
+      "start": 149.801,
+      "end": 150.356,
+      "scene_id": 9
+    },
+    {
+      "text": "bestes",
+      "start": 150.356,
+      "end": 150.911,
+      "scene_id": 9
+    },
+    {
+      "text": "Werkzeug",
+      "start": 150.911,
+      "end": 151.467,
+      "scene_id": 9
+    },
+    {
+      "text": "— kostenlos,",
+      "start": 151.467,
+      "end": 152.022,
+      "scene_id": 9
+    },
+    {
+      "text": "schnell,",
+      "start": 152.022,
+      "end": 152.577,
+      "scene_id": 9
+    },
+    {
+      "text": "und mit",
+      "start": 152.577,
+      "end": 153.133,
+      "scene_id": 9
+    },
+    {
+      "text": "Preisalarm-Funktion.",
+      "start": 153.133,
+      "end": 153.688,
+      "scene_id": 9
+    },
+    {
+      "text": "Aber",
+      "start": 153.688,
+      "end": 154.243,
+      "scene_id": 9
+    },
+    {
+      "text": "auch",
+      "start": 154.243,
+      "end": 154.799,
+      "scene_id": 9
+    },
+    {
+      "text": "Skyscanner",
+      "start": 154.799,
+      "end": 155.354,
+      "scene_id": 9
+    },
+    {
+      "text": "und Kayak",
+      "start": 155.354,
+      "end": 155.909,
+      "scene_id": 9
+    },
+    {
+      "text": "liefern",
+      "start": 155.909,
+      "end": 156.465,
+      "scene_id": 9
+    },
+    {
+      "text": "starke",
+      "start": 156.465,
+      "end": 157.02,
+      "scene_id": 9
+    },
+    {
+      "text": "Ergebnisse.",
+      "start": 157.02,
+      "end": 157.575,
+      "scene_id": 9
+    },
+    {
+      "text": "Wichtig:",
+      "start": 157.575,
+      "end": 158.131,
+      "scene_id": 9
+    },
+    {
+      "text": "Vergleiche",
+      "start": 158.131,
+      "end": 158.686,
+      "scene_id": 9
+    },
+    {
+      "text": "IMMER",
+      "start": 158.686,
+      "end": 159.241,
+      "scene_id": 9
+    },
+    {
+      "text": "direkt",
+      "start": 159.241,
+      "end": 159.797,
+      "scene_id": 9
+    },
+    {
+      "text": "auf der",
+      "start": 159.797,
+      "end": 160.352,
+      "scene_id": 9
+    },
+    {
+      "text": "Airline-Website,",
+      "start": 160.352,
+      "end": 160.907,
+      "scene_id": 9
+    },
+    {
+      "text": "bevor",
+      "start": 160.907,
+      "end": 161.463,
+      "scene_id": 9
+    },
+    {
+      "text": "du buchst",
+      "start": 161.463,
+      "end": 162.018,
+      "scene_id": 9
+    },
+    {
+      "text": "— oft",
+      "start": 162.018,
+      "end": 162.573,
+      "scene_id": 9
+    },
+    {
+      "text": "ist es",
+      "start": 162.573,
+      "end": 163.129,
+      "scene_id": 9
+    },
+    {
+      "text": "dort",
+      "start": 163.129,
+      "end": 163.684,
+      "scene_id": 9
+    },
+    {
+      "text": "günstiger",
+      "start": 163.684,
+      "end": 164.239,
+      "scene_id": 9
+    },
+    {
+      "text": "als auf",
+      "start": 164.239,
+      "end": 164.795,
+      "scene_id": 9
+    },
+    {
+      "text": "Vergleichsportalen.",
+      "start": 164.795,
+      "end": 165.35,
+      "scene_id": 9
+    },
+    {
+      "text": "Richte",
+      "start": 165.65,
+      "end": 166.278,
+      "scene_id": 10
+    },
+    {
+      "text": "JETZT",
+      "start": 166.278,
+      "end": 166.907,
+      "scene_id": 10
+    },
+    {
+      "text": "einen",
+      "start": 166.907,
+      "end": 167.535,
+      "scene_id": 10
+    },
+    {
+      "text": "Preisalarm",
+      "start": 167.535,
+      "end": 168.164,
+      "scene_id": 10
+    },
+    {
+      "text": "ein. Bei",
+      "start": 168.164,
+      "end": 168.792,
+      "scene_id": 10
+    },
+    {
+      "text": "Google",
+      "start": 168.792,
+      "end": 169.421,
+      "scene_id": 10
+    },
+    {
+      "text": "Flights",
+      "start": 169.421,
+      "end": 170.049,
+      "scene_id": 10
+    },
+    {
+      "text": "gibst",
+      "start": 170.049,
+      "end": 170.678,
+      "scene_id": 10
+    },
+    {
+      "text": "du deine",
+      "start": 170.678,
+      "end": 171.306,
+      "scene_id": 10
+    },
+    {
+      "text": "Wunschroute",
+      "start": 171.306,
+      "end": 171.935,
+      "scene_id": 10
+    },
+    {
+      "text": "ein —",
+      "start": 171.935,
+      "end": 172.563,
+      "scene_id": 10
+    },
+    {
+      "text": "Frankfurt",
+      "start": 172.563,
+      "end": 173.192,
+      "scene_id": 10
+    },
+    {
+      "text": "nach",
+      "start": 173.192,
+      "end": 173.82,
+      "scene_id": 10
+    },
+    {
+      "text": "New York,",
+      "start": 173.82,
+      "end": 174.449,
+      "scene_id": 10
+    },
+    {
+      "text": "zum Beispiel",
+      "start": 174.449,
+      "end": 175.077,
+      "scene_id": 10
+    },
+    {
+      "text": "— und",
+      "start": 175.077,
+      "end": 175.706,
+      "scene_id": 10
+    },
+    {
+      "text": "aktivierst",
+      "start": 175.706,
+      "end": 176.334,
+      "scene_id": 10
+    },
+    {
+      "text": "die Benachrichtigung.",
+      "start": 176.334,
+      "end": 176.963,
+      "scene_id": 10
+    },
+    {
+      "text": "Sobald",
+      "start": 176.963,
+      "end": 177.591,
+      "scene_id": 10
+    },
+    {
+      "text": "der Preis",
+      "start": 177.591,
+      "end": 178.22,
+      "scene_id": 10
+    },
+    {
+      "text": "fällt,",
+      "start": 178.22,
+      "end": 178.848,
+      "scene_id": 10
+    },
+    {
+      "text": "bekommst",
+      "start": 178.848,
+      "end": 179.477,
+      "scene_id": 10
+    },
+    {
+      "text": "du eine",
+      "start": 179.477,
+      "end": 180.105,
+      "scene_id": 10
+    },
+    {
+      "text": "E-Mail.",
+      "start": 180.105,
+      "end": 180.734,
+      "scene_id": 10
+    },
+    {
+      "text": "Das kostet",
+      "start": 180.734,
+      "end": 181.362,
+      "scene_id": 10
+    },
+    {
+      "text": "nichts.",
+      "start": 181.362,
+      "end": 181.991,
+      "scene_id": 10
+    },
+    {
+      "text": "Und es",
+      "start": 181.991,
+      "end": 182.619,
+      "scene_id": 10
+    },
+    {
+      "text": "hat schon",
+      "start": 182.619,
+      "end": 183.248,
+      "scene_id": 10
+    },
+    {
+      "text": "vielen",
+      "start": 183.248,
+      "end": 183.876,
+      "scene_id": 10
+    },
+    {
+      "text": "Reisenden",
+      "start": 183.876,
+      "end": 184.505,
+      "scene_id": 10
+    },
+    {
+      "text": "Hunderte",
+      "start": 184.505,
+      "end": 185.133,
+      "scene_id": 10
+    },
+    {
+      "text": "Euro",
+      "start": 185.133,
+      "end": 185.762,
+      "scene_id": 10
+    },
+    {
+      "text": "gespart.",
+      "start": 185.762,
+      "end": 186.39,
+      "scene_id": 10
+    },
+    {
+      "text": "Wusstest",
+      "start": 186.69,
+      "end": 187.219,
+      "scene_id": 11
+    },
+    {
+      "text": "du, dass",
+      "start": 187.219,
+      "end": 187.748,
+      "scene_id": 11
+    },
+    {
+      "text": "der Wochentag",
+      "start": 187.748,
+      "end": 188.277,
+      "scene_id": 11
+    },
+    {
+      "text": "beim",
+      "start": 188.277,
+      "end": 188.806,
+      "scene_id": 11
+    },
+    {
+      "text": "Buchen",
+      "start": 188.806,
+      "end": 189.335,
+      "scene_id": 11
+    },
+    {
+      "text": "einen",
+      "start": 189.335,
+      "end": 189.864,
+      "scene_id": 11
+    },
+    {
+      "text": "Unterschied",
+      "start": 189.864,
+      "end": 190.393,
+      "scene_id": 11
+    },
+    {
+      "text": "macht?",
+      "start": 190.393,
+      "end": 190.922,
+      "scene_id": 11
+    },
+    {
+      "text": "Studien",
+      "start": 190.922,
+      "end": 191.451,
+      "scene_id": 11
+    },
+    {
+      "text": "zeigen:",
+      "start": 191.451,
+      "end": 191.98,
+      "scene_id": 11
+    },
+    {
+      "text": "Dienstag",
+      "start": 191.98,
+      "end": 192.509,
+      "scene_id": 11
+    },
+    {
+      "text": "und Mittwoch",
+      "start": 192.509,
+      "end": 193.038,
+      "scene_id": 11
+    },
+    {
+      "text": "sind",
+      "start": 193.038,
+      "end": 193.567,
+      "scene_id": 11
+    },
+    {
+      "text": "oft die",
+      "start": 193.567,
+      "end": 194.096,
+      "scene_id": 11
+    },
+    {
+      "text": "günstigsten",
+      "start": 194.096,
+      "end": 194.625,
+      "scene_id": 11
+    },
+    {
+      "text": "Buchungstage.",
+      "start": 194.625,
+      "end": 195.154,
+      "scene_id": 11
+    },
+    {
+      "text": "Airlines",
+      "start": 195.154,
+      "end": 195.683,
+      "scene_id": 11
+    },
+    {
+      "text": "senken",
+      "start": 195.683,
+      "end": 196.212,
+      "scene_id": 11
+    },
+    {
+      "text": "dann",
+      "start": 196.212,
+      "end": 196.741,
+      "scene_id": 11
+    },
+    {
+      "text": "die Preise,",
+      "start": 196.741,
+      "end": 197.27,
+      "scene_id": 11
+    },
+    {
+      "text": "um leere",
+      "start": 197.27,
+      "end": 197.799,
+      "scene_id": 11
+    },
+    {
+      "text": "Sitze",
+      "start": 197.799,
+      "end": 198.328,
+      "scene_id": 11
+    },
+    {
+      "text": "zu füllen.",
+      "start": 198.328,
+      "end": 198.857,
+      "scene_id": 11
+    },
+    {
+      "text": "Samstag",
+      "start": 198.857,
+      "end": 199.386,
+      "scene_id": 11
+    },
+    {
+      "text": "und Sonntag",
+      "start": 199.386,
+      "end": 199.915,
+      "scene_id": 11
+    },
+    {
+      "text": "sind",
+      "start": 199.915,
+      "end": 200.444,
+      "scene_id": 11
+    },
+    {
+      "text": "die TEUERSTEN",
+      "start": 200.444,
+      "end": 200.973,
+      "scene_id": 11
+    },
+    {
+      "text": "Tage",
+      "start": 200.973,
+      "end": 201.502,
+      "scene_id": 11
+    },
+    {
+      "text": "— meide",
+      "start": 201.502,
+      "end": 202.031,
+      "scene_id": 11
+    },
+    {
+      "text": "sie.",
+      "start": 202.031,
+      "end": 202.56,
+      "scene_id": 11
+    },
+    {
+      "text": "Direktflüge",
+      "start": 202.86,
+      "end": 203.391,
+      "scene_id": 12
+    },
+    {
+      "text": "zur WM",
+      "start": 203.391,
+      "end": 203.921,
+      "scene_id": 12
+    },
+    {
+      "text": "sind",
+      "start": 203.921,
+      "end": 204.452,
+      "scene_id": 12
+    },
+    {
+      "text": "bequem,",
+      "start": 204.452,
+      "end": 204.982,
+      "scene_id": 12
+    },
+    {
+      "text": "aber",
+      "start": 204.983,
+      "end": 205.513,
+      "scene_id": 12
+    },
+    {
+      "text": "teuer.",
+      "start": 205.513,
+      "end": 206.044,
+      "scene_id": 12
+    },
+    {
+      "text": "Ein Stopp",
+      "start": 206.044,
+      "end": 206.574,
+      "scene_id": 12
+    },
+    {
+      "text": "in Amsterdam,",
+      "start": 206.574,
+      "end": 207.105,
+      "scene_id": 12
+    },
+    {
+      "text": "Dublin",
+      "start": 207.105,
+      "end": 207.636,
+      "scene_id": 12
+    },
+    {
+      "text": "oder",
+      "start": 207.636,
+      "end": 208.166,
+      "scene_id": 12
+    },
+    {
+      "text": "Reykjavik",
+      "start": 208.166,
+      "end": 208.697,
+      "scene_id": 12
+    },
+    {
+      "text": "kann",
+      "start": 208.697,
+      "end": 209.227,
+      "scene_id": 12
+    },
+    {
+      "text": "200 bis",
+      "start": 209.228,
+      "end": 209.758,
+      "scene_id": 12
+    },
+    {
+      "text": "400 Euro",
+      "start": 209.758,
+      "end": 210.289,
+      "scene_id": 12
+    },
+    {
+      "text": "sparen.",
+      "start": 210.289,
+      "end": 210.819,
+      "scene_id": 12
+    },
+    {
+      "text": "Der ABER:",
+      "start": 210.819,
+      "end": 211.35,
+      "scene_id": 12
+    },
+    {
+      "text": "Plane",
+      "start": 211.35,
+      "end": 211.881,
+      "scene_id": 12
+    },
+    {
+      "text": "mindestens",
+      "start": 211.881,
+      "end": 212.411,
+      "scene_id": 12
+    },
+    {
+      "text": "drei",
+      "start": 212.411,
+      "end": 212.942,
+      "scene_id": 12
+    },
+    {
+      "text": "Stunden",
+      "start": 212.942,
+      "end": 213.472,
+      "scene_id": 12
+    },
+    {
+      "text": "Umstiegszeit",
+      "start": 213.473,
+      "end": 214.003,
+      "scene_id": 12
+    },
+    {
+      "text": "ein —",
+      "start": 214.003,
+      "end": 214.534,
+      "scene_id": 12
+    },
+    {
+      "text": "besonders",
+      "start": 214.534,
+      "end": 215.064,
+      "scene_id": 12
+    },
+    {
+      "text": "während",
+      "start": 215.064,
+      "end": 215.595,
+      "scene_id": 12
+    },
+    {
+      "text": "der WM,",
+      "start": 215.595,
+      "end": 216.126,
+      "scene_id": 12
+    },
+    {
+      "text": "wenn",
+      "start": 216.126,
+      "end": 216.656,
+      "scene_id": 12
+    },
+    {
+      "text": "Flughäfen",
+      "start": 216.656,
+      "end": 217.187,
+      "scene_id": 12
+    },
+    {
+      "text": "überfüllt",
+      "start": 217.187,
+      "end": 217.718,
+      "scene_id": 12
+    },
+    {
+      "text": "sind",
+      "start": 217.718,
+      "end": 218.248,
+      "scene_id": 12
+    },
+    {
+      "text": "und Verspätungen",
+      "start": 218.248,
+      "end": 218.779,
+      "scene_id": 12
+    },
+    {
+      "text": "häufiger",
+      "start": 218.779,
+      "end": 219.309,
+      "scene_id": 12
+    },
+    {
+      "text": "auftreten.",
+      "start": 219.309,
+      "end": 219.84,
+      "scene_id": 12
+    },
+    {
+      "text": "Airlines",
+      "start": 220.14,
+      "end": 220.723,
+      "scene_id": 13
+    },
+    {
+      "text": "und Buchungsportale",
+      "start": 220.723,
+      "end": 221.306,
+      "scene_id": 13
+    },
+    {
+      "text": "verfolgen",
+      "start": 221.306,
+      "end": 221.888,
+      "scene_id": 13
+    },
+    {
+      "text": "dein",
+      "start": 221.888,
+      "end": 222.471,
+      "scene_id": 13
+    },
+    {
+      "text": "Suchverhalten.",
+      "start": 222.471,
+      "end": 223.054,
+      "scene_id": 13
+    },
+    {
+      "text": "Wenn",
+      "start": 223.054,
+      "end": 223.637,
+      "scene_id": 13
+    },
+    {
+      "text": "du dieselbe",
+      "start": 223.637,
+      "end": 224.219,
+      "scene_id": 13
+    },
+    {
+      "text": "Route",
+      "start": 224.219,
+      "end": 224.802,
+      "scene_id": 13
+    },
+    {
+      "text": "mehrfach",
+      "start": 224.802,
+      "end": 225.385,
+      "scene_id": 13
+    },
+    {
+      "text": "suchst,",
+      "start": 225.385,
+      "end": 225.968,
+      "scene_id": 13
+    },
+    {
+      "text": "erhöhen",
+      "start": 225.968,
+      "end": 226.55,
+      "scene_id": 13
+    },
+    {
+      "text": "sie die",
+      "start": 226.55,
+      "end": 227.133,
+      "scene_id": 13
+    },
+    {
+      "text": "Preise",
+      "start": 227.133,
+      "end": 227.716,
+      "scene_id": 13
+    },
+    {
+      "text": "gezielt",
+      "start": 227.716,
+      "end": 228.299,
+      "scene_id": 13
+    },
+    {
+      "text": "für dich.",
+      "start": 228.299,
+      "end": 228.881,
+      "scene_id": 13
+    },
+    {
+      "text": "Die Lösung",
+      "start": 228.881,
+      "end": 229.464,
+      "scene_id": 13
+    },
+    {
+      "text": "ist simpel:",
+      "start": 229.464,
+      "end": 230.047,
+      "scene_id": 13
+    },
+    {
+      "text": "Buche",
+      "start": 230.047,
+      "end": 230.63,
+      "scene_id": 13
+    },
+    {
+      "text": "immer",
+      "start": 230.63,
+      "end": 231.212,
+      "scene_id": 13
+    },
+    {
+      "text": "im Inkognito-Modus",
+      "start": 231.212,
+      "end": 231.795,
+      "scene_id": 13
+    },
+    {
+      "text": "oder",
+      "start": 231.795,
+      "end": 232.378,
+      "scene_id": 13
+    },
+    {
+      "text": "im privaten",
+      "start": 232.378,
+      "end": 232.961,
+      "scene_id": 13
+    },
+    {
+      "text": "Browserfenster.",
+      "start": 232.961,
+      "end": 233.543,
+      "scene_id": 13
+    },
+    {
+      "text": "Das ist",
+      "start": 233.543,
+      "end": 234.126,
+      "scene_id": 13
+    },
+    {
+      "text": "KOSTENLOS",
+      "start": 234.126,
+      "end": 234.709,
+      "scene_id": 13
+    },
+    {
+      "text": "und schützt",
+      "start": 234.709,
+      "end": 235.292,
+      "scene_id": 13
+    },
+    {
+      "text": "dich",
+      "start": 235.292,
+      "end": 235.874,
+      "scene_id": 13
+    },
+    {
+      "text": "vor dynamischen",
+      "start": 235.874,
+      "end": 236.457,
+      "scene_id": 13
+    },
+    {
+      "text": "Preiserhöhungen.",
+      "start": 236.457,
+      "end": 237.04,
+      "scene_id": 13
+    },
+    {
+      "text": "Noch",
+      "start": 237.34,
+      "end": 237.831,
+      "scene_id": 14
+    },
+    {
+      "text": "einen",
+      "start": 237.831,
+      "end": 238.323,
+      "scene_id": 14
+    },
+    {
+      "text": "Schritt",
+      "start": 238.323,
+      "end": 238.814,
+      "scene_id": 14
+    },
+    {
+      "text": "weiter:",
+      "start": 238.814,
+      "end": 239.305,
+      "scene_id": 14
+    },
+    {
+      "text": "Mit einem",
+      "start": 239.305,
+      "end": 239.797,
+      "scene_id": 14
+    },
+    {
+      "text": "VPN kannst",
+      "start": 239.797,
+      "end": 240.288,
+      "scene_id": 14
+    },
+    {
+      "text": "du so",
+      "start": 240.288,
+      "end": 240.779,
+      "scene_id": 14
+    },
+    {
+      "text": "tun, als",
+      "start": 240.779,
+      "end": 241.271,
+      "scene_id": 14
+    },
+    {
+      "text": "würdest",
+      "start": 241.271,
+      "end": 241.762,
+      "scene_id": 14
+    },
+    {
+      "text": "du aus",
+      "start": 241.762,
+      "end": 242.253,
+      "scene_id": 14
+    },
+    {
+      "text": "einem",
+      "start": 242.253,
+      "end": 242.745,
+      "scene_id": 14
+    },
+    {
+      "text": "anderen",
+      "start": 242.745,
+      "end": 243.236,
+      "scene_id": 14
+    },
+    {
+      "text": "Land",
+      "start": 243.236,
+      "end": 243.727,
+      "scene_id": 14
+    },
+    {
+      "text": "buchen.",
+      "start": 243.727,
+      "end": 244.219,
+      "scene_id": 14
+    },
+    {
+      "text": "Flüge,",
+      "start": 244.219,
+      "end": 244.71,
+      "scene_id": 14
+    },
+    {
+      "text": "die von",
+      "start": 244.71,
+      "end": 245.201,
+      "scene_id": 14
+    },
+    {
+      "text": "den USA",
+      "start": 245.201,
+      "end": 245.693,
+      "scene_id": 14
+    },
+    {
+      "text": "aus gebucht",
+      "start": 245.693,
+      "end": 246.184,
+      "scene_id": 14
+    },
+    {
+      "text": "werden,",
+      "start": 246.184,
+      "end": 246.675,
+      "scene_id": 14
+    },
+    {
+      "text": "kosten",
+      "start": 246.675,
+      "end": 247.167,
+      "scene_id": 14
+    },
+    {
+      "text": "manchmal",
+      "start": 247.167,
+      "end": 247.658,
+      "scene_id": 14
+    },
+    {
+      "text": "weniger",
+      "start": 247.658,
+      "end": 248.149,
+      "scene_id": 14
+    },
+    {
+      "text": "als dieselbe",
+      "start": 248.149,
+      "end": 248.641,
+      "scene_id": 14
+    },
+    {
+      "text": "Route",
+      "start": 248.641,
+      "end": 249.132,
+      "scene_id": 14
+    },
+    {
+      "text": "von Deutschland",
+      "start": 249.132,
+      "end": 249.623,
+      "scene_id": 14
+    },
+    {
+      "text": "aus. Klingt",
+      "start": 249.623,
+      "end": 250.115,
+      "scene_id": 14
+    },
+    {
+      "text": "verrückt",
+      "start": 250.115,
+      "end": 250.606,
+      "scene_id": 14
+    },
+    {
+      "text": "— ist",
+      "start": 250.606,
+      "end": 251.097,
+      "scene_id": 14
+    },
+    {
+      "text": "aber",
+      "start": 251.097,
+      "end": 251.589,
+      "scene_id": 14
+    },
+    {
+      "text": "REAL.",
+      "start": 251.589,
+      "end": 252.08,
+      "scene_id": 14
+    },
+    {
+      "text": "Hier",
+      "start": 252.38,
+      "end": 253.233,
+      "scene_id": 15
+    },
+    {
+      "text": "die Zahl,",
+      "start": 253.233,
+      "end": 254.085,
+      "scene_id": 15
+    },
+    {
+      "text": "die alles",
+      "start": 254.085,
+      "end": 254.938,
+      "scene_id": 15
+    },
+    {
+      "text": "zusammenfasst.",
+      "start": 254.938,
+      "end": 255.791,
+      "scene_id": 15
+    },
+    {
+      "text": "Laut",
+      "start": 255.791,
+      "end": 256.644,
+      "scene_id": 15
+    },
+    {
+      "text": "einer",
+      "start": 256.644,
+      "end": 257.496,
+      "scene_id": 15
+    },
+    {
+      "text": "Analyse",
+      "start": 257.496,
+      "end": 258.349,
+      "scene_id": 15
+    },
+    {
+      "text": "von Hopper",
+      "start": 258.349,
+      "end": 259.202,
+      "scene_id": 15
+    },
+    {
+      "text": "stiegen",
+      "start": 259.202,
+      "end": 260.055,
+      "scene_id": 15
+    },
+    {
+      "text": "Flugpreise",
+      "start": 260.055,
+      "end": 260.907,
+      "scene_id": 15
+    },
+    {
+      "text": "zu großen",
+      "start": 260.907,
+      "end": 261.76,
+      "scene_id": 15
+    },
+    {
+      "text": "Sportevents",
+      "start": 261.76,
+      "end": 262.613,
+      "scene_id": 15
+    },
+    {
+      "text": "im Schnitt",
+      "start": 262.613,
+      "end": 263.465,
+      "scene_id": 15
+    },
+    {
+      "text": "um 312",
+      "start": 263.465,
+      "end": 264.318,
+      "scene_id": 15
+    },
+    {
+      "text": "Prozent",
+      "start": 264.318,
+      "end": 265.171,
+      "scene_id": 15
+    },
+    {
+      "text": "verglichen",
+      "start": 265.171,
+      "end": 266.024,
+      "scene_id": 15
+    },
+    {
+      "text": "mit normalen",
+      "start": 266.024,
+      "end": 266.876,
+      "scene_id": 15
+    },
+    {
+      "text": "Perioden.",
+      "start": 266.876,
+      "end": 267.729,
+      "scene_id": 15
+    },
+    {
+      "text": "Dreihundert.",
+      "start": 267.729,
+      "end": 268.582,
+      "scene_id": 15
+    },
+    {
+      "text": "Zwölf.",
+      "start": 268.582,
+      "end": 269.435,
+      "scene_id": 15
+    },
+    {
+      "text": "Prozent.",
+      "start": 269.435,
+      "end": 270.287,
+      "scene_id": 15
+    },
+    {
+      "text": "Das bedeutet:",
+      "start": 270.287,
+      "end": 271.14,
+      "scene_id": 15
+    },
+    {
+      "text": "Ein Ticket,",
+      "start": 271.14,
+      "end": 271.993,
+      "scene_id": 15
+    },
+    {
+      "text": "das heute",
+      "start": 271.993,
+      "end": 272.845,
+      "scene_id": 15
+    },
+    {
+      "text": "550 Euro",
+      "start": 272.845,
+      "end": 273.698,
+      "scene_id": 15
+    },
+    {
+      "text": "kostet,",
+      "start": 273.698,
+      "end": 274.551,
+      "scene_id": 15
+    },
+    {
+      "text": "kann",
+      "start": 274.551,
+      "end": 275.404,
+      "scene_id": 15
+    },
+    {
+      "text": "bei der",
+      "start": 275.404,
+      "end": 276.256,
+      "scene_id": 15
+    },
+    {
+      "text": "WM über",
+      "start": 276.256,
+      "end": 277.109,
+      "scene_id": 15
+    },
+    {
+      "text": "2.200",
+      "start": 277.109,
+      "end": 277.962,
+      "scene_id": 15
+    },
+    {
+      "text": "Euro",
+      "start": 277.962,
+      "end": 278.815,
+      "scene_id": 15
+    },
+    {
+      "text": "kosten.",
+      "start": 278.815,
+      "end": 279.667,
+      "scene_id": 15
+    },
+    {
+      "text": "UNFASSBAR.",
+      "start": 279.667,
+      "end": 280.52,
+      "scene_id": 15
+    },
+    {
+      "text": "Hast",
+      "start": 280.82,
+      "end": 281.364,
+      "scene_id": 16
+    },
+    {
+      "text": "du ein",
+      "start": 281.364,
+      "end": 281.908,
+      "scene_id": 16
+    },
+    {
+      "text": "Vielflieger-Konto?",
+      "start": 281.908,
+      "end": 282.452,
+      "scene_id": 16
+    },
+    {
+      "text": "Dann",
+      "start": 282.452,
+      "end": 282.995,
+      "scene_id": 16
+    },
+    {
+      "text": "ist jetzt",
+      "start": 282.995,
+      "end": 283.539,
+      "scene_id": 16
+    },
+    {
+      "text": "der Moment,",
+      "start": 283.539,
+      "end": 284.083,
+      "scene_id": 16
+    },
+    {
+      "text": "es zu",
+      "start": 284.083,
+      "end": 284.627,
+      "scene_id": 16
+    },
+    {
+      "text": "nutzen.",
+      "start": 284.627,
+      "end": 285.171,
+      "scene_id": 16
+    },
+    {
+      "text": "Miles",
+      "start": 285.171,
+      "end": 285.715,
+      "scene_id": 16
+    },
+    {
+      "text": "& More,",
+      "start": 285.715,
+      "end": 286.259,
+      "scene_id": 16
+    },
+    {
+      "text": "Avios,",
+      "start": 286.259,
+      "end": 286.803,
+      "scene_id": 16
+    },
+    {
+      "text": "oder",
+      "start": 286.803,
+      "end": 287.346,
+      "scene_id": 16
+    },
+    {
+      "text": "United",
+      "start": 287.346,
+      "end": 287.89,
+      "scene_id": 16
+    },
+    {
+      "text": "MileagePlus",
+      "start": 287.89,
+      "end": 288.434,
+      "scene_id": 16
+    },
+    {
+      "text": "— viele",
+      "start": 288.434,
+      "end": 288.978,
+      "scene_id": 16
+    },
+    {
+      "text": "dieser",
+      "start": 288.978,
+      "end": 289.522,
+      "scene_id": 16
+    },
+    {
+      "text": "Programme",
+      "start": 289.522,
+      "end": 290.066,
+      "scene_id": 16
+    },
+    {
+      "text": "haben",
+      "start": 290.066,
+      "end": 290.61,
+      "scene_id": 16
+    },
+    {
+      "text": "noch",
+      "start": 290.61,
+      "end": 291.154,
+      "scene_id": 16
+    },
+    {
+      "text": "freie",
+      "start": 291.154,
+      "end": 291.697,
+      "scene_id": 16
+    },
+    {
+      "text": "Award-Tickets",
+      "start": 291.697,
+      "end": 292.241,
+      "scene_id": 16
+    },
+    {
+      "text": "für die",
+      "start": 292.241,
+      "end": 292.785,
+      "scene_id": 16
+    },
+    {
+      "text": "WM-Zeit.",
+      "start": 292.785,
+      "end": 293.329,
+      "scene_id": 16
+    },
+    {
+      "text": "Wer FRÜH",
+      "start": 293.329,
+      "end": 293.873,
+      "scene_id": 16
+    },
+    {
+      "text": "sucht,",
+      "start": 293.873,
+      "end": 294.417,
+      "scene_id": 16
+    },
+    {
+      "text": "findet",
+      "start": 294.417,
+      "end": 294.961,
+      "scene_id": 16
+    },
+    {
+      "text": "oft Business-Class-Sitze",
+      "start": 294.961,
+      "end": 295.505,
+      "scene_id": 16
+    },
+    {
+      "text": "für den",
+      "start": 295.505,
+      "end": 296.048,
+      "scene_id": 16
+    },
+    {
+      "text": "Preis",
+      "start": 296.048,
+      "end": 296.592,
+      "scene_id": 16
+    },
+    {
+      "text": "einer",
+      "start": 296.592,
+      "end": 297.136,
+      "scene_id": 16
+    },
+    {
+      "text": "Economy-Meile.",
+      "start": 297.136,
+      "end": 297.68,
+      "scene_id": 16
+    },
+    {
+      "text": "Selbst",
+      "start": 297.98,
+      "end": 298.45,
+      "scene_id": 17
+    },
+    {
+      "text": "wenn",
+      "start": 298.45,
+      "end": 298.921,
+      "scene_id": 17
+    },
+    {
+      "text": "du keine",
+      "start": 298.921,
+      "end": 299.391,
+      "scene_id": 17
+    },
+    {
+      "text": "Meilen",
+      "start": 299.391,
+      "end": 299.861,
+      "scene_id": 17
+    },
+    {
+      "text": "hast:",
+      "start": 299.861,
+      "end": 300.332,
+      "scene_id": 17
+    },
+    {
+      "text": "Mit einer",
+      "start": 300.332,
+      "end": 300.802,
+      "scene_id": 17
+    },
+    {
+      "text": "Reisekreditkarte",
+      "start": 300.802,
+      "end": 301.272,
+      "scene_id": 17
+    },
+    {
+      "text": "kannst",
+      "start": 301.272,
+      "end": 301.743,
+      "scene_id": 17
+    },
+    {
+      "text": "du in",
+      "start": 301.743,
+      "end": 302.213,
+      "scene_id": 17
+    },
+    {
+      "text": "wenigen",
+      "start": 302.213,
+      "end": 302.683,
+      "scene_id": 17
+    },
+    {
+      "text": "Monaten",
+      "start": 302.683,
+      "end": 303.154,
+      "scene_id": 17
+    },
+    {
+      "text": "genug",
+      "start": 303.154,
+      "end": 303.624,
+      "scene_id": 17
+    },
+    {
+      "text": "Punkte",
+      "start": 303.624,
+      "end": 304.094,
+      "scene_id": 17
+    },
+    {
+      "text": "sammeln.",
+      "start": 304.094,
+      "end": 304.565,
+      "scene_id": 17
+    },
+    {
+      "text": "Karten",
+      "start": 304.565,
+      "end": 305.035,
+      "scene_id": 17
+    },
+    {
+      "text": "wie die",
+      "start": 305.035,
+      "end": 305.505,
+      "scene_id": 17
+    },
+    {
+      "text": "American",
+      "start": 305.505,
+      "end": 305.975,
+      "scene_id": 17
+    },
+    {
+      "text": "Express",
+      "start": 305.975,
+      "end": 306.446,
+      "scene_id": 17
+    },
+    {
+      "text": "Gold",
+      "start": 306.446,
+      "end": 306.916,
+      "scene_id": 17
+    },
+    {
+      "text": "oder",
+      "start": 306.916,
+      "end": 307.386,
+      "scene_id": 17
+    },
+    {
+      "text": "die Miles",
+      "start": 307.386,
+      "end": 307.857,
+      "scene_id": 17
+    },
+    {
+      "text": "& More",
+      "start": 307.857,
+      "end": 308.327,
+      "scene_id": 17
+    },
+    {
+      "text": "Kreditkarte",
+      "start": 308.327,
+      "end": 308.797,
+      "scene_id": 17
+    },
+    {
+      "text": "geben",
+      "start": 308.797,
+      "end": 309.268,
+      "scene_id": 17
+    },
+    {
+      "text": "Willkommensboni",
+      "start": 309.268,
+      "end": 309.738,
+      "scene_id": 17
+    },
+    {
+      "text": "von bis",
+      "start": 309.738,
+      "end": 310.208,
+      "scene_id": 17
+    },
+    {
+      "text": "zu 60.000",
+      "start": 310.208,
+      "end": 310.679,
+      "scene_id": 17
+    },
+    {
+      "text": "Meilen",
+      "start": 310.679,
+      "end": 311.149,
+      "scene_id": 17
+    },
+    {
+      "text": "— genug",
+      "start": 311.149,
+      "end": 311.619,
+      "scene_id": 17
+    },
+    {
+      "text": "für einen",
+      "start": 311.619,
+      "end": 312.09,
+      "scene_id": 17
+    },
+    {
+      "text": "TRANSATLANTIKFLUG.",
+      "start": 312.09,
+      "end": 312.56,
+      "scene_id": 17
+    },
+    {
+      "text": "Nicht",
+      "start": 312.86,
+      "end": 313.437,
+      "scene_id": 18
+    },
+    {
+      "text": "immer",
+      "start": 313.437,
+      "end": 314.014,
+      "scene_id": 18
+    },
+    {
+      "text": "lohnt",
+      "start": 314.014,
+      "end": 314.591,
+      "scene_id": 18
+    },
+    {
+      "text": "sich",
+      "start": 314.591,
+      "end": 315.168,
+      "scene_id": 18
+    },
+    {
+      "text": "der Heimatflughafen.",
+      "start": 315.168,
+      "end": 315.745,
+      "scene_id": 18
+    },
+    {
+      "text": "Von Frankfurt",
+      "start": 315.745,
+      "end": 316.323,
+      "scene_id": 18
+    },
+    {
+      "text": "starten",
+      "start": 316.323,
+      "end": 316.9,
+      "scene_id": 18
+    },
+    {
+      "text": "die meisten",
+      "start": 316.9,
+      "end": 317.477,
+      "scene_id": 18
+    },
+    {
+      "text": "Direktflüge",
+      "start": 317.477,
+      "end": 318.054,
+      "scene_id": 18
+    },
+    {
+      "text": "in die",
+      "start": 318.054,
+      "end": 318.631,
+      "scene_id": 18
+    },
+    {
+      "text": "USA —",
+      "start": 318.631,
+      "end": 319.208,
+      "scene_id": 18
+    },
+    {
+      "text": "das treibt",
+      "start": 319.208,
+      "end": 319.785,
+      "scene_id": 18
+    },
+    {
+      "text": "die Preise.",
+      "start": 319.785,
+      "end": 320.362,
+      "scene_id": 18
+    },
+    {
+      "text": "Wer von",
+      "start": 320.362,
+      "end": 320.939,
+      "scene_id": 18
+    },
+    {
+      "text": "München,",
+      "start": 320.939,
+      "end": 321.516,
+      "scene_id": 18
+    },
+    {
+      "text": "Hamburg",
+      "start": 321.516,
+      "end": 322.094,
+      "scene_id": 18
+    },
+    {
+      "text": "oder",
+      "start": 322.094,
+      "end": 322.671,
+      "scene_id": 18
+    },
+    {
+      "text": "Düsseldorf",
+      "start": 322.671,
+      "end": 323.248,
+      "scene_id": 18
+    },
+    {
+      "text": "fliegt,",
+      "start": 323.248,
+      "end": 323.825,
+      "scene_id": 18
+    },
+    {
+      "text": "zahlt",
+      "start": 323.825,
+      "end": 324.402,
+      "scene_id": 18
+    },
+    {
+      "text": "oft weniger,",
+      "start": 324.402,
+      "end": 324.979,
+      "scene_id": 18
+    },
+    {
+      "text": "auch",
+      "start": 324.979,
+      "end": 325.556,
+      "scene_id": 18
+    },
+    {
+      "text": "wenn",
+      "start": 325.556,
+      "end": 326.133,
+      "scene_id": 18
+    },
+    {
+      "text": "ein Umstieg",
+      "start": 326.133,
+      "end": 326.71,
+      "scene_id": 18
+    },
+    {
+      "text": "nötig",
+      "start": 326.71,
+      "end": 327.287,
+      "scene_id": 18
+    },
+    {
+      "text": "ist. Und",
+      "start": 327.287,
+      "end": 327.865,
+      "scene_id": 18
+    },
+    {
+      "text": "Zürich",
+      "start": 327.865,
+      "end": 328.442,
+      "scene_id": 18
+    },
+    {
+      "text": "oder",
+      "start": 328.442,
+      "end": 329.019,
+      "scene_id": 18
+    },
+    {
+      "text": "Wien",
+      "start": 329.019,
+      "end": 329.596,
+      "scene_id": 18
+    },
+    {
+      "text": "als Alternative?",
+      "start": 329.596,
+      "end": 330.173,
+      "scene_id": 18
+    },
+    {
+      "text": "UNTERSCHÄTZT.",
+      "start": 330.173,
+      "end": 330.75,
+      "scene_id": 18
+    },
+    {
+      "text": "Der Spieltag",
+      "start": 331.05,
+      "end": 331.61,
+      "scene_id": 19
+    },
+    {
+      "text": "selbst",
+      "start": 331.61,
+      "end": 332.171,
+      "scene_id": 19
+    },
+    {
+      "text": "ist der",
+      "start": 332.171,
+      "end": 332.731,
+      "scene_id": 19
+    },
+    {
+      "text": "teuerste",
+      "start": 332.731,
+      "end": 333.291,
+      "scene_id": 19
+    },
+    {
+      "text": "Reisetag.",
+      "start": 333.291,
+      "end": 333.852,
+      "scene_id": 19
+    },
+    {
+      "text": "Fliege",
+      "start": 333.852,
+      "end": 334.412,
+      "scene_id": 19
+    },
+    {
+      "text": "stattdessen",
+      "start": 334.412,
+      "end": 334.972,
+      "scene_id": 19
+    },
+    {
+      "text": "zwei",
+      "start": 334.972,
+      "end": 335.533,
+      "scene_id": 19
+    },
+    {
+      "text": "Tage",
+      "start": 335.533,
+      "end": 336.093,
+      "scene_id": 19
+    },
+    {
+      "text": "vorher",
+      "start": 336.093,
+      "end": 336.653,
+      "scene_id": 19
+    },
+    {
+      "text": "an —",
+      "start": 336.653,
+      "end": 337.214,
+      "scene_id": 19
+    },
+    {
+      "text": "und reise",
+      "start": 337.214,
+      "end": 337.774,
+      "scene_id": 19
+    },
+    {
+      "text": "einen",
+      "start": 337.774,
+      "end": 338.334,
+      "scene_id": 19
+    },
+    {
+      "text": "Tag nach",
+      "start": 338.334,
+      "end": 338.895,
+      "scene_id": 19
+    },
+    {
+      "text": "dem Spiel",
+      "start": 338.895,
+      "end": 339.455,
+      "scene_id": 19
+    },
+    {
+      "text": "ab. Die",
+      "start": 339.455,
+      "end": 340.015,
+      "scene_id": 19
+    },
+    {
+      "text": "Preisunterschiede",
+      "start": 340.015,
+      "end": 340.576,
+      "scene_id": 19
+    },
+    {
+      "text": "können",
+      "start": 340.576,
+      "end": 341.136,
+      "scene_id": 19
+    },
+    {
+      "text": "erheblich",
+      "start": 341.136,
+      "end": 341.696,
+      "scene_id": 19
+    },
+    {
+      "text": "sein.",
+      "start": 341.696,
+      "end": 342.257,
+      "scene_id": 19
+    },
+    {
+      "text": "Außerdem:",
+      "start": 342.257,
+      "end": 342.817,
+      "scene_id": 19
+    },
+    {
+      "text": "Überfüllte",
+      "start": 342.817,
+      "end": 343.377,
+      "scene_id": 19
+    },
+    {
+      "text": "Flughäfen",
+      "start": 343.377,
+      "end": 343.938,
+      "scene_id": 19
+    },
+    {
+      "text": "am Spieltag",
+      "start": 343.938,
+      "end": 344.498,
+      "scene_id": 19
+    },
+    {
+      "text": "bedeuten",
+      "start": 344.498,
+      "end": 345.058,
+      "scene_id": 19
+    },
+    {
+      "text": "längere",
+      "start": 345.058,
+      "end": 345.619,
+      "scene_id": 19
+    },
+    {
+      "text": "Wartezeiten",
+      "start": 345.619,
+      "end": 346.179,
+      "scene_id": 19
+    },
+    {
+      "text": "und ein",
+      "start": 346.179,
+      "end": 346.739,
+      "scene_id": 19
+    },
+    {
+      "text": "RIESIGES",
+      "start": 346.739,
+      "end": 347.3,
+      "scene_id": 19
+    },
+    {
+      "text": "Verspätungsrisiko.",
+      "start": 347.3,
+      "end": 347.86,
+      "scene_id": 19
+    },
+    {
+      "text": "Pauschalreisen",
+      "start": 348.16,
+      "end": 348.868,
+      "scene_id": 20
+    },
+    {
+      "text": "klingen",
+      "start": 348.868,
+      "end": 349.575,
+      "scene_id": 20
+    },
+    {
+      "text": "bequem",
+      "start": 349.575,
+      "end": 350.283,
+      "scene_id": 20
+    },
+    {
+      "text": "— aber",
+      "start": 350.283,
+      "end": 350.99,
+      "scene_id": 20
+    },
+    {
+      "text": "sind",
+      "start": 350.99,
+      "end": 351.697,
+      "scene_id": 20
+    },
+    {
+      "text": "sie wirklich",
+      "start": 351.698,
+      "end": 352.405,
+      "scene_id": 20
+    },
+    {
+      "text": "günstiger?",
+      "start": 352.405,
+      "end": 353.113,
+      "scene_id": 20
+    },
+    {
+      "text": "Meistens",
+      "start": 353.113,
+      "end": 353.82,
+      "scene_id": 20
+    },
+    {
+      "text": "NICHT.",
+      "start": 353.82,
+      "end": 354.528,
+      "scene_id": 20
+    },
+    {
+      "text": "Untersuchungen",
+      "start": 354.528,
+      "end": 355.235,
+      "scene_id": 20
+    },
+    {
+      "text": "zeigen,",
+      "start": 355.235,
+      "end": 355.942,
+      "scene_id": 20
+    },
+    {
+      "text": "dass",
+      "start": 355.943,
+      "end": 356.65,
+      "scene_id": 20
+    },
+    {
+      "text": "Reisende,",
+      "start": 356.65,
+      "end": 357.358,
+      "scene_id": 20
+    },
+    {
+      "text": "die Flug",
+      "start": 357.358,
+      "end": 358.065,
+      "scene_id": 20
+    },
+    {
+      "text": "und Hotel",
+      "start": 358.065,
+      "end": 358.773,
+      "scene_id": 20
+    },
+    {
+      "text": "separat",
+      "start": 358.773,
+      "end": 359.48,
+      "scene_id": 20
+    },
+    {
+      "text": "buchen,",
+      "start": 359.48,
+      "end": 360.188,
+      "scene_id": 20
+    },
+    {
+      "text": "im Schnitt",
+      "start": 360.188,
+      "end": 360.895,
+      "scene_id": 20
+    },
+    {
+      "text": "15 bis",
+      "start": 360.895,
+      "end": 361.603,
+      "scene_id": 20
+    },
+    {
+      "text": "25 Prozent",
+      "start": 361.603,
+      "end": 362.31,
+      "scene_id": 20
+    },
+    {
+      "text": "weniger",
+      "start": 362.31,
+      "end": 363.017,
+      "scene_id": 20
+    },
+    {
+      "text": "zahlen.",
+      "start": 363.018,
+      "end": 363.725,
+      "scene_id": 20
+    },
+    {
+      "text": "Das einzige",
+      "start": 363.725,
+      "end": 364.433,
+      "scene_id": 20
+    },
+    {
+      "text": "Argument",
+      "start": 364.433,
+      "end": 365.14,
+      "scene_id": 20
+    },
+    {
+      "text": "für Pakete:",
+      "start": 365.14,
+      "end": 365.848,
+      "scene_id": 20
+    },
+    {
+      "text": "Wenn",
+      "start": 365.848,
+      "end": 366.555,
+      "scene_id": 20
+    },
+    {
+      "text": "dein",
+      "start": 366.555,
+      "end": 367.262,
+      "scene_id": 20
+    },
+    {
+      "text": "Flug",
+      "start": 367.263,
+      "end": 367.97,
+      "scene_id": 20
+    },
+    {
+      "text": "ausfällt,",
+      "start": 367.97,
+      "end": 368.678,
+      "scene_id": 20
+    },
+    {
+      "text": "übernimmt",
+      "start": 368.678,
+      "end": 369.385,
+      "scene_id": 20
+    },
+    {
+      "text": "der Veranstalter",
+      "start": 369.385,
+      "end": 370.093,
+      "scene_id": 20
+    },
+    {
+      "text": "die Verantwortung.",
+      "start": 370.093,
+      "end": 370.8,
+      "scene_id": 20
+    },
+    {
+      "text": "Für Hotels",
+      "start": 371.1,
+      "end": 371.634,
+      "scene_id": 21
+    },
+    {
+      "text": "gilt",
+      "start": 371.634,
+      "end": 372.167,
+      "scene_id": 21
+    },
+    {
+      "text": "dasselbe",
+      "start": 372.167,
+      "end": 372.701,
+      "scene_id": 21
+    },
+    {
+      "text": "wie für",
+      "start": 372.701,
+      "end": 373.234,
+      "scene_id": 21
+    },
+    {
+      "text": "Flüge:",
+      "start": 373.234,
+      "end": 373.768,
+      "scene_id": 21
+    },
+    {
+      "text": "Frühbuchen",
+      "start": 373.768,
+      "end": 374.301,
+      "scene_id": 21
+    },
+    {
+      "text": "ist alles.",
+      "start": 374.301,
+      "end": 374.835,
+      "scene_id": 21
+    },
+    {
+      "text": "Booking.com,",
+      "start": 374.835,
+      "end": 375.368,
+      "scene_id": 21
+    },
+    {
+      "text": "Hotels.com",
+      "start": 375.368,
+      "end": 375.902,
+      "scene_id": 21
+    },
+    {
+      "text": "und Airbnb",
+      "start": 375.902,
+      "end": 376.435,
+      "scene_id": 21
+    },
+    {
+      "text": "haben",
+      "start": 376.435,
+      "end": 376.969,
+      "scene_id": 21
+    },
+    {
+      "text": "bereits",
+      "start": 376.969,
+      "end": 377.503,
+      "scene_id": 21
+    },
+    {
+      "text": "viele",
+      "start": 377.503,
+      "end": 378.036,
+      "scene_id": 21
+    },
+    {
+      "text": "Angebote",
+      "start": 378.036,
+      "end": 378.57,
+      "scene_id": 21
+    },
+    {
+      "text": "für den",
+      "start": 378.57,
+      "end": 379.103,
+      "scene_id": 21
+    },
+    {
+      "text": "Sommer",
+      "start": 379.103,
+      "end": 379.637,
+      "scene_id": 21
+    },
+    {
+      "text": "2026",
+      "start": 379.637,
+      "end": 380.17,
+      "scene_id": 21
+    },
+    {
+      "text": "online.",
+      "start": 380.17,
+      "end": 380.704,
+      "scene_id": 21
+    },
+    {
+      "text": "In Städten",
+      "start": 380.704,
+      "end": 381.237,
+      "scene_id": 21
+    },
+    {
+      "text": "wie New",
+      "start": 381.237,
+      "end": 381.771,
+      "scene_id": 21
+    },
+    {
+      "text": "York",
+      "start": 381.771,
+      "end": 382.305,
+      "scene_id": 21
+    },
+    {
+      "text": "oder",
+      "start": 382.305,
+      "end": 382.838,
+      "scene_id": 21
+    },
+    {
+      "text": "Los Angeles",
+      "start": 382.838,
+      "end": 383.372,
+      "scene_id": 21
+    },
+    {
+      "text": "sind",
+      "start": 383.372,
+      "end": 383.905,
+      "scene_id": 21
+    },
+    {
+      "text": "gute",
+      "start": 383.905,
+      "end": 384.439,
+      "scene_id": 21
+    },
+    {
+      "text": "Unterkünfte",
+      "start": 384.439,
+      "end": 384.972,
+      "scene_id": 21
+    },
+    {
+      "text": "in der",
+      "start": 384.972,
+      "end": 385.506,
+      "scene_id": 21
+    },
+    {
+      "text": "WM-Zeit",
+      "start": 385.506,
+      "end": 386.039,
+      "scene_id": 21
+    },
+    {
+      "text": "schon",
+      "start": 386.039,
+      "end": 386.573,
+      "scene_id": 21
+    },
+    {
+      "text": "jetzt",
+      "start": 386.573,
+      "end": 387.106,
+      "scene_id": 21
+    },
+    {
+      "text": "KNAPP.",
+      "start": 387.106,
+      "end": 387.64,
+      "scene_id": 21
+    },
+    {
+      "text": "Hier",
+      "start": 387.94,
+      "end": 388.547,
+      "scene_id": 22
+    },
+    {
+      "text": "ein Fehler,",
+      "start": 388.547,
+      "end": 389.153,
+      "scene_id": 22
+    },
+    {
+      "text": "der Fans",
+      "start": 389.153,
+      "end": 389.76,
+      "scene_id": 22
+    },
+    {
+      "text": "den WM-Trip",
+      "start": 389.76,
+      "end": 390.367,
+      "scene_id": 22
+    },
+    {
+      "text": "ruiniert",
+      "start": 390.367,
+      "end": 390.973,
+      "scene_id": 22
+    },
+    {
+      "text": "hat. Wer",
+      "start": 390.973,
+      "end": 391.58,
+      "scene_id": 22
+    },
+    {
+      "text": "in die",
+      "start": 391.58,
+      "end": 392.187,
+      "scene_id": 22
+    },
+    {
+      "text": "USA einreist,",
+      "start": 392.187,
+      "end": 392.793,
+      "scene_id": 22
+    },
+    {
+      "text": "braucht",
+      "start": 392.793,
+      "end": 393.4,
+      "scene_id": 22
+    },
+    {
+      "text": "eine",
+      "start": 393.4,
+      "end": 394.007,
+      "scene_id": 22
+    },
+    {
+      "text": "gültige",
+      "start": 394.007,
+      "end": 394.613,
+      "scene_id": 22
+    },
+    {
+      "text": "ESTA-Genehmigung",
+      "start": 394.613,
+      "end": 395.22,
+      "scene_id": 22
+    },
+    {
+      "text": "— und",
+      "start": 395.22,
+      "end": 395.827,
+      "scene_id": 22
+    },
+    {
+      "text": "die muss",
+      "start": 395.827,
+      "end": 396.433,
+      "scene_id": 22
+    },
+    {
+      "text": "mindestens",
+      "start": 396.433,
+      "end": 397.04,
+      "scene_id": 22
+    },
+    {
+      "text": "72 Stunden",
+      "start": 397.04,
+      "end": 397.647,
+      "scene_id": 22
+    },
+    {
+      "text": "vor Abflug",
+      "start": 397.647,
+      "end": 398.253,
+      "scene_id": 22
+    },
+    {
+      "text": "beantragt",
+      "start": 398.253,
+      "end": 398.86,
+      "scene_id": 22
+    },
+    {
+      "text": "werden.",
+      "start": 398.86,
+      "end": 399.467,
+      "scene_id": 22
+    },
+    {
+      "text": "Sie kostet",
+      "start": 399.467,
+      "end": 400.073,
+      "scene_id": 22
+    },
+    {
+      "text": "21 Dollar",
+      "start": 400.073,
+      "end": 400.68,
+      "scene_id": 22
+    },
+    {
+      "text": "und ist",
+      "start": 400.68,
+      "end": 401.287,
+      "scene_id": 22
+    },
+    {
+      "text": "zwei",
+      "start": 401.287,
+      "end": 401.893,
+      "scene_id": 22
+    },
+    {
+      "text": "Jahre",
+      "start": 401.893,
+      "end": 402.5,
+      "scene_id": 22
+    },
+    {
+      "text": "gültig.",
+      "start": 402.5,
+      "end": 403.107,
+      "scene_id": 22
+    },
+    {
+      "text": "Wer das",
+      "start": 403.107,
+      "end": 403.713,
+      "scene_id": 22
+    },
+    {
+      "text": "VERGISST,",
+      "start": 403.713,
+      "end": 404.32,
+      "scene_id": 22
+    },
+    {
+      "text": "kommt",
+      "start": 404.32,
+      "end": 404.927,
+      "scene_id": 22
+    },
+    {
+      "text": "nicht",
+      "start": 404.927,
+      "end": 405.533,
+      "scene_id": 22
+    },
+    {
+      "text": "ins Flugzeug.",
+      "start": 405.533,
+      "end": 406.14,
+      "scene_id": 22
+    },
+    {
+      "text": "In den",
+      "start": 406.44,
+      "end": 406.991,
+      "scene_id": 23
+    },
+    {
+      "text": "USA kann",
+      "start": 406.991,
+      "end": 407.543,
+      "scene_id": 23
+    },
+    {
+      "text": "ein Arztbesuch",
+      "start": 407.543,
+      "end": 408.094,
+      "scene_id": 23
+    },
+    {
+      "text": "Tausende",
+      "start": 408.094,
+      "end": 408.645,
+      "scene_id": 23
+    },
+    {
+      "text": "Dollar",
+      "start": 408.645,
+      "end": 409.197,
+      "scene_id": 23
+    },
+    {
+      "text": "kosten",
+      "start": 409.197,
+      "end": 409.748,
+      "scene_id": 23
+    },
+    {
+      "text": "— ohne",
+      "start": 409.748,
+      "end": 410.299,
+      "scene_id": 23
+    },
+    {
+      "text": "Versicherung.",
+      "start": 410.299,
+      "end": 410.851,
+      "scene_id": 23
+    },
+    {
+      "text": "Eine",
+      "start": 410.851,
+      "end": 411.402,
+      "scene_id": 23
+    },
+    {
+      "text": "Reisekrankenversicherung",
+      "start": 411.402,
+      "end": 411.953,
+      "scene_id": 23
+    },
+    {
+      "text": "für den",
+      "start": 411.953,
+      "end": 412.505,
+      "scene_id": 23
+    },
+    {
+      "text": "USA-Trip",
+      "start": 412.505,
+      "end": 413.056,
+      "scene_id": 23
+    },
+    {
+      "text": "kostet",
+      "start": 413.056,
+      "end": 413.607,
+      "scene_id": 23
+    },
+    {
+      "text": "pro Person",
+      "start": 413.607,
+      "end": 414.159,
+      "scene_id": 23
+    },
+    {
+      "text": "etwa",
+      "start": 414.159,
+      "end": 414.71,
+      "scene_id": 23
+    },
+    {
+      "text": "30 bis",
+      "start": 414.71,
+      "end": 415.261,
+      "scene_id": 23
+    },
+    {
+      "text": "80 Euro.",
+      "start": 415.261,
+      "end": 415.813,
+      "scene_id": 23
+    },
+    {
+      "text": "Das klingt",
+      "start": 415.813,
+      "end": 416.364,
+      "scene_id": 23
+    },
+    {
+      "text": "nach",
+      "start": 416.364,
+      "end": 416.915,
+      "scene_id": 23
+    },
+    {
+      "text": "viel",
+      "start": 416.915,
+      "end": 417.467,
+      "scene_id": 23
+    },
+    {
+      "text": "— bis",
+      "start": 417.467,
+      "end": 418.018,
+      "scene_id": 23
+    },
+    {
+      "text": "du weißt,",
+      "start": 418.018,
+      "end": 418.569,
+      "scene_id": 23
+    },
+    {
+      "text": "dass",
+      "start": 418.569,
+      "end": 419.121,
+      "scene_id": 23
+    },
+    {
+      "text": "ein einfacher",
+      "start": 419.121,
+      "end": 419.672,
+      "scene_id": 23
+    },
+    {
+      "text": "Krankenhausaufenthalt",
+      "start": 419.672,
+      "end": 420.223,
+      "scene_id": 23
+    },
+    {
+      "text": "dort",
+      "start": 420.223,
+      "end": 420.775,
+      "scene_id": 23
+    },
+    {
+      "text": "locker",
+      "start": 420.775,
+      "end": 421.326,
+      "scene_id": 23
+    },
+    {
+      "text": "50.000",
+      "start": 421.326,
+      "end": 421.877,
+      "scene_id": 23
+    },
+    {
+      "text": "Dollar",
+      "start": 421.877,
+      "end": 422.429,
+      "scene_id": 23
+    },
+    {
+      "text": "KOSTET.",
+      "start": 422.429,
+      "end": 422.98,
+      "scene_id": 23
+    },
+    {
+      "text": "Viele",
+      "start": 423.28,
+      "end": 423.789,
+      "scene_id": 24
+    },
+    {
+      "text": "Fans",
+      "start": 423.789,
+      "end": 424.298,
+      "scene_id": 24
+    },
+    {
+      "text": "machen",
+      "start": 424.298,
+      "end": 424.807,
+      "scene_id": 24
+    },
+    {
+      "text": "den Fehler,",
+      "start": 424.807,
+      "end": 425.316,
+      "scene_id": 24
+    },
+    {
+      "text": "zu viel",
+      "start": 425.316,
+      "end": 425.825,
+      "scene_id": 24
+    },
+    {
+      "text": "Gepäck",
+      "start": 425.825,
+      "end": 426.334,
+      "scene_id": 24
+    },
+    {
+      "text": "mitzunehmen.",
+      "start": 426.334,
+      "end": 426.843,
+      "scene_id": 24
+    },
+    {
+      "text": "Bei Budget-Airlines",
+      "start": 426.843,
+      "end": 427.352,
+      "scene_id": 24
+    },
+    {
+      "text": "wie Norse",
+      "start": 427.352,
+      "end": 427.861,
+      "scene_id": 24
+    },
+    {
+      "text": "Atlantic",
+      "start": 427.861,
+      "end": 428.37,
+      "scene_id": 24
+    },
+    {
+      "text": "ist aufgegebenes",
+      "start": 428.37,
+      "end": 428.879,
+      "scene_id": 24
+    },
+    {
+      "text": "Gepäck",
+      "start": 428.879,
+      "end": 429.388,
+      "scene_id": 24
+    },
+    {
+      "text": "nicht",
+      "start": 429.388,
+      "end": 429.897,
+      "scene_id": 24
+    },
+    {
+      "text": "inklusive",
+      "start": 429.897,
+      "end": 430.406,
+      "scene_id": 24
+    },
+    {
+      "text": "— das",
+      "start": 430.406,
+      "end": 430.915,
+      "scene_id": 24
+    },
+    {
+      "text": "können",
+      "start": 430.915,
+      "end": 431.425,
+      "scene_id": 24
+    },
+    {
+      "text": "60 bis",
+      "start": 431.425,
+      "end": 431.934,
+      "scene_id": 24
+    },
+    {
+      "text": "100 Euro",
+      "start": 431.934,
+      "end": 432.443,
+      "scene_id": 24
+    },
+    {
+      "text": "extra",
+      "start": 432.443,
+      "end": 432.952,
+      "scene_id": 24
+    },
+    {
+      "text": "pro Weg",
+      "start": 432.952,
+      "end": 433.461,
+      "scene_id": 24
+    },
+    {
+      "text": "sein.",
+      "start": 433.461,
+      "end": 433.97,
+      "scene_id": 24
+    },
+    {
+      "text": "Packe",
+      "start": 433.97,
+      "end": 434.479,
+      "scene_id": 24
+    },
+    {
+      "text": "SMART:",
+      "start": 434.479,
+      "end": 434.988,
+      "scene_id": 24
+    },
+    {
+      "text": "Handgepäck",
+      "start": 434.988,
+      "end": 435.497,
+      "scene_id": 24
+    },
+    {
+      "text": "reicht",
+      "start": 435.497,
+      "end": 436.006,
+      "scene_id": 24
+    },
+    {
+      "text": "für einen",
+      "start": 436.006,
+      "end": 436.515,
+      "scene_id": 24
+    },
+    {
+      "text": "WM-Trip",
+      "start": 436.515,
+      "end": 437.024,
+      "scene_id": 24
+    },
+    {
+      "text": "von zehn",
+      "start": 437.024,
+      "end": 437.533,
+      "scene_id": 24
+    },
+    {
+      "text": "Tagen",
+      "start": 437.533,
+      "end": 438.042,
+      "scene_id": 24
+    },
+    {
+      "text": "völlig",
+      "start": 438.042,
+      "end": 438.551,
+      "scene_id": 24
+    },
+    {
+      "text": "aus.",
+      "start": 438.551,
+      "end": 439.06,
+      "scene_id": 24
+    },
+    {
+      "text": "Ein letzter,",
+      "start": 439.36,
+      "end": 440.027,
+      "scene_id": 25
+    },
+    {
+      "text": "oft unterschätzter",
+      "start": 440.027,
+      "end": 440.694,
+      "scene_id": 25
+    },
+    {
+      "text": "Tipp.",
+      "start": 440.694,
+      "end": 441.361,
+      "scene_id": 25
+    },
+    {
+      "text": "Bei einem",
+      "start": 441.361,
+      "end": 442.027,
+      "scene_id": 25
+    },
+    {
+      "text": "Transatlantikflug",
+      "start": 442.027,
+      "end": 442.694,
+      "scene_id": 25
+    },
+    {
+      "text": "von neun",
+      "start": 442.694,
+      "end": 443.361,
+      "scene_id": 25
+    },
+    {
+      "text": "bis elf",
+      "start": 443.361,
+      "end": 444.028,
+      "scene_id": 25
+    },
+    {
+      "text": "Stunden",
+      "start": 444.028,
+      "end": 444.695,
+      "scene_id": 25
+    },
+    {
+      "text": "macht",
+      "start": 444.695,
+      "end": 445.362,
+      "scene_id": 25
+    },
+    {
+      "text": "der Sitzplatz",
+      "start": 445.362,
+      "end": 446.029,
+      "scene_id": 25
+    },
+    {
+      "text": "einen",
+      "start": 446.029,
+      "end": 446.696,
+      "scene_id": 25
+    },
+    {
+      "text": "RIESIGEN",
+      "start": 446.696,
+      "end": 447.362,
+      "scene_id": 25
+    },
+    {
+      "text": "Unterschied.",
+      "start": 447.362,
+      "end": 448.029,
+      "scene_id": 25
+    },
+    {
+      "text": "Wähle",
+      "start": 448.029,
+      "end": 448.696,
+      "scene_id": 25
+    },
+    {
+      "text": "Plätze",
+      "start": 448.696,
+      "end": 449.363,
+      "scene_id": 25
+    },
+    {
+      "text": "in der",
+      "start": 449.363,
+      "end": 450.03,
+      "scene_id": 25
+    },
+    {
+      "text": "Notausgangsreihe",
+      "start": 450.03,
+      "end": 450.697,
+      "scene_id": 25
+    },
+    {
+      "text": "— dort",
+      "start": 450.697,
+      "end": 451.364,
+      "scene_id": 25
+    },
+    {
+      "text": "gibt",
+      "start": 451.364,
+      "end": 452.031,
+      "scene_id": 25
+    },
+    {
+      "text": "es mehr",
+      "start": 452.031,
+      "end": 452.697,
+      "scene_id": 25
+    },
+    {
+      "text": "Beinfreiheit,",
+      "start": 452.697,
+      "end": 453.364,
+      "scene_id": 25
+    },
+    {
+      "text": "gratis.",
+      "start": 453.364,
+      "end": 454.031,
+      "scene_id": 25
+    },
+    {
+      "text": "Tool-Tipp:",
+      "start": 454.031,
+      "end": 454.698,
+      "scene_id": 25
+    },
+    {
+      "text": "SeatGuru",
+      "start": 454.698,
+      "end": 455.365,
+      "scene_id": 25
+    },
+    {
+      "text": "zeigt",
+      "start": 455.365,
+      "end": 456.032,
+      "scene_id": 25
+    },
+    {
+      "text": "dir genau,",
+      "start": 456.032,
+      "end": 456.699,
+      "scene_id": 25
+    },
+    {
+      "text": "welche",
+      "start": 456.699,
+      "end": 457.366,
+      "scene_id": 25
+    },
+    {
+      "text": "Sitze",
+      "start": 457.366,
+      "end": 458.032,
+      "scene_id": 25
+    },
+    {
+      "text": "gut und",
+      "start": 458.032,
+      "end": 458.699,
+      "scene_id": 25
+    },
+    {
+      "text": "welche",
+      "start": 458.699,
+      "end": 459.366,
+      "scene_id": 25
+    },
+    {
+      "text": "schlecht",
+      "start": 459.366,
+      "end": 460.033,
+      "scene_id": 25
+    },
+    {
+      "text": "sind.",
+      "start": 460.033,
+      "end": 460.7,
+      "scene_id": 25
+    },
+    {
+      "text": "In den",
+      "start": 461.0,
+      "end": 461.483,
+      "scene_id": 26
+    },
+    {
+      "text": "USA zahlt",
+      "start": 461.483,
+      "end": 461.966,
+      "scene_id": 26
+    },
+    {
+      "text": "man mit",
+      "start": 461.966,
+      "end": 462.449,
+      "scene_id": 26
+    },
+    {
+      "text": "Dollar",
+      "start": 462.449,
+      "end": 462.932,
+      "scene_id": 26
+    },
+    {
+      "text": "— und",
+      "start": 462.932,
+      "end": 463.415,
+      "scene_id": 26
+    },
+    {
+      "text": "wer am",
+      "start": 463.415,
+      "end": 463.898,
+      "scene_id": 26
+    },
+    {
+      "text": "Flughafen",
+      "start": 463.898,
+      "end": 464.381,
+      "scene_id": 26
+    },
+    {
+      "text": "tauscht,",
+      "start": 464.381,
+      "end": 464.864,
+      "scene_id": 26
+    },
+    {
+      "text": "verliert",
+      "start": 464.864,
+      "end": 465.347,
+      "scene_id": 26
+    },
+    {
+      "text": "bis zu",
+      "start": 465.347,
+      "end": 465.83,
+      "scene_id": 26
+    },
+    {
+      "text": "15 Prozent",
+      "start": 465.83,
+      "end": 466.313,
+      "scene_id": 26
+    },
+    {
+      "text": "durch",
+      "start": 466.313,
+      "end": 466.796,
+      "scene_id": 26
+    },
+    {
+      "text": "schlechte",
+      "start": 466.796,
+      "end": 467.279,
+      "scene_id": 26
+    },
+    {
+      "text": "Kurse.",
+      "start": 467.279,
+      "end": 467.762,
+      "scene_id": 26
+    },
+    {
+      "text": "Nutze",
+      "start": 467.762,
+      "end": 468.245,
+      "scene_id": 26
+    },
+    {
+      "text": "stattdessen",
+      "start": 468.245,
+      "end": 468.728,
+      "scene_id": 26
+    },
+    {
+      "text": "eine",
+      "start": 468.728,
+      "end": 469.212,
+      "scene_id": 26
+    },
+    {
+      "text": "Kreditkarte",
+      "start": 469.212,
+      "end": 469.695,
+      "scene_id": 26
+    },
+    {
+      "text": "ohne",
+      "start": 469.695,
+      "end": 470.178,
+      "scene_id": 26
+    },
+    {
+      "text": "Auslandseinsatzgebühr",
+      "start": 470.178,
+      "end": 470.661,
+      "scene_id": 26
+    },
+    {
+      "text": "oder",
+      "start": 470.661,
+      "end": 471.144,
+      "scene_id": 26
+    },
+    {
+      "text": "hebe",
+      "start": 471.144,
+      "end": 471.627,
+      "scene_id": 26
+    },
+    {
+      "text": "vor Ort",
+      "start": 471.627,
+      "end": 472.11,
+      "scene_id": 26
+    },
+    {
+      "text": "an Bankautomaten",
+      "start": 472.11,
+      "end": 472.593,
+      "scene_id": 26
+    },
+    {
+      "text": "ab. Das",
+      "start": 472.593,
+      "end": 473.076,
+      "scene_id": 26
+    },
+    {
+      "text": "spart",
+      "start": 473.076,
+      "end": 473.559,
+      "scene_id": 26
+    },
+    {
+      "text": "echtes",
+      "start": 473.559,
+      "end": 474.042,
+      "scene_id": 26
+    },
+    {
+      "text": "Geld",
+      "start": 474.042,
+      "end": 474.525,
+      "scene_id": 26
+    },
+    {
+      "text": "— und",
+      "start": 474.525,
+      "end": 475.008,
+      "scene_id": 26
+    },
+    {
+      "text": "das brauchst",
+      "start": 475.008,
+      "end": 475.491,
+      "scene_id": 26
+    },
+    {
+      "text": "du für",
+      "start": 475.491,
+      "end": 475.974,
+      "scene_id": 26
+    },
+    {
+      "text": "BIER",
+      "start": 475.974,
+      "end": 476.457,
+      "scene_id": 26
+    },
+    {
+      "text": "am Stadion.",
+      "start": 476.457,
+      "end": 476.94,
+      "scene_id": 26
+    },
+    {
+      "text": "Sobald",
+      "start": 477.24,
+      "end": 477.856,
+      "scene_id": 27
+    },
+    {
+      "text": "du in",
+      "start": 477.856,
+      "end": 478.473,
+      "scene_id": 27
+    },
+    {
+      "text": "den USA",
+      "start": 478.473,
+      "end": 479.089,
+      "scene_id": 27
+    },
+    {
+      "text": "bist,",
+      "start": 479.089,
+      "end": 479.705,
+      "scene_id": 27
+    },
+    {
+      "text": "brauchst",
+      "start": 479.705,
+      "end": 480.322,
+      "scene_id": 27
+    },
+    {
+      "text": "du einen",
+      "start": 480.322,
+      "end": 480.938,
+      "scene_id": 27
+    },
+    {
+      "text": "Plan",
+      "start": 480.938,
+      "end": 481.554,
+      "scene_id": 27
+    },
+    {
+      "text": "für den",
+      "start": 481.554,
+      "end": 482.171,
+      "scene_id": 27
+    },
+    {
+      "text": "Transport.",
+      "start": 482.171,
+      "end": 482.787,
+      "scene_id": 27
+    },
+    {
+      "text": "Uber",
+      "start": 482.787,
+      "end": 483.403,
+      "scene_id": 27
+    },
+    {
+      "text": "und Lyft",
+      "start": 483.403,
+      "end": 484.02,
+      "scene_id": 27
+    },
+    {
+      "text": "funktionieren",
+      "start": 484.02,
+      "end": 484.636,
+      "scene_id": 27
+    },
+    {
+      "text": "in allen",
+      "start": 484.636,
+      "end": 485.252,
+      "scene_id": 27
+    },
+    {
+      "text": "WM-Städten",
+      "start": 485.252,
+      "end": 485.869,
+      "scene_id": 27
+    },
+    {
+      "text": "gut. Aber",
+      "start": 485.869,
+      "end": 486.485,
+      "scene_id": 27
+    },
+    {
+      "text": "an Spieltagen?",
+      "start": 486.485,
+      "end": 487.101,
+      "scene_id": 27
+    },
+    {
+      "text": "Die Preise",
+      "start": 487.101,
+      "end": 487.718,
+      "scene_id": 27
+    },
+    {
+      "text": "für Ride-Sharing",
+      "start": 487.718,
+      "end": 488.334,
+      "scene_id": 27
+    },
+    {
+      "text": "explodieren",
+      "start": 488.334,
+      "end": 488.95,
+      "scene_id": 27
+    },
+    {
+      "text": "durch",
+      "start": 488.95,
+      "end": 489.567,
+      "scene_id": 27
+    },
+    {
+      "text": "Surge-Pricing.",
+      "start": 489.567,
+      "end": 490.183,
+      "scene_id": 27
+    },
+    {
+      "text": "Besser:",
+      "start": 490.183,
+      "end": 490.799,
+      "scene_id": 27
+    },
+    {
+      "text": "Metro",
+      "start": 490.799,
+      "end": 491.416,
+      "scene_id": 27
+    },
+    {
+      "text": "in New",
+      "start": 491.416,
+      "end": 492.032,
+      "scene_id": 27
+    },
+    {
+      "text": "York",
+      "start": 492.032,
+      "end": 492.648,
+      "scene_id": 27
+    },
+    {
+      "text": "oder",
+      "start": 492.648,
+      "end": 493.265,
+      "scene_id": 27
+    },
+    {
+      "text": "L.A., oder",
+      "start": 493.265,
+      "end": 493.881,
+      "scene_id": 27
+    },
+    {
+      "text": "RECHTZEITIG",
+      "start": 493.881,
+      "end": 494.497,
+      "scene_id": 27
+    },
+    {
+      "text": "ein Mietwagen",
+      "start": 494.497,
+      "end": 495.114,
+      "scene_id": 27
+    },
+    {
+      "text": "buchen.",
+      "start": 495.114,
+      "end": 495.73,
+      "scene_id": 27
+    },
+    {
+      "text": "Flug",
+      "start": 496.03,
+      "end": 496.571,
+      "scene_id": 28
+    },
+    {
+      "text": "und Hotel",
+      "start": 496.571,
+      "end": 497.112,
+      "scene_id": 28
+    },
+    {
+      "text": "allein",
+      "start": 497.112,
+      "end": 497.653,
+      "scene_id": 28
+    },
+    {
+      "text": "reichen",
+      "start": 497.653,
+      "end": 498.194,
+      "scene_id": 28
+    },
+    {
+      "text": "nicht",
+      "start": 498.194,
+      "end": 498.735,
+      "scene_id": 28
+    },
+    {
+      "text": "— du",
+      "start": 498.735,
+      "end": 499.276,
+      "scene_id": 28
+    },
+    {
+      "text": "brauchst",
+      "start": 499.276,
+      "end": 499.817,
+      "scene_id": 28
+    },
+    {
+      "text": "auch",
+      "start": 499.817,
+      "end": 500.357,
+      "scene_id": 28
+    },
+    {
+      "text": "WM-Tickets.",
+      "start": 500.357,
+      "end": 500.898,
+      "scene_id": 28
+    },
+    {
+      "text": "Die FIFA",
+      "start": 500.898,
+      "end": 501.439,
+      "scene_id": 28
+    },
+    {
+      "text": "verkauft",
+      "start": 501.439,
+      "end": 501.98,
+      "scene_id": 28
+    },
+    {
+      "text": "diese",
+      "start": 501.98,
+      "end": 502.521,
+      "scene_id": 28
+    },
+    {
+      "text": "offiziell",
+      "start": 502.521,
+      "end": 503.062,
+      "scene_id": 28
+    },
+    {
+      "text": "über",
+      "start": 503.062,
+      "end": 503.603,
+      "scene_id": 28
+    },
+    {
+      "text": "fifa.com,",
+      "start": 503.603,
+      "end": 504.144,
+      "scene_id": 28
+    },
+    {
+      "text": "in Phasen.",
+      "start": 504.144,
+      "end": 504.685,
+      "scene_id": 28
+    },
+    {
+      "text": "Wer die",
+      "start": 504.685,
+      "end": 505.226,
+      "scene_id": 28
+    },
+    {
+      "text": "erste",
+      "start": 505.226,
+      "end": 505.767,
+      "scene_id": 28
+    },
+    {
+      "text": "Phase",
+      "start": 505.767,
+      "end": 506.308,
+      "scene_id": 28
+    },
+    {
+      "text": "verpasst,",
+      "start": 506.308,
+      "end": 506.849,
+      "scene_id": 28
+    },
+    {
+      "text": "landet",
+      "start": 506.849,
+      "end": 507.39,
+      "scene_id": 28
+    },
+    {
+      "text": "auf Wartelisten",
+      "start": 507.39,
+      "end": 507.931,
+      "scene_id": 28
+    },
+    {
+      "text": "oder",
+      "start": 507.931,
+      "end": 508.472,
+      "scene_id": 28
+    },
+    {
+      "text": "zahlt",
+      "start": 508.472,
+      "end": 509.012,
+      "scene_id": 28
+    },
+    {
+      "text": "bei Zweitmarkt-Plattformen",
+      "start": 509.012,
+      "end": 509.553,
+      "scene_id": 28
+    },
+    {
+      "text": "das DOPPELTE.",
+      "start": 509.553,
+      "end": 510.094,
+      "scene_id": 28
+    },
+    {
+      "text": "Registriere",
+      "start": 510.094,
+      "end": 510.635,
+      "scene_id": 28
+    },
+    {
+      "text": "dich",
+      "start": 510.635,
+      "end": 511.176,
+      "scene_id": 28
+    },
+    {
+      "text": "jetzt",
+      "start": 511.176,
+      "end": 511.717,
+      "scene_id": 28
+    },
+    {
+      "text": "auf der",
+      "start": 511.717,
+      "end": 512.258,
+      "scene_id": 28
+    },
+    {
+      "text": "FIFA-Website,",
+      "start": 512.258,
+      "end": 512.799,
+      "scene_id": 28
+    },
+    {
+      "text": "kostenlos.",
+      "start": 512.799,
+      "end": 513.34,
+      "scene_id": 28
+    },
+    {
+      "text": "Lass",
+      "start": 513.64,
+      "end": 514.402,
+      "scene_id": 29
+    },
+    {
+      "text": "uns alles",
+      "start": 514.402,
+      "end": 515.164,
+      "scene_id": 29
+    },
+    {
+      "text": "zusammenfassen.",
+      "start": 515.164,
+      "end": 515.926,
+      "scene_id": 29
+    },
+    {
+      "text": "Erstens:",
+      "start": 515.926,
+      "end": 516.688,
+      "scene_id": 29
+    },
+    {
+      "text": "Preisalarm",
+      "start": 516.688,
+      "end": 517.45,
+      "scene_id": 29
+    },
+    {
+      "text": "jetzt",
+      "start": 517.45,
+      "end": 518.212,
+      "scene_id": 29
+    },
+    {
+      "text": "einrichten.",
+      "start": 518.212,
+      "end": 518.974,
+      "scene_id": 29
+    },
+    {
+      "text": "Zweitens:",
+      "start": 518.974,
+      "end": 519.735,
+      "scene_id": 29
+    },
+    {
+      "text": "Im Inkognito-Modus",
+      "start": 519.735,
+      "end": 520.497,
+      "scene_id": 29
+    },
+    {
+      "text": "buchen,",
+      "start": 520.497,
+      "end": 521.259,
+      "scene_id": 29
+    },
+    {
+      "text": "am Dienstag.",
+      "start": 521.259,
+      "end": 522.021,
+      "scene_id": 29
+    },
+    {
+      "text": "Drittens:",
+      "start": 522.021,
+      "end": 522.783,
+      "scene_id": 29
+    },
+    {
+      "text": "ESTA",
+      "start": 522.783,
+      "end": 523.545,
+      "scene_id": 29
+    },
+    {
+      "text": "beantragen.",
+      "start": 523.545,
+      "end": 524.307,
+      "scene_id": 29
+    },
+    {
+      "text": "Viertens:",
+      "start": 524.307,
+      "end": 525.069,
+      "scene_id": 29
+    },
+    {
+      "text": "Reisekrankenversicherung",
+      "start": 525.069,
+      "end": 525.831,
+      "scene_id": 29
+    },
+    {
+      "text": "abschließen.",
+      "start": 525.831,
+      "end": 526.593,
+      "scene_id": 29
+    },
+    {
+      "text": "Fünftens:",
+      "start": 526.593,
+      "end": 527.355,
+      "scene_id": 29
+    },
+    {
+      "text": "Hotel",
+      "start": 527.355,
+      "end": 528.117,
+      "scene_id": 29
+    },
+    {
+      "text": "separat",
+      "start": 528.117,
+      "end": 528.879,
+      "scene_id": 29
+    },
+    {
+      "text": "buchen.",
+      "start": 528.879,
+      "end": 529.641,
+      "scene_id": 29
+    },
+    {
+      "text": "Wer diese",
+      "start": 529.641,
+      "end": 530.403,
+      "scene_id": 29
+    },
+    {
+      "text": "fünf",
+      "start": 530.403,
+      "end": 531.165,
+      "scene_id": 29
+    },
+    {
+      "text": "Schritte",
+      "start": 531.165,
+      "end": 531.926,
+      "scene_id": 29
+    },
+    {
+      "text": "befolgt,",
+      "start": 531.926,
+      "end": 532.688,
+      "scene_id": 29
+    },
+    {
+      "text": "ist besser",
+      "start": 532.688,
+      "end": 533.45,
+      "scene_id": 29
+    },
+    {
+      "text": "vorbereitet",
+      "start": 533.45,
+      "end": 534.212,
+      "scene_id": 29
+    },
+    {
+      "text": "als NEUNZIG",
+      "start": 534.212,
+      "end": 534.974,
+      "scene_id": 29
+    },
+    {
+      "text": "Prozent",
+      "start": 534.974,
+      "end": 535.736,
+      "scene_id": 29
+    },
+    {
+      "text": "der anderen",
+      "start": 535.736,
+      "end": 536.498,
+      "scene_id": 29
+    },
+    {
+      "text": "Fans.",
+      "start": 536.498,
+      "end": 537.26,
+      "scene_id": 29
+    },
+    {
+      "text": "Und jetzt",
+      "start": 537.56,
+      "end": 538.233,
+      "scene_id": 30
+    },
+    {
+      "text": "der Tipp,",
+      "start": 538.233,
+      "end": 538.906,
+      "scene_id": 30
+    },
+    {
+      "text": "den wirklich",
+      "start": 538.906,
+      "end": 539.579,
+      "scene_id": 30
+    },
+    {
+      "text": "kaum",
+      "start": 539.579,
+      "end": 540.252,
+      "scene_id": 30
+    },
+    {
+      "text": "jemand",
+      "start": 540.252,
+      "end": 540.926,
+      "scene_id": 30
+    },
+    {
+      "text": "kennt.",
+      "start": 540.926,
+      "end": 541.599,
+      "scene_id": 30
+    },
+    {
+      "text": "Buche",
+      "start": 541.599,
+      "end": 542.272,
+      "scene_id": 30
+    },
+    {
+      "text": "deinen",
+      "start": 542.272,
+      "end": 542.945,
+      "scene_id": 30
+    },
+    {
+      "text": "Rückflug",
+      "start": 542.945,
+      "end": 543.618,
+      "scene_id": 30
+    },
+    {
+      "text": "unabhängig",
+      "start": 543.618,
+      "end": 544.291,
+      "scene_id": 30
+    },
+    {
+      "text": "vom Hinflug",
+      "start": 544.291,
+      "end": 544.964,
+      "scene_id": 30
+    },
+    {
+      "text": "— und",
+      "start": 544.964,
+      "end": 545.637,
+      "scene_id": 30
+    },
+    {
+      "text": "wähle",
+      "start": 545.637,
+      "end": 546.311,
+      "scene_id": 30
+    },
+    {
+      "text": "ein flexibles",
+      "start": 546.311,
+      "end": 546.984,
+      "scene_id": 30
+    },
+    {
+      "text": "Rückflugdatum.",
+      "start": 546.984,
+      "end": 547.657,
+      "scene_id": 30
+    },
+    {
+      "text": "Warum?",
+      "start": 547.657,
+      "end": 548.33,
+      "scene_id": 30
+    },
+    {
+      "text": "Falls",
+      "start": 548.33,
+      "end": 549.003,
+      "scene_id": 30
+    },
+    {
+      "text": "Deutschland",
+      "start": 549.003,
+      "end": 549.676,
+      "scene_id": 30
+    },
+    {
+      "text": "ins Viertelfinale",
+      "start": 549.676,
+      "end": 550.349,
+      "scene_id": 30
+    },
+    {
+      "text": "oder",
+      "start": 550.349,
+      "end": 551.022,
+      "scene_id": 30
+    },
+    {
+      "text": "Halbfinale",
+      "start": 551.022,
+      "end": 551.696,
+      "scene_id": 30
+    },
+    {
+      "text": "kommt,",
+      "start": 551.696,
+      "end": 552.369,
+      "scene_id": 30
+    },
+    {
+      "text": "willst",
+      "start": 552.369,
+      "end": 553.042,
+      "scene_id": 30
+    },
+    {
+      "text": "du LÄNGER",
+      "start": 553.042,
+      "end": 553.715,
+      "scene_id": 30
+    },
+    {
+      "text": "bleiben.",
+      "start": 553.715,
+      "end": 554.388,
+      "scene_id": 30
+    },
+    {
+      "text": "Mit einem",
+      "start": 554.388,
+      "end": 555.061,
+      "scene_id": 30
+    },
+    {
+      "text": "offenen",
+      "start": 555.061,
+      "end": 555.734,
+      "scene_id": 30
+    },
+    {
+      "text": "Rückflugticket",
+      "start": 555.734,
+      "end": 556.408,
+      "scene_id": 30
+    },
+    {
+      "text": "kannst",
+      "start": 556.407,
+      "end": 557.081,
+      "scene_id": 30
+    },
+    {
+      "text": "du das",
+      "start": 557.081,
+      "end": 557.754,
+      "scene_id": 30
+    },
+    {
+      "text": "— ohne",
+      "start": 557.754,
+      "end": 558.427,
+      "scene_id": 30
+    },
+    {
+      "text": "Strafe.",
+      "start": 558.427,
+      "end": 559.1,
+      "scene_id": 30
+    },
+    {
+      "text": "Eine",
+      "start": 559.4,
+      "end": 559.962,
+      "scene_id": 31
+    },
+    {
+      "text": "letzte",
+      "start": 559.962,
+      "end": 560.525,
+      "scene_id": 31
+    },
+    {
+      "text": "wichtige",
+      "start": 560.525,
+      "end": 561.087,
+      "scene_id": 31
+    },
+    {
+      "text": "Frage:",
+      "start": 561.087,
+      "end": 561.65,
+      "scene_id": 31
+    },
+    {
+      "text": "Ab wann",
+      "start": 561.65,
+      "end": 562.212,
+      "scene_id": 31
+    },
+    {
+      "text": "ist es",
+      "start": 562.212,
+      "end": 562.775,
+      "scene_id": 31
+    },
+    {
+      "text": "definitiv",
+      "start": 562.775,
+      "end": 563.337,
+      "scene_id": 31
+    },
+    {
+      "text": "zu spät?",
+      "start": 563.337,
+      "end": 563.899,
+      "scene_id": 31
+    },
+    {
+      "text": "Alles",
+      "start": 563.899,
+      "end": 564.462,
+      "scene_id": 31
+    },
+    {
+      "text": "nach",
+      "start": 564.462,
+      "end": 565.024,
+      "scene_id": 31
+    },
+    {
+      "text": "März",
+      "start": 565.024,
+      "end": 565.587,
+      "scene_id": 31
+    },
+    {
+      "text": "2026",
+      "start": 565.587,
+      "end": 566.149,
+      "scene_id": 31
+    },
+    {
+      "text": "wird",
+      "start": 566.149,
+      "end": 566.712,
+      "scene_id": 31
+    },
+    {
+      "text": "BRUTAL",
+      "start": 566.712,
+      "end": 567.274,
+      "scene_id": 31
+    },
+    {
+      "text": "teuer.",
+      "start": 567.274,
+      "end": 567.836,
+      "scene_id": 31
+    },
+    {
+      "text": "Dann",
+      "start": 567.836,
+      "end": 568.399,
+      "scene_id": 31
+    },
+    {
+      "text": "sind",
+      "start": 568.399,
+      "end": 568.961,
+      "scene_id": 31
+    },
+    {
+      "text": "viele",
+      "start": 568.961,
+      "end": 569.524,
+      "scene_id": 31
+    },
+    {
+      "text": "Direktflüge",
+      "start": 569.524,
+      "end": 570.086,
+      "scene_id": 31
+    },
+    {
+      "text": "ausgebucht,",
+      "start": 570.086,
+      "end": 570.648,
+      "scene_id": 31
+    },
+    {
+      "text": "und die",
+      "start": 570.648,
+      "end": 571.211,
+      "scene_id": 31
+    },
+    {
+      "text": "wenigen",
+      "start": 571.211,
+      "end": 571.773,
+      "scene_id": 31
+    },
+    {
+      "text": "verfügbaren",
+      "start": 571.773,
+      "end": 572.336,
+      "scene_id": 31
+    },
+    {
+      "text": "Tickets",
+      "start": 572.336,
+      "end": 572.898,
+      "scene_id": 31
+    },
+    {
+      "text": "kosten",
+      "start": 572.898,
+      "end": 573.461,
+      "scene_id": 31
+    },
+    {
+      "text": "ein Vermögen.",
+      "start": 573.461,
+      "end": 574.023,
+      "scene_id": 31
+    },
+    {
+      "text": "Der beste",
+      "start": 574.023,
+      "end": 574.585,
+      "scene_id": 31
+    },
+    {
+      "text": "Zeitpunkt",
+      "start": 574.585,
+      "end": 575.148,
+      "scene_id": 31
+    },
+    {
+      "text": "war gestern.",
+      "start": 575.148,
+      "end": 575.71,
+      "scene_id": 31
+    },
+    {
+      "text": "Der zweitbeste",
+      "start": 575.71,
+      "end": 576.273,
+      "scene_id": 31
+    },
+    {
+      "text": "Zeitpunkt",
+      "start": 576.273,
+      "end": 576.835,
+      "scene_id": 31
+    },
+    {
+      "text": "— ist",
+      "start": 576.835,
+      "end": 577.398,
+      "scene_id": 31
+    },
+    {
+      "text": "jetzt.",
+      "start": 577.398,
+      "end": 577.96,
+      "scene_id": 31
+    },
+    {
+      "text": "Die WM",
+      "start": 578.26,
+      "end": 578.776,
+      "scene_id": 32
+    },
+    {
+      "text": "2026",
+      "start": 578.776,
+      "end": 579.292,
+      "scene_id": 32
+    },
+    {
+      "text": "in den",
+      "start": 579.292,
+      "end": 579.809,
+      "scene_id": 32
+    },
+    {
+      "text": "USA wird",
+      "start": 579.809,
+      "end": 580.325,
+      "scene_id": 32
+    },
+    {
+      "text": "ein einmaliges",
+      "start": 580.325,
+      "end": 580.841,
+      "scene_id": 32
+    },
+    {
+      "text": "Erlebnis",
+      "start": 580.841,
+      "end": 581.357,
+      "scene_id": 32
+    },
+    {
+      "text": "sein",
+      "start": 581.357,
+      "end": 581.873,
+      "scene_id": 32
+    },
+    {
+      "text": "— aber",
+      "start": 581.873,
+      "end": 582.389,
+      "scene_id": 32
+    },
+    {
+      "text": "nur für",
+      "start": 582.389,
+      "end": 582.906,
+      "scene_id": 32
+    },
+    {
+      "text": "die, die",
+      "start": 582.906,
+      "end": 583.422,
+      "scene_id": 32
+    },
+    {
+      "text": "JETZT",
+      "start": 583.422,
+      "end": 583.938,
+      "scene_id": 32
+    },
+    {
+      "text": "handeln.",
+      "start": 583.938,
+      "end": 584.454,
+      "scene_id": 32
+    },
+    {
+      "text": "Wenn",
+      "start": 584.454,
+      "end": 584.97,
+      "scene_id": 32
+    },
+    {
+      "text": "dir dieses",
+      "start": 584.97,
+      "end": 585.486,
+      "scene_id": 32
+    },
+    {
+      "text": "Video",
+      "start": 585.486,
+      "end": 586.003,
+      "scene_id": 32
+    },
+    {
+      "text": "geholfen",
+      "start": 586.003,
+      "end": 586.519,
+      "scene_id": 32
+    },
+    {
+      "text": "hat, dann",
+      "start": 586.519,
+      "end": 587.035,
+      "scene_id": 32
+    },
+    {
+      "text": "abonniere",
+      "start": 587.035,
+      "end": 587.551,
+      "scene_id": 32
+    },
+    {
+      "text": "den Kanal",
+      "start": 587.551,
+      "end": 588.067,
+      "scene_id": 32
+    },
+    {
+      "text": "— hier",
+      "start": 588.067,
+      "end": 588.584,
+      "scene_id": 32
+    },
+    {
+      "text": "kommen",
+      "start": 588.584,
+      "end": 589.1,
+      "scene_id": 32
+    },
+    {
+      "text": "noch",
+      "start": 589.1,
+      "end": 589.616,
+      "scene_id": 32
+    },
+    {
+      "text": "viele",
+      "start": 589.616,
+      "end": 590.132,
+      "scene_id": 32
+    },
+    {
+      "text": "weitere",
+      "start": 590.132,
+      "end": 590.648,
+      "scene_id": 32
+    },
+    {
+      "text": "Tipps",
+      "start": 590.648,
+      "end": 591.164,
+      "scene_id": 32
+    },
+    {
+      "text": "rund",
+      "start": 591.164,
+      "end": 591.681,
+      "scene_id": 32
+    },
+    {
+      "text": "um die",
+      "start": 591.681,
+      "end": 592.197,
+      "scene_id": 32
+    },
+    {
+      "text": "WM-Reise.",
+      "start": 592.197,
+      "end": 592.713,
+      "scene_id": 32
+    },
+    {
+      "text": "Bis zum",
+      "start": 592.713,
+      "end": 593.229,
+      "scene_id": 32
+    },
+    {
+      "text": "nächsten",
+      "start": 593.229,
+      "end": 593.745,
+      "scene_id": 32
+    },
+    {
+      "text": "Mal, und",
+      "start": 593.745,
+      "end": 594.261,
+      "scene_id": 32
+    },
+    {
+      "text": "auf eine",
+      "start": 594.261,
+      "end": 594.778,
+      "scene_id": 32
+    },
+    {
+      "text": "unvergessliche",
+      "start": 594.778,
+      "end": 595.294,
+      "scene_id": 32
+    },
+    {
+      "text": "Weltmeisterschaft.",
+      "start": 595.294,
+      "end": 595.81,
+      "scene_id": 32
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "cards": [
+    {
+      "id": "chap-gruppen",
+      "path": "card-frames/chap-gruppen.png",
+      "inTime": 94.8,
+      "outTime": 106.8
+    },
+    {
+      "id": "chap-wochentag",
+      "path": "card-frames/chap-wochentag.png",
+      "inTime": 181.8,
+      "outTime": 193.8
+    },
+    {
+      "id": "chap-meilen",
+      "path": "card-frames/chap-meilen.png",
+      "inTime": 273.4,
+      "outTime": 285.4
+    },
+    {
+      "id": "chap-hotels",
+      "path": "card-frames/chap-hotels.png",
+      "inTime": 361.4,
+      "outTime": 373.4
+    },
+    {
+      "id": "chap-waehrung",
+      "path": "card-frames/chap-waehrung.png",
+      "inTime": 449,
+      "outTime": 461
+    },
+    {
+      "id": "chap-zuspat",
+      "path": "card-frames/chap-zuspat.png",
+      "inTime": 544.8,
+      "outTime": 556.8
+    },
+    {
+      "id": "stat-400pct",
+      "path": "card-frames/stat-400pct.png",
+      "inTime": 2.5,
+      "outTime": 12.5
+    },
+    {
+      "id": "stat-312pct",
+      "path": "card-frames/stat-312pct.png",
+      "inTime": 245.8,
+      "outTime": 255.8
+    },
+    {
+      "id": "stat-15pct",
+      "path": "card-frames/stat-15pct.png",
+      "inTime": 339,
+      "outTime": 349
+    },
+    {
+      "id": "stat-50k",
+      "path": "card-frames/stat-50k.png",
+      "inTime": 395.9,
+      "outTime": 405.9
+    },
+    {
+      "id": "alert-tracking",
+      "path": "card-frames/alert-tracking.png",
+      "inTime": 214.4,
+      "outTime": 224.4
+    },
+    {
+      "id": "alert-spieltag",
+      "path": "card-frames/alert-spieltag.png",
+      "inTime": 322.4,
+      "outTime": 332.4
+    },
+    {
+      "id": "alert-esta",
+      "path": "card-frames/alert-esta.png",
+      "inTime": 377.8,
+      "outTime": 387.8
+    },
+    {
+      "id": "key-preisalarm",
+      "path": "card-frames/key-preisalarm.png",
+      "inTime": 161.3,
+      "outTime": 171.3
+    },
+    {
+      "id": "key-stopp",
+      "path": "card-frames/key-stopp.png",
+      "inTime": 197.6,
+      "outTime": 207.6
+    },
+    {
+      "id": "key-seatguru",
+      "path": "card-frames/key-seatguru.png",
+      "inTime": 427.8,
+      "outTime": 437.8
+    },
+    {
+      "id": "src-google",
+      "path": "card-frames/src-google.png",
+      "inTime": 144.8,
+      "outTime": 156.8
+    },
+    {
+      "id": "src-hopper",
+      "path": "card-frames/src-hopper.png",
+      "inTime": 245.8,
+      "outTime": 257.8
+    },
+    {
+      "id": "src-fifa",
+      "path": "card-frames/src-fifa.png",
+      "inTime": 483,
+      "outTime": 495
+    }
+  ]
+}
