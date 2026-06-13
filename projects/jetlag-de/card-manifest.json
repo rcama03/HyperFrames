@@ -1,0 +1,154 @@
+{
+  "cards": [
+    {
+      "id": "chap-48stunden",
+      "path": "card-frames/chap-48stunden.png",
+      "inTime": 66,
+      "outTime": 78
+    },
+    {
+      "id": "chap-licht",
+      "path": "card-frames/chap-licht.png",
+      "inTime": 107.1,
+      "outTime": 119.1
+    },
+    {
+      "id": "chap-schlaf",
+      "path": "card-frames/chap-schlaf.png",
+      "inTime": 159.3,
+      "outTime": 171.3
+    },
+    {
+      "id": "chap-melatonin",
+      "path": "card-frames/chap-melatonin.png",
+      "inTime": 177.9,
+      "outTime": 189.9
+    },
+    {
+      "id": "chap-fasten",
+      "path": "card-frames/chap-fasten.png",
+      "inTime": 209.5,
+      "outTime": 221.5
+    },
+    {
+      "id": "chap-bewegung",
+      "path": "card-frames/chap-bewegung.png",
+      "inTime": 287.2,
+      "outTime": 299.2
+    },
+    {
+      "id": "chap-timeshifter",
+      "path": "card-frames/chap-timeshifter.png",
+      "inTime": 328.2,
+      "outTime": 340.2
+    },
+    {
+      "id": "chap-koffein",
+      "path": "card-frames/chap-koffein.png",
+      "inTime": 345.7,
+      "outTime": 357.7
+    },
+    {
+      "id": "chap-flug",
+      "path": "card-frames/chap-flug.png",
+      "inTime": 390,
+      "outTime": 402
+    },
+    {
+      "id": "chap-blaulicht",
+      "path": "card-frames/chap-blaulicht.png",
+      "inTime": 425.2,
+      "outTime": 437.2
+    },
+    {
+      "id": "chap-apotheke",
+      "path": "card-frames/chap-apotheke.png",
+      "inTime": 465.1,
+      "outTime": 477.1
+    },
+    {
+      "id": "chap-schlaftemp",
+      "path": "card-frames/chap-schlaftemp.png",
+      "inTime": 503.9,
+      "outTime": 515.9
+    },
+    {
+      "id": "stat-4tage",
+      "path": "card-frames/stat-4tage.png",
+      "inTime": 2.5,
+      "outTime": 12.5
+    },
+    {
+      "id": "stat-93pct",
+      "path": "card-frames/stat-93pct.png",
+      "inTime": 89.9,
+      "outTime": 99.9
+    },
+    {
+      "id": "stat-12h",
+      "path": "card-frames/stat-12h.png",
+      "inTime": 248.5,
+      "outTime": 258.5
+    },
+    {
+      "id": "stat-27tage",
+      "path": "card-frames/stat-27tage.png",
+      "inTime": 567.8,
+      "outTime": 577.8
+    },
+    {
+      "id": "alert-schlaffehler",
+      "path": "card-frames/alert-schlaffehler.png",
+      "inTime": 139.2,
+      "outTime": 149.2
+    },
+    {
+      "id": "alert-nickerchen",
+      "path": "card-frames/alert-nickerchen.png",
+      "inTime": 269,
+      "outTime": 279
+    },
+    {
+      "id": "alert-blaulicht",
+      "path": "card-frames/alert-blaulicht.png",
+      "inTime": 442.5,
+      "outTime": 452.5
+    },
+    {
+      "id": "key-lichtbrille",
+      "path": "card-frames/key-lichtbrille.png",
+      "inTime": 121.4,
+      "outTime": 131.4
+    },
+    {
+      "id": "key-timeshifter",
+      "path": "card-frames/key-timeshifter.png",
+      "inTime": 330,
+      "outTime": 340
+    },
+    {
+      "id": "key-spieltag",
+      "path": "card-frames/key-spieltag.png",
+      "inTime": 362.9,
+      "outTime": 372.9
+    },
+    {
+      "id": "src-michigan",
+      "path": "card-frames/src-michigan.png",
+      "inTime": 18.5,
+      "outTime": 28.5
+    },
+    {
+      "id": "src-asms",
+      "path": "card-frames/src-asms.png",
+      "inTime": 89.9,
+      "outTime": 99.9
+    },
+    {
+      "id": "src-sleeprsch",
+      "path": "card-frames/src-sleeprsch.png",
+      "inTime": 567.8,
+      "outTime": 577.8
+    }
+  ]
+}
