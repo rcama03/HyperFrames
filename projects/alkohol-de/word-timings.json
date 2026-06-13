@@ -1,0 +1,5101 @@
+{
+  "project_id": "8_Alkohol-Luegen_im_Flieger__Nr_4_trifft_dich_sofort_hart",
+  "total_duration": 481.39,
+  "entry_count": 849,
+  "entries": [
+    {
+      "text": "Alkohol",
+      "start": 0.0,
+      "end": 0.668,
+      "scene_id": 1
+    },
+    {
+      "text": "wirkt",
+      "start": 0.668,
+      "end": 1.337,
+      "scene_id": 1
+    },
+    {
+      "text": "im Flugzeug",
+      "start": 1.337,
+      "end": 2.005,
+      "scene_id": 1
+    },
+    {
+      "text": "ANDERS.",
+      "start": 2.005,
+      "end": 2.674,
+      "scene_id": 1
+    },
+    {
+      "text": "Das sagen",
+      "start": 2.674,
+      "end": 3.342,
+      "scene_id": 1
+    },
+    {
+      "text": "dir Airlines",
+      "start": 3.342,
+      "end": 4.01,
+      "scene_id": 1
+    },
+    {
+      "text": "nicht",
+      "start": 4.01,
+      "end": 4.679,
+      "scene_id": 1
+    },
+    {
+      "text": "— und",
+      "start": 4.679,
+      "end": 5.347,
+      "scene_id": 1
+    },
+    {
+      "text": "die meisten",
+      "start": 5.347,
+      "end": 6.016,
+      "scene_id": 1
+    },
+    {
+      "text": "Passagiere",
+      "start": 6.016,
+      "end": 6.684,
+      "scene_id": 1
+    },
+    {
+      "text": "merken",
+      "start": 6.684,
+      "end": 7.352,
+      "scene_id": 1
+    },
+    {
+      "text": "es erst,",
+      "start": 7.352,
+      "end": 8.021,
+      "scene_id": 1
+    },
+    {
+      "text": "wenn",
+      "start": 8.021,
+      "end": 8.689,
+      "scene_id": 1
+    },
+    {
+      "text": "es zu",
+      "start": 8.689,
+      "end": 9.358,
+      "scene_id": 1
+    },
+    {
+      "text": "spät",
+      "start": 9.358,
+      "end": 10.026,
+      "scene_id": 1
+    },
+    {
+      "text": "ist. Was",
+      "start": 10.026,
+      "end": 10.694,
+      "scene_id": 1
+    },
+    {
+      "text": "du über",
+      "start": 10.694,
+      "end": 11.363,
+      "scene_id": 1
+    },
+    {
+      "text": "Trinken",
+      "start": 11.363,
+      "end": 12.031,
+      "scene_id": 1
+    },
+    {
+      "text": "an Bord",
+      "start": 12.031,
+      "end": 12.7,
+      "scene_id": 1
+    },
+    {
+      "text": "glaubst,",
+      "start": 12.7,
+      "end": 13.368,
+      "scene_id": 1
+    },
+    {
+      "text": "ist größtenteils",
+      "start": 13.368,
+      "end": 14.036,
+      "scene_id": 1
+    },
+    {
+      "text": "falsch.",
+      "start": 14.036,
+      "end": 14.705,
+      "scene_id": 1
+    },
+    {
+      "text": "Heute",
+      "start": 14.705,
+      "end": 15.373,
+      "scene_id": 1
+    },
+    {
+      "text": "ändern",
+      "start": 15.373,
+      "end": 16.042,
+      "scene_id": 1
+    },
+    {
+      "text": "wir das.",
+      "start": 16.042,
+      "end": 16.71,
+      "scene_id": 1
+    },
+    {
+      "text": "Hier",
+      "start": 17.01,
+      "end": 17.432,
+      "scene_id": 2
+    },
+    {
+      "text": "ist der",
+      "start": 17.432,
+      "end": 17.855,
+      "scene_id": 2
+    },
+    {
+      "text": "Teil,",
+      "start": 17.855,
+      "end": 18.277,
+      "scene_id": 2
+    },
+    {
+      "text": "der die",
+      "start": 18.277,
+      "end": 18.7,
+      "scene_id": 2
+    },
+    {
+      "text": "meisten",
+      "start": 18.7,
+      "end": 19.122,
+      "scene_id": 2
+    },
+    {
+      "text": "Menschen",
+      "start": 19.122,
+      "end": 19.544,
+      "scene_id": 2
+    },
+    {
+      "text": "wirklich",
+      "start": 19.544,
+      "end": 19.967,
+      "scene_id": 2
+    },
+    {
+      "text": "schockiert:",
+      "start": 19.967,
+      "end": 20.389,
+      "scene_id": 2
+    },
+    {
+      "text": "Studien",
+      "start": 20.389,
+      "end": 20.812,
+      "scene_id": 2
+    },
+    {
+      "text": "zeigen,",
+      "start": 20.812,
+      "end": 21.234,
+      "scene_id": 2
+    },
+    {
+      "text": "dass",
+      "start": 21.234,
+      "end": 21.657,
+      "scene_id": 2
+    },
+    {
+      "text": "der niedrige",
+      "start": 21.657,
+      "end": 22.079,
+      "scene_id": 2
+    },
+    {
+      "text": "Kabinendruck",
+      "start": 22.079,
+      "end": 22.501,
+      "scene_id": 2
+    },
+    {
+      "text": "beim",
+      "start": 22.501,
+      "end": 22.924,
+      "scene_id": 2
+    },
+    {
+      "text": "Fliegen",
+      "start": 22.924,
+      "end": 23.346,
+      "scene_id": 2
+    },
+    {
+      "text": "deinen",
+      "start": 23.346,
+      "end": 23.769,
+      "scene_id": 2
+    },
+    {
+      "text": "Körper",
+      "start": 23.769,
+      "end": 24.191,
+      "scene_id": 2
+    },
+    {
+      "text": "schon",
+      "start": 24.191,
+      "end": 24.613,
+      "scene_id": 2
+    },
+    {
+      "text": "nüchtern",
+      "start": 24.613,
+      "end": 25.036,
+      "scene_id": 2
+    },
+    {
+      "text": "stresst",
+      "start": 25.036,
+      "end": 25.458,
+      "scene_id": 2
+    },
+    {
+      "text": "— Alkohol",
+      "start": 25.458,
+      "end": 25.881,
+      "scene_id": 2
+    },
+    {
+      "text": "macht",
+      "start": 25.881,
+      "end": 26.303,
+      "scene_id": 2
+    },
+    {
+      "text": "das für",
+      "start": 26.303,
+      "end": 26.726,
+      "scene_id": 2
+    },
+    {
+      "text": "viele",
+      "start": 26.726,
+      "end": 27.148,
+      "scene_id": 2
+    },
+    {
+      "text": "KATASTROPHAL.",
+      "start": 27.148,
+      "end": 27.57,
+      "scene_id": 2
+    },
+    {
+      "text": "Und du",
+      "start": 27.57,
+      "end": 27.993,
+      "scene_id": 2
+    },
+    {
+      "text": "weißt",
+      "start": 27.993,
+      "end": 28.415,
+      "scene_id": 2
+    },
+    {
+      "text": "nichts",
+      "start": 28.415,
+      "end": 28.838,
+      "scene_id": 2
+    },
+    {
+      "text": "davon.",
+      "start": 28.838,
+      "end": 29.26,
+      "scene_id": 2
+    },
+    {
+      "text": "Acht",
+      "start": 29.56,
+      "end": 30.157,
+      "scene_id": 3
+    },
+    {
+      "text": "Lügen.",
+      "start": 30.157,
+      "end": 30.753,
+      "scene_id": 3
+    },
+    {
+      "text": "Manche",
+      "start": 30.753,
+      "end": 31.35,
+      "scene_id": 3
+    },
+    {
+      "text": "davon",
+      "start": 31.35,
+      "end": 31.947,
+      "scene_id": 3
+    },
+    {
+      "text": "haben",
+      "start": 31.947,
+      "end": 32.543,
+      "scene_id": 3
+    },
+    {
+      "text": "sich",
+      "start": 32.543,
+      "end": 33.14,
+      "scene_id": 3
+    },
+    {
+      "text": "über",
+      "start": 33.14,
+      "end": 33.737,
+      "scene_id": 3
+    },
+    {
+      "text": "Jahrzehnte",
+      "start": 33.737,
+      "end": 34.333,
+      "scene_id": 3
+    },
+    {
+      "text": "gehalten",
+      "start": 34.333,
+      "end": 34.93,
+      "scene_id": 3
+    },
+    {
+      "text": "— verbreitet",
+      "start": 34.93,
+      "end": 35.527,
+      "scene_id": 3
+    },
+    {
+      "text": "von Airlines,",
+      "start": 35.527,
+      "end": 36.123,
+      "scene_id": 3
+    },
+    {
+      "text": "Reisemagazinen",
+      "start": 36.123,
+      "end": 36.72,
+      "scene_id": 3
+    },
+    {
+      "text": "und gut",
+      "start": 36.72,
+      "end": 37.317,
+      "scene_id": 3
+    },
+    {
+      "text": "meinenden",
+      "start": 37.317,
+      "end": 37.913,
+      "scene_id": 3
+    },
+    {
+      "text": "Freunden.",
+      "start": 37.913,
+      "end": 38.51,
+      "scene_id": 3
+    },
+    {
+      "text": "Einige",
+      "start": 38.51,
+      "end": 39.107,
+      "scene_id": 3
+    },
+    {
+      "text": "klingen",
+      "start": 39.107,
+      "end": 39.703,
+      "scene_id": 3
+    },
+    {
+      "text": "völlig",
+      "start": 39.703,
+      "end": 40.3,
+      "scene_id": 3
+    },
+    {
+      "text": "harmlos.",
+      "start": 40.3,
+      "end": 40.897,
+      "scene_id": 3
+    },
+    {
+      "text": "Aber",
+      "start": 40.897,
+      "end": 41.493,
+      "scene_id": 3
+    },
+    {
+      "text": "Nummer",
+      "start": 41.493,
+      "end": 42.09,
+      "scene_id": 3
+    },
+    {
+      "text": "vier?",
+      "start": 42.09,
+      "end": 42.687,
+      "scene_id": 3
+    },
+    {
+      "text": "Die trifft",
+      "start": 42.687,
+      "end": 43.283,
+      "scene_id": 3
+    },
+    {
+      "text": "dich",
+      "start": 43.283,
+      "end": 43.88,
+      "scene_id": 3
+    },
+    {
+      "text": "sofort.",
+      "start": 43.88,
+      "end": 44.477,
+      "scene_id": 3
+    },
+    {
+      "text": "Bleib",
+      "start": 44.477,
+      "end": 45.073,
+      "scene_id": 3
+    },
+    {
+      "text": "dran.",
+      "start": 45.073,
+      "end": 45.67,
+      "scene_id": 3
+    },
+    {
+      "text": "Nummer",
+      "start": 45.97,
+      "end": 46.545,
+      "scene_id": 4
+    },
+    {
+      "text": "1: Alkohol",
+      "start": 46.545,
+      "end": 47.12,
+      "scene_id": 4
+    },
+    {
+      "text": "hilft",
+      "start": 47.12,
+      "end": 47.696,
+      "scene_id": 4
+    },
+    {
+      "text": "dir, im",
+      "start": 47.696,
+      "end": 48.271,
+      "scene_id": 4
+    },
+    {
+      "text": "Flieger",
+      "start": 48.271,
+      "end": 48.846,
+      "scene_id": 4
+    },
+    {
+      "text": "besser",
+      "start": 48.846,
+      "end": 49.421,
+      "scene_id": 4
+    },
+    {
+      "text": "zu schlafen.",
+      "start": 49.421,
+      "end": 49.997,
+      "scene_id": 4
+    },
+    {
+      "text": "Das glauben",
+      "start": 49.997,
+      "end": 50.572,
+      "scene_id": 4
+    },
+    {
+      "text": "VIELE.",
+      "start": 50.572,
+      "end": 51.147,
+      "scene_id": 4
+    },
+    {
+      "text": "Aber",
+      "start": 51.147,
+      "end": 51.722,
+      "scene_id": 4
+    },
+    {
+      "text": "Schlafforschung",
+      "start": 51.722,
+      "end": 52.297,
+      "scene_id": 4
+    },
+    {
+      "text": "zeigt",
+      "start": 52.297,
+      "end": 52.873,
+      "scene_id": 4
+    },
+    {
+      "text": "das Gegenteil",
+      "start": 52.873,
+      "end": 53.448,
+      "scene_id": 4
+    },
+    {
+      "text": "— Alkohol",
+      "start": 53.448,
+      "end": 54.023,
+      "scene_id": 4
+    },
+    {
+      "text": "unterdrückt",
+      "start": 54.023,
+      "end": 54.598,
+      "scene_id": 4
+    },
+    {
+      "text": "den REM-Schlaf",
+      "start": 54.598,
+      "end": 55.173,
+      "scene_id": 4
+    },
+    {
+      "text": "und lässt",
+      "start": 55.173,
+      "end": 55.749,
+      "scene_id": 4
+    },
+    {
+      "text": "dich",
+      "start": 55.749,
+      "end": 56.324,
+      "scene_id": 4
+    },
+    {
+      "text": "erschöpfter",
+      "start": 56.324,
+      "end": 56.899,
+      "scene_id": 4
+    },
+    {
+      "text": "ankommen,",
+      "start": 56.899,
+      "end": 57.474,
+      "scene_id": 4
+    },
+    {
+      "text": "als du",
+      "start": 57.474,
+      "end": 58.05,
+      "scene_id": 4
+    },
+    {
+      "text": "eingestiegen",
+      "start": 58.05,
+      "end": 58.625,
+      "scene_id": 4
+    },
+    {
+      "text": "bist.",
+      "start": 58.625,
+      "end": 59.2,
+      "scene_id": 4
+    },
+    {
+      "text": "Eine",
+      "start": 59.5,
+      "end": 60.161,
+      "scene_id": 5
+    },
+    {
+      "text": "Studie",
+      "start": 60.161,
+      "end": 60.821,
+      "scene_id": 5
+    },
+    {
+      "text": "der Deutschen",
+      "start": 60.821,
+      "end": 61.482,
+      "scene_id": 5
+    },
+    {
+      "text": "Sporthochschule",
+      "start": 61.482,
+      "end": 62.143,
+      "scene_id": 5
+    },
+    {
+      "text": "Köln",
+      "start": 62.143,
+      "end": 62.804,
+      "scene_id": 5
+    },
+    {
+      "text": "hat es",
+      "start": 62.804,
+      "end": 63.464,
+      "scene_id": 5
+    },
+    {
+      "text": "direkt",
+      "start": 63.464,
+      "end": 64.125,
+      "scene_id": 5
+    },
+    {
+      "text": "getestet:",
+      "start": 64.125,
+      "end": 64.786,
+      "scene_id": 5
+    },
+    {
+      "text": "Alkohol",
+      "start": 64.786,
+      "end": 65.447,
+      "scene_id": 5
+    },
+    {
+      "text": "vor dem",
+      "start": 65.447,
+      "end": 66.107,
+      "scene_id": 5
+    },
+    {
+      "text": "Schlafen",
+      "start": 66.107,
+      "end": 66.768,
+      "scene_id": 5
+    },
+    {
+      "text": "reduziert",
+      "start": 66.768,
+      "end": 67.429,
+      "scene_id": 5
+    },
+    {
+      "text": "die Schlafqualität",
+      "start": 67.429,
+      "end": 68.09,
+      "scene_id": 5
+    },
+    {
+      "text": "um bis",
+      "start": 68.09,
+      "end": 68.75,
+      "scene_id": 5
+    },
+    {
+      "text": "zu 24",
+      "start": 68.75,
+      "end": 69.411,
+      "scene_id": 5
+    },
+    {
+      "text": "Prozent",
+      "start": 69.411,
+      "end": 70.072,
+      "scene_id": 5
+    },
+    {
+      "text": "— auch",
+      "start": 70.072,
+      "end": 70.733,
+      "scene_id": 5
+    },
+    {
+      "text": "wenn",
+      "start": 70.733,
+      "end": 71.393,
+      "scene_id": 5
+    },
+    {
+      "text": "du das",
+      "start": 71.393,
+      "end": 72.054,
+      "scene_id": 5
+    },
+    {
+      "text": "subjektiv",
+      "start": 72.054,
+      "end": 72.715,
+      "scene_id": 5
+    },
+    {
+      "text": "gar nicht",
+      "start": 72.715,
+      "end": 73.376,
+      "scene_id": 5
+    },
+    {
+      "text": "merkst.",
+      "start": 73.376,
+      "end": 74.036,
+      "scene_id": 5
+    },
+    {
+      "text": "Du glaubst,",
+      "start": 74.036,
+      "end": 74.697,
+      "scene_id": 5
+    },
+    {
+      "text": "du hast",
+      "start": 74.697,
+      "end": 75.358,
+      "scene_id": 5
+    },
+    {
+      "text": "gut geschlafen.",
+      "start": 75.358,
+      "end": 76.019,
+      "scene_id": 5
+    },
+    {
+      "text": "Hast",
+      "start": 76.019,
+      "end": 76.679,
+      "scene_id": 5
+    },
+    {
+      "text": "du NICHT.",
+      "start": 76.679,
+      "end": 77.34,
+      "scene_id": 5
+    },
+    {
+      "text": "Nummer",
+      "start": 77.64,
+      "end": 78.177,
+      "scene_id": 6
+    },
+    {
+      "text": "2: Alkohol",
+      "start": 78.177,
+      "end": 78.714,
+      "scene_id": 6
+    },
+    {
+      "text": "wirkt",
+      "start": 78.714,
+      "end": 79.252,
+      "scene_id": 6
+    },
+    {
+      "text": "stärker,",
+      "start": 79.252,
+      "end": 79.789,
+      "scene_id": 6
+    },
+    {
+      "text": "weil",
+      "start": 79.789,
+      "end": 80.326,
+      "scene_id": 6
+    },
+    {
+      "text": "du auf",
+      "start": 80.326,
+      "end": 80.863,
+      "scene_id": 6
+    },
+    {
+      "text": "großer",
+      "start": 80.863,
+      "end": 81.401,
+      "scene_id": 6
+    },
+    {
+      "text": "Höhe",
+      "start": 81.401,
+      "end": 81.938,
+      "scene_id": 6
+    },
+    {
+      "text": "fliegst.",
+      "start": 81.938,
+      "end": 82.475,
+      "scene_id": 6
+    },
+    {
+      "text": "Das klingt",
+      "start": 82.475,
+      "end": 83.012,
+      "scene_id": 6
+    },
+    {
+      "text": "logisch.",
+      "start": 83.012,
+      "end": 83.55,
+      "scene_id": 6
+    },
+    {
+      "text": "Es ist",
+      "start": 83.55,
+      "end": 84.087,
+      "scene_id": 6
+    },
+    {
+      "text": "aber",
+      "start": 84.087,
+      "end": 84.624,
+      "scene_id": 6
+    },
+    {
+      "text": "FALSCH.",
+      "start": 84.624,
+      "end": 85.161,
+      "scene_id": 6
+    },
+    {
+      "text": "Kontrollierte",
+      "start": 85.161,
+      "end": 85.699,
+      "scene_id": 6
+    },
+    {
+      "text": "Studien",
+      "start": 85.699,
+      "end": 86.236,
+      "scene_id": 6
+    },
+    {
+      "text": "— darunter",
+      "start": 86.236,
+      "end": 86.773,
+      "scene_id": 6
+    },
+    {
+      "text": "eine",
+      "start": 86.773,
+      "end": 87.31,
+      "scene_id": 6
+    },
+    {
+      "text": "von der",
+      "start": 87.31,
+      "end": 87.848,
+      "scene_id": 6
+    },
+    {
+      "text": "Bundeswehr-Universität",
+      "start": 87.848,
+      "end": 88.385,
+      "scene_id": 6
+    },
+    {
+      "text": "München",
+      "start": 88.385,
+      "end": 88.922,
+      "scene_id": 6
+    },
+    {
+      "text": "— zeigen,",
+      "start": 88.922,
+      "end": 89.459,
+      "scene_id": 6
+    },
+    {
+      "text": "dass",
+      "start": 89.459,
+      "end": 89.997,
+      "scene_id": 6
+    },
+    {
+      "text": "Höhe",
+      "start": 89.997,
+      "end": 90.534,
+      "scene_id": 6
+    },
+    {
+      "text": "allein",
+      "start": 90.534,
+      "end": 91.071,
+      "scene_id": 6
+    },
+    {
+      "text": "den Alkoholspiegel",
+      "start": 91.071,
+      "end": 91.608,
+      "scene_id": 6
+    },
+    {
+      "text": "im Blut",
+      "start": 91.608,
+      "end": 92.146,
+      "scene_id": 6
+    },
+    {
+      "text": "nicht",
+      "start": 92.146,
+      "end": 92.683,
+      "scene_id": 6
+    },
+    {
+      "text": "verändert.",
+      "start": 92.683,
+      "end": 93.22,
+      "scene_id": 6
+    },
+    {
+      "text": "Der wahre",
+      "start": 93.52,
+      "end": 94.112,
+      "scene_id": 7
+    },
+    {
+      "text": "Grund,",
+      "start": 94.112,
+      "end": 94.704,
+      "scene_id": 7
+    },
+    {
+      "text": "warum",
+      "start": 94.704,
+      "end": 95.297,
+      "scene_id": 7
+    },
+    {
+      "text": "du dich",
+      "start": 95.297,
+      "end": 95.889,
+      "scene_id": 7
+    },
+    {
+      "text": "im Flieger",
+      "start": 95.889,
+      "end": 96.481,
+      "scene_id": 7
+    },
+    {
+      "text": "betrunkener",
+      "start": 96.481,
+      "end": 97.073,
+      "scene_id": 7
+    },
+    {
+      "text": "fühlst,",
+      "start": 97.073,
+      "end": 97.666,
+      "scene_id": 7
+    },
+    {
+      "text": "ist viel",
+      "start": 97.666,
+      "end": 98.258,
+      "scene_id": 7
+    },
+    {
+      "text": "subtiler.",
+      "start": 98.258,
+      "end": 98.85,
+      "scene_id": 7
+    },
+    {
+      "text": "Der Kabinenluftdruck",
+      "start": 98.85,
+      "end": 99.442,
+      "scene_id": 7
+    },
+    {
+      "text": "entspricht",
+      "start": 99.442,
+      "end": 100.034,
+      "scene_id": 7
+    },
+    {
+      "text": "einer",
+      "start": 100.034,
+      "end": 100.627,
+      "scene_id": 7
+    },
+    {
+      "text": "Höhe",
+      "start": 100.627,
+      "end": 101.219,
+      "scene_id": 7
+    },
+    {
+      "text": "von etwa",
+      "start": 101.219,
+      "end": 101.811,
+      "scene_id": 7
+    },
+    {
+      "text": "2.400",
+      "start": 101.811,
+      "end": 102.403,
+      "scene_id": 7
+    },
+    {
+      "text": "Metern",
+      "start": 102.403,
+      "end": 102.996,
+      "scene_id": 7
+    },
+    {
+      "text": "— das",
+      "start": 102.996,
+      "end": 103.588,
+      "scene_id": 7
+    },
+    {
+      "text": "reduziert",
+      "start": 103.588,
+      "end": 104.18,
+      "scene_id": 7
+    },
+    {
+      "text": "die Sauerstoffsättigung",
+      "start": 104.18,
+      "end": 104.772,
+      "scene_id": 7
+    },
+    {
+      "text": "deines",
+      "start": 104.772,
+      "end": 105.364,
+      "scene_id": 7
+    },
+    {
+      "text": "Blutes",
+      "start": 105.364,
+      "end": 105.957,
+      "scene_id": 7
+    },
+    {
+      "text": "leicht.",
+      "start": 105.957,
+      "end": 106.549,
+      "scene_id": 7
+    },
+    {
+      "text": "Kombiniert",
+      "start": 106.549,
+      "end": 107.141,
+      "scene_id": 7
+    },
+    {
+      "text": "mit Alkohol",
+      "start": 107.141,
+      "end": 107.733,
+      "scene_id": 7
+    },
+    {
+      "text": "und Dehydrierung",
+      "start": 107.733,
+      "end": 108.326,
+      "scene_id": 7
+    },
+    {
+      "text": "entsteht",
+      "start": 108.326,
+      "end": 108.918,
+      "scene_id": 7
+    },
+    {
+      "text": "ein DREIFACH-Effekt.",
+      "start": 108.918,
+      "end": 109.51,
+      "scene_id": 7
+    },
+    {
+      "text": "Nummer",
+      "start": 109.81,
+      "end": 110.452,
+      "scene_id": 8
+    },
+    {
+      "text": "3: Wein",
+      "start": 110.452,
+      "end": 111.094,
+      "scene_id": 8
+    },
+    {
+      "text": "schmeckt",
+      "start": 111.094,
+      "end": 111.737,
+      "scene_id": 8
+    },
+    {
+      "text": "im Flugzeug",
+      "start": 111.737,
+      "end": 112.379,
+      "scene_id": 8
+    },
+    {
+      "text": "schlechter,",
+      "start": 112.379,
+      "end": 113.021,
+      "scene_id": 8
+    },
+    {
+      "text": "weil",
+      "start": 113.021,
+      "end": 113.663,
+      "scene_id": 8
+    },
+    {
+      "text": "die Qualität",
+      "start": 113.663,
+      "end": 114.305,
+      "scene_id": 8
+    },
+    {
+      "text": "billiger",
+      "start": 114.305,
+      "end": 114.947,
+      "scene_id": 8
+    },
+    {
+      "text": "ist. Das",
+      "start": 114.947,
+      "end": 115.59,
+      "scene_id": 8
+    },
+    {
+      "text": "hören",
+      "start": 115.59,
+      "end": 116.232,
+      "scene_id": 8
+    },
+    {
+      "text": "wir ständig.",
+      "start": 116.232,
+      "end": 116.874,
+      "scene_id": 8
+    },
+    {
+      "text": "Aber",
+      "start": 116.874,
+      "end": 117.516,
+      "scene_id": 8
+    },
+    {
+      "text": "die Wahrheit",
+      "start": 117.516,
+      "end": 118.158,
+      "scene_id": 8
+    },
+    {
+      "text": "ist komplizierter",
+      "start": 118.158,
+      "end": 118.8,
+      "scene_id": 8
+    },
+    {
+      "text": "— und",
+      "start": 118.8,
+      "end": 119.443,
+      "scene_id": 8
+    },
+    {
+      "text": "für Weinliebhaber",
+      "start": 119.443,
+      "end": 120.085,
+      "scene_id": 8
+    },
+    {
+      "text": "eigentlich",
+      "start": 120.085,
+      "end": 120.727,
+      "scene_id": 8
+    },
+    {
+      "text": "FASZINIEREND.",
+      "start": 120.727,
+      "end": 121.369,
+      "scene_id": 8
+    },
+    {
+      "text": "Es liegt",
+      "start": 121.369,
+      "end": 122.011,
+      "scene_id": 8
+    },
+    {
+      "text": "nicht",
+      "start": 122.011,
+      "end": 122.653,
+      "scene_id": 8
+    },
+    {
+      "text": "am Wein.",
+      "start": 122.653,
+      "end": 123.296,
+      "scene_id": 8
+    },
+    {
+      "text": "Es liegt",
+      "start": 123.296,
+      "end": 123.938,
+      "scene_id": 8
+    },
+    {
+      "text": "an dir.",
+      "start": 123.938,
+      "end": 124.58,
+      "scene_id": 8
+    },
+    {
+      "text": "Das Fraunhofer-Institut",
+      "start": 124.88,
+      "end": 125.492,
+      "scene_id": 9
+    },
+    {
+      "text": "hat in",
+      "start": 125.492,
+      "end": 126.104,
+      "scene_id": 9
+    },
+    {
+      "text": "einer",
+      "start": 126.104,
+      "end": 126.716,
+      "scene_id": 9
+    },
+    {
+      "text": "umfangreichen",
+      "start": 126.716,
+      "end": 127.327,
+      "scene_id": 9
+    },
+    {
+      "text": "Studie",
+      "start": 127.327,
+      "end": 127.939,
+      "scene_id": 9
+    },
+    {
+      "text": "nachgewiesen,",
+      "start": 127.939,
+      "end": 128.551,
+      "scene_id": 9
+    },
+    {
+      "text": "dass",
+      "start": 128.551,
+      "end": 129.163,
+      "scene_id": 9
+    },
+    {
+      "text": "trockene",
+      "start": 129.163,
+      "end": 129.775,
+      "scene_id": 9
+    },
+    {
+      "text": "Kabinenluft",
+      "start": 129.775,
+      "end": 130.387,
+      "scene_id": 9
+    },
+    {
+      "text": "und der",
+      "start": 130.387,
+      "end": 130.999,
+      "scene_id": 9
+    },
+    {
+      "text": "niedrige",
+      "start": 130.999,
+      "end": 131.61,
+      "scene_id": 9
+    },
+    {
+      "text": "Druck",
+      "start": 131.61,
+      "end": 132.222,
+      "scene_id": 9
+    },
+    {
+      "text": "die Wahrnehmung",
+      "start": 132.222,
+      "end": 132.834,
+      "scene_id": 9
+    },
+    {
+      "text": "von süßen",
+      "start": 132.834,
+      "end": 133.446,
+      "scene_id": 9
+    },
+    {
+      "text": "und sauren",
+      "start": 133.446,
+      "end": 134.058,
+      "scene_id": 9
+    },
+    {
+      "text": "Aromen",
+      "start": 134.058,
+      "end": 134.67,
+      "scene_id": 9
+    },
+    {
+      "text": "um bis",
+      "start": 134.67,
+      "end": 135.281,
+      "scene_id": 9
+    },
+    {
+      "text": "zu 30",
+      "start": 135.281,
+      "end": 135.893,
+      "scene_id": 9
+    },
+    {
+      "text": "Prozent",
+      "start": 135.893,
+      "end": 136.505,
+      "scene_id": 9
+    },
+    {
+      "text": "reduzieren.",
+      "start": 136.505,
+      "end": 137.117,
+      "scene_id": 9
+    },
+    {
+      "text": "Dein",
+      "start": 137.117,
+      "end": 137.729,
+      "scene_id": 9
+    },
+    {
+      "text": "Geruchssinn",
+      "start": 137.729,
+      "end": 138.341,
+      "scene_id": 9
+    },
+    {
+      "text": "versagt",
+      "start": 138.341,
+      "end": 138.953,
+      "scene_id": 9
+    },
+    {
+      "text": "schlicht",
+      "start": 138.953,
+      "end": 139.564,
+      "scene_id": 9
+    },
+    {
+      "text": "— der",
+      "start": 139.564,
+      "end": 140.176,
+      "scene_id": 9
+    },
+    {
+      "text": "Wein",
+      "start": 140.176,
+      "end": 140.788,
+      "scene_id": 9
+    },
+    {
+      "text": "ist GLEICH.",
+      "start": 140.788,
+      "end": 141.4,
+      "scene_id": 9
+    },
+    {
+      "text": "Jetzt",
+      "start": 141.7,
+      "end": 142.242,
+      "scene_id": 10
+    },
+    {
+      "text": "Nummer",
+      "start": 142.242,
+      "end": 142.783,
+      "scene_id": 10
+    },
+    {
+      "text": "4 —",
+      "start": 142.783,
+      "end": 143.325,
+      "scene_id": 10
+    },
+    {
+      "text": "die Lüge,",
+      "start": 143.325,
+      "end": 143.866,
+      "scene_id": 10
+    },
+    {
+      "text": "die wirklich",
+      "start": 143.866,
+      "end": 144.408,
+      "scene_id": 10
+    },
+    {
+      "text": "wehtut.",
+      "start": 144.408,
+      "end": 144.95,
+      "scene_id": 10
+    },
+    {
+      "text": "Viele",
+      "start": 144.95,
+      "end": 145.491,
+      "scene_id": 10
+    },
+    {
+      "text": "Passagiere",
+      "start": 145.491,
+      "end": 146.033,
+      "scene_id": 10
+    },
+    {
+      "text": "glauben:",
+      "start": 146.033,
+      "end": 146.574,
+      "scene_id": 10
+    },
+    {
+      "text": "Ich kann",
+      "start": 146.574,
+      "end": 147.116,
+      "scene_id": 10
+    },
+    {
+      "text": "genauso",
+      "start": 147.116,
+      "end": 147.658,
+      "scene_id": 10
+    },
+    {
+      "text": "viel",
+      "start": 147.658,
+      "end": 148.199,
+      "scene_id": 10
+    },
+    {
+      "text": "trinken",
+      "start": 148.199,
+      "end": 148.741,
+      "scene_id": 10
+    },
+    {
+      "text": "wie am",
+      "start": 148.741,
+      "end": 149.282,
+      "scene_id": 10
+    },
+    {
+      "text": "Boden",
+      "start": 149.282,
+      "end": 149.824,
+      "scene_id": 10
+    },
+    {
+      "text": "und trotzdem",
+      "start": 149.824,
+      "end": 150.366,
+      "scene_id": 10
+    },
+    {
+      "text": "fahren,",
+      "start": 150.366,
+      "end": 150.907,
+      "scene_id": 10
+    },
+    {
+      "text": "wenn",
+      "start": 150.907,
+      "end": 151.449,
+      "scene_id": 10
+    },
+    {
+      "text": "ich ankomme.",
+      "start": 151.449,
+      "end": 151.99,
+      "scene_id": 10
+    },
+    {
+      "text": "FALSCH.",
+      "start": 151.99,
+      "end": 152.532,
+      "scene_id": 10
+    },
+    {
+      "text": "Und das",
+      "start": 152.532,
+      "end": 153.074,
+      "scene_id": 10
+    },
+    {
+      "text": "kann",
+      "start": 153.074,
+      "end": 153.615,
+      "scene_id": 10
+    },
+    {
+      "text": "gefährliche",
+      "start": 153.615,
+      "end": 154.157,
+      "scene_id": 10
+    },
+    {
+      "text": "Konsequenzen",
+      "start": 154.157,
+      "end": 154.698,
+      "scene_id": 10
+    },
+    {
+      "text": "haben.",
+      "start": 154.698,
+      "end": 155.24,
+      "scene_id": 10
+    },
+    {
+      "text": "Hier",
+      "start": 155.54,
+      "end": 156.137,
+      "scene_id": 11
+    },
+    {
+      "text": "ist das",
+      "start": 156.137,
+      "end": 156.734,
+      "scene_id": 11
+    },
+    {
+      "text": "eigentliche",
+      "start": 156.734,
+      "end": 157.331,
+      "scene_id": 11
+    },
+    {
+      "text": "Problem:",
+      "start": 157.331,
+      "end": 157.928,
+      "scene_id": 11
+    },
+    {
+      "text": "Alkohol",
+      "start": 157.928,
+      "end": 158.524,
+      "scene_id": 11
+    },
+    {
+      "text": "aus dem",
+      "start": 158.524,
+      "end": 159.121,
+      "scene_id": 11
+    },
+    {
+      "text": "Flieger",
+      "start": 159.121,
+      "end": 159.718,
+      "scene_id": 11
+    },
+    {
+      "text": "wird",
+      "start": 159.718,
+      "end": 160.315,
+      "scene_id": 11
+    },
+    {
+      "text": "durch",
+      "start": 160.315,
+      "end": 160.912,
+      "scene_id": 11
+    },
+    {
+      "text": "Dehydrierung",
+      "start": 160.912,
+      "end": 161.509,
+      "scene_id": 11
+    },
+    {
+      "text": "langsamer",
+      "start": 161.509,
+      "end": 162.106,
+      "scene_id": 11
+    },
+    {
+      "text": "abgebaut.",
+      "start": 162.106,
+      "end": 162.703,
+      "scene_id": 11
+    },
+    {
+      "text": "Studien",
+      "start": 162.703,
+      "end": 163.3,
+      "scene_id": 11
+    },
+    {
+      "text": "zeigen,",
+      "start": 163.3,
+      "end": 163.897,
+      "scene_id": 11
+    },
+    {
+      "text": "dass",
+      "start": 163.897,
+      "end": 164.493,
+      "scene_id": 11
+    },
+    {
+      "text": "Passagiere",
+      "start": 164.493,
+      "end": 165.09,
+      "scene_id": 11
+    },
+    {
+      "text": "nach",
+      "start": 165.09,
+      "end": 165.687,
+      "scene_id": 11
+    },
+    {
+      "text": "der Landung",
+      "start": 165.687,
+      "end": 166.284,
+      "scene_id": 11
+    },
+    {
+      "text": "noch",
+      "start": 166.284,
+      "end": 166.881,
+      "scene_id": 11
+    },
+    {
+      "text": "deutlich",
+      "start": 166.881,
+      "end": 167.478,
+      "scene_id": 11
+    },
+    {
+      "text": "stärker",
+      "start": 167.478,
+      "end": 168.075,
+      "scene_id": 11
+    },
+    {
+      "text": "beeinträchtigt",
+      "start": 168.075,
+      "end": 168.672,
+      "scene_id": 11
+    },
+    {
+      "text": "sind,",
+      "start": 168.672,
+      "end": 169.269,
+      "scene_id": 11
+    },
+    {
+      "text": "als sie",
+      "start": 169.269,
+      "end": 169.866,
+      "scene_id": 11
+    },
+    {
+      "text": "selbst",
+      "start": 169.866,
+      "end": 170.462,
+      "scene_id": 11
+    },
+    {
+      "text": "GLAUBEN.",
+      "start": 170.462,
+      "end": 171.059,
+      "scene_id": 11
+    },
+    {
+      "text": "Der Kabinen-Cocktail",
+      "start": 171.059,
+      "end": 171.656,
+      "scene_id": 11
+    },
+    {
+      "text": "wirkt",
+      "start": 171.656,
+      "end": 172.253,
+      "scene_id": 11
+    },
+    {
+      "text": "nach.",
+      "start": 172.253,
+      "end": 172.85,
+      "scene_id": 11
+    },
+    {
+      "text": "Nummer",
+      "start": 173.15,
+      "end": 173.714,
+      "scene_id": 12
+    },
+    {
+      "text": "5: Airlines",
+      "start": 173.714,
+      "end": 174.278,
+      "scene_id": 12
+    },
+    {
+      "text": "bieten",
+      "start": 174.278,
+      "end": 174.842,
+      "scene_id": 12
+    },
+    {
+      "text": "Alkohol",
+      "start": 174.842,
+      "end": 175.406,
+      "scene_id": 12
+    },
+    {
+      "text": "an, weil",
+      "start": 175.406,
+      "end": 175.97,
+      "scene_id": 12
+    },
+    {
+      "text": "sie damit",
+      "start": 175.97,
+      "end": 176.534,
+      "scene_id": 12
+    },
+    {
+      "text": "kaum",
+      "start": 176.534,
+      "end": 177.098,
+      "scene_id": 12
+    },
+    {
+      "text": "Geld",
+      "start": 177.098,
+      "end": 177.662,
+      "scene_id": 12
+    },
+    {
+      "text": "verdienen",
+      "start": 177.662,
+      "end": 178.226,
+      "scene_id": 12
+    },
+    {
+      "text": "— es",
+      "start": 178.226,
+      "end": 178.79,
+      "scene_id": 12
+    },
+    {
+      "text": "ist einfach",
+      "start": 178.79,
+      "end": 179.354,
+      "scene_id": 12
+    },
+    {
+      "text": "ein Service.",
+      "start": 179.354,
+      "end": 179.918,
+      "scene_id": 12
+    },
+    {
+      "text": "Das klingt",
+      "start": 179.918,
+      "end": 180.482,
+      "scene_id": 12
+    },
+    {
+      "text": "nett.",
+      "start": 180.482,
+      "end": 181.046,
+      "scene_id": 12
+    },
+    {
+      "text": "Es ist",
+      "start": 181.046,
+      "end": 181.61,
+      "scene_id": 12
+    },
+    {
+      "text": "aber",
+      "start": 181.61,
+      "end": 182.174,
+      "scene_id": 12
+    },
+    {
+      "text": "eine",
+      "start": 182.174,
+      "end": 182.738,
+      "scene_id": 12
+    },
+    {
+      "text": "MÄRCHENGESCHICHTE.",
+      "start": 182.738,
+      "end": 183.302,
+      "scene_id": 12
+    },
+    {
+      "text": "Alkohol",
+      "start": 183.302,
+      "end": 183.866,
+      "scene_id": 12
+    },
+    {
+      "text": "gehört",
+      "start": 183.866,
+      "end": 184.43,
+      "scene_id": 12
+    },
+    {
+      "text": "zu den",
+      "start": 184.43,
+      "end": 184.994,
+      "scene_id": 12
+    },
+    {
+      "text": "profitabelsten",
+      "start": 184.994,
+      "end": 185.558,
+      "scene_id": 12
+    },
+    {
+      "text": "Posten",
+      "start": 185.558,
+      "end": 186.122,
+      "scene_id": 12
+    },
+    {
+      "text": "im Bordservice",
+      "start": 186.122,
+      "end": 186.686,
+      "scene_id": 12
+    },
+    {
+      "text": "überhaupt.",
+      "start": 186.686,
+      "end": 187.25,
+      "scene_id": 12
+    },
+    {
+      "text": "Schätzungen",
+      "start": 187.55,
+      "end": 188.111,
+      "scene_id": 13
+    },
+    {
+      "text": "des IATA-Marktreports",
+      "start": 188.111,
+      "end": 188.671,
+      "scene_id": 13
+    },
+    {
+      "text": "zufolge",
+      "start": 188.671,
+      "end": 189.232,
+      "scene_id": 13
+    },
+    {
+      "text": "generieren",
+      "start": 189.232,
+      "end": 189.793,
+      "scene_id": 13
+    },
+    {
+      "text": "Airlines",
+      "start": 189.793,
+      "end": 190.354,
+      "scene_id": 13
+    },
+    {
+      "text": "weltweit",
+      "start": 190.354,
+      "end": 190.914,
+      "scene_id": 13
+    },
+    {
+      "text": "über",
+      "start": 190.914,
+      "end": 191.475,
+      "scene_id": 13
+    },
+    {
+      "text": "1,9 Milliarden",
+      "start": 191.475,
+      "end": 192.036,
+      "scene_id": 13
+    },
+    {
+      "text": "Dollar",
+      "start": 192.036,
+      "end": 192.596,
+      "scene_id": 13
+    },
+    {
+      "text": "jährlich",
+      "start": 192.596,
+      "end": 193.157,
+      "scene_id": 13
+    },
+    {
+      "text": "allein",
+      "start": 193.157,
+      "end": 193.718,
+      "scene_id": 13
+    },
+    {
+      "text": "durch",
+      "start": 193.718,
+      "end": 194.279,
+      "scene_id": 13
+    },
+    {
+      "text": "Getränkeverkäufe",
+      "start": 194.279,
+      "end": 194.839,
+      "scene_id": 13
+    },
+    {
+      "text": "an Bord",
+      "start": 194.839,
+      "end": 195.4,
+      "scene_id": 13
+    },
+    {
+      "text": "— der",
+      "start": 195.4,
+      "end": 195.961,
+      "scene_id": 13
+    },
+    {
+      "text": "Großteil",
+      "start": 195.961,
+      "end": 196.521,
+      "scene_id": 13
+    },
+    {
+      "text": "davon",
+      "start": 196.521,
+      "end": 197.082,
+      "scene_id": 13
+    },
+    {
+      "text": "entfällt",
+      "start": 197.082,
+      "end": 197.643,
+      "scene_id": 13
+    },
+    {
+      "text": "auf alkoholische",
+      "start": 197.643,
+      "end": 198.204,
+      "scene_id": 13
+    },
+    {
+      "text": "Getränke.",
+      "start": 198.204,
+      "end": 198.764,
+      "scene_id": 13
+    },
+    {
+      "text": "Dein",
+      "start": 198.764,
+      "end": 199.325,
+      "scene_id": 13
+    },
+    {
+      "text": "Glas",
+      "start": 199.325,
+      "end": 199.886,
+      "scene_id": 13
+    },
+    {
+      "text": "PROSECCO",
+      "start": 199.886,
+      "end": 200.446,
+      "scene_id": 13
+    },
+    {
+      "text": "ist kein",
+      "start": 200.446,
+      "end": 201.007,
+      "scene_id": 13
+    },
+    {
+      "text": "Geschenk.",
+      "start": 201.007,
+      "end": 201.568,
+      "scene_id": 13
+    },
+    {
+      "text": "Es ist",
+      "start": 201.568,
+      "end": 202.129,
+      "scene_id": 13
+    },
+    {
+      "text": "kalkuliertes",
+      "start": 202.129,
+      "end": 202.689,
+      "scene_id": 13
+    },
+    {
+      "text": "Geschäft.",
+      "start": 202.689,
+      "end": 203.25,
+      "scene_id": 13
+    },
+    {
+      "text": "Es steckt",
+      "start": 203.55,
+      "end": 204.085,
+      "scene_id": 14
+    },
+    {
+      "text": "noch",
+      "start": 204.085,
+      "end": 204.619,
+      "scene_id": 14
+    },
+    {
+      "text": "mehr",
+      "start": 204.619,
+      "end": 205.154,
+      "scene_id": 14
+    },
+    {
+      "text": "dahinter.",
+      "start": 205.154,
+      "end": 205.688,
+      "scene_id": 14
+    },
+    {
+      "text": "Alkohol",
+      "start": 205.688,
+      "end": 206.223,
+      "scene_id": 14
+    },
+    {
+      "text": "an Bord",
+      "start": 206.223,
+      "end": 206.758,
+      "scene_id": 14
+    },
+    {
+      "text": "macht",
+      "start": 206.758,
+      "end": 207.292,
+      "scene_id": 14
+    },
+    {
+      "text": "Passagiere",
+      "start": 207.292,
+      "end": 207.827,
+      "scene_id": 14
+    },
+    {
+      "text": "ruhiger,",
+      "start": 207.827,
+      "end": 208.362,
+      "scene_id": 14
+    },
+    {
+      "text": "zufriedener",
+      "start": 208.362,
+      "end": 208.896,
+      "scene_id": 14
+    },
+    {
+      "text": "und beschweren",
+      "start": 208.896,
+      "end": 209.431,
+      "scene_id": 14
+    },
+    {
+      "text": "sich",
+      "start": 209.431,
+      "end": 209.965,
+      "scene_id": 14
+    },
+    {
+      "text": "weniger.",
+      "start": 209.965,
+      "end": 210.5,
+      "scene_id": 14
+    },
+    {
+      "text": "Airlines",
+      "start": 210.5,
+      "end": 211.035,
+      "scene_id": 14
+    },
+    {
+      "text": "wissen",
+      "start": 211.035,
+      "end": 211.569,
+      "scene_id": 14
+    },
+    {
+      "text": "das GENAU.",
+      "start": 211.569,
+      "end": 212.104,
+      "scene_id": 14
+    },
+    {
+      "text": "Ein trinkender",
+      "start": 212.104,
+      "end": 212.638,
+      "scene_id": 14
+    },
+    {
+      "text": "Passagier",
+      "start": 212.638,
+      "end": 213.173,
+      "scene_id": 14
+    },
+    {
+      "text": "ist ein",
+      "start": 213.173,
+      "end": 213.708,
+      "scene_id": 14
+    },
+    {
+      "text": "bequemer",
+      "start": 213.708,
+      "end": 214.242,
+      "scene_id": 14
+    },
+    {
+      "text": "Passagier",
+      "start": 214.242,
+      "end": 214.777,
+      "scene_id": 14
+    },
+    {
+      "text": "— und",
+      "start": 214.777,
+      "end": 215.312,
+      "scene_id": 14
+    },
+    {
+      "text": "genau",
+      "start": 215.312,
+      "end": 215.846,
+      "scene_id": 14
+    },
+    {
+      "text": "das wird",
+      "start": 215.846,
+      "end": 216.381,
+      "scene_id": 14
+    },
+    {
+      "text": "aktiv",
+      "start": 216.381,
+      "end": 216.915,
+      "scene_id": 14
+    },
+    {
+      "text": "gefördert.",
+      "start": 216.915,
+      "end": 217.45,
+      "scene_id": 14
+    },
+    {
+      "text": "Nummer",
+      "start": 217.75,
+      "end": 218.375,
+      "scene_id": 15
+    },
+    {
+      "text": "6: Wenn",
+      "start": 218.375,
+      "end": 219.0,
+      "scene_id": 15
+    },
+    {
+      "text": "du zwischen",
+      "start": 219.0,
+      "end": 219.626,
+      "scene_id": 15
+    },
+    {
+      "text": "Drinks",
+      "start": 219.626,
+      "end": 220.251,
+      "scene_id": 15
+    },
+    {
+      "text": "Wasser",
+      "start": 220.251,
+      "end": 220.876,
+      "scene_id": 15
+    },
+    {
+      "text": "trinkst,",
+      "start": 220.876,
+      "end": 221.501,
+      "scene_id": 15
+    },
+    {
+      "text": "neutralisierst",
+      "start": 221.501,
+      "end": 222.126,
+      "scene_id": 15
+    },
+    {
+      "text": "du den",
+      "start": 222.126,
+      "end": 222.751,
+      "scene_id": 15
+    },
+    {
+      "text": "Alkohol.",
+      "start": 222.751,
+      "end": 223.377,
+      "scene_id": 15
+    },
+    {
+      "text": "Das ist",
+      "start": 223.377,
+      "end": 224.002,
+      "scene_id": 15
+    },
+    {
+      "text": "der beliebteste",
+      "start": 224.002,
+      "end": 224.627,
+      "scene_id": 15
+    },
+    {
+      "text": "Tipp",
+      "start": 224.627,
+      "end": 225.252,
+      "scene_id": 15
+    },
+    {
+      "text": "überhaupt",
+      "start": 225.252,
+      "end": 225.877,
+      "scene_id": 15
+    },
+    {
+      "text": "— und",
+      "start": 225.877,
+      "end": 226.503,
+      "scene_id": 15
+    },
+    {
+      "text": "leider",
+      "start": 226.503,
+      "end": 227.128,
+      "scene_id": 15
+    },
+    {
+      "text": "HALBWAHR.",
+      "start": 227.128,
+      "end": 227.753,
+      "scene_id": 15
+    },
+    {
+      "text": "Wasser",
+      "start": 227.753,
+      "end": 228.378,
+      "scene_id": 15
+    },
+    {
+      "text": "hilft",
+      "start": 228.378,
+      "end": 229.003,
+      "scene_id": 15
+    },
+    {
+      "text": "gegen",
+      "start": 229.003,
+      "end": 229.629,
+      "scene_id": 15
+    },
+    {
+      "text": "Dehydrierung.",
+      "start": 229.629,
+      "end": 230.254,
+      "scene_id": 15
+    },
+    {
+      "text": "Deinen",
+      "start": 230.254,
+      "end": 230.879,
+      "scene_id": 15
+    },
+    {
+      "text": "Blutalkohol",
+      "start": 230.879,
+      "end": 231.504,
+      "scene_id": 15
+    },
+    {
+      "text": "senkt",
+      "start": 231.504,
+      "end": 232.129,
+      "scene_id": 15
+    },
+    {
+      "text": "es aber",
+      "start": 232.129,
+      "end": 232.754,
+      "scene_id": 15
+    },
+    {
+      "text": "kein",
+      "start": 232.754,
+      "end": 233.38,
+      "scene_id": 15
+    },
+    {
+      "text": "bisschen",
+      "start": 233.38,
+      "end": 234.005,
+      "scene_id": 15
+    },
+    {
+      "text": "schneller.",
+      "start": 234.005,
+      "end": 234.63,
+      "scene_id": 15
+    },
+    {
+      "text": "Deine",
+      "start": 234.93,
+      "end": 235.456,
+      "scene_id": 16
+    },
+    {
+      "text": "Leber",
+      "start": 235.456,
+      "end": 235.982,
+      "scene_id": 16
+    },
+    {
+      "text": "baut",
+      "start": 235.982,
+      "end": 236.508,
+      "scene_id": 16
+    },
+    {
+      "text": "Alkohol",
+      "start": 236.508,
+      "end": 237.034,
+      "scene_id": 16
+    },
+    {
+      "text": "in einem",
+      "start": 237.034,
+      "end": 237.56,
+      "scene_id": 16
+    },
+    {
+      "text": "festen",
+      "start": 237.56,
+      "end": 238.086,
+      "scene_id": 16
+    },
+    {
+      "text": "Tempo",
+      "start": 238.086,
+      "end": 238.612,
+      "scene_id": 16
+    },
+    {
+      "text": "ab —",
+      "start": 238.612,
+      "end": 239.138,
+      "scene_id": 16
+    },
+    {
+      "text": "circa",
+      "start": 239.138,
+      "end": 239.664,
+      "scene_id": 16
+    },
+    {
+      "text": "0,1 Promille",
+      "start": 239.664,
+      "end": 240.19,
+      "scene_id": 16
+    },
+    {
+      "text": "pro Stunde.",
+      "start": 240.19,
+      "end": 240.716,
+      "scene_id": 16
+    },
+    {
+      "text": "Das ändert",
+      "start": 240.716,
+      "end": 241.242,
+      "scene_id": 16
+    },
+    {
+      "text": "kein",
+      "start": 241.242,
+      "end": 241.768,
+      "scene_id": 16
+    },
+    {
+      "text": "Wasser,",
+      "start": 241.768,
+      "end": 242.294,
+      "scene_id": 16
+    },
+    {
+      "text": "kein",
+      "start": 242.294,
+      "end": 242.82,
+      "scene_id": 16
+    },
+    {
+      "text": "Kaffee,",
+      "start": 242.82,
+      "end": 243.346,
+      "scene_id": 16
+    },
+    {
+      "text": "keine",
+      "start": 243.346,
+      "end": 243.872,
+      "scene_id": 16
+    },
+    {
+      "text": "Bewegung.",
+      "start": 243.872,
+      "end": 244.398,
+      "scene_id": 16
+    },
+    {
+      "text": "Was Wasser",
+      "start": 244.398,
+      "end": 244.924,
+      "scene_id": 16
+    },
+    {
+      "text": "wirklich",
+      "start": 244.924,
+      "end": 245.45,
+      "scene_id": 16
+    },
+    {
+      "text": "tut: Es",
+      "start": 245.45,
+      "end": 245.976,
+      "scene_id": 16
+    },
+    {
+      "text": "macht",
+      "start": 245.976,
+      "end": 246.502,
+      "scene_id": 16
+    },
+    {
+      "text": "den Kater",
+      "start": 246.502,
+      "end": 247.028,
+      "scene_id": 16
+    },
+    {
+      "text": "weniger",
+      "start": 247.028,
+      "end": 247.554,
+      "scene_id": 16
+    },
+    {
+      "text": "SCHLIMM.",
+      "start": 247.554,
+      "end": 248.08,
+      "scene_id": 16
+    },
+    {
+      "text": "Das ist",
+      "start": 248.08,
+      "end": 248.606,
+      "scene_id": 16
+    },
+    {
+      "text": "wertvoll",
+      "start": 248.606,
+      "end": 249.132,
+      "scene_id": 16
+    },
+    {
+      "text": "— aber",
+      "start": 249.132,
+      "end": 249.658,
+      "scene_id": 16
+    },
+    {
+      "text": "kein",
+      "start": 249.658,
+      "end": 250.184,
+      "scene_id": 16
+    },
+    {
+      "text": "Freifahrtschein.",
+      "start": 250.184,
+      "end": 250.71,
+      "scene_id": 16
+    },
+    {
+      "text": "Nummer",
+      "start": 251.01,
+      "end": 251.469,
+      "scene_id": 17
+    },
+    {
+      "text": "7: Ein",
+      "start": 251.469,
+      "end": 251.928,
+      "scene_id": 17
+    },
+    {
+      "text": "Schluck",
+      "start": 251.928,
+      "end": 252.387,
+      "scene_id": 17
+    },
+    {
+      "text": "Whiskey",
+      "start": 252.387,
+      "end": 252.845,
+      "scene_id": 17
+    },
+    {
+      "text": "wärmt",
+      "start": 252.845,
+      "end": 253.304,
+      "scene_id": 17
+    },
+    {
+      "text": "dich,",
+      "start": 253.304,
+      "end": 253.763,
+      "scene_id": 17
+    },
+    {
+      "text": "wenn",
+      "start": 253.763,
+      "end": 254.222,
+      "scene_id": 17
+    },
+    {
+      "text": "dir im",
+      "start": 254.222,
+      "end": 254.681,
+      "scene_id": 17
+    },
+    {
+      "text": "Flieger",
+      "start": 254.681,
+      "end": 255.14,
+      "scene_id": 17
+    },
+    {
+      "text": "kalt",
+      "start": 255.14,
+      "end": 255.599,
+      "scene_id": 17
+    },
+    {
+      "text": "ist. Das",
+      "start": 255.599,
+      "end": 256.057,
+      "scene_id": 17
+    },
+    {
+      "text": "fühlt",
+      "start": 256.057,
+      "end": 256.516,
+      "scene_id": 17
+    },
+    {
+      "text": "sich",
+      "start": 256.516,
+      "end": 256.975,
+      "scene_id": 17
+    },
+    {
+      "text": "so an",
+      "start": 256.975,
+      "end": 257.434,
+      "scene_id": 17
+    },
+    {
+      "text": "— und",
+      "start": 257.434,
+      "end": 257.893,
+      "scene_id": 17
+    },
+    {
+      "text": "genau",
+      "start": 257.893,
+      "end": 258.352,
+      "scene_id": 17
+    },
+    {
+      "text": "das ist",
+      "start": 258.352,
+      "end": 258.811,
+      "scene_id": 17
+    },
+    {
+      "text": "das Problem.",
+      "start": 258.811,
+      "end": 259.269,
+      "scene_id": 17
+    },
+    {
+      "text": "Das Wärmen",
+      "start": 259.269,
+      "end": 259.728,
+      "scene_id": 17
+    },
+    {
+      "text": "ist eine",
+      "start": 259.728,
+      "end": 260.187,
+      "scene_id": 17
+    },
+    {
+      "text": "ILLUSION.",
+      "start": 260.187,
+      "end": 260.646,
+      "scene_id": 17
+    },
+    {
+      "text": "Alkohol",
+      "start": 260.646,
+      "end": 261.105,
+      "scene_id": 17
+    },
+    {
+      "text": "erweitert",
+      "start": 261.105,
+      "end": 261.564,
+      "scene_id": 17
+    },
+    {
+      "text": "deine",
+      "start": 261.564,
+      "end": 262.023,
+      "scene_id": 17
+    },
+    {
+      "text": "Blutgefäße,",
+      "start": 262.023,
+      "end": 262.481,
+      "scene_id": 17
+    },
+    {
+      "text": "was dich",
+      "start": 262.481,
+      "end": 262.94,
+      "scene_id": 17
+    },
+    {
+      "text": "kurzfristig",
+      "start": 262.94,
+      "end": 263.399,
+      "scene_id": 17
+    },
+    {
+      "text": "warm",
+      "start": 263.399,
+      "end": 263.858,
+      "scene_id": 17
+    },
+    {
+      "text": "fühlen",
+      "start": 263.858,
+      "end": 264.317,
+      "scene_id": 17
+    },
+    {
+      "text": "lässt",
+      "start": 264.317,
+      "end": 264.776,
+      "scene_id": 17
+    },
+    {
+      "text": "— während",
+      "start": 264.776,
+      "end": 265.235,
+      "scene_id": 17
+    },
+    {
+      "text": "dein",
+      "start": 265.235,
+      "end": 265.693,
+      "scene_id": 17
+    },
+    {
+      "text": "Körper",
+      "start": 265.693,
+      "end": 266.152,
+      "scene_id": 17
+    },
+    {
+      "text": "Wärme",
+      "start": 266.152,
+      "end": 266.611,
+      "scene_id": 17
+    },
+    {
+      "text": "verliert.",
+      "start": 266.611,
+      "end": 267.07,
+      "scene_id": 17
+    },
+    {
+      "text": "Bei Langstreckenflügen",
+      "start": 267.37,
+      "end": 268.007,
+      "scene_id": 18
+    },
+    {
+      "text": "kann",
+      "start": 268.007,
+      "end": 268.643,
+      "scene_id": 18
+    },
+    {
+      "text": "das ein",
+      "start": 268.643,
+      "end": 269.28,
+      "scene_id": 18
+    },
+    {
+      "text": "ernstes",
+      "start": 269.28,
+      "end": 269.916,
+      "scene_id": 18
+    },
+    {
+      "text": "Problem",
+      "start": 269.916,
+      "end": 270.553,
+      "scene_id": 18
+    },
+    {
+      "text": "werden.",
+      "start": 270.553,
+      "end": 271.189,
+      "scene_id": 18
+    },
+    {
+      "text": "Die Kabinentemperatur",
+      "start": 271.189,
+      "end": 271.826,
+      "scene_id": 18
+    },
+    {
+      "text": "liegt",
+      "start": 271.826,
+      "end": 272.462,
+      "scene_id": 18
+    },
+    {
+      "text": "oft zwischen",
+      "start": 272.462,
+      "end": 273.099,
+      "scene_id": 18
+    },
+    {
+      "text": "18 und",
+      "start": 273.099,
+      "end": 273.736,
+      "scene_id": 18
+    },
+    {
+      "text": "21 Grad",
+      "start": 273.736,
+      "end": 274.372,
+      "scene_id": 18
+    },
+    {
+      "text": "— schon",
+      "start": 274.372,
+      "end": 275.009,
+      "scene_id": 18
+    },
+    {
+      "text": "relativ",
+      "start": 275.009,
+      "end": 275.645,
+      "scene_id": 18
+    },
+    {
+      "text": "kühl",
+      "start": 275.645,
+      "end": 276.282,
+      "scene_id": 18
+    },
+    {
+      "text": "für stundenlanges",
+      "start": 276.282,
+      "end": 276.918,
+      "scene_id": 18
+    },
+    {
+      "text": "Sitzen.",
+      "start": 276.918,
+      "end": 277.555,
+      "scene_id": 18
+    },
+    {
+      "text": "Alkohol",
+      "start": 277.555,
+      "end": 278.191,
+      "scene_id": 18
+    },
+    {
+      "text": "täuscht",
+      "start": 278.191,
+      "end": 278.828,
+      "scene_id": 18
+    },
+    {
+      "text": "Wärme",
+      "start": 278.828,
+      "end": 279.464,
+      "scene_id": 18
+    },
+    {
+      "text": "vor, während",
+      "start": 279.464,
+      "end": 280.101,
+      "scene_id": 18
+    },
+    {
+      "text": "dein",
+      "start": 280.101,
+      "end": 280.738,
+      "scene_id": 18
+    },
+    {
+      "text": "Körper",
+      "start": 280.738,
+      "end": 281.374,
+      "scene_id": 18
+    },
+    {
+      "text": "auskühlt.",
+      "start": 281.374,
+      "end": 282.011,
+      "scene_id": 18
+    },
+    {
+      "text": "Schätzungen",
+      "start": 282.011,
+      "end": 282.647,
+      "scene_id": 18
+    },
+    {
+      "text": "zufolge",
+      "start": 282.647,
+      "end": 283.284,
+      "scene_id": 18
+    },
+    {
+      "text": "ist das",
+      "start": 283.284,
+      "end": 283.92,
+      "scene_id": 18
+    },
+    {
+      "text": "ein UNTERSCHÄTZTER",
+      "start": 283.92,
+      "end": 284.557,
+      "scene_id": 18
+    },
+    {
+      "text": "Faktor",
+      "start": 284.557,
+      "end": 285.193,
+      "scene_id": 18
+    },
+    {
+      "text": "bei Langstreckenbeschwerden.",
+      "start": 285.193,
+      "end": 285.83,
+      "scene_id": 18
+    },
+    {
+      "text": "Nummer",
+      "start": 286.13,
+      "end": 286.716,
+      "scene_id": 19
+    },
+    {
+      "text": "8, die",
+      "start": 286.716,
+      "end": 287.302,
+      "scene_id": 19
+    },
+    {
+      "text": "letzte",
+      "start": 287.302,
+      "end": 287.888,
+      "scene_id": 19
+    },
+    {
+      "text": "Lüge",
+      "start": 287.888,
+      "end": 288.474,
+      "scene_id": 19
+    },
+    {
+      "text": "— und",
+      "start": 288.474,
+      "end": 289.06,
+      "scene_id": 19
+    },
+    {
+      "text": "eine",
+      "start": 289.06,
+      "end": 289.646,
+      "scene_id": 19
+    },
+    {
+      "text": "der gefährlichsten.",
+      "start": 289.646,
+      "end": 290.232,
+      "scene_id": 19
+    },
+    {
+      "text": "Im Business",
+      "start": 290.232,
+      "end": 290.817,
+      "scene_id": 19
+    },
+    {
+      "text": "Class",
+      "start": 290.817,
+      "end": 291.403,
+      "scene_id": 19
+    },
+    {
+      "text": "gibt",
+      "start": 291.403,
+      "end": 291.989,
+      "scene_id": 19
+    },
+    {
+      "text": "es oft",
+      "start": 291.989,
+      "end": 292.575,
+      "scene_id": 19
+    },
+    {
+      "text": "freie",
+      "start": 292.575,
+      "end": 293.161,
+      "scene_id": 19
+    },
+    {
+      "text": "Drinks,",
+      "start": 293.161,
+      "end": 293.747,
+      "scene_id": 19
+    },
+    {
+      "text": "und viele",
+      "start": 293.747,
+      "end": 294.333,
+      "scene_id": 19
+    },
+    {
+      "text": "Passagiere",
+      "start": 294.333,
+      "end": 294.919,
+      "scene_id": 19
+    },
+    {
+      "text": "nutzen",
+      "start": 294.919,
+      "end": 295.505,
+      "scene_id": 19
+    },
+    {
+      "text": "das VOLL",
+      "start": 295.505,
+      "end": 296.091,
+      "scene_id": 19
+    },
+    {
+      "text": "aus. Was",
+      "start": 296.091,
+      "end": 296.677,
+      "scene_id": 19
+    },
+    {
+      "text": "kaum",
+      "start": 296.677,
+      "end": 297.263,
+      "scene_id": 19
+    },
+    {
+      "text": "jemand",
+      "start": 297.263,
+      "end": 297.849,
+      "scene_id": 19
+    },
+    {
+      "text": "weiß:",
+      "start": 297.849,
+      "end": 298.435,
+      "scene_id": 19
+    },
+    {
+      "text": "Airlines",
+      "start": 298.435,
+      "end": 299.021,
+      "scene_id": 19
+    },
+    {
+      "text": "dürfen",
+      "start": 299.021,
+      "end": 299.607,
+      "scene_id": 19
+    },
+    {
+      "text": "und sollen",
+      "start": 299.607,
+      "end": 300.192,
+      "scene_id": 19
+    },
+    {
+      "text": "das Servieren",
+      "start": 300.192,
+      "end": 300.778,
+      "scene_id": 19
+    },
+    {
+      "text": "von Alkohol",
+      "start": 300.778,
+      "end": 301.364,
+      "scene_id": 19
+    },
+    {
+      "text": "verweigern,",
+      "start": 301.364,
+      "end": 301.95,
+      "scene_id": 19
+    },
+    {
+      "text": "wenn",
+      "start": 301.95,
+      "end": 302.536,
+      "scene_id": 19
+    },
+    {
+      "text": "ein Passagier",
+      "start": 302.536,
+      "end": 303.122,
+      "scene_id": 19
+    },
+    {
+      "text": "erkennbar",
+      "start": 303.122,
+      "end": 303.708,
+      "scene_id": 19
+    },
+    {
+      "text": "betrunken",
+      "start": 303.708,
+      "end": 304.294,
+      "scene_id": 19
+    },
+    {
+      "text": "ist.",
+      "start": 304.294,
+      "end": 304.88,
+      "scene_id": 19
+    },
+    {
+      "text": "Die ICAO-Vorschriften",
+      "start": 305.18,
+      "end": 305.771,
+      "scene_id": 20
+    },
+    {
+      "text": "und nationales",
+      "start": 305.771,
+      "end": 306.363,
+      "scene_id": 20
+    },
+    {
+      "text": "Luftrecht",
+      "start": 306.363,
+      "end": 306.954,
+      "scene_id": 20
+    },
+    {
+      "text": "in Deutschland",
+      "start": 306.954,
+      "end": 307.546,
+      "scene_id": 20
+    },
+    {
+      "text": "und der",
+      "start": 307.546,
+      "end": 308.137,
+      "scene_id": 20
+    },
+    {
+      "text": "EU geben",
+      "start": 308.137,
+      "end": 308.729,
+      "scene_id": 20
+    },
+    {
+      "text": "dem Kapitän",
+      "start": 308.729,
+      "end": 309.32,
+      "scene_id": 20
+    },
+    {
+      "text": "und der",
+      "start": 309.32,
+      "end": 309.912,
+      "scene_id": 20
+    },
+    {
+      "text": "Crew",
+      "start": 309.912,
+      "end": 310.503,
+      "scene_id": 20
+    },
+    {
+      "text": "das Recht,",
+      "start": 310.503,
+      "end": 311.095,
+      "scene_id": 20
+    },
+    {
+      "text": "Passagiere",
+      "start": 311.095,
+      "end": 311.686,
+      "scene_id": 20
+    },
+    {
+      "text": "bei Trunkenheit",
+      "start": 311.686,
+      "end": 312.278,
+      "scene_id": 20
+    },
+    {
+      "text": "aus dem",
+      "start": 312.278,
+      "end": 312.869,
+      "scene_id": 20
+    },
+    {
+      "text": "Flieger",
+      "start": 312.869,
+      "end": 313.461,
+      "scene_id": 20
+    },
+    {
+      "text": "zu weisen",
+      "start": 313.461,
+      "end": 314.052,
+      "scene_id": 20
+    },
+    {
+      "text": "— sogar",
+      "start": 314.052,
+      "end": 314.644,
+      "scene_id": 20
+    },
+    {
+      "text": "nach",
+      "start": 314.644,
+      "end": 315.235,
+      "scene_id": 20
+    },
+    {
+      "text": "dem BOARDING.",
+      "start": 315.235,
+      "end": 315.827,
+      "scene_id": 20
+    },
+    {
+      "text": "Passagiere",
+      "start": 315.827,
+      "end": 316.418,
+      "scene_id": 20
+    },
+    {
+      "text": "zahlen",
+      "start": 316.418,
+      "end": 317.01,
+      "scene_id": 20
+    },
+    {
+      "text": "danach",
+      "start": 317.01,
+      "end": 317.601,
+      "scene_id": 20
+    },
+    {
+      "text": "oft tausende",
+      "start": 317.601,
+      "end": 318.193,
+      "scene_id": 20
+    },
+    {
+      "text": "Euro",
+      "start": 318.193,
+      "end": 318.784,
+      "scene_id": 20
+    },
+    {
+      "text": "Strafe.",
+      "start": 318.784,
+      "end": 319.376,
+      "scene_id": 20
+    },
+    {
+      "text": "Das ist",
+      "start": 319.376,
+      "end": 319.967,
+      "scene_id": 20
+    },
+    {
+      "text": "bittere",
+      "start": 319.967,
+      "end": 320.559,
+      "scene_id": 20
+    },
+    {
+      "text": "Realität.",
+      "start": 320.559,
+      "end": 321.15,
+      "scene_id": 20
+    },
+    {
+      "text": "Zahlen",
+      "start": 321.45,
+      "end": 322.006,
+      "scene_id": 21
+    },
+    {
+      "text": "des Europäischen",
+      "start": 322.006,
+      "end": 322.561,
+      "scene_id": 21
+    },
+    {
+      "text": "Luftfahrtverbandes",
+      "start": 322.561,
+      "end": 323.117,
+      "scene_id": 21
+    },
+    {
+      "text": "zeigen:",
+      "start": 323.117,
+      "end": 323.672,
+      "scene_id": 21
+    },
+    {
+      "text": "Alkohol",
+      "start": 323.672,
+      "end": 324.228,
+      "scene_id": 21
+    },
+    {
+      "text": "ist bei",
+      "start": 324.228,
+      "end": 324.783,
+      "scene_id": 21
+    },
+    {
+      "text": "über",
+      "start": 324.783,
+      "end": 325.339,
+      "scene_id": 21
+    },
+    {
+      "text": "50 Prozent",
+      "start": 325.339,
+      "end": 325.894,
+      "scene_id": 21
+    },
+    {
+      "text": "aller",
+      "start": 325.894,
+      "end": 326.45,
+      "scene_id": 21
+    },
+    {
+      "text": "Zwischenfälle",
+      "start": 326.45,
+      "end": 327.005,
+      "scene_id": 21
+    },
+    {
+      "text": "mit unruly",
+      "start": 327.005,
+      "end": 327.561,
+      "scene_id": 21
+    },
+    {
+      "text": "passengers",
+      "start": 327.561,
+      "end": 328.116,
+      "scene_id": 21
+    },
+    {
+      "text": "an Bord",
+      "start": 328.116,
+      "end": 328.672,
+      "scene_id": 21
+    },
+    {
+      "text": "beteiligt.",
+      "start": 328.672,
+      "end": 329.227,
+      "scene_id": 21
+    },
+    {
+      "text": "Jedes",
+      "start": 329.227,
+      "end": 329.783,
+      "scene_id": 21
+    },
+    {
+      "text": "Jahr",
+      "start": 329.783,
+      "end": 330.338,
+      "scene_id": 21
+    },
+    {
+      "text": "kommt",
+      "start": 330.338,
+      "end": 330.894,
+      "scene_id": 21
+    },
+    {
+      "text": "es zu",
+      "start": 330.894,
+      "end": 331.449,
+      "scene_id": 21
+    },
+    {
+      "text": "Tausenden",
+      "start": 331.449,
+      "end": 332.005,
+      "scene_id": 21
+    },
+    {
+      "text": "solcher",
+      "start": 332.005,
+      "end": 332.56,
+      "scene_id": 21
+    },
+    {
+      "text": "Vorfälle",
+      "start": 332.56,
+      "end": 333.116,
+      "scene_id": 21
+    },
+    {
+      "text": "— Verspätungen,",
+      "start": 333.116,
+      "end": 333.671,
+      "scene_id": 21
+    },
+    {
+      "text": "Notlandungen,",
+      "start": 333.671,
+      "end": 334.227,
+      "scene_id": 21
+    },
+    {
+      "text": "Verhaftungen.",
+      "start": 334.227,
+      "end": 334.782,
+      "scene_id": 21
+    },
+    {
+      "text": "Alles",
+      "start": 334.782,
+      "end": 335.338,
+      "scene_id": 21
+    },
+    {
+      "text": "wegen",
+      "start": 335.338,
+      "end": 335.893,
+      "scene_id": 21
+    },
+    {
+      "text": "eines",
+      "start": 335.893,
+      "end": 336.449,
+      "scene_id": 21
+    },
+    {
+      "text": "DRINKS",
+      "start": 336.449,
+      "end": 337.004,
+      "scene_id": 21
+    },
+    {
+      "text": "zu viel.",
+      "start": 337.004,
+      "end": 337.56,
+      "scene_id": 21
+    },
+    {
+      "text": "Hier",
+      "start": 337.86,
+      "end": 338.313,
+      "scene_id": 22
+    },
+    {
+      "text": "noch",
+      "start": 338.313,
+      "end": 338.766,
+      "scene_id": 22
+    },
+    {
+      "text": "etwas,",
+      "start": 338.766,
+      "end": 339.219,
+      "scene_id": 22
+    },
+    {
+      "text": "das die",
+      "start": 339.219,
+      "end": 339.672,
+      "scene_id": 22
+    },
+    {
+      "text": "meisten",
+      "start": 339.672,
+      "end": 340.126,
+      "scene_id": 22
+    },
+    {
+      "text": "Ärzte",
+      "start": 340.126,
+      "end": 340.579,
+      "scene_id": 22
+    },
+    {
+      "text": "erst",
+      "start": 340.579,
+      "end": 341.032,
+      "scene_id": 22
+    },
+    {
+      "text": "vor dem",
+      "start": 341.032,
+      "end": 341.485,
+      "scene_id": 22
+    },
+    {
+      "text": "Abflug",
+      "start": 341.485,
+      "end": 341.938,
+      "scene_id": 22
+    },
+    {
+      "text": "erwähnen",
+      "start": 341.938,
+      "end": 342.391,
+      "scene_id": 22
+    },
+    {
+      "text": "sollten,",
+      "start": 342.391,
+      "end": 342.844,
+      "scene_id": 22
+    },
+    {
+      "text": "aber",
+      "start": 342.844,
+      "end": 343.297,
+      "scene_id": 22
+    },
+    {
+      "text": "selten",
+      "start": 343.297,
+      "end": 343.75,
+      "scene_id": 22
+    },
+    {
+      "text": "tun: Viele",
+      "start": 343.75,
+      "end": 344.203,
+      "scene_id": 22
+    },
+    {
+      "text": "Reisende",
+      "start": 344.203,
+      "end": 344.657,
+      "scene_id": 22
+    },
+    {
+      "text": "nehmen",
+      "start": 344.657,
+      "end": 345.11,
+      "scene_id": 22
+    },
+    {
+      "text": "Beruhigungsmittel",
+      "start": 345.11,
+      "end": 345.563,
+      "scene_id": 22
+    },
+    {
+      "text": "oder",
+      "start": 345.563,
+      "end": 346.016,
+      "scene_id": 22
+    },
+    {
+      "text": "Schlaftabletten",
+      "start": 346.016,
+      "end": 346.469,
+      "scene_id": 22
+    },
+    {
+      "text": "gegen",
+      "start": 346.469,
+      "end": 346.922,
+      "scene_id": 22
+    },
+    {
+      "text": "Flugangst",
+      "start": 346.922,
+      "end": 347.375,
+      "scene_id": 22
+    },
+    {
+      "text": "— und",
+      "start": 347.375,
+      "end": 347.828,
+      "scene_id": 22
+    },
+    {
+      "text": "trinken",
+      "start": 347.828,
+      "end": 348.281,
+      "scene_id": 22
+    },
+    {
+      "text": "DAZU.",
+      "start": 348.281,
+      "end": 348.734,
+      "scene_id": 22
+    },
+    {
+      "text": "Dieser",
+      "start": 348.734,
+      "end": 349.188,
+      "scene_id": 22
+    },
+    {
+      "text": "Mix kann",
+      "start": 349.188,
+      "end": 349.641,
+      "scene_id": 22
+    },
+    {
+      "text": "an Bord",
+      "start": 349.641,
+      "end": 350.094,
+      "scene_id": 22
+    },
+    {
+      "text": "lebensbedrohlich",
+      "start": 350.094,
+      "end": 350.547,
+      "scene_id": 22
+    },
+    {
+      "text": "werden.",
+      "start": 350.547,
+      "end": 351.0,
+      "scene_id": 22
+    },
+    {
+      "text": "Und dann",
+      "start": 351.3,
+      "end": 352.009,
+      "scene_id": 23
+    },
+    {
+      "text": "ist da",
+      "start": 352.009,
+      "end": 352.718,
+      "scene_id": 23
+    },
+    {
+      "text": "noch",
+      "start": 352.718,
+      "end": 353.427,
+      "scene_id": 23
+    },
+    {
+      "text": "das Thrombose-Thema.",
+      "start": 353.427,
+      "end": 354.136,
+      "scene_id": 23
+    },
+    {
+      "text": "Langes",
+      "start": 354.136,
+      "end": 354.844,
+      "scene_id": 23
+    },
+    {
+      "text": "Sitzen",
+      "start": 354.844,
+      "end": 355.553,
+      "scene_id": 23
+    },
+    {
+      "text": "erhöht",
+      "start": 355.553,
+      "end": 356.262,
+      "scene_id": 23
+    },
+    {
+      "text": "das Risiko",
+      "start": 356.262,
+      "end": 356.971,
+      "scene_id": 23
+    },
+    {
+      "text": "für tiefe",
+      "start": 356.971,
+      "end": 357.68,
+      "scene_id": 23
+    },
+    {
+      "text": "Venenthrombose",
+      "start": 357.68,
+      "end": 358.389,
+      "scene_id": 23
+    },
+    {
+      "text": "— das",
+      "start": 358.389,
+      "end": 359.098,
+      "scene_id": 23
+    },
+    {
+      "text": "ist bekannt.",
+      "start": 359.098,
+      "end": 359.807,
+      "scene_id": 23
+    },
+    {
+      "text": "Was kaum",
+      "start": 359.807,
+      "end": 360.516,
+      "scene_id": 23
+    },
+    {
+      "text": "jemand",
+      "start": 360.516,
+      "end": 361.224,
+      "scene_id": 23
+    },
+    {
+      "text": "sagt:",
+      "start": 361.224,
+      "end": 361.933,
+      "scene_id": 23
+    },
+    {
+      "text": "Alkohol",
+      "start": 361.933,
+      "end": 362.642,
+      "scene_id": 23
+    },
+    {
+      "text": "VERSTÄRKT",
+      "start": 362.642,
+      "end": 363.351,
+      "scene_id": 23
+    },
+    {
+      "text": "dieses",
+      "start": 363.351,
+      "end": 364.06,
+      "scene_id": 23
+    },
+    {
+      "text": "Risiko",
+      "start": 364.06,
+      "end": 364.769,
+      "scene_id": 23
+    },
+    {
+      "text": "erheblich,",
+      "start": 364.769,
+      "end": 365.478,
+      "scene_id": 23
+    },
+    {
+      "text": "weil",
+      "start": 365.478,
+      "end": 366.187,
+      "scene_id": 23
+    },
+    {
+      "text": "er entwässert",
+      "start": 366.187,
+      "end": 366.896,
+      "scene_id": 23
+    },
+    {
+      "text": "und die",
+      "start": 366.896,
+      "end": 367.604,
+      "scene_id": 23
+    },
+    {
+      "text": "Blutgerinnung",
+      "start": 367.604,
+      "end": 368.313,
+      "scene_id": 23
+    },
+    {
+      "text": "beeinflusst.",
+      "start": 368.313,
+      "end": 369.022,
+      "scene_id": 23
+    },
+    {
+      "text": "Besonders",
+      "start": 369.022,
+      "end": 369.731,
+      "scene_id": 23
+    },
+    {
+      "text": "auf Langstrecke.",
+      "start": 369.731,
+      "end": 370.44,
+      "scene_id": 23
+    },
+    {
+      "text": "In der",
+      "start": 370.74,
+      "end": 371.229,
+      "scene_id": 24
+    },
+    {
+      "text": "First",
+      "start": 371.229,
+      "end": 371.718,
+      "scene_id": 24
+    },
+    {
+      "text": "Class",
+      "start": 371.718,
+      "end": 372.207,
+      "scene_id": 24
+    },
+    {
+      "text": "fließt",
+      "start": 372.207,
+      "end": 372.697,
+      "scene_id": 24
+    },
+    {
+      "text": "der Alkohol",
+      "start": 372.697,
+      "end": 373.186,
+      "scene_id": 24
+    },
+    {
+      "text": "freier",
+      "start": 373.186,
+      "end": 373.675,
+      "scene_id": 24
+    },
+    {
+      "text": "als irgendwo",
+      "start": 373.675,
+      "end": 374.164,
+      "scene_id": 24
+    },
+    {
+      "text": "sonst",
+      "start": 374.164,
+      "end": 374.653,
+      "scene_id": 24
+    },
+    {
+      "text": "— und",
+      "start": 374.653,
+      "end": 375.142,
+      "scene_id": 24
+    },
+    {
+      "text": "das ist",
+      "start": 375.142,
+      "end": 375.631,
+      "scene_id": 24
+    },
+    {
+      "text": "kein",
+      "start": 375.631,
+      "end": 376.121,
+      "scene_id": 24
+    },
+    {
+      "text": "Zufall.",
+      "start": 376.121,
+      "end": 376.61,
+      "scene_id": 24
+    },
+    {
+      "text": "Airlines",
+      "start": 376.61,
+      "end": 377.099,
+      "scene_id": 24
+    },
+    {
+      "text": "haben",
+      "start": 377.099,
+      "end": 377.588,
+      "scene_id": 24
+    },
+    {
+      "text": "festgestellt,",
+      "start": 377.588,
+      "end": 378.077,
+      "scene_id": 24
+    },
+    {
+      "text": "dass",
+      "start": 378.077,
+      "end": 378.566,
+      "scene_id": 24
+    },
+    {
+      "text": "Passagiere",
+      "start": 378.566,
+      "end": 379.055,
+      "scene_id": 24
+    },
+    {
+      "text": "mit teurem",
+      "start": 379.055,
+      "end": 379.545,
+      "scene_id": 24
+    },
+    {
+      "text": "Ticket",
+      "start": 379.545,
+      "end": 380.034,
+      "scene_id": 24
+    },
+    {
+      "text": "bei freiem",
+      "start": 380.034,
+      "end": 380.523,
+      "scene_id": 24
+    },
+    {
+      "text": "Alkohol",
+      "start": 380.523,
+      "end": 381.012,
+      "scene_id": 24
+    },
+    {
+      "text": "ihre",
+      "start": 381.012,
+      "end": 381.501,
+      "scene_id": 24
+    },
+    {
+      "text": "Premium-Erfahrung",
+      "start": 381.501,
+      "end": 381.99,
+      "scene_id": 24
+    },
+    {
+      "text": "viel",
+      "start": 381.99,
+      "end": 382.479,
+      "scene_id": 24
+    },
+    {
+      "text": "höher",
+      "start": 382.479,
+      "end": 382.969,
+      "scene_id": 24
+    },
+    {
+      "text": "bewerten.",
+      "start": 382.969,
+      "end": 383.458,
+      "scene_id": 24
+    },
+    {
+      "text": "Du zahlst",
+      "start": 383.458,
+      "end": 383.947,
+      "scene_id": 24
+    },
+    {
+      "text": "nicht",
+      "start": 383.947,
+      "end": 384.436,
+      "scene_id": 24
+    },
+    {
+      "text": "für den",
+      "start": 384.436,
+      "end": 384.925,
+      "scene_id": 24
+    },
+    {
+      "text": "Champagner.",
+      "start": 384.925,
+      "end": 385.414,
+      "scene_id": 24
+    },
+    {
+      "text": "Du zahlst",
+      "start": 385.414,
+      "end": 385.903,
+      "scene_id": 24
+    },
+    {
+      "text": "dafür,",
+      "start": 385.903,
+      "end": 386.393,
+      "scene_id": 24
+    },
+    {
+      "text": "dass",
+      "start": 386.393,
+      "end": 386.882,
+      "scene_id": 24
+    },
+    {
+      "text": "du GLÜCKLICH",
+      "start": 386.882,
+      "end": 387.371,
+      "scene_id": 24
+    },
+    {
+      "text": "bist.",
+      "start": 387.371,
+      "end": 387.86,
+      "scene_id": 24
+    },
+    {
+      "text": "Erfahrene",
+      "start": 388.16,
+      "end": 388.724,
+      "scene_id": 25
+    },
+    {
+      "text": "Vielflieger",
+      "start": 388.724,
+      "end": 389.289,
+      "scene_id": 25
+    },
+    {
+      "text": "und Flugmediziner",
+      "start": 389.289,
+      "end": 389.853,
+      "scene_id": 25
+    },
+    {
+      "text": "sind",
+      "start": 389.853,
+      "end": 390.417,
+      "scene_id": 25
+    },
+    {
+      "text": "sich",
+      "start": 390.417,
+      "end": 390.982,
+      "scene_id": 25
+    },
+    {
+      "text": "einig:",
+      "start": 390.982,
+      "end": 391.546,
+      "scene_id": 25
+    },
+    {
+      "text": "Das Beste",
+      "start": 391.546,
+      "end": 392.11,
+      "scene_id": 25
+    },
+    {
+      "text": "im Flieger",
+      "start": 392.11,
+      "end": 392.675,
+      "scene_id": 25
+    },
+    {
+      "text": "ist Wasser",
+      "start": 392.675,
+      "end": 393.239,
+      "scene_id": 25
+    },
+    {
+      "text": "— viel",
+      "start": 393.239,
+      "end": 393.803,
+      "scene_id": 25
+    },
+    {
+      "text": "davon.",
+      "start": 393.803,
+      "end": 394.368,
+      "scene_id": 25
+    },
+    {
+      "text": "Wer dennoch",
+      "start": 394.368,
+      "end": 394.932,
+      "scene_id": 25
+    },
+    {
+      "text": "trinkt,",
+      "start": 394.932,
+      "end": 395.496,
+      "scene_id": 25
+    },
+    {
+      "text": "sollte",
+      "start": 395.496,
+      "end": 396.061,
+      "scene_id": 25
+    },
+    {
+      "text": "es auf",
+      "start": 396.061,
+      "end": 396.625,
+      "scene_id": 25
+    },
+    {
+      "text": "ein, maximal",
+      "start": 396.625,
+      "end": 397.189,
+      "scene_id": 25
+    },
+    {
+      "text": "zwei",
+      "start": 397.189,
+      "end": 397.754,
+      "scene_id": 25
+    },
+    {
+      "text": "Gläser",
+      "start": 397.754,
+      "end": 398.318,
+      "scene_id": 25
+    },
+    {
+      "text": "begrenzen,",
+      "start": 398.318,
+      "end": 398.882,
+      "scene_id": 25
+    },
+    {
+      "text": "viel",
+      "start": 398.882,
+      "end": 399.447,
+      "scene_id": 25
+    },
+    {
+      "text": "Wasser",
+      "start": 399.447,
+      "end": 400.011,
+      "scene_id": 25
+    },
+    {
+      "text": "dazutrinken",
+      "start": 400.011,
+      "end": 400.575,
+      "scene_id": 25
+    },
+    {
+      "text": "und Medikamente",
+      "start": 400.575,
+      "end": 401.14,
+      "scene_id": 25
+    },
+    {
+      "text": "KONSEQUENT",
+      "start": 401.14,
+      "end": 401.704,
+      "scene_id": 25
+    },
+    {
+      "text": "weglassen.",
+      "start": 401.704,
+      "end": 402.268,
+      "scene_id": 25
+    },
+    {
+      "text": "Das ist",
+      "start": 402.268,
+      "end": 402.833,
+      "scene_id": 25
+    },
+    {
+      "text": "kein",
+      "start": 402.833,
+      "end": 403.397,
+      "scene_id": 25
+    },
+    {
+      "text": "Verzicht.",
+      "start": 403.397,
+      "end": 403.961,
+      "scene_id": 25
+    },
+    {
+      "text": "Das ist",
+      "start": 403.961,
+      "end": 404.526,
+      "scene_id": 25
+    },
+    {
+      "text": "smart.",
+      "start": 404.526,
+      "end": 405.09,
+      "scene_id": 25
+    },
+    {
+      "text": "Eins",
+      "start": 405.39,
+      "end": 405.836,
+      "scene_id": 26
+    },
+    {
+      "text": "noch",
+      "start": 405.836,
+      "end": 406.281,
+      "scene_id": 26
+    },
+    {
+      "text": "— und",
+      "start": 406.281,
+      "end": 406.727,
+      "scene_id": 26
+    },
+    {
+      "text": "das überrascht",
+      "start": 406.727,
+      "end": 407.173,
+      "scene_id": 26
+    },
+    {
+      "text": "wirklich",
+      "start": 407.173,
+      "end": 407.618,
+      "scene_id": 26
+    },
+    {
+      "text": "fast",
+      "start": 407.618,
+      "end": 408.064,
+      "scene_id": 26
+    },
+    {
+      "text": "jeden:",
+      "start": 408.064,
+      "end": 408.509,
+      "scene_id": 26
+    },
+    {
+      "text": "Alkohol",
+      "start": 408.509,
+      "end": 408.955,
+      "scene_id": 26
+    },
+    {
+      "text": "an Bord",
+      "start": 408.955,
+      "end": 409.401,
+      "scene_id": 26
+    },
+    {
+      "text": "macht",
+      "start": 409.401,
+      "end": 409.846,
+      "scene_id": 26
+    },
+    {
+      "text": "deinen",
+      "start": 409.846,
+      "end": 410.292,
+      "scene_id": 26
+    },
+    {
+      "text": "Jetlag",
+      "start": 410.292,
+      "end": 410.738,
+      "scene_id": 26
+    },
+    {
+      "text": "deutlich",
+      "start": 410.738,
+      "end": 411.183,
+      "scene_id": 26
+    },
+    {
+      "text": "SCHLIMMER.",
+      "start": 411.183,
+      "end": 411.629,
+      "scene_id": 26
+    },
+    {
+      "text": "Er verschiebt",
+      "start": 411.629,
+      "end": 412.074,
+      "scene_id": 26
+    },
+    {
+      "text": "deinen",
+      "start": 412.074,
+      "end": 412.52,
+      "scene_id": 26
+    },
+    {
+      "text": "circadianen",
+      "start": 412.52,
+      "end": 412.966,
+      "scene_id": 26
+    },
+    {
+      "text": "Rhythmus",
+      "start": 412.966,
+      "end": 413.411,
+      "scene_id": 26
+    },
+    {
+      "text": "in die",
+      "start": 413.411,
+      "end": 413.857,
+      "scene_id": 26
+    },
+    {
+      "text": "falsche",
+      "start": 413.857,
+      "end": 414.303,
+      "scene_id": 26
+    },
+    {
+      "text": "Richtung.",
+      "start": 414.303,
+      "end": 414.748,
+      "scene_id": 26
+    },
+    {
+      "text": "Du glaubst,",
+      "start": 414.748,
+      "end": 415.194,
+      "scene_id": 26
+    },
+    {
+      "text": "du schläfst",
+      "start": 415.194,
+      "end": 415.639,
+      "scene_id": 26
+    },
+    {
+      "text": "besser",
+      "start": 415.639,
+      "end": 416.085,
+      "scene_id": 26
+    },
+    {
+      "text": "ein —",
+      "start": 416.085,
+      "end": 416.531,
+      "scene_id": 26
+    },
+    {
+      "text": "aber",
+      "start": 416.531,
+      "end": 416.976,
+      "scene_id": 26
+    },
+    {
+      "text": "dein",
+      "start": 416.976,
+      "end": 417.422,
+      "scene_id": 26
+    },
+    {
+      "text": "innerer",
+      "start": 417.422,
+      "end": 417.868,
+      "scene_id": 26
+    },
+    {
+      "text": "Takt",
+      "start": 417.868,
+      "end": 418.313,
+      "scene_id": 26
+    },
+    {
+      "text": "gerät",
+      "start": 418.313,
+      "end": 418.759,
+      "scene_id": 26
+    },
+    {
+      "text": "komplett",
+      "start": 418.759,
+      "end": 419.204,
+      "scene_id": 26
+    },
+    {
+      "text": "durcheinander.",
+      "start": 419.204,
+      "end": 419.65,
+      "scene_id": 26
+    },
+    {
+      "text": "Acht",
+      "start": 419.95,
+      "end": 420.52,
+      "scene_id": 27
+    },
+    {
+      "text": "Lügen",
+      "start": 420.52,
+      "end": 421.091,
+      "scene_id": 27
+    },
+    {
+      "text": "— und",
+      "start": 421.091,
+      "end": 421.661,
+      "scene_id": 27
+    },
+    {
+      "text": "fast",
+      "start": 421.661,
+      "end": 422.231,
+      "scene_id": 27
+    },
+    {
+      "text": "alle",
+      "start": 422.231,
+      "end": 422.802,
+      "scene_id": 27
+    },
+    {
+      "text": "haben",
+      "start": 422.802,
+      "end": 423.372,
+      "scene_id": 27
+    },
+    {
+      "text": "eines",
+      "start": 423.372,
+      "end": 423.942,
+      "scene_id": 27
+    },
+    {
+      "text": "gemeinsam:",
+      "start": 423.942,
+      "end": 424.513,
+      "scene_id": 27
+    },
+    {
+      "text": "Sie halten",
+      "start": 424.513,
+      "end": 425.083,
+      "scene_id": 27
+    },
+    {
+      "text": "uns in",
+      "start": 425.083,
+      "end": 425.653,
+      "scene_id": 27
+    },
+    {
+      "text": "einer",
+      "start": 425.653,
+      "end": 426.224,
+      "scene_id": 27
+    },
+    {
+      "text": "angenehmen",
+      "start": 426.224,
+      "end": 426.794,
+      "scene_id": 27
+    },
+    {
+      "text": "Unwissenheit.",
+      "start": 426.794,
+      "end": 427.364,
+      "scene_id": 27
+    },
+    {
+      "text": "Airlines,",
+      "start": 427.364,
+      "end": 427.935,
+      "scene_id": 27
+    },
+    {
+      "text": "Mythen",
+      "start": 427.935,
+      "end": 428.505,
+      "scene_id": 27
+    },
+    {
+      "text": "und unser",
+      "start": 428.505,
+      "end": 429.076,
+      "scene_id": 27
+    },
+    {
+      "text": "eigenes",
+      "start": 429.076,
+      "end": 429.646,
+      "scene_id": 27
+    },
+    {
+      "text": "Gefühl",
+      "start": 429.646,
+      "end": 430.216,
+      "scene_id": 27
+    },
+    {
+      "text": "arbeiten",
+      "start": 430.216,
+      "end": 430.787,
+      "scene_id": 27
+    },
+    {
+      "text": "dabei",
+      "start": 430.787,
+      "end": 431.357,
+      "scene_id": 27
+    },
+    {
+      "text": "zusammen.",
+      "start": 431.357,
+      "end": 431.927,
+      "scene_id": 27
+    },
+    {
+      "text": "Das macht",
+      "start": 431.927,
+      "end": 432.498,
+      "scene_id": 27
+    },
+    {
+      "text": "es so",
+      "start": 432.498,
+      "end": 433.068,
+      "scene_id": 27
+    },
+    {
+      "text": "SCHWER,",
+      "start": 433.068,
+      "end": 433.638,
+      "scene_id": 27
+    },
+    {
+      "text": "die Wahrheit",
+      "start": 433.638,
+      "end": 434.209,
+      "scene_id": 27
+    },
+    {
+      "text": "zu erkennen",
+      "start": 434.209,
+      "end": 434.779,
+      "scene_id": 27
+    },
+    {
+      "text": "— bis",
+      "start": 434.779,
+      "end": 435.349,
+      "scene_id": 27
+    },
+    {
+      "text": "man sie",
+      "start": 435.349,
+      "end": 435.92,
+      "scene_id": 27
+    },
+    {
+      "text": "kennt.",
+      "start": 435.92,
+      "end": 436.49,
+      "scene_id": 27
+    },
+    {
+      "text": "Was kannst",
+      "start": 436.79,
+      "end": 437.351,
+      "scene_id": 28
+    },
+    {
+      "text": "du jetzt",
+      "start": 437.351,
+      "end": 437.913,
+      "scene_id": 28
+    },
+    {
+      "text": "mitnehmen?",
+      "start": 437.913,
+      "end": 438.474,
+      "scene_id": 28
+    },
+    {
+      "text": "Vor dem",
+      "start": 438.474,
+      "end": 439.036,
+      "scene_id": 28
+    },
+    {
+      "text": "Flug",
+      "start": 439.036,
+      "end": 439.597,
+      "scene_id": 28
+    },
+    {
+      "text": "gut essen",
+      "start": 439.597,
+      "end": 440.158,
+      "scene_id": 28
+    },
+    {
+      "text": "und hydrieren.",
+      "start": 440.158,
+      "end": 440.72,
+      "scene_id": 28
+    },
+    {
+      "text": "An Bord",
+      "start": 440.72,
+      "end": 441.281,
+      "scene_id": 28
+    },
+    {
+      "text": "Alkohol",
+      "start": 441.281,
+      "end": 441.842,
+      "scene_id": 28
+    },
+    {
+      "text": "nur in",
+      "start": 441.842,
+      "end": 442.404,
+      "scene_id": 28
+    },
+    {
+      "text": "Maßen",
+      "start": 442.404,
+      "end": 442.965,
+      "scene_id": 28
+    },
+    {
+      "text": "— höchstens",
+      "start": 442.965,
+      "end": 443.527,
+      "scene_id": 28
+    },
+    {
+      "text": "ein bis",
+      "start": 443.527,
+      "end": 444.088,
+      "scene_id": 28
+    },
+    {
+      "text": "zwei",
+      "start": 444.088,
+      "end": 444.649,
+      "scene_id": 28
+    },
+    {
+      "text": "Drinks.",
+      "start": 444.649,
+      "end": 445.211,
+      "scene_id": 28
+    },
+    {
+      "text": "Kein",
+      "start": 445.211,
+      "end": 445.772,
+      "scene_id": 28
+    },
+    {
+      "text": "Alkohol",
+      "start": 445.772,
+      "end": 446.333,
+      "scene_id": 28
+    },
+    {
+      "text": "zusammen",
+      "start": 446.333,
+      "end": 446.895,
+      "scene_id": 28
+    },
+    {
+      "text": "mit Schlafmitteln.",
+      "start": 446.895,
+      "end": 447.456,
+      "scene_id": 28
+    },
+    {
+      "text": "Immer",
+      "start": 447.456,
+      "end": 448.018,
+      "scene_id": 28
+    },
+    {
+      "text": "Wasser",
+      "start": 448.018,
+      "end": 448.579,
+      "scene_id": 28
+    },
+    {
+      "text": "DAZU.",
+      "start": 448.579,
+      "end": 449.14,
+      "scene_id": 28
+    },
+    {
+      "text": "Diese",
+      "start": 449.14,
+      "end": 449.702,
+      "scene_id": 28
+    },
+    {
+      "text": "vier",
+      "start": 449.702,
+      "end": 450.263,
+      "scene_id": 28
+    },
+    {
+      "text": "Regeln",
+      "start": 450.263,
+      "end": 450.824,
+      "scene_id": 28
+    },
+    {
+      "text": "machen",
+      "start": 450.824,
+      "end": 451.386,
+      "scene_id": 28
+    },
+    {
+      "text": "einen",
+      "start": 451.386,
+      "end": 451.947,
+      "scene_id": 28
+    },
+    {
+      "text": "riesigen",
+      "start": 451.947,
+      "end": 452.509,
+      "scene_id": 28
+    },
+    {
+      "text": "Unterschied.",
+      "start": 452.509,
+      "end": 453.07,
+      "scene_id": 28
+    },
+    {
+      "text": "Übrigens:",
+      "start": 453.37,
+      "end": 453.831,
+      "scene_id": 29
+    },
+    {
+      "text": "Es gibt",
+      "start": 453.831,
+      "end": 454.293,
+      "scene_id": 29
+    },
+    {
+      "text": "noch",
+      "start": 454.293,
+      "end": 454.754,
+      "scene_id": 29
+    },
+    {
+      "text": "mehr",
+      "start": 454.754,
+      "end": 455.216,
+      "scene_id": 29
+    },
+    {
+      "text": "Geheimnisse,",
+      "start": 455.216,
+      "end": 455.677,
+      "scene_id": 29
+    },
+    {
+      "text": "die Airlines",
+      "start": 455.677,
+      "end": 456.139,
+      "scene_id": 29
+    },
+    {
+      "text": "lieber",
+      "start": 456.139,
+      "end": 456.6,
+      "scene_id": 29
+    },
+    {
+      "text": "für sich",
+      "start": 456.6,
+      "end": 457.062,
+      "scene_id": 29
+    },
+    {
+      "text": "behalten",
+      "start": 457.062,
+      "end": 457.523,
+      "scene_id": 29
+    },
+    {
+      "text": "— von",
+      "start": 457.523,
+      "end": 457.985,
+      "scene_id": 29
+    },
+    {
+      "text": "der Kabinenluft",
+      "start": 457.985,
+      "end": 458.446,
+      "scene_id": 29
+    },
+    {
+      "text": "bis zu",
+      "start": 458.446,
+      "end": 458.908,
+      "scene_id": 29
+    },
+    {
+      "text": "den wahren",
+      "start": 458.908,
+      "end": 459.369,
+      "scene_id": 29
+    },
+    {
+      "text": "Kosten",
+      "start": 459.369,
+      "end": 459.831,
+      "scene_id": 29
+    },
+    {
+      "text": "deines",
+      "start": 459.831,
+      "end": 460.292,
+      "scene_id": 29
+    },
+    {
+      "text": "Tickets.",
+      "start": 460.292,
+      "end": 460.754,
+      "scene_id": 29
+    },
+    {
+      "text": "Wenn",
+      "start": 460.754,
+      "end": 461.215,
+      "scene_id": 29
+    },
+    {
+      "text": "du auch",
+      "start": 461.215,
+      "end": 461.677,
+      "scene_id": 29
+    },
+    {
+      "text": "das erfahren",
+      "start": 461.677,
+      "end": 462.138,
+      "scene_id": 29
+    },
+    {
+      "text": "willst,",
+      "start": 462.138,
+      "end": 462.6,
+      "scene_id": 29
+    },
+    {
+      "text": "dann",
+      "start": 462.6,
+      "end": 463.061,
+      "scene_id": 29
+    },
+    {
+      "text": "schau",
+      "start": 463.061,
+      "end": 463.523,
+      "scene_id": 29
+    },
+    {
+      "text": "dir unsere",
+      "start": 463.523,
+      "end": 463.984,
+      "scene_id": 29
+    },
+    {
+      "text": "nächsten",
+      "start": 463.984,
+      "end": 464.446,
+      "scene_id": 29
+    },
+    {
+      "text": "Videos",
+      "start": 464.446,
+      "end": 464.907,
+      "scene_id": 29
+    },
+    {
+      "text": "UNBEDINGT",
+      "start": 464.907,
+      "end": 465.369,
+      "scene_id": 29
+    },
+    {
+      "text": "an.",
+      "start": 465.369,
+      "end": 465.83,
+      "scene_id": 29
+    },
+    {
+      "text": "Wenn",
+      "start": 466.13,
+      "end": 466.597,
+      "scene_id": 30
+    },
+    {
+      "text": "dir dieses",
+      "start": 466.597,
+      "end": 467.065,
+      "scene_id": 30
+    },
+    {
+      "text": "Video",
+      "start": 467.065,
+      "end": 467.532,
+      "scene_id": 30
+    },
+    {
+      "text": "etwas",
+      "start": 467.532,
+      "end": 468.0,
+      "scene_id": 30
+    },
+    {
+      "text": "gebracht",
+      "start": 468.0,
+      "end": 468.467,
+      "scene_id": 30
+    },
+    {
+      "text": "hat —",
+      "start": 468.467,
+      "end": 468.935,
+      "scene_id": 30
+    },
+    {
+      "text": "ein Abo",
+      "start": 468.935,
+      "end": 469.402,
+      "scene_id": 30
+    },
+    {
+      "text": "kostet",
+      "start": 469.402,
+      "end": 469.87,
+      "scene_id": 30
+    },
+    {
+      "text": "dich",
+      "start": 469.87,
+      "end": 470.337,
+      "scene_id": 30
+    },
+    {
+      "text": "nichts,",
+      "start": 470.337,
+      "end": 470.805,
+      "scene_id": 30
+    },
+    {
+      "text": "aber",
+      "start": 470.805,
+      "end": 471.272,
+      "scene_id": 30
+    },
+    {
+      "text": "es bedeutet,",
+      "start": 471.272,
+      "end": 471.74,
+      "scene_id": 30
+    },
+    {
+      "text": "dass",
+      "start": 471.74,
+      "end": 472.207,
+      "scene_id": 30
+    },
+    {
+      "text": "du beim",
+      "start": 472.207,
+      "end": 472.675,
+      "scene_id": 30
+    },
+    {
+      "text": "nächsten",
+      "start": 472.675,
+      "end": 473.142,
+      "scene_id": 30
+    },
+    {
+      "text": "Flug",
+      "start": 473.142,
+      "end": 473.61,
+      "scene_id": 30
+    },
+    {
+      "text": "besser",
+      "start": 473.61,
+      "end": 474.077,
+      "scene_id": 30
+    },
+    {
+      "text": "informiert",
+      "start": 474.077,
+      "end": 474.545,
+      "scene_id": 30
+    },
+    {
+      "text": "bist",
+      "start": 474.545,
+      "end": 475.012,
+      "scene_id": 30
+    },
+    {
+      "text": "als alle",
+      "start": 475.012,
+      "end": 475.48,
+      "scene_id": 30
+    },
+    {
+      "text": "anderen",
+      "start": 475.48,
+      "end": 475.947,
+      "scene_id": 30
+    },
+    {
+      "text": "im Flieger.",
+      "start": 475.947,
+      "end": 476.415,
+      "scene_id": 30
+    },
+    {
+      "text": "Klick",
+      "start": 476.415,
+      "end": 476.882,
+      "scene_id": 30
+    },
+    {
+      "text": "auf Abonnieren.",
+      "start": 476.882,
+      "end": 477.35,
+      "scene_id": 30
+    },
+    {
+      "text": "Und schreib",
+      "start": 477.35,
+      "end": 477.817,
+      "scene_id": 30
+    },
+    {
+      "text": "uns in",
+      "start": 477.817,
+      "end": 478.285,
+      "scene_id": 30
+    },
+    {
+      "text": "den Kommentaren:",
+      "start": 478.285,
+      "end": 478.752,
+      "scene_id": 30
+    },
+    {
+      "text": "Welche",
+      "start": 478.752,
+      "end": 479.22,
+      "scene_id": 30
+    },
+    {
+      "text": "Lüge",
+      "start": 479.22,
+      "end": 479.687,
+      "scene_id": 30
+    },
+    {
+      "text": "hat dich",
+      "start": 479.688,
+      "end": 480.155,
+      "scene_id": 30
+    },
+    {
+      "text": "am MEISTEN",
+      "start": 480.155,
+      "end": 480.622,
+      "scene_id": 30
+    },
+    {
+      "text": "überrascht?",
+      "start": 480.623,
+      "end": 481.09,
+      "scene_id": 30
+    }
+  ]
+}

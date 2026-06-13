@@ -1,0 +1,148 @@
+{
+  "cards": [
+    {
+      "id": "chap-l1",
+      "path": "card-frames/chap-l1.png",
+      "inTime": 44.6,
+      "outTime": 56.6
+    },
+    {
+      "id": "chap-l2",
+      "path": "card-frames/chap-l2.png",
+      "inTime": 75.2,
+      "outTime": 87.2
+    },
+    {
+      "id": "chap-l3",
+      "path": "card-frames/chap-l3.png",
+      "inTime": 106.4,
+      "outTime": 118.4
+    },
+    {
+      "id": "chap-l4",
+      "path": "card-frames/chap-l4.png",
+      "inTime": 137.3,
+      "outTime": 149.3
+    },
+    {
+      "id": "chap-l5",
+      "path": "card-frames/chap-l5.png",
+      "inTime": 167.8,
+      "outTime": 179.8
+    },
+    {
+      "id": "chap-l6",
+      "path": "card-frames/chap-l6.png",
+      "inTime": 211,
+      "outTime": 223
+    },
+    {
+      "id": "chap-l7",
+      "path": "card-frames/chap-l7.png",
+      "inTime": 243.2,
+      "outTime": 255.2
+    },
+    {
+      "id": "chap-l8",
+      "path": "card-frames/chap-l8.png",
+      "inTime": 277.2,
+      "outTime": 289.2
+    },
+    {
+      "id": "stat-schlaf",
+      "path": "card-frames/stat-schlaf.png",
+      "inTime": 57.7,
+      "outTime": 67.7
+    },
+    {
+      "id": "stat-aroma",
+      "path": "card-frames/stat-aroma.png",
+      "inTime": 121,
+      "outTime": 131
+    },
+    {
+      "id": "stat-iata",
+      "path": "card-frames/stat-iata.png",
+      "inTime": 181.7,
+      "outTime": 191.7
+    },
+    {
+      "id": "stat-leber",
+      "path": "card-frames/stat-leber.png",
+      "inTime": 227.6,
+      "outTime": 237.6
+    },
+    {
+      "id": "stat-50pct",
+      "path": "card-frames/stat-50pct.png",
+      "inTime": 311.5,
+      "outTime": 321.5
+    },
+    {
+      "id": "alert-fahren",
+      "path": "card-frames/alert-fahren.png",
+      "inTime": 150.7,
+      "outTime": 160.7
+    },
+    {
+      "id": "alert-rauswurf",
+      "path": "card-frames/alert-rauswurf.png",
+      "inTime": 295.7,
+      "outTime": 305.7
+    },
+    {
+      "id": "alert-medis",
+      "path": "card-frames/alert-medis.png",
+      "inTime": 327.4,
+      "outTime": 337.4
+    },
+    {
+      "id": "alert-thrombose",
+      "path": "card-frames/alert-thrombose.png",
+      "inTime": 340.4,
+      "outTime": 350.4
+    },
+    {
+      "id": "key-essen",
+      "path": "card-frames/key-essen.png",
+      "inTime": 423,
+      "outTime": 433
+    },
+    {
+      "id": "key-maßen",
+      "path": "card-frames/key-maßen.png",
+      "inTime": 436,
+      "outTime": 446
+    },
+    {
+      "id": "key-medis",
+      "path": "card-frames/key-medis.png",
+      "inTime": 449,
+      "outTime": 459
+    },
+    {
+      "id": "src-koeln",
+      "path": "card-frames/src-koeln.png",
+      "inTime": 57.7,
+      "outTime": 69.7
+    },
+    {
+      "id": "src-fraunhofer",
+      "path": "card-frames/src-fraunhofer.png",
+      "inTime": 121,
+      "outTime": 133
+    },
+    {
+      "id": "src-iata",
+      "path": "card-frames/src-iata.png",
+      "inTime": 181.7,
+      "outTime": 193.7
+    },
+    {
+      "id": "src-luftfahrt",
+      "path": "card-frames/src-luftfahrt.png",
+      "inTime": 311.5,
+      "outTime": 323.5
+    }
+  ]
+}
