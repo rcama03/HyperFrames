@@ -1,0 +1,100 @@
+{
+  "cards": [
+    {
+      "id": "chap-frankfurt",
+      "path": "card-frames/chap-frankfurt.png",
+      "inTime": 65.8,
+      "outTime": 77.8
+    },
+    {
+      "id": "chap-muenchen",
+      "path": "card-frames/chap-muenchen.png",
+      "inTime": 142.8,
+      "outTime": 154.8
+    },
+    {
+      "id": "chap-berlin",
+      "path": "card-frames/chap-berlin.png",
+      "inTime": 206,
+      "outTime": 218
+    },
+    {
+      "id": "stat-30pct",
+      "path": "card-frames/stat-30pct.png",
+      "inTime": 18.9,
+      "outTime": 28.9
+    },
+    {
+      "id": "stat-2mio",
+      "path": "card-frames/stat-2mio.png",
+      "inTime": 34.1,
+      "outTime": 44.1
+    },
+    {
+      "id": "stat-60mio",
+      "path": "card-frames/stat-60mio.png",
+      "inTime": 81.6,
+      "outTime": 91.6
+    },
+    {
+      "id": "stat-600eu",
+      "path": "card-frames/stat-600eu.png",
+      "inTime": 286.4,
+      "outTime": 296.4
+    },
+    {
+      "id": "alert-skytrain",
+      "path": "card-frames/alert-skytrain.png",
+      "inTime": 125.8,
+      "outTime": 135.8
+    },
+    {
+      "id": "alert-getrennt",
+      "path": "card-frames/alert-getrennt.png",
+      "inTime": 254.1,
+      "outTime": 264.1
+    },
+    {
+      "id": "alert-gepaeck",
+      "path": "card-frames/alert-gepaeck.png",
+      "inTime": 318.2,
+      "outTime": 328.2
+    },
+    {
+      "id": "key-90min",
+      "path": "card-frames/key-90min.png",
+      "inTime": 111.6,
+      "outTime": 121.6
+    },
+    {
+      "id": "key-fruehflug",
+      "path": "card-frames/key-fruehflug.png",
+      "inTime": 333.3,
+      "outTime": 343.3
+    },
+    {
+      "id": "key-apps",
+      "path": "card-frames/key-apps.png",
+      "inTime": 380.4,
+      "outTime": 390.4
+    },
+    {
+      "id": "src-lufthansa",
+      "path": "card-frames/src-lufthansa.png",
+      "inTime": 65.8,
+      "outTime": 77.8
+    },
+    {
+      "id": "src-eu261",
+      "path": "card-frames/src-eu261.png",
+      "inTime": 286.4,
+      "outTime": 298.4
+    },
+    {
+      "id": "src-flightradar",
+      "path": "card-frames/src-flightradar.png",
+      "inTime": 380.4,
+      "outTime": 392.4
+    }
+  ]
+}
