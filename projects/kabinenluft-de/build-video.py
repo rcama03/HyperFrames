@@ -24,7 +24,7 @@ BAR_H      = 8
 FPS        = 25
 TOTAL_FRAMES = int(DURATION * FPS)
 
-CRF        = 23
+CRF        = 26
 
 # Chapter transitions → zoom in
 ZOOM_TIMES  = [87.05, 170.47, 261.81, 349.35, 426.32, 513.10]
