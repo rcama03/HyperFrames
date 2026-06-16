@@ -32,10 +32,10 @@ SHAKE_DUR   = 0.7
 BAR_H       = 8
 BAR_COLOR   = "0xFFB300"   # amber gold (matches scanner-de)
 
-W, H        = 1280, 720    # native source resolution
+W, H        = 1920, 1080   # match card resolution — 1080p output
 FPS         = 25
 TOTAL_FRAMES = DURATION * FPS
-CRF         = 23
+CRF         = 28
 
 # Chapter card inTimes → zoom punch-in
 ZOOM_TIMES  = [87.05, 170.47, 261.81, 349.35, 426.32, 513.10]
@@ -49,6 +49,46 @@ SWOOSH_CARD_TIMES = [87.05, 170.47, 261.81, 349.35, 426.32, 513.10,
                      32.48, 48.81, 100.62, 133.09, 148.24,
                      117.17, 220.08, 330.86, 364.67, 406.70, 458.32,
                      87.05, 293.24, 482.88]
+
+# ── ASS caption builder — larger font, fully visible, gold highlight ──────────
+def _ts_ass(t):
+    h = int(t // 3600); m = int((t % 3600) // 60)
+    s = int(t % 60);    cs = int((t % 1) * 100)
+    return f"{h}:{m:02d}:{s:02d}.{cs:02d}"
+
+def _build_ass(words, width, height):
+    header = f"""[Script Info]
+ScriptType: v4.00+
+PlayResX: {width}
+PlayResY: {height}
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Montserrat,52,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,30,30,70,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+"""
+    events = []
+    wpl = 3
+    for i in range(0, len(words), wpl):
+        line = words[i:i+wpl]
+        for wi, word in enumerate(line):
+            before = " ".join(w["word"].upper() for w in line[:wi])
+            cur    = word["word"].upper()
+            after  = " ".join(w["word"].upper() for w in line[wi+1:])
+            parts  = []
+            if before:
+                parts.append(r"{\c&H00FFFFFF&}" + before + " ")
+            parts.append(r"{\c&H0000D7FF&}" + cur)
+            if after:
+                parts.append(r"{\c&H00FFFFFF&}" + " " + after)
+            text = r"{\bord2\shad0}" + "".join(parts)
+            w_start = word["start"]
+            w_end   = line[wi+1]["start"] if wi < len(line)-1 else word["end"]
+            events.append(f"Dialogue: 0,{_ts_ass(w_start)},{_ts_ass(w_end)},Default,,0,0,0,,{text}")
+    return header + "\n".join(events) + "\n"
 
 # ── SRT → word list for ASS captions ──────────────────────────────────────────
 def srt_to_secs(ts):
@@ -91,7 +131,7 @@ def main():
             w['end']   = round(w['end']   * scale, 4)
 
     words = [w for w in raw_words if w['start'] < DURATION]
-    ass_content = build_ass(words, width=W, height=H, words_per_line=3)
+    ass_content = _build_ass(words, W, H)
     ass_path = PROJECT / 'output/captions.ass'
     ass_path.parent.mkdir(parents=True, exist_ok=True)
     ass_path.write_text(ass_content, encoding='utf-8')
