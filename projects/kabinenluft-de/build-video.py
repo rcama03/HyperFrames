@@ -169,24 +169,32 @@ def main():
     ass_esc = str(ass_path).replace(':', '\\:')
     vf.append(f'[v_base]ass={ass_esc}[v_caps]')
 
-    # 3. Card overlays with slide-in by card type:
-    #    top-left  (chapter, definition) → slide down from top
-    #    bottom-left (stat, alert, key, quote, rank) → slide up from bottom
-    #    bottom-right (source) → slide in from right
+    # 3. Card overlays with slide-in by card type (locked palette table):
+    #    chapter   ← left   : x -W→0
+    #    definition ↓ top   : y -H→0
+    #    stat      → right  : x  W→0
+    #    alert     → right  : x  W→0
+    #    rank      → right  : x  W→0
+    #    key       ↑ bottom : y  H→0
+    #    quote     ↑ bottom : y  H→0
+    #    source    ← left   : x -W→0
     SLIDE_DUR = 0.3  # seconds
     def slide_xy(c):
         t0  = c['inTime']
         cid = c.get('type', c['id'].split('-')[0])
         d   = f'(t-{t0})/{SLIDE_DUR}'
         clamp = f'min(1,max(0,{d}))'
-        if cid in ('chapter', 'definition'):
-            # slide down from top: y goes -H → 0
+        if cid in ('chapter', 'source'):
+            # ← left: x goes -W → 0
+            return f"x='(-{W}+{W}*{clamp})':y='0'"
+        elif cid == 'definition':
+            # ↓ top: y goes -H → 0
             return f"x='0':y='(-{H}+{H}*{clamp})'"
-        elif cid == 'source':
-            # slide in from right: x goes W → 0
+        elif cid in ('stat', 'alert', 'rank'):
+            # → right: x goes W → 0
             return f"x='({W}-{W}*{clamp})':y='0'"
         else:
-            # bottom-left (stat, alert, key, quote, rank): slide up from bottom
+            # ↑ bottom (key, quote): y goes H → 0
             return f"x='0':y='({H}-{H}*{clamp})'"
 
     prev = '[v_caps]'
