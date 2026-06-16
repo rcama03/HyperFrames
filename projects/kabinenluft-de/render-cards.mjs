@@ -113,6 +113,64 @@ function buildKey(text, tag) {
   </body></html>`;
 }
 
+function buildDefinition(term, text) {
+  return `<!DOCTYPE html><html><head><meta charset="UTF-8">
+  ${topCardStyle('#00BCD4','rgba(0,18,28,0.50)')}
+  </head><body>
+    <div class="card" style="width:825px">
+      <div class="stripe"></div>
+      <div class="inner">
+        ${pill('#00BCD4','#001820','DEFINITION')}
+        ${divider('rgba(0,188,212,.25)')}
+        <div style="font-size:37px;font-weight:800;color:#FFF;margin-bottom:10px;line-height:1.25">${term}</div>
+        <div style="font-size:28px;color:rgba(255,255,255,.85);line-height:1.5">${text}</div>
+      </div>
+    </div>
+  </body></html>`;
+}
+
+function buildQuote(text, attribution) {
+  return `<!DOCTYPE html><html><head><meta charset="UTF-8">
+  ${bottomCardStyle('#9C27B0','rgba(15,5,30,0.50)')}
+  </head><body>
+    <div class="card" style="width:870px">
+      <div class="stripe"></div>
+      <div class="inner">
+        <div style="font-size:55px;color:#9C27B0;line-height:1;margin-bottom:8px;opacity:0.9">"</div>
+        <div style="font-size:30px;font-weight:700;color:#FFF;line-height:1.5;font-style:italic">${text}</div>
+        <div style="font-size:24px;color:#CE93D8;margin-top:14px;letter-spacing:.05em">— ${attribution}</div>
+      </div>
+    </div>
+  </body></html>`;
+}
+
+function buildRank(rank, label, text) {
+  return `<!DOCTYPE html><html><head><meta charset="UTF-8">
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;}
+    html,body{width:${W}px;height:${H}px;background:transparent;overflow:hidden;
+      font-family:'Montserrat','Arial Black',Arial,sans-serif;${SHARP}}
+    .card{position:absolute;left:60px;bottom:140px;display:flex;align-items:stretch;
+      background:rgba(20,14,0,0.50);border:2px solid rgba(255,143,0,0.5);
+      box-shadow:0 12px 48px rgba(0,0,0,0.65);border-radius:20px;overflow:hidden;}
+    .rank-block{display:flex;align-items:center;justify-content:center;
+      background:linear-gradient(135deg,#FF8F00,#E65100);width:130px;flex-shrink:0;}
+    .inner{padding:22px 28px;width:520px;}
+  </style>
+  </head><body>
+    <div class="card">
+      <div class="rank-block">
+        <div style="font-size:80px;font-weight:900;color:#fff3e0;line-height:1">#${rank}</div>
+      </div>
+      <div class="inner">
+        <div style="font-size:20px;font-weight:800;color:#FF8F00;letter-spacing:.12em;text-transform:uppercase;margin-bottom:12px">${label}</div>
+        <div style="height:1px;background:rgba(255,143,0,.25);margin-bottom:14px"></div>
+        <div style="font-size:32px;font-weight:800;color:#FFF;line-height:1.4">${text}</div>
+      </div>
+    </div>
+  </body></html>`;
+}
+
 function buildSource(text) {
   return `<!DOCTYPE html><html><head><meta charset="UTF-8">
   <style>
@@ -165,7 +223,17 @@ const cards = [
   { id: 'key-flugzeug',  type: 'key', inTime: sc(417.91), outTime: sc(438.07), html: buildKey('787 oder A350 buchen — kein Bleed Air. Typ auf Google Flights oder Kayak prüfen.', 'BUCHUNGSTIPP') },
   { id: 'key-fenster',   type: 'key', inTime: sc(470.95), outTime: sc(496.19), html: buildKey('Fensterplatz = geringeres Infektionsrisiko — laut MIT-Studie weniger Passagierkontakt', 'BESTER PLATZ') },
 
-  // SOURCE CARDS — bottom-right → slides in from right
+  // DEFINITION CARDS — top-left → slides in from left
+  { id: 'def-zirkulation', type: 'definition', inTime: sc(209.93), outTime: sc(226.15), html: buildDefinition('Kabinenluft-Zirkulation', '50% Frischluft aus Triebwerken + 50% rezirkulierte Luft — HEPA filtert Viren, nicht chemische Dämpfe') },
+  { id: 'def-fume',        type: 'definition', inTime: sc(248.47), outTime: sc(269.03), html: buildDefinition('Fume Event', 'Plötzlicher Eintritt von Öldämpfen oder Chemikalien in die Kabine — durch Leck in Triebwerk oder APU') },
+
+  // QUOTE CARDS — bottom-left → slides up from bottom
+  { id: 'quote-luftmed',   type: 'quote', inTime: sc(391.71), outTime: sc(417.91), html: buildQuote('Passagiere mit Herzerkrankungen sind im Flugzeug einem Sauerstoffmangel ausgesetzt, der am Boden behandlungspflichtig wäre.', 'WHO Cabin Air Report') },
+
+  // RANK CARDS — bottom-left → slides in from right
+  { id: 'rank-787',        type: 'rank', inTime: sc(512.84), outTime: sc(527.24), html: buildRank(1, 'Sauberste Kabinenluft', 'Boeing 787 & Airbus A350 — elektrische Kompression, kein Bleed Air') },
+
+  // SOURCE CARDS — bottom-right → slides in from left
   { id: 'src-easa',    type: 'source', inTime: sc(89.45),  outTime: sc(103.39), html: buildSource('EASA — Aerotoxic Syndrome offiziell bestätigt') },
   { id: 'src-british', type: 'source', inTime: sc(301.32), outTime: sc(316.75), html: buildSource('Britische Studie: Neurologische Schäden bei Flugzeugbesatzungen') },
   { id: 'src-mit',     type: 'source', inTime: sc(496.19), outTime: sc(512.84), html: buildSource('MIT-Studie: Sitzplatz-Risikofaktoren im Langstreckenflug') },
