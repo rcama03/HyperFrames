@@ -129,13 +129,12 @@ def main():
     ass_esc = str(ass_path).replace(':', '\\:')
     vf.append(f'[v_base]ass={ass_esc}[v_caps]')
 
-    # 3. Card overlays (scale 1920x1080 PNGs → 720p)
+    # 3. Card overlays (cards already at 720p — no scaling needed)
     prev = '[v_caps]'
     for i, c in enumerate(cards):
-        vf.append(f'[{2+i}:v]scale={W}:{H}[sc{i}]')
         out = f'[ov{i}]'
         vf.append(
-            f'{prev}[sc{i}]overlay=0:0:'
+            f'{prev}[{2+i}:v]overlay=0:0:'
             f'enable=\'between(t,{c["inTime"]},{c["outTime"]})\':'
             f'format=auto{out}'
         )
@@ -205,7 +204,7 @@ def main():
     n_mix = 2 + NS
     af.append(
         f'[voice_out][bg_ducked]{sw_labels}'
-        f'amix=inputs={n_mix}:duration=first:weights=1 1' + ' 0.8' * NS + '[aout]'
+        f'amix=inputs={n_mix}:normalize=0:duration=first[aout]'
     )
 
     filter_complex = ';'.join(vf + af)
