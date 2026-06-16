@@ -169,12 +169,31 @@ def main():
     ass_esc = str(ass_path).replace(':', '\\:')
     vf.append(f'[v_base]ass={ass_esc}[v_caps]')
 
-    # 3. Card overlays (cards already at 720p — no scaling needed)
+    # 3. Card overlays with slide-in by card type:
+    #    top-left  (chapter, definition) → slide down from top
+    #    bottom-left (stat, alert, key, quote, rank) → slide up from bottom
+    #    bottom-right (source) → slide in from right
+    SLIDE_DUR = 0.3  # seconds
+    def slide_xy(c):
+        t0  = c['inTime']
+        cid = c.get('type', c['id'].split('-')[0])
+        d   = f'(t-{t0})/{SLIDE_DUR}'
+        clamp = f'min(1,max(0,{d}))'
+        if cid in ('chapter', 'definition'):
+            # slide down from top: y goes -H → 0
+            return f"x='0':y='(-{H}+{H}*{clamp})'"
+        elif cid == 'source':
+            # slide in from right: x goes W → 0
+            return f"x='({W}-{W}*{clamp})':y='0'"
+        else:
+            # bottom-left (stat, alert, key, quote, rank): slide up from bottom
+            return f"x='0':y='({H}-{H}*{clamp})'"
+
     prev = '[v_caps]'
     for i, c in enumerate(cards):
         out = f'[ov{i}]'
         vf.append(
-            f'{prev}[{2+i}:v]overlay=0:0:'
+            f'{prev}[{2+i}:v]overlay={slide_xy(c)}:'
             f'enable=\'between(t,{c["inTime"]},{c["outTime"]})\':'
             f'format=auto{out}'
         )

@@ -136,39 +136,39 @@ function buildSource(text) {
 }
 
 const cards = [
-  // CHAPTER CARDS (top-left, cyan)
-  { id: 'chap-aerotoxic',   inTime: sc(89.45),  outTime: sc(89.45)+5,   html: buildChapter('Aerotoxic Syndrome') },
-  { id: 'chap-gefaehrdung', inTime: sc(175.17), outTime: sc(175.17)+5,  html: buildChapter('Wer Ist Am Stärksten Betroffen?') },
-  { id: 'chap-fume',        inTime: sc(269.03), outTime: sc(269.03)+5,  html: buildChapter('Was Passiert Bei Einem Fume Event?') },
-  { id: 'chap-langstrecke', inTime: sc(358.98), outTime: sc(358.98)+5,  html: buildChapter('Langstrecke & Covid-19') },
-  { id: 'chap-schutz',      inTime: sc(438.07), outTime: sc(438.07)+5,  html: buildChapter('Nasale Schutzmaßnahmen') },
-  { id: 'chap-zukunft',     inTime: sc(527.24), outTime: sc(527.24)+5,  html: buildChapter('Zukunft Der Kabinenluft') },
+  // CHAPTER CARDS — top-left → slides down from top
+  { id: 'chap-aerotoxic',   type: 'chapter', inTime: sc(89.45),  outTime: sc(89.45)+5,   html: buildChapter('Aerotoxic Syndrome') },
+  { id: 'chap-gefaehrdung', type: 'chapter', inTime: sc(175.17), outTime: sc(175.17)+5,  html: buildChapter('Wer Ist Am Stärksten Betroffen?') },
+  { id: 'chap-fume',        type: 'chapter', inTime: sc(269.03), outTime: sc(269.03)+5,  html: buildChapter('Was Passiert Bei Einem Fume Event?') },
+  { id: 'chap-langstrecke', type: 'chapter', inTime: sc(358.98), outTime: sc(358.98)+5,  html: buildChapter('Langstrecke & Covid-19') },
+  { id: 'chap-schutz',      type: 'chapter', inTime: sc(438.07), outTime: sc(438.07)+5,  html: buildChapter('Nasale Schutzmaßnahmen') },
+  { id: 'chap-zukunft',     type: 'chapter', inTime: sc(527.24), outTime: sc(527.24)+5,  html: buildChapter('Zukunft Der Kabinenluft') },
 
-  // STAT CARDS (bottom-left, gold) — icon on right
-  { id: 'stat-millionen', inTime: sc(33.38),  outTime: sc(50.15),  html: buildStat('5 MIO.',  'Internationale WM-Fans im Langstreckenflug',       '✈️') },
-  { id: 'stat-50pct',     inTime: sc(50.15),  outTime: sc(65.96),  html: buildStat('50%',    'Recycelte Kabinenluft — typischer Anteil',           '🌀') },
-  { id: 'stat-fume',      inTime: sc(103.39), outTime: sc(120.40), html: buildStat('1.000+', 'Fume Events bei EASA gemeldet (2006–2021)',           '⚠️') },
-  { id: 'stat-feuchte',   inTime: sc(136.76), outTime: sc(152.33), html: buildStat('12%',    'Luftfeuchtigkeit in der Kabine — trockener als Sahara','💧') },
-  { id: 'stat-sauerstoff',inTime: sc(152.33), outTime: sc(175.17), html: buildStat('90%',    'Sauerstoffgehalt im Blut sinkt auf — bei Gesunden',   '🫁') },
+  // STAT CARDS — bottom-left → slides up from bottom
+  { id: 'stat-millionen', type: 'stat', inTime: sc(33.38),  outTime: sc(50.15),  html: buildStat('5 MIO.',  'Internationale WM-Fans im Langstreckenflug',       '✈️') },
+  { id: 'stat-50pct',     type: 'stat', inTime: sc(50.15),  outTime: sc(65.96),  html: buildStat('50%',    'Recycelte Kabinenluft — typischer Anteil',           '🌀') },
+  { id: 'stat-fume',      type: 'stat', inTime: sc(103.39), outTime: sc(120.40), html: buildStat('1.000+', 'Fume Events bei EASA gemeldet (2006–2021)',           '⚠️') },
+  { id: 'stat-feuchte',   type: 'stat', inTime: sc(136.76), outTime: sc(152.33), html: buildStat('12%',    'Luftfeuchtigkeit in der Kabine — trockener als Sahara','💧') },
+  { id: 'stat-sauerstoff',type: 'stat', inTime: sc(152.33), outTime: sc(175.17), html: buildStat('90%',    'Sauerstoffgehalt im Blut sinkt auf — bei Gesunden',   '🫁') },
 
-  // ALERT CARDS (bottom-left, red)
-  { id: 'alert-bleedair',   inTime: sc(65.96),  outTime: sc(89.45),  html: buildAlert('Giftige Organophosphate aus Triebwerksöl — direkt in die Kabine geleitet', 'BLEED AIR') },
-  { id: 'alert-aerosole',   inTime: sc(191.53), outTime: sc(209.93), html: buildAlert('Aerosole von Mitpassagieren kaum filterbar — echtes Risiko in vollen WM-Maschinen', 'KEIMGEFAHR') },
-  { id: 'alert-tcp',        inTime: sc(285.75), outTime: sc(301.32), html: buildAlert('Geruch nach alten Socken oder Öl = TCP-Nervengift im Triebwerksöl', 'NERVENGIFT') },
-  { id: 'alert-monitoring', inTime: sc(316.75), outTime: sc(339.98), html: buildAlert('Kein verpflichtendes Echtzeit-Monitoring auf keinem kommerziellen Flugzeug weltweit', 'KEINE KONTROLLE') },
+  // ALERT CARDS — bottom-left → slides up from bottom
+  { id: 'alert-bleedair',   type: 'alert', inTime: sc(65.96),  outTime: sc(89.45),  html: buildAlert('Giftige Organophosphate aus Triebwerksöl — direkt in die Kabine geleitet', 'BLEED AIR') },
+  { id: 'alert-aerosole',   type: 'alert', inTime: sc(191.53), outTime: sc(209.93), html: buildAlert('Aerosole von Mitpassagieren kaum filterbar — echtes Risiko in vollen WM-Maschinen', 'KEIMGEFAHR') },
+  { id: 'alert-tcp',        type: 'alert', inTime: sc(285.75), outTime: sc(301.32), html: buildAlert('Geruch nach alten Socken oder Öl = TCP-Nervengift im Triebwerksöl', 'NERVENGIFT') },
+  { id: 'alert-monitoring', type: 'alert', inTime: sc(316.75), outTime: sc(339.98), html: buildAlert('Kein verpflichtendes Echtzeit-Monitoring auf keinem kommerziellen Flugzeug weltweit', 'KEINE KONTROLLE') },
 
-  // KEY CARDS (bottom-left, orange)
-  { id: 'key-hepa',      inTime: sc(120.40), outTime: sc(136.76), html: buildKey('HEPA-Filter filtert 99,97% der Partikel — aber KEINE Gase oder chemischen Dämpfe', 'FAKTENCHECK') },
-  { id: 'key-dreamliner',inTime: sc(226.15), outTime: sc(248.47), html: buildKey('Boeing 787 Dreamliner: kein Bleed Air — Luft wird elektrisch komprimiert', 'FLUGZEUGTYP') },
-  { id: 'key-melden',    inTime: sc(339.98), outTime: sc(358.98), html: buildKey('Fume Event sofort der Crew melden — du hast das Recht dazu. Dokumentiere alles.', 'DEIN RECHT') },
-  { id: 'key-wasser',    inTime: sc(374.72), outTime: sc(391.71), html: buildKey('Mindestens 0,5 Liter Wasser pro 2 Stunden Flugzeit — Mediziner-Empfehlung', 'SCHUTZREGEL') },
-  { id: 'key-flugzeug',  inTime: sc(417.91), outTime: sc(438.07), html: buildKey('787 oder A350 buchen — kein Bleed Air. Typ auf Google Flights oder Kayak prüfen.', 'BUCHUNGSTIPP') },
-  { id: 'key-fenster',   inTime: sc(470.95), outTime: sc(496.19), html: buildKey('Fensterplatz = geringeres Infektionsrisiko — laut MIT-Studie weniger Passagierkontakt', 'BESTER PLATZ') },
+  // KEY CARDS — bottom-left → slides up from bottom
+  { id: 'key-hepa',      type: 'key', inTime: sc(120.40), outTime: sc(136.76), html: buildKey('HEPA-Filter filtert 99,97% der Partikel — aber KEINE Gase oder chemischen Dämpfe', 'FAKTENCHECK') },
+  { id: 'key-dreamliner',type: 'key', inTime: sc(226.15), outTime: sc(248.47), html: buildKey('Boeing 787 Dreamliner: kein Bleed Air — Luft wird elektrisch komprimiert', 'FLUGZEUGTYP') },
+  { id: 'key-melden',    type: 'key', inTime: sc(339.98), outTime: sc(358.98), html: buildKey('Fume Event sofort der Crew melden — du hast das Recht dazu. Dokumentiere alles.', 'DEIN RECHT') },
+  { id: 'key-wasser',    type: 'key', inTime: sc(374.72), outTime: sc(391.71), html: buildKey('Mindestens 0,5 Liter Wasser pro 2 Stunden Flugzeit — Mediziner-Empfehlung', 'SCHUTZREGEL') },
+  { id: 'key-flugzeug',  type: 'key', inTime: sc(417.91), outTime: sc(438.07), html: buildKey('787 oder A350 buchen — kein Bleed Air. Typ auf Google Flights oder Kayak prüfen.', 'BUCHUNGSTIPP') },
+  { id: 'key-fenster',   type: 'key', inTime: sc(470.95), outTime: sc(496.19), html: buildKey('Fensterplatz = geringeres Infektionsrisiko — laut MIT-Studie weniger Passagierkontakt', 'BESTER PLATZ') },
 
-  // SOURCE CARDS (bottom-right, green)
-  { id: 'src-easa',    inTime: sc(89.45),  outTime: sc(103.39), html: buildSource('EASA — Aerotoxic Syndrome offiziell bestätigt') },
-  { id: 'src-british', inTime: sc(301.32), outTime: sc(316.75), html: buildSource('Britische Studie: Neurologische Schäden bei Flugzeugbesatzungen') },
-  { id: 'src-mit',     inTime: sc(496.19), outTime: sc(512.84), html: buildSource('MIT-Studie: Sitzplatz-Risikofaktoren im Langstreckenflug') },
+  // SOURCE CARDS — bottom-right → slides in from right
+  { id: 'src-easa',    type: 'source', inTime: sc(89.45),  outTime: sc(103.39), html: buildSource('EASA — Aerotoxic Syndrome offiziell bestätigt') },
+  { id: 'src-british', type: 'source', inTime: sc(301.32), outTime: sc(316.75), html: buildSource('Britische Studie: Neurologische Schäden bei Flugzeugbesatzungen') },
+  { id: 'src-mit',     type: 'source', inTime: sc(496.19), outTime: sc(512.84), html: buildSource('MIT-Studie: Sitzplatz-Risikofaktoren im Langstreckenflug') },
 ];
 
 (async () => {
@@ -186,7 +186,7 @@ const cards = [
     await page.waitForTimeout(200);
     const pngPath = join(outDir, `${card.id}.png`);
     await page.screenshot({ path: pngPath, omitBackground: true });
-    manifest.push({ id: card.id, file: pngPath, inTime: card.inTime, outTime: card.outTime });
+    manifest.push({ id: card.id, file: pngPath, inTime: card.inTime, outTime: card.outTime, type: card.type });
     console.log(`  ✓ ${card.id}.png  [${card.inTime}s → ${card.outTime}s]`);
   }
   await browser.close();
