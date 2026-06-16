@@ -13,18 +13,17 @@ SRT_SCALED = PROJECT / 'output/captions-scaled.srt'
 MANIFEST  = PROJECT / 'card-frames/manifest.json'
 VIDEO_OUT = PROJECT / 'output/source-video-final.mp4'
 
-VIDEO_DUR  = 586.920
 VOICE_DUR  = 586.896
 DURATION   = VOICE_DUR
 
 SRT_END    = 603.07
 CAP_SCALE  = VOICE_DUR / SRT_END   # 0.973181
 
-W, H       = 1920, 1080
-BAR_H      = 8
+W, H       = 1280, 720   # native source resolution — 4x faster than 1080p
+BAR_H      = 5
 FPS        = 25
 TOTAL_FRAMES = int(DURATION * FPS)
-CRF        = 28
+CRF        = 26           # CRF 26 at 720p gives great quality ~60-80MB
 
 SWOOSH_TIMES = [87.05, 170.47, 261.81, 349.35, 426.32, 513.10,
                 64.19, 186.39, 278.09, 308.26]
@@ -101,19 +100,20 @@ def main():
 
     lines = []
 
-    # 1. Base video
+    # 1. Base video — scale to 720p native
     lines.append(
         f'[0:v]trim=0:{DURATION},setpts=PTS-STARTPTS,'
         f'scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},'
         f'fade=t=in:st=0:d=0.5,fade=t=out:st={DURATION-1.0}:d=1.0[base]'
     )
 
-    # 2. Card overlays
+    # 2. Scale each card PNG from 1920x1080 → 720p, then overlay
     prev = 'base'
     for i, c in enumerate(cards):
+        lines.append(f'[{card_idx0+i}:v]scale={W}:{H}[sc{i}]')
         out = f'ov{i}'
         lines.append(
-            f'[{prev}][{card_idx0+i}:v]overlay=0:0:'
+            f'[{prev}][sc{i}]overlay=0:0:'
             f'enable=\'between(t,{c["inTime"]},{c["outTime"]})\','
             f'format=yuv420p[{out}]'
         )
@@ -121,9 +121,9 @@ def main():
 
     # 3. Captions
     srt_path_esc = str(SRT_SCALED).replace(':', '\\:')
-    style = ('Fontname=DejaVu Sans Bold,Fontsize=36,PrimaryColour=&H00FFFFFF,'
-             'OutlineColour=&H00000000,BorderStyle=1,Outline=3,Shadow=0,'
-             'Alignment=2,MarginV=70')
+    style = ('Fontname=DejaVu Sans Bold,Fontsize=24,PrimaryColour=&H00FFFFFF,'
+             'OutlineColour=&H00000000,BorderStyle=1,Outline=2,Shadow=0,'
+             'Alignment=2,MarginV=45')
     lines.append(
         f'[{prev}]subtitles={srt_path_esc}:force_style=\'{style}\'[captioned]'
     )
@@ -157,17 +157,20 @@ def main():
     cmd += [
         '-filter_complex', filter_complex,
         '-map', '[vout]', '-map', '[aout]',
-        '-c:v', 'libx264', '-crf', str(CRF), '-preset', 'medium',
+        '-c:v', 'libx264', '-crf', str(CRF), '-preset', 'fast',
         '-c:a', 'aac', '-b:a', '192k',
         '-movflags', '+faststart',
         str(VIDEO_OUT),
     ]
 
     VIDEO_OUT.parent.mkdir(parents=True, exist_ok=True)
-    print(f'Running ffmpeg (CRF={CRF}, {N} cards, {n_caps} subtitle entries)...')
-    result = subprocess.run(cmd, capture_output=True, text=True)
+    print(f'Running ffmpeg (CRF={CRF}, {W}x{H}, {N} cards, {n_caps} subtitle entries)...')
+    # Write stderr to log so we can monitor speed
+    log = PROJECT / 'output/ffmpeg.log'
+    with open(log, 'w') as lf:
+        result = subprocess.run(cmd, stderr=lf, stdout=subprocess.PIPE, text=True)
     if result.returncode != 0:
-        print('STDERR:', result.stderr[-4000:])
+        print('STDERR (last 3000):', open(log).read()[-3000:])
         raise RuntimeError('ffmpeg failed')
 
     size_mb = VIDEO_OUT.stat().st_size / 1024 / 1024
