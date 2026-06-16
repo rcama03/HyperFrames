@@ -157,6 +157,7 @@ def main():
     cmd += [
         '-filter_complex', filter_complex,
         '-map', '[vout]', '-map', '[aout]',
+        '-t', str(DURATION),
         '-c:v', 'libx264', '-crf', str(CRF), '-preset', 'fast',
         '-c:a', 'aac', '-b:a', '192k',
         '-movflags', '+faststart',
