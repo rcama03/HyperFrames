@@ -2,47 +2,63 @@
 import json
 import re
 import subprocess
+import sys
 from pathlib import Path
 
 PROJECT   = Path(__file__).parent
-VIDEO_IN  = PROJECT / 'source-video.mp4'
-VOICE_IN  = PROJECT / 'voiceover.mp3'
-SWOOSH_IN = PROJECT / 'swoosh.mp3'
-SRT_SRC   = '/root/.claude/uploads/bf195af2-7fab-5825-a36f-49fc2b3be335/1d93ba26-captions.srt'
-SRT_SCALED = PROJECT / 'output/captions-scaled.srt'
-MANIFEST  = PROJECT / 'card-frames/manifest.json'
-VIDEO_OUT = PROJECT / 'output/source-video-final.mp4'
+SHARED    = PROJECT.parents[1] / "packages" / "shared"
+sys.path.insert(0, str(SHARED))
+from hf_style import build_ass
 
-VOICE_DUR  = 586.896
-DURATION   = VOICE_DUR
+VIDEO_IN   = PROJECT / 'source-video.mp4'
+VOICE_IN   = PROJECT / 'voiceover.mp3'
+SWOOSH_IN  = PROJECT / 'swoosh.mp3'
+WORDS_JSON = PROJECT / 'word-timings.json'
+MANIFEST   = PROJECT / 'card-frames/manifest.json'
+MUSIC      = SHARED / 'music' / 'sleep-music-chris-haugen.mp3'
+VIDEO_OUT  = PROJECT / 'output/source-video-final.mp4'
 
-SRT_END    = 603.07
-CAP_SCALE  = VOICE_DUR / SRT_END   # 0.973181
+VOICE_DUR   = 586.896
+DURATION    = VOICE_DUR
 
-W, H       = 1280, 720   # native source resolution — 4x faster than 1080p
-BAR_H      = 5
-FPS        = 25
-TOTAL_FRAMES = int(DURATION * FPS)
-CRF        = 26           # CRF 26 at 720p gives great quality ~60-80MB
+MUSIC_VOL   = 0.19
+SWOOSH_VOL  = 0.35
 
-SWOOSH_TIMES = [87.05, 170.47, 261.81, 349.35, 426.32, 513.10,
-                64.19, 186.39, 278.09, 308.26]
+ZOOM_SCALE  = 1.10
+ZOOM_DUR    = 0.15
+SHAKE_MARGIN = 15
+SHAKE_PX    = 12
+SHAKE_DUR   = 0.7
+BAR_H       = 8
+BAR_COLOR   = "0xFFB300"   # amber gold (matches scanner-de)
 
-# ── SRT helpers ───────────────────────────────────────────────────────────────
+W, H        = 1280, 720    # native source resolution
+FPS         = 25
+TOTAL_FRAMES = DURATION * FPS
+CRF         = 23
+
+# Chapter card inTimes → zoom punch-in
+ZOOM_TIMES  = [87.05, 170.47, 261.81, 349.35, 426.32, 513.10]
+
+# Stat card inTimes → screen shake
+SHAKE_TIMES = [32.48, 48.81, 100.62, 133.09, 148.24]
+
+# Swoosh on every card appearance
+SWOOSH_CARD_TIMES = [87.05, 170.47, 261.81, 349.35, 426.32, 513.10,
+                     64.19, 186.39, 278.09, 308.26,
+                     32.48, 48.81, 100.62, 133.09, 148.24,
+                     117.17, 220.08, 330.86, 364.67, 406.70, 458.32,
+                     87.05, 293.24, 482.88]
+
+# ── SRT → word list for ASS captions ──────────────────────────────────────────
 def srt_to_secs(ts):
     h, m, s = ts.replace(',', '.').split(':')
     return int(h)*3600 + int(m)*60 + float(s)
 
-def secs_to_srt(s):
-    h  = int(s // 3600); s -= h * 3600
-    m  = int(s // 60);   s -= m * 60
-    ms = int(round((s % 1) * 1000))
-    ss = int(s)
-    return f'{h:02d}:{m:02d}:{ss:02d},{ms:03d}'
-
-def parse_srt(path):
+def srt_to_words(path):
+    """Parse SRT and return word-level list for build_ass."""
     blocks = re.split(r'\n{2,}', Path(path).read_text(encoding='utf-8').strip())
-    entries = []
+    words = []
     for b in blocks:
         lines = b.strip().splitlines()
         if len(lines) < 3:
@@ -51,127 +67,167 @@ def parse_srt(path):
         start = srt_to_secs(times[0].strip())
         end   = srt_to_secs(times[1].strip())
         text  = ' '.join(lines[2:]).strip()
-        entries.append((start, end, text))
-    return entries
-
-def write_scaled_srt(entries):
-    groups = []
-    buf_words, buf_start, buf_end = [], None, None
-    for start, end, text in entries:
-        for w in text.split():
-            if buf_start is None:
-                buf_start = start
-            buf_end = end
-            buf_words.append(w)
-            if len(buf_words) >= 3 or (buf_words and buf_words[-1][-1] in '.!?'):
-                groups.append((buf_start * CAP_SCALE, buf_end * CAP_SCALE,
-                               ' '.join(buf_words)))
-                buf_words, buf_start, buf_end = [], None, None
-    if buf_words:
-        groups.append((buf_start * CAP_SCALE, buf_end * CAP_SCALE,
-                       ' '.join(buf_words)))
-
-    lines = []
-    for i, (s, e, txt) in enumerate(groups, 1):
-        lines.append(f'{i}\n{secs_to_srt(s)} --> {secs_to_srt(e)}\n{txt}\n')
-    SRT_SCALED.parent.mkdir(parents=True, exist_ok=True)
-    SRT_SCALED.write_text('\n'.join(lines), encoding='utf-8')
-    return len(groups)
+        # split multi-word entries with interpolated timing
+        parts = text.split()
+        n = len(parts)
+        step = (end - start) / n if n else 0
+        for i, w in enumerate(parts):
+            words.append({"word": w, "start": start + i*step, "end": start + (i+1)*step})
+    return words
 
 # ── Build & run ffmpeg ────────────────────────────────────────────────────────
 def main():
-    raw_entries  = parse_srt(SRT_SRC)
-    n_caps       = write_scaled_srt(raw_entries)
-    manifest     = json.loads(MANIFEST.read_text())
-    cards        = sorted(manifest, key=lambda c: c['inTime'])
-    N            = len(cards)
-    NS           = len(SWOOSH_TIMES)
+    # Captions
+    SRT_SRC = '/root/.claude/uploads/bf195af2-7fab-5825-a36f-49fc2b3be335/1d93ba26-captions.srt'
+    raw_words = srt_to_words(SRT_SRC)
 
+    # Scale timestamps from SRT timing to actual voiceover duration
+    srt_end = raw_words[-1]['end']
+    if abs(srt_end - VOICE_DUR) > 0.5:
+        scale = VOICE_DUR / srt_end
+        print(f"Caption sync: scaling by {scale:.6f} ({srt_end:.2f}s → {VOICE_DUR:.2f}s)")
+        for w in raw_words:
+            w['start'] = round(w['start'] * scale, 4)
+            w['end']   = round(w['end']   * scale, 4)
+
+    words = [w for w in raw_words if w['start'] < DURATION]
+    ass_content = build_ass(words, width=W, height=H, words_per_line=3)
+    ass_path = PROJECT / 'output/captions.ass'
+    ass_path.parent.mkdir(parents=True, exist_ok=True)
+    ass_path.write_text(ass_content, encoding='utf-8')
+    print(f"Captions: {len(words)} words → captions.ass")
+
+    manifest = json.loads(MANIFEST.read_text())
+    cards    = sorted(manifest, key=lambda c: c['inTime'])
+    N        = len(cards)
+    NS       = len(SWOOSH_CARD_TIMES)
+
+    # ── Inputs ─────────────────────────────────────────────────────────────────
+    # [0] video  [1] voice  [2..N+1] cards  [N+2] music  [N+3] swoosh  [N+4] bar
     cmd = ['ffmpeg', '-y']
     cmd += ['-ss', '0', '-t', str(DURATION), '-i', str(VIDEO_IN)]
     cmd += ['-i', str(VOICE_IN)]
-    cmd += ['-i', str(SWOOSH_IN)]
     for c in cards:
         cmd += ['-i', c['file']]
-    cmd += ['-f', 'lavfi', '-i', f'color=c=0x00C8E6:size={W}x{BAR_H}:rate={FPS}']
+    music_idx  = 2 + N
+    swoosh_idx = music_idx + 1
+    bar_idx    = swoosh_idx + 1
+    cmd += ['-i', str(MUSIC)]
+    cmd += ['-i', str(SWOOSH_IN)]
+    cmd += ['-f', 'lavfi', '-i', f'color=c={BAR_COLOR}:size={W}x{BAR_H}:rate={FPS}']
 
-    bar_idx   = 3 + N
-    card_idx0 = 3
+    vf = []
 
-    lines = []
-
-    # 1. Base video — scale to 720p native
-    lines.append(
+    # 1. Base video
+    vf.append(
         f'[0:v]trim=0:{DURATION},setpts=PTS-STARTPTS,'
         f'scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},'
-        f'fade=t=in:st=0:d=0.5,fade=t=out:st={DURATION-1.0}:d=1.0[base]'
+        f'fade=t=in:st=0:d=0.5[v_base]'
     )
 
-    # 2. Scale each card PNG from 1920x1080 → 720p, then overlay
-    prev = 'base'
+    # 2. Gold word-highlight ASS captions
+    ass_esc = str(ass_path).replace(':', '\\:')
+    vf.append(f'[v_base]ass={ass_esc}[v_caps]')
+
+    # 3. Card overlays (scale 1920x1080 PNGs → 720p)
+    prev = '[v_caps]'
     for i, c in enumerate(cards):
-        lines.append(f'[{card_idx0+i}:v]scale={W}:{H}[sc{i}]')
-        out = f'ov{i}'
-        lines.append(
-            f'[{prev}][sc{i}]overlay=0:0:'
-            f'enable=\'between(t,{c["inTime"]},{c["outTime"]})\','
-            f'format=yuv420p[{out}]'
+        vf.append(f'[{2+i}:v]scale={W}:{H}[sc{i}]')
+        out = f'[ov{i}]'
+        vf.append(
+            f'{prev}[sc{i}]overlay=0:0:'
+            f'enable=\'between(t,{c["inTime"]},{c["outTime"]})\':'
+            f'format=auto{out}'
         )
         prev = out
 
-    # 3. Captions
-    srt_path_esc = str(SRT_SCALED).replace(':', '\\:')
-    style = ('Fontname=DejaVu Sans Bold,Fontsize=24,PrimaryColour=&H00FFFFFF,'
-             'OutlineColour=&H00000000,BorderStyle=1,Outline=2,Shadow=0,'
-             'Alignment=2,MarginV=45')
-    lines.append(
-        f'[{prev}]subtitles={srt_path_esc}:force_style=\'{style}\'[captioned]'
+    # 4. Fade out 1.5s at end
+    vf.append(f'{prev}fade=t=out:st={DURATION-1.5:.3f}:d=1.5[v_faded]')
+
+    # 5. Zoom punch-ins on chapter cards (split+scale+crop — fast)
+    ZW = int(W * ZOOM_SCALE)
+    ZH = int(H * ZOOM_SCALE)
+    ZX = (ZW - W) // 2
+    ZY = (ZH - H) // 2
+    zoom_cond = "+".join(f"between(t,{t},{t+ZOOM_DUR})" for t in ZOOM_TIMES)
+    vf.append(f'[v_faded]split[v_main][v_zsrc]')
+    vf.append(f'[v_zsrc]scale={ZW}:{ZH},crop={W}:{H}:{ZX}:{ZY}[v_zoomed]')
+    vf.append(f"[v_main][v_zoomed]overlay=0:0:enable='({zoom_cond})'[v_zoom]")
+
+    # 6. Screen shake on stat cards
+    SW = W + 2 * SHAKE_MARGIN
+    SH = H + 2 * SHAKE_MARGIN
+    shake_parts_x, shake_parts_y = [], []
+    for t in SHAKE_TIMES:
+        shake_parts_x.append(f"if(between(t,{t},{t+SHAKE_DUR}),{SHAKE_PX}*sin(80*(t-{t})+0),0)")
+        shake_parts_y.append(f"if(between(t,{t},{t+SHAKE_DUR}),{SHAKE_PX}*sin(80*(t-{t})+1.5),0)")
+    sx = f"{SHAKE_MARGIN}+(" + "+".join(shake_parts_x) + ")"
+    sy = f"{SHAKE_MARGIN}+(" + "+".join(shake_parts_y) + ")"
+    vf.append(f"[v_zoom]scale={SW}:{SH},crop={W}:{H}:x='{sx}':y='{sy}'[v_shake]")
+
+    # 7. Amber progress bar (top edge)
+    vf.append(
+        f'[{bar_idx}:v]scale=w=\'max(1,{W}*n/{TOTAL_FRAMES:.3f})\':h={BAR_H}:eval=frame[bar]'
+    )
+    vf.append(f'[v_shake][bar]overlay=0:0:format=auto[vout]')
+
+    # ── Audio ───────────────────────────────────────────────────────────────────
+    af = []
+    fade_dur = min(3.0, DURATION * 0.03)
+
+    # Background music looped + ducked
+    af.append(
+        f'[{music_idx}:a]aloop=loop=-1:size=2147483647,'
+        f'atrim=duration={DURATION:.3f},'
+        f'afade=t=in:st=0:d={fade_dur},'
+        f'afade=t=out:st={DURATION-fade_dur:.3f}:d={fade_dur},'
+        f'volume={MUSIC_VOL}[bg_raw]'
+    )
+    af.append(f'[1:a]atrim=end={DURATION:.3f},asplit=2[voice_out][voice_sc]')
+    af.append(
+        '[bg_raw][voice_sc]sidechaincompress='
+        'threshold=0.015:ratio=4:attack=200:release=1200:makeup=1[bg_ducked]'
     )
 
-    # 4. Progress bar
-    lines.append(
-        f'[{bar_idx}:v]scale=w=\'max(1,{W}*n/{TOTAL_FRAMES})\':h={BAR_H}:eval=frame[bar]'
+    # Swoosh on every card entry
+    af.append(
+        f'[{swoosh_idx}:a]asplit={NS}' + ''.join(f'[sw_raw{j}]' for j in range(NS))
     )
-    lines.append(f'[captioned][bar]overlay=0:{H-BAR_H}[with_bar]')
-
-    # 5. Vignette
-    lines.append(f'[with_bar]vignette=PI/5[vout]')
-
-    # 6. Audio
-    lines.append(f'[0:a]aformat=sample_rates=44100:channel_layouts=stereo[vid_a]')
-    lines.append(f'[1:a]aformat=sample_rates=44100:channel_layouts=stereo[vo_a]')
-    lines.append(f'[2:a]asplit={NS}' + ''.join(f'[sw_raw{j}]' for j in range(NS)))
-    sw_labels = []
-    for j, t in enumerate(SWOOSH_TIMES):
+    for j, t in enumerate(SWOOSH_CARD_TIMES):
         delay_ms = int(t * 1000)
-        lines.append(f'[sw_raw{j}]adelay={delay_ms}|{delay_ms},volume=0.35[sw{j}]')
-        sw_labels.append(f'[sw{j}]')
-    all_a = '[vid_a][vo_a]' + ''.join(sw_labels)
-    lines.append(
-        f'{all_a}amix=inputs={2+NS}:normalize=0,'
-        f'atrim=0:{DURATION},asetpts=PTS-STARTPTS[aout]'
+        af.append(
+            f'[sw_raw{j}]atrim=start=0.033:duration=0.95,'
+            f'adelay={delay_ms}|{delay_ms},'
+            f'volume={SWOOSH_VOL}[sw{j}]'
+        )
+
+    sw_labels = ''.join(f'[sw{j}]' for j in range(NS))
+    n_mix = 2 + NS
+    af.append(
+        f'[voice_out][bg_ducked]{sw_labels}'
+        f'amix=inputs={n_mix}:duration=first:weights=1 1' + ' 0.8' * NS + '[aout]'
     )
 
-    filter_complex = ';\n'.join(lines)
+    filter_complex = ';'.join(vf + af)
 
     cmd += [
         '-filter_complex', filter_complex,
         '-map', '[vout]', '-map', '[aout]',
         '-t', str(DURATION),
         '-c:v', 'libx264', '-crf', str(CRF), '-preset', 'fast',
+        '-pix_fmt', 'yuv420p',
         '-c:a', 'aac', '-b:a', '192k',
         '-movflags', '+faststart',
         str(VIDEO_OUT),
     ]
 
     VIDEO_OUT.parent.mkdir(parents=True, exist_ok=True)
-    print(f'Running ffmpeg (CRF={CRF}, {W}x{H}, {N} cards, {n_caps} subtitle entries)...')
-    # Write stderr to log so we can monitor speed
+    print(f'Running ffmpeg (CRF={CRF}, {W}x{H}, {N} cards, {len(words)} words)...')
     log = PROJECT / 'output/ffmpeg.log'
     with open(log, 'w') as lf:
         result = subprocess.run(cmd, stderr=lf, stdout=subprocess.PIPE, text=True)
     if result.returncode != 0:
-        print('STDERR (last 3000):', open(log).read()[-3000:])
+        print('STDERR:', open(log).read()[-4000:])
         raise RuntimeError('ffmpeg failed')
 
     size_mb = VIDEO_OUT.stat().st_size / 1024 / 1024
