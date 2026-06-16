@@ -19,11 +19,13 @@ function sc(t) { return Math.round(t * SCALE * 100) / 100; }
 // alert     : #FF3C3C  red    / dark-red bg  — bottom-left
 // source    : #66BB6A  green  / dark-green bg — bottom-right
 
+const SHARP = `-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility;font-feature-settings:"kern" 1,"liga" 1;`;
+
 function bottomCardStyle(accentHex, bgRgba) {
   return `<style>
     *{margin:0;padding:0;box-sizing:border-box;}
     html,body{width:${W}px;height:${H}px;background:transparent;overflow:hidden;
-      font-family:'Montserrat','Arial Black',Arial,sans-serif;}
+      font-family:'Montserrat','Arial Black',Arial,sans-serif;${SHARP}}
     .card{position:absolute;left:60px;bottom:140px;display:flex;align-items:stretch;
       background:${bgRgba};border:2px solid ${accentHex}80;
       box-shadow:0 12px 48px rgba(0,0,0,0.65);border-radius:20px;overflow:hidden;}
@@ -36,7 +38,7 @@ function topCardStyle(accentHex, bgRgba) {
   return `<style>
     *{margin:0;padding:0;box-sizing:border-box;}
     html,body{width:${W}px;height:${H}px;background:transparent;overflow:hidden;
-      font-family:'Montserrat','Arial Black',Arial,sans-serif;}
+      font-family:'Montserrat','Arial Black',Arial,sans-serif;${SHARP}}
     .card{position:absolute;left:60px;top:60px;display:flex;align-items:stretch;
       background:${bgRgba};border:2px solid ${accentHex}70;
       box-shadow:0 12px 48px rgba(0,0,0,0.65);border-radius:20px;overflow:hidden;}
@@ -46,7 +48,7 @@ function topCardStyle(accentHex, bgRgba) {
 }
 
 function pill(bgHex, textColor, label) {
-  return `<div style="display:inline-block;background:${bgHex};color:${textColor};font-size:16px;font-weight:800;letter-spacing:.12em;padding:7px 16px;border-radius:12px;text-transform:uppercase;margin-bottom:14px">${label}</div>`;
+  return `<div style="display:inline-block;background:${bgHex};color:${textColor};font-size:20px;font-weight:800;letter-spacing:.12em;padding:7px 16px;border-radius:12px;text-transform:uppercase;margin-bottom:14px">${label}</div>`;
 }
 function divider(color) {
   return `<div style="height:1px;background:${color};margin-bottom:14px"></div>`;
@@ -60,7 +62,7 @@ function buildChapter(text) {
       <div class="stripe"></div>
       <div class="inner">
         ${divider('rgba(0,229,255,.35)')}
-        <div style="font-size:32px;font-weight:800;color:#FFF;letter-spacing:-.3px;line-height:1.25">${text}</div>
+        <div style="font-size:36px;font-weight:800;color:#FFF;letter-spacing:-.3px;line-height:1.25">${text}</div>
       </div>
     </div>
   </body></html>`;
@@ -73,8 +75,8 @@ function buildStat(value, label, icon) {
     <div class="card" style="width:720px">
       <div class="stripe"></div>
       <div class="inner">
-        <div style="font-size:72px;font-weight:900;color:#FFC107;line-height:1;letter-spacing:-2px">${value}</div>
-        <div style="font-size:18px;color:rgba(255,255,255,.82);margin-top:8px;line-height:1.4">${label}</div>
+        <div style="font-size:76px;font-weight:900;color:#FFC107;line-height:1;letter-spacing:-2px">${value}</div>
+        <div style="font-size:22px;color:rgba(255,255,255,.82);margin-top:8px;line-height:1.4">${label}</div>
       </div>
       <div style="font-size:52px;padding:22px 24px 22px 0;display:flex;align-items:flex-start;padding-top:28px">${icon}</div>
     </div>
@@ -90,7 +92,7 @@ function buildAlert(text, badge) {
       <div class="inner">
         ${pill('#FF3C3C','#fff',`⚠ ${badge}`)}
         ${divider('rgba(255,60,60,.3)')}
-        <div style="font-size:28px;font-weight:700;color:#FFF;line-height:1.45">${text}</div>
+        <div style="font-size:32px;font-weight:700;color:#FFF;line-height:1.45">${text}</div>
       </div>
     </div>
   </body></html>`;
@@ -105,7 +107,7 @@ function buildKey(text, tag) {
       <div class="inner">
         ${pill('#FF6D00','#fff',`💡 ${tag}`)}
         ${divider('rgba(255,109,0,.3)')}
-        <div style="font-size:26px;font-weight:700;color:#FFF;line-height:1.45">${text}</div>
+        <div style="font-size:30px;font-weight:700;color:#FFF;line-height:1.45">${text}</div>
       </div>
     </div>
   </body></html>`;
@@ -126,8 +128,8 @@ function buildSource(text) {
     <div class="card">
       <div style="font-size:28px;flex-shrink:0">📰</div>
       <div>
-        <div style="font-size:14px;font-weight:800;color:#66BB6A;letter-spacing:.12em;text-transform:uppercase;margin-bottom:4px">Quelle</div>
-        <div style="font-size:20px;color:rgba(255,255,255,.9);font-weight:600;line-height:1.35">${text}</div>
+        <div style="font-size:18px;font-weight:800;color:#66BB6A;letter-spacing:.12em;text-transform:uppercase;margin-bottom:4px">Quelle</div>
+        <div style="font-size:24px;color:rgba(255,255,255,.9);font-weight:600;line-height:1.35">${text}</div>
       </div>
     </div>
   </body></html>`;

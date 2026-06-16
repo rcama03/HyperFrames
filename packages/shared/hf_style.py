@@ -24,8 +24,8 @@ Caption spec:
 #         ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow,
 #         Alignment, MarginL, MarginR, MarginV, Encoding
 ASS_STYLES = """\
-Style: Default,Montserrat,42,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,30,30,60,1
-Style: Highlight,Montserrat,42,&H0000D7FF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,30,30,60,1"""
+Style: Default,Montserrat,58,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,30,30,70,1
+Style: Highlight,Montserrat,58,&H0000D7FF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,30,30,70,1"""
 
 ASS_HEADER_TEMPLATE = """\
 [Script Info]
