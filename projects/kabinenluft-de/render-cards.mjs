@@ -59,9 +59,8 @@ function buildChapter(text) {
     <div class="card" style="width:640px">
       <div class="stripe"></div>
       <div class="inner">
-        ${pill('#00E5FF','#000d1a','▶ KAPITEL')}
-        ${divider('rgba(0,229,255,.25)')}
-        <div style="font-size:30px;font-weight:800;color:#FFF;letter-spacing:-.3px;line-height:1.25">${text}</div>
+        ${divider('rgba(0,229,255,.35)')}
+        <div style="font-size:32px;font-weight:800;color:#FFF;letter-spacing:-.3px;line-height:1.25">${text}</div>
       </div>
     </div>
   </body></html>`;
