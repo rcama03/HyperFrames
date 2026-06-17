@@ -21,6 +21,7 @@ DURATION    = VOICE_DUR
 
 MUSIC_VOL   = 0.19
 SWOOSH_VOL  = 0.35
+SRC_AUD_VOL = 0.30
 
 ZOOM_SCALE  = 1.10
 ZOOM_DUR    = 0.15
@@ -68,7 +69,7 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Montserrat,39,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.2,0,2,20,20,47,1
+Style: Default,Montserrat,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.4,0,2,20,20,50,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -240,6 +241,13 @@ def main():
         'threshold=0.015:ratio=4:attack=200:release=1200:makeup=1[bg_ducked]'
     )
 
+    # Source video original audio (transitions/background)
+    af.append(
+        f'[0:a]atrim=0:{DURATION:.3f},asetpts=PTS-STARTPTS,'
+        f'afade=t=out:st={DURATION-fade_dur:.3f}:d={fade_dur},'
+        f'volume={SRC_AUD_VOL}[src_aud]'
+    )
+
     af.append(
         f'[{swoosh_idx}:a]asplit={NS}' + ''.join(f'[sw_raw{j}]' for j in range(NS))
     )
@@ -252,9 +260,9 @@ def main():
         )
 
     sw_labels = ''.join(f'[sw{j}]' for j in range(NS))
-    n_mix = 2 + NS
+    n_mix = 3 + NS
     af.append(
-        f'[voice_out][bg_ducked]{sw_labels}'
+        f'[voice_out][bg_ducked][src_aud]{sw_labels}'
         f'amix=inputs={n_mix}:normalize=0:duration=first[aout]'
     )
 
