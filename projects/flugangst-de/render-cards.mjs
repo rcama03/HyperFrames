@@ -67,7 +67,7 @@ function buildStat(value, label, icon) {
       <div class="stripe"></div>
       <div class="inner">
         <div style="font-size:51px;font-weight:900;color:#FFC107;line-height:1;letter-spacing:-2px">${value}</div>
-        <div style="font-size:15px;color:rgba(255,255,255,.82);margin-top:6px;line-height:1.4">${label}</div>
+        <div style="font-size:17px;color:rgba(255,255,255,.82);margin-top:6px;line-height:1.4">${label}</div>
       </div>
       <div style="font-size:35px;padding:15px 16px 15px 0;display:flex;align-items:flex-start;padding-top:19px">${icon}</div>
     </div>
@@ -83,7 +83,7 @@ function buildAlert(text, badge) {
       <div class="inner">
         ${pill('#FF3C3C','#fff',`⚠ ${badge}`)}
         ${divider('rgba(255,60,60,.3)')}
-        <div style="font-size:21px;font-weight:700;color:#FFF;line-height:1.45">${text}</div>
+        <div style="font-size:23px;font-weight:700;color:#FFF;line-height:1.45">${text}</div>
       </div>
     </div>
   </body></html>`;
@@ -98,7 +98,7 @@ function buildKey(text, tag) {
       <div class="inner">
         ${pill('#FF6D00','#fff',`💡 ${tag}`)}
         ${divider('rgba(255,109,0,.3)')}
-        <div style="font-size:20px;font-weight:700;color:#FFF;line-height:1.45">${text}</div>
+        <div style="font-size:22px;font-weight:700;color:#FFF;line-height:1.45">${text}</div>
       </div>
     </div>
   </body></html>`;
@@ -114,7 +114,7 @@ function buildDefinition(term, text) {
         ${pill('#00BCD4','#001820','DEFINITION')}
         ${divider('rgba(0,188,212,.25)')}
         <div style="font-size:25px;font-weight:800;color:#FFF;margin-bottom:7px;line-height:1.25">${term}</div>
-        <div style="font-size:19px;color:rgba(255,255,255,.85);line-height:1.5">${text}</div>
+        <div style="font-size:21px;color:rgba(255,255,255,.85);line-height:1.5">${text}</div>
       </div>
     </div>
   </body></html>`;
@@ -128,8 +128,8 @@ function buildQuote(text, attribution) {
       <div class="stripe"></div>
       <div class="inner">
         <div style="font-size:37px;color:#9C27B0;line-height:1;margin-bottom:6px;opacity:0.9">&ldquo;</div>
-        <div style="font-size:20px;font-weight:700;color:#FFF;line-height:1.5;font-style:italic">${text}</div>
-        <div style="font-size:16px;color:#CE93D8;margin-top:10px;letter-spacing:.05em">&mdash; ${attribution}</div>
+        <div style="font-size:22px;font-weight:700;color:#FFF;line-height:1.5;font-style:italic">${text}</div>
+        <div style="font-size:18px;color:#CE93D8;margin-top:10px;letter-spacing:.05em">&mdash; ${attribution}</div>
       </div>
     </div>
   </body></html>`;
@@ -154,9 +154,9 @@ function buildRank(rank, label, text) {
         <div style="font-size:53px;font-weight:900;color:#fff3e0;line-height:1">${rank}</div>
       </div>
       <div class="inner">
-        <div style="font-size:13px;font-weight:800;color:#FF8F00;letter-spacing:.12em;text-transform:uppercase;margin-bottom:8px">${label}</div>
+        <div style="font-size:15px;font-weight:800;color:#FF8F00;letter-spacing:.12em;text-transform:uppercase;margin-bottom:8px">${label}</div>
         <div style="height:1px;background:rgba(255,143,0,.25);margin-bottom:10px"></div>
-        <div style="font-size:21px;font-weight:800;color:#FFF;line-height:1.4">${text}</div>
+        <div style="font-size:23px;font-weight:800;color:#FFF;line-height:1.4">${text}</div>
       </div>
     </div>
   </body></html>`;
@@ -177,8 +177,8 @@ function buildSource(text) {
     <div class="card">
       <div style="font-size:19px;flex-shrink:0">📰</div>
       <div>
-        <div style="font-size:12px;font-weight:800;color:#66BB6A;letter-spacing:.12em;text-transform:uppercase;margin-bottom:3px">Quelle</div>
-        <div style="font-size:16px;color:rgba(255,255,255,.9);font-weight:600;line-height:1.35">${text}</div>
+        <div style="font-size:14px;font-weight:800;color:#66BB6A;letter-spacing:.12em;text-transform:uppercase;margin-bottom:3px">Quelle</div>
+        <div style="font-size:18px;color:rgba(255,255,255,.9);font-weight:600;line-height:1.35">${text}</div>
       </div>
     </div>
   </body></html>`;
