@@ -133,8 +133,7 @@ def main():
     NS       = len(SWOOSH_CARD_TIMES)
 
     cmd = ['ffmpeg', '-y']
-    # Loop source video to cover full voiceover duration (video is shorter)
-    cmd += ['-stream_loop', '-1', '-ss', '0', '-t', str(DURATION), '-i', str(VIDEO_IN)]
+    cmd += ['-ss', '0', '-t', str(DURATION), '-i', str(VIDEO_IN)]
     cmd += ['-i', str(VOICE_IN)]
     for c in cards:
         cmd += ['-i', c['file']]
