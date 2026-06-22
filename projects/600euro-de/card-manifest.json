@@ -1,0 +1,136 @@
+{
+  "cards": [
+    {
+      "id": "chap-schock",
+      "path": "card-frames/chap-schock.png",
+      "inTime": 0.5,
+      "outTime": 4
+    },
+    {
+      "id": "chap-kalender",
+      "path": "card-frames/chap-kalender.png",
+      "inTime": 68.5,
+      "outTime": 72
+    },
+    {
+      "id": "chap-inkognito",
+      "path": "card-frames/chap-inkognito.png",
+      "inTime": 136,
+      "outTime": 140
+    },
+    {
+      "id": "chap-ersparnis",
+      "path": "card-frames/chap-ersparnis.png",
+      "inTime": 201.5,
+      "outTime": 205.5
+    },
+    {
+      "id": "stat-50x",
+      "path": "card-frames/stat-50x.png",
+      "inTime": 21,
+      "outTime": 26
+    },
+    {
+      "id": "stat-61pct",
+      "path": "card-frames/stat-61pct.png",
+      "inTime": 28,
+      "outTime": 34
+    },
+    {
+      "id": "stat-3x",
+      "path": "card-frames/stat-3x.png",
+      "inTime": 44,
+      "outTime": 50
+    },
+    {
+      "id": "stat-400eur",
+      "path": "card-frames/stat-400eur.png",
+      "inTime": 78,
+      "outTime": 84
+    },
+    {
+      "id": "stat-214eur",
+      "path": "card-frames/stat-214eur.png",
+      "inTime": 116,
+      "outTime": 120.5
+    },
+    {
+      "id": "stat-4080",
+      "path": "card-frames/stat-4080.png",
+      "inTime": 192,
+      "outTime": 199
+    },
+    {
+      "id": "key-google",
+      "path": "card-frames/key-google.png",
+      "inTime": 53,
+      "outTime": 61
+    },
+    {
+      "id": "key-alarm",
+      "path": "card-frames/key-alarm.png",
+      "inTime": 105,
+      "outTime": 113
+    },
+    {
+      "id": "key-airport",
+      "path": "card-frames/key-airport.png",
+      "inTime": 124,
+      "outTime": 132
+    },
+    {
+      "id": "key-meilen",
+      "path": "card-frames/key-meilen.png",
+      "inTime": 220,
+      "outTime": 228
+    },
+    {
+      "id": "alert-inkognito",
+      "path": "card-frames/alert-inkognito.png",
+      "inTime": 141,
+      "outTime": 149
+    },
+    {
+      "id": "alert-ticket",
+      "path": "card-frames/alert-ticket.png",
+      "inTime": 180,
+      "outTime": 186
+    },
+    {
+      "id": "def-hidden",
+      "path": "card-frames/def-hidden.png",
+      "inTime": 163,
+      "outTime": 170
+    },
+    {
+      "id": "src-iata",
+      "path": "card-frames/src-iata.png",
+      "inTime": 25,
+      "outTime": 30
+    },
+    {
+      "id": "src-cheapair",
+      "path": "card-frames/src-cheapair.png",
+      "inTime": 90,
+      "outTime": 95
+    },
+    {
+      "id": "src-kayak",
+      "path": "card-frames/src-kayak.png",
+      "inTime": 187,
+      "outTime": 192
+    },
+    {
+      "id": "quote-system",
+      "path": "card-frames/quote-system.png",
+      "inTime": 265,
+      "outTime": 272
+    },
+    {
+      "id": "stat-600",
+      "path": "card-frames/stat-600.png",
+      "inTime": 206,
+      "outTime": 214
+    }
+  ]
+}

@@ -1,0 +1,2307 @@
+[
+  {
+    "word": "Ich habe",
+    "start": 0.0,
+    "end": 0.728
+  },
+  {
+    "word": "für denselben",
+    "start": 0.728,
+    "end": 1.457
+  },
+  {
+    "word": "Flug",
+    "start": 1.457,
+    "end": 2.185
+  },
+  {
+    "word": "zur WM",
+    "start": 2.185,
+    "end": 2.914
+  },
+  {
+    "word": "2026",
+    "start": 2.914,
+    "end": 3.642
+  },
+  {
+    "word": "satte",
+    "start": 3.642,
+    "end": 4.371
+  },
+  {
+    "word": "600 Euro",
+    "start": 4.371,
+    "end": 5.099
+  },
+  {
+    "word": "weniger",
+    "start": 5.099,
+    "end": 5.828
+  },
+  {
+    "word": "bezahlt",
+    "start": 5.828,
+    "end": 6.556
+  },
+  {
+    "word": "als mein",
+    "start": 6.556,
+    "end": 7.285
+  },
+  {
+    "word": "Sitznachbar.",
+    "start": 7.285,
+    "end": 8.013
+  },
+  {
+    "word": "Gleiche",
+    "start": 8.013,
+    "end": 8.742
+  },
+  {
+    "word": "Airline,",
+    "start": 8.742,
+    "end": 9.47
+  },
+  {
+    "word": "gleiche",
+    "start": 9.47,
+    "end": 10.198
+  },
+  {
+    "word": "Route,",
+    "start": 10.198,
+    "end": 10.927
+  },
+  {
+    "word": "gleicher",
+    "start": 10.927,
+    "end": 11.655
+  },
+  {
+    "word": "Tag. Der",
+    "start": 11.655,
+    "end": 12.384
+  },
+  {
+    "word": "Unterschied?",
+    "start": 12.384,
+    "end": 13.112
+  },
+  {
+    "word": "Eine",
+    "start": 13.112,
+    "end": 13.841
+  },
+  {
+    "word": "einzige",
+    "start": 13.841,
+    "end": 14.569
+  },
+  {
+    "word": "App —",
+    "start": 14.569,
+    "end": 15.298
+  },
+  {
+    "word": "und das",
+    "start": 15.298,
+    "end": 16.026
+  },
+  {
+    "word": "Wissen,",
+    "start": 16.026,
+    "end": 16.755
+  },
+  {
+    "word": "wann",
+    "start": 16.755,
+    "end": 17.483
+  },
+  {
+    "word": "man buchen",
+    "start": 17.483,
+    "end": 18.212
+  },
+  {
+    "word": "muss.",
+    "start": 18.212,
+    "end": 18.94
+  },
+  {
+    "word": "Was die",
+    "start": 19.24,
+    "end": 19.806
+  },
+  {
+    "word": "wenigsten",
+    "start": 19.806,
+    "end": 20.371
+  },
+  {
+    "word": "wissen:",
+    "start": 20.371,
+    "end": 20.937
+  },
+  {
+    "word": "Airlines",
+    "start": 20.937,
+    "end": 21.502
+  },
+  {
+    "word": "ändern",
+    "start": 21.502,
+    "end": 22.068
+  },
+  {
+    "word": "ihre",
+    "start": 22.068,
+    "end": 22.633
+  },
+  {
+    "word": "Ticketpreise",
+    "start": 22.633,
+    "end": 23.199
+  },
+  {
+    "word": "bis zu",
+    "start": 23.199,
+    "end": 23.764
+  },
+  {
+    "word": "50 Mal",
+    "start": 23.764,
+    "end": 24.33
+  },
+  {
+    "word": "pro Tag.",
+    "start": 24.33,
+    "end": 24.895
+  },
+  {
+    "word": "Laut",
+    "start": 24.895,
+    "end": 25.461
+  },
+  {
+    "word": "IATA",
+    "start": 25.461,
+    "end": 26.026
+  },
+  {
+    "word": "schwanken",
+    "start": 26.026,
+    "end": 26.592
+  },
+  {
+    "word": "Flugpreise",
+    "start": 26.592,
+    "end": 27.157
+  },
+  {
+    "word": "auf beliebten",
+    "start": 27.157,
+    "end": 27.723
+  },
+  {
+    "word": "Routen",
+    "start": 27.723,
+    "end": 28.288
+  },
+  {
+    "word": "um durchschnittlich",
+    "start": 28.288,
+    "end": 28.854
+  },
+  {
+    "word": "61 Prozent",
+    "start": 28.854,
+    "end": 29.419
+  },
+  {
+    "word": "— je",
+    "start": 29.419,
+    "end": 29.985
+  },
+  {
+    "word": "nachdem,",
+    "start": 29.985,
+    "end": 30.55
+  },
+  {
+    "word": "wann",
+    "start": 30.55,
+    "end": 31.116
+  },
+  {
+    "word": "du buchst.",
+    "start": 31.116,
+    "end": 31.681
+  },
+  {
+    "word": "Die Airline",
+    "start": 31.681,
+    "end": 32.247
+  },
+  {
+    "word": "weiß",
+    "start": 32.247,
+    "end": 32.812
+  },
+  {
+    "word": "genau,",
+    "start": 32.812,
+    "end": 33.378
+  },
+  {
+    "word": "was du",
+    "start": 33.378,
+    "end": 33.943
+  },
+  {
+    "word": "zahlen",
+    "start": 33.943,
+    "end": 34.509
+  },
+  {
+    "word": "wirst.",
+    "start": 34.509,
+    "end": 35.074
+  },
+  {
+    "word": "Du nicht.",
+    "start": 35.074,
+    "end": 35.64
+  },
+  {
+    "word": "Die WM",
+    "start": 35.94,
+    "end": 36.494
+  },
+  {
+    "word": "2026",
+    "start": 36.494,
+    "end": 37.048
+  },
+  {
+    "word": "findet",
+    "start": 37.048,
+    "end": 37.602
+  },
+  {
+    "word": "in den",
+    "start": 37.602,
+    "end": 38.156
+  },
+  {
+    "word": "USA, Kanada",
+    "start": 38.156,
+    "end": 38.71
+  },
+  {
+    "word": "und Mexiko",
+    "start": 38.71,
+    "end": 39.264
+  },
+  {
+    "word": "statt",
+    "start": 39.264,
+    "end": 39.818
+  },
+  {
+    "word": "— das",
+    "start": 39.818,
+    "end": 40.372
+  },
+  {
+    "word": "bedeutet",
+    "start": 40.372,
+    "end": 40.926
+  },
+  {
+    "word": "Transatlantikflüge",
+    "start": 40.926,
+    "end": 41.48
+  },
+  {
+    "word": "für Millionen",
+    "start": 41.48,
+    "end": 42.034
+  },
+  {
+    "word": "Europäer.",
+    "start": 42.034,
+    "end": 42.588
+  },
+  {
+    "word": "Schon",
+    "start": 42.588,
+    "end": 43.142
+  },
+  {
+    "word": "jetzt",
+    "start": 43.142,
+    "end": 43.696
+  },
+  {
+    "word": "sind",
+    "start": 43.696,
+    "end": 44.25
+  },
+  {
+    "word": "Preise",
+    "start": 44.25,
+    "end": 44.804
+  },
+  {
+    "word": "auf bestimmten",
+    "start": 44.804,
+    "end": 45.358
+  },
+  {
+    "word": "Routen",
+    "start": 45.358,
+    "end": 45.912
+  },
+  {
+    "word": "dreimal",
+    "start": 45.912,
+    "end": 46.466
+  },
+  {
+    "word": "so hoch",
+    "start": 46.466,
+    "end": 47.02
+  },
+  {
+    "word": "wie normal.",
+    "start": 47.02,
+    "end": 47.574
+  },
+  {
+    "word": "Wer falsch",
+    "start": 47.574,
+    "end": 48.128
+  },
+  {
+    "word": "bucht,",
+    "start": 48.128,
+    "end": 48.682
+  },
+  {
+    "word": "zahlt",
+    "start": 48.682,
+    "end": 49.236
+  },
+  {
+    "word": "drauf",
+    "start": 49.236,
+    "end": 49.79
+  },
+  {
+    "word": "— manchmal",
+    "start": 49.79,
+    "end": 50.344
+  },
+  {
+    "word": "über",
+    "start": 50.344,
+    "end": 50.898
+  },
+  {
+    "word": "tausend",
+    "start": 50.898,
+    "end": 51.452
+  },
+  {
+    "word": "Euro",
+    "start": 51.452,
+    "end": 52.006
+  },
+  {
+    "word": "zu viel.",
+    "start": 52.006,
+    "end": 52.56
+  },
+  {
+    "word": "Die App",
+    "start": 52.86,
+    "end": 53.404
+  },
+  {
+    "word": "heißt",
+    "start": 53.404,
+    "end": 53.948
+  },
+  {
+    "word": "Google",
+    "start": 53.948,
+    "end": 54.492
+  },
+  {
+    "word": "Flights",
+    "start": 54.492,
+    "end": 55.037
+  },
+  {
+    "word": "— und",
+    "start": 55.037,
+    "end": 55.581
+  },
+  {
+    "word": "die meisten",
+    "start": 55.581,
+    "end": 56.125
+  },
+  {
+    "word": "nutzen",
+    "start": 56.125,
+    "end": 56.669
+  },
+  {
+    "word": "sie komplett",
+    "start": 56.669,
+    "end": 57.213
+  },
+  {
+    "word": "falsch.",
+    "start": 57.213,
+    "end": 57.757
+  },
+  {
+    "word": "Es geht",
+    "start": 57.757,
+    "end": 58.301
+  },
+  {
+    "word": "nicht",
+    "start": 58.301,
+    "end": 58.846
+  },
+  {
+    "word": "ums einfache",
+    "start": 58.846,
+    "end": 59.39
+  },
+  {
+    "word": "Suchen.",
+    "start": 59.39,
+    "end": 59.934
+  },
+  {
+    "word": "Es geht",
+    "start": 59.934,
+    "end": 60.478
+  },
+  {
+    "word": "um den",
+    "start": 60.478,
+    "end": 61.022
+  },
+  {
+    "word": "Preisalarm,",
+    "start": 61.022,
+    "end": 61.566
+  },
+  {
+    "word": "die Preishistorie",
+    "start": 61.566,
+    "end": 62.11
+  },
+  {
+    "word": "und den",
+    "start": 62.11,
+    "end": 62.654
+  },
+  {
+    "word": "Kalender-Trick,",
+    "start": 62.654,
+    "end": 63.199
+  },
+  {
+    "word": "den ich",
+    "start": 63.199,
+    "end": 63.743
+  },
+  {
+    "word": "dir gleich",
+    "start": 63.743,
+    "end": 64.287
+  },
+  {
+    "word": "zeige.",
+    "start": 64.287,
+    "end": 64.831
+  },
+  {
+    "word": "Damit",
+    "start": 64.831,
+    "end": 65.375
+  },
+  {
+    "word": "habe",
+    "start": 65.375,
+    "end": 65.919
+  },
+  {
+    "word": "ich meinen",
+    "start": 65.919,
+    "end": 66.463
+  },
+  {
+    "word": "Flug",
+    "start": 66.463,
+    "end": 67.008
+  },
+  {
+    "word": "zum richtigen",
+    "start": 67.008,
+    "end": 67.552
+  },
+  {
+    "word": "Moment",
+    "start": 67.552,
+    "end": 68.096
+  },
+  {
+    "word": "erwischt.",
+    "start": 68.096,
+    "end": 68.64
+  },
+  {
+    "word": "In Google",
+    "start": 68.94,
+    "end": 69.53
+  },
+  {
+    "word": "Flights",
+    "start": 69.53,
+    "end": 70.119
+  },
+  {
+    "word": "gibt",
+    "start": 70.119,
+    "end": 70.709
+  },
+  {
+    "word": "es eine",
+    "start": 70.709,
+    "end": 71.299
+  },
+  {
+    "word": "Kalenderansicht.",
+    "start": 71.299,
+    "end": 71.888
+  },
+  {
+    "word": "Die zeigt",
+    "start": 71.888,
+    "end": 72.478
+  },
+  {
+    "word": "dir auf",
+    "start": 72.478,
+    "end": 73.068
+  },
+  {
+    "word": "einen",
+    "start": 73.068,
+    "end": 73.657
+  },
+  {
+    "word": "Blick,",
+    "start": 73.657,
+    "end": 74.247
+  },
+  {
+    "word": "welcher",
+    "start": 74.247,
+    "end": 74.837
+  },
+  {
+    "word": "Tag günstiger",
+    "start": 74.837,
+    "end": 75.427
+  },
+  {
+    "word": "ist. Für",
+    "start": 75.427,
+    "end": 76.016
+  },
+  {
+    "word": "meine",
+    "start": 76.016,
+    "end": 76.606
+  },
+  {
+    "word": "WM-Route",
+    "start": 76.606,
+    "end": 77.196
+  },
+  {
+    "word": "war ein",
+    "start": 77.196,
+    "end": 77.785
+  },
+  {
+    "word": "Flug",
+    "start": 77.785,
+    "end": 78.375
+  },
+  {
+    "word": "drei",
+    "start": 78.375,
+    "end": 78.965
+  },
+  {
+    "word": "Tage",
+    "start": 78.965,
+    "end": 79.554
+  },
+  {
+    "word": "früher",
+    "start": 79.554,
+    "end": 80.144
+  },
+  {
+    "word": "über",
+    "start": 80.144,
+    "end": 80.734
+  },
+  {
+    "word": "400 Euro",
+    "start": 80.734,
+    "end": 81.323
+  },
+  {
+    "word": "billiger.",
+    "start": 81.323,
+    "end": 81.913
+  },
+  {
+    "word": "Drei",
+    "start": 81.913,
+    "end": 82.503
+  },
+  {
+    "word": "Tage",
+    "start": 82.503,
+    "end": 83.093
+  },
+  {
+    "word": "früher",
+    "start": 83.093,
+    "end": 83.682
+  },
+  {
+    "word": "ankommen",
+    "start": 83.682,
+    "end": 84.272
+  },
+  {
+    "word": "— klingt",
+    "start": 84.272,
+    "end": 84.862
+  },
+  {
+    "word": "nach",
+    "start": 84.862,
+    "end": 85.451
+  },
+  {
+    "word": "Problem,",
+    "start": 85.451,
+    "end": 86.041
+  },
+  {
+    "word": "ist aber",
+    "start": 86.041,
+    "end": 86.631
+  },
+  {
+    "word": "eigentlich",
+    "start": 86.631,
+    "end": 87.22
+  },
+  {
+    "word": "ein Bonus.",
+    "start": 87.22,
+    "end": 87.81
+  },
+  {
+    "word": "Wann",
+    "start": 88.11,
+    "end": 88.708
+  },
+  {
+    "word": "soll",
+    "start": 88.708,
+    "end": 89.307
+  },
+  {
+    "word": "man buchen?",
+    "start": 89.307,
+    "end": 89.905
+  },
+  {
+    "word": "Laut",
+    "start": 89.905,
+    "end": 90.504
+  },
+  {
+    "word": "einer",
+    "start": 90.504,
+    "end": 91.102
+  },
+  {
+    "word": "Studie",
+    "start": 91.102,
+    "end": 91.701
+  },
+  {
+    "word": "von CheapAir",
+    "start": 91.701,
+    "end": 92.299
+  },
+  {
+    "word": "mit über",
+    "start": 92.299,
+    "end": 92.898
+  },
+  {
+    "word": "900 Millionen",
+    "start": 92.898,
+    "end": 93.496
+  },
+  {
+    "word": "Flugpreisen",
+    "start": 93.496,
+    "end": 94.095
+  },
+  {
+    "word": "ist der",
+    "start": 94.095,
+    "end": 94.693
+  },
+  {
+    "word": "optimale",
+    "start": 94.693,
+    "end": 95.292
+  },
+  {
+    "word": "Buchungszeitpunkt",
+    "start": 95.292,
+    "end": 95.89
+  },
+  {
+    "word": "für Langstreckenflüge",
+    "start": 95.89,
+    "end": 96.488
+  },
+  {
+    "word": "zwischen",
+    "start": 96.488,
+    "end": 97.087
+  },
+  {
+    "word": "75 und",
+    "start": 97.087,
+    "end": 97.685
+  },
+  {
+    "word": "150 Tagen",
+    "start": 97.685,
+    "end": 98.284
+  },
+  {
+    "word": "vor Abflug.",
+    "start": 98.284,
+    "end": 98.882
+  },
+  {
+    "word": "Früher",
+    "start": 98.882,
+    "end": 99.481
+  },
+  {
+    "word": "ist nicht",
+    "start": 99.481,
+    "end": 100.079
+  },
+  {
+    "word": "besser",
+    "start": 100.079,
+    "end": 100.678
+  },
+  {
+    "word": "— und",
+    "start": 100.678,
+    "end": 101.276
+  },
+  {
+    "word": "später",
+    "start": 101.276,
+    "end": 101.875
+  },
+  {
+    "word": "kostet",
+    "start": 101.875,
+    "end": 102.473
+  },
+  {
+    "word": "dich",
+    "start": 102.473,
+    "end": 103.072
+  },
+  {
+    "word": "Hunderte.",
+    "start": 103.072,
+    "end": 103.67
+  },
+  {
+    "word": "Du suchst",
+    "start": 103.97,
+    "end": 104.486
+  },
+  {
+    "word": "deine",
+    "start": 104.486,
+    "end": 105.002
+  },
+  {
+    "word": "Route",
+    "start": 105.002,
+    "end": 105.519
+  },
+  {
+    "word": "in Google",
+    "start": 105.519,
+    "end": 106.035
+  },
+  {
+    "word": "Flights,",
+    "start": 106.035,
+    "end": 106.551
+  },
+  {
+    "word": "scrollst",
+    "start": 106.551,
+    "end": 107.067
+  },
+  {
+    "word": "runter",
+    "start": 107.067,
+    "end": 107.584
+  },
+  {
+    "word": "und aktivierst",
+    "start": 107.584,
+    "end": 108.1
+  },
+  {
+    "word": "den Preisalarm.",
+    "start": 108.1,
+    "end": 108.616
+  },
+  {
+    "word": "Sobald",
+    "start": 108.616,
+    "end": 109.132
+  },
+  {
+    "word": "der Preis",
+    "start": 109.132,
+    "end": 109.649
+  },
+  {
+    "word": "fällt,",
+    "start": 109.649,
+    "end": 110.165
+  },
+  {
+    "word": "bekommst",
+    "start": 110.165,
+    "end": 110.681
+  },
+  {
+    "word": "du eine",
+    "start": 110.681,
+    "end": 111.198
+  },
+  {
+    "word": "E-Mail.",
+    "start": 111.198,
+    "end": 111.714
+  },
+  {
+    "word": "Ich habe",
+    "start": 111.714,
+    "end": 112.23
+  },
+  {
+    "word": "drei",
+    "start": 112.23,
+    "end": 112.746
+  },
+  {
+    "word": "Alarme",
+    "start": 112.746,
+    "end": 113.263
+  },
+  {
+    "word": "für dieselbe",
+    "start": 113.263,
+    "end": 113.779
+  },
+  {
+    "word": "Route",
+    "start": 113.779,
+    "end": 114.295
+  },
+  {
+    "word": "gesetzt",
+    "start": 114.295,
+    "end": 114.811
+  },
+  {
+    "word": "und nach",
+    "start": 114.811,
+    "end": 115.328
+  },
+  {
+    "word": "zwei",
+    "start": 115.328,
+    "end": 115.844
+  },
+  {
+    "word": "Wochen",
+    "start": 115.844,
+    "end": 116.36
+  },
+  {
+    "word": "kam die",
+    "start": 116.36,
+    "end": 116.876
+  },
+  {
+    "word": "Benachrichtigung",
+    "start": 116.876,
+    "end": 117.392
+  },
+  {
+    "word": "— 214",
+    "start": 117.392,
+    "end": 117.909
+  },
+  {
+    "word": "Euro",
+    "start": 117.909,
+    "end": 118.425
+  },
+  {
+    "word": "günstiger",
+    "start": 118.425,
+    "end": 118.941
+  },
+  {
+    "word": "als beim",
+    "start": 118.941,
+    "end": 119.457
+  },
+  {
+    "word": "ersten",
+    "start": 119.457,
+    "end": 119.974
+  },
+  {
+    "word": "Check.",
+    "start": 119.974,
+    "end": 120.49
+  },
+  {
+    "word": "Viele",
+    "start": 120.79,
+    "end": 121.318
+  },
+  {
+    "word": "Menschen",
+    "start": 121.318,
+    "end": 121.847
+  },
+  {
+    "word": "fliegen",
+    "start": 121.847,
+    "end": 122.375
+  },
+  {
+    "word": "immer",
+    "start": 122.375,
+    "end": 122.903
+  },
+  {
+    "word": "vom selben",
+    "start": 122.903,
+    "end": 123.431
+  },
+  {
+    "word": "Flughafen.",
+    "start": 123.431,
+    "end": 123.96
+  },
+  {
+    "word": "Dabei",
+    "start": 123.96,
+    "end": 124.488
+  },
+  {
+    "word": "zeigt",
+    "start": 124.488,
+    "end": 125.016
+  },
+  {
+    "word": "Google",
+    "start": 125.016,
+    "end": 125.544
+  },
+  {
+    "word": "Flights",
+    "start": 125.544,
+    "end": 126.073
+  },
+  {
+    "word": "mit der",
+    "start": 126.073,
+    "end": 126.601
+  },
+  {
+    "word": "Funktion",
+    "start": 126.601,
+    "end": 127.129
+  },
+  {
+    "word": "'Umliegende",
+    "start": 127.129,
+    "end": 127.658
+  },
+  {
+    "word": "Flughäfen'",
+    "start": 127.658,
+    "end": 128.186
+  },
+  {
+    "word": "oft 100",
+    "start": 128.186,
+    "end": 128.714
+  },
+  {
+    "word": "bis 300",
+    "start": 128.714,
+    "end": 129.242
+  },
+  {
+    "word": "Euro",
+    "start": 129.242,
+    "end": 129.771
+  },
+  {
+    "word": "günstigere",
+    "start": 129.771,
+    "end": 130.299
+  },
+  {
+    "word": "Optionen.",
+    "start": 130.299,
+    "end": 130.827
+  },
+  {
+    "word": "Für WM-Destinationen",
+    "start": 130.827,
+    "end": 131.356
+  },
+  {
+    "word": "wie New",
+    "start": 131.356,
+    "end": 131.884
+  },
+  {
+    "word": "York",
+    "start": 131.884,
+    "end": 132.412
+  },
+  {
+    "word": "oder",
+    "start": 132.412,
+    "end": 132.94
+  },
+  {
+    "word": "Toronto",
+    "start": 132.94,
+    "end": 133.469
+  },
+  {
+    "word": "kann",
+    "start": 133.469,
+    "end": 133.997
+  },
+  {
+    "word": "das den",
+    "start": 133.997,
+    "end": 134.525
+  },
+  {
+    "word": "entscheidenden",
+    "start": 134.525,
+    "end": 135.053
+  },
+  {
+    "word": "Unterschied",
+    "start": 135.053,
+    "end": 135.582
+  },
+  {
+    "word": "machen.",
+    "start": 135.582,
+    "end": 136.11
+  },
+  {
+    "word": "Du hast",
+    "start": 136.41,
+    "end": 136.939
+  },
+  {
+    "word": "sicher",
+    "start": 136.939,
+    "end": 137.468
+  },
+  {
+    "word": "gehört:",
+    "start": 137.468,
+    "end": 137.997
+  },
+  {
+    "word": "Im Inkognito-Modus",
+    "start": 137.997,
+    "end": 138.526
+  },
+  {
+    "word": "sind",
+    "start": 138.526,
+    "end": 139.055
+  },
+  {
+    "word": "Flüge",
+    "start": 139.055,
+    "end": 139.584
+  },
+  {
+    "word": "billiger.",
+    "start": 139.584,
+    "end": 140.113
+  },
+  {
+    "word": "Das stimmt",
+    "start": 140.113,
+    "end": 140.642
+  },
+  {
+    "word": "so nicht",
+    "start": 140.642,
+    "end": 141.171
+  },
+  {
+    "word": "ganz.",
+    "start": 141.171,
+    "end": 141.7
+  },
+  {
+    "word": "Airlines",
+    "start": 141.7,
+    "end": 142.229
+  },
+  {
+    "word": "nutzen",
+    "start": 142.229,
+    "end": 142.758
+  },
+  {
+    "word": "primär",
+    "start": 142.758,
+    "end": 143.287
+  },
+  {
+    "word": "IP-Adressen",
+    "start": 143.287,
+    "end": 143.816
+  },
+  {
+    "word": "und Standortdaten",
+    "start": 143.816,
+    "end": 144.344
+  },
+  {
+    "word": "— nicht",
+    "start": 144.344,
+    "end": 144.873
+  },
+  {
+    "word": "nur Cookies.",
+    "start": 144.873,
+    "end": 145.402
+  },
+  {
+    "word": "Trotzdem",
+    "start": 145.402,
+    "end": 145.931
+  },
+  {
+    "word": "empfehle",
+    "start": 145.931,
+    "end": 146.46
+  },
+  {
+    "word": "ich ihn,",
+    "start": 146.46,
+    "end": 146.989
+  },
+  {
+    "word": "weil",
+    "start": 146.989,
+    "end": 147.518
+  },
+  {
+    "word": "er verhindert,",
+    "start": 147.518,
+    "end": 148.047
+  },
+  {
+    "word": "dass",
+    "start": 148.047,
+    "end": 148.576
+  },
+  {
+    "word": "Google",
+    "start": 148.576,
+    "end": 149.105
+  },
+  {
+    "word": "dein",
+    "start": 149.105,
+    "end": 149.634
+  },
+  {
+    "word": "Suchverhalten",
+    "start": 149.634,
+    "end": 150.163
+  },
+  {
+    "word": "gegen",
+    "start": 150.163,
+    "end": 150.692
+  },
+  {
+    "word": "dich",
+    "start": 150.692,
+    "end": 151.221
+  },
+  {
+    "word": "nutzt.",
+    "start": 151.221,
+    "end": 151.75
+  },
+  {
+    "word": "Jetzt",
+    "start": 152.05,
+    "end": 152.617
+  },
+  {
+    "word": "wird's",
+    "start": 152.617,
+    "end": 153.183
+  },
+  {
+    "word": "interessant.",
+    "start": 153.183,
+    "end": 153.75
+  },
+  {
+    "word": "Manchmal",
+    "start": 153.75,
+    "end": 154.316
+  },
+  {
+    "word": "ist ein",
+    "start": 154.316,
+    "end": 154.883
+  },
+  {
+    "word": "Flug",
+    "start": 154.883,
+    "end": 155.449
+  },
+  {
+    "word": "von Frankfurt",
+    "start": 155.449,
+    "end": 156.016
+  },
+  {
+    "word": "nach",
+    "start": 156.016,
+    "end": 156.583
+  },
+  {
+    "word": "New York",
+    "start": 156.583,
+    "end": 157.149
+  },
+  {
+    "word": "günstiger,",
+    "start": 157.149,
+    "end": 157.716
+  },
+  {
+    "word": "wenn",
+    "start": 157.716,
+    "end": 158.282
+  },
+  {
+    "word": "du über",
+    "start": 158.282,
+    "end": 158.849
+  },
+  {
+    "word": "einen",
+    "start": 158.849,
+    "end": 159.415
+  },
+  {
+    "word": "Zwischenstopp",
+    "start": 159.415,
+    "end": 159.982
+  },
+  {
+    "word": "buchst",
+    "start": 159.982,
+    "end": 160.548
+  },
+  {
+    "word": "— und",
+    "start": 160.548,
+    "end": 161.115
+  },
+  {
+    "word": "an diesem",
+    "start": 161.115,
+    "end": 161.682
+  },
+  {
+    "word": "Zwischenstopp",
+    "start": 161.682,
+    "end": 162.248
+  },
+  {
+    "word": "einfach",
+    "start": 162.248,
+    "end": 162.815
+  },
+  {
+    "word": "aussteigst.",
+    "start": 162.815,
+    "end": 163.381
+  },
+  {
+    "word": "Das nennt",
+    "start": 163.381,
+    "end": 163.948
+  },
+  {
+    "word": "sich",
+    "start": 163.948,
+    "end": 164.514
+  },
+  {
+    "word": "Hidden",
+    "start": 164.514,
+    "end": 165.081
+  },
+  {
+    "word": "City",
+    "start": 165.081,
+    "end": 165.648
+  },
+  {
+    "word": "Ticketing.",
+    "start": 165.648,
+    "end": 166.214
+  },
+  {
+    "word": "Es ist",
+    "start": 166.214,
+    "end": 166.781
+  },
+  {
+    "word": "nicht",
+    "start": 166.781,
+    "end": 167.347
+  },
+  {
+    "word": "illegal",
+    "start": 167.347,
+    "end": 167.914
+  },
+  {
+    "word": "— aber",
+    "start": 167.914,
+    "end": 168.48
+  },
+  {
+    "word": "Airlines",
+    "start": 168.48,
+    "end": 169.047
+  },
+  {
+    "word": "mögen",
+    "start": 169.047,
+    "end": 169.613
+  },
+  {
+    "word": "es nicht.",
+    "start": 169.613,
+    "end": 170.18
+  },
+  {
+    "word": "Die Website",
+    "start": 170.48,
+    "end": 171.011
+  },
+  {
+    "word": "Skiplagged",
+    "start": 171.011,
+    "end": 171.543
+  },
+  {
+    "word": "macht",
+    "start": 171.543,
+    "end": 172.074
+  },
+  {
+    "word": "genau",
+    "start": 172.074,
+    "end": 172.605
+  },
+  {
+    "word": "das —",
+    "start": 172.605,
+    "end": 173.137
+  },
+  {
+    "word": "sie zeigt",
+    "start": 173.137,
+    "end": 173.668
+  },
+  {
+    "word": "dir Hidden",
+    "start": 173.668,
+    "end": 174.199
+  },
+  {
+    "word": "City",
+    "start": 174.199,
+    "end": 174.731
+  },
+  {
+    "word": "Routen.",
+    "start": 174.731,
+    "end": 175.262
+  },
+  {
+    "word": "Eine",
+    "start": 175.262,
+    "end": 175.793
+  },
+  {
+    "word": "Klage",
+    "start": 175.793,
+    "end": 176.325
+  },
+  {
+    "word": "von United",
+    "start": 176.325,
+    "end": 176.856
+  },
+  {
+    "word": "Airlines",
+    "start": 176.856,
+    "end": 177.387
+  },
+  {
+    "word": "gegen",
+    "start": 177.387,
+    "end": 177.919
+  },
+  {
+    "word": "Skiplagged",
+    "start": 177.919,
+    "end": 178.45
+  },
+  {
+    "word": "wurde",
+    "start": 178.45,
+    "end": 178.981
+  },
+  {
+    "word": "2014",
+    "start": 178.981,
+    "end": 179.513
+  },
+  {
+    "word": "abgewiesen.",
+    "start": 179.513,
+    "end": 180.044
+  },
+  {
+    "word": "Wichtig:",
+    "start": 180.044,
+    "end": 180.575
+  },
+  {
+    "word": "Nur Handgepäck,",
+    "start": 180.575,
+    "end": 181.107
+  },
+  {
+    "word": "keine",
+    "start": 181.107,
+    "end": 181.638
+  },
+  {
+    "word": "Rückflüge",
+    "start": 181.638,
+    "end": 182.169
+  },
+  {
+    "word": "auf derselben",
+    "start": 182.169,
+    "end": 182.701
+  },
+  {
+    "word": "Buchung.",
+    "start": 182.701,
+    "end": 183.232
+  },
+  {
+    "word": "Sonst",
+    "start": 183.232,
+    "end": 183.763
+  },
+  {
+    "word": "kann",
+    "start": 183.763,
+    "end": 184.295
+  },
+  {
+    "word": "dein",
+    "start": 184.295,
+    "end": 184.826
+  },
+  {
+    "word": "Ticket",
+    "start": 184.826,
+    "end": 185.357
+  },
+  {
+    "word": "annulliert",
+    "start": 185.357,
+    "end": 185.889
+  },
+  {
+    "word": "werden.",
+    "start": 185.889,
+    "end": 186.42
+  },
+  {
+    "word": "Laut",
+    "start": 186.72,
+    "end": 187.287
+  },
+  {
+    "word": "Schätzungen",
+    "start": 187.287,
+    "end": 187.854
+  },
+  {
+    "word": "von Kayak",
+    "start": 187.854,
+    "end": 188.421
+  },
+  {
+    "word": "und Skyscanner",
+    "start": 188.421,
+    "end": 188.988
+  },
+  {
+    "word": "werden",
+    "start": 188.988,
+    "end": 189.555
+  },
+  {
+    "word": "Flugpreise",
+    "start": 189.555,
+    "end": 190.122
+  },
+  {
+    "word": "zur WM",
+    "start": 190.122,
+    "end": 190.688
+  },
+  {
+    "word": "2026",
+    "start": 190.688,
+    "end": 191.255
+  },
+  {
+    "word": "im Schnitt",
+    "start": 191.255,
+    "end": 191.822
+  },
+  {
+    "word": "40 bis",
+    "start": 191.822,
+    "end": 192.389
+  },
+  {
+    "word": "80 Prozent",
+    "start": 192.389,
+    "end": 192.956
+  },
+  {
+    "word": "über",
+    "start": 192.956,
+    "end": 193.523
+  },
+  {
+    "word": "dem Normalpreis",
+    "start": 193.523,
+    "end": 194.09
+  },
+  {
+    "word": "liegen",
+    "start": 194.09,
+    "end": 194.657
+  },
+  {
+    "word": "— besonders",
+    "start": 194.657,
+    "end": 195.224
+  },
+  {
+    "word": "im Juni",
+    "start": 195.224,
+    "end": 195.791
+  },
+  {
+    "word": "und Juli.",
+    "start": 195.791,
+    "end": 196.358
+  },
+  {
+    "word": "Wer jetzt",
+    "start": 196.358,
+    "end": 196.925
+  },
+  {
+    "word": "noch",
+    "start": 196.925,
+    "end": 197.492
+  },
+  {
+    "word": "nicht",
+    "start": 197.492,
+    "end": 198.058
+  },
+  {
+    "word": "gebucht",
+    "start": 198.058,
+    "end": 198.625
+  },
+  {
+    "word": "hat, sollte",
+    "start": 198.625,
+    "end": 199.192
+  },
+  {
+    "word": "in den",
+    "start": 199.192,
+    "end": 199.759
+  },
+  {
+    "word": "nächsten",
+    "start": 199.759,
+    "end": 200.326
+  },
+  {
+    "word": "30 Tagen",
+    "start": 200.326,
+    "end": 200.893
+  },
+  {
+    "word": "handeln.",
+    "start": 200.893,
+    "end": 201.46
+  },
+  {
+    "word": "Meine",
+    "start": 201.76,
+    "end": 202.421
+  },
+  {
+    "word": "600 Euro",
+    "start": 202.421,
+    "end": 203.082
+  },
+  {
+    "word": "setzen",
+    "start": 203.082,
+    "end": 203.743
+  },
+  {
+    "word": "sich",
+    "start": 203.743,
+    "end": 204.405
+  },
+  {
+    "word": "so zusammen:",
+    "start": 204.405,
+    "end": 205.066
+  },
+  {
+    "word": "214 Euro",
+    "start": 205.066,
+    "end": 205.727
+  },
+  {
+    "word": "durch",
+    "start": 205.727,
+    "end": 206.388
+  },
+  {
+    "word": "den Preisalarm,",
+    "start": 206.388,
+    "end": 207.049
+  },
+  {
+    "word": "183 Euro",
+    "start": 207.049,
+    "end": 207.71
+  },
+  {
+    "word": "durch",
+    "start": 207.71,
+    "end": 208.372
+  },
+  {
+    "word": "den Kalender-Trick",
+    "start": 208.372,
+    "end": 209.033
+  },
+  {
+    "word": "mit flexiblem",
+    "start": 209.033,
+    "end": 209.694
+  },
+  {
+    "word": "Datum,",
+    "start": 209.694,
+    "end": 210.355
+  },
+  {
+    "word": "und weitere",
+    "start": 210.355,
+    "end": 211.016
+  },
+  {
+    "word": "203 Euro",
+    "start": 211.016,
+    "end": 211.677
+  },
+  {
+    "word": "durch",
+    "start": 211.677,
+    "end": 212.338
+  },
+  {
+    "word": "einen",
+    "start": 212.338,
+    "end": 213.0
+  },
+  {
+    "word": "alternativen",
+    "start": 213.0,
+    "end": 213.661
+  },
+  {
+    "word": "Abflughafen.",
+    "start": 213.661,
+    "end": 214.322
+  },
+  {
+    "word": "Kein",
+    "start": 214.322,
+    "end": 214.983
+  },
+  {
+    "word": "Einzeltrick",
+    "start": 214.983,
+    "end": 215.644
+  },
+  {
+    "word": "hat alles",
+    "start": 215.644,
+    "end": 216.305
+  },
+  {
+    "word": "gebracht",
+    "start": 216.305,
+    "end": 216.967
+  },
+  {
+    "word": "— es",
+    "start": 216.967,
+    "end": 217.628
+  },
+  {
+    "word": "war die",
+    "start": 217.628,
+    "end": 218.289
+  },
+  {
+    "word": "Kombination.",
+    "start": 218.289,
+    "end": 218.95
+  },
+  {
+    "word": "Falls",
+    "start": 219.25,
+    "end": 219.883
+  },
+  {
+    "word": "du Kreditkarten-Meilen",
+    "start": 219.883,
+    "end": 220.517
+  },
+  {
+    "word": "hast",
+    "start": 220.517,
+    "end": 221.15
+  },
+  {
+    "word": "— jetzt",
+    "start": 221.15,
+    "end": 221.783
+  },
+  {
+    "word": "ist der",
+    "start": 221.783,
+    "end": 222.417
+  },
+  {
+    "word": "perfekte",
+    "start": 222.417,
+    "end": 223.05
+  },
+  {
+    "word": "Moment.",
+    "start": 223.05,
+    "end": 223.683
+  },
+  {
+    "word": "Viele",
+    "start": 223.683,
+    "end": 224.317
+  },
+  {
+    "word": "Programme",
+    "start": 224.317,
+    "end": 224.95
+  },
+  {
+    "word": "erlauben",
+    "start": 224.95,
+    "end": 225.583
+  },
+  {
+    "word": "Upgrades",
+    "start": 225.583,
+    "end": 226.217
+  },
+  {
+    "word": "oder",
+    "start": 226.217,
+    "end": 226.85
+  },
+  {
+    "word": "Teilzahlungen",
+    "start": 226.85,
+    "end": 227.483
+  },
+  {
+    "word": "mit Punkten.",
+    "start": 227.483,
+    "end": 228.117
+  },
+  {
+    "word": "Miles",
+    "start": 228.117,
+    "end": 228.75
+  },
+  {
+    "word": "& More",
+    "start": 228.75,
+    "end": 229.383
+  },
+  {
+    "word": "beispielsweise",
+    "start": 229.383,
+    "end": 230.017
+  },
+  {
+    "word": "hat spezielle",
+    "start": 230.017,
+    "end": 230.65
+  },
+  {
+    "word": "WM-Bonusaktionen",
+    "start": 230.65,
+    "end": 231.283
+  },
+  {
+    "word": "angekündigt.",
+    "start": 231.283,
+    "end": 231.917
+  },
+  {
+    "word": "Check",
+    "start": 231.917,
+    "end": 232.55
+  },
+  {
+    "word": "das unbedingt,",
+    "start": 232.55,
+    "end": 233.183
+  },
+  {
+    "word": "bevor",
+    "start": 233.183,
+    "end": 233.817
+  },
+  {
+    "word": "du buchst.",
+    "start": 233.817,
+    "end": 234.45
+  },
+  {
+    "word": "Hier",
+    "start": 234.75,
+    "end": 235.456
+  },
+  {
+    "word": "ist dein",
+    "start": 235.456,
+    "end": 236.162
+  },
+  {
+    "word": "Plan:",
+    "start": 236.162,
+    "end": 236.868
+  },
+  {
+    "word": "Erstens,",
+    "start": 236.868,
+    "end": 237.574
+  },
+  {
+    "word": "Google",
+    "start": 237.574,
+    "end": 238.28
+  },
+  {
+    "word": "Flights",
+    "start": 238.28,
+    "end": 238.986
+  },
+  {
+    "word": "Preisalarm",
+    "start": 238.986,
+    "end": 239.692
+  },
+  {
+    "word": "jetzt",
+    "start": 239.692,
+    "end": 240.398
+  },
+  {
+    "word": "aktivieren.",
+    "start": 240.398,
+    "end": 241.103
+  },
+  {
+    "word": "Zweitens,",
+    "start": 241.103,
+    "end": 241.809
+  },
+  {
+    "word": "Kalenderansicht",
+    "start": 241.809,
+    "end": 242.515
+  },
+  {
+    "word": "für flexible",
+    "start": 242.515,
+    "end": 243.221
+  },
+  {
+    "word": "Daten",
+    "start": 243.221,
+    "end": 243.927
+  },
+  {
+    "word": "checken.",
+    "start": 243.927,
+    "end": 244.633
+  },
+  {
+    "word": "Drittens,",
+    "start": 244.633,
+    "end": 245.339
+  },
+  {
+    "word": "Skiplagged",
+    "start": 245.339,
+    "end": 246.045
+  },
+  {
+    "word": "für Hidden",
+    "start": 246.045,
+    "end": 246.751
+  },
+  {
+    "word": "City",
+    "start": 246.751,
+    "end": 247.457
+  },
+  {
+    "word": "Routen",
+    "start": 247.457,
+    "end": 248.163
+  },
+  {
+    "word": "prüfen.",
+    "start": 248.163,
+    "end": 248.869
+  },
+  {
+    "word": "Viertens,",
+    "start": 248.869,
+    "end": 249.575
+  },
+  {
+    "word": "Meilen",
+    "start": 249.575,
+    "end": 250.281
+  },
+  {
+    "word": "checken.",
+    "start": 250.281,
+    "end": 250.987
+  },
+  {
+    "word": "Fünftens,",
+    "start": 250.987,
+    "end": 251.693
+  },
+  {
+    "word": "in den",
+    "start": 251.693,
+    "end": 252.398
+  },
+  {
+    "word": "nächsten",
+    "start": 252.398,
+    "end": 253.104
+  },
+  {
+    "word": "30 Tagen",
+    "start": 253.104,
+    "end": 253.81
+  },
+  {
+    "word": "buchen",
+    "start": 253.81,
+    "end": 254.516
+  },
+  {
+    "word": "— bevor",
+    "start": 254.516,
+    "end": 255.222
+  },
+  {
+    "word": "die Preise",
+    "start": 255.222,
+    "end": 255.928
+  },
+  {
+    "word": "nochmal",
+    "start": 255.928,
+    "end": 256.634
+  },
+  {
+    "word": "steigen.",
+    "start": 256.634,
+    "end": 257.34
+  },
+  {
+    "word": "Airlines",
+    "start": 257.64,
+    "end": 258.167
+  },
+  {
+    "word": "verdienen",
+    "start": 258.167,
+    "end": 258.693
+  },
+  {
+    "word": "Milliarden",
+    "start": 258.693,
+    "end": 259.22
+  },
+  {
+    "word": "daran,",
+    "start": 259.22,
+    "end": 259.746
+  },
+  {
+    "word": "dass",
+    "start": 259.746,
+    "end": 260.273
+  },
+  {
+    "word": "Passagiere",
+    "start": 260.273,
+    "end": 260.799
+  },
+  {
+    "word": "keine",
+    "start": 260.799,
+    "end": 261.326
+  },
+  {
+    "word": "Transparenz",
+    "start": 261.326,
+    "end": 261.852
+  },
+  {
+    "word": "haben.",
+    "start": 261.852,
+    "end": 262.379
+  },
+  {
+    "word": "Jetzt",
+    "start": 262.379,
+    "end": 262.906
+  },
+  {
+    "word": "weißt",
+    "start": 262.906,
+    "end": 263.432
+  },
+  {
+    "word": "du, wie",
+    "start": 263.432,
+    "end": 263.959
+  },
+  {
+    "word": "das System",
+    "start": 263.959,
+    "end": 264.485
+  },
+  {
+    "word": "wirklich",
+    "start": 264.485,
+    "end": 265.012
+  },
+  {
+    "word": "funktioniert.",
+    "start": 265.012,
+    "end": 265.538
+  },
+  {
+    "word": "600 Euro",
+    "start": 265.538,
+    "end": 266.065
+  },
+  {
+    "word": "Ersparnis",
+    "start": 266.065,
+    "end": 266.591
+  },
+  {
+    "word": "sind",
+    "start": 266.591,
+    "end": 267.118
+  },
+  {
+    "word": "kein",
+    "start": 267.118,
+    "end": 267.644
+  },
+  {
+    "word": "Glück",
+    "start": 267.644,
+    "end": 268.171
+  },
+  {
+    "word": "— sie",
+    "start": 268.171,
+    "end": 268.698
+  },
+  {
+    "word": "sind",
+    "start": 268.698,
+    "end": 269.224
+  },
+  {
+    "word": "das Ergebnis",
+    "start": 269.224,
+    "end": 269.751
+  },
+  {
+    "word": "von System.",
+    "start": 269.751,
+    "end": 270.277
+  },
+  {
+    "word": "Nutze",
+    "start": 270.277,
+    "end": 270.804
+  },
+  {
+    "word": "es, bevor",
+    "start": 270.804,
+    "end": 271.33
+  },
+  {
+    "word": "alle",
+    "start": 271.33,
+    "end": 271.857
+  },
+  {
+    "word": "anderen",
+    "start": 271.857,
+    "end": 272.383
+  },
+  {
+    "word": "es tun.",
+    "start": 272.383,
+    "end": 272.91
+  }
+]
