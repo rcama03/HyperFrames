@@ -244,7 +244,7 @@ sw_labels = "".join(f"[sw{i}]" for i in range(n_cards))
 n_mix     = 3 + n_cards
 af.append(
     f"[voice_out][bg_ducked][src_audio]{sw_labels}"
-    f"amix=inputs={n_mix}:duration=first:weights=1 1 0.7"
+    f"amix=inputs={n_mix}:normalize=0:duration=first:weights=1 1 0.7"
     + " 0.8" * n_cards
     + "[audio_out]"
 )
