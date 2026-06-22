@@ -34,7 +34,7 @@ BAR_COLOR   = "0xFFB300"
 W, H        = 1280, 720
 FPS         = 25
 TOTAL_FRAMES = DURATION * FPS
-CRF         = 25
+CRF         = 24
 
 ZOOM_TIMES  = [0.0, 101.0, 187.0, 284.0, 380.0, 469.0, 558.0]
 
@@ -109,7 +109,7 @@ def _srt_ts(ts):
     return int(h)*3600 + int(m)*60 + float(s)
 
 def main():
-    SRT_SRC = '/root/.claude/uploads/bf195af2-7fab-5825-a36f-49fc2b3be335/ddc6079f-captions.srt'
+    SRT_SRC = '/root/.claude/uploads/bf195af2-7fab-5825-a36f-49fc2b3be335/fe0c2cf7-captions.srt'
     raw_words = srt_to_words(SRT_SRC)
 
     srt_end = raw_words[-1]['end']
