@@ -75,7 +75,38 @@ print(f"Voice  : {Path(VOICE_MP3).name}  {VOICE_DUR:.1f}s")
 print(f"Output : {DURATION:.1f}s  ({WIDTH}x{HEIGHT}, CRF 18)")
 
 # ── Captions ──────────────────────────────────────────────────────────────────
-from hf_style import build_ass
+from hf_style import build_ass, ASS_HEADER_TEMPLATE, ts_ass
+
+MOBILE_ASS_STYLES = """\
+Style: Default,Montserrat,42,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,30,30,55,1
+Style: Highlight,Montserrat,42,&H0000D7FF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,30,30,55,1"""
+
+def build_ass_mobile(words, width=1280, height=720, words_per_line=3):
+    header = ASS_HEADER_TEMPLATE.format(width=width, height=height, styles=MOBILE_ASS_STYLES)
+    events = []
+    for i in range(0, len(words), words_per_line):
+        line = words[i : i + words_per_line]
+        for wi, word in enumerate(line):
+            before = " ".join(w["word"].upper() for w in line[:wi])
+            cur    = word["word"].upper()
+            after  = " ".join(w["word"].upper() for w in line[wi + 1:])
+            parts = []
+            if before:
+                parts.append(r"{\c&H00FFFFFF&\alpha&H33&}" + before + " ")
+            parts.append(r"{\c&H0000D7FF&\alpha&H00&}" + cur)
+            if after:
+                parts.append(r"{\c&H00FFFFFF&\alpha&H33&}" + " " + after)
+            text = r"{\bord1\shad0}" + "".join(parts)
+            w_start = word["start"]
+            if wi < len(line) - 1:
+                w_end = line[wi + 1]["start"]
+            else:
+                w_end = word["end"]
+            events.append(
+                f"Dialogue: 0,{ts_ass(w_start)},{ts_ass(w_end)}"
+                f",Default,,0,0,0,,{text}"
+            )
+    return header + "\n".join(events) + "\n"
 
 raw_timings = json.loads(WORDS_JSON.read_text(encoding="utf-8"))
 if isinstance(raw_timings, dict) and "entries" in raw_timings:
@@ -95,7 +126,7 @@ if abs(timing_end - VOICE_DUR) > 0.5:
 
 words = [w for w in words if w["start"] < DURATION]
 
-ass_content = build_ass(words, width=WIDTH, height=HEIGHT, words_per_line=3)
+ass_content = build_ass_mobile(words, width=WIDTH, height=HEIGHT, words_per_line=4)
 ass_path = HERE / "output" / "captions.ass"
 ass_path.write_text(ass_content, encoding="utf-8")
 print(f"Captions: {len(words)} words -> {ass_path.name}")
