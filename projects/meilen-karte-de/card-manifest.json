@@ -1,0 +1,136 @@
+{
+  "cards": [
+    {
+      "id": "chap-upgrade",
+      "path": "card-frames/chap-upgrade.png",
+      "inTime": 0.5,
+      "outTime": 4
+    },
+    {
+      "id": "chap-zahlen",
+      "path": "card-frames/chap-zahlen.png",
+      "inTime": 63.3,
+      "outTime": 67
+    },
+    {
+      "id": "chap-wm2026",
+      "path": "card-frames/chap-wm2026.png",
+      "inTime": 117.9,
+      "outTime": 121.5
+    },
+    {
+      "id": "chap-alternative",
+      "path": "card-frames/chap-alternative.png",
+      "inTime": 176.6,
+      "outTime": 180.5
+    },
+    {
+      "id": "stat-4bis6",
+      "path": "card-frames/stat-4bis6.png",
+      "inTime": 23.9,
+      "outTime": 29
+    },
+    {
+      "id": "stat-3monate",
+      "path": "card-frames/stat-3monate.png",
+      "inTime": 30.2,
+      "outTime": 35
+    },
+    {
+      "id": "stat-3punkte",
+      "path": "card-frames/stat-3punkte.png",
+      "inTime": 41.9,
+      "outTime": 47
+    },
+    {
+      "id": "stat-60k",
+      "path": "card-frames/stat-60k.png",
+      "inTime": 66.9,
+      "outTime": 73
+    },
+    {
+      "id": "stat-75k",
+      "path": "card-frames/stat-75k.png",
+      "inTime": 79.1,
+      "outTime": 84
+    },
+    {
+      "id": "stat-5800",
+      "path": "card-frames/stat-5800.png",
+      "inTime": 143.2,
+      "outTime": 149
+    },
+    {
+      "id": "stat-87k",
+      "path": "card-frames/stat-87k.png",
+      "inTime": 146.1,
+      "outTime": 153
+    },
+    {
+      "id": "key-kreditkarte",
+      "path": "card-frames/key-kreditkarte.png",
+      "inTime": 10.4,
+      "outTime": 17
+    },
+    {
+      "id": "key-smarter",
+      "path": "card-frames/key-smarter.png",
+      "inTime": 83.8,
+      "outTime": 91
+    },
+    {
+      "id": "key-transfer",
+      "path": "card-frames/key-transfer.png",
+      "inTime": 107.5,
+      "outTime": 114
+    },
+    {
+      "id": "key-plan",
+      "path": "card-frames/key-plan.png",
+      "inTime": 213.2,
+      "outTime": 221
+    },
+    {
+      "id": "alert-award",
+      "path": "card-frames/alert-award.png",
+      "inTime": 130.6,
+      "outTime": 137.5
+    },
+    {
+      "id": "alert-verfall",
+      "path": "card-frames/alert-verfall.png",
+      "inTime": 196.8,
+      "outTime": 203
+    },
+    {
+      "id": "def-meilen",
+      "path": "card-frames/def-meilen.png",
+      "inTime": 33,
+      "outTime": 40
+    },
+    {
+      "id": "src-amex",
+      "path": "card-frames/src-amex.png",
+      "inTime": 70.5,
+      "outTime": 76
+    },
+    {
+      "id": "src-lufthansa",
+      "path": "card-frames/src-lufthansa.png",
+      "inTime": 141,
+      "outTime": 146
+    },
+    {
+      "id": "src-miles",
+      "path": "card-frames/src-miles.png",
+      "inTime": 182,
+      "outTime": 187
+    },
+    {
+      "id": "quote-system",
+      "path": "card-frames/quote-system.png",
+      "inTime": 231.9,
+      "outTime": 240
+    }
+  ]
+}
