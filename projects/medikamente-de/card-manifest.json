@@ -1,0 +1,190 @@
+{
+  "cards": [
+    {
+      "id": "chap-hook",
+      "path": "card-frames/chap-hook.png",
+      "inTime": 0.5,
+      "outTime": 4
+    },
+    {
+      "id": "chap-benzo",
+      "path": "card-frames/chap-benzo.png",
+      "inTime": 92,
+      "outTime": 96
+    },
+    {
+      "id": "chap-adhs",
+      "path": "card-frames/chap-adhs.png",
+      "inTime": 115,
+      "outTime": 119
+    },
+    {
+      "id": "chap-opioide",
+      "path": "card-frames/chap-opioide.png",
+      "inTime": 135,
+      "outTime": 139
+    },
+    {
+      "id": "chap-attest",
+      "path": "card-frames/chap-attest.png",
+      "inTime": 208,
+      "outTime": 212
+    },
+    {
+      "id": "chap-original",
+      "path": "card-frames/chap-original.png",
+      "inTime": 254,
+      "outTime": 258
+    },
+    {
+      "id": "chap-menge",
+      "path": "card-frames/chap-menge.png",
+      "inTime": 273,
+      "outTime": 277
+    },
+    {
+      "id": "chap-fluessig",
+      "path": "card-frames/chap-fluessig.png",
+      "inTime": 295,
+      "outTime": 299
+    },
+    {
+      "id": "chap-fazit",
+      "path": "card-frames/chap-fazit.png",
+      "inTime": 314,
+      "outTime": 318
+    },
+    {
+      "id": "stat-festnahme",
+      "path": "card-frames/stat-festnahme.png",
+      "inTime": 7.5,
+      "outTime": 13
+    },
+    {
+      "id": "stat-16staedte",
+      "path": "card-frames/stat-16staedte.png",
+      "inTime": 55,
+      "outTime": 61
+    },
+    {
+      "id": "stat-schedule4",
+      "path": "card-frames/stat-schedule4.png",
+      "inTime": 100,
+      "outTime": 107
+    },
+    {
+      "id": "stat-schedule2",
+      "path": "card-frames/stat-schedule2.png",
+      "inTime": 120,
+      "outTime": 127
+    },
+    {
+      "id": "stat-60k",
+      "path": "card-frames/stat-60k.png",
+      "inTime": 160,
+      "outTime": 167
+    },
+    {
+      "id": "stat-90tage",
+      "path": "card-frames/stat-90tage.png",
+      "inTime": 280,
+      "outTime": 287
+    },
+    {
+      "id": "stat-5mio",
+      "path": "card-frames/stat-5mio.png",
+      "inTime": 470,
+      "outTime": 477
+    },
+    {
+      "id": "key-grundregel",
+      "path": "card-frames/key-grundregel.png",
+      "inTime": 35,
+      "outTime": 42
+    },
+    {
+      "id": "key-dea",
+      "path": "card-frames/key-dea.png",
+      "inTime": 72,
+      "outTime": 79
+    },
+    {
+      "id": "key-attest",
+      "path": "card-frames/key-attest.png",
+      "inTime": 215,
+      "outTime": 223
+    },
+    {
+      "id": "key-verpackung",
+      "path": "card-frames/key-verpackung.png",
+      "inTime": 258,
+      "outTime": 266
+    },
+    {
+      "id": "key-verhalten",
+      "path": "card-frames/key-verhalten.png",
+      "inTime": 350,
+      "outTime": 358
+    },
+    {
+      "id": "alert-cannabis",
+      "path": "card-frames/alert-cannabis.png",
+      "inTime": 390,
+      "outTime": 398
+    },
+    {
+      "id": "alert-strafe",
+      "path": "card-frames/alert-strafe.png",
+      "inTime": 410,
+      "outTime": 418
+    },
+    {
+      "id": "alert-post",
+      "path": "card-frames/alert-post.png",
+      "inTime": 430,
+      "outTime": 438
+    },
+    {
+      "id": "def-controlled",
+      "path": "card-frames/def-controlled.png",
+      "inTime": 45,
+      "outTime": 53
+    },
+    {
+      "id": "def-enforcement",
+      "path": "card-frames/def-enforcement.png",
+      "inTime": 330,
+      "outTime": 338
+    },
+    {
+      "id": "src-cbp",
+      "path": "card-frames/src-cbp.png",
+      "inTime": 63,
+      "outTime": 68
+    },
+    {
+      "id": "src-dea",
+      "path": "card-frames/src-dea.png",
+      "inTime": 78,
+      "outTime": 83
+    },
+    {
+      "id": "src-fda",
+      "path": "card-frames/src-fda.png",
+      "inTime": 500,
+      "outTime": 506
+    },
+    {
+      "id": "quote-fazit",
+      "path": "card-frames/quote-fazit.png",
+      "inTime": 555,
+      "outTime": 564
+    },
+    {
+      "id": "checklist-abflug",
+      "path": "card-frames/checklist-abflug.png",
+      "inTime": 510,
+      "outTime": 520
+    }
+  ]
+}
