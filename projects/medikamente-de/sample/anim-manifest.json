@@ -1,0 +1,30 @@
+{
+  "fps": 25,
+  "elements": [
+    {
+      "id": "intro",
+      "frames": 75,
+      "duration": 3
+    },
+    {
+      "id": "chapter",
+      "frames": 75,
+      "duration": 3
+    },
+    {
+      "id": "stat",
+      "frames": 100,
+      "duration": 4
+    },
+    {
+      "id": "alert",
+      "frames": 75,
+      "duration": 3
+    },
+    {
+      "id": "outro",
+      "frames": 113,
+      "duration": 4.5
+    }
+  ]
+}
