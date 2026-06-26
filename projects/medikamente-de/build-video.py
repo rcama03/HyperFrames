@@ -5,7 +5,8 @@ Assembles the medikamente-de video using FFmpeg.
 Features:
   - Source video with original transition audio preserved
   - Word-level gold-highlight captions (ASS) — mobile-first
-  - Motion graphics cards + chapter marker cards
+  - ANIMATED motion graphics cards (slide-in, scale-pop, count-up)
+  - Animated intro title + outro end-card (subscribe)
   - Swoosh SFX on every card appearance
   - Background music with auto-ducking
   - Zoom punch-ins on chapter cards (1.1x snap)
@@ -25,10 +26,11 @@ sys.path.insert(0, str(SHARED))
 SRC_VIDEO  = sys.argv[1] if len(sys.argv) > 1 else str(HERE / "source-video.mp4")
 VOICE_MP3  = sys.argv[2] if len(sys.argv) > 2 else str(HERE / "full_voiceover.mp3")
 OUT_VIDEO  = str(HERE / "output" / (Path(SRC_VIDEO).stem + "-final.mp4"))
-MANIFEST   = HERE / "card-manifest.json"
+ANIM_MAN   = HERE / "anim-manifest.json"
 WORDS_JSON = HERE / "timings.json"
 SWOOSH     = HERE / "swoosh.mp3"
 MUSIC      = SHARED / "music" / "sleep-music-chris-haugen.mp3"
+ANIM_DIR   = HERE / "anim"
 
 MUSIC_VOL  = 0.19
 SWOOSH_VOL = 0.35
@@ -42,15 +44,18 @@ SHAKE_DUR   = 0.7
 BAR_H       = 8
 BAR_COLOR   = "0xFFB300"
 
-# Chapter starts — zoom punch-ins
 ZOOM_TIMES  = [0.5, 92.0, 115.0, 135.0, 208.0, 254.0, 273.0, 295.0, 314.0]
-# Dramatic stat moments — screen shake
 SHAKE_TIMES = [7.5, 120.0, 160.0, 410.0, 470.0]
+
+# Intro/outro timing
+INTRO_START = 0.0
+INTRO_DUR   = 3.0
+OUTRO_DUR   = 4.5   # placed at end of video
 
 Path(OUT_VIDEO).parent.mkdir(parents=True, exist_ok=True)
 
 for label, path in [("Source video", SRC_VIDEO), ("Voiceover", VOICE_MP3),
-                    ("Music", MUSIC), ("Swoosh", SWOOSH), ("Manifest", MANIFEST)]:
+                    ("Music", MUSIC), ("Swoosh", SWOOSH), ("Anim manifest", ANIM_MAN)]:
     if not Path(path).exists():
         print(f"ERROR: {label} not found: {path}")
         sys.exit(1)
@@ -133,27 +138,53 @@ ass_path = HERE / "output" / "captions.ass"
 ass_path.write_text(ass_content, encoding="utf-8")
 print(f"Captions: {len(words)} words -> {ass_path.name}")
 
-# ── Cards ─────────────────────────────────────────────────────────────────────
-manifest = json.loads(MANIFEST.read_text())
-cards    = manifest["cards"]
+# ── Assemble animated card frames into transparent .mov (qtrle) ──────────────
+man = json.loads(ANIM_MAN.read_text())
+movs = {}
+for el in man["elements"]:
+    eid = el["id"]
+    mov = ANIM_DIR / f"{eid}.mov"
+    cmd = ["ffmpeg", "-y", "-framerate", str(FPS),
+           "-i", str(ANIM_DIR / eid / "f_%04d.png"),
+           "-c:v", "qtrle", "-pix_fmt", "argb", str(mov)]
+    r = subprocess.run(cmd, capture_output=True, text=True)
+    if r.returncode != 0:
+        print(f"mov assemble failed for {eid}:\n", r.stderr[-1500:]); sys.exit(1)
+    movs[eid] = el
+    print(f"  ✓ {eid}.mov ({el['duration']}s)")
 
+# Separate card elements from special elements (intro/outro)
+card_elements = [e for e in man["elements"] if "inTime" in e]
+special_elements = [e for e in man["elements"] if "inTime" not in e]
+
+# Apply time scaling to card elements if needed
 if abs(timing_end - VOICE_DUR) > 0.5:
-    scale = VOICE_DUR / timing_end
-    for c in cards:
-        c["inTime"]  = round(c["inTime"]  * scale, 3)
-        c["outTime"] = round(c["outTime"] * scale, 3)
+    ts = VOICE_DUR / timing_end
+    for c in card_elements:
+        c["inTime"]  = round(c["inTime"]  * ts, 3)
+        c["outTime"] = round(c["outTime"] * ts, 3)
 
-for c in cards:
-    p = Path(c["path"])
-    if not p.is_absolute():
-        c["path"] = str(HERE / p)
-n_cards = len(cards)
+n_cards = len(card_elements)
+
+# Outro starts near end of voice
+OUTRO_START = DURATION - OUTRO_DUR - 0.5
 
 # ── Inputs ────────────────────────────────────────────────────────────────────
 inputs = ["-i", SRC_VIDEO, "-i", VOICE_MP3]
-for c in cards:
-    inputs += ["-i", c["path"]]
-music_idx  = 2 + n_cards
+
+# Card animated movs (with itsoffset for each card's start time)
+for c in card_elements:
+    inputs += ["-itsoffset", f"{c['inTime']}", "-i", str(ANIM_DIR / f"{c['id']}.mov")]
+
+# Intro mov
+intro_idx = 2 + n_cards
+inputs += ["-itsoffset", f"{INTRO_START}", "-i", str(ANIM_DIR / "intro.mov")]
+
+# Outro mov
+outro_idx = intro_idx + 1
+inputs += ["-itsoffset", f"{OUTRO_START}", "-i", str(ANIM_DIR / "outro.mov")]
+
+music_idx  = outro_idx + 1
 swoosh_idx = music_idx + 1
 bar_idx    = swoosh_idx + 1
 inputs += ["-i", str(MUSIC), "-i", str(SWOOSH),
@@ -171,15 +202,32 @@ if VIDEO_DUR < DURATION:
 vf.append(f"{current}ass={ass_path}[v_caps]")
 current = "[v_caps]"
 
-for idx, card in enumerate(cards):
-    card_stream = idx + 2
-    out_label   = f"[v{idx}]"
+# Overlay intro
+intro_end = INTRO_START + INTRO_DUR
+vf.append(
+    f"{current}[{intro_idx}:v]overlay=0:0:"
+    f"enable='between(t,{INTRO_START},{intro_end})':format=auto:eof_action=pass[v_intro]"
+)
+current = "[v_intro]"
+
+# Overlay all animated card movs
+for idx_i, card in enumerate(card_elements):
+    stream = idx_i + 2
+    out_label = f"[v_c{idx_i}]"
     vf.append(
-        f"{current}[{card_stream}:v]overlay=0:0:"
+        f"{current}[{stream}:v]overlay=0:0:"
         f"enable='between(t,{card['inTime']},{card['outTime']})':"
-        f"format=auto{out_label}"
+        f"format=auto:eof_action=pass{out_label}"
     )
     current = out_label
+
+# Overlay outro
+outro_end = OUTRO_START + OUTRO_DUR
+vf.append(
+    f"{current}[{outro_idx}:v]overlay=0:0:"
+    f"enable='between(t,{OUTRO_START},{outro_end})':format=auto:eof_action=pass[v_outro]"
+)
+current = "[v_outro]"
 
 fade_out_start = DURATION - 1.5
 vf.append(f"{current}fade=t=out:st={fade_out_start:.3f}:d=1.5[v_base]")
@@ -259,24 +307,28 @@ af.append(
     "threshold=0.015:ratio=4:attack=200:release=1200:makeup=1[bg_ducked]"
 )
 
+# Swoosh for each card + intro + outro
+swoosh_times = [c["inTime"] for c in card_elements] + [INTRO_START, OUTRO_START]
+n_swoosh = len(swoosh_times)
+
 af.append(
-    f"[{swoosh_idx}:a]asplit={n_cards}"
-    + "".join(f"[sw_raw{i}]" for i in range(n_cards))
+    f"[{swoosh_idx}:a]asplit={n_swoosh}"
+    + "".join(f"[sw_raw{i}]" for i in range(n_swoosh))
 )
-for i, card in enumerate(cards):
-    delay_ms = int(card["inTime"] * 1000)
+for i, t in enumerate(swoosh_times):
+    delay_ms = int(t * 1000)
     af.append(
         f"[sw_raw{i}]atrim=start=0.033:duration=0.95,"
         f"adelay={delay_ms}|{delay_ms},"
         f"volume={SWOOSH_VOL}[sw{i}]"
     )
 
-sw_labels = "".join(f"[sw{i}]" for i in range(n_cards))
-n_mix     = 3 + n_cards
+sw_labels = "".join(f"[sw{i}]" for i in range(n_swoosh))
+n_mix     = 3 + n_swoosh
 af.append(
     f"[voice_out][bg_ducked][src_audio]{sw_labels}"
     f"amix=inputs={n_mix}:normalize=0:duration=first:weights=1 1 0.7"
-    + " 0.8" * n_cards
+    + " 0.8" * n_swoosh
     + "[audio_out]"
 )
 
