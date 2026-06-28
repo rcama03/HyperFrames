@@ -1,0 +1,190 @@
+{
+  "fps": 25,
+  "elements": [
+    {
+      "id": "chap-deal",
+      "frames": 100,
+      "duration": 4,
+      "inTime": 0.5,
+      "outTime": 4.5
+    },
+    {
+      "id": "chap-fenster",
+      "frames": 113,
+      "duration": 4.5,
+      "inTime": 54,
+      "outTime": 58.5
+    },
+    {
+      "id": "chap-wochentag",
+      "frames": 113,
+      "duration": 4.5,
+      "inTime": 110,
+      "outTime": 114.5
+    },
+    {
+      "id": "chap-flex",
+      "frames": 113,
+      "duration": 4.5,
+      "inTime": 166,
+      "outTime": 170.5
+    },
+    {
+      "id": "stat-vergleich",
+      "frames": 125,
+      "duration": 5,
+      "inTime": 12,
+      "outTime": 18
+    },
+    {
+      "id": "stat-340",
+      "frames": 125,
+      "duration": 5,
+      "inTime": 31,
+      "outTime": 37
+    },
+    {
+      "id": "stat-dreifach",
+      "frames": 125,
+      "duration": 5,
+      "inTime": 51,
+      "outTime": 56
+    },
+    {
+      "id": "stat-fenster",
+      "frames": 125,
+      "duration": 5,
+      "inTime": 60.5,
+      "outTime": 67
+    },
+    {
+      "id": "stat-kiwi",
+      "frames": 125,
+      "duration": 5,
+      "inTime": 89,
+      "outTime": 95
+    },
+    {
+      "id": "stat-umweg",
+      "frames": 125,
+      "duration": 5,
+      "inTime": 103,
+      "outTime": 109
+    },
+    {
+      "id": "stat-wochentag",
+      "frames": 125,
+      "duration": 5,
+      "inTime": 116.5,
+      "outTime": 122.5
+    },
+    {
+      "id": "stat-meilen",
+      "frames": 125,
+      "duration": 5,
+      "inTime": 132,
+      "outTime": 138
+    },
+    {
+      "id": "stat-direkt",
+      "frames": 125,
+      "duration": 5,
+      "inTime": 192.5,
+      "outTime": 198
+    },
+    {
+      "id": "stat-final",
+      "frames": 125,
+      "duration": 5,
+      "inTime": 221,
+      "outTime": 227.5
+    },
+    {
+      "id": "key-trick",
+      "frames": 100,
+      "duration": 4,
+      "inTime": 15,
+      "outTime": 19
+    },
+    {
+      "id": "key-jetzt",
+      "frames": 125,
+      "duration": 5,
+      "inTime": 48,
+      "outTime": 53
+    },
+    {
+      "id": "key-tools",
+      "frames": 125,
+      "duration": 5,
+      "inTime": 78,
+      "outTime": 85
+    },
+    {
+      "id": "key-preisalarm",
+      "frames": 125,
+      "duration": 5,
+      "inTime": 149,
+      "outTime": 156
+    },
+    {
+      "id": "alert-auto",
+      "frames": 125,
+      "duration": 5,
+      "inTime": 22,
+      "outTime": 28
+    },
+    {
+      "id": "alert-direkt",
+      "frames": 125,
+      "duration": 5,
+      "inTime": 186,
+      "outTime": 192
+    },
+    {
+      "id": "def-fenster",
+      "frames": 125,
+      "duration": 5,
+      "inTime": 63,
+      "outTime": 70
+    },
+    {
+      "id": "src-google",
+      "frames": 125,
+      "duration": 5,
+      "inTime": 56.5,
+      "outTime": 62
+    },
+    {
+      "id": "src-iata",
+      "frames": 125,
+      "duration": 5,
+      "inTime": 177,
+      "outTime": 182.5
+    },
+    {
+      "id": "quote-flex",
+      "frames": 88,
+      "duration": 3.5,
+      "inTime": 182.5,
+      "outTime": 186
+    },
+    {
+      "id": "checklist-formel",
+      "frames": 125,
+      "duration": 5,
+      "inTime": 207,
+      "outTime": 215
+    },
+    {
+      "id": "intro",
+      "frames": 75,
+      "duration": 3
+    },
+    {
+      "id": "outro",
+      "frames": 113,
+      "duration": 4.5
+    }
+  ]
+}
