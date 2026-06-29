@@ -310,9 +310,6 @@ const specialElements = [
         <div style="transform:scale(${pulse});background:#FF0000;color:#fff;font-size:24px;
           font-weight:800;padding:14px 38px;border-radius:40px;letter-spacing:1px;
           box-shadow:0 8px 30px rgba(255,0,0,.5)">▶ ABONNIEREN</div>
-        <div style="font-size:16px;font-weight:700;color:#fff;background:rgba(0,0,0,.5);
-          padding:9px 20px;border-radius:10px;border:1px solid rgba(255,255,255,.2)">
-          ⬇ Download: github.com/rcama03/HyperFrames</div>
       </div>`;
     },
   },
